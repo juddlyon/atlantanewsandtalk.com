@@ -1,0 +1,185 @@
+---
+import NeighborhoodTag from './NeighborhoodTag.astro';
+import { getAllNeighborhoods, getNeighborhoodData, getAllStories, slugify } from '../lib/helpers';
+
+const neighborhoods = getAllNeighborhoods();
+const neighborhoodData = getNeighborhoodData();
+const allStories = getAllStories();
+
+// Get top 5 neighborhoods by story count
+const topNeighborhoods = Object.entries(neighborhoodData)
+  .sort((a, b) => b[1].storyCount - a[1].storyCount)
+  .slice(0, 12);
+
+// Get trending stories (first story from each section, up to 5)
+const trending = allStories.slice(0, 5);
+---
+
+<aside class="sidebar">
+  <div class="sidebar-section">
+    <h3 class="sidebar-title">Neighborhoods</h3>
+    <div class="neighborhood-list">
+      {topNeighborhoods.map(([name, data]) => (
+        <a href={`/neighborhoods/${slugify(name)}`} class="neighborhood-link">
+          <span class="neighborhood-name">{name}</span>
+          <span class="neighborhood-count">{data.storyCount}</span>
+        </a>
+      ))}
+    </div>
+    <a href="/neighborhoods" class="sidebar-see-all">All neighborhoods &rarr;</a>
+  </div>
+
+  <div class="sidebar-section">
+    <h3 class="sidebar-title">Trending</h3>
+    <ol class="trending-list">
+      {trending.map((story, i) => (
+        <li class="trending-item">
+          <span class="trending-number">{String(i + 1).padStart(2, '0')}</span>
+          <div class="trending-content">
+            <a href={`/${story.id}`} class="trending-headline">{story.headline}</a>
+            <span class="trending-neighborhood">{story.neighborhood}</span>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </div>
+
+  <div class="sidebar-section sidebar-about">
+    <h3 class="sidebar-title">About</h3>
+    <p class="sidebar-text">
+      Atlanta News &amp; Talk delivers daily hyperlocal news from Inside The Perimeter.
+      We aggregate and summarize stories from Atlanta's best local sources so you can
+      stay informed about your neighborhood in minutes.
+    </p>
+  </div>
+</aside>
+
+<style>
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+
+  .sidebar-section {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: 1.25rem;
+  }
+
+  .sidebar-title {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-navy);
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-accent);
+  }
+
+  .neighborhood-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .neighborhood-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.45rem 0;
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 0.85rem;
+    border-bottom: 1px solid var(--color-border);
+    transition: color 0.15s;
+  }
+
+  .neighborhood-link:last-child {
+    border-bottom: none;
+  }
+
+  .neighborhood-link:hover {
+    color: var(--color-accent);
+  }
+
+  .neighborhood-count {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    background: var(--color-tag);
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
+
+  .sidebar-see-all {
+    display: block;
+    margin-top: 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .sidebar-see-all:hover {
+    color: var(--color-accent-hover);
+  }
+
+  .trending-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .trending-item {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+
+  .trending-number {
+    font-family: var(--font-mono);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-border);
+    line-height: 1.2;
+    flex-shrink: 0;
+  }
+
+  .trending-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .trending-headline {
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  .trending-headline:hover {
+    color: var(--color-accent);
+  }
+
+  .trending-neighborhood {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+  }
+
+  .sidebar-text {
+    font-size: 0.82rem;
+    line-height: 1.6;
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+</style>

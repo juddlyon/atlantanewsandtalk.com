@@ -1,0 +1,171 @@
+---
+import Base from '../layouts/Base.astro';
+import StoryCard from '../components/StoryCard.astro';
+import Sidebar from '../components/Sidebar.astro';
+import { getDigest, getAllStories, formatDate, SITE_URL, SITE_NAME } from '../lib/helpers';
+import landingData from '../data/landing-pages.json';
+
+export function getStaticPaths() {
+  return landingData.pages.map((page) => ({
+    params: { landing: page.slug },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const digest = getDigest();
+const allStories = getAllStories();
+
+// Filter stories based on page config
+let stories = [];
+if (page.filterType === 'all') {
+  stories = allStories;
+} else if (page.filterType === 'categories') {
+  stories = digest.sections
+    .filter((s) => page.categories.includes(s.category))
+    .flatMap((s) => s.stories);
+} else if (page.filterType === 'neighborhoods') {
+  stories = allStories.filter((s) =>
+    s.neighborhoods?.some((n: string) => page.neighborhoods.includes(n)) ||
+    page.neighborhoods.includes(s.neighborhood)
+  );
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: page.title,
+  description: page.description,
+  url: `${SITE_URL}/${page.slug}`,
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_NAME,
+    url: SITE_URL,
+  },
+  mainEntity: {
+    '@type': 'ItemList',
+    itemListElement: stories.map((story, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${SITE_URL}/${story.id}`,
+      name: story.headline,
+    })),
+  },
+};
+---
+
+<Base
+  title={`${page.title} | ${SITE_NAME}`}
+  description={page.description}
+  jsonLd={jsonLd}
+>
+  <div class="page-container">
+    <div class="landing-header">
+      <h1 class="landing-title">{page.h1}</h1>
+      <p class="landing-description">{page.description}</p>
+      <div class="digest-date">Updated {formatDate(digest.date)}</div>
+    </div>
+
+    <div class="main-grid">
+      <div class="main-content">
+        {stories.length > 0 ? (
+          <div class="story-grid story-grid-2">
+            {stories.map((story) => (
+              <StoryCard story={story} />
+            ))}
+          </div>
+        ) : (
+          <div class="empty-state">
+            <h2>No stories today</h2>
+            <p>Check back tomorrow for the latest updates.</p>
+          </div>
+        )}
+
+        {/* SEO content block */}
+        <div class="landing-seo-content">
+          {page.filterType === 'neighborhoods' && page.neighborhoods.length === 1 && (
+            <div class="seo-block">
+              <h2>About {page.neighborhoods[0]}</h2>
+              <p>
+                Stay up to date with the latest news from {page.neighborhoods[0]}, one of Atlanta's
+                most vibrant Inside The Perimeter neighborhoods. We aggregate and summarize local
+                reporting from trusted Atlanta news sources daily, bringing you development updates,
+                restaurant openings, community events, and more.
+              </p>
+              <p>
+                <a href="/neighborhoods">Browse all Atlanta neighborhoods →</a>
+              </p>
+            </div>
+          )}
+          {page.filterType === 'categories' && (
+            <div class="seo-block">
+              <p>
+                Coverage aggregated daily from Atlanta's most trusted local news sources including
+                Decaturish, SaportaReport, Urbanize Atlanta, Patch, and more. Focused on
+                Inside The Perimeter neighborhoods.
+              </p>
+            </div>
+          )}
+        </div>
+      </div>
+
+      <Sidebar />
+    </div>
+  </div>
+</Base>
+
+<style>
+  .landing-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .landing-title {
+    font-family: var(--font-display);
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-text);
+    margin: 0 0 0.5rem;
+  }
+
+  .landing-description {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+    margin: 0 0 0.5rem;
+    max-width: 600px;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--color-text-muted);
+  }
+
+  .empty-state h2 {
+    font-family: var(--font-display);
+    margin-bottom: 0.5rem;
+  }
+
+  .seo-block {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+  }
+
+  .seo-block h2 {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    color: var(--color-text);
+    margin-bottom: 0.75rem;
+  }
+
+  .seo-block p {
+    margin-bottom: 0.75rem;
+  }
+</style>

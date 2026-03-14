@@ -1,0 +1,119 @@
+---
+import Base from '../layouts/Base.astro';
+import StoryCard from '../components/StoryCard.astro';
+import NeighborhoodTag from '../components/NeighborhoodTag.astro';
+import { getAllStories, getStoriesByNeighborhood, formatDate, SITE_URL, SITE_NAME } from '../lib/helpers';
+
+export function getStaticPaths() {
+  const stories = getAllStories();
+  return stories.map((story) => ({
+    params: { slug: story.id },
+    props: { story },
+  }));
+}
+
+const { story } = Astro.props;
+
+// Get related stories from the same neighborhood, excluding this one
+const relatedStories = getStoriesByNeighborhood(story.neighborhood)
+  .filter((s) => s.id !== story.id)
+  .slice(0, 3);
+
+const publishDate = new Date(story.publishedAt);
+const dateStr = publishDate.toLocaleDateString('en-US', {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const articleJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: story.headline,
+  description: story.summary,
+  image: story.imageUrl || undefined,
+  datePublished: story.publishedAt,
+  author: {
+    '@type': 'Organization',
+    name: story.source,
+    url: story.sourceUrl,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_NAME,
+    url: SITE_URL,
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': `${SITE_URL}/${story.id}`,
+  },
+  keywords: story.keywords?.join(', '),
+};
+
+const bodyParagraphs = story.body.split('\n\n').filter((p: string) => p.trim());
+---
+
+<Base
+  title={story.headline}
+  description={story.summary}
+  ogImage={story.imageUrl || undefined}
+  ogType="article"
+  article={{
+    publishedTime: story.publishedAt,
+    section: story.neighborhood,
+    tags: story.keywords,
+  }}
+  jsonLd={articleJsonLd}
+>
+  <article class="article-page">
+    {story.imageUrl ? (
+      <img
+        src={story.imageUrl}
+        alt={story.imageAlt || story.headline}
+        class="article-hero-image"
+      />
+    ) : (
+      <div class="article-hero-fallback">
+        <span>{story.neighborhood}</span>
+      </div>
+    )}
+
+    <div class="article-meta">
+      {story.neighborhoods?.map((n: string) => (
+        <NeighborhoodTag name={n} size="md" />
+      ))}
+      <span class="article-source">
+        via <a href={story.sourceUrl} target="_blank" rel="noopener noreferrer">{story.source}</a>
+      </span>
+      <span class="article-date">{dateStr}</span>
+    </div>
+
+    <h1 class="article-headline">{story.headline}</h1>
+
+    <p class="article-summary">{story.summary}</p>
+
+    <div class="article-body">
+      {bodyParagraphs.map((paragraph: string) => (
+        <p>{paragraph}</p>
+      ))}
+    </div>
+
+    <div class="article-footer">
+      <a href={story.sourceUrl} class="article-original-link" target="_blank" rel="noopener noreferrer">
+        Read original at {story.source} &rarr;
+      </a>
+    </div>
+
+    {relatedStories.length > 0 && (
+      <div class="related-section">
+        <h2 class="related-title">More from {story.neighborhood}</h2>
+        <div class="story-grid">
+          {relatedStories.map((related) => (
+            <StoryCard story={related} />
+          ))}
+        </div>
+      </div>
+    )}
+  </article>
+</Base>

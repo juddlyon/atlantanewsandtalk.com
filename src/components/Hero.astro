@@ -1,0 +1,154 @@
+---
+import NeighborhoodTag from './NeighborhoodTag.astro';
+import type { Story } from '../lib/helpers';
+
+interface Props {
+  story: Story;
+}
+
+const { story } = Astro.props;
+const articleUrl = `/${story.id}`;
+const bgImage = story.imageUrl || '';
+---
+
+<section class="hero">
+  <a href={articleUrl} class="hero-link">
+    <div class="hero-image" style={bgImage ? `background-image: url('${bgImage}')` : ''}>
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <div class="hero-label">Top Story</div>
+          <div class="hero-tags">
+            <NeighborhoodTag name={story.neighborhood} linked={false} size="md" />
+            <span class="hero-source">{story.source}</span>
+          </div>
+          <h1 class="hero-headline">{story.headline}</h1>
+          <p class="hero-summary">{story.summary}</p>
+          <span class="hero-cta">Read full story &rarr;</span>
+        </div>
+      </div>
+    </div>
+  </a>
+</section>
+
+<style>
+  .hero {
+    margin-bottom: 2rem;
+  }
+
+  .hero-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .hero-image {
+    position: relative;
+    min-height: 420px;
+    background-size: cover;
+    background-position: center;
+    background-color: #1b2838;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      rgba(10, 15, 25, 0.92) 0%,
+      rgba(10, 15, 25, 0.65) 40%,
+      rgba(10, 15, 25, 0.25) 100%
+    );
+    display: flex;
+    align-items: flex-end;
+    padding: 2.5rem;
+  }
+
+  .hero-content {
+    max-width: 680px;
+  }
+
+  .hero-label {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-accent);
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+  }
+
+  .hero-tags {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-source {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .hero-headline {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    margin: 0 0 0.75rem;
+  }
+
+  .hero-summary {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 1rem;
+    max-width: 600px;
+  }
+
+  .hero-cta {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    transition: color 0.15s;
+  }
+
+  .hero-link:hover .hero-cta {
+    color: #e07050;
+  }
+
+  @media (max-width: 768px) {
+    .hero-image {
+      min-height: 340px;
+    }
+
+    .hero-overlay {
+      padding: 1.5rem;
+    }
+
+    .hero-headline {
+      font-size: 1.5rem;
+    }
+
+    .hero-summary {
+      font-size: 0.9rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero-image {
+      min-height: 300px;
+      border-radius: 0;
+    }
+
+    .hero-headline {
+      font-size: 1.3rem;
+    }
+  }
+</style>

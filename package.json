@@ -9,12 +9,18 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "fetch": "node scripts/fetch-articles.mjs",
+    "summarize": "node scripts/summarize.mjs",
+    "update": "node scripts/fetch-articles.mjs && node scripts/summarize.mjs",
+    "publish": "npm run update && npm run build && git add src/data/digest-latest.json && git commit -m 'update digest' && git push"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",
     "@astrojs/netlify": "^7.0.2",
     "astro": "^6.0.4",
+    "cheerio": "^1.2.0",
+    "crawlee": "^3.16.0",
     "rss-parser": "^3.13.0"
   }
 }

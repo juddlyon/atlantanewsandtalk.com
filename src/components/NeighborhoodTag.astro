@@ -1,0 +1,50 @@
+---
+import { getNeighborhoodColor, slugify } from '../lib/helpers';
+
+interface Props {
+  name: string;
+  linked?: boolean;
+  size?: 'sm' | 'md';
+}
+
+const { name, linked = true, size = 'sm' } = Astro.props;
+const color = getNeighborhoodColor(name);
+const href = `/neighborhoods/${slugify(name)}`;
+---
+
+{linked ? (
+  <a href={href} class:list={['neighborhood-tag', `tag-${size}`]} style={`--tag-color: ${color};`}>
+    {name}
+  </a>
+) : (
+  <span class:list={['neighborhood-tag', `tag-${size}`]} style={`--tag-color: ${color};`}>
+    {name}
+  </span>
+)}
+
+<style>
+  .neighborhood-tag {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 3px 10px;
+    border-radius: 3px;
+    background: color-mix(in srgb, var(--tag-color) 12%, transparent);
+    color: var(--tag-color);
+    text-decoration: none;
+    transition: background 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .neighborhood-tag:hover {
+    background: color-mix(in srgb, var(--tag-color) 22%, transparent);
+    color: var(--tag-color);
+  }
+
+  .tag-md {
+    font-size: 0.72rem;
+    padding: 4px 12px;
+  }
+</style>

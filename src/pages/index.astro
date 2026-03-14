@@ -1,50 +1,47 @@
 ---
 import Base from '../layouts/Base.astro';
-import digest from '../data/digest-latest.json';
+import Hero from '../components/Hero.astro';
+import StoryCard from '../components/StoryCard.astro';
+import Sidebar from '../components/Sidebar.astro';
+import { getDigest, formatDate } from '../lib/helpers';
 
-function formatDate(dateStr: string): string {
-  const d = new Date(dateStr + 'T12:00:00');
-  return d.toLocaleDateString('en-US', {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
-}
+const digest = getDigest();
+const topStory = digest.topStory;
+
+// Get remaining sections' stories (excluding the top story from its section)
+const sections = digest.sections.map((section) => ({
+  ...section,
+  stories: section.stories.filter((s) => s.id !== topStory.id),
+})).filter((section) => section.stories.length > 0);
 ---
 
 <Base>
-  <div class="digest-header">
-    <div class="digest-date">{formatDate(digest.date)}</div>
-    <p class="digest-summary">{digest.summary}</p>
-  </div>
-
-  {digest.sections.length > 0 ? (
-    digest.sections.map((section) => (
-      <section class="section">
-        <h2 class="section-title">{section.category}</h2>
-        {section.stories.map((story) => (
-          <article class="story">
-            <h3 class="story-headline">
-              <a href={story.link} target="_blank" rel="noopener noreferrer">
-                {story.headline}
-              </a>
-            </h3>
-            <div class="story-meta">
-              {story.neighborhood && (
-                <span class="story-neighborhood">{story.neighborhood}</span>
-              )}
-              <span class="story-source">{story.source}</span>
-            </div>
-            <p class="story-summary">{story.summary}</p>
-          </article>
-        ))}
-      </section>
-    ))
-  ) : (
-    <div class="empty-state">
-      <h2>No stories yet today</h2>
-      <p>Check back later — the daily digest runs each evening.</p>
+  <div class="page-container">
+    <div class="digest-header">
+      <div class="digest-date">{formatDate(digest.date)}</div>
+      <p class="digest-summary">{digest.summary}</p>
     </div>
-  )}
+
+    <Hero story={topStory} />
+
+    <div class="main-grid">
+      <div class="main-content">
+        {digest.sections.map((section) => (
+          <section id={section.category.toLowerCase().replace(/\s+&\s+/g, '-').replace(/\s+/g, '-')}>
+            <div class="section-header">
+              <h2 class="section-title">{section.category}</h2>
+              <span class="section-count">{section.stories.length} {section.stories.length === 1 ? 'story' : 'stories'}</span>
+            </div>
+            <div class:list={['story-grid', section.stories.length === 2 ? 'story-grid-2' : section.stories.length >= 3 ? 'story-grid-3' : '']}>
+              {section.stories.map((story) => (
+                <StoryCard story={story} featured={story.id === topStory.id} />
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
+
+      <Sidebar />
+    </div>
+  </div>
 </Base>

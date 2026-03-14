@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getAllNeighborhoods, getNeighborhoodData, slugify, getStoriesByNeighborhood } from '../../lib/helpers';
+
+const neighborhoods = getAllNeighborhoods();
+const neighborhoodData = getNeighborhoodData();
+
+// Sort by story count descending, then alphabetically
+const sortedNeighborhoods = neighborhoods.sort((a, b) => {
+  const countDiff = (neighborhoodData[b]?.storyCount || 0) - (neighborhoodData[a]?.storyCount || 0);
+  if (countDiff !== 0) return countDiff;
+  return a.localeCompare(b);
+});
+---
+
+<Base
+  title="Atlanta Neighborhoods"
+  description="Hyperlocal news coverage of Atlanta's Inside The Perimeter neighborhoods. Find stories from Midtown, Old Fourth Ward, Inman Park, Decatur, and more."
+>
+  <div class="page-container">
+    <div class="neighborhood-page-header">
+      <h1 class="neighborhood-page-title">Atlanta Neighborhoods</h1>
+      <p class="neighborhood-page-subtitle">
+        Hyperlocal coverage from {neighborhoods.length} ITP neighborhoods
+      </p>
+    </div>
+
+    <div class="neighborhoods-grid">
+      {sortedNeighborhoods.map((name) => {
+        const data = neighborhoodData[name];
+        const count = data?.storyCount || 0;
+        return (
+          <a href={`/neighborhoods/${slugify(name)}`} class="neighborhood-card">
+            <span class="neighborhood-card-name">{name}</span>
+            <span class="neighborhood-card-count">
+              {count} {count === 1 ? 'story' : 'stories'}
+            </span>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</Base>

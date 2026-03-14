@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # reference data
 _ref/
+
+# raw fetched articles (intermediate, not committed)
+src/data/raw-articles.json

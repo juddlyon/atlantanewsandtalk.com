@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import { getAllNeighborhoods, getStoriesByNeighborhood, slugify } from '../../lib/helpers';
+
+export function getStaticPaths() {
+  const neighborhoods = getAllNeighborhoods();
+  return neighborhoods.map((name) => ({
+    params: { neighborhood: slugify(name) },
+    props: { neighborhoodName: name },
+  }));
+}
+
+const { neighborhoodName } = Astro.props;
+const stories = getStoriesByNeighborhood(neighborhoodName);
+---
+
+<Base
+  title={`${neighborhoodName} Atlanta News`}
+  description={`Latest hyperlocal news from ${neighborhoodName}, Atlanta. Coverage of development, transit, food, arts, and community stories from Inside The Perimeter.`}
+>
+  <div class="page-container">
+    <div class="neighborhood-page-header">
+      <h1 class="neighborhood-page-title">{neighborhoodName}</h1>
+      <p class="neighborhood-page-subtitle">
+        {stories.length} {stories.length === 1 ? 'story' : 'stories'} &middot; Inside The Perimeter, Atlanta
+      </p>
+    </div>
+
+    {stories.length > 0 ? (
+      <div class="story-grid story-grid-3">
+        {stories.map((story) => (
+          <StoryCard story={story} />
+        ))}
+      </div>
+    ) : (
+      <div class="empty-state">
+        <p>No stories from {neighborhoodName} today. Check back tomorrow.</p>
+      </div>
+    )}
+
+    <div style="margin-top: 2rem;">
+      <a href="/neighborhoods" style="font-size: 0.85rem; font-weight: 600;">&larr; All Neighborhoods</a>
+    </div>
+  </div>
+</Base>
