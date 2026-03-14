@@ -6,19 +6,26 @@ const neighborhoods = getAllNeighborhoods();
 const neighborhoodData = getNeighborhoodData();
 const allStories = getAllStories();
 
-// Get top 5 neighborhoods by story count
 const topNeighborhoods = Object.entries(neighborhoodData)
   .sort((a, b) => b[1].storyCount - a[1].storyCount)
   .slice(0, 12);
 
-// Get trending stories (first story from each section, up to 5)
 const trending = allStories.slice(0, 5);
 ---
 
 <aside class="sidebar">
-  <div class="sidebar-section">
+  <!-- Neighborhoods — horizontal scroll on mobile, vertical list on desktop -->
+  <div class="sidebar-section sidebar-neighborhoods">
     <h3 class="sidebar-title">Neighborhoods</h3>
-    <div class="neighborhood-list">
+    <div class="neighborhood-scroll">
+      {topNeighborhoods.map(([name, data]) => (
+        <a href={`/neighborhoods/${slugify(name)}`} class="neighborhood-chip">
+          {name}
+          <span class="chip-count">{data.storyCount}</span>
+        </a>
+      ))}
+    </div>
+    <div class="neighborhood-list-desktop">
       {topNeighborhoods.map(([name, data]) => (
         <a href={`/neighborhoods/${slugify(name)}`} class="neighborhood-link">
           <span class="neighborhood-name">{name}</span>
@@ -26,9 +33,10 @@ const trending = allStories.slice(0, 5);
         </a>
       ))}
     </div>
-    <a href="/neighborhoods" class="sidebar-see-all">All neighborhoods &rarr;</a>
+    <a href="/neighborhoods" class="sidebar-see-all">All neighborhoods →</a>
   </div>
 
+  <!-- Trending -->
   <div class="sidebar-section">
     <h3 class="sidebar-title">Trending</h3>
     <ol class="trending-list">
@@ -44,12 +52,13 @@ const trending = allStories.slice(0, 5);
     </ol>
   </div>
 
+  <!-- About -->
   <div class="sidebar-section sidebar-about">
     <h3 class="sidebar-title">About</h3>
     <p class="sidebar-text">
-      Atlanta News &amp; Talk delivers daily hyperlocal news from Inside The Perimeter.
-      We aggregate and summarize stories from Atlanta's best local sources so you can
-      stay informed about your neighborhood in minutes.
+      Your daily dose of what's happening Inside The Perimeter. We read the local
+      blogs, papers, and newsrooms so you don't have to. Neighborhood-level coverage
+      from the people who actually live here.
     </p>
   </div>
 </aside>
@@ -58,30 +67,70 @@ const trending = allStories.slice(0, 5);
   .sidebar {
     display: flex;
     flex-direction: column;
-    gap: 1.75rem;
+    gap: 1.25rem;
   }
 
   .sidebar-section {
     background: var(--color-surface);
     border: 1px solid var(--color-border);
     border-radius: 6px;
-    padding: 1.25rem;
+    padding: 1rem;
   }
 
   .sidebar-title {
     font-family: var(--font-display);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: var(--color-navy);
-    margin: 0 0 1rem;
-    padding-bottom: 0.5rem;
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.4rem;
     border-bottom: 2px solid var(--color-accent);
   }
 
-  .neighborhood-list {
+  /* Mobile: horizontal scrollable chips */
+  .neighborhood-scroll {
     display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 0.25rem;
+  }
+
+  .neighborhood-scroll::-webkit-scrollbar { display: none; }
+
+  .neighborhood-chip {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.5rem 0.75rem;
+    min-height: 36px;
+    background: var(--color-tag);
+    color: var(--color-tag-text);
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+
+  .neighborhood-chip:hover {
+    background: var(--color-border);
+    color: var(--color-text);
+  }
+
+  .chip-count {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    opacity: 0.7;
+  }
+
+  /* Desktop: vertical list (hidden on mobile) */
+  .neighborhood-list-desktop {
+    display: none;
     flex-direction: column;
     gap: 1px;
   }
@@ -90,7 +139,8 @@ const trending = allStories.slice(0, 5);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.45rem 0;
+    padding: 0.5rem 0;
+    min-height: 36px;
     text-decoration: none;
     color: var(--color-text);
     font-size: 0.85rem;
@@ -98,13 +148,8 @@ const trending = allStories.slice(0, 5);
     transition: color 0.15s;
   }
 
-  .neighborhood-link:last-child {
-    border-bottom: none;
-  }
-
-  .neighborhood-link:hover {
-    color: var(--color-accent);
-  }
+  .neighborhood-link:last-child { border-bottom: none; }
+  .neighborhood-link:hover { color: var(--color-accent); }
 
   .neighborhood-count {
     font-family: var(--font-mono);
@@ -117,17 +162,19 @@ const trending = allStories.slice(0, 5);
 
   .sidebar-see-all {
     display: block;
-    margin-top: 0.75rem;
+    margin-top: 0.6rem;
     font-size: 0.8rem;
     font-weight: 600;
     color: var(--color-accent);
     text-decoration: none;
+    min-height: 36px;
+    display: flex;
+    align-items: center;
   }
 
-  .sidebar-see-all:hover {
-    color: var(--color-accent-hover);
-  }
+  .sidebar-see-all:hover { color: var(--color-accent-hover); }
 
+  /* Trending */
   .trending-list {
     list-style: none;
     margin: 0;
@@ -139,13 +186,13 @@ const trending = allStories.slice(0, 5);
 
   .trending-item {
     display: flex;
-    gap: 0.75rem;
+    gap: 0.6rem;
     align-items: flex-start;
   }
 
   .trending-number {
     font-family: var(--font-mono);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--color-border);
     line-height: 1.2;
@@ -155,7 +202,7 @@ const trending = allStories.slice(0, 5);
   .trending-content {
     display: flex;
     flex-direction: column;
-    gap: 0.2rem;
+    gap: 0.15rem;
   }
 
   .trending-headline {
@@ -165,14 +212,13 @@ const trending = allStories.slice(0, 5);
     line-height: 1.3;
     color: var(--color-text);
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
-  .trending-headline:hover {
-    color: var(--color-accent);
-  }
+  .trending-headline:hover { color: var(--color-accent); }
 
   .trending-neighborhood {
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     color: var(--color-text-muted);
   }
 
@@ -181,5 +227,20 @@ const trending = allStories.slice(0, 5);
     line-height: 1.6;
     color: var(--color-text-muted);
     margin: 0;
+  }
+
+  /* Desktop: switch to vertical list */
+  @media (min-width: 960px) {
+    .neighborhood-scroll {
+      display: none;
+    }
+
+    .neighborhood-list-desktop {
+      display: flex;
+    }
+
+    .sidebar-section {
+      padding: 1.25rem;
+    }
   }
 </style>

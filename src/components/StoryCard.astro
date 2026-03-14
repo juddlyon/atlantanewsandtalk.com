@@ -6,13 +6,14 @@ interface Props {
   story: Story;
   featured?: boolean;
   showImage?: boolean;
+  horizontal?: boolean;
 }
 
-const { story, featured = false, showImage = true } = Astro.props;
+const { story, featured = false, showImage = true, horizontal = false } = Astro.props;
 const articleUrl = `/${story.id}`;
 ---
 
-<article class:list={['story-card', { featured, 'has-image': showImage && story.imageUrl }]}>
+<article class:list={['story-card', { featured, horizontal, 'has-image': showImage && story.imageUrl }]}>
   {showImage && story.imageUrl && (
     <a href={articleUrl} class="card-image-link">
       <div class="card-image">
@@ -47,12 +48,7 @@ const articleUrl = `/${story.id}`;
     border-radius: 6px;
     overflow: hidden;
     border: 1px solid var(--color-border);
-    transition: box-shadow 0.2s ease, transform 0.15s ease;
-  }
-
-  .story-card:hover {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    transform: translateY(-1px);
+    -webkit-tap-highlight-color: transparent;
   }
 
   .card-image-link {
@@ -70,11 +66,6 @@ const articleUrl = `/${story.id}`;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.3s ease;
-  }
-
-  .story-card:hover .card-image img {
-    transform: scale(1.03);
   }
 
   .card-image-fallback {
@@ -86,17 +77,17 @@ const articleUrl = `/${story.id}`;
 
   .fallback-text {
     font-family: var(--font-display);
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
     letter-spacing: 0.15em;
   }
 
   .card-content {
-    padding: 1rem 1.1rem 1.2rem;
+    padding: 0.875rem 1rem 1rem;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.4rem;
     flex: 1;
   }
 
@@ -123,6 +114,7 @@ const articleUrl = `/${story.id}`;
   .card-headline a {
     color: var(--color-text);
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .card-headline a:hover {
@@ -131,7 +123,7 @@ const articleUrl = `/${story.id}`;
 
   .card-summary {
     font-size: 0.85rem;
-    line-height: 1.55;
+    line-height: 1.5;
     color: var(--color-text-muted);
     margin: 0;
     display: -webkit-box;
@@ -141,10 +133,53 @@ const articleUrl = `/${story.id}`;
   }
 
   .featured .card-headline {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
 
   .featured .card-summary {
     -webkit-line-clamp: 4;
+  }
+
+  /* Horizontal card layout (used on mobile for related stories, etc.) */
+  .horizontal {
+    flex-direction: row;
+  }
+
+  .horizontal .card-image {
+    width: 120px;
+    min-width: 120px;
+    aspect-ratio: 1;
+  }
+
+  .horizontal .card-content {
+    padding: 0.75rem;
+  }
+
+  .horizontal .card-headline {
+    font-size: 0.95rem;
+  }
+
+  .horizontal .card-summary {
+    display: none;
+  }
+
+  /* Desktop hover effects */
+  @media (hover: hover) {
+    .story-card:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      transform: translateY(-1px);
+    }
+
+    .story-card {
+      transition: box-shadow 0.2s ease, transform 0.15s ease;
+    }
+
+    .card-image img {
+      transition: transform 0.3s ease;
+    }
+
+    .story-card:hover .card-image img {
+      transform: scale(1.03);
+    }
   }
 </style>
