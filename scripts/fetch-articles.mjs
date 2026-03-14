@@ -29,33 +29,23 @@ const parser = new RSSParser({
 
 // Sources ordered by SE BeltLine relevance
 const SOURCES = [
-  // Tier 1 — hyperlocal ITP / SE BeltLine
+  // Tier 1 — hyperlocal ITP
   { name: 'Decaturish', url: 'https://decaturish.com/feed/', tier: 1 },
   { name: 'Urbanize Atlanta', url: 'https://atlanta.urbanize.city/feed', tier: 1 },
-  { name: 'What Now Atlanta', url: 'https://whatnowatlanta.com/feed/', tier: 1 },
+  { name: 'Atlanta Civic Circle', url: 'https://atlantaciviccircle.org/feed/', tier: 1 },
 
-  // Tier 1.5 — Patch hyperlocal neighborhoods
-  { name: 'Patch - East Atlanta', url: 'https://patch.com/georgia/east-atlanta/rss', tier: 1 },
-  { name: 'Patch - Decatur', url: 'https://patch.com/georgia/decatur/rss', tier: 1 },
-  { name: 'Patch - Grant Park', url: 'https://patch.com/georgia/grantpark-eav/rss', tier: 1 },
-  { name: 'Patch - Midtown', url: 'https://patch.com/georgia/midtown/rss', tier: 1 },
-  { name: 'Patch - Buckhead', url: 'https://patch.com/georgia/buckhead/rss', tier: 2 },
-  { name: 'Patch - Brookhaven', url: 'https://patch.com/georgia/brookhaven/rss', tier: 2 },
-
-  // Tier 2 — Atlanta-wide but good ITP coverage
+  // Tier 2 — Atlanta-wide with good ITP coverage
   { name: 'SaportaReport', url: 'https://saportareport.com/feed/', tier: 2 },
-  { name: 'Atlanta Civic Circle', url: 'https://atlantaciviccircle.org/feed/', tier: 2 },
   { name: 'Rough Draft Atlanta', url: 'https://roughdraftatlanta.com/feed/', tier: 2 },
+  { name: 'Atlanta Magazine', url: 'https://www.atlantamagazine.com/rss', tier: 2 },
+  { name: 'The Atlanta Voice', url: 'https://www.theatlantavoice.com/feed/', tier: 2 },
+  { name: 'Georgia Recorder', url: 'https://georgiarecorder.com/feed/', tier: 2 },
+  { name: 'Global Atlanta', url: 'https://globalatlanta.com/feed/', tier: 2 },
 
-  // Tier 2.5 — neighborhood blogs and community sites
-  { name: 'East Atlanta Patch Blog', url: 'https://eastatlantavillage.com/feed/', tier: 2 },
-  { name: 'Grant Park Conservancy', url: 'https://grantparkconservancy.org/feed/', tier: 2 },
-  { name: 'Midtown Alliance', url: 'https://www.midtownatl.com/feed', tier: 2 },
-
-  // Tier 3 — broader Atlanta
-  { name: 'Axios Atlanta', url: 'https://www.axios.com/local/atlanta/feed', tier: 3 },
-  { name: 'Atlanta Magazine', url: 'https://www.atlantamagazine.com/feed/', tier: 3 },
-  { name: 'Tomorrow\'s News Today', url: 'https://tomorrowsnewstoday.com/feed/', tier: 2 },
+  // Tier 3 — TV/radio news (broader but high volume, good images)
+  { name: '11Alive', url: 'https://www.11alive.com/feeds/syndication/rss/news', tier: 3 },
+  { name: 'WSB-TV', url: 'https://www.wsbtv.com/arc/outboundfeeds/rss/?outputType=xml', tier: 3 },
+  { name: 'GPB News', url: 'https://www.gpb.org/news/rss.xml', tier: 3 },
 ];
 
 function extractImageFromItem(item) {

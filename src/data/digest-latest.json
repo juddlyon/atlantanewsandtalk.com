@@ -1,303 +1,53 @@
 {
   "date": "2026-03-14",
   "generatedAt": "2026-03-14T22:00:00Z",
-  "summary": "Big day for the BeltLine. That massive O4W tower project finally broke ground on Irwin Street, and MARTA dropped some real dates for the Clifton Corridor (2031, mark your calendars). Oh, and Kimball House is coming to Inman Park. Decatur's loss is Krog Street Market's gain.",
+  "summary": "Juniper Street in Midtown is shut down for at least six weeks for emergency sewer repairs. Atlanta United picked up their first W of the season in style. A former USPS worker copped to stealing cash from mail at an Atlanta facility. And an Atlanta hairstylist just got an Oscar nomination for her work on 'Sinners.'",
   "topStory": {
-    "id": "old-fourth-ward-beltline-towers-break-ground",
-    "headline": "BeltLine Towers Break Ground in Old Fourth Ward with 500 New Units",
-    "summary": "Construction officially began this week on the long-anticipated BeltLine Towers project at the corner of Irwin Street and the Atlanta BeltLine Eastside Trail. The $180 million development will bring 500 residential units, 40,000 square feet of retail, and a public plaza to one of the corridor's last major undeveloped parcels.",
-    "body": "Construction officially began this week on the long-anticipated BeltLine Towers project at the corner of Irwin Street and the Atlanta BeltLine Eastside Trail. The $180 million mixed-use development, led by Portman Holdings, will bring 500 residential units ranging from studios to three-bedroom apartments, along with 40,000 square feet of ground-floor retail space and a publicly accessible plaza facing the trail.\n\nThe project has been in the planning stages since 2023, navigating multiple rounds of community input and design review. Developers agreed to set aside 15 percent of units as workforce housing after pushback from neighborhood advocates concerned about displacement in one of Atlanta's fastest-changing corridors.\n\nCity Councilmember Amir Farokhi called the groundbreaking \"a milestone for responsible BeltLine development\" and noted that the project will include dedicated space for local small businesses. Construction is expected to take approximately 24 months, with first occupancy projected for spring 2028.",
-    "neighborhood": "Old Fourth Ward",
+    "id": "midtown-juniper-street-sewer-closure",
+    "headline": "Juniper Street Shut Down for Emergency Sewer Repairs, At Least 6 Weeks",
+    "summary": "If you drive through Midtown, heads up. Atlanta's Department of Watershed Management closed Juniper Street for emergency sewer line repairs. The closure is expected to last at least six weeks, which means alternate routes through the area for a while.",
+    "body": "Atlanta's Department of Watershed Management has closed Juniper Street in Midtown for emergency sewer repairs, and the closure is expected to last at least six weeks. The repair work addresses a failing sewer line that city engineers flagged as a priority after recent inspections.\n\nDrivers who normally use Juniper as a cut-through in Midtown will need to find alternate routes. The city is directing traffic to Piedmont Avenue and West Peachtree Street during the closure. MARTA remains unaffected, but street-level bus routes in the area may see minor rerouting.\n\nThe timing is rough for Midtown businesses along the corridor, especially restaurants and shops that rely on street-level visibility and parking. The city says they're working to minimize the disruption but there's no getting around a six-week dig.",
+    "neighborhood": "Midtown",
     "neighborhoods": [
-      "Old Fourth Ward"
+      "Midtown"
     ],
-    "source": "Urbanize Atlanta",
-    "sourceUrl": "https://atlanta.urbanize.city/post/beltline-towers-ofw-groundbreaking",
-    "imageUrl": null,
-    "imageAlt": "Rendering of the BeltLine Towers mixed-use development in Old Fourth Ward",
-    "publishedAt": "2026-03-14T14:30:00Z",
+    "source": "WSB-TV",
+    "sourceUrl": "https://www.wsbtv.com/news/local/emergency-sewer-repairs-shut-down-busy-atlanta-street-least-6-weeks/",
+    "imageUrl": "https://www.wsbtv.com/resizer/v2/FYAPBGYL35G55DFRUZ25THOL34.png?auth=7d125a13dca86db15659b45c10d6d16c221e02a1a546c9bf791480d9e9f68091&smart=true&width=1909&height=984",
+    "imageAlt": "Emergency sewer repair work on Juniper Street in Midtown Atlanta",
+    "publishedAt": "2026-03-14T16:00:00Z",
     "keywords": [
-      "development",
-      "beltline",
-      "old fourth ward",
-      "housing",
-      "mixed-use"
+      "midtown",
+      "juniper street",
+      "sewer",
+      "road closure",
+      "infrastructure"
     ]
   },
   "sections": [
     {
-      "category": "Development & Housing",
-      "stories": [
-        {
-          "id": "old-fourth-ward-beltline-towers-break-ground",
-          "headline": "BeltLine Towers Break Ground in Old Fourth Ward with 500 New Units",
-          "summary": "Construction officially began this week on the long-anticipated BeltLine Towers project at the corner of Irwin Street and the Atlanta BeltLine Eastside Trail. The $180 million development will bring 500 residential units, 40,000 square feet of retail, and a public plaza to one of the corridor's last major undeveloped parcels.",
-          "body": "Construction officially began this week on the long-anticipated BeltLine Towers project at the corner of Irwin Street and the Atlanta BeltLine Eastside Trail. The $180 million mixed-use development, led by Portman Holdings, will bring 500 residential units ranging from studios to three-bedroom apartments, along with 40,000 square feet of ground-floor retail space and a publicly accessible plaza facing the trail.\n\nThe project has been in the planning stages since 2023, navigating multiple rounds of community input and design review. Developers agreed to set aside 15 percent of units as workforce housing after pushback from neighborhood advocates concerned about displacement in one of Atlanta's fastest-changing corridors.\n\nCity Councilmember Amir Farokhi called the groundbreaking \"a milestone for responsible BeltLine development\" and noted that the project will include dedicated space for local small businesses. Construction is expected to take approximately 24 months, with first occupancy projected for spring 2028.",
-          "neighborhood": "Old Fourth Ward",
-          "neighborhoods": [
-            "Old Fourth Ward"
-          ],
-          "source": "Urbanize Atlanta",
-          "sourceUrl": "https://atlanta.urbanize.city/post/beltline-towers-ofw-groundbreaking",
-          "imageUrl": null,
-          "imageAlt": "Rendering of the BeltLine Towers mixed-use development in Old Fourth Ward",
-          "publishedAt": "2026-03-14T14:30:00Z",
-          "keywords": [
-            "development",
-            "beltline",
-            "old fourth ward",
-            "housing",
-            "mixed-use"
-          ]
-        },
-        {
-          "id": "west-midtown-warehouse-conversion-approved",
-          "headline": "Historic Warehouse on Howell Mill Gets Green Light for Boutique Hotel Conversion",
-          "summary": "Atlanta's Urban Design Commission approved plans to convert a 1920s-era warehouse on Howell Mill Road into a 95-room boutique hotel with a rooftop restaurant. The project promises to preserve the building's original brick facade while adding modern amenities.",
-          "body": "The Atlanta Urban Design Commission voted unanimously Thursday to approve plans for converting a century-old warehouse on Howell Mill Road into a 95-room boutique hotel. The Halverson Group, the Charleston-based developer behind the project, presented revised plans that won over preservationists by committing to retain the building's original brick facade, steel-truss roof structure, and industrial-era signage.\n\nThe hotel will feature a rooftop restaurant and bar with skyline views, a ground-floor coffee shop open to the public, and event space that can accommodate up to 200 guests. The developers say they aim to fill a gap in West Midtown's hospitality market, which has seen explosive growth in dining and retail but lacks dedicated boutique lodging.\n\nConstruction is slated to begin in late summer, with an opening target of fall 2027. The project is expected to create approximately 120 permanent jobs.",
-          "neighborhood": "West Midtown",
-          "neighborhoods": [
-            "West Midtown"
-          ],
-          "source": "SaportaReport",
-          "sourceUrl": "https://saportareport.com/west-midtown-hotel-conversion",
-          "imageUrl": null,
-          "imageAlt": "Historic brick warehouse on Howell Mill Road slated for hotel conversion",
-          "publishedAt": "2026-03-14T12:15:00Z",
-          "keywords": [
-            "development",
-            "west midtown",
-            "hotel",
-            "historic preservation"
-          ]
-        },
-        {
-          "id": "grant-park-affordable-housing-proposal",
-          "headline": "Grant Park Residents Debate 200-Unit Affordable Housing Proposal Near Zoo",
-          "summary": "A spirited community meeting drew over 300 residents to debate a proposed affordable housing development on Boulevard SE near Zoo Atlanta. Supporters say the project addresses a critical need, while opponents cite traffic and density concerns.",
-          "body": "More than 300 Grant Park residents packed into the Neighborhood Charter School gymnasium Wednesday evening for a heated discussion about a proposed 200-unit affordable housing development on Boulevard SE, just north of Zoo Atlanta. The project, backed by the Atlanta Housing Authority and developer Columbia Residential, would reserve all units for households earning between 30 and 80 percent of the area median income.\n\nSupporting residents and housing advocates argued that the project represents exactly the kind of inclusive development Grant Park needs to remain economically diverse as property values continue to climb. Several speakers pointed to recent data showing that the neighborhood has lost nearly 40 percent of its renter households earning below $50,000 since 2018.\n\nOpponents raised concerns about traffic impacts on the already-congested Boulevard corridor, the scale of the building relative to surrounding homes, and the adequacy of nearby school capacity. The developer has agreed to conduct a full traffic study and return for a second community meeting in April before submitting final plans to the city.",
-          "neighborhood": "Grant Park",
-          "neighborhoods": [
-            "Grant Park"
-          ],
-          "source": "Atlanta Civic Circle",
-          "sourceUrl": "https://atlantaciviccircle.org/grant-park-affordable-housing",
-          "imageUrl": null,
-          "imageAlt": "Community meeting in Grant Park about proposed affordable housing",
-          "publishedAt": "2026-03-14T10:00:00Z",
-          "keywords": [
-            "housing",
-            "affordable housing",
-            "grant park",
-            "community",
-            "zoning"
-          ]
-        }
-      ]
-    },
-    {
       "category": "Transit & Infrastructure",
       "stories": [
         {
-          "id": "marta-clifton-corridor-timeline",
-          "headline": "MARTA Unveils Clifton Corridor Light Rail Timeline, Service by 2031",
-          "summary": "MARTA officials announced a firm construction timeline for the Clifton Corridor light rail project connecting Lindbergh Center to Emory University and the CDC. Revenue service is now projected to begin in late 2031, with construction starting next year.",
-          "body": "MARTA's board of directors received a detailed project update Thursday that included, for the first time, a firm construction timeline for the long-awaited Clifton Corridor light rail line. The 7.6-mile route will connect Lindbergh Center station to Emory University, the Centers for Disease Control and Prevention campus, and the planned Avondale station, with four intermediate stops.\n\nGeneral Manager Collie Greenwood told the board that final engineering is on track for completion by December 2026, with construction mobilization beginning in the first quarter of 2027. The project carries an updated cost estimate of $2.8 billion, funded through a combination of the More MARTA sales tax, federal Capital Investment Grants, and state matching funds.\n\nThe announcement was met with cautious optimism from transit advocates, many of whom have been pushing for the Clifton Corridor since its inclusion in the original More MARTA referendum in 2016. DeKalb County Commissioner Ted Terry called the timeline \"the most concrete commitment we've seen\" and urged continued federal funding support.",
-          "neighborhood": "Druid Hills",
-          "neighborhoods": [
-            "Druid Hills",
-            "Morningside"
-          ],
-          "source": "Axios Atlanta",
-          "sourceUrl": "https://www.axios.com/local/atlanta/marta-clifton-corridor-timeline",
-          "imageUrl": null,
-          "imageAlt": "Rendering of proposed MARTA light rail station on the Clifton Corridor",
-          "publishedAt": "2026-03-14T16:00:00Z",
-          "keywords": [
-            "marta",
-            "transit",
-            "light rail",
-            "clifton corridor",
-            "emory"
-          ]
-        },
-        {
-          "id": "peachtree-street-bike-lanes-midtown",
-          "headline": "Midtown's Peachtree Street Protected Bike Lanes Open Next Month",
-          "summary": "The City of Atlanta announced that protected bike lanes along a 1.2-mile stretch of Peachtree Street through Midtown will open to cyclists in April. The lanes are part of the broader Atlanta Cycling Infrastructure Plan approved in 2024.",
-          "body": "Atlanta's Department of Transportation confirmed that protected bike lanes along Peachtree Street from 10th Street to Peachtree Battle Avenue will open to cyclists on April 15, completing a project that began construction last September. The 1.2-mile stretch features physically separated lanes with concrete barriers, dedicated signal phases at major intersections, and landscaped buffer zones.\n\nThe lanes are part of the city's broader Cycling Infrastructure Plan, which aims to add 60 miles of protected bike facilities across Atlanta by 2030. Transportation Commissioner Josh Rowan said the Peachtree corridor was prioritized because of its high volume of cycling commuters and its connection to existing trail networks.\n\nMidtown Alliance president Kevin Green praised the project, noting that surveys of Midtown workers show cycling as the fastest-growing commute mode in the district. Some business owners along the corridor have expressed concern about the loss of on-street parking, but city officials point to studies showing that protected bike lanes tend to increase foot traffic and retail sales over time.",
+          "id": "midtown-juniper-street-sewer-closure",
+          "headline": "Juniper Street Shut Down for Emergency Sewer Repairs, At Least 6 Weeks",
+          "summary": "If you drive through Midtown, heads up. Atlanta's Department of Watershed Management closed Juniper Street for emergency sewer line repairs. The closure is expected to last at least six weeks.",
+          "body": "Atlanta's Department of Watershed Management has closed Juniper Street in Midtown for emergency sewer repairs, and the closure is expected to last at least six weeks. The repair work addresses a failing sewer line that city engineers flagged as a priority after recent inspections.\n\nDrivers who normally use Juniper as a cut-through in Midtown will need to find alternate routes. The city is directing traffic to Piedmont Avenue and West Peachtree Street during the closure. MARTA remains unaffected, but street-level bus routes in the area may see minor rerouting.\n\nThe timing is rough for Midtown businesses along the corridor, especially restaurants and shops that rely on street-level visibility and parking. The city says they're working to minimize the disruption but there's no getting around a six-week dig.",
           "neighborhood": "Midtown",
           "neighborhoods": [
-            "Midtown",
-            "Ansley Park"
+            "Midtown"
           ],
-          "source": "SaportaReport",
-          "sourceUrl": "https://saportareport.com/peachtree-bike-lanes-midtown",
-          "imageUrl": null,
-          "imageAlt": "Protected bike lane construction on Peachtree Street in Midtown",
-          "publishedAt": "2026-03-14T11:30:00Z",
+          "source": "WSB-TV",
+          "sourceUrl": "https://www.wsbtv.com/news/local/emergency-sewer-repairs-shut-down-busy-atlanta-street-least-6-weeks/",
+          "imageUrl": "https://www.wsbtv.com/resizer/v2/FYAPBGYL35G55DFRUZ25THOL34.png?auth=7d125a13dca86db15659b45c10d6d16c221e02a1a546c9bf791480d9e9f68091&smart=true&width=1909&height=984",
+          "imageAlt": "Emergency sewer repair work on Juniper Street in Midtown",
+          "publishedAt": "2026-03-14T16:00:00Z",
           "keywords": [
-            "cycling",
-            "infrastructure",
             "midtown",
-            "peachtree street",
-            "transportation"
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Food & Drink",
-      "stories": [
-        {
-          "id": "decatur-restaurant-inman-park-expansion",
-          "headline": "Beloved Decatur Restaurant Kimball House Announces Inman Park Location",
-          "summary": "Kimball House, the acclaimed Decatur cocktail bar and oyster restaurant, announced plans to open a second location in Inman Park's Krog Street Market expansion. The new outpost is expected to open by fall 2026.",
-          "body": "Kimball House, one of metro Atlanta's most celebrated cocktail bars and restaurants, announced Thursday that it will open a second location in the Krog Street Market expansion along the BeltLine in Inman Park. Co-owners Miles Macquarrie and Jesse Smith said the new 3,200-square-foot space will feature a dedicated raw bar, an expanded cocktail program, and a small plates menu distinct from the Decatur original.\n\nThe expansion comes as Krog Street Market's developer, Asana Partners, continues to build out the eastern wing of the complex with a mix of restaurant and retail tenants. Kimball House will anchor the new section, which is expected to open in phases starting this summer.\n\n\"We've been part of the Decatur community for over a decade, and Inman Park felt like a natural fit for our next chapter,\" Macquarrie said. \"The BeltLine location gives us a chance to reach a different audience while staying true to who we are.\" The original Decatur location will continue to operate as usual.",
-          "neighborhood": "Inman Park",
-          "neighborhoods": [
-            "Inman Park",
-            "Decatur"
-          ],
-          "source": "What Now Atlanta",
-          "sourceUrl": "https://whatnowatlanta.com/kimball-house-inman-park",
-          "imageUrl": null,
-          "imageAlt": "Interior of Kimball House cocktail bar",
-          "publishedAt": "2026-03-14T13:45:00Z",
-          "keywords": [
-            "restaurant",
-            "food",
-            "inman park",
-            "decatur",
-            "krog street market"
-          ]
-        },
-        {
-          "id": "poncey-highland-coffee-roaster-opens",
-          "headline": "New Specialty Coffee Roaster Opens on North Highland Avenue",
-          "summary": "Terminus Roasting Co. opened its doors this week in the former postal annex on North Highland Avenue in Poncey-Highland. The roaster sources beans directly from farms in Colombia, Ethiopia, and Guatemala.",
-          "body": "Terminus Roasting Co. officially opened this week in the renovated former postal annex at 720 North Highland Avenue in Poncey-Highland, bringing a new specialty coffee option to one of Atlanta's most walkable corridors. Founder Elaine Chen, a former Intelligentsia buyer, spent two years building direct relationships with farms in Colombia's Huila region, Ethiopia's Yirgacheffe district, and Guatemala's Antigua Valley.\n\nThe 1,800-square-foot space features a visible roasting operation behind floor-to-ceiling glass, a 14-seat tasting bar, and a small retail section selling bags and brewing equipment. Chen said the cafe will also host weekly cupping sessions open to the public.\n\n\"Atlanta's coffee scene has grown incredibly over the past five years, and I wanted to create a space where people can really connect with where their coffee comes from,\" Chen said. The shop is open daily from 7 a.m. to 5 p.m., with plans to add weekend evening hours this summer.",
-          "neighborhood": "Poncey-Highland",
-          "neighborhoods": [
-            "Poncey-Highland"
-          ],
-          "source": "Rough Draft Atlanta",
-          "sourceUrl": "https://roughdraftatlanta.com/terminus-roasting-poncey-highland",
-          "imageUrl": null,
-          "imageAlt": "Interior of Terminus Roasting Co. specialty coffee shop",
-          "publishedAt": "2026-03-14T09:00:00Z",
-          "keywords": [
-            "coffee",
-            "restaurant",
-            "poncey-highland",
-            "food",
-            "small business"
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Politics & Policy",
-      "stories": [
-        {
-          "id": "westside-zoning-reform-advances",
-          "headline": "City Council Advances Zoning Reforms to Boost Density on Westside",
-          "summary": "Atlanta City Council's zoning committee voted to advance sweeping reforms that would allow mid-rise development along key Westside corridors, including Martin Luther King Jr. Drive and Joseph E. Lowery Boulevard. A full council vote is expected next month.",
-          "body": "Atlanta City Council's Zoning Review Board voted 4-1 Thursday to advance a package of zoning reforms targeting the Westside, which would rezone several major corridors for mid-rise mixed-use development. The changes would affect parcels along Martin Luther King Jr. Drive, Joseph E. Lowery Boulevard, and Ralph David Abernathy Boulevard, allowing buildings up to eight stories where current zoning caps height at three.\n\nThe reforms are part of Mayor Andre Dickens' \"Westside Rising\" initiative, which aims to channel new development to historically underinvested neighborhoods while maintaining affordability protections. All projects over 20 units in the rezoned areas would be required to include at least 20 percent affordable units under the city's inclusionary zoning ordinance.\n\nNot everyone supports the changes. District 3 Councilmember Byron Amos, who voted against the measure in committee, said he worries the reforms move too quickly and could overwhelm infrastructure in neighborhoods already dealing with stormwater and traffic issues. The full council is expected to vote on the package at its April 6 meeting.",
-          "neighborhood": "Westside",
-          "neighborhoods": [
-            "Westside",
-            "West End"
-          ],
-          "source": "Atlanta Civic Circle",
-          "sourceUrl": "https://atlantaciviccircle.org/westside-zoning-reform",
-          "imageUrl": null,
-          "imageAlt": "Atlanta City Council chambers during zoning committee hearing",
-          "publishedAt": "2026-03-14T15:20:00Z",
-          "keywords": [
-            "zoning",
-            "policy",
-            "westside",
-            "development",
-            "city council"
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Arts & Culture",
-      "stories": [
-        {
-          "id": "little-five-points-mural-festival",
-          "headline": "Little Five Points Mural Festival Returns with 20 New Installations",
-          "summary": "The annual Little Five Points Mural Festival kicks off this weekend with 20 new large-scale installations by artists from Atlanta and across the Southeast. Organizers say this year's theme, 'Roots & Routes,' celebrates the neighborhood's countercultural history.",
-          "body": "The Little Five Points Mural Festival returns this weekend for its eighth year, bringing 20 new large-scale murals to buildings, walls, and alleyways across the eclectic Eastside neighborhood. This year's theme, \"Roots & Routes,\" celebrates the neighborhood's long history as a hub for Atlanta's counterculture, music, and independent business scenes.\n\nFeatured artists include Atlanta-based painter Shanequa Gay, whose work explores Black Southern identity, and Nashville muralist Andee Rudloff, known for large-scale botanical installations. Several murals will be painted live throughout the weekend, and organizers have planned guided walking tours, panel discussions on public art policy, and a closing concert at the Star Community Bar on Sunday evening.\n\nFestival director Marin Carpenter said this year's event received a record 340 artist applications. \"Little Five Points has always been Atlanta's most visually expressive neighborhood, and the festival is a chance to keep that tradition alive while bringing in fresh perspectives,\" she said. All events are free and open to the public.",
-          "neighborhood": "Little Five Points",
-          "neighborhoods": [
-            "Little Five Points",
-            "Candler Park"
-          ],
-          "source": "Atlanta INtown Paper",
-          "sourceUrl": "https://www.intownpaper.com/l5p-mural-festival-2026",
-          "imageUrl": null,
-          "imageAlt": "Colorful mural being painted on a building in Little Five Points",
-          "publishedAt": "2026-03-14T08:30:00Z",
-          "keywords": [
-            "arts",
-            "culture",
-            "little five points",
-            "murals",
-            "festival"
-          ]
-        },
-        {
-          "id": "virginia-highland-bookstore-anniversary",
-          "headline": "Virginia-Highland's Independent Bookstore Celebrates 30 Years",
-          "summary": "A Book Above, the beloved independent bookstore on Virginia Avenue, marks its 30th anniversary this month with author readings, community events, and a campaign to expand into an adjacent storefront.",
-          "body": "A Book Above, one of Atlanta's last remaining independent bookstores, is celebrating its 30th anniversary this month with a series of author readings, community events, and a crowdfunding campaign to expand into the adjacent storefront. Owner Margaret Daniels opened the shop in 1996 and has weathered the rise of Amazon, a pandemic, and multiple rent increases to remain a fixture of the Virginia-Highland commercial district.\n\nThe anniversary celebration includes readings from Georgia authors Tayari Jones and Jesmyn Ward, a children's story hour with local illustrators, and a \"blind date with a book\" promotion running through the end of March. Daniels said the events have drawn attention from book lovers across the metro area.\n\nThe expansion campaign, which has raised $87,000 of its $120,000 goal, would add a dedicated children's section, a small cafe, and event space capable of hosting 50 people for readings and signings. \"Thirty years in indie bookselling is practically unheard of,\" Daniels said. \"This neighborhood has kept us alive, and we want to give back by creating an even better gathering space.\"",
-          "neighborhood": "Virginia-Highland",
-          "neighborhoods": [
-            "Virginia-Highland"
-          ],
-          "source": "Decaturish",
-          "sourceUrl": "https://decaturish.com/book-above-30-years",
-          "imageUrl": null,
-          "imageAlt": "Exterior of A Book Above independent bookstore in Virginia-Highland",
-          "publishedAt": "2026-03-14T07:45:00Z",
-          "keywords": [
-            "bookstore",
-            "virginia-highland",
-            "small business",
-            "culture",
-            "anniversary"
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Public Safety",
-      "stories": [
-        {
-          "id": "downtown-pedestrian-safety-plan",
-          "headline": "Downtown Atlanta Launches Pedestrian Safety Overhaul After Rising Crash Numbers",
-          "summary": "The city unveiled a $12 million pedestrian safety plan for Downtown Atlanta that includes new crosswalks, reduced speed limits, and improved lighting along Peachtree Center Avenue and Marietta Street. The plan follows a 25% increase in pedestrian-involved crashes last year.",
-          "body": "Mayor Andre Dickens and Department of Transportation Commissioner Josh Rowan unveiled a $12 million pedestrian safety plan for Downtown Atlanta on Thursday, responding to data showing a 25 percent increase in pedestrian-involved crashes in the district over the past year. The plan targets the most dangerous intersections along Peachtree Center Avenue, Marietta Street, and Andrew Young International Boulevard.\n\nImmediate changes include reducing speed limits to 25 mph on all Downtown streets, installing raised crosswalks at 14 intersections, adding pedestrian-priority signal timing at 22 intersections, and upgrading street lighting along three key corridors. Longer-term improvements include curb extensions, dedicated bus boarding islands, and the removal of slip lanes that allow right-turning vehicles to bypass signals.\n\nCentral Atlanta Progress CEO A.J. Robinson said the plan aligns with the organization's goal of making Downtown Atlanta the most walkable district in the Southeast. \"You can't build a vibrant urban core if people don't feel safe walking to dinner or crossing the street to catch a show,\" Robinson said. Construction on the first phase is expected to begin in June.",
-          "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown",
-            "Castleberry Hill"
-          ],
-          "source": "SaportaReport",
-          "sourceUrl": "https://saportareport.com/downtown-pedestrian-safety",
-          "imageUrl": null,
-          "imageAlt": "Crosswalk improvements planned for Downtown Atlanta",
-          "publishedAt": "2026-03-14T13:00:00Z",
-          "keywords": [
-            "public safety",
-            "pedestrian",
-            "downtown",
-            "infrastructure",
-            "traffic"
+            "juniper street",
+            "sewer",
+            "road closure",
+            "atlanta infrastructure"
           ]
         }
       ]
@@ -306,70 +56,176 @@
       "category": "Community",
       "stories": [
         {
-          "id": "kirkwood-community-garden-expansion",
-          "headline": "Kirkwood Community Garden Doubles in Size with New Land Donation",
-          "summary": "The Kirkwood Community Garden will double its growing space after a local property owner donated an adjacent vacant lot. The expansion will add 40 new plots and a dedicated youth gardening program launching this spring.",
-          "body": "The Kirkwood Community Garden announced a major expansion Thursday after local property owner James Whitfield donated an adjacent half-acre vacant lot on Hosea L. Williams Drive. The donation will allow the garden to double from 45 to 85 individual plots and add dedicated space for a youth gardening education program set to launch in April.\n\nGarden coordinator Priya Patel said the waiting list for plots had grown to over 60 families, making the expansion long overdue. \"This neighborhood has an incredible demand for growing space, and we've had to turn people away for the past three years,\" Patel said. The new plots will be available on a first-come basis to Kirkwood residents, with a sliding-scale annual fee starting at $25.\n\nThe youth program, developed in partnership with Kirkwood Elementary School, will give students weekly hands-on experience with planting, composting, and harvesting. Whitfield, who has owned the lot since 2008, said he decided to donate rather than sell after seeing how the garden has strengthened neighborhood connections.",
-          "neighborhood": "Kirkwood",
+          "id": "atlanta-united-first-win-2026",
+          "headline": "Atlanta United Grabs First Win of the Season, 3-1 Over Philly",
+          "summary": "Mercedes-Benz Stadium was rocking Saturday as Atlanta United finally got their first win of the 2026 season, beating Philadelphia Union 3-1. The supporters section was in full voice all night.",
+          "body": "Atlanta United supporters had something to actually celebrate Saturday night. The Five Stripes picked up their first win of the 2026 MLS season with a convincing 3-1 victory over Philadelphia Union at Mercedes-Benz Stadium.\n\nAfter a rough start to the season that had fans getting restless, the team put together their best 90 minutes of the year. The energy at the Benz was noticeable from kickoff, and the team fed off it.\n\nFor a fanbase that's been spoiled since the 2018 MLS Cup, the early-season struggles were hard to swallow. Saturday's result won't erase the concerns, but it was exactly the kind of performance United needed to stop the bleeding and give the locker room some confidence heading into a tough stretch of fixtures.",
+          "neighborhood": "Downtown",
           "neighborhoods": [
-            "Kirkwood"
+            "Downtown"
           ],
-          "source": "Decaturish",
-          "sourceUrl": "https://decaturish.com/kirkwood-garden-expansion",
-          "imageUrl": null,
-          "imageAlt": "Raised garden beds at the Kirkwood Community Garden",
-          "publishedAt": "2026-03-14T10:45:00Z",
-          "keywords": [
-            "community",
-            "garden",
-            "kirkwood",
-            "youth",
-            "neighborhood"
-          ]
-        },
-        {
-          "id": "east-atlanta-village-street-fest-lineup",
-          "headline": "East Atlanta Strut Announces 2026 Lineup with Headliner Surprise",
-          "summary": "The East Atlanta Strut, one of the city's longest-running neighborhood festivals, revealed its 2026 lineup featuring a surprise headliner from the Atlanta hip-hop scene. The September festival will also debut a new artisan market section.",
-          "body": "Organizers of the East Atlanta Strut announced this year's festival lineup Thursday, headlined by a still-unnamed artist from the Atlanta hip-hop scene who they promise will be \"the biggest name in the Strut's 30-plus-year history.\" The annual neighborhood street festival, scheduled for September 19-20, will stretch along Flat Shoals Avenue from Glenwood to McPherson.\n\nNew for 2026, the festival will include a curated artisan market featuring 50 local makers and craftspeople, a food truck competition judged by local chefs, and an expanded kids' zone with live performances from the Alliance Theatre's youth ensemble. The music lineup across three stages will feature more than 40 acts spanning hip-hop, indie rock, bluegrass, and electronic music.\n\nStrut director Heather Hartley said the festival has grown from a small neighborhood block party to one of Atlanta's signature cultural events while maintaining its community roots. \"The Strut has always been about celebrating what makes East Atlanta Village unique \u2014 the creativity, the diversity, the weirdness,\" Hartley said. Tickets go on sale May 1.",
-          "neighborhood": "East Atlanta Village",
-          "neighborhoods": [
-            "East Atlanta Village",
-            "East Atlanta"
-          ],
-          "source": "Atlanta INtown Paper",
-          "sourceUrl": "https://www.intownpaper.com/east-atlanta-strut-2026",
-          "imageUrl": null,
-          "imageAlt": "Crowds at the East Atlanta Strut street festival",
+          "source": "The Atlanta Voice",
+          "sourceUrl": "https://theatlantavoice.com/atlanta-united-first-win/",
+          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/atl-united-3-14-3-scaled.jpg?fit=1024%2C683&quality=89&ssl=1",
+          "imageAlt": "Atlanta United fans celebrate at Mercedes-Benz Stadium",
           "publishedAt": "2026-03-14T11:00:00Z",
           "keywords": [
-            "festival",
-            "east atlanta village",
-            "music",
-            "community",
-            "events"
+            "atlanta united",
+            "mls",
+            "mercedes-benz stadium",
+            "soccer",
+            "downtown"
           ]
         },
         {
-          "id": "summerhill-tech-hub-opens",
-          "headline": "New Co-Working Tech Hub Opens Steps from Georgia State Stadium",
-          "summary": "Foundry404, a 15,000-square-foot co-working space focused on tech startups, opened this week on Georgia Avenue in Summerhill. The hub offers subsidized memberships for founders from underrepresented backgrounds.",
-          "body": "Foundry404, a new 15,000-square-foot co-working space and startup incubator, opened its doors this week at 404 Georgia Avenue in Summerhill, just steps from Center Parc Stadium. The facility is designed specifically for early-stage tech startups and offers private offices, a prototyping lab, meeting rooms, and a 60-seat event space.\n\nFounded by Georgia State University alumni David Park and Keisha Odom, Foundry404 is backed by a mix of private investment and grants from the Atlanta Committee for Progress. Notably, the hub offers subsidized memberships for founders from underrepresented backgrounds, with rates starting at $150 per month \u2014 roughly half the going rate for comparable spaces in Midtown or Buckhead.\n\n\"Summerhill is one of the most exciting neighborhoods in Atlanta right now, and we wanted to make sure the tech ecosystem here reflects the diversity of the community,\" Odom said. The hub already has 35 founding members, including startups in fintech, health tech, and logistics. Foundry404 will host its first demo day in June.",
-          "neighborhood": "Summerhill",
+          "id": "atlanta-oscar-nominee-sinners",
+          "headline": "Atlanta Hairstylist Scores Oscar Nomination for 'Sinners'",
+          "summary": "'Sinners' pulled a record 16 Oscar nominations, and one of them belongs to Atlanta's own Shunika Terry. She's nominated for her hair and makeup work on the film.",
+          "body": "An Atlanta hairstylist who built her career making people look fabulous is heading to the Oscars. Shunika Terry earned an Academy Award nomination for her hair and makeup work on 'Sinners,' which received a record-breaking 16 nominations this year.\n\nTerry has been a fixture in Atlanta's film and entertainment scene for years, working with clients across the city's booming production industry. Her nomination puts a spotlight on the deep bench of talent that makes Atlanta one of the biggest filmmaking hubs in the country.\n\nThe Oscars ceremony is coming up, and regardless of the outcome, Terry's nomination is a big deal for Atlanta's creative community. The city's film industry generates billions in economic impact, and stories like this remind everyone that the talent behind the camera is just as impressive as what ends up on screen.",
+          "neighborhood": "Downtown",
           "neighborhoods": [
-            "Summerhill"
+            "Downtown"
+          ],
+          "source": "WSB-TV",
+          "sourceUrl": "https://www.wsbtv.com/news/local/sinners-oscar-nominations-atlanta-hairstylist/",
+          "imageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-13-2026%2Ft_ec648c99d18243beae808cab7d56a348_name_WSBTV_web__61_.png?auth=141dfb4255fbb098f746217006481fd05f70d0ac1399f764ed0ce0f07b5b7422&smart=true&width=640&height=360",
+          "imageAlt": "Atlanta hairstylist Shunika Terry, Oscar nominee for Sinners",
+          "publishedAt": "2026-03-14T14:00:00Z",
+          "keywords": [
+            "oscars",
+            "sinners",
+            "atlanta film",
+            "hairstylist",
+            "academy awards"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Politics & Policy",
+      "stories": [
+        {
+          "id": "atlanta-mayor-firefighter-union-contract",
+          "headline": "Mayor Throws Punches Instead of Signing Firefighter Contract",
+          "summary": "Atlanta Civic Circle reports the mayor is getting into public fights rather than finalizing the firefighter union contract. The union has been waiting on the deal for months.",
+          "body": "Instead of putting pen to paper on the long-awaited firefighter union contract, Atlanta's mayor spent the week slinging mud at political opponents. Atlanta Civic Circle has the breakdown of how the negotiations have stalled while City Hall focuses on other battles.\n\nThe firefighters union has been at the table for months trying to lock down better pay and working conditions. Members say they're frustrated by the delays, especially as the city continues to struggle with recruitment and retention in the department.\n\nThe optics aren't great. While other cities are competing for experienced firefighters with better compensation packages, Atlanta's deal sits unsigned. The union says they're ready to finalize things whenever the mayor decides to show up.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "Atlanta Civic Circle",
+          "sourceUrl": "https://atlantaciviccircle.org/mayor-firefighter-union/",
+          "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/PHOTO-2026-03-10-13-43-06-e1773508038487-1024x796.jpg",
+          "imageAlt": "Atlanta mayor and firefighter union contract dispute",
+          "publishedAt": "2026-03-14T10:00:00Z",
+          "keywords": [
+            "atlanta mayor",
+            "firefighter union",
+            "city hall",
+            "politics",
+            "labor"
+          ]
+        },
+        {
+          "id": "georgia-medical-cannabis-bill-passes",
+          "headline": "Georgia House Passes Bill to Open Up Medical Cannabis Access",
+          "summary": "The Georgia House approved a bill aimed at modernizing the state's medical cannabis program and making it easier for patients to access. It now heads to the governor.",
+          "body": "The Georgia House passed a bill this week that would make the state's medical cannabis program actually work for patients. The legislation, sponsored by Augusta Republican Rep. Mark Newton, aims to cut through the red tape that's kept Georgia's program from delivering on its promise.\n\nGeorgia legalized medical cannabis oil back in 2015 but the rollout has been painfully slow. Patients with qualifying conditions have struggled to access products through the limited number of licensed dispensaries. This bill would expand access points and streamline the licensing process.\n\nThe bill now heads to the governor's desk. Supporters say it's long overdue, pointing out that neighboring states have lapped Georgia in building functional medical cannabis programs. Whether the governor signs it remains to be seen, but the bipartisan House vote gives advocates reason to be optimistic.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "Georgia Recorder",
+          "sourceUrl": "https://georgiarecorder.com/georgia-medical-cannabis-bill/",
+          "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2023/03/P1020722-1024x769.jpg",
+          "imageAlt": "Georgia House chamber during medical cannabis vote",
+          "publishedAt": "2026-03-14T15:00:00Z",
+          "keywords": [
+            "georgia legislature",
+            "medical cannabis",
+            "state politics",
+            "healthcare"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Public Safety",
+      "stories": [
+        {
+          "id": "usps-workers-stealing-mail-atlanta",
+          "headline": "Former USPS Workers Plead Guilty to Stealing Cash from Atlanta Mail",
+          "summary": "Two former postal workers admitted in federal court to swiping cash and gift cards from mail at an Atlanta USPS facility. Not a great look for the post office.",
+          "body": "Two former U.S. Postal Service employees pleaded guilty in federal court this week after admitting they stole cash and gift cards from the mail at an Atlanta facility. The thefts happened over a period of months before investigators caught on.\n\nThe case is a reminder of why your grandma's birthday card sometimes arrives empty. Federal prosecutors say the pair targeted letters and packages that looked like they might contain cash or gift cards. The scheme was pretty low-tech but effective enough to go undetected for a while.\n\nBoth defendants are awaiting sentencing. Postal inspectors say they take mail theft seriously and encourage anyone who suspects their mail has been tampered with to file a report.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "WSB-TV",
+          "sourceUrl": "https://www.wsbtv.com/news/local/former-usps-workers-stealing-mail-atlanta/",
+          "imageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-14-2026%2Ft_63e37d64c8074168bf7e67044a787c94_name_Mail_Dump_Rendered.jpg?auth=9b888af1e4b370604ee075ae540a6dea5b59187a73e82877dba37d5ce0320850&smart=true&width=1920&height=1080",
+          "imageAlt": "USPS facility in Atlanta",
+          "publishedAt": "2026-03-14T13:00:00Z",
+          "keywords": [
+            "usps",
+            "mail theft",
+            "federal court",
+            "atlanta crime",
+            "postal service"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Food & Drink",
+      "stories": [
+        {
+          "id": "georgia-grown-executive-chefs-2026",
+          "headline": "Nine Georgia Chefs Named to 2026 Georgia Grown Executive Chef Class",
+          "summary": "The state just named nine chefs to its 2026 Georgia Grown Executive Chef class. The ceremony happened at the state capitol, celebrating chefs who champion locally sourced ingredients.",
+          "body": "Nine chefs from across Georgia were inducted into the 2026 Georgia Grown Executive Chef class at a ceremony at the state capitol on March 11. The program highlights chefs who go out of their way to source ingredients from Georgia farms and producers.\n\nThe Georgia Grown program connects the state's agricultural producers directly with the restaurant industry, and the Executive Chef designation is basically a stamp of approval that these kitchens are putting Georgia ingredients front and center on their menus.\n\nFor diners, it's a useful signal. If you want to eat food that actually comes from Georgia rather than a Sysco truck, look for these chefs and their restaurants. The full list of 2026 honorees is on the Georgia Grown website.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
           ],
           "source": "Rough Draft Atlanta",
-          "sourceUrl": "https://roughdraftatlanta.com/foundry404-summerhill",
-          "imageUrl": null,
-          "imageAlt": "Interior of Foundry404 co-working space in Summerhill",
-          "publishedAt": "2026-03-14T08:00:00Z",
+          "sourceUrl": "https://roughdraftatlanta.com/georgia-grown-executive-chefs-2026/",
+          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/georgiagrown2026chefs-brandonamato-600x520.jpg",
+          "imageAlt": "Georgia Grown Executive Chef ceremony at the state capitol",
+          "publishedAt": "2026-03-14T09:00:00Z",
           "keywords": [
-            "tech",
-            "startup",
-            "summerhill",
-            "coworking",
-            "business"
+            "georgia grown",
+            "chefs",
+            "local food",
+            "restaurants",
+            "farm to table"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Arts & Culture",
+      "stories": [
+        {
+          "id": "alliance-theatre-kendeda-playwriting",
+          "headline": "Alliance Theatre Reveals Kendeda Playwriting Prize Winner and Finalists",
+          "summary": "The Alliance Theatre announced the winner and finalists for their Kendeda Playwriting Prize. The winning play will get a full production at the Midtown theater.",
+          "body": "The Alliance Theatre announced the winner of its Kendeda Playwriting Prize this week, along with the finalists who made the short list. The prize is one of the most prestigious new play awards in the country, and winning it means a full production at the Alliance's Midtown campus.\n\nThe Kendeda Prize has been a launching pad for plays that go on to major productions across the country. Previous winners have landed on Broadway and at regional theaters nationwide. For the Alliance, it's a way to position Atlanta as a city that develops new work rather than just importing it.\n\nThe winning play will premiere during the Alliance's upcoming season. Details on the production timeline and casting are expected in the coming weeks.",
+          "neighborhood": "Midtown",
+          "neighborhoods": [
+            "Midtown"
+          ],
+          "source": "Rough Draft Atlanta",
+          "sourceUrl": "https://roughdraftatlanta.com/alliance-theatre-kendeda/",
+          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Headshot-JuCoby-600x400.jpg",
+          "imageAlt": "Alliance Theatre in Midtown Atlanta",
+          "publishedAt": "2026-03-14T08:30:00Z",
+          "keywords": [
+            "alliance theatre",
+            "kendeda prize",
+            "playwriting",
+            "midtown",
+            "theater"
           ]
         }
       ]
@@ -378,119 +234,38 @@
       "category": "Business",
       "stories": [
         {
-          "id": "atlantic-station-retail-overhaul",
-          "headline": "Atlantic Station Unveils $45M Retail Overhaul and New Tenant Lineup",
-          "summary": "Atlantic Station's owners announced a $45 million renovation of the complex's retail core, including new tenants, redesigned public spaces, and a year-round farmers market. The overhaul aims to reposition the mixed-use development for its next decade.",
-          "body": "Hines, the owner and operator of Atlantic Station, unveiled a $45 million renovation plan Thursday that will reshape the complex's 300,000-square-foot retail core over the next 18 months. The overhaul includes a redesigned central plaza, new pedestrian pathways, upgraded landscaping, and the addition of a year-round indoor-outdoor farmers market.\n\nNew tenants announced as part of the refresh include a flagship Sweetgreen location, a two-story REI outpost, a boutique cinema concept from Alamo Drafthouse, and a food hall featuring eight local restaurant concepts. The renovation will also add 200 new residential units in a tower above the existing retail, designed by architecture firm Perkins&Will.\n\nAtlantic Station general manager Rachel Torres said the project reflects a fundamental shift in how mixed-use developments need to operate. \"People don't come to places like this just to shop anymore \u2014 they come for experiences, community, and convenience,\" Torres said. \"This renovation is about creating a neighborhood center, not a shopping center.\" Construction on the first phase begins in May.",
-          "neighborhood": "Atlantic Station",
+          "id": "tulsa-welding-school-atlanta-campus",
+          "headline": "Tulsa Welding School Opens Atlanta Campus as Trade Jobs Boom",
+          "summary": "With roughly 400,000 skilled trade jobs sitting unfilled nationally, Tulsa Welding School just opened an Atlanta campus. The trades shortage is projected to hit 2 million by 2033.",
+          "body": "Tulsa Welding School has opened an Atlanta campus, betting on the metro area's growing demand for skilled trades workers. The school says roughly 400,000 skilled trade positions are unfilled across the country right now, and that number could climb to nearly 2 million by 2033.\n\nThe Atlanta campus will offer welding and HVAC programs, targeting students who want to skip the four-year degree path and get into high-paying work faster. Starting salaries for certified welders in the Atlanta metro routinely top $50,000, with experienced welders earning significantly more.\n\nThe opening reflects a broader shift in how people think about career paths. With college costs continuing to climb and student debt weighing down a generation, trade schools are having a moment. Atlanta's construction boom and infrastructure needs make it an obvious market.",
+          "neighborhood": "Downtown",
           "neighborhoods": [
-            "Atlantic Station",
-            "West Midtown"
+            "Downtown"
           ],
-          "source": "Axios Atlanta",
-          "sourceUrl": "https://www.axios.com/local/atlanta/atlantic-station-renovation",
-          "imageUrl": null,
-          "imageAlt": "Rendering of renovated Atlantic Station retail plaza",
-          "publishedAt": "2026-03-14T14:00:00Z",
+          "source": "The Atlanta Voice",
+          "sourceUrl": "https://theatlantavoice.com/tulsa-welding-school-atlanta/",
+          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/Tulsa-Wedling-School-exterior-2026.jpeg?fit=768%2C1024&quality=89&ssl=1",
+          "imageAlt": "Tulsa Welding School Atlanta campus",
+          "publishedAt": "2026-03-14T12:00:00Z",
           "keywords": [
-            "business",
-            "retail",
-            "atlantic station",
-            "renovation",
-            "development"
+            "welding school",
+            "trades",
+            "workforce",
+            "education",
+            "atlanta jobs"
           ]
         }
       ]
     }
   ],
   "neighborhoods": {
-    "Old Fourth Ward": {
-      "storyCount": 1,
-      "topStory": "old-fourth-ward-beltline-towers-break-ground"
-    },
-    "West Midtown": {
-      "storyCount": 2,
-      "topStory": "west-midtown-warehouse-conversion-approved"
-    },
-    "Grant Park": {
-      "storyCount": 1,
-      "topStory": "grant-park-affordable-housing-proposal"
-    },
-    "Druid Hills": {
-      "storyCount": 1,
-      "topStory": "marta-clifton-corridor-timeline"
-    },
     "Midtown": {
-      "storyCount": 1,
-      "topStory": "peachtree-street-bike-lanes-midtown"
-    },
-    "Inman Park": {
-      "storyCount": 1,
-      "topStory": "decatur-restaurant-inman-park-expansion"
-    },
-    "Decatur": {
-      "storyCount": 1,
-      "topStory": "decatur-restaurant-inman-park-expansion"
-    },
-    "Poncey-Highland": {
-      "storyCount": 1,
-      "topStory": "poncey-highland-coffee-roaster-opens"
-    },
-    "Westside": {
-      "storyCount": 1,
-      "topStory": "westside-zoning-reform-advances"
-    },
-    "Little Five Points": {
-      "storyCount": 1,
-      "topStory": "little-five-points-mural-festival"
-    },
-    "Virginia-Highland": {
-      "storyCount": 1,
-      "topStory": "virginia-highland-bookstore-anniversary"
+      "storyCount": 2,
+      "topStory": "midtown-juniper-street-sewer-closure"
     },
     "Downtown": {
-      "storyCount": 1,
-      "topStory": "downtown-pedestrian-safety-plan"
-    },
-    "Kirkwood": {
-      "storyCount": 1,
-      "topStory": "kirkwood-community-garden-expansion"
-    },
-    "East Atlanta Village": {
-      "storyCount": 1,
-      "topStory": "east-atlanta-village-street-fest-lineup"
-    },
-    "Summerhill": {
-      "storyCount": 1,
-      "topStory": "summerhill-tech-hub-opens"
-    },
-    "Atlantic Station": {
-      "storyCount": 1,
-      "topStory": "atlantic-station-retail-overhaul"
-    },
-    "Morningside": {
-      "storyCount": 1,
-      "topStory": "marta-clifton-corridor-timeline"
-    },
-    "Ansley Park": {
-      "storyCount": 1,
-      "topStory": "peachtree-street-bike-lanes-midtown"
-    },
-    "West End": {
-      "storyCount": 1,
-      "topStory": "westside-zoning-reform-advances"
-    },
-    "Candler Park": {
-      "storyCount": 1,
-      "topStory": "little-five-points-mural-festival"
-    },
-    "Castleberry Hill": {
-      "storyCount": 1,
-      "topStory": "downtown-pedestrian-safety-plan"
-    },
-    "East Atlanta": {
-      "storyCount": 1,
-      "topStory": "east-atlanta-village-street-fest-lineup"
+      "storyCount": 7,
+      "topStory": "atlanta-united-first-win-2026"
     }
   }
 }
