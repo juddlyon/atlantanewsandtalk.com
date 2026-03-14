@@ -28,15 +28,15 @@ const digest = getDigest();
 const dateDisplay = formatDate(digest.date);
 
 const navItems = [
-  { label: 'hoods', href: '/neighborhoods' },
-  { label: 'development', href: '/#development-housing' },
-  { label: 'transit', href: '/#transit-infrastructure' },
-  { label: 'food', href: '/#food-drink' },
-  { label: 'culture', href: '/#arts-culture' },
-  { label: 'politics', href: '/#politics-policy' },
-  { label: 'safety', href: '/#public-safety' },
-  { label: 'community', href: '/#community' },
-  { label: 'biz', href: '/#business' },
+  { label: 'Neighborhoods', href: '/neighborhoods' },
+  { label: 'Development', href: '/#development-housing' },
+  { label: 'Transit', href: '/#transit-infrastructure' },
+  { label: 'Food', href: '/#food-drink' },
+  { label: 'Culture', href: '/#arts-culture' },
+  { label: 'Politics', href: '/#politics-policy' },
+  { label: 'Safety', href: '/#public-safety' },
+  { label: 'Community', href: '/#community' },
+  { label: 'Business', href: '/#business' },
 ];
 ---
 
@@ -61,8 +61,9 @@ const navItems = [
     <header class="site-header">
       <div class="header-top">
         <div class="site-brand">
+          <div class="site-kicker">Atlanta daily signal</div>
           <a href="/" class="site-name">atlanta news <span class="amp">&</span> talk</a>
-          <div class="site-tagline">itp neighborhood news, daily</div>
+          <div class="site-tagline">A city-first briefing on neighborhoods, growth, transit, food, culture, and the stories shaping Atlanta right now.</div>
         </div>
         <div class="header-date">{dateDisplay}</div>
       </div>
@@ -83,13 +84,12 @@ const navItems = [
         <div class="footer-brand">
           <a href="/" class="site-name">atlanta news <span class="amp">&</span> talk</a>
           <p class="footer-description">
-            We read all the local Atlanta blogs and newsrooms every morning
-            so you can find out what's happening in your neighborhood without
-            opening 15 tabs. You're welcome.
+            Atlanta changes block by block. This site turns the daily flood of local reporting
+            into a single, readable briefing for people who actually live here.
           </p>
         </div>
         <div class="footer-sources">
-          <h4>we read these so you don't have to</h4>
+          <h4>sources in rotation</h4>
           <div class="footer-source-list">
             Decaturish · SaportaReport · Urbanize Atlanta ·
             Atlanta Civic Circle · Axios Atlanta · What Now Atlanta ·
@@ -132,8 +132,7 @@ const navItems = [
         </div>
       </div>
       <div class="footer-bottom">
-        © {new Date().getFullYear()} atlanta news & talk · all original reporting
-        belongs to the respective publishers · we just connect the dots
+        © {new Date().getFullYear()} atlanta news & talk. Original reporting remains with the respective publishers.
       </div>
     </footer>
   </body>

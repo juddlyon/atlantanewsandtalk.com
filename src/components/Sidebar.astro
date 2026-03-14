@@ -1,5 +1,5 @@
 ---
-import { getAllNeighborhoods, getNeighborhoodData, getAllStories, slugify, getNeighborhoodColor } from '../lib/helpers';
+import { getNeighborhoodData, getAllStories, slugify, getNeighborhoodColor } from '../lib/helpers';
 
 const neighborhoodData = getNeighborhoodData();
 const allStories = getAllStories();
@@ -12,8 +12,8 @@ const trending = allStories.slice(0, 5);
 ---
 
 <aside class="sidebar">
-  <div class="sidebar-box">
-    <h3 class="box-title">your hood</h3>
+  <div class="sidebar-box sidebar-pulse">
+    <h3 class="box-title">Neighborhood pulse</h3>
     <div class="hood-scroll">
       {topNeighborhoods.map(([name, data]) => (
         <a
@@ -35,11 +35,11 @@ const trending = allStories.slice(0, 5);
         </a>
       ))}
     </div>
-    <a href="/neighborhoods" class="box-more">all neighborhoods →</a>
+    <a href="/neighborhoods" class="box-more">Browse all neighborhoods</a>
   </div>
 
   <div class="sidebar-box">
-    <h3 class="box-title">most read</h3>
+    <h3 class="box-title">Today’s watchlist</h3>
     <ol class="trending">
       {trending.map((story, i) => (
         <li class="trending-row">
@@ -53,108 +53,117 @@ const trending = allStories.slice(0, 5);
     </ol>
   </div>
 
-  <div class="sidebar-box sidebar-about">
-    <h3 class="box-title">what is this?</h3>
+  <div class="sidebar-box">
+    <h3 class="box-title">How it works</h3>
     <p class="about-text">
-      We're just some ITP folks who got tired of missing neighborhood news buried
-      in 47 different websites. So we read them all and tell you what's up. Updated
-      every morning with a fresh coffee.
+      The site tracks local outlets, neighborhood publications, and city coverage, then distills the strongest stories into a daily Atlanta briefing.
     </p>
-    <p class="about-text" style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--color-text-soft);">
-      Got a tip? Know a blog we should be reading?
-      <a href="mailto:hey@atlantanewsandtalk.com" style="text-decoration: underline wavy; text-underline-offset: 3px;">holler at us</a>.
+    <p class="about-text sidebar-note">
+      Have a source we should follow or a correction to send?
+      <a href="mailto:hey@atlantanewsandtalk.com">Email the desk</a>.
     </p>
   </div>
 </aside>
 
 <style>
   .sidebar {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 1.25rem;
   }
 
   .sidebar-box {
-    background: var(--color-surface);
-    border: 2px solid var(--color-border);
-    border-radius: var(--radius);
-    padding: 1rem;
+    padding: 1.05rem;
+    border: 1px solid rgba(19, 39, 79, 0.1);
+    border-radius: calc(var(--radius) - 4px);
+    background: rgba(255, 253, 248, 0.82);
+    box-shadow: var(--shadow-md);
+  }
+
+  .sidebar-pulse {
+    background:
+      linear-gradient(145deg, rgba(19, 39, 79, 0.98), rgba(19, 39, 79, 0.88)),
+      linear-gradient(135deg, rgba(206, 17, 65, 0.18), transparent 55%);
   }
 
   .box-title {
-    font-family: var(--font-display);
-    font-size: 0.85rem;
-    font-weight: 900;
-    color: var(--color-ink);
-    margin: 0 0 0.75rem;
-    padding-bottom: 0.4rem;
-    border-bottom: 2px solid var(--color-ink);
-    text-transform: lowercase;
-    font-variation-settings: "WONK" 1;
+    margin: 0 0 0.85rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-text-soft);
   }
 
-  /* Mobile: horizontal scroll pills */
+  .sidebar-pulse .box-title {
+    color: rgba(255, 247, 238, 0.62);
+  }
+
   .hood-scroll {
     display: flex;
-    gap: 0.4rem;
+    gap: 0.45rem;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     padding-bottom: 0.25rem;
   }
 
-  .hood-scroll::-webkit-scrollbar { display: none; }
+  .hood-scroll::-webkit-scrollbar {
+    display: none;
+  }
 
   .hood-pill {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 0.3rem;
-    padding: 0.4rem 0.7rem;
-    min-height: 34px;
-    background: var(--pill-bg);
-    color: #fff;
+    gap: 0.4rem;
+    min-height: 2.4rem;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid rgba(255, 248, 240, 0.16);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 0 0 999px rgba(255, 255, 255, 0.06);
+    color: #fff7ee;
     font-family: var(--font-mono);
-    font-size: 0.65rem;
+    font-size: 0.66rem;
     font-weight: 600;
-    white-space: nowrap;
-    border-radius: 20px;
-    text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
-    transition: transform 0.1s;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    letter-spacing: 0.12em;
+    white-space: nowrap;
   }
 
-  .hood-pill:hover { color: #fff; }
-  .hood-pill:active { transform: scale(0.96); }
+  .hood-pill:hover {
+    color: #fff;
+    transform: translateY(-1px);
+  }
 
   .pill-n {
-    opacity: 0.7;
-    font-size: 0.55rem;
+    opacity: 0.68;
+    font-size: 0.58rem;
   }
 
-  /* Desktop: vertical list */
   .hood-list-desktop {
     display: none;
-    flex-direction: column;
+    gap: 0.2rem;
+    margin-top: 0.5rem;
   }
 
   .hood-row {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    min-height: 2.35rem;
     padding: 0.45rem 0;
-    min-height: 36px;
-    text-decoration: none;
-    color: var(--color-text);
-    font-size: 0.85rem;
+    color: #fff7ee;
+    font-size: 0.84rem;
     font-weight: 500;
-    border-bottom: 1px solid var(--color-border);
-    transition: color 0.15s;
+    border-bottom: 1px solid rgba(255, 248, 240, 0.1);
   }
 
-  .hood-row:last-child { border-bottom: none; }
-  .hood-row:hover { color: var(--color-rust); }
+  .hood-row:last-child {
+    border-bottom: none;
+  }
+
+  .hood-row:hover {
+    color: #fff;
+  }
 
   .hood-dot {
     width: 8px;
@@ -163,91 +172,112 @@ const trending = allStories.slice(0, 5);
     flex-shrink: 0;
   }
 
-  .hood-name { flex: 1; }
+  .hood-name {
+    flex: 1;
+  }
 
   .hood-n {
-    font-family: var(--font-mono);
-    font-size: 0.65rem;
-    color: var(--color-text-soft);
-    background: var(--color-border);
     padding: 2px 7px;
     border-radius: 10px;
+    background: rgba(255, 248, 240, 0.12);
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: rgba(255, 247, 238, 0.8);
   }
 
   .box-more {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    margin-top: 0.6rem;
+    margin-top: 0.8rem;
+    min-height: 2.2rem;
+    color: rgba(255, 247, 238, 0.92);
     font-family: var(--font-mono);
     font-size: 0.72rem;
     font-weight: 600;
-    color: var(--color-rust);
-    text-decoration: none;
-    min-height: 36px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
   }
 
-  .box-more:hover { color: var(--color-rust-dark); }
+  .box-more:hover {
+    color: #fff;
+  }
 
-  /* Trending */
   .trending {
+    display: grid;
+    gap: 0.8rem;
     list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
   }
 
   .trending-row {
     display: flex;
-    gap: 0.6rem;
+    gap: 0.7rem;
     align-items: flex-start;
   }
 
   .trending-i {
-    font-family: var(--font-display);
-    font-size: 1.4rem;
-    font-weight: 900;
-    color: var(--color-border);
-    line-height: 1;
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: rgba(19, 39, 79, 0.08);
+    color: var(--color-blue);
+    font-family: var(--font-mono);
+    font-size: 0.74rem;
+    font-weight: 600;
     flex-shrink: 0;
-    width: 1.5rem;
-    font-variation-settings: "WONK" 1;
   }
 
   .trending-hed {
-    font-family: var(--font-display);
-    font-size: 0.85rem;
-    font-weight: 700;
-    line-height: 1.25;
-    color: var(--color-ink);
-    text-decoration: none;
     display: block;
-    -webkit-tap-highlight-color: transparent;
-    font-variation-settings: "WONK" 1;
+    color: var(--color-ink);
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    line-height: 1;
+    letter-spacing: -0.03em;
   }
 
-  .trending-hed:hover { color: var(--color-rust); }
+  .trending-hed:hover {
+    color: var(--color-red);
+  }
 
   .trending-hood {
-    font-family: var(--font-mono);
-    font-size: 0.6rem;
-    color: var(--color-text-soft);
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
     display: block;
-    margin-top: 2px;
+    margin-top: 0.25rem;
+    color: var(--color-text-soft);
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
   }
 
   .about-text {
-    font-size: 0.85rem;
-    line-height: 1.6;
-    color: var(--color-text);
-    margin: 0;
+    font-size: 0.93rem;
+    line-height: 1.7;
+    color: var(--color-text-soft);
   }
 
-  @media (min-width: 960px) {
-    .hood-scroll { display: none; }
-    .hood-list-desktop { display: flex; }
-    .sidebar-box { padding: 1.25rem; }
+  .sidebar-note {
+    margin-top: 0.7rem;
+    font-size: 0.84rem;
+  }
+
+  .sidebar-note a {
+    color: var(--color-red);
+  }
+
+  @media (min-width: 980px) {
+    .sidebar {
+      position: sticky;
+      top: 8rem;
+    }
+
+    .hood-scroll {
+      display: none;
+    }
+
+    .hood-list-desktop {
+      display: grid;
+    }
   }
 </style>
