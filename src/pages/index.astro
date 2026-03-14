@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import digest from '../data/digest-latest.json';
+
+function formatDate(dateStr: string): string {
+  const d = new Date(dateStr + 'T12:00:00');
+  return d.toLocaleDateString('en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+}
+---
+
+<Base>
+  <div class="digest-header">
+    <div class="digest-date">{formatDate(digest.date)}</div>
+    <p class="digest-summary">{digest.summary}</p>
+  </div>
+
+  {digest.sections.length > 0 ? (
+    digest.sections.map((section) => (
+      <section class="section">
+        <h2 class="section-title">{section.category}</h2>
+        {section.stories.map((story) => (
+          <article class="story">
+            <h3 class="story-headline">
+              <a href={story.link} target="_blank" rel="noopener noreferrer">
+                {story.headline}
+              </a>
+            </h3>
+            <div class="story-meta">
+              {story.neighborhood && (
+                <span class="story-neighborhood">{story.neighborhood}</span>
+              )}
+              <span class="story-source">{story.source}</span>
+            </div>
+            <p class="story-summary">{story.summary}</p>
+          </article>
+        ))}
+      </section>
+    ))
+  ) : (
+    <div class="empty-state">
+      <h2>No stories yet today</h2>
+      <p>Check back later — the daily digest runs each evening.</p>
+    </div>
+  )}
+</Base>

@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "name": "Decaturish",
+      "url": "https://decaturish.com/feed/",
+      "neighborhood": "Decatur",
+      "type": "rss"
+    },
+    {
+      "name": "SaportaReport",
+      "url": "https://saportareport.com/feed/",
+      "neighborhood": "Atlanta",
+      "type": "rss"
+    },
+    {
+      "name": "Urbanize Atlanta",
+      "url": "https://atlanta.urbanize.city/feed",
+      "neighborhood": "Atlanta",
+      "type": "rss"
+    },
+    {
+      "name": "Atlanta Civic Circle",
+      "url": "https://atlantaciviccircle.org/feed/",
+      "neighborhood": "Atlanta",
+      "type": "rss"
+    },
+    {
+      "name": "Axios Atlanta",
+      "url": "https://www.axios.com/local/atlanta/feed",
+      "neighborhood": "Atlanta",
+      "type": "rss"
+    },
+    {
+      "name": "What Now Atlanta",
+      "url": "https://whatnowatlanta.com/feed/",
+      "neighborhood": "Atlanta",
+      "type": "rss"
+    },
+    {
+      "name": "Atlanta INtown Paper",
+      "url": "https://www.intownpaper.com/feed/",
+      "neighborhood": "Intown",
+      "type": "rss"
+    },
+    {
+      "name": "Rough Draft Atlanta",
+      "url": "https://roughdraftatlanta.com/feed/",
+      "neighborhood": "Atlanta",
+      "type": "rss"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-03-14",
+  "summary": "Welcome to Atlanta News & Talk. This site automatically aggregates and summarizes hyperlocal ITP Atlanta news daily. Check back tomorrow for the first automated digest.",
+  "sections": [
+    {
+      "category": "Community",
+      "stories": [
+        {
+          "headline": "Atlanta News & Talk launches",
+          "summary": "A new hyperlocal news aggregator focused on Inside The Perimeter neighborhoods goes live. The site pulls from local sources like Decaturish, SaportaReport, Urbanize Atlanta, and more, delivering daily digests.",
+          "neighborhood": "ITP Atlanta",
+          "source": "Atlanta News & Talk",
+          "link": "/",
+          "originalTitle": "Site Launch"
+        }
+      ]
+    }
+  ]
+}
