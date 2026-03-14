@@ -111,6 +111,8 @@ RULES:
 - topStory should also appear in its section
 - Preserve image URLs from source data
 - NEVER use the word "AI" or reference automation or algorithms anywhere
+- NEVER use em dashes (—). Use periods, commas, or parentheses instead. Em dashes are a dead giveaway.
+- Don't use "delves", "tapestry", "vibrant", "bustling", "nestled", or other overused filler words
 - Include 10-20 stories total, prioritizing quality and ITP relevance
 - Each story's id should be a URL-friendly slug
 

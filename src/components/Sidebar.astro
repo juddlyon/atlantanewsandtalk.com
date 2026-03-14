@@ -1,8 +1,6 @@
 ---
-import NeighborhoodTag from './NeighborhoodTag.astro';
-import { getAllNeighborhoods, getNeighborhoodData, getAllStories, slugify } from '../lib/helpers';
+import { getAllNeighborhoods, getNeighborhoodData, getAllStories, slugify, getNeighborhoodColor } from '../lib/helpers';
 
-const neighborhoods = getAllNeighborhoods();
 const neighborhoodData = getNeighborhoodData();
 const allStories = getAllStories();
 
@@ -14,51 +12,57 @@ const trending = allStories.slice(0, 5);
 ---
 
 <aside class="sidebar">
-  <!-- Neighborhoods — horizontal scroll on mobile, vertical list on desktop -->
-  <div class="sidebar-section sidebar-neighborhoods">
-    <h3 class="sidebar-title">Neighborhoods</h3>
-    <div class="neighborhood-scroll">
+  <div class="sidebar-box">
+    <h3 class="box-title">your hood</h3>
+    <div class="hood-scroll">
       {topNeighborhoods.map(([name, data]) => (
-        <a href={`/neighborhoods/${slugify(name)}`} class="neighborhood-chip">
+        <a
+          href={`/neighborhoods/${slugify(name)}`}
+          class="hood-pill"
+          style={`--pill-bg: ${getNeighborhoodColor(name)};`}
+        >
           {name}
-          <span class="chip-count">{data.storyCount}</span>
+          <span class="pill-n">{data.storyCount}</span>
         </a>
       ))}
     </div>
-    <div class="neighborhood-list-desktop">
+    <div class="hood-list-desktop">
       {topNeighborhoods.map(([name, data]) => (
-        <a href={`/neighborhoods/${slugify(name)}`} class="neighborhood-link">
-          <span class="neighborhood-name">{name}</span>
-          <span class="neighborhood-count">{data.storyCount}</span>
+        <a href={`/neighborhoods/${slugify(name)}`} class="hood-row">
+          <span class="hood-dot" style={`background: ${getNeighborhoodColor(name)};`}></span>
+          <span class="hood-name">{name}</span>
+          <span class="hood-n">{data.storyCount}</span>
         </a>
       ))}
     </div>
-    <a href="/neighborhoods" class="sidebar-see-all">All neighborhoods →</a>
+    <a href="/neighborhoods" class="box-more">all neighborhoods →</a>
   </div>
 
-  <!-- Trending -->
-  <div class="sidebar-section">
-    <h3 class="sidebar-title">Trending</h3>
-    <ol class="trending-list">
+  <div class="sidebar-box">
+    <h3 class="box-title">most read</h3>
+    <ol class="trending">
       {trending.map((story, i) => (
-        <li class="trending-item">
-          <span class="trending-number">{String(i + 1).padStart(2, '0')}</span>
-          <div class="trending-content">
-            <a href={`/${story.id}`} class="trending-headline">{story.headline}</a>
-            <span class="trending-neighborhood">{story.neighborhood}</span>
+        <li class="trending-row">
+          <span class="trending-i">{i + 1}</span>
+          <div>
+            <a href={`/${story.id}`} class="trending-hed">{story.headline}</a>
+            <span class="trending-hood">{story.neighborhood}</span>
           </div>
         </li>
       ))}
     </ol>
   </div>
 
-  <!-- About -->
-  <div class="sidebar-section sidebar-about">
-    <h3 class="sidebar-title">About</h3>
-    <p class="sidebar-text">
-      Your daily dose of what's happening Inside The Perimeter. We read the local
-      blogs, papers, and newsrooms so you don't have to. Neighborhood-level coverage
-      from the people who actually live here.
+  <div class="sidebar-box sidebar-about">
+    <h3 class="box-title">what is this?</h3>
+    <p class="about-text">
+      We're just some ITP folks who got tired of missing neighborhood news buried
+      in 47 different websites. So we read them all and tell you what's up. Updated
+      every morning with a fresh coffee.
+    </p>
+    <p class="about-text" style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--color-text-soft);">
+      Got a tip? Know a blog we should be reading?
+      <a href="mailto:hey@atlantanewsandtalk.com" style="text-decoration: underline wavy; text-underline-offset: 3px;">holler at us</a>.
     </p>
   </div>
 </aside>
@@ -70,177 +74,180 @@ const trending = allStories.slice(0, 5);
     gap: 1.25rem;
   }
 
-  .sidebar-section {
+  .sidebar-box {
     background: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: 6px;
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius);
     padding: 1rem;
   }
 
-  .sidebar-title {
+  .box-title {
     font-family: var(--font-display);
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--color-navy);
+    font-size: 0.85rem;
+    font-weight: 900;
+    color: var(--color-ink);
     margin: 0 0 0.75rem;
     padding-bottom: 0.4rem;
-    border-bottom: 2px solid var(--color-accent);
+    border-bottom: 2px solid var(--color-ink);
+    text-transform: lowercase;
+    font-variation-settings: "WONK" 1;
   }
 
-  /* Mobile: horizontal scrollable chips */
-  .neighborhood-scroll {
+  /* Mobile: horizontal scroll pills */
+  .hood-scroll {
     display: flex;
-    gap: 0.5rem;
+    gap: 0.4rem;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     padding-bottom: 0.25rem;
   }
 
-  .neighborhood-scroll::-webkit-scrollbar { display: none; }
+  .hood-scroll::-webkit-scrollbar { display: none; }
 
-  .neighborhood-chip {
+  .hood-pill {
     display: flex;
     align-items: center;
-    gap: 0.35rem;
-    padding: 0.5rem 0.75rem;
-    min-height: 36px;
-    background: var(--color-tag);
-    color: var(--color-tag-text);
-    font-size: 0.8rem;
-    font-weight: 500;
+    gap: 0.3rem;
+    padding: 0.4rem 0.7rem;
+    min-height: 34px;
+    background: var(--pill-bg);
+    color: #fff;
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    font-weight: 600;
     white-space: nowrap;
     border-radius: 20px;
     text-decoration: none;
-    transition: background 0.15s;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    transition: transform 0.1s;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.15);
   }
 
-  .neighborhood-chip:hover {
-    background: var(--color-border);
-    color: var(--color-text);
-  }
+  .hood-pill:hover { color: #fff; }
+  .hood-pill:active { transform: scale(0.96); }
 
-  .chip-count {
-    font-family: var(--font-mono);
-    font-size: 0.65rem;
+  .pill-n {
     opacity: 0.7;
+    font-size: 0.55rem;
   }
 
-  /* Desktop: vertical list (hidden on mobile) */
-  .neighborhood-list-desktop {
+  /* Desktop: vertical list */
+  .hood-list-desktop {
     display: none;
     flex-direction: column;
-    gap: 1px;
   }
 
-  .neighborhood-link {
+  .hood-row {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 0;
+    gap: 0.5rem;
+    padding: 0.45rem 0;
     min-height: 36px;
     text-decoration: none;
     color: var(--color-text);
     font-size: 0.85rem;
+    font-weight: 500;
     border-bottom: 1px solid var(--color-border);
     transition: color 0.15s;
   }
 
-  .neighborhood-link:last-child { border-bottom: none; }
-  .neighborhood-link:hover { color: var(--color-accent); }
+  .hood-row:last-child { border-bottom: none; }
+  .hood-row:hover { color: var(--color-rust); }
 
-  .neighborhood-count {
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    color: var(--color-text-muted);
-    background: var(--color-tag);
-    padding: 2px 6px;
-    border-radius: 3px;
+  .hood-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
   }
 
-  .sidebar-see-all {
-    display: block;
-    margin-top: 0.6rem;
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--color-accent);
-    text-decoration: none;
-    min-height: 36px;
+  .hood-name { flex: 1; }
+
+  .hood-n {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--color-text-soft);
+    background: var(--color-border);
+    padding: 2px 7px;
+    border-radius: 10px;
+  }
+
+  .box-more {
     display: flex;
     align-items: center;
+    margin-top: 0.6rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--color-rust);
+    text-decoration: none;
+    min-height: 36px;
   }
 
-  .sidebar-see-all:hover { color: var(--color-accent-hover); }
+  .box-more:hover { color: var(--color-rust-dark); }
 
   /* Trending */
-  .trending-list {
+  .trending {
     list-style: none;
-    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 0.6rem;
   }
 
-  .trending-item {
+  .trending-row {
     display: flex;
     gap: 0.6rem;
     align-items: flex-start;
   }
 
-  .trending-number {
-    font-family: var(--font-mono);
-    font-size: 1.1rem;
-    font-weight: 700;
+  .trending-i {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 900;
     color: var(--color-border);
-    line-height: 1.2;
+    line-height: 1;
     flex-shrink: 0;
+    width: 1.5rem;
+    font-variation-settings: "WONK" 1;
   }
 
-  .trending-content {
-    display: flex;
-    flex-direction: column;
-    gap: 0.15rem;
-  }
-
-  .trending-headline {
+  .trending-hed {
     font-family: var(--font-display);
     font-size: 0.85rem;
-    font-weight: 600;
-    line-height: 1.3;
-    color: var(--color-text);
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--color-ink);
     text-decoration: none;
+    display: block;
     -webkit-tap-highlight-color: transparent;
+    font-variation-settings: "WONK" 1;
   }
 
-  .trending-headline:hover { color: var(--color-accent); }
+  .trending-hed:hover { color: var(--color-rust); }
 
-  .trending-neighborhood {
-    font-size: 0.68rem;
-    color: var(--color-text-muted);
+  .trending-hood {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    color: var(--color-text-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-top: 2px;
   }
 
-  .sidebar-text {
-    font-size: 0.82rem;
+  .about-text {
+    font-size: 0.85rem;
     line-height: 1.6;
-    color: var(--color-text-muted);
+    color: var(--color-text);
     margin: 0;
   }
 
-  /* Desktop: switch to vertical list */
   @media (min-width: 960px) {
-    .neighborhood-scroll {
-      display: none;
-    }
-
-    .neighborhood-list-desktop {
-      display: flex;
-    }
-
-    .sidebar-section {
-      padding: 1.25rem;
-    }
+    .hood-scroll { display: none; }
+    .hood-list-desktop { display: flex; }
+    .sidebar-box { padding: 1.25rem; }
   }
 </style>

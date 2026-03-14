@@ -27,15 +27,16 @@ const {
 const digest = getDigest();
 const dateDisplay = formatDate(digest.date);
 
-const navCategories = [
-  'Development & Housing',
-  'Transit & Infrastructure',
-  'Food & Drink',
-  'Arts & Culture',
-  'Politics & Policy',
-  'Public Safety',
-  'Community',
-  'Business',
+const navItems = [
+  { label: 'hoods', href: '/neighborhoods' },
+  { label: 'development', href: '/#development-housing' },
+  { label: 'transit', href: '/#transit-infrastructure' },
+  { label: 'food', href: '/#food-drink' },
+  { label: 'culture', href: '/#arts-culture' },
+  { label: 'politics', href: '/#politics-policy' },
+  { label: 'safety', href: '/#public-safety' },
+  { label: 'community', href: '/#community' },
+  { label: 'biz', href: '/#business' },
 ];
 ---
 
@@ -45,6 +46,8 @@ const navCategories = [
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <SEO
       title={title}
       description={description}
@@ -58,17 +61,16 @@ const navCategories = [
     <header class="site-header">
       <div class="header-top">
         <div class="site-brand">
-          <a href="/" class="site-name">Atlanta News <span class="amp">&</span> Talk</a>
-          <div class="site-tagline">Hyperlocal ITP &middot; Daily Digest</div>
+          <a href="/" class="site-name">atlanta news <span class="amp">&</span> talk</a>
+          <div class="site-tagline">itp neighborhood news, daily</div>
         </div>
         <div class="header-date">{dateDisplay}</div>
       </div>
       <nav class="header-nav">
         <div class="nav-inner">
-          <a href="/" class="nav-link">Home</a>
-          <a href="/neighborhoods" class="nav-link">Neighborhoods</a>
-          {navCategories.map((cat) => (
-            <a href={`/#${cat.toLowerCase().replace(/\s+&\s+/g, '-').replace(/\s+/g, '-')}`} class="nav-link">{cat}</a>
+          <a href="/" class="nav-link">home</a>
+          {navItems.map((item) => (
+            <a href={item.href} class="nav-link">{item.label}</a>
           ))}
         </div>
       </nav>
@@ -79,58 +81,59 @@ const navCategories = [
     <footer class="site-footer">
       <div class="footer-inner">
         <div class="footer-brand">
-          <a href="/" class="site-name">Atlanta News <span class="amp">&</span> Talk</a>
+          <a href="/" class="site-name">atlanta news <span class="amp">&</span> talk</a>
           <p class="footer-description">
-            Daily hyperlocal news coverage of Atlanta's Inside The Perimeter neighborhoods.
-            Aggregated and summarized from the city's most trusted local sources.
+            We read all the local Atlanta blogs and newsrooms every morning
+            so you can find out what's happening in your neighborhood without
+            opening 15 tabs. You're welcome.
           </p>
         </div>
         <div class="footer-sources">
-          <h4>Our Sources</h4>
+          <h4>we read these so you don't have to</h4>
           <div class="footer-source-list">
-            Decaturish &middot; SaportaReport &middot; Urbanize Atlanta &middot;
-            Atlanta Civic Circle &middot; Axios Atlanta &middot; What Now Atlanta &middot;
-            Patch &middot; Rough Draft Atlanta
+            Decaturish · SaportaReport · Urbanize Atlanta ·
+            Atlanta Civic Circle · Axios Atlanta · What Now Atlanta ·
+            Patch · Rough Draft Atlanta
           </div>
         </div>
       </div>
       <div class="footer-links">
         <div class="footer-links-inner">
           <div class="footer-link-group">
-            <h4>Topics</h4>
-            <a href="/atlanta-news-today">Atlanta News Today</a>
-            <a href="/atlanta-development-news">Development News</a>
-            <a href="/atlanta-restaurants-news">Restaurant News</a>
-            <a href="/atlanta-transit-news">Transit & MARTA</a>
-            <a href="/things-to-do-in-atlanta">Things to Do</a>
-            <a href="/atlanta-events-this-weekend">Events This Weekend</a>
-            <a href="/atlanta-beltline-news">BeltLine News</a>
+            <h4>topics</h4>
+            <a href="/atlanta-news-today">atlanta news today</a>
+            <a href="/atlanta-development-news">development news</a>
+            <a href="/atlanta-restaurants-news">restaurant news</a>
+            <a href="/atlanta-transit-news">transit + marta</a>
+            <a href="/things-to-do-in-atlanta">things to do</a>
+            <a href="/atlanta-events-this-weekend">weekend events</a>
+            <a href="/atlanta-beltline-news">beltline news</a>
           </div>
           <div class="footer-link-group">
-            <h4>SE BeltLine</h4>
-            <a href="/old-fourth-ward-news">Old Fourth Ward</a>
-            <a href="/grant-park-atlanta-news">Grant Park</a>
-            <a href="/inman-park-news">Inman Park</a>
-            <a href="/east-atlanta-village-news">East Atlanta Village</a>
-            <a href="/reynoldstown-atlanta-news">Reynoldstown</a>
-            <a href="/summerhill-atlanta-news">Summerhill</a>
-            <a href="/kirkwood-atlanta-news">Kirkwood</a>
+            <h4>se beltline</h4>
+            <a href="/old-fourth-ward-news">old fourth ward</a>
+            <a href="/grant-park-atlanta-news">grant park</a>
+            <a href="/inman-park-news">inman park</a>
+            <a href="/east-atlanta-village-news">east atlanta village</a>
+            <a href="/reynoldstown-atlanta-news">reynoldstown</a>
+            <a href="/summerhill-atlanta-news">summerhill</a>
+            <a href="/kirkwood-atlanta-news">kirkwood</a>
           </div>
           <div class="footer-link-group">
-            <h4>Neighborhoods</h4>
-            <a href="/midtown-atlanta-news">Midtown</a>
-            <a href="/downtown-atlanta-news">Downtown</a>
-            <a href="/buckhead-atlanta-news">Buckhead</a>
-            <a href="/virginia-highland-news">Virginia-Highland</a>
-            <a href="/decatur-news">Decatur</a>
-            <a href="/west-midtown-atlanta-news">West Midtown</a>
-            <a href="/neighborhoods">All Neighborhoods →</a>
+            <h4>more hoods</h4>
+            <a href="/midtown-atlanta-news">midtown</a>
+            <a href="/downtown-atlanta-news">downtown</a>
+            <a href="/buckhead-atlanta-news">buckhead</a>
+            <a href="/virginia-highland-news">virginia-highland</a>
+            <a href="/decatur-news">decatur</a>
+            <a href="/west-midtown-atlanta-news">west midtown</a>
+            <a href="/neighborhoods">all neighborhoods →</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        &copy; {new Date().getFullYear()} Atlanta News &amp; Talk. Aggregated from public sources.
-        All original reporting belongs to the respective publishers.
+        © {new Date().getFullYear()} atlanta news & talk · all original reporting
+        belongs to the respective publishers · we just connect the dots
       </div>
     </footer>
   </body>

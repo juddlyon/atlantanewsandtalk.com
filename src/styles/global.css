@@ -1,24 +1,34 @@
-/* Atlanta News & Talk — Mobile-First Global Styles */
-:root {
-  --color-bg: #f5f3f0;
-  --color-surface: #ffffff;
-  --color-text: #1a1a1a;
-  --color-text-muted: #6b6b6b;
-  --color-accent: #c8553d;
-  --color-accent-hover: #a8432f;
-  --color-navy: #1b2838;
-  --color-navy-light: #2d4a5e;
-  --color-border: #e5e0da;
-  --color-tag: #f0ebe4;
-  --color-tag-text: #5a5245;
+/* Atlanta News & Talk — "BeltLine Bulletin" aesthetic
+   Warm, textured, local zine energy. Not a template. */
 
-  --font-display: 'Georgia', 'Times New Roman', serif;
-  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-  --font-mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+:root {
+  --color-cream: #faf5ed;
+  --color-warm-white: #fff8f0;
+  --color-surface: #ffffff;
+  --color-text: #2c2416;
+  --color-text-soft: #7a6e5d;
+  --color-ink: #1a1510;
+  --color-rust: #c4442a;
+  --color-rust-dark: #a33620;
+  --color-peach: #f4a261;
+  --color-sage: #6b8f71;
+  --color-clay: #c4956a;
+  --color-denim: #3d5a80;
+  --color-plum: #7b2d5f;
+  --color-border: #e8dfd2;
+  --color-border-strong: #d4c8b5;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Outfit', -apple-system, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
 
   --max-width: 1200px;
-  --content-width: 800px;
-  --tap-target: 44px; /* minimum touch target */
+  --content-width: 720px;
+  --tap-target: 44px;
+  --radius: 10px;
+  --radius-sm: 6px;
 }
 
 *, *::before, *::after {
@@ -39,19 +49,21 @@ html {
 body {
   font-family: var(--font-body);
   color: var(--color-text);
-  background: var(--color-bg);
+  background: var(--color-cream);
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
+  /* subtle paper texture */
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
 }
 
 a {
-  color: var(--color-accent);
+  color: var(--color-rust);
   text-decoration: none;
   transition: color 0.15s ease;
 }
 
-a:hover { color: var(--color-accent-hover); }
+a:hover { color: var(--color-rust-dark); }
 
 img {
   max-width: 100%;
@@ -60,18 +72,18 @@ img {
 }
 
 /* ==========================================
-   HEADER — mobile first
+   HEADER — warm, editorial
    ========================================== */
 .site-header {
-  background: var(--color-navy);
-  color: #fff;
+  background: var(--color-warm-white);
+  border-bottom: 3px solid var(--color-ink);
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
 .header-top {
-  padding: 0.75rem 1rem;
+  padding: 0.875rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,44 +96,44 @@ img {
 
 .site-name {
   font-family: var(--font-display);
-  font-size: 1.35rem;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: -0.02em;
-  line-height: 1.1;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--color-ink);
+  letter-spacing: -0.03em;
+  line-height: 1;
   text-decoration: none;
+  font-variation-settings: "WONK" 1;
 }
 
-.site-name:hover { color: #fff; }
-.site-name .amp { color: var(--color-accent); }
+.site-name:hover { color: var(--color-ink); }
+.site-name .amp { color: var(--color-rust); }
 
 .site-tagline {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.55rem;
+  color: var(--color-text-soft);
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  margin-top: 2px;
+  letter-spacing: 0.15em;
+  margin-top: 3px;
 }
 
 .header-date {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.6rem;
+  color: var(--color-text-soft);
   text-align: right;
   display: none;
 }
 
 .header-nav {
-  background: rgba(255, 255, 255, 0.07);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid var(--color-border);
+  background: var(--color-warm-white);
 }
 
 .nav-inner {
-  padding: 0 0.75rem;
+  padding: 0 0.5rem;
   display: flex;
   align-items: center;
-  gap: 0;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
@@ -130,31 +142,33 @@ img {
 .nav-inner::-webkit-scrollbar { display: none; }
 
 .nav-link {
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-text-soft);
   text-decoration: none;
-  padding: 0.75rem 0.65rem;
+  padding: 0.7rem 0.6rem;
   min-height: var(--tap-target);
   display: flex;
   align-items: center;
   white-space: nowrap;
-  transition: color 0.15s, background 0.15s;
+  transition: color 0.15s;
   border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  color: #fff;
-  background: rgba(255, 255, 255, 0.05);
-  border-bottom-color: var(--color-accent);
+  color: var(--color-rust);
+  border-bottom-color: var(--color-rust);
 }
 
 /* ==========================================
-   LAYOUT — mobile first (single column)
+   LAYOUT — mobile first
    ========================================== */
 .page-container {
-  padding: 1rem 0.875rem 2rem;
+  padding: 1.25rem 1rem 2rem;
 }
 
 .main-grid {
@@ -163,70 +177,75 @@ img {
   gap: 2rem;
 }
 
-.main-content {
-  min-width: 0;
-}
+.main-content { min-width: 0; }
 
-/* Section headers */
+/* Section headers — editorial style */
 .section-header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--color-accent);
+  border-bottom: 2px solid var(--color-ink);
 }
 
 .section-title {
   font-family: var(--font-display);
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 0.9rem;
+  font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--color-accent);
+  letter-spacing: 0.06em;
+  color: var(--color-ink);
   margin: 0;
+  font-variation-settings: "WONK" 1;
 }
 
 .section-count {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
-  color: var(--color-text-muted);
+  font-size: 0.6rem;
+  color: var(--color-text-soft);
+  background: var(--color-peach);
+  color: var(--color-ink);
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-weight: 600;
 }
 
-/* Story grid — single column on mobile */
+/* Story grid */
 .story-grid {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
-/* Digest header */
+/* Digest header — the daily lede */
 .digest-header {
   margin-bottom: 1.25rem;
-  padding-bottom: 0.875rem;
-  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed var(--color-border-strong);
 }
 
 .digest-date {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: var(--color-text-muted);
+  font-size: 0.65rem;
+  color: var(--color-text-soft);
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-bottom: 0.35rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
 }
 
 .digest-summary {
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 1.05rem;
-  line-height: 1.5;
+  line-height: 1.6;
   color: var(--color-text);
   margin: 0;
+  font-weight: 400;
 }
 
 /* ==========================================
-   ARTICLE PAGE — mobile first
+   ARTICLE PAGE
    ========================================== */
 .article-page {
   padding: 1rem 0.875rem 2rem;
@@ -245,7 +264,7 @@ img {
   width: calc(100% + 1.75rem);
   margin-left: -0.875rem;
   aspect-ratio: 16 / 9;
-  background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-light) 100%);
+  background: linear-gradient(135deg, var(--color-clay) 0%, var(--color-sage) 50%, var(--color-denim) 100%);
   border-radius: 0;
   margin-bottom: 1.25rem;
   display: flex;
@@ -255,10 +274,11 @@ img {
 
 .article-hero-fallback span {
   font-family: var(--font-display);
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.3);
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
+  font-weight: 700;
 }
 
 .article-meta {
@@ -271,58 +291,57 @@ img {
 
 .article-source {
   font-size: 0.8rem;
-  color: var(--color-text-muted);
+  color: var(--color-text-soft);
+  font-weight: 500;
 }
 
 .article-source a {
-  color: var(--color-accent);
+  color: var(--color-rust);
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration-style: wavy;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
 
 .article-date {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: var(--color-text-muted);
+  font-size: 0.68rem;
+  color: var(--color-text-soft);
 }
 
 .article-headline {
   font-family: var(--font-display);
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1.2;
-  color: var(--color-text);
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 1.15;
+  color: var(--color-ink);
   margin: 0 0 0.75rem;
+  font-variation-settings: "WONK" 1;
 }
 
 .article-summary {
-  font-size: 1rem;
+  font-size: 1.05rem;
   line-height: 1.6;
-  color: var(--color-text-muted);
+  color: var(--color-text-soft);
   margin-bottom: 1.25rem;
   padding-bottom: 1.25rem;
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px dashed var(--color-border-strong);
   font-style: italic;
 }
 
 .article-body {
   font-size: 1.05rem;
-  line-height: 1.8;
+  line-height: 1.85;
   color: var(--color-text);
 }
 
-.article-body p {
-  margin-bottom: 1.25rem;
-}
-
-.article-body p:last-child {
-  margin-bottom: 0;
-}
+.article-body p { margin-bottom: 1.25rem; }
+.article-body p:last-child { margin-bottom: 0; }
 
 .article-footer {
   margin-top: 1.5rem;
   padding-top: 1.25rem;
-  border-top: 1px solid var(--color-border);
+  border-top: 1px dashed var(--color-border-strong);
 }
 
 .article-original-link {
@@ -330,44 +349,51 @@ img {
   align-items: center;
   justify-content: center;
   gap: 0.4rem;
+  font-family: var(--font-body);
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--color-accent);
+  color: var(--color-warm-white);
+  background: var(--color-rust);
   text-decoration: none;
   padding: 0.875rem 1.5rem;
   min-height: var(--tap-target);
-  border: 1px solid var(--color-accent);
-  border-radius: 6px;
-  transition: background 0.15s, color 0.15s;
+  border-radius: var(--radius);
+  transition: background 0.15s, transform 0.1s;
   width: 100%;
+  border: none;
 }
 
 .article-original-link:hover {
-  background: var(--color-accent);
-  color: #fff;
+  background: var(--color-rust-dark);
+  color: var(--color-warm-white);
+}
+
+.article-original-link:active {
+  transform: scale(0.98);
 }
 
 /* Related stories */
 .related-section {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   padding-top: 1.5rem;
-  border-top: 2px solid var(--color-border);
+  border-top: 2px solid var(--color-ink);
 }
 
 .related-title {
   font-family: var(--font-display);
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 0.85rem;
+  font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--color-accent);
+  letter-spacing: 0.06em;
+  color: var(--color-ink);
   margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--color-ink);
+  font-variation-settings: "WONK" 1;
 }
 
 /* ==========================================
-   NEIGHBORHOOD PAGES — mobile first
+   NEIGHBORHOOD PAGES
    ========================================== */
 .neighborhood-page-header {
   margin-bottom: 1.5rem;
@@ -375,20 +401,20 @@ img {
 
 .neighborhood-page-title {
   font-family: var(--font-display);
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.2;
-  color: var(--color-text);
+  font-size: 1.65rem;
+  font-weight: 900;
+  line-height: 1.15;
+  color: var(--color-ink);
   margin: 0 0 0.3rem;
+  font-variation-settings: "WONK" 1;
 }
 
 .neighborhood-page-subtitle {
   font-size: 0.85rem;
-  color: var(--color-text-muted);
+  color: var(--color-text-soft);
   margin: 0;
 }
 
-/* Neighborhoods index */
 .neighborhoods-grid {
   display: flex;
   flex-direction: column;
@@ -403,41 +429,44 @@ img {
   padding: 0.875rem 1rem;
   min-height: var(--tap-target);
   background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: 6px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius);
   text-decoration: none;
   color: var(--color-text);
-  transition: border-color 0.15s;
+  transition: border-color 0.15s, transform 0.1s;
 }
 
 .neighborhood-card:hover {
-  border-color: var(--color-accent);
+  border-color: var(--color-rust);
   color: var(--color-text);
 }
+
+.neighborhood-card:active { transform: scale(0.99); }
 
 .neighborhood-card-name {
   font-family: var(--font-display);
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .neighborhood-card-count {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
-  color: var(--color-text-muted);
-  background: var(--color-tag);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  background: var(--color-peach);
   padding: 3px 10px;
-  border-radius: 12px;
+  border-radius: 20px;
 }
 
 /* ==========================================
-   FOOTER — mobile first
+   FOOTER — warm, editorial
    ========================================== */
 .site-footer {
-  background: var(--color-navy);
+  background: var(--color-ink);
   color: rgba(255, 255, 255, 0.6);
-  padding: 1.75rem 1rem;
-  margin-top: 1.5rem;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
 }
 
 .footer-inner {
@@ -450,6 +479,7 @@ img {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
   display: inline-block;
+  color: #fff;
 }
 
 .footer-description {
@@ -457,19 +487,21 @@ img {
   line-height: 1.6;
 }
 
-.footer-sources h4 {
+.footer-sources h4,
+.footer-link-group h4 {
   font-family: var(--font-display);
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 0.12em;
+  color: var(--color-peach);
   margin-bottom: 0.5rem;
+  font-weight: 700;
 }
 
 .footer-source-list {
   font-size: 0.78rem;
   line-height: 1.8;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.45);
 }
 
 .footer-links {
@@ -484,63 +516,38 @@ img {
   gap: 1.25rem;
 }
 
-.footer-link-group h4 {
-  font-family: var(--font-display);
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.4);
-  margin-bottom: 0.4rem;
-}
-
 .footer-link-group a {
-  display: block;
-  font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.55);
-  padding: 0.3rem 0;
-  min-height: 2rem;
   display: flex;
   align-items: center;
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0.25rem 0;
+  min-height: 2rem;
   text-decoration: none;
   transition: color 0.15s;
 }
 
-.footer-link-group a:hover { color: #fff; }
+.footer-link-group a:hover { color: var(--color-peach); }
 
 .footer-bottom {
   margin-top: 1.25rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: 0.68rem;
-  color: rgba(255, 255, 255, 0.35);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.3);
   text-align: center;
 }
 
 /* ==========================================
    DESKTOP — min-width breakpoints
    ========================================== */
-
-/* Tablet (640px+) */
 @media (min-width: 640px) {
-  .header-top {
-    padding: 0.85rem 1.25rem;
-  }
+  .header-top { padding: 1rem 1.25rem; }
+  .header-date { display: block; }
+  .site-name { font-size: 1.75rem; }
+  .nav-inner { padding: 0 1rem; }
 
-  .header-date {
-    display: block;
-  }
-
-  .site-name {
-    font-size: 1.5rem;
-  }
-
-  .nav-inner {
-    padding: 0 1.25rem;
-  }
-
-  .page-container {
-    padding: 1.5rem 1.25rem 2.5rem;
-  }
+  .page-container { padding: 1.75rem 1.25rem 3rem; }
 
   .story-grid {
     display: grid;
@@ -548,40 +555,29 @@ img {
     gap: 1.25rem;
   }
 
-  .digest-summary {
-    font-size: 1.15rem;
-  }
+  .digest-summary { font-size: 1.1rem; }
 
   .article-page {
-    padding: 1.5rem 1.25rem 2.5rem;
+    padding: 1.75rem 1.25rem 3rem;
     max-width: var(--content-width);
     margin: 0 auto;
   }
 
-  .article-hero-image {
-    width: 100%;
-    margin-left: 0;
-    border-radius: 6px;
-  }
-
+  .article-hero-image,
   .article-hero-fallback {
     width: 100%;
     margin-left: 0;
-    border-radius: 6px;
+    border-radius: var(--radius);
   }
 
-  .article-headline {
-    font-size: 2rem;
-  }
+  .article-headline { font-size: 2.2rem; }
 
   .article-original-link {
     width: auto;
     display: inline-flex;
   }
 
-  .neighborhood-page-title {
-    font-size: 1.75rem;
-  }
+  .neighborhood-page-title { font-size: 2rem; }
 
   .neighborhoods-grid {
     display: grid;
@@ -595,22 +591,16 @@ img {
     gap: 2rem;
   }
 
-  .footer-links-inner {
-    grid-template-columns: repeat(3, 1fr);
-  }
+  .footer-links-inner { grid-template-columns: repeat(3, 1fr); }
 }
 
-/* Desktop (960px+) */
 @media (min-width: 960px) {
   .header-top {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 0.9rem 1.25rem;
   }
 
-  .site-name {
-    font-size: 1.65rem;
-  }
+  .site-name { font-size: 2rem; }
 
   .nav-inner {
     max-width: var(--max-width);
@@ -620,48 +610,29 @@ img {
   .page-container {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 1.75rem 1.25rem 3rem;
   }
 
   .main-grid {
     display: grid;
-    grid-template-columns: 1fr 320px;
-    gap: 2rem;
+    grid-template-columns: 1fr 300px;
+    gap: 2.5rem;
     align-items: start;
   }
 
-  .story-grid-3 {
-    grid-template-columns: repeat(3, 1fr);
-  }
+  .story-grid-3 { grid-template-columns: repeat(3, 1fr); }
 
-  .article-page {
-    padding: 2rem 1.25rem 3rem;
-  }
-
-  .article-headline {
-    font-size: 2.2rem;
-  }
-
-  .neighborhood-page-title {
-    font-size: 2rem;
-  }
+  .article-page { padding: 2rem 1.25rem 3rem; }
+  .article-headline { font-size: 2.5rem; }
 
   .neighborhoods-grid {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   }
 
-  .footer-inner {
-    max-width: var(--max-width);
-    margin: 0 auto;
-  }
-
-  .footer-links-inner {
-    max-width: var(--max-width);
-    margin: 0 auto;
-  }
-
+  .footer-inner,
+  .footer-links-inner,
   .footer-bottom {
     max-width: var(--max-width);
-    margin: 1.5rem auto 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
