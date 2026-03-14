@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getAllNeighborhoods, getNeighborhoodData, slugify, getStoriesByNeighborhood } from '../../lib/helpers';
+import neighborhoodsData from '../../data/neighborhoods.json';
 
 const neighborhoods = getAllNeighborhoods();
 const neighborhoodData = getNeighborhoodData();
@@ -11,6 +12,15 @@ const sortedNeighborhoods = neighborhoods.sort((a, b) => {
   if (countDiff !== 0) return countDiff;
   return a.localeCompare(b);
 });
+
+function getBlurb(name: string): string {
+  const slug = slugify(name);
+  const info = neighborhoodsData.neighborhoods.find((n) => n.slug === slug);
+  if (!info) return '';
+  // Return the first sentence of the description
+  const firstSentence = info.description.split(/\.\s/)[0];
+  return firstSentence + '.';
+}
 ---
 
 <Base
@@ -29,9 +39,13 @@ const sortedNeighborhoods = neighborhoods.sort((a, b) => {
       {sortedNeighborhoods.map((name) => {
         const data = neighborhoodData[name];
         const count = data?.storyCount || 0;
+        const blurb = getBlurb(name);
         return (
           <a href={`/neighborhoods/${slugify(name)}`} class="neighborhood-card">
-            <span class="neighborhood-card-name">{name}</span>
+            <div class="neighborhood-card-info">
+              <span class="neighborhood-card-name">{name}</span>
+              {blurb && <span class="neighborhood-card-blurb">{blurb}</span>}
+            </div>
             <span class="neighborhood-card-count">
               {count} {count === 1 ? 'story' : 'stories'}
             </span>

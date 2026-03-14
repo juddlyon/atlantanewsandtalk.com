@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getAllStories, getAllNeighborhoods, slugify, SITE_URL } from '../lib/helpers';
 import landingData from '../data/landing-pages.json';
+import guidesData from '../data/guides.json';
 
 export const GET: APIRoute = () => {
   const stories = getAllStories();
@@ -10,12 +11,20 @@ export const GET: APIRoute = () => {
   const urls = [
     { loc: SITE_URL, lastmod: today, changefreq: 'daily', priority: '1.0' },
     { loc: `${SITE_URL}/neighborhoods`, lastmod: today, changefreq: 'daily', priority: '0.8' },
+    { loc: `${SITE_URL}/guide`, lastmod: today, changefreq: 'weekly', priority: '0.8' },
     // Landing pages — high SEO value
     ...landingData.pages.map((p) => ({
       loc: `${SITE_URL}/${p.slug}`,
       lastmod: today,
       changefreq: 'daily',
       priority: '0.9',
+    })),
+    // Guide pages — evergreen SEO content
+    ...guidesData.guides.map((g) => ({
+      loc: `${SITE_URL}/guide/${g.slug}`,
+      lastmod: today,
+      changefreq: 'weekly',
+      priority: '0.85',
     })),
     ...neighborhoods.map((n) => ({
       loc: `${SITE_URL}/neighborhoods/${slugify(n)}`,

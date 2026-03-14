@@ -1,0 +1,88 @@
+---
+import Base from '../../layouts/Base.astro';
+import { slugify, SITE_URL } from '../../lib/helpers';
+import guidesData from '../../data/guides.json';
+
+export function getStaticPaths() {
+  return guidesData.guides.map((guide) => ({
+    params: { slug: guide.slug },
+    props: { guide },
+  }));
+}
+
+const { guide } = Astro.props;
+
+const relatedGuides = guide.relatedGuides
+  ? guidesData.guides.filter((g) => guide.relatedGuides.includes(g.slug))
+  : [];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": guide.h1,
+  "description": guide.seoDescription,
+  "url": `${SITE_URL}/guide/${guide.slug}`,
+  "publisher": {
+    "@type": "Organization",
+    "name": "atlanta news & talk",
+    "url": SITE_URL
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `${SITE_URL}/guide/${guide.slug}`
+  }
+};
+---
+
+<Base
+  title={guide.seoTitle}
+  description={guide.seoDescription}
+  jsonLd={jsonLd}
+>
+  <article class="guide-page">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/guide">Guides</a></li>
+        <li aria-current="page">{guide.title}</li>
+      </ol>
+    </nav>
+
+    <header class="guide-header">
+      <h1 class="guide-h1">{guide.h1}</h1>
+    </header>
+
+    <div class="guide-intro">
+      {guide.intro.split('\n\n').map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+    </div>
+
+    <div class="guide-body">
+      {guide.sections.map((section) => (
+        <section class="guide-section">
+          <h2>{section.heading}</h2>
+          {section.content.split('\n\n').map((paragraph) => (
+            <p>{paragraph}</p>
+          ))}
+        </section>
+      ))}
+    </div>
+
+    {relatedGuides.length > 0 && (
+      <section class="related-guides">
+        <h2 class="related-guides-title">Related Guides</h2>
+        <div class="related-guides-grid">
+          {relatedGuides.map((g) => (
+            <a href={`/guide/${g.slug}`} class="guide-card">
+              <span class="guide-card-title">{g.title}</span>
+              <span class="guide-card-desc">{g.seoDescription}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <a href="/guide" class="back-link">&larr; All guides</a>
+  </article>
+</Base>

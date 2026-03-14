@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import StoryCard from '../../components/StoryCard.astro';
 import { getAllNeighborhoods, getStoriesByNeighborhood, slugify } from '../../lib/helpers';
+import neighborhoodsData from '../../data/neighborhoods.json';
 
 export function getStaticPaths() {
   const neighborhoods = getAllNeighborhoods();
@@ -13,11 +14,16 @@ export function getStaticPaths() {
 
 const { neighborhoodName } = Astro.props;
 const stories = getStoriesByNeighborhood(neighborhoodName);
+const slug = slugify(neighborhoodName);
+
+const hoodInfo = neighborhoodsData.neighborhoods.find((n) => n.slug === slug);
+const seoTitle = hoodInfo?.seoTitle || `${neighborhoodName} Atlanta News`;
+const seoDesc = hoodInfo?.seoDescription || `Latest hyperlocal news from ${neighborhoodName}, Atlanta. Coverage of development, transit, food, arts, and community stories from Inside The Perimeter.`;
 ---
 
 <Base
-  title={`${neighborhoodName} Atlanta News`}
-  description={`Latest hyperlocal news from ${neighborhoodName}, Atlanta. Coverage of development, transit, food, arts, and community stories from Inside The Perimeter.`}
+  title={seoTitle}
+  description={seoDesc}
 >
   <div class="page-container">
     <div class="neighborhood-page-header">
@@ -37,6 +43,45 @@ const stories = getStoriesByNeighborhood(neighborhoodName);
       <div class="empty-state">
         <p>No stories from {neighborhoodName} today. Check back tomorrow.</p>
       </div>
+    )}
+
+    {hoodInfo && (
+      <section class="neighborhood-description">
+        <h2 class="neighborhood-description-title">About {neighborhoodName}</h2>
+        {hoodInfo.description.split('\n\n').map((paragraph) => (
+          <p>{paragraph}</p>
+        ))}
+      </section>
+    )}
+
+    {hoodInfo?.highlights && hoodInfo.highlights.length > 0 && (
+      <section class="neighborhood-highlights">
+        <h2 class="neighborhood-highlights-title">Quick Facts</h2>
+        <ul class="neighborhood-highlights-list">
+          {hoodInfo.highlights.map((highlight) => (
+            <li>{highlight}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {hoodInfo?.relatedNeighborhoods && hoodInfo.relatedNeighborhoods.length > 0 && (
+      <section class="related-hoods">
+        <h2 class="related-hoods-title">Nearby Neighborhoods</h2>
+        <div class="related-hoods-grid">
+          {hoodInfo.relatedNeighborhoods.map((name) => {
+            const relatedInfo = neighborhoodsData.neighborhoods.find((n) => n.name === name);
+            return (
+              <a href={`/neighborhoods/${slugify(name)}`} class="related-hood-card">
+                <span class="related-hood-name">{name}</span>
+                {relatedInfo && (
+                  <span class="related-hood-blurb">{relatedInfo.highlights[0]}</span>
+                )}
+              </a>
+            );
+          })}
+        </div>
+      </section>
     )}
 
     <a href="/neighborhoods" class="back-link">&larr; All neighborhoods</a>
