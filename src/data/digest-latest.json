@@ -1,12 +1,12 @@
 {
   "date": "2026-03-15",
-  "generatedAt": "2026-03-15T14:51:54.309Z",
-  "summary": "It's been a mixed bag for the SE BeltLine this weekend. The Beacon in Grant Park is struggling with major vacancy issues, while neighbors are gearing up to fight a massive homeless shelter proposed for the Westside BeltLine. Meanwhile, Atlanta United finally got their first win of the season.",
+  "generatedAt": "2026-03-15T15:10:04.164Z",
+  "summary": "Grant Park's Beacon is struggling with vacancy issues along the Beltline, while the Westside community organizes against a massive proposed homeless shelter near the new Beltline section. Plus, Atlanta's getting ready for World Cup festivities at Centennial Olympic Park.",
   "topStory": {
-    "id": "beacon-grant-park-vacancy-crisis",
-    "headline": "The Beacon Grant Park Struggles as Vendors Flee",
-    "summary": "The trendy Grant Park warehouse district that thrived during COVID is now facing a serious vacancy crisis. What used to be a packed destination connected to the BeltLine's Southside Trail now sits mostly empty, with only about 35% of retail spaces occupied. It's a stark reminder of how quickly things can change in Atlanta's development game.",
-    "body": "Remember when The Beacon felt like the coolest place in Atlanta? During the pandemic, this Grant Park warehouse district was absolutely buzzing with artists, food vendors, and that perfect brewery patio vibe that made it feel like one giant hangout spot. The direct connection to the BeltLine's Southside Trail didn't hurt either.\n\nNow? It's a different story entirely. Kirkwood resident Taylor Cross, who used to be a regular, was shocked to see how empty the place has become on a recent visit. He estimates maybe 35% of the retail space is actually occupied these days. That's a dramatic fall from grace for a place that seemed to have figured out the perfect formula just a few years ago.\n\nThe timing is particularly rough given all the development pressure along the BeltLine corridor. The Beacon showed how creative, affordable spaces could thrive in Grant Park, but rising costs and changing dynamics seem to have caught up with what was once a model for how to do mixed-use development right.",
+    "id": "beacon-grant-park-vacancy-struggle",
+    "headline": "Grant Park's Beacon Loses Its Shine with Rising Vacancy",
+    "summary": "The trendy Beltline warehouse complex that thrived during COVID is now seeing major vacancy issues. A local resident estimates only 35% of retail space is occupied, a dramatic drop for what was once a weekend hotspot. The Beacon's struggles highlight broader challenges for Beltline developments as the novelty wears off and economic pressures mount.",
+    "body": "Remember when The Beacon felt like Atlanta's best-kept secret? You know, that warehouse complex right off the Southside Trail where you could grab a beer, browse local art, and pretend you were in some cooler version of Ponce City Market. Well, those days might be behind us.\n\nKirkwood resident Taylor Cross used to be a regular, but his recent visit was pretty sobering. He's estimating maybe 35% of the retail spaces are actually occupied now, which is a far cry from the bustling weekend scene The Beacon was known for just a couple years ago. During the pandemic, oddly enough, this place was thriving with artists, food vendors, and even a medical clinic all packed into this converted warehouse space with direct Beltline access.\n\nThis isn't just about one development struggling. The Beacon's vacancy issues reflect what's happening to a lot of these Beltline projects as the initial excitement wears off and economic realities set in. Rising rents, increased competition from newer developments, and changing consumer habits post-pandemic are all taking their toll. For Grant Park residents who saw The Beacon as a sign of positive neighborhood change, watching it empty out has to be pretty disappointing.",
     "neighborhood": "Grant Park",
     "neighborhoods": [
       "Grant Park",
@@ -15,13 +15,13 @@
     "source": "Urbanize Atlanta",
     "sourceUrl": "https://atlanta.urbanize.city/post/the-beacon-grant-park-vacant-businesses-why-southside-beltline",
     "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/The%20Beacon%208.jpg?itok=TymA1P2H",
-    "imageAlt": "The Beacon warehouse district in Grant Park showing vacant retail spaces",
+    "imageAlt": "Empty retail spaces at The Beacon warehouse complex in Grant Park",
     "publishedAt": "2026-03-13T19:18:38.000Z",
     "keywords": [
-      "beacon",
-      "grant-park",
-      "beltline",
-      "vacancy",
+      "Beltline",
+      "Grant Park",
+      "retail vacancy",
+      "Southside Trail",
       "development"
     ]
   },
@@ -30,10 +30,10 @@
       "category": "Development & Housing",
       "stories": [
         {
-          "id": "beacon-grant-park-vacancy-crisis",
-          "headline": "The Beacon Grant Park Struggles as Vendors Flee",
-          "summary": "The trendy Grant Park warehouse district that thrived during COVID is now facing a serious vacancy crisis. What used to be a packed destination connected to the BeltLine's Southside Trail now sits mostly empty, with only about 35% of retail spaces occupied. It's a stark reminder of how quickly things can change in Atlanta's development game.",
-          "body": "Remember when The Beacon felt like the coolest place in Atlanta? During the pandemic, this Grant Park warehouse district was absolutely buzzing with artists, food vendors, and that perfect brewery patio vibe that made it feel like one giant hangout spot. The direct connection to the BeltLine's Southside Trail didn't hurt either.\n\nNow? It's a different story entirely. Kirkwood resident Taylor Cross, who used to be a regular, was shocked to see how empty the place has become on a recent visit. He estimates maybe 35% of the retail space is actually occupied these days. That's a dramatic fall from grace for a place that seemed to have figured out the perfect formula just a few years ago.\n\nThe timing is particularly rough given all the development pressure along the BeltLine corridor. The Beacon showed how creative, affordable spaces could thrive in Grant Park, but rising costs and changing dynamics seem to have caught up with what was once a model for how to do mixed-use development right.",
+          "id": "beacon-grant-park-vacancy-struggle",
+          "headline": "Grant Park's Beacon Loses Its Shine with Rising Vacancy",
+          "summary": "The trendy Beltline warehouse complex that thrived during COVID is now seeing major vacancy issues. A local resident estimates only 35% of retail space is occupied, a dramatic drop for what was once a weekend hotspot. The Beacon's struggles highlight broader challenges for Beltline developments as the novelty wears off and economic pressures mount.",
+          "body": "Remember when The Beacon felt like Atlanta's best-kept secret? You know, that warehouse complex right off the Southside Trail where you could grab a beer, browse local art, and pretend you were in some cooler version of Ponce City Market. Well, those days might be behind us.\n\nKirkwood resident Taylor Cross used to be a regular, but his recent visit was pretty sobering. He's estimating maybe 35% of the retail spaces are actually occupied now, which is a far cry from the bustling weekend scene The Beacon was known for just a couple years ago. During the pandemic, oddly enough, this place was thriving with artists, food vendors, and even a medical clinic all packed into this converted warehouse space with direct Beltline access.\n\nThis isn't just about one development struggling. The Beacon's vacancy issues reflect what's happening to a lot of these Beltline projects as the initial excitement wears off and economic realities set in. Rising rents, increased competition from newer developments, and changing consumer habits post-pandemic are all taking their toll. For Grant Park residents who saw The Beacon as a sign of positive neighborhood change, watching it empty out has to be pretty disappointing.",
           "neighborhood": "Grant Park",
           "neighborhoods": [
             "Grant Park",
@@ -42,21 +42,21 @@
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/the-beacon-grant-park-vacant-businesses-why-southside-beltline",
           "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/The%20Beacon%208.jpg?itok=TymA1P2H",
-          "imageAlt": "The Beacon warehouse district in Grant Park showing vacant retail spaces",
+          "imageAlt": "Empty retail spaces at The Beacon warehouse complex in Grant Park",
           "publishedAt": "2026-03-13T19:18:38.000Z",
           "keywords": [
-            "beacon",
-            "grant-park",
-            "beltline",
-            "vacancy",
+            "Beltline",
+            "Grant Park",
+            "retail vacancy",
+            "Southside Trail",
             "development"
           ]
         },
         {
-          "id": "westside-beltline-shelter-opposition",
-          "headline": "Westside Neighbors Organize Against Massive BeltLine Homeless Shelter",
-          "summary": "The Atlanta Mission wants to build a 900-bed homeless shelter on prime BeltLine real estate where the Stars Metals District was supposed to go. Neighbors are calling it a missed opportunity and organizing under the banner \"Westside for Economic Justice\" to fight the proposal. They're asking why this valuable land can't be used for something that actually benefits the community long-term.",
-          "body": "You know that massive site along the new Westside BeltLine where developers were planning the Stars Metals District? Well, scratch those plans. The Atlanta Mission wants to put a 900-bed homeless shelter there instead, and neighbors are not having it.\n\nA community group called \"Westside for Economic Justice\" has organized a March 26 meeting to oppose the plan. They're asking Atlanta City Council to reject the Atlanta Mission's request for a Special Use Permit, arguing this prime BeltLine real estate should be used for economic development that actually lifts up the community. It's hard to argue with their logic, honestly.\n\nThis feels like a repeat of the same pattern we've seen across Atlanta, where low-income communities get stuck with all the services nobody else wants while missing out on the economic benefits of development. The Westside has been waiting for its BeltLine moment for years, and neighbors understandably don't want to see it turned into a massive institutional use instead of the mixed-use development that could actually create jobs and opportunities.",
+          "id": "westside-shelter-opposition-beltline",
+          "headline": "Westside Residents Fight Massive Homeless Shelter Near Beltline",
+          "summary": "A grassroots group is organizing against Atlanta Mission's plan for a 900-bed shelter on land originally planned for the Stars Metals District development. The 'Westside for Economic Justice' meeting on March 26 reflects growing neighborhood opposition to the facility near the new Beltline section. Community leaders want City Council to reject the special use permit.",
+          "body": "The battle over what gets built on that massive Stars Metals District site is heating up, and it's not going the way the Westside community expected. Where developers once planned a mixed-use warehouse complex (think Ponce City Market vibes), Atlanta Mission now wants to build a 900-bed homeless shelter, and neighbors are not having it.\n\nA group called 'Westside for Economic Justice' has organized a community meeting for March 26, asking all City Council members to show up and hear their concerns. They're specifically calling on council to reject Atlanta Mission's special use permit request. You can understand why residents are frustrated - they were probably envisioning retail, restaurants, and maybe some loft apartments, not the city's largest homeless facility.\n\nThis whole situation highlights the ongoing tension in Atlanta between addressing the homelessness crisis and community development. Atlanta Mission argues their facility could help lift people up and ultimately benefit the surrounding neighborhoods, but residents worry about property values and safety. The fact that this is happening right along the new Beltline section makes it even more contentious, since everyone knows how much the trail drives development and gentrification.",
           "neighborhood": "Westside",
           "neighborhoods": [
             "Westside"
@@ -64,14 +64,14 @@
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/westside-homeless-shelter-beltline-opponents-want-economic-justice-massive-site",
           "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2024-11/1060%20Donald%20Lee%20Hollowell%20Ironside%20Allen%20Morris%201.png?itok=sqcCBxx5",
-          "imageAlt": "Proposed site for Atlanta Mission homeless shelter along Westside BeltLine",
+          "imageAlt": "Rendering of proposed development site on the Westside near the Beltline",
           "publishedAt": "2026-03-13T15:11:35.000Z",
           "keywords": [
-            "westside",
-            "beltline",
-            "homeless-shelter",
-            "atlanta-mission",
-            "development"
+            "Westside",
+            "homeless shelter",
+            "Beltline",
+            "community opposition",
+            "Atlanta Mission"
           ]
         }
       ]
@@ -80,10 +80,10 @@
       "category": "Transit & Infrastructure",
       "stories": [
         {
-          "id": "world-cup-atlanta-preparations",
-          "headline": "Atlanta Makes Big World Cup Promises with 95 Days to Go",
-          "summary": "With just over three months until FIFA World Cup matches hit Mercedes-Benz Stadium, Atlanta officials are making some ambitious promises. MARTA's rolling out their new payment system in two weeks, the airport's finally opening that long-delayed South Terminal, and Centennial Olympic Park is getting transformed into a massive fan festival. The question is whether they can actually deliver.",
-          "body": "Atlanta's World Cup organizers gathered at Mercedes-Benz Stadium this week to make their pitch: the city is ready. With 95 days until the tournament, they unveiled some pretty big promises that honestly make me a little nervous given Atlanta's track record with major projects.\n\nThe good news? MARTA says they'll roll out their Better Breeze payment system in just two weeks and boost service during matches. The airport is finally, supposedly, opening the South Terminal that's been under construction forever. And Centennial Olympic Park is getting converted into what sounds like the world's biggest tailgate party.\n\nBut let's be real here. This is the same city that struggled with snow removal and had airport power outages during major events before. The World Cup will bring hundreds of thousands of visitors to town, and our infrastructure will be tested like never before. I'm cautiously optimistic, but Atlanta definitely has some proving to do.",
+          "id": "world-cup-atlanta-downtown-preparations",
+          "headline": "Atlanta's World Cup Plans Take Shape at Centennial Park",
+          "summary": "With 95 days until FIFA World Cup matches arrive, Atlanta officials unveiled details for the Fan Festival at Centennial Olympic Park. MARTA will launch its Better Breeze payment system in two weeks and increase service during matches. The airport's long-delayed South Terminal project will also finally open before the tournament.",
+          "body": "Okay, I'll admit it - when Atlanta got picked as a World Cup host city, I was skeptical about whether we'd actually be ready. But listening to the officials at Mercedes-Benz Stadium this week, they're sounding pretty confident with just over three months to go.\n\nThe big announcement is that Centennial Olympic Park is getting transformed into FIFA Fan Festival Atlanta, which sounds like it could either be amazing or a complete zoo depending on how well they manage it. Think live match broadcasts, food vendors, cultural programming, and probably thousands of people from around the world all crammed into downtown. MARTA's finally rolling out that Better Breeze payment system we've been hearing about forever, plus they're increasing service during matches.\n\nMaybe the most surprising news is that the airport's South Terminal expansion will actually open before the World Cup. If you've flown through Hartsfield lately, you know that construction has been going on forever, so having that extra capacity when the world's eyes are on Atlanta could be huge. The whole thing feels like one of those make-or-break moments for the city's reputation on the global stage.",
           "neighborhood": "Downtown",
           "neighborhoods": [
             "Downtown",
@@ -92,37 +92,38 @@
           "source": "Atlanta Magazine",
           "sourceUrl": "https://www.atlantamagazine.com/news-culture-articles/the-promises-atlanta-is-making-with-a-little-over-90-days-until-the-world-cup/",
           "imageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/worldcup95days03_xstevens.jpg",
-          "imageAlt": "World Cup planning event at Mercedes-Benz Stadium",
+          "imageAlt": "Atlanta World Cup officials speaking at Mercedes-Benz Stadium",
           "publishedAt": "2026-03-14T02:55:10.000Z",
           "keywords": [
-            "world-cup",
-            "atlanta",
-            "marta",
-            "airport",
-            "downtown"
+            "World Cup",
+            "Downtown",
+            "MARTA",
+            "Centennial Olympic Park",
+            "FIFA"
           ]
         },
         {
-          "id": "midtown-construction-closure",
-          "headline": "Emergency Water Work Shuts Down Key Midtown Intersection for Month",
-          "summary": "Starting Monday, the city is closing the intersection at 10th Street and Hemphill Avenue for about four weeks to replace a major water valve. It's part of Atlanta's ongoing effort to fix our aging water infrastructure, but the timing couldn't be worse with everything else going on in Midtown right now.",
-          "body": "If you drive through Midtown regularly, prepare to find a new route. The city is shutting down the intersection at 10th Street NW and Hemphill Avenue NW starting Monday for what they're calling \"emergency\" water valve replacement work.\n\nThis is all part of Atlanta's water distribution maintenance program, which honestly is long overdue given the state of our pipes. The work will run Monday through Saturday from 7 a.m. to 7 p.m. for approximately four weeks, weather permitting.\n\nThe timing is pretty rough though. Midtown is already dealing with construction projects all over the place, and this intersection closure is going to force even more traffic onto already crowded alternate routes. The city says they'll have detour signs up, but we all know how well those usually work. Plan extra time if you're heading through that area.",
-          "neighborhood": "Midtown",
+          "id": "10th-street-hemphill-construction-closure",
+          "headline": "Emergency Water Work Shuts Down 10th and Hemphill for a Month",
+          "summary": "The intersection of 10th Street and Hemphill Avenue will be completely closed for about four weeks starting Monday while crews replace a large water valve. The work is part of the city's water distribution maintenance program and will run Monday through Saturday, 7 a.m. to 7 p.m. Drivers should expect detours throughout the area.",
+          "body": "Hope you don't regularly drive through the intersection at 10th and Hemphill, because it's about to become your least favorite part of town for the next month. The city's shutting down that entire intersection starting Monday for emergency water valve replacement, and they're saying it'll take about four weeks to complete.\n\nThis is all part of Atlanta's ongoing water distribution maintenance program, which honestly feels like it never ends. If you live in Home Park, Virginia-Highland, or Midtown and use that intersection to cut between different parts of town, you're going to need to find alternate routes. The work runs Monday through Saturday from 7 a.m. to 7 p.m., so at least you'll get some relief on Sundays and evenings.\n\nWhat's frustrating is that these 'emergency' infrastructure repairs keep popping up around the city, suggesting our water system is in worse shape than we'd like to admit. At least they're being proactive about fixing it before it becomes a major break that floods the street, but the timing never seems convenient for anyone who actually has to navigate these construction zones.",
+          "neighborhood": "Home Park",
           "neighborhoods": [
+            "Home Park",
             "Midtown",
-            "Home Park"
+            "Virginia-Highland"
           ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/atlanta/emergency-construction-shut-down-busy-atlanta-street-several-weeks/XZQELXNGRRFXHJG4L7ZHM4DO7A/",
           "imageUrl": "https://www.wsbtv.com/resizer/v2/PF64SMFZZVGWBDBMMFR2D2NPOI.jpg?auth=42d54236c2cd88fdb354accf84937d6b1008cb5cdbcf37f44d32c975adb21e4b&smart=true&width=1300&height=865",
-          "imageAlt": "Construction work on Atlanta street intersection",
+          "imageAlt": "Construction equipment at Atlanta street intersection",
           "publishedAt": "2026-03-15T11:52:35.000Z",
           "keywords": [
-            "midtown",
+            "infrastructure",
+            "water valve",
             "construction",
-            "water-infrastructure",
-            "10th-street",
-            "atlanta"
+            "10th Street",
+            "traffic"
           ]
         }
       ]
@@ -131,10 +132,32 @@
       "category": "Politics & Policy",
       "stories": [
         {
-          "id": "mayor-firefighter-contract-dispute",
-          "headline": "Mayor Dickens Refuses to Sign Fire Union Contract, Attacks Union Leader",
-          "summary": "Mayor Andre Dickens ignored Friday's deadline to sign the firefighters' union contract that City Council approved almost a year ago. Instead of explaining the delay, he's questioning union president Nate Bailey's legitimacy and claiming there were \"irregularities\" in his election. It's a messy situation that makes the mayor look petty while firefighters wait for their first-ever union contract.",
-          "body": "This is not a good look for Mayor Dickens. The Atlanta Fire Rescue union gave him a Friday deadline to sign their contract, and instead of just signing the thing, he's gone on the attack against union president Nate Bailey. Keep in mind, City Council unanimously approved this contract almost a year ago.\n\nDickens is claiming there were \"irregularities\" in Bailey's re-election as union president last November and says the union will have to redo the election in May. His statement to Atlanta Civic Circle reads like political mudslinging rather than a reasonable explanation for why he won't sign a contract the city has already approved.\n\nHere's the thing: Atlanta firefighters have never had a union contract before, and they've been waiting patiently while the mayor plays political games. This feels like the kind of unnecessary drama that makes people lose faith in city government. Either sign the contract Council approved or give a real reason why you can't. Don't attack the messenger.",
+          "id": "decatur-watchfest-mural-replacement",
+          "headline": "Decatur Commission to Discuss Replacing WatchFest Mural",
+          "summary": "The Decatur City Commission will take up the question of replacing the WatchFest mural during their regular meeting Monday night at City Hall. The mural discussion comes as part of ongoing conversations about public art and community representation in the downtown square area.",
+          "body": "The WatchFest mural has been a fixture in downtown Decatur for years, but it looks like change might be coming. The City Commission is putting the question of replacement on Monday night's agenda, though they haven't released many details about what prompted this discussion or what might replace it.\n\nIf you're not familiar with the WatchFest mural, it's been part of Decatur's downtown landscape for quite a while, connected to the city's annual film festival. Public art discussions in Decatur tend to get pretty animated - residents here are passionate about maintaining the city's character while also evolving with the times. The mural replacement conversation probably involves questions about community representation, artistic vision, and who gets to decide what goes on public buildings.\n\nThe commission meeting starts at 7:30 p.m. at City Hall on McDonough Street, with dinner and executive sessions beforehand. If you care about public art in Decatur, Monday night might be worth showing up for, especially since these decisions tend to stick around for years once they're made.",
+          "neighborhood": "Decatur",
+          "neighborhoods": [
+            "Decatur"
+          ],
+          "source": "Decaturish",
+          "sourceUrl": "https://www.decaturish.com/news/decatur/decatur-city-commission-to-discuss-replacing-watchfest-mural/article_eef3273c-06ff-489d-87a2-6a7dfc0cc009.html",
+          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/1/d2/1d29ce0e-5d18-4a9b-9029-014c463ddb06/691bca848b530.image.png?resize=300%2C318",
+          "imageAlt": "Decatur City Hall building where commission meets",
+          "publishedAt": "2026-03-13T19:03:00.000Z",
+          "keywords": [
+            "Decatur",
+            "public art",
+            "city commission",
+            "mural",
+            "community"
+          ]
+        },
+        {
+          "id": "firefighter-union-contract-dispute",
+          "headline": "Dickens Attacks Fire Union Leader Instead of Signing Contract",
+          "summary": "Mayor Andre Dickens missed the firefighters union's Friday deadline to sign Atlanta's first-ever fire contract, which City Council unanimously approved nearly a year ago. Instead of signing, Dickens questioned union president Nate Bailey's legitimacy and claimed 'irregularities' in Bailey's recent re-election. The union is threatening legal action.",
+          "body": "This whole firefighter contract situation is getting ugly, and honestly, it's making the mayor look petty. City Council unanimously approved Atlanta's first-ever firefighter union contract almost a year ago in April 2025, but Andre Dickens still hasn't signed the thing. Friday was the union's deadline, and instead of just signing it, he went after union president Nate Bailey personally.\n\nDickens is claiming there were 'irregularities' in Bailey's re-election as president of IAFF Local 134 back in November, and says the union might have to redo the election in May. His statement basically argues that Bailey's leadership is 'called into question,' so he won't sign the contract. That's a pretty convenient excuse for avoiding a contract that his own city council already approved unanimously.\n\nThe firefighters union isn't backing down and is threatening legal action. This feels like classic Atlanta politics - when you don't want to deal with something, attack the messenger instead of addressing the actual issue. Our firefighters deserve better than political games, especially when they're asking for basic workplace protections that every other major city provides.",
           "neighborhood": "Downtown",
           "neighborhoods": [
             "Downtown"
@@ -142,36 +165,14 @@
           "source": "Atlanta Civic Circle",
           "sourceUrl": "https://atlantaciviccircle.org/2026/03/14/atlanta-mayor-mudslings-firefighter-union-contract/",
           "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/PHOTO-2026-03-10-13-43-06-e1773508038487-1024x796.jpg",
-          "imageAlt": "Atlanta firefighters at city hall",
+          "imageAlt": "Atlanta firefighters at a union meeting",
           "publishedAt": "2026-03-14T17:09:38.000Z",
           "keywords": [
-            "mayor-dickens",
             "firefighters",
-            "union-contract",
-            "atlanta",
-            "city-council"
-          ]
-        },
-        {
-          "id": "decatur-schools-budget-problems",
-          "headline": "Decatur Schools Face Another Year of Budget Shortfalls",
-          "summary": "The draft budget for City Schools of Decatur is projecting dramatic losses again for fiscal year 2027. A concerned resident wrote to Decaturish expressing disappointment that the district keeps running deficits despite being one of the state's most well-funded school systems. It raises questions about financial management in one of metro Atlanta's most desirable school districts.",
-          "body": "City Schools of Decatur has a reputation as one of the best school districts in Georgia, which is exactly why so many families move to the area. But the latest budget draft shows the district projecting major losses again for the fiscal year ending in June 2027.\n\nA reader wrote to Decaturish expressing frustration that keeps happening year after year. And honestly, it's a fair question. Decatur schools benefit from some of the highest property values in the metro area, so where is all that tax revenue going? The district consistently ranks among the best-funded in the state per pupil.\n\nThis matters beyond just Decatur because the school district is a huge draw for families looking at where to live ITP. If the finances are shaky, it could affect property values and the whole character of the area. Someone needs to explain why one of Georgia's most well-funded districts keeps running in the red.",
-          "neighborhood": "Decatur",
-          "neighborhoods": [
-            "Decatur"
-          ],
-          "source": "Decaturish",
-          "sourceUrl": "https://www.decaturish.com/opinion/letters_to_editor/dear-decaturish---decatur-schools-budget-draft-disappoints/article_e0f3f4b4-196b-47b9-8d31-a920919b0ea3.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/6/a9/6a966933-af73-577c-abde-842cbf7ab7c9/68380bb590511.image.jpg?resize=300%2C199",
-          "imageAlt": "Decatur school building exterior",
-          "publishedAt": "2026-03-13T14:20:00.000Z",
-          "keywords": [
-            "decatur-schools",
-            "budget",
-            "education",
-            "funding",
-            "property-taxes"
+            "union contract",
+            "Andre Dickens",
+            "labor dispute",
+            "Atlanta"
           ]
         }
       ]
@@ -180,47 +181,47 @@
       "category": "Public Safety",
       "stories": [
         {
-          "id": "child-killed-domestic-dispute",
-          "headline": "Four-Year-Old Killed in Southwest Atlanta Domestic Dispute",
-          "summary": "Atlanta police found a severely injured 4-year-old during a domestic dispute call Saturday night on Alison Court in southwest Atlanta. Officers had to force entry into the locked apartment and used de-escalation techniques to get the child away from a man who was taken into custody. Tragically, the child died at the hospital from apparent stab wounds.",
-          "body": "This is the kind of news that just breaks your heart. Atlanta police responded to what started as a domestic dispute call Saturday night on Alison Court in southwest Atlanta, but it turned into something much worse when they found a severely injured 4-year-old inside a locked apartment.\n\nAccording to homicide Lt. Christopher Butler, officers had to force entry into the apartment because it was locked. They used de-escalation techniques to get the child away from the man inside and took him into custody. But the child was already badly injured from apparent stab wounds before police arrived.\n\nThe 4-year-old was rushed to Grady but didn't survive. It's a reminder of how domestic violence affects the most vulnerable members of our community. This happened in a neighborhood that's been working hard to improve, and incidents like this highlight why community support and intervention services are so crucial.",
+          "id": "atlanta-child-stabbing-death",
+          "headline": "4-Year-Old Stabbed to Death in Southwest Atlanta Apartment",
+          "summary": "Atlanta police found a severely injured 4-year-old during a Saturday night domestic dispute call on Alison Court. Officers had to force entry into the locked apartment and used de-escalation techniques to get the child away from a suspect. The child died at the hospital from apparent stab wounds, and a man is in custody.",
+          "body": "This is one of those stories that just breaks your heart and makes you wonder how we got here as a city. Saturday night, APD responded to what started as a domestic dispute call on Alison Court in southwest Atlanta, but it turned into something much worse when officers found a 4-year-old with stab wounds.\n\nThe details are pretty horrific - officers had to force their way into a locked apartment where a man and woman had been arguing. They found the child already injured and had to use de-escalation techniques to get the kid away from the suspect. Despite getting the child to Grady quickly, the injuries were too severe. A man is in custody, but police haven't released his relationship to the child yet.\n\nThis happened in a part of southwest Atlanta that's seen some improvements in crime stats recently, but incidents like this remind you that domestic violence cuts across all neighborhoods and demographics. It's especially tragic when children become victims of adult conflicts they had nothing to do with. The whole situation underscores why domestic violence calls are among the most dangerous and unpredictable situations police face.",
           "neighborhood": "Southwest Atlanta",
           "neighborhoods": [
             "Southwest Atlanta"
           ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/1-year-old-stabbed-domestic-dispute-sw-atlanta/JWS4I5W2S5HHRHL5ZZRZRIE5TI/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/M2C5CKMJPZCT7LFAWHQNSCSW64.png?auth=732f25e51d19594f3b96f57d17e85d4557e62800ab9dd0b404af6f6d412b972d&smart=true&width=1152&height=670",
-          "imageAlt": "Atlanta police at crime scene",
+          "imageUrl": null,
+          "imageAlt": null,
           "publishedAt": "2026-03-15T05:19:38.000Z",
           "keywords": [
-            "atlanta",
-            "domestic-violence",
-            "child-death",
-            "southwest-atlanta",
-            "police"
+            "domestic violence",
+            "child death",
+            "southwest Atlanta",
+            "police response",
+            "tragedy"
           ]
         },
         {
-          "id": "athens-triple-shooting",
-          "headline": "One Dead, Two Critical in Downtown Athens Triple Shooting",
-          "summary": "A Saturday morning shooting in downtown Athens left 22-year-old Clayton Adams dead and two others in critical condition. Police arrested someone in connection with the shooting that happened in a parking lot on North Jackson Street around 2:30 a.m. One of the other victims may not survive, according to police.",
-          "body": "Downtown Athens saw another violent incident early Saturday morning when gunfire erupted in a parking lot on North Jackson Street around 2:30 a.m. The shooting left three people wounded, with 22-year-old Clayton Adams of Hull not surviving his injuries.\n\nPolice have arrested someone in connection with the shooting, though they haven't released the suspect's name yet. The other two victims, both in their early twenties, were rushed to the hospital in critical condition. Officers say one of them is not expected to live.\n\nThis happened in the 400 block of North Jackson Street, not far from the University of Georgia campus, though police say none of the victims had connections to the university. It's another reminder that Athens, like many college towns, deals with violence that often has nothing to do with the student population but affects everyone's sense of safety downtown.",
-          "neighborhood": "Athens",
+          "id": "athens-triple-shooting-arrest",
+          "headline": "Athens Triple Shooting Leaves One Dead, Arrest Made",
+          "summary": "Athens police arrested a suspect in Saturday morning's triple shooting on North Jackson Street that killed 22-year-old Clayton Adams and left two others in critical condition. The shooting happened around 2:30 a.m. in a downtown Athens parking lot. Police say one of the hospitalized victims is not expected to survive.",
+          "body": "Downtown Athens turned deadly early Saturday morning when a triple shooting in a North Jackson Street parking lot left one person dead and two others fighting for their lives. Police have made an arrest, but they're not releasing the suspect's name yet while the investigation continues.\n\nThe victim who died was 22-year-old Clayton Adams from Hull, Georgia. According to family members, Adams and another victim were actually trying to help the third victim, 20-year-old Landon Skinner, when the shooting happened. Police say one of the two survivors isn't expected to make it, which could turn this into a double homicide case.\n\nThis happened right in the heart of downtown Athens around 2:30 a.m., the kind of time and place where you'd expect college students to be heading home from bars. The fact that it appears some of the victims were Good Samaritans trying to help someone else makes it even more tragic. Athens has had its share of violence near the UGA campus in recent years, and incidents like this just reinforce concerns about safety in the downtown entertainment district.",
+          "neighborhood": "Downtown",
           "neighborhoods": [
-            "Athens"
+            "Downtown"
           ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/clarke-county/1-dead-2-critically-injured-downtown-athens-shooting/DMT3MITEMJBRVLMBIBSRVSWHII/",
           "imageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-15-2026%2Ft_2a63ab7188c0463e81a4abd2d99d991d_name_6PV_SHOOTING_NORTH_ATHENS_VO_transfer_frame_3291.jpeg?auth=372d41dc421cd56c49d8e2fb5fee1e92f1a22099b357c90a5f36c4c23161d36e&smart=true&width=1280&height=720",
-          "imageAlt": "Athens police investigating shooting scene",
+          "imageAlt": "Police investigating downtown Athens shooting scene",
           "publishedAt": "2026-03-15T04:09:33.000Z",
           "keywords": [
-            "athens",
-            "shooting",
-            "downtown",
-            "clayton-adams",
-            "police"
+            "Athens shooting",
+            "triple shooting",
+            "downtown Athens",
+            "university area",
+            "violence"
           ]
         }
       ]
@@ -229,10 +230,10 @@
       "category": "Arts & Culture",
       "stories": [
         {
-          "id": "atlanta-hairstylist-oscar-nomination",
-          "headline": "Atlanta's Shunika Terry Up for Oscar for 'Sinners' Hair Work",
-          "summary": "Shunika Terry, an Atlanta hairstylist who never thought she'd work in film, is nominated for an Academy Award for her work as hair department head on 'Sinners.' She's proof that Atlanta's film industry has created opportunities for local talent to reach the highest levels of their craft. The Oscars air Sunday night.",
-          "body": "Shunika Terry had it all planned out. The Atlanta hairstylist set up her camera the night before the Oscar nominations were announced, ready to capture the moment whether she got nominated or not. When the technical difficulties hit and her husband's fancy setup failed, she just grabbed her phone and hit record.\n\nTerry is nominated for Best Makeup and Hairstyling for her work as hair department head on \"Sinners,\" the film that received a record 16 Oscar nominations this year. What makes this story even better is that Terry never thought she'd work in film. She's built her career right here in Atlanta, taking advantage of the opportunities that the city's booming film industry has created.\n\n\"Sinners\" was shot in Georgia, and Terry's nomination is a perfect example of how Atlanta's film boom has elevated local talent to the highest levels of the industry. She's competing against the biggest names in Hollywood, but she got there by mastering her craft right here at home. The Oscars air Sunday night, and all of Atlanta should be rooting for her.",
+          "id": "atlanta-oscar-nominee-hairstylist",
+          "headline": "Atlanta Hairstylist Shunika Terry Gets Oscar Nod for 'Sinners'",
+          "summary": "Shunika Terry, head of the hair department for the film 'Sinners,' never expected to work in Hollywood but now finds herself nominated for an Academy Award. The Atlanta-based hairstylist has built her career in the city's thriving film industry and represents the local talent that's making waves in entertainment.",
+          "body": "You know Atlanta's film scene has really made it when one of our own hairstylists is up for an Oscar. Shunika Terry, who heads up the hair department for 'Sinners,' is nominated for Best Makeup and Hairstyling at Sunday night's ceremony, and her story is pretty inspiring for anyone trying to make it in the entertainment industry here.\n\nTerry set up her camera the night before nominations were announced, ready to capture the moment whether she got nominated or not. Of course, her husband tried to get fancy with the setup and it didn't work, so she ended up just grabbing her phone when they started announcing her category. The whole thing sounds very Atlanta - ambitious but keeping it real when the moment actually arrives.\n\n'Sinners' leads all films this year with a record-setting 16 Oscar nominations, and having an Atlanta-based hair department head as part of that success story shows how integral our local film community has become to major Hollywood productions. Terry's nomination reflects the deep talent pool that's developed here as more and more productions choose to shoot in Georgia. It's not just about tax incentives anymore - we've got world-class crew members who can compete with anybody.",
           "neighborhood": "Atlanta",
           "neighborhoods": [
             "Atlanta"
@@ -240,21 +241,21 @@
           "source": "Atlanta Magazine",
           "sourceUrl": "https://www.atlantamagazine.com/news-culture-articles/atlanta-hairstylist-shunika-terry-never-thought-shed-work-in-film-now-shes-nominated-for-an-oscar/",
           "imageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/shunikaterry_mbj_courtesy.jpg",
-          "imageAlt": "Shunika Terry with Michael B. Jordan at Oscar luncheon",
+          "imageAlt": "Shunika Terry with Michael B. Jordan at the 2026 Oscars luncheon",
           "publishedAt": "2026-03-13T18:56:31.000Z",
           "keywords": [
-            "oscar-nomination",
-            "atlanta-film",
-            "shunika-terry",
-            "sinners",
-            "hairstylist"
+            "Oscars",
+            "Atlanta film",
+            "hairstylist",
+            "Sinners movie",
+            "entertainment industry"
           ]
         },
         {
-          "id": "alliance-theatre-playwriting-competition",
-          "headline": "Alliance Theatre Picks Winner of National Playwriting Competition",
-          "summary": "JuCoby Johnson's \"The Red Man\" won the 23rd annual Alliance/Kendeda National Graduate Playwriting Competition. The Juilliard student's Southern Gothic thriller will be produced as part of the Alliance's 2027/28 season, while four other finalists get workshop productions next year.",
-          "body": "The Alliance Theatre just announced the winner of their prestigious national playwriting competition, and it's going to be a good one. JuCoby Johnson, currently at Juilliard, won with \"The Red Man,\" which they're describing as a Southern Gothic thriller and love story.\n\nJohnson's play will get a full production as part of the Alliance's 2027/28 season, which is a huge deal for any playwright. The competition has become one of the most important launching pads for new theatrical work in the country, and winning it can really change a writer's career trajectory.\n\nFour other finalists will get developmental workshops as part of next year's Alliance/Kendeda Week, including plays from writers at CUNY Hunter College, University of Iowa, Indiana University, and Yale. It's another reminder of how the Alliance continues to be a major force in American theater, not just locally but nationally. Having this kind of new work development happening right in our backyard is pretty special.",
+          "id": "alliance-theatre-playwriting-winner",
+          "headline": "Juilliard Student Wins Alliance Theatre's Kendeda Competition",
+          "summary": "JuCoby Johnson, currently at Juilliard School, won the 23rd annual Alliance/Kendeda National Graduate Playwriting Competition with his Southern Gothic thriller 'The Red Man.' The play will be produced as part of Alliance's 2027/28 season, while four other finalists will get developmental workshops during the 2027 Kendeda Week.",
+          "body": "The Alliance Theatre just announced the winner of their big playwriting competition, and it's going to bring some serious Southern Gothic energy to the Woodruff Arts Center stage. JuCoby Johnson, a playwright and actor currently studying at Juilliard, took home the top prize with his thriller 'The Red Man,' which the Alliance describes as both a love story and a Southern Gothic thriller.\n\nThis is the 23rd year of the Alliance/Kendeda competition, which has become a pretty big deal in the theater world for discovering new voices. Johnson's play will get a full production as part of the Alliance's 2027/28 season, which means Atlanta audiences will be among the first to see this work. Four other finalists will also get their plays workshopped and presented during next year's Kendeda Week.\n\nWhat's interesting is that Johnson is based in New York but chose to write something rooted in Southern storytelling traditions. The Alliance has always done a good job of balancing local stories with works that speak to broader themes, and a Southern Gothic piece from an emerging playwright sounds like it could be exactly the kind of provocative, discussion-worthy theater that makes the Alliance special.",
           "neighborhood": "Midtown",
           "neighborhoods": [
             "Midtown"
@@ -262,41 +263,14 @@
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/03/14/alliance-kendeda-playwriting-winner/",
           "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Headshot-JuCoby-600x400.jpg",
-          "imageAlt": "JuCoby Johnson headshot",
+          "imageAlt": "Playwright JuCoby Johnson, winner of Alliance Theatre competition",
           "publishedAt": "2026-03-14T14:21:00.000Z",
           "keywords": [
-            "alliance-theatre",
+            "Alliance Theatre",
             "playwriting",
-            "juilliard",
-            "southern-gothic",
-            "midtown"
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Food & Drink",
-      "stories": [
-        {
-          "id": "eats-west-end-reopening",
-          "headline": "Eats Reopens in West End After Closure",
-          "summary": "The beloved West End restaurant Eats has reopened after being closed, giving the neighborhood back one of its dining staples. It's good news for the West End's restaurant scene, which has been working to rebuild after losing several longtime establishments in recent years.",
-          "body": "Great news for the West End: Eats is back. The neighborhood restaurant reopened after being closed, and honestly, the West End needs all the good dining options it can get right now.\n\nEats has been a fixture in the community for years, the kind of place that becomes part of the neighborhood fabric. When restaurants like this close, it's not just about losing a place to eat, it's about losing a community gathering spot where people know your name and your usual order.\n\nThe West End has been working hard to revitalize its dining scene after losing several longtime establishments over the past few years. Having Eats back open is a win for residents who don't want to have to drive across town every time they want a decent meal. It's also a sign that maybe the neighborhood's restaurant scene is starting to stabilize.",
-          "neighborhood": "West End",
-          "neighborhoods": [
-            "West End"
-          ],
-          "source": "AJC",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUzF0NzNsazFGT01DaDk0ZHJQTUVuVEJVdjd1VDMtNU84c2FIRGVtdWJwaGVsSU9kUTgwRVlXQS1TQlA5LWFvc0FxMExSODlzX0pNeXJhcEJRSW5EV3MzbEx5WkYwaU9KU1dldWZjRUM1WW1fRmg5SkRSSHBaUVY1aXpzcVJlMm5QdVNTRzFJSklzXzNSTFZkbkFmdWp6NHdtYllSSjlPcHA?oc=5",
-          "imageUrl": null,
-          "imageAlt": null,
-          "publishedAt": "2026-03-14T10:21:06.000Z",
-          "keywords": [
-            "eats",
-            "west-end",
-            "restaurant",
-            "reopening",
-            "dining"
+            "Southern Gothic",
+            "theater",
+            "Kendeda competition"
           ]
         }
       ]
@@ -305,48 +279,25 @@
       "category": "Community",
       "stories": [
         {
-          "id": "decatur-watchfest-mural-replacement",
-          "headline": "Decatur Commission to Discuss Replacing WatchFest Mural",
-          "summary": "The Decatur City Commission will discuss replacing the WatchFest mural during their Monday meeting. The mural has been a local landmark, so any changes will likely generate plenty of community discussion about what should replace it and whether it's time for something new.",
-          "body": "Decatur's getting ready for what could be an interesting City Commission meeting Monday night. One of the items on the agenda is discussing replacement of the WatchFest mural, which has been part of the downtown landscape for years.\n\nAnyone who's spent time in downtown Decatur knows this mural, it's become one of those local landmarks that people use as a reference point when giving directions. So any talk of replacing it is going to get people's attention, both from folks who think it's time for something fresh and those who want to preserve what's there.\n\nThe commission meets at 7:30 p.m. at City Hall on Monday, with dinner and executive sessions beforehand. Given how passionate Decatur residents can be about changes to their downtown, this discussion could be pretty lively. It'll be interesting to see what kind of community input they get on what should replace it, if anything.",
+          "id": "tulsa-welding-school-decatur-opens",
+          "headline": "Tulsa Welding School Opens New Campus in Decatur",
+          "summary": "A 44,639-square-foot campus in Decatur opened Friday to train students in welding, HVAC, and electrical trades. The school aims to address the nearly 400,000 unfilled skilled trade jobs across the U.S., a number projected to hit 2 million by 2033. The campus is part of StrataTech Education Group's expansion into high-demand workforce markets.",
+          "body": "Decatur just got a major boost in skilled trades education with the opening of Tulsa Welding School's new Atlanta Metro campus. The 44,639-square-foot facility on Friday officially opened its doors, focusing on welding, HVAC/R, and electrical technologies training. Given that there are roughly 400,000 unfilled skilled trade jobs nationwide (and that number's expected to hit 2 million by 2033), this couldn't come at a better time.\n\nThe timing makes sense - Georgia's construction and manufacturing sectors are booming, but finding qualified tradespeople has become a real challenge. Companies are desperate for welders, HVAC technicians, and electricians, and traditional four-year college programs obviously aren't meeting that need. StrataTech Education Group, which owns Tulsa Welding School, is betting that Decatur's location and proximity to both Atlanta's airport and major industrial areas will make it an ideal training hub.\n\nWhat's smart about this approach is recognizing that not everyone needs or wants a traditional college degree to build a solid career. These trade jobs often pay better than many positions that require bachelor's degrees, and there's real job security in skills that can't be outsourced or automated. For Decatur, having a major vocational training facility adds another dimension to the area's educational landscape beyond just Emory and Agnes Scott.",
           "neighborhood": "Decatur",
           "neighborhoods": [
             "Decatur"
           ],
-          "source": "Decaturish",
-          "sourceUrl": "https://www.decaturish.com/news/decatur/decatur-city-commission-to-discuss-replacing-watchfest-mural/article_eef3273c-06ff-489d-87a2-6a7dfc0cc009.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/1/d2/1d29ce0e-5d18-4a9b-9029-014c463ddb06/691bca848b530.image.png?resize=300%2C318",
-          "imageAlt": "WatchFest mural in downtown Decatur",
-          "publishedAt": "2026-03-13T19:03:00.000Z",
+          "source": "The Atlanta Voice",
+          "sourceUrl": "https://theatlantavoice.com/tulsa-welding-school-atlanta/",
+          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/Tulsa-Wedling-School-exterior-2026.jpeg?fit=768%2C1024&quality=89&ssl=1",
+          "imageAlt": "New Tulsa Welding School campus building in Decatur",
+          "publishedAt": "2026-03-14T12:20:05.000Z",
           "keywords": [
-            "decatur",
-            "mural",
-            "watchfest",
-            "city-commission",
-            "downtown"
-          ]
-        },
-        {
-          "id": "southwest-atlanta-crime-reduction",
-          "headline": "Southwest Atlanta Leads City in Crime Reduction",
-          "summary": "Zone 4, covering neighborhoods from Cascade Heights to Princeton Lakes, saw a 23% overall drop in crime and earned the Atlanta Police Department's 2025 Crime Reduction Award. Property crimes were hit especially hard, with car break-ins down 38% and vehicle thefts down 41%. It's proof that community policing strategies can actually work.",
-          "body": "Southwest Atlanta is having a moment, and it's the good kind. Zone 4, which covers everything from Cascade Heights to Princeton Lakes, just earned the Atlanta Police Department's Crime Reduction Award for 2025. They haven't held that distinction since 2020.\n\nThe numbers are pretty impressive: 23% overall drop in crime, with some categories doing even better. Car break-ins fell 38%, vehicle thefts dropped 41%, and burglaries were down 16%. Chief Darin Schierbaum credits a combination of more officers on the street, better technology, and residents actually partnering with police.\n\nWhat's encouraging is hearing from residents who say they actually feel safer in their neighborhoods. That's the real test, not just the statistics but whether people feel comfortable walking their dogs at night or letting their kids play outside. Southwest Atlanta has been working hard to shake off old perceptions, and results like this show that community-police partnerships can actually make a difference.",
-          "neighborhood": "Southwest Atlanta",
-          "neighborhoods": [
-            "Southwest Atlanta",
-            "Cascade Heights"
-          ],
-          "source": "Fox 5 Atlanta",
-          "sourceUrl": "https://www.fox5atlanta.com/news/southwest-atlanta-crime-reduction-police-apd",
-          "imageUrl": "https://images.foxtv.com/d3ayhwgrwyc4j8.cloudfront.net/ue2/mcvod/fmc-c2ql7z5h6uf5t80b_A-1515894--1514049/hls/v1_0/931/523/index.m3u8?ve=1&tl=1",
-          "imageAlt": "Southwest Atlanta neighborhood street scene",
-          "publishedAt": "2026-03-13T19:25:39.000Z",
-          "keywords": [
-            "southwest-atlanta",
-            "crime-reduction",
-            "apd",
-            "cascade-heights",
-            "community-policing"
+            "skilled trades",
+            "vocational training",
+            "Decatur",
+            "workforce development",
+            "HVAC"
           ]
         }
       ]
@@ -355,35 +306,39 @@
   "neighborhoods": {
     "Grant Park": {
       "storyCount": 1,
-      "topStory": "beacon-grant-park-vacancy-crisis"
+      "topStory": "beacon-grant-park-vacancy-struggle"
     },
     "Westside": {
       "storyCount": 1,
-      "topStory": "westside-beltline-shelter-opposition"
+      "topStory": "westside-shelter-opposition-beltline"
     },
     "Downtown": {
-      "storyCount": 2,
-      "topStory": "mayor-firefighter-contract-dispute"
+      "storyCount": 3,
+      "topStory": "world-cup-atlanta-downtown-preparations"
     },
     "Decatur": {
       "storyCount": 2,
-      "topStory": "decatur-schools-budget-problems"
-    },
-    "Southwest Atlanta": {
-      "storyCount": 2,
-      "topStory": "southwest-atlanta-crime-reduction"
+      "topStory": "tulsa-welding-school-decatur-opens"
     },
     "Midtown": {
       "storyCount": 2,
-      "topStory": "midtown-construction-closure"
+      "topStory": "alliance-theatre-playwriting-winner"
     },
-    "West End": {
+    "Home Park": {
       "storyCount": 1,
-      "topStory": "eats-west-end-reopening"
+      "topStory": "10th-street-hemphill-construction-closure"
     },
-    "Athens": {
+    "Southwest Atlanta": {
       "storyCount": 1,
-      "topStory": "athens-triple-shooting"
+      "topStory": "atlanta-child-stabbing-death"
+    },
+    "Kirkwood": {
+      "storyCount": 1,
+      "topStory": "beacon-grant-park-vacancy-struggle"
+    },
+    "Virginia-Highland": {
+      "storyCount": 1,
+      "topStory": "10th-street-hemphill-construction-closure"
     }
   }
 }

@@ -100,9 +100,10 @@ Output this exact JSON structure:
 }
 
 RULES:
-- Assign neighborhoods from: ${ITP_NEIGHBORHOODS.join(', ')}
+- ONLY assign neighborhoods from this EXACT list (do not invent or generalize): ${ITP_NEIGHBORHOODS.join(', ')}
+- If a story doesn't map to one of those neighborhoods, use the closest match or drop the story
+- HARD FILTER: Drop any story not primarily about Atlanta ITP (Inside I-285). No suburbs, no Athens, no Cobb, no Gwinnett, no South Fulton, no "Southwest Atlanta", no "Statewide", no "Metro Atlanta". Every story must map to a specific neighborhood from the list above.
 - Categories: Development & Housing, Transit & Infrastructure, Food & Drink, Arts & Culture, Politics & Policy, Public Safety, Community, Business
-- Only include stories relevant to ITP Atlanta
 - SE BeltLine stories get priority placement
 - Write like a real person, not a press release. Have a voice. Be the neighbor who reads everything.
 - Headlines: active, present tense, conversational. "O4W's Newest Tower Finally Breaks Ground" not "Construction Begins on Mixed-Use Development"
