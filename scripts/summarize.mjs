@@ -56,7 +56,7 @@ async function main() {
 
   const message = await client.messages.create({
     model: 'claude-sonnet-4-20250514',
-    max_tokens: 8192,
+    max_tokens: 16384,
     messages: [
       {
         role: 'user',
