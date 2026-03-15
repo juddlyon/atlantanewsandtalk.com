@@ -1,7 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
 import RSSParser from 'rss-parser';
-import fs from 'fs';
-import path from 'path';
+import { getStore } from '@netlify/blobs';
 
 const parser = new RSSParser({
   customFields: {
@@ -14,143 +13,99 @@ const parser = new RSSParser({
 });
 
 const SOURCES = [
-  { name: 'Decaturish', url: 'https://decaturish.com/feed/', neighborhood: 'Decatur' },
-  { name: 'SaportaReport', url: 'https://saportareport.com/feed/', neighborhood: 'Atlanta' },
-  { name: 'Urbanize Atlanta', url: 'https://atlanta.urbanize.city/feed', neighborhood: 'Atlanta' },
-  { name: 'Atlanta Civic Circle', url: 'https://atlantaciviccircle.org/feed/', neighborhood: 'Atlanta' },
-  { name: 'Axios Atlanta', url: 'https://www.axios.com/local/atlanta/feed', neighborhood: 'Atlanta' },
-  { name: 'What Now Atlanta', url: 'https://whatnowatlanta.com/feed/', neighborhood: 'Atlanta' },
-  { name: 'Atlanta INtown Paper', url: 'https://www.intownpaper.com/feed/', neighborhood: 'Intown' },
-  { name: 'Rough Draft Atlanta', url: 'https://roughdraftatlanta.com/feed/', neighborhood: 'Atlanta' },
+  { name: 'Decaturish', url: 'https://decaturish.com/feed/', tier: 1 },
+  { name: 'Urbanize Atlanta', url: 'https://atlanta.urbanize.city/feed', tier: 1 },
+  { name: 'Atlanta Civic Circle', url: 'https://atlantaciviccircle.org/feed/', tier: 1 },
+  { name: 'SaportaReport', url: 'https://saportareport.com/feed/', tier: 2 },
+  { name: 'Rough Draft Atlanta', url: 'https://roughdraftatlanta.com/feed/', tier: 2 },
+  { name: 'The Atlanta Voice', url: 'https://www.theatlantavoice.com/feed/', tier: 2 },
+  { name: 'Georgia Recorder', url: 'https://georgiarecorder.com/feed/', tier: 2 },
+  { name: 'Global Atlanta', url: 'https://globalatlanta.com/feed/', tier: 2 },
+  { name: '11Alive', url: 'https://www.11alive.com/feeds/syndication/rss/news', tier: 3 },
+  { name: 'WSB-TV', url: 'https://www.wsbtv.com/arc/outboundfeeds/rss/?outputType=xml', tier: 3 },
+  { name: 'GPB News', url: 'https://www.gpb.org/news/rss.xml', tier: 3 },
 ];
 
 const ITP_NEIGHBORHOODS = [
-  'Midtown', 'Buckhead', 'Downtown', 'East Atlanta', 'East Atlanta Village',
-  'Grant Park', 'Inman Park', 'Virginia-Highland', 'Old Fourth Ward', 'Decatur',
-  'Kirkwood', 'Little Five Points', 'Edgewood', 'Reynoldstown', 'Cabbagetown',
-  'Summerhill', 'West End', 'Westside', 'Poncey-Highland', 'Candler Park',
-  'Morningside', 'Druid Hills', 'Ansley Park', 'Piedmont Heights', 'Ormewood Park',
-  'Chosewood Park', 'Capitol View', 'Adair Park', 'Oakland City', 'Mechanicsville',
-  'Peoplestown', 'Lakewood Heights', 'Sylvan Hills', 'Pittsburgh', 'West Midtown',
-  'Castleberry Hill', 'Sweet Auburn', 'Home Park', 'Atlantic Station', 'Collier Hills',
-  'Bolton', 'Grove Park',
+  'Old Fourth Ward', 'Grant Park', 'Reynoldstown', 'Cabbagetown', 'Inman Park',
+  'Summerhill', 'East Atlanta Village', 'Ormewood Park', 'Kirkwood', 'Edgewood',
+  'Little Five Points', 'Candler Park', 'Poncey-Highland', 'Decatur', 'East Atlanta',
+  'Peoplestown', 'Chosewood Park', 'Sweet Auburn', 'Midtown', 'Downtown',
+  'Virginia-Highland', 'Morningside', 'Druid Hills', 'Ansley Park', 'Piedmont Heights',
+  'West Midtown', 'Westside', 'West End', 'Buckhead', 'Castleberry Hill',
+  'Home Park', 'Atlantic Station', 'Collier Hills', 'Bolton', 'Grove Park',
+  'Capitol View', 'Adair Park', 'Oakland City', 'Mechanicsville',
+  'Lakewood Heights', 'Sylvan Hills', 'Pittsburgh',
 ];
 
-/**
- * Extract image URL from an RSS item by checking multiple possible fields
- */
 function extractImageFromItem(item) {
-  // 1. media:content
-  if (item.mediaContent) {
-    const url = item.mediaContent.$ && item.mediaContent.$.url;
-    if (url) return url;
-  }
-
-  // 2. media:thumbnail
-  if (item.mediaThumbnail) {
-    const url = item.mediaThumbnail.$ && item.mediaThumbnail.$.url;
-    if (url) return url;
-  }
-
-  // 3. enclosure
-  if (item.enclosure && item.enclosure.url && item.enclosure.type?.startsWith('image/')) {
-    return item.enclosure.url;
-  }
-
-  // 4. content:encoded — look for first <img> tag
+  if (item.mediaContent?.$?.url) return item.mediaContent.$.url;
+  if (item.mediaThumbnail?.$?.url) return item.mediaThumbnail.$.url;
+  if (item.enclosure?.url && item.enclosure.type?.startsWith('image/')) return item.enclosure.url;
   if (item.contentEncoded) {
     const match = item.contentEncoded.match(/<img[^>]+src=["']([^"']+)["']/i);
-    if (match && match[1]) return match[1];
+    if (match?.[1]) return match[1];
   }
-
-  // 5. content — look for first <img> tag
   if (item.content) {
     const match = item.content.match(/<img[^>]+src=["']([^"']+)["']/i);
-    if (match && match[1]) return match[1];
+    if (match?.[1]) return match[1];
   }
-
   return null;
 }
 
-/**
- * Fetch og:image from an article URL as a fallback
- */
-async function fetchOgImage(url) {
-  try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 5000);
-
-    const response = await fetch(url, {
-      signal: controller.signal,
-      headers: { 'User-Agent': 'AtlantaNewsAndTalk/1.0' },
-    });
-    clearTimeout(timeout);
-
-    if (!response.ok) return null;
-
-    const html = await response.text();
-    const ogMatch = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
-      || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
-
-    return ogMatch ? ogMatch[1] : null;
-  } catch {
-    return null;
-  }
+function stripHtml(html) {
+  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
 async function fetchFeed(source) {
   try {
-    const feed = await parser.parseURL(source.url);
-    const oneDayAgo = Date.now() - 24 * 60 * 60 * 1000;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15000);
+    const res = await fetch(source.url, {
+      signal: controller.signal,
+      headers: { 'User-Agent': 'AtlantaNewsAndTalk/1.0' },
+    });
+    clearTimeout(timeout);
+    if (!res.ok) throw new Error(`Status ${res.status}`);
+    const xml = await res.text();
+    const feed = await parser.parseString(xml);
+    const twoDaysAgo = Date.now() - 48 * 60 * 60 * 1000;
+
     return feed.items
       .filter((item) => {
         const pubDate = item.pubDate ? new Date(item.pubDate).getTime() : 0;
-        return pubDate > oneDayAgo;
+        return pubDate > twoDaysAgo;
       })
-      .slice(0, 10)
-      .map((item) => ({
-        title: item.title || '',
-        link: item.link || '',
-        pubDate: item.pubDate || '',
-        snippet: (item.contentSnippet || item.content || '').slice(0, 800),
-        contentEncoded: (item.contentEncoded || '').slice(0, 1500),
-        source: source.name,
-        neighborhood: source.neighborhood,
-        imageUrl: extractImageFromItem(item),
-      }));
+      .slice(0, 15)
+      .map((item) => {
+        let textContent = '';
+        if (item.contentEncoded) textContent = stripHtml(item.contentEncoded).slice(0, 1500);
+        else if (item.contentSnippet) textContent = item.contentSnippet.slice(0, 1500);
+        else if (item.content) textContent = stripHtml(item.content).slice(0, 1500);
+
+        return {
+          title: item.title || '',
+          link: item.link || '',
+          pubDate: item.pubDate || '',
+          content: textContent,
+          source: source.name,
+          tier: source.tier,
+          imageUrl: extractImageFromItem(item),
+        };
+      });
   } catch (err) {
-    console.error(`Failed to fetch ${source.name}: ${err.message}`);
+    console.error(`Failed ${source.name}: ${err.message}`);
     return [];
   }
 }
 
-async function enrichArticlesWithImages(articles) {
-  // For the first 5 articles without images, try fetching og:image
-  const articlesNeedingImages = articles
-    .map((a, i) => ({ article: a, index: i }))
-    .filter(({ article }) => !article.imageUrl)
-    .slice(0, 5);
-
-  const ogResults = await Promise.allSettled(
-    articlesNeedingImages.map(({ article }) => fetchOgImage(article.link))
-  );
-
-  ogResults.forEach((result, i) => {
-    if (result.status === 'fulfilled' && result.value) {
-      articlesNeedingImages[i].article.imageUrl = result.value;
-    }
-  });
-
-  return articles;
-}
-
-async function summarizeWithClaude(articles) {
+async function summarize(articles) {
   const client = new Anthropic();
+  const today = new Date().toISOString().slice(0, 10);
 
   const articleText = articles
-    .map(
-      (a, i) =>
-        `${i + 1}. [${a.source}] "${a.title}"\n   ${a.snippet}\n   Link: ${a.link}\n   Image: ${a.imageUrl || 'none'}\n   Published: ${a.pubDate}`
+    .map((a, i) =>
+      `${i + 1}. [${a.source}] "${a.title}"\n   ${a.content.slice(0, 800)}\n   Link: ${a.link}\n   Image: ${a.imageUrl || 'none'}\n   Published: ${a.pubDate}`
     )
     .join('\n\n');
 
@@ -160,60 +115,61 @@ async function summarizeWithClaude(articles) {
     messages: [
       {
         role: 'user',
-        content: `You are a hyperlocal Atlanta news editor focused on Inside The Perimeter (ITP) neighborhoods. Write naturally and journalistically. Your copy should read like a skilled local reporter wrote it.
+        content: `You are a local Atlanta blogger who lives ITP and knows every neighborhood. You write like you're telling your friend about the news over coffee. Warm, conversational, occasionally opinionated, always well-informed.
 
-Given these articles from today, produce a JSON digest with this exact structure:
+Your special focus is the SE BeltLine corridor: Old Fourth Ward, Grant Park, Reynoldstown, Cabbagetown, Inman Park, Summerhill, East Atlanta Village, Ormewood Park.
 
+Given these articles, produce a JSON digest. PRIORITIZE SE BeltLine stories.
+
+Output this exact JSON structure:
 {
-  "date": "YYYY-MM-DD",
-  "generatedAt": "ISO timestamp",
-  "summary": "2-3 sentence overview of the day's biggest Atlanta ITP stories — written like a newspaper lede",
-  "topStory": { the single most significant/interesting story object from the sections below },
+  "date": "${today}",
+  "generatedAt": "${new Date().toISOString()}",
+  "summary": "2-3 sentence casual overview of the day. Mention specific neighborhoods.",
+  "topStory": { the single most significant story object, prefer SE BeltLine },
   "sections": [
     {
       "category": "Category Name",
       "stories": [
         {
-          "id": "slug-from-headline (lowercase, hyphens, no special chars)",
-          "headline": "Short punchy headline (newspaper style, 8-12 words max)",
-          "summary": "3-4 sentence detailed summary focused on ITP impact and why readers should care",
-          "body": "A 2-3 paragraph journalistic write-up suitable for a standalone article page. Include relevant details, quotes if available from the source material, and neighborhood context. Write in inverted pyramid style.",
+          "id": "url-friendly-slug",
+          "headline": "Short punchy headline, 8-12 words",
+          "summary": "3-4 sentences. Sound like a knowledgeable neighbor, not a press release.",
+          "body": "2-3 paragraph write-up with personality and real details. Include <a href> outbound links to relevant official sites, Wikipedia pages, or source URLs when referencing specific people, places, or organizations. Use <blockquote> for key takeaways or practical info. No corporate-speak.",
           "neighborhood": "Most specific ITP neighborhood",
-          "neighborhoods": ["Primary neighborhood", "Other affected neighborhoods"],
+          "neighborhoods": ["Primary", "Others"],
           "source": "Source name",
-          "sourceUrl": "URL to original article",
-          "imageUrl": "URL to image or null",
-          "imageAlt": "Descriptive alt text for the image",
-          "publishedAt": "ISO date from the original article",
-          "keywords": ["relevant", "seo", "keywords"]
+          "sourceUrl": "original URL",
+          "imageUrl": "image URL or null",
+          "imageAlt": "descriptive alt text",
+          "publishedAt": "ISO date",
+          "keywords": ["local", "search", "terms"]
         }
       ]
     }
   ],
-  "neighborhoods": {
-    "Neighborhood Name": { "storyCount": N, "topStory": "story-slug" }
-  }
+  "neighborhoods": { "Name": { "storyCount": N, "topStory": "slug" } }
 }
 
-IMPORTANT RULES:
-- Assign neighborhoods from ONLY this list: ${ITP_NEIGHBORHOODS.join(', ')}
-- If a story doesn't fit a specific neighborhood, use the closest match
-- Categories to use: Development & Housing, Transit & Infrastructure, Food & Drink, Arts & Culture, Politics & Policy, Public Safety, Community, Business
-- Only include stories relevant to ITP Atlanta
-- Prioritize hyperlocal neighborhood-level news
-- Write headlines in newspaper style — active voice, present tense
-- The "body" field should be 2-3 substantial paragraphs of journalistic writing
-- Generate a unique slug "id" for each story
-- Include 3-5 SEO keywords per story
-- The "topStory" should be duplicated from whichever section contains it — it should be the most significant story of the day
-- Count each neighborhood that appears in any story's "neighborhoods" array for the neighborhoods summary
-- Preserve any image URLs from the source data
-- Never use the word "AI" or reference automation anywhere in the output
+RULES:
+- Neighborhoods from: ${ITP_NEIGHBORHOODS.join(', ')}
+- Categories: Development & Housing, Transit & Infrastructure, Food & Drink, Arts & Culture, Politics & Policy, Public Safety, Community, Business
+- Only ITP-relevant stories
+- SE BeltLine gets priority
+- Write like a real person. Have a voice.
+- Headlines: active, present tense, conversational
+- Body: 2-3 substantial paragraphs with outbound links in <a> tags
+- NEVER use em dashes (use periods, commas, parentheses)
+- NEVER use "vibrant", "bustling", "nestled", "tapestry", "delves"
+- NEVER mention "AI" or automation
+- 8-15 stories total
+- topStory also appears in its section
+- Preserve image URLs from source data
 
 Articles:
 ${articleText}
 
-Respond with ONLY the JSON, no markdown fences or explanation.`,
+Respond with ONLY valid JSON.`,
       },
     ],
   });
@@ -224,57 +180,45 @@ Respond with ONLY the JSON, no markdown fences or explanation.`,
 
 export default async function handler(req) {
   try {
-    // Fetch all feeds in parallel
-    const feedResults = await Promise.all(SOURCES.map(fetchFeed));
-    let allArticles = feedResults.flat();
+    console.log('Fetching from', SOURCES.length, 'sources...');
+    const results = await Promise.all(SOURCES.map(fetchFeed));
+    const articles = results.flat();
 
-    if (allArticles.length === 0) {
+    if (articles.length === 0) {
       return new Response(JSON.stringify({ message: 'No articles found' }), {
         status: 200,
         headers: { 'Content-Type': 'application/json' },
       });
     }
 
-    console.log(`Fetched ${allArticles.length} articles from ${SOURCES.length} sources`);
+    const withImages = articles.filter((a) => a.imageUrl).length;
+    console.log(`${articles.length} articles (${withImages} with images)`);
 
-    // Enrich articles without images by fetching og:image
-    allArticles = await enrichArticlesWithImages(allArticles);
+    const digest = await summarize(articles);
 
-    const articlesWithImages = allArticles.filter((a) => a.imageUrl).length;
-    console.log(`${articlesWithImages}/${allArticles.length} articles have images`);
+    // Store in Netlify Blobs
+    const store = getStore('digests');
+    await store.setJSON('latest', digest);
+    await store.setJSON(`archive-${digest.date}`, digest);
 
-    // Summarize with Claude
-    const digest = await summarizeWithClaude(allArticles);
+    const storyCount = digest.sections.reduce((n, s) => n + s.stories.length, 0);
+    console.log(`Digest: ${storyCount} stories, ${Object.keys(digest.neighborhoods).length} neighborhoods`);
 
-    // Write digest to src/data so it can be used at build time
-    const dataDir = path.join(process.cwd(), 'src', 'data');
-    const digestPath = path.join(dataDir, 'digest-latest.json');
-    const archivePath = path.join(dataDir, `digest-${digest.date}.json`);
-
-    fs.writeFileSync(digestPath, JSON.stringify(digest, null, 2));
-    fs.writeFileSync(archivePath, JSON.stringify(digest, null, 2));
-
-    return new Response(
-      JSON.stringify({
-        success: true,
-        articleCount: allArticles.length,
-        articlesWithImages,
-        digest,
-      }),
-      {
-        status: 200,
-        headers: { 'Content-Type': 'application/json' },
-      }
-    );
+    return new Response(JSON.stringify({
+      success: true,
+      articleCount: articles.length,
+      storyCount,
+      digest,
+    }), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' },
+    });
   } catch (err) {
-    console.error('Digest generation failed:', err);
-    return new Response(
-      JSON.stringify({ success: false, error: err.message }),
-      {
-        status: 500,
-        headers: { 'Content-Type': 'application/json' },
-      }
-    );
+    console.error('Failed:', err);
+    return new Response(JSON.stringify({ success: false, error: err.message }), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' },
+    });
   }
 }
 

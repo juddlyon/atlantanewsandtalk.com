@@ -21,6 +21,7 @@
     "@astrojs/netlify": "^7.0.2",
     "@astrojs/rss": "^4.0.17",
     "@astrojs/sitemap": "^3.7.1",
+    "@netlify/blobs": "^10.7.2",
     "astro": "^6.0.4",
     "cheerio": "^1.2.0",
     "crawlee": "^3.16.0",
