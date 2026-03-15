@@ -1,4 +1,6 @@
 import digest from '../data/digest-latest.json';
+import fs from 'node:fs';
+import path from 'node:path';
 
 export interface Story {
   id: string;
@@ -130,6 +132,35 @@ const NEIGHBORHOOD_COLORS: Record<string, string> = {
 
 export function getNeighborhoodColor(neighborhood: string): string {
   return NEIGHBORHOOD_COLORS[neighborhood] || '#6b7280';
+}
+
+// Archive functions
+
+const DATA_DIR = path.join(process.cwd(), 'src', 'data');
+
+export function getArchiveDates(): string[] {
+  const files = fs.readdirSync(DATA_DIR);
+  return files
+    .filter((f: string) => /^digest-\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .map((f: string) => f.replace('digest-', '').replace('.json', ''))
+    .sort()
+    .reverse();
+}
+
+export function getDigestByDate(date: string): Digest | null {
+  const filePath = path.join(DATA_DIR, `digest-${date}.json`);
+  if (!fs.existsSync(filePath)) return null;
+  const raw = fs.readFileSync(filePath, 'utf-8');
+  return JSON.parse(raw) as Digest;
+}
+
+export function getAdjacentDates(date: string): { prev: string | null; next: string | null } {
+  const dates = getArchiveDates();
+  const idx = dates.indexOf(date);
+  return {
+    prev: idx >= 0 && idx < dates.length - 1 ? dates[idx + 1] : null,
+    next: idx > 0 ? dates[idx - 1] : null,
+  };
 }
 
 export const SITE_URL = 'https://atlantanewsandtalk.com';

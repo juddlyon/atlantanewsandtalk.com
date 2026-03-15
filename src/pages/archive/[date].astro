@@ -1,0 +1,112 @@
+---
+import Base from '../../layouts/Base.astro';
+import Hero from '../../components/Hero.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getArchiveDates, getDigestByDate, getAdjacentDates, getDigest, formatDate, SITE_URL, buildBreadcrumbSchema } from '../../lib/helpers';
+
+export function getStaticPaths() {
+  const dates = getArchiveDates();
+  return dates.map((date) => ({
+    params: { date },
+    props: { date },
+  }));
+}
+
+const { date } = Astro.props;
+const digest = getDigestByDate(date)!;
+const { prev, next } = getAdjacentDates(date);
+const latestDigest = getDigest();
+const isToday = date === latestDigest.date;
+
+const topStory = digest.topStory;
+const totalStories = digest.sections.reduce((count, section) => count + section.stories.length, 0);
+
+const sections = digest.sections.map((section) => ({
+  ...section,
+  stories: section.stories.filter((s) => s.id !== topStory.id),
+})).filter((section) => section.stories.length > 0);
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: SITE_URL },
+  { name: 'Archive', url: `${SITE_URL}/archive` },
+  { name: formatDate(date), url: `${SITE_URL}/archive/${date}` },
+]);
+---
+
+<Base
+  title={`${formatDate(date)} Digest | atlanta news & talk`}
+  description={digest.summary}
+  breadcrumbSchema={breadcrumbSchema}
+>
+  <div class="page-container">
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'Archive', href: '/archive' },
+      { label: formatDate(date) },
+    ]} />
+
+    <div class="digest-header">
+      <div class="digest-label">
+        {isToday ? "today's briefing" : 'archived briefing'}
+      </div>
+      <div class="digest-date">{formatDate(date)}</div>
+      <p class="digest-summary">{digest.summary}</p>
+      <div class="digest-meta">{totalStories} stories · {digest.sections.length} sections</div>
+    </div>
+
+    <div class="archive-nav">
+      {prev ? (
+        <a href={`/archive/${prev}`} class="archive-nav-link">&larr; {formatDate(prev)}</a>
+      ) : <span />}
+      {next ? (
+        <a href={`/archive/${next}`} class="archive-nav-link">{formatDate(next)} &rarr;</a>
+      ) : isToday ? (
+        <span />
+      ) : (
+        <a href="/" class="archive-nav-link">Today &rarr;</a>
+      )}
+    </div>
+
+    <Hero story={topStory} />
+
+    <div class="main-grid">
+      <div class="main-content">
+        {sections.map((section) => (
+          <section>
+            <div class="section-header">
+              <h2 class="section-title">{section.category}</h2>
+              <span class="section-count">{section.stories.length} {section.stories.length === 1 ? 'story' : 'stories'}</span>
+            </div>
+            <ul class="digest-bullets">
+              {section.stories.map((story) => (
+                <li>
+                  {isToday ? (
+                    <a href={`/${story.id}`}>{story.headline}</a>
+                  ) : (
+                    <a href={story.sourceUrl} target="_blank" rel="noopener noreferrer">{story.headline}</a>
+                  )}
+                  <span class="bullet-source">{story.source}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
+    </div>
+
+    <div class="archive-nav" style="margin-top: 2rem;">
+      {prev ? (
+        <a href={`/archive/${prev}`} class="archive-nav-link">&larr; {formatDate(prev)}</a>
+      ) : <span />}
+      {next ? (
+        <a href={`/archive/${next}`} class="archive-nav-link">{formatDate(next)} &rarr;</a>
+      ) : isToday ? (
+        <span />
+      ) : (
+        <a href="/" class="archive-nav-link">Today &rarr;</a>
+      )}
+    </div>
+
+    <a href="/archive" class="back-link" style="margin-top: 1.5rem;">&larr; All archives</a>
+  </div>
+</Base>

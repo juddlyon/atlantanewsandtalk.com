@@ -1,0 +1,61 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getArchiveDates, getDigestByDate, formatDate, SITE_URL, buildBreadcrumbSchema } from '../../lib/helpers';
+
+const dates = getArchiveDates();
+
+const archives = dates.map((date) => {
+  const d = getDigestByDate(date);
+  const storyCount = d ? d.sections.reduce((n, s) => n + s.stories.length, 0) : 0;
+  return {
+    date,
+    formatted: formatDate(date),
+    summary: d?.summary || '',
+    storyCount,
+    sectionCount: d?.sections.length || 0,
+  };
+});
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: SITE_URL },
+  { name: 'Archive', url: `${SITE_URL}/archive` },
+]);
+---
+
+<Base
+  title="Digest Archive | atlanta news & talk"
+  description="Browse past daily digests from atlanta news & talk. Every day's top stories from Inside The Perimeter, organized by date."
+  breadcrumbSchema={breadcrumbSchema}
+>
+  <article class="guide-page">
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'Archive' },
+    ]} />
+
+    <header class="guide-header">
+      <h1 class="guide-h1">Digest Archive</h1>
+    </header>
+
+    <div class="guide-intro">
+      <p>Every daily briefing we've published, newest first. Each digest pulls from a dozen local sources to give you the day's top stories from Inside The Perimeter.</p>
+    </div>
+
+    {archives.length === 0 ? (
+      <p class="archive-empty">No archived digests yet. Check back after the first daily run.</p>
+    ) : (
+      <div class="archive-list">
+        {archives.map((archive) => (
+          <a href={`/archive/${archive.date}`} class="archive-item">
+            <div class="archive-item-date">{archive.formatted}</div>
+            <p class="archive-item-summary">{archive.summary}</p>
+            <div class="archive-item-meta">{archive.storyCount} stories · {archive.sectionCount} sections</div>
+          </a>
+        ))}
+      </div>
+    )}
+
+    <a href="/" class="back-link">&larr; Today's briefing</a>
+  </article>
+</Base>

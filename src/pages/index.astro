@@ -21,7 +21,7 @@ const sections = digest.sections.map((section) => ({
       <div class="digest-label">today's briefing</div>
       <div class="digest-date">{formatDate(digest.date)}</div>
       <p class="digest-summary">{digest.summary}</p>
-      <div class="digest-meta">{totalStories} stories · {digest.sections.length} sections</div>
+      <div class="digest-meta">{totalStories} stories · {digest.sections.length} sections · <a href="/archive" class="archive-link">browse past digests &rarr;</a></div>
     </div>
 
     <Hero story={topStory} />
