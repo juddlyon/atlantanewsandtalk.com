@@ -107,11 +107,13 @@ const bodyParagraphs = story.body.split('\n\n').filter((p: string) => p.trim());
 
     <p class="article-summary">{story.summary}</p>
 
-    <div class="article-body">
-      {bodyParagraphs.map((paragraph: string) => (
-        <p>{paragraph}</p>
-      ))}
-    </div>
+    <div class="article-body" set:html={story.body.split('\n\n').map((p: string) => {
+      // If paragraph is already wrapped in a block element, pass through
+      if (p.trim().startsWith('<blockquote') || p.trim().startsWith('<ul') || p.trim().startsWith('<ol') || p.trim().startsWith('<table')) {
+        return p;
+      }
+      return `<p>${p}</p>`;
+    }).join('\n')} />
 
     <div class="article-footer">
       <a href={story.sourceUrl} class="article-original-link" target="_blank" rel="noopener noreferrer">

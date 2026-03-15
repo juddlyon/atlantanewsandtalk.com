@@ -28,15 +28,15 @@ const sections = digest.sections.map((section) => ({
 
     <div class="main-grid">
       <div class="main-content">
-        {digest.sections.map((section) => (
+        {sections.map((section) => (
           <section id={section.category.toLowerCase().replace(/\s+&\s+/g, '-').replace(/\s+/g, '-')}>
             <div class="section-header">
               <h2 class="section-title">{section.category}</h2>
               <span class="section-count">{section.stories.length} {section.stories.length === 1 ? 'story' : 'stories'}</span>
             </div>
-            <div class:list={['story-grid', section.stories.length === 2 ? 'story-grid-2' : section.stories.length >= 3 ? 'story-grid-3' : '']}>
+            <div class="story-grid">
               {section.stories.map((story) => (
-                <StoryCard story={story} featured={story.id === topStory.id} />
+                <StoryCard story={story} />
               ))}
             </div>
           </section>
