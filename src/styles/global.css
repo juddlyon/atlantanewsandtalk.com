@@ -84,6 +84,15 @@ img {
   height: auto;
 }
 
+/* Prevent any horizontal overflow on mobile */
+.page-container,
+.main-grid,
+.main-content,
+.story-grid,
+.article-page {
+  overflow-x: hidden;
+}
+
 :focus-visible {
   outline: 2px solid var(--color-red);
   outline-offset: 3px;
