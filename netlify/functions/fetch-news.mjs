@@ -1,6 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
 import RSSParser from 'rss-parser';
-import { getStore } from '@netlify/blobs';
+// Digest returned in response. Save locally or use build plugin to write to repo.
 
 const parser = new RSSParser({
   customFields: {
@@ -196,10 +196,7 @@ export default async function handler(req) {
 
     const digest = await summarize(articles);
 
-    // Store in Netlify Blobs
-    const store = getStore('digests');
-    await store.setJSON('latest', digest);
-    await store.setJSON(`archive-${digest.date}`, digest);
+    console.log('Digest generated successfully');
 
     const storyCount = digest.sections.reduce((n, s) => n + s.stories.length, 0);
     console.log(`Digest: ${storyCount} stories, ${Object.keys(digest.neighborhoods).length} neighborhoods`);
