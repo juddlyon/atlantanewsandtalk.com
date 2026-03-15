@@ -24,45 +24,41 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 
     <div class="article-body">
       <p>
-        This site is an experiment. The idea is simple: there are a dozen good local news sources
-        covering Atlanta's ITP neighborhoods, but nobody has time to check all of them every morning.
-        So we built something that does it for you.
+        This is a sidequest. I'm a web developer who lives in Summerhill, and I got tired of checking
+        a dozen different sites every morning to figure out what's going on in my own city. So I built
+        something that does it for me.
       </p>
 
       <p>
-        Every day, we pull articles from sources like
-        <a href="https://decaturish.com" target="_blank" rel="noopener">Decaturish</a>,
-        <a href="https://saportareport.com" target="_blank" rel="noopener">SaportaReport</a>,
-        <a href="https://atlanta.urbanize.city" target="_blank" rel="noopener">Urbanize Atlanta</a>,
-        <a href="https://atlantaciviccircle.org" target="_blank" rel="noopener">Atlanta Civic Circle</a>,
-        <a href="https://www.11alive.com" target="_blank" rel="noopener">11Alive</a>,
-        <a href="https://www.wsbtv.com" target="_blank" rel="noopener">WSB-TV</a>,
-        and others. We read them, figure out what matters to people who actually live Inside The Perimeter,
-        and put together a daily briefing.
+        Every day, this site pulls from 20 local news sources, figures out what actually matters to
+        people who live Inside The Perimeter, and puts it all in one place. The whole thing runs on
+        <a href="https://astro.build" target="_blank" rel="noopener">Astro</a> and
+        <a href="https://www.netlify.com" target="_blank" rel="noopener">Netlify</a>. It's an experiment
+        in what happens when you point modern web tools at a local news problem.
       </p>
 
       <blockquote>
-        We're especially focused on the SE BeltLine corridor: Old Fourth Ward, Grant Park, Inman Park,
-        Reynoldstown, Summerhill, East Atlanta Village, Kirkwood, and the neighborhoods around them.
-        That's our home turf.
+        The SE BeltLine corridor is home base: Summerhill, Grant Park, Reynoldstown, Old Fourth Ward,
+        Inman Park, East Atlanta Village, Kirkwood, Peoplestown, and the neighborhoods around them.
+        That's where I live, that's what I care about most.
       </blockquote>
 
       <h2>What this is</h2>
       <ul>
-        <li>A daily digest of hyperlocal Atlanta news</li>
-        <li>An experiment in automated local journalism</li>
-        <li>A way to stay plugged in without opening 15 tabs</li>
-        <li>Free and open. No paywalls, no accounts, no tracking</li>
+        <li>A daily digest of hyperlocal Atlanta news, updated every morning</li>
+        <li>A web dev experiment and sidequest, not a media company</li>
+        <li>A way to stay plugged in without opening 20 tabs</li>
+        <li>Free. No paywalls, no accounts, no tracking</li>
       </ul>
 
       <h2>What this isn't</h2>
       <ul>
-        <li>Original reporting. We always link back to the source.</li>
+        <li>Original reporting. Every story links back to the source.</li>
         <li>A replacement for the reporters doing the actual work. Go subscribe to <a href="https://decaturish.com" target="_blank" rel="noopener">Decaturish</a> and <a href="https://saportareport.com" target="_blank" rel="noopener">SaportaReport</a>. They need your support.</li>
-        <li>Perfect. We're iterating on this every day. Some stories will be off, some neighborhoods will get more coverage than others. We're working on it.</li>
+        <li>Perfect. Some stories will be off, some neighborhoods get more coverage than others. I'm working on it.</li>
       </ul>
 
-      <h2>Our sources</h2>
+      <h2>Sources</h2>
 
       <table>
         <thead>
@@ -79,24 +75,32 @@ const breadcrumbSchema = buildBreadcrumbSchema([
           <tr><td><a href="https://atlantaciviccircle.org" target="_blank" rel="noopener">Atlanta Civic Circle</a></td><td>City government, policy, civic issues</td><td>Nonprofit</td></tr>
           <tr><td><a href="https://roughdraftatlanta.com" target="_blank" rel="noopener">Rough Draft Atlanta</a></td><td>Arts, culture, food, community</td><td>Independent</td></tr>
           <tr><td><a href="https://www.theatlantavoice.com" target="_blank" rel="noopener">The Atlanta Voice</a></td><td>Black Atlanta, community, politics</td><td>Independent</td></tr>
+          <tr><td><a href="https://atlanta.capitalbnews.org" target="_blank" rel="noopener">Capital B Atlanta</a></td><td>Black community, civil rights, local politics</td><td>Nonprofit</td></tr>
+          <tr><td><a href="https://atlanta.eater.com" target="_blank" rel="noopener">Eater Atlanta</a></td><td>Restaurants, food, dining</td><td>Vox Media</td></tr>
+          <tr><td><a href="https://whatnow.com/atlanta/" target="_blank" rel="noopener">What Now Atlanta</a></td><td>Restaurant and retail openings/closings</td><td>Independent</td></tr>
           <tr><td><a href="https://georgiarecorder.com" target="_blank" rel="noopener">Georgia Recorder</a></td><td>State politics, policy</td><td>Nonprofit</td></tr>
           <tr><td><a href="https://globalatlanta.com" target="_blank" rel="noopener">Global Atlanta</a></td><td>International business, trade</td><td>Independent</td></tr>
+          <tr><td><a href="https://hypepotamus.com" target="_blank" rel="noopener">Hypepotamus</a></td><td>Startups, tech, innovation</td><td>Independent</td></tr>
+          <tr><td><a href="https://www.atlantamagazine.com" target="_blank" rel="noopener">Atlanta Magazine</a></td><td>Culture, food, lifestyle</td><td>Magazine</td></tr>
           <tr><td><a href="https://www.11alive.com" target="_blank" rel="noopener">11Alive</a></td><td>Metro Atlanta news</td><td>TV (NBC)</td></tr>
           <tr><td><a href="https://www.wsbtv.com" target="_blank" rel="noopener">WSB-TV</a></td><td>Metro Atlanta news</td><td>TV (ABC)</td></tr>
+          <tr><td><a href="https://www.fox5atlanta.com" target="_blank" rel="noopener">Fox 5 Atlanta</a></td><td>Metro Atlanta news</td><td>TV (Fox)</td></tr>
           <tr><td><a href="https://www.gpb.org" target="_blank" rel="noopener">GPB News</a></td><td>Georgia news, public interest</td><td>Public media</td></tr>
+          <tr><td><a href="https://www.wabe.org" target="_blank" rel="noopener">WABE</a></td><td>Atlanta news, public interest</td><td>NPR affiliate</td></tr>
+          <tr><td><a href="https://www.ajc.com" target="_blank" rel="noopener">AJC</a></td><td>Metro Atlanta, Georgia</td><td>Newspaper</td></tr>
+          <tr><td><a href="https://www.axios.com/local/atlanta" target="_blank" rel="noopener">Axios Atlanta</a></td><td>Atlanta news, business, politics</td><td>Axios</td></tr>
         </tbody>
       </table>
 
       <h2>Get in touch</h2>
       <p>
-        Got a source we should be reading? A correction? A neighborhood blog we're missing?
-        Email us at <a href="mailto:hey@atlantanewsandtalk.com">hey@atlantanewsandtalk.com</a>.
+        Got a source I should be reading? A correction? A neighborhood blog I'm missing?
+        Email <a href="mailto:hey@atlantanewsandtalk.com">hey@atlantanewsandtalk.com</a>.
       </p>
 
       <p class="about-fine-print">
-        All original reporting belongs to the respective publishers listed above. We link to and credit every source.
-        Photos are from the original articles or from <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>
-        (credited where used). This site is an independent project and is not affiliated with any of our sources.
+        All original reporting belongs to the respective publishers listed above. Every story links to and credits the source.
+        This site is an independent project and is not affiliated with any of the sources listed.
       </p>
     </div>
   </div>

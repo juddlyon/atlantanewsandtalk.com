@@ -1,4 +1,5 @@
 import digest from '../data/digest-latest.json';
+import pinnedStories from '../data/pinned-stories.json';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -38,7 +39,26 @@ export interface Digest {
 }
 
 export function getDigest(): Digest {
-  return digest as Digest;
+  const d = digest as Digest;
+
+  // Merge pinned stories into the Development & Housing section
+  if (pinnedStories.length > 0) {
+    const pinnedIds = new Set(pinnedStories.map((s: any) => s.id));
+    const alreadyPresent = d.sections.some((sec) =>
+      sec.stories.some((s) => pinnedIds.has(s.id))
+    );
+
+    if (!alreadyPresent) {
+      let devSection = d.sections.find((s) => s.category === 'Development & Housing');
+      if (!devSection) {
+        devSection = { category: 'Development & Housing', stories: [] };
+        d.sections.unshift(devSection);
+      }
+      devSection.stories.push(...(pinnedStories as unknown as Story[]));
+    }
+  }
+
+  return d;
 }
 
 export function getAllStories(): Story[] {
@@ -121,6 +141,7 @@ const NEIGHBORHOOD_COLORS: Record<string, string> = {
   Reynoldstown: '#3a7a7a',
   Cabbagetown: '#7a7a3a',
   Summerhill: '#2d9f6a',
+  Peoplestown: '#3a9f7a',
   'West End': '#9f6a2d',
   Westside: '#6a9f2d',
   'Poncey-Highland': '#2d6a9f',

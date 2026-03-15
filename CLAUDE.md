@@ -19,6 +19,22 @@ Hyperlocal Atlanta news aggregator focused on Inside The Perimeter (ITP) neighbo
 - `npm run rollback` — list or restore previous digest versions
 - `netlify deploy --build --prod` — deploy to production
 
+### Global tools (installed globally via npm)
+
+- `internal-linker` — analyze and improve internal linking
+  - `internal-linker all` — run full analysis (scan, SEO audit, broken links, orphans)
+  - `internal-linker scan` — find internal linking opportunities (read-only)
+  - `internal-linker apply` — add internal links to content files (interactive)
+  - `internal-linker seo` — audit SEO issues (titles, descriptions, headings, images)
+  - `internal-linker links` — check for broken internal links
+  - `internal-linker orphans` — find pages with no incoming internal links
+- `seo-pulse` — GSC feedback loop for reading performance data and writing optimizations
+  - `seo-pulse read atlantanewsandtalk.com` — query trends, impressions, indexing status
+  - `seo-pulse write atlantanewsandtalk.com --content-dir .` — interactive content optimization from GSC signals
+  - `seo-pulse inspect atlantanewsandtalk.com <url>` — check indexing status of specific URLs
+  - `seo-pulse sites` — list GSC properties
+  - `seo-pulse history atlantanewsandtalk.com` — show stored data pulls
+
 ## Architecture
 
 - **Astro** static site on **Netlify** (atlantanewsandtalk.com)
@@ -57,6 +73,10 @@ When multiple sources cover the same story, merge them into a single story entry
 
 The `source` and `sourceUrl` fields should be the primary (best/most detailed) source. The `sources` array lists all outlets that covered the story. The article page renders multi-source stories with a "Reported by N sources" label and buttons linking to each original. Prefer Tier 1/2 sources as primary over Tier 3 broadcast sources.
 
+## Pinned Stories
+
+`src/data/pinned-stories.json` contains stories that persist across daily digest rebuilds. These are merged into the Development & Housing section at build time by `helpers.ts`. Use for SEO client content or stories that should remain visible beyond a single news cycle. Each pinned story follows the same `Story` interface with an added `"pinned": true` field.
+
 ## Key Files
 
 | File | Purpose |
@@ -67,6 +87,7 @@ The `source` and `sourceUrl` fields should be the primary (best/most detailed) s
 | `netlify/functions/daily-rebuild.mjs` | Scheduled function: triggers daily build at 7am ET |
 | `netlify.toml` | Build command: fetch + summarize + build |
 | `src/data/digest-latest.json` | Current digest (generated, committed) |
+| `src/data/pinned-stories.json` | Persistent stories that survive daily rebuilds |
 | `src/data/neighborhoods.json` | 36 neighborhood descriptions |
 | `src/data/guides.json` | 8 evergreen SEO guide articles |
 | `src/data/lists.json` | 8 listicle/top-list articles |
