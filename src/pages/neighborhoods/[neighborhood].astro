@@ -103,6 +103,37 @@ const neighborhoodJsonLd = {
       </section>
     )}
 
+    {hoodInfo && (hoodInfo.npu || hoodInfo.zipCodes || hoodInfo.resources) && (
+      <section class="neighborhood-resources">
+        <h2 class="neighborhood-highlights-title">Resources</h2>
+        <div class="neighborhood-resources-grid">
+          {hoodInfo.npu && (
+            <div class="neighborhood-resource-item">
+              <span class="neighborhood-resource-label">Planning Unit</span>
+              <a href={hoodInfo.npuUrl} target="_blank" rel="noopener noreferrer">NPU-{hoodInfo.npu}</a>
+            </div>
+          )}
+          {!hoodInfo.npu && hoodInfo.name === 'Decatur' && (
+            <div class="neighborhood-resource-item">
+              <span class="neighborhood-resource-label">City Government</span>
+              <a href="https://www.decaturga.com/" target="_blank" rel="noopener noreferrer">City of Decatur</a>
+            </div>
+          )}
+          {hoodInfo.zipCodes && (
+            <div class="neighborhood-resource-item">
+              <span class="neighborhood-resource-label">Zip Codes</span>
+              <span>{hoodInfo.zipCodes.join(', ')}</span>
+            </div>
+          )}
+          {hoodInfo.resources && hoodInfo.resources.map((resource) => (
+            <div class="neighborhood-resource-item">
+              <a href={resource.url} target="_blank" rel="noopener noreferrer">{resource.label}</a>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
     {hoodInfo?.relatedNeighborhoods && hoodInfo.relatedNeighborhoods.length > 0 && (
       <section class="related-hoods">
         <h2 class="related-hoods-title">Nearby Neighborhoods</h2>

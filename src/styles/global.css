@@ -1106,6 +1106,43 @@ img {
   background: var(--color-red);
 }
 
+/* Neighborhood resources */
+.neighborhood-resources {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-line);
+}
+
+.neighborhood-resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.neighborhood-resource-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  background: var(--color-panel);
+  font-size: 0.88rem;
+}
+
+.neighborhood-resource-item a {
+  font-weight: 600;
+}
+
+.neighborhood-resource-label {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-text-soft);
+}
+
 /* Related neighborhoods */
 .related-hoods {
   margin-top: 2rem;
