@@ -4,69 +4,97 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Hyperlocal Atlanta news aggregator focused on Inside The Perimeter (ITP) neighborhoods, with special emphasis on SE BeltLine corridor (O4W, Grant Park, Reynoldstown, Inman Park, Summerhill, etc.). Pulls from local RSS feeds, summarizes via Claude, and publishes as a static Astro site on Netlify. Used to support SEO for local businesses.
+Hyperlocal Atlanta news aggregator focused on Inside The Perimeter (ITP) neighborhoods, especially the SE BeltLine corridor. Pulls from local RSS feeds, summarizes via Claude Code (GitHub Action), and publishes as a static Astro site on Netlify. Used to support SEO for local businesses (real estate, small biz).
 
-## Design Direction
-
-- The site should feel distinctly Atlanta, not like a generic AI-generated magazine or startup template.
-- Current visual direction: Braves-adjacent civic palette with deep navy, signal red, warm ivory, and restrained gold accents.
-- The site was redesigned in March 2026 away from the old faux-zine / paper-texture look. Treat the current ATL civic-broadcast direction as the baseline to preserve.
-- Mobile-first always. Start with stacked layouts, strong tap targets, horizontal overflow only when intentional, and readable type on iPhone and Android widths.
-- Favor "city desk" / "broadcast bulletin" energy over faux-handmade zine styling.
-- Avoid novelty copy, winky UX text, excessive texture, and overdesigned card treatments.
-- Keep typography high-contrast and editorial: expressive serif for headlines, clean geometric sans for body, mono only for labels/meta.
-- Desktop can become more spacious and structured, but the mobile layout is the primary experience.
-- When redesigning, preserve the site's Atlanta-local tone and SEO structure while pushing the visuals away from obvious AI aesthetics.
-
-## Current UI Baseline
-
-- Header and navigation should read like a city briefing product, not a blog theme.
-- Homepage hero should feel like the lead item in an Atlanta broadcast rundown: strong contrast, concise copy, clear CTA.
-- Cards should stay clean and structured, with restrained motion and no scrapbook or "handmade" styling.
-- Sidebar should support discovery and scanning on mobile first, then become denser on desktop.
-- If changing fonts, prefer sturdy, grounded display faces over tall or delicate serifs.
+**Live site:** https://atlantanewsandtalk.com
 
 ## Commands
 
 - `npm run dev` — start Astro dev server
 - `npm run build` — build static site to `dist/`
-- `npx serve dist` — preview built site locally (Netlify adapter doesn't support `astro preview`)
+- `npx serve dist` — preview built site (Netlify adapter doesn't support `astro preview`)
 - `npm run fetch` — fetch RSS articles to `src/data/raw-articles.json`
 - `npm run summarize` — summarize raw articles into digest (requires ANTHROPIC_API_KEY)
 - `npm run update` — fetch + summarize in one step
-- `npm run publish` — fetch, summarize, build, commit, and push
+- `npm run rollback` — list or restore previous digest versions
+- `netlify deploy --build --prod` — deploy to production
 
 ## Architecture
 
-- **Astro** static site deployed on **Netlify**
-- **Local update workflow** (primary): `scripts/fetch-articles.mjs` → `scripts/summarize.mjs` → commit & push → Netlify auto-rebuilds
-- **Netlify scheduled function** (future): `netlify/functions/fetch-news.mjs` — same logic but runs `@daily` on Netlify
-- **Data flow**: RSS feeds → raw-articles.json (not committed) → Claude summarization → digest-latest.json (committed) → Astro static build
-- Story categories: Development & Housing, Transit & Infrastructure, Food & Drink, Arts & Culture, Politics & Policy, Public Safety, Community, Business
+- **Astro** static site on **Netlify** (atlantanewsandtalk.com)
+- **Daily automation:** GitHub Action (`.github/workflows/daily-digest.yml`) runs at 7am ET
+  1. `scripts/fetch-articles.mjs` fetches RSS (12 sources, 15s per-feed timeout)
+  2. Claude Code reads raw articles + CLAUDE.md, writes `src/data/digest-latest.json`
+  3. Builds site, commits digest, pushes. Netlify auto-rebuilds.
+- **Data flow:** RSS feeds → `raw-articles.json` (not committed) → Claude Code → `digest-latest.json` (committed) → Astro build
+- **Rollback:** Dated archives (`digest-YYYY-MM-DD.json`) kept in git. Use `npm run rollback` or Netlify deploy rollback.
+
+## RSS Sources (12 feeds)
+
+**Tier 1:** Decaturish, Urbanize Atlanta, Atlanta Civic Circle
+**Tier 2:** SaportaReport, Rough Draft Atlanta, Atlanta Magazine, The Atlanta Voice, Georgia Recorder, Global Atlanta
+**Tier 3:** 11Alive, WSB-TV, GPB News
+
+Images are extracted from RSS `media:content`, `enclosure`, and `og:image` fallback. Each feed has a 15s timeout. Config in `scripts/fetch-articles.mjs`.
 
 ## Key Files
 
-- `scripts/fetch-articles.mjs` — local RSS fetcher with image extraction
-- `scripts/summarize.mjs` — Claude API summarization into digest
-- `netlify/functions/fetch-news.mjs` — Netlify scheduled function (future use)
-- `src/data/digest-latest.json` — current digest (generated, committed)
-- `src/data/sources.json` — RSS feed source list
-- `src/lib/helpers.ts` — shared utilities (types, formatters, neighborhood colors)
-- `src/pages/index.astro` — homepage with hero + story grid + sidebar
-- `src/pages/[slug].astro` — individual article pages with Schema.org NewsArticle
-- `src/pages/neighborhoods/[neighborhood].astro` — per-neighborhood pages
-- `src/components/` — Hero, StoryCard, Sidebar, NeighborhoodTag, SEO
+| File | Purpose |
+|------|---------|
+| `scripts/fetch-articles.mjs` | RSS fetcher with image extraction |
+| `scripts/summarize.mjs` | Claude API summarization (fallback to Action) |
+| `scripts/rollback.mjs` | Digest version management |
+| `.github/workflows/daily-digest.yml` | Daily automation via Claude Code |
+| `src/data/digest-latest.json` | Current digest (generated, committed) |
+| `src/data/neighborhoods.json` | Evergreen neighborhood descriptions (36 hoods) |
+| `src/data/guides.json` | 8 evergreen SEO guide articles |
+| `src/data/landing-pages.json` | 20 long-tail SEO landing pages |
+| `src/lib/helpers.ts` | Types, formatters, neighborhood colors |
+| `src/pages/index.astro` | Homepage: hero + story grid + sidebar |
+| `src/pages/[slug].astro` | Article pages with Schema.org NewsArticle |
+| `src/pages/[landing].astro` | Long-tail SEO landing pages |
+| `src/pages/neighborhoods/` | Neighborhood index + per-neighborhood pages |
+| `src/pages/guide/` | Guide index + article pages |
+| `src/components/` | Hero, StoryCard, Sidebar, NeighborhoodTag, SEO, Breadcrumb |
+
+## Design Direction
+
+- Braves-adjacent civic palette: deep navy, signal red, warm ivory, restrained gold
+- Mobile-first. Android phones are the primary audience.
+- Fonts: Bitter (display serif), Space Grotesk (body sans), IBM Plex Mono (labels)
+- "City desk / broadcast bulletin" energy. Not a blog template.
+- Cards are clean, structured, minimal motion. No scrapbook styling.
+- All branding is lowercase: "atlanta news & talk"
 
 ## Neighborhood Priority
 
-SE BeltLine corridor neighborhoods are **Tier 1** — they get top billing:
-Old Fourth Ward, Grant Park, Reynoldstown, Cabbagetown, Inman Park, Summerhill, East Atlanta Village, Ormewood Park
+**Tier 1 (SE BeltLine, top billing):** Old Fourth Ward, Grant Park, Reynoldstown, Cabbagetown, Inman Park, Summerhill, East Atlanta Village, Ormewood Park, Kirkwood
 
-## Important Rules
+**Tier 2 (adjacent ITP):** Edgewood, Little Five Points, Candler Park, Poncey-Highland, Decatur, East Atlanta, Chosewood Park, Sweet Auburn
 
-- **Never mention "AI"** or "machine learning" or "automation" in any user-facing copy.
-- ITP focus — prioritize hyperlocal neighborhood-level news over general metro Atlanta stories.
-- `_ref/` contains Ahrefs keyword research data — not committed to the repo.
-- `src/data/raw-articles.json` is intermediate data — not committed.
-- Before shipping design changes, run `npm run build`.
-- Prefer shipping via Netlify after local build verification rather than leaving the repo half-finished.
+**Tier 3 (broader ITP):** Midtown, Downtown, Virginia-Highland, Morningside, West Midtown, Westside, West End, Buckhead, etc.
+
+## Writing Rules
+
+- **Never mention "AI"**, "machine learning", or "automation" in any user-facing copy
+- **Never use em dashes.** Use periods, commas, or parentheses instead.
+- **Never use:** "vibrant", "bustling", "nestled", "tapestry", "delves", "it's worth noting"
+- Write like a local Atlanta blogger, not a press release. Casual, warm, opinionated.
+- Headlines: active voice, present tense, conversational
+- Reference specific streets, landmarks, restaurants by name
+- Story categories: Development & Housing, Transit & Infrastructure, Food & Drink, Arts & Culture, Politics & Policy, Public Safety, Community, Business
+
+## SEO Pages
+
+- **20 landing pages** targeting keywords like "atlanta news today" (73K/mo), "things to do in atlanta" (39K/mo), "atlanta beltline news" (14K/mo)
+- **8 evergreen guides** targeting "best restaurants in atlanta", "moving to atlanta", "atlanta beltline", etc.
+- **36 neighborhood pages** with descriptions, highlights, related neighborhoods
+- All pages have Schema.org markup, Open Graph, Twitter Cards, sitemap inclusion
+- `_ref/` has Ahrefs keyword data (not committed)
+
+## Dev Workflow Notes
+
+- `digest-latest.json` is updated daily by the GitHub Action. Don't `git add -A` locally or you'll overwrite it. Add files by name instead.
+- Build before shipping: `npm run build`
+- Deploy with: `netlify deploy --build --prod`
+- The GitHub Action needs `ANTHROPIC_API_KEY` as a repo secret + Claude Code GitHub App installed
