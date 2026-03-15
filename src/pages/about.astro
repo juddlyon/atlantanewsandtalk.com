@@ -1,0 +1,166 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../lib/helpers';
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: SITE_URL },
+  { name: 'About', url: `${SITE_URL}/about` },
+]);
+---
+
+<Base
+  title="About"
+  description="Atlanta News & Talk is a daily news experiment that aggregates and summarizes hyperlocal ITP Atlanta news from a dozen local sources."
+  breadcrumbSchema={breadcrumbSchema}
+>
+  <div class="article-page">
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'About' },
+    ]} />
+
+    <h1 class="article-headline">about atlanta news & talk</h1>
+
+    <div class="article-body">
+      <p>
+        This site is an experiment. The idea is simple: there are a dozen good local news sources
+        covering Atlanta's ITP neighborhoods, but nobody has time to check all of them every morning.
+        So we built something that does it for you.
+      </p>
+
+      <p>
+        Every day, we pull articles from sources like
+        <a href="https://decaturish.com" target="_blank" rel="noopener">Decaturish</a>,
+        <a href="https://saportareport.com" target="_blank" rel="noopener">SaportaReport</a>,
+        <a href="https://atlanta.urbanize.city" target="_blank" rel="noopener">Urbanize Atlanta</a>,
+        <a href="https://atlantaciviccircle.org" target="_blank" rel="noopener">Atlanta Civic Circle</a>,
+        <a href="https://www.11alive.com" target="_blank" rel="noopener">11Alive</a>,
+        <a href="https://www.wsbtv.com" target="_blank" rel="noopener">WSB-TV</a>,
+        and others. We read them, figure out what matters to people who actually live Inside The Perimeter,
+        and put together a daily briefing.
+      </p>
+
+      <blockquote>
+        We're especially focused on the SE BeltLine corridor: Old Fourth Ward, Grant Park, Inman Park,
+        Reynoldstown, Summerhill, East Atlanta Village, Kirkwood, and the neighborhoods around them.
+        That's our home turf.
+      </blockquote>
+
+      <h2>What this is</h2>
+      <ul>
+        <li>A daily digest of hyperlocal Atlanta news</li>
+        <li>An experiment in automated local journalism</li>
+        <li>A way to stay plugged in without opening 15 tabs</li>
+        <li>Free and open. No paywalls, no accounts, no tracking</li>
+      </ul>
+
+      <h2>What this isn't</h2>
+      <ul>
+        <li>Original reporting. We always link back to the source.</li>
+        <li>A replacement for the reporters doing the actual work. Go subscribe to <a href="https://decaturish.com" target="_blank" rel="noopener">Decaturish</a> and <a href="https://saportareport.com" target="_blank" rel="noopener">SaportaReport</a>. They need your support.</li>
+        <li>Perfect. We're iterating on this every day. Some stories will be off, some neighborhoods will get more coverage than others. We're working on it.</li>
+      </ul>
+
+      <h2>Our sources</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Source</th>
+            <th>Coverage</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><a href="https://decaturish.com" target="_blank" rel="noopener">Decaturish</a></td><td>Decatur, East Atlanta, ITP neighborhoods</td><td>Independent</td></tr>
+          <tr><td><a href="https://saportareport.com" target="_blank" rel="noopener">SaportaReport</a></td><td>Atlanta metro, politics, development</td><td>Independent</td></tr>
+          <tr><td><a href="https://atlanta.urbanize.city" target="_blank" rel="noopener">Urbanize Atlanta</a></td><td>Development, construction, real estate</td><td>Independent</td></tr>
+          <tr><td><a href="https://atlantaciviccircle.org" target="_blank" rel="noopener">Atlanta Civic Circle</a></td><td>City government, policy, civic issues</td><td>Nonprofit</td></tr>
+          <tr><td><a href="https://roughdraftatlanta.com" target="_blank" rel="noopener">Rough Draft Atlanta</a></td><td>Arts, culture, food, community</td><td>Independent</td></tr>
+          <tr><td><a href="https://www.theatlantavoice.com" target="_blank" rel="noopener">The Atlanta Voice</a></td><td>Black Atlanta, community, politics</td><td>Independent</td></tr>
+          <tr><td><a href="https://georgiarecorder.com" target="_blank" rel="noopener">Georgia Recorder</a></td><td>State politics, policy</td><td>Nonprofit</td></tr>
+          <tr><td><a href="https://globalatlanta.com" target="_blank" rel="noopener">Global Atlanta</a></td><td>International business, trade</td><td>Independent</td></tr>
+          <tr><td><a href="https://www.11alive.com" target="_blank" rel="noopener">11Alive</a></td><td>Metro Atlanta news</td><td>TV (NBC)</td></tr>
+          <tr><td><a href="https://www.wsbtv.com" target="_blank" rel="noopener">WSB-TV</a></td><td>Metro Atlanta news</td><td>TV (ABC)</td></tr>
+          <tr><td><a href="https://www.gpb.org" target="_blank" rel="noopener">GPB News</a></td><td>Georgia news, public interest</td><td>Public media</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Get in touch</h2>
+      <p>
+        Got a source we should be reading? A correction? A neighborhood blog we're missing?
+        Email us at <a href="mailto:hey@atlantanewsandtalk.com">hey@atlantanewsandtalk.com</a>.
+      </p>
+
+      <p class="about-fine-print">
+        All original reporting belongs to the respective publishers listed above. We link to and credit every source.
+        Photos are from the original articles or from <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>
+        (credited where used). This site is an independent project and is not affiliated with any of our sources.
+      </p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .about-fine-print {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-line);
+    font-size: 0.82rem;
+    color: var(--color-text-soft);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--color-line);
+  }
+
+  th {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text-soft);
+  }
+
+  td a {
+    font-weight: 600;
+  }
+
+  blockquote {
+    margin: 1.25rem 0;
+    padding: 1rem 1.25rem;
+    border-left: 3px solid var(--color-red);
+    background: rgba(19, 39, 79, 0.04);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text);
+  }
+
+  ul {
+    margin: 0.75rem 0;
+    padding-left: 1.25rem;
+  }
+
+  li {
+    margin-bottom: 0.4rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    color: var(--color-ink);
+  }
+</style>

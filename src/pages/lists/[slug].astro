@@ -1,0 +1,137 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../../lib/helpers';
+import listsData from '../../data/lists.json';
+import guidesData from '../../data/guides.json';
+
+export function getStaticPaths() {
+  return listsData.lists.map((list) => ({
+    params: { slug: list.slug },
+    props: { list },
+  }));
+}
+
+const { list } = Astro.props;
+
+const relatedLists = list.relatedLists
+  ? listsData.lists.filter((l) => list.relatedLists.includes(l.slug))
+  : [];
+
+const relatedGuides = list.relatedGuides
+  ? guidesData.guides.filter((g) => list.relatedGuides.includes(g.slug))
+  : [];
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": list.title,
+  "description": list.seoDescription,
+  "url": `${SITE_URL}/lists/${list.slug}`,
+  "numberOfItems": list.items.length,
+  "itemListElement": list.items.map((item) => ({
+    "@type": "ListItem",
+    "position": item.rank,
+    "name": item.name,
+    "url": item.link,
+  })),
+};
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: SITE_URL },
+  { name: 'Lists', url: `${SITE_URL}/lists` },
+  { name: list.title, url: `${SITE_URL}/lists/${list.slug}` },
+]);
+---
+
+<Base
+  title={list.seoTitle}
+  description={list.seoDescription}
+  ogImage={list.imageUrl}
+  jsonLd={itemListSchema}
+  breadcrumbSchema={breadcrumbSchema}
+>
+  <article class="guide-page">
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'Lists', href: '/lists' },
+      { label: list.title },
+    ]} />
+
+    <div class="list-hero">
+      <img
+        src={list.imageUrl}
+        alt={list.imageAlt}
+        class="list-hero-image"
+        loading="eager"
+        width="1200"
+        height="600"
+      />
+      <span class="photo-credit">{list.imageCredit}</span>
+    </div>
+
+    <header class="guide-header">
+      <h1 class="guide-h1">{list.title}</h1>
+    </header>
+
+    <div class="guide-intro">
+      {list.intro.split('\n\n').map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+    </div>
+
+    <div class="list-items">
+      {list.items.map((item) => (
+        <div class="list-item" id={`item-${item.rank}`}>
+          <div class="list-rank">{item.rank}</div>
+          <div class="list-item-content">
+            <h2 class="list-item-name">
+              <a href={item.link} class="list-item-link" target="_blank" rel="noopener noreferrer">
+                {item.name}
+              </a>
+            </h2>
+            {item.neighborhood && (
+              <span class="list-item-neighborhood">{item.neighborhood}</span>
+            )}
+            <p class="list-item-description">{item.description}</p>
+            {item.tip && (
+              <blockquote class="list-item-tip">
+                <strong>Local tip:</strong> {item.tip}
+              </blockquote>
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    {relatedLists.length > 0 && (
+      <section class="related-guides">
+        <h2 class="related-guides-title">More Lists</h2>
+        <div class="related-guides-grid">
+          {relatedLists.map((l) => (
+            <a href={`/lists/${l.slug}`} class="guide-card">
+              <span class="guide-card-title">{l.title}</span>
+              <span class="guide-card-desc">{l.seoDescription}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedGuides.length > 0 && (
+      <section class="related-guides">
+        <h2 class="related-guides-title">Related Guides</h2>
+        <div class="related-guides-grid">
+          {relatedGuides.map((g) => (
+            <a href={`/guide/${g.slug}`} class="guide-card">
+              <span class="guide-card-title">{g.title}</span>
+              <span class="guide-card-desc">{g.seoDescription}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <a href="/lists" class="back-link">&larr; All lists</a>
+  </article>
+</Base>
