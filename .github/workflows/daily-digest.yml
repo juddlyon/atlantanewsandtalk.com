@@ -9,10 +9,9 @@ on:
 jobs:
   update-digest:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     permissions:
       contents: write
-      id-token: write
     steps:
       - uses: actions/checkout@v4
 
@@ -23,56 +22,22 @@ jobs:
 
       - run: npm ci
 
-      # Step 1: Fetch RSS articles (no LLM needed)
       - name: Fetch articles from RSS feeds
         run: node scripts/fetch-articles.mjs
 
-      # Step 2: Use Claude Code to write the digest
-      - name: Generate digest with Claude Code
-        uses: anthropics/claude-code-action@v1
-        with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          prompt: |
-            Read the file src/data/raw-articles.json. It contains today's articles fetched from Atlanta RSS feeds.
+      - name: Summarize with Claude API
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/summarize.mjs
 
-            Your job: write a daily news digest for atlantanewsandtalk.com. Read the CLAUDE.md for full context on tone and rules.
-
-            Quick reminders:
-            - Write like a local Atlanta blogger, not a news wire. Casual, warm, opinionated.
-            - NEVER use em dashes. Use periods, commas, or parentheses.
-            - NEVER use "vibrant", "bustling", "nestled", "tapestry", "delves"
-            - NEVER mention AI or automation
-            - Prioritize SE BeltLine neighborhoods (O4W, Grant Park, Inman Park, Reynoldstown, Summerhill, EAV, Kirkwood)
-            - Preserve the imageUrl from source articles. Every story should keep its original image.
-            - Each story needs: id (slug), headline, summary, body (2-3 paragraphs), neighborhood, neighborhoods array, source, sourceUrl, imageUrl, imageAlt, publishedAt, keywords
-
-            Write the digest JSON to src/data/digest-latest.json with this structure:
-            {
-              "date": "YYYY-MM-DD",
-              "generatedAt": "ISO timestamp",
-              "summary": "2-3 sentence casual overview",
-              "topStory": { best story object },
-              "sections": [ { "category": "...", "stories": [...] } ],
-              "neighborhoods": { "Name": { "storyCount": N, "topStory": "slug" } }
-            }
-
-            Categories: Development & Housing, Transit & Infrastructure, Food & Drink, Arts & Culture, Politics & Policy, Public Safety, Community, Business
-
-            Include 8-15 stories. Skip anything that's not relevant to Atlanta ITP. The topStory should also appear in its section. Write the file now.
-          allowed_tools: "Read,Write,Edit,Bash(npm run build)"
-          timeout_minutes: 10
-
-      # Step 3: Build the site to verify
       - name: Build site
         run: npm run build
 
-      # Step 4: Commit and push the updated digest
       - name: Commit and push
         run: |
           git config user.name "atlanta-news-bot"
           git config user.email "bot@atlantanewsandtalk.com"
           git add src/data/digest-latest.json
-          # Also archive the digest by date
           DATE=$(node -e "const d=JSON.parse(require('fs').readFileSync('src/data/digest-latest.json','utf8')); console.log(d.date)")
           cp src/data/digest-latest.json "src/data/digest-${DATE}.json"
           git add "src/data/digest-${DATE}.json"
