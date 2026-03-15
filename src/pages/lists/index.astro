@@ -31,14 +31,16 @@ const breadcrumbSchema = buildBreadcrumbSchema([
     <div class="list-index-grid">
       {listsData.lists.map((list) => (
         <a href={`/lists/${list.slug}`} class="list-index-card">
-          <img
-            src={list.imageUrl}
-            alt={list.imageAlt}
-            class="list-index-card-image"
-            loading="lazy"
-            width="600"
-            height="300"
-          />
+          {list.imageUrl && (
+            <img
+              src={list.imageUrl}
+              alt={list.imageAlt}
+              class="list-index-card-image"
+              loading="lazy"
+              width="600"
+              height="300"
+            />
+          )}
           <div class="list-index-card-body">
             <span class="list-index-card-count">{list.items.length} picks</span>
             <h2 class="list-index-card-title">{list.title}</h2>

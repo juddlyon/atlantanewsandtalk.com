@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Hero from '../components/Hero.astro';
 import Sidebar from '../components/Sidebar.astro';
+import NeighborhoodTag from '../components/NeighborhoodTag.astro';
 import { getDigest, formatDate } from '../lib/helpers';
 
 const digest = getDigest();
@@ -28,25 +29,180 @@ const sections = digest.sections.map((section) => ({
 
     <div class="main-grid">
       <div class="main-content">
-        {sections.map((section) => (
-          <section id={section.category.toLowerCase().replace(/\s+&\s+/g, '-').replace(/\s+/g, '-')}>
-            <div class="section-header">
-              <h2 class="section-title">{section.category}</h2>
-              <span class="section-count">{section.stories.length} {section.stories.length === 1 ? 'story' : 'stories'}</span>
-            </div>
-            <ul class="digest-bullets">
-              {section.stories.map((story) => (
-                <li>
-                  <a href={`/${story.id}`}>{story.headline}</a>
-                  <span class="bullet-source">{story.source}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
-        ))}
+        {sections.map((section) => {
+          const lead = section.stories[0];
+          const rest = section.stories.slice(1);
+          return (
+            <section id={section.category.toLowerCase().replace(/\s+&\s+/g, '-').replace(/\s+/g, '-')}>
+              <div class="section-header">
+                <h2 class="section-title">{section.category}</h2>
+                <span class="section-count">{section.stories.length} {section.stories.length === 1 ? 'story' : 'stories'}</span>
+              </div>
+
+              {/* Lead story as a card */}
+              <a href={`/${lead.id}`} class="lead-card">
+                {lead.imageUrl && (
+                  <div class="lead-card-img">
+                    <img src={lead.imageUrl} alt={lead.imageAlt || lead.headline} loading="lazy" />
+                  </div>
+                )}
+                <div class="lead-card-body">
+                  <div class="lead-card-top">
+                    <NeighborhoodTag name={lead.neighborhood} linked={false} size="sm" />
+                    <span class="lead-card-source">{lead.source}</span>
+                  </div>
+                  <h3 class="lead-card-headline">{lead.headline}</h3>
+                  <p class="lead-card-summary">{lead.summary}</p>
+                </div>
+              </a>
+
+              {/* Remaining stories as bullets */}
+              {rest.length > 0 && (
+                <ul class="digest-bullets">
+                  {rest.map((story) => (
+                    <li>
+                      <a href={`/${story.id}`}>{story.headline}</a>
+                      <span class="bullet-source">{story.source}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </section>
+          );
+        })}
       </div>
 
       <Sidebar />
     </div>
   </div>
 </Base>
+
+<style>
+  .lead-card {
+    display: grid;
+    overflow: hidden;
+    border: 1px solid rgba(19, 39, 79, 0.1);
+    border-radius: calc(var(--radius) - 4px);
+    background: rgba(255, 253, 248, 0.88);
+    box-shadow: var(--shadow-md);
+    color: inherit;
+    margin-bottom: 0.75rem;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .lead-card::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: linear-gradient(90deg, var(--color-red), var(--color-gold), var(--color-blue));
+  }
+
+  .lead-card-img {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: rgba(19, 39, 79, 0.08);
+  }
+
+  .lead-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .lead-card-body {
+    display: grid;
+    gap: 0.5rem;
+    padding: 0.9rem 1rem 1.1rem;
+  }
+
+  .lead-card-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .lead-card-source {
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-soft);
+  }
+
+  .lead-card-headline {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--color-ink);
+  }
+
+  .lead-card-summary {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--color-text-soft);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+
+  @media (hover: hover) {
+    .lead-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(206, 17, 65, 0.28);
+      box-shadow: 0 18px 36px rgba(16, 24, 40, 0.12);
+    }
+
+    .lead-card:hover .lead-card-img img {
+      transform: scale(1.04);
+    }
+
+    .lead-card:hover .lead-card-headline {
+      color: var(--color-red);
+    }
+  }
+
+  @media (min-width: 540px) {
+    .lead-card {
+      grid-template-columns: 1fr;
+    }
+
+    .lead-card:has(.lead-card-img) {
+      grid-template-columns: 200px 1fr;
+    }
+
+    .lead-card::before {
+      display: none;
+    }
+
+    .lead-card:has(.lead-card-img)::before {
+      display: none;
+    }
+
+    .lead-card {
+      border-left: 3px solid var(--color-red);
+    }
+
+    .lead-card-img {
+      aspect-ratio: auto;
+      min-height: 100%;
+    }
+
+    .lead-card-body {
+      padding: 1rem 1.15rem;
+    }
+
+    .lead-card-headline {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .lead-card-headline {
+      font-size: 1.55rem;
+    }
+  }
+</style>

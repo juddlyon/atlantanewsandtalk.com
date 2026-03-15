@@ -59,17 +59,19 @@ const breadcrumbSchema = buildBreadcrumbSchema([
       { label: list.title },
     ]} />
 
-    <div class="list-hero">
-      <img
-        src={list.imageUrl}
-        alt={list.imageAlt}
-        class="list-hero-image"
-        loading="eager"
-        width="1200"
-        height="600"
-      />
-      <span class="photo-credit">{list.imageCredit}</span>
-    </div>
+    {list.imageUrl && (
+      <div class="list-hero">
+        <img
+          src={list.imageUrl}
+          alt={list.imageAlt}
+          class="list-hero-image"
+          loading="eager"
+          width="1200"
+          height="600"
+        />
+        {list.imageCredit && <span class="photo-credit">{list.imageCredit}</span>}
+      </div>
+    )}
 
     <header class="guide-header">
       <h1 class="guide-h1">{list.title}</h1>

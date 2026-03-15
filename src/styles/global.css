@@ -90,6 +90,8 @@ img {
 .main-content,
 .story-grid,
 .article-page {
+  min-width: 0;
+  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -141,6 +143,7 @@ img {
 .site-name .amp {
   color: var(--color-red);
   font-style: italic;
+  margin: 0 0.08em;
 }
 
 .header-right {

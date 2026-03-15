@@ -69,6 +69,8 @@ const trending = allStories.slice(0, 5);
   .sidebar {
     display: grid;
     gap: 1.25rem;
+    min-width: 0;
+    max-width: 100%;
   }
 
   .sidebar-box {
@@ -77,6 +79,8 @@ const trending = allStories.slice(0, 5);
     border-radius: calc(var(--radius) - 4px);
     background: rgba(255, 253, 248, 0.82);
     box-shadow: var(--shadow-md);
+    min-width: 0;
+    overflow: hidden;
   }
 
   .sidebar-pulse {
@@ -235,6 +239,8 @@ const trending = allStories.slice(0, 5);
     font-size: 1.2rem;
     line-height: 1;
     letter-spacing: -0.03em;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
 
   .trending-hed:hover {
@@ -255,6 +261,7 @@ const trending = allStories.slice(0, 5);
     font-size: 0.93rem;
     line-height: 1.7;
     color: var(--color-text-soft);
+    overflow-wrap: break-word;
   }
 
   .sidebar-note {
