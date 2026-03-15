@@ -22,9 +22,12 @@
     "@astrojs/rss": "^4.0.17",
     "@astrojs/sitemap": "^3.7.1",
     "@netlify/blobs": "^10.7.2",
+    "@tailwindcss/vite": "^4.2.1",
     "astro": "^6.0.4",
     "cheerio": "^1.2.0",
     "crawlee": "^3.16.0",
-    "rss-parser": "^3.13.0"
+    "marked": "^17.0.4",
+    "rss-parser": "^3.13.0",
+    "tailwindcss": "^4.2.1"
   }
 }

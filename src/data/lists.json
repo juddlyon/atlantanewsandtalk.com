@@ -13,7 +13,7 @@
         {
           "rank": 1,
           "name": "Piedmont Park",
-          "description": "The crown jewel of Atlanta parks. 200 acres of green space right in Midtown with skyline views that never get old. The Active Oval, Lake Clara Meer, and the Saturday Green Market are all worth your time. It connects directly to the BeltLine Eastside Trail, so you can walk or bike over from multiple neighborhoods.",
+          "description": "The crown jewel of Atlanta parks. **200 acres of green space** right in Midtown with skyline views that never get old.\n\n- **Active Oval** for pickup soccer and frisbee\n- **Lake Clara Meer** for a scenic loop walk\n- **Saturday Green Market** for local produce and vendors\n\nConnects directly to the [BeltLine Eastside Trail](https://beltline.org/), so you can walk or bike over from multiple neighborhoods. *On a clear day, the Midtown skyline reflected in the lake is genuinely postcard-worthy.*",
           "link": "https://piedmontpark.org/",
           "neighborhood": "Midtown",
           "tip": "The northern end near The Meadow is way less crowded than the southern entrance. Park on Monroe Drive and enter from there."
@@ -21,7 +21,7 @@
         {
           "rank": 2,
           "name": "Grant Park",
-          "description": "One of Atlanta's oldest parks, right next to Zoo Atlanta. The park itself is 131 acres with great walking paths, a historic gateway, and excellent people watching. The Sunday farmers market at the park is a neighborhood staple.",
+          "description": "One of Atlanta's oldest parks, right next to [Zoo Atlanta](https://zooatlanta.org/). **131 acres** with great walking paths, a historic gateway, and excellent people watching.\n\n- **Sunday farmers market** is a neighborhood staple\n- **Loop trail** is about 1.5 miles, mostly shaded\n- Great **playground** and open fields for kids\n\n*The southeast corner near the zoo entrance has the best mature tree canopy in the whole park.*",
           "link": "https://en.wikipedia.org/wiki/Grant_Park_(Atlanta)",
           "neighborhood": "Grant Park",
           "tip": "The loop trail around the park is about 1.5 miles and mostly shaded. Great for an easy morning jog."
@@ -29,7 +29,7 @@
         {
           "rank": 3,
           "name": "Freedom Park",
-          "description": "A linear park that connects the Carter Center to the BeltLine, cutting through Poncey-Highland, Candler Park, and Little Five Points. It's a greenway with paved paths perfect for biking, running, or just a walk. The section near Moreland Avenue has some beautiful mature trees.",
+          "description": "A **linear park** that connects the [Carter Center](https://www.cartercenter.org/) to the BeltLine, cutting through Poncey-Highland, Candler Park, and Little Five Points.\n\n- Paved paths perfect for **biking, running, or walking**\n- Beautiful mature trees near the Moreland Avenue section\n- Connects to multiple neighborhoods without touching a car road\n\n*One of the most underrated ways to cross the east side of the city entirely on greenway.*",
           "link": "https://en.wikipedia.org/wiki/Freedom_Park_(Atlanta)",
           "neighborhood": "Candler Park",
           "tip": "Use the Freedom Park path to bike from L5P all the way to Piedmont Park without touching a single car road."
@@ -37,7 +37,7 @@
         {
           "rank": 4,
           "name": "Historic Fourth Ward Park",
-          "description": "A relatively new park (opened 2011) that turned a flood-prone area into one of the best spots in town. The splash pad, the amphitheater, and the stormwater pond that doubles as a scenic lake are all excellent. Sits right on the Eastside Trail.",
+          "description": "A relatively new park (opened 2011) that turned a flood-prone area into **one of the best spots in town**. Sits right on the Eastside Trail.\n\n- **Splash pad** for kids in summer\n- **Amphitheater** with occasional events and live music\n- **Stormwater pond** that doubles as a scenic lake with a loop trail\n\n> Grab a coffee from Dancing Goats at Ponce City Market next door and walk the loop. Hard to beat on a Saturday morning.",
           "link": "https://www.atlantaga.gov/government/departments/parks-recreation",
           "neighborhood": "Old Fourth Ward",
           "tip": "Grab a coffee from Dancing Goats next door at Ponce City Market and walk the loop trail. Hard to beat on a Saturday morning."
@@ -45,7 +45,7 @@
         {
           "rank": 5,
           "name": "Westside Park",
-          "description": "Atlanta's newest major park and the largest greenspace in the city at 280 acres. Built on the site of the old Bellwood Quarry, the views of the reservoir from the overlook are genuinely stunning. It still feels like a secret to many Atlantans.",
+          "description": "Atlanta's newest major park and **the largest greenspace in the city at 280 acres**. Built on the site of the old [Bellwood Quarry](https://en.wikipedia.org/wiki/Bellwood_Quarry), the views of the reservoir from the overlook are genuinely stunning.\n\n- **Reservoir overlook** with an unreal shade of blue-green water\n- Multi-use trails still being expanded\n- *Still feels like a secret to many Atlantans*\n\nThis park is going to be a major destination once all the planned phases are finished.",
           "link": "https://www.atlantaga.gov/government/departments/parks-recreation/parks/westside-park",
           "neighborhood": "Grove Park",
           "tip": "Head straight to the reservoir overlook when you arrive. The quarry water is an unreal shade of blue-green."
@@ -53,7 +53,7 @@
         {
           "rank": 6,
           "name": "Candler Park",
-          "description": "A beloved neighborhood park with a pool, tennis courts, a golf course, and a playground. The disc golf course here is one of the most popular in the city. The park has a great community feel, especially during the annual Candler Park Fall Fest.",
+          "description": "A beloved neighborhood park with something for everyone. **The disc golf course** here is one of the most popular in the city.\n\n- Pool, tennis courts, golf course, playground\n- Annual **Candler Park Fall Fest** brings out the whole neighborhood\n- Great community feel year-round\n\n*Disc golf is free to play. Bring your own discs or borrow from a friendly local on the first tee.*",
           "link": "https://en.wikipedia.org/wiki/Candler_Park",
           "neighborhood": "Candler Park",
           "tip": "The disc golf course is free to play. Bring your own discs or borrow from a friendly local on the first tee."
@@ -61,7 +61,7 @@
         {
           "rank": 7,
           "name": "Olmsted Linear Park",
-          "description": "A chain of connected parks designed by the Olmsted Brothers firm (the same family behind Central Park). Runs through Druid Hills along Ponce de Leon Avenue with gorgeous old trees, open meadows, and very little foot traffic compared to bigger parks.",
+          "description": "A chain of connected parks designed by the **[Olmsted Brothers](https://en.wikipedia.org/wiki/Olmsted_Brothers) firm** (the same family behind Central Park). Runs through Druid Hills along Ponce de Leon Avenue.\n\n- Gorgeous old trees and open meadows\n- **Very little foot traffic** compared to bigger parks\n- Walk the full length from Virgilee Park to Deepdene Park for a peaceful two-mile stroll\n\n*Some of Atlanta's prettiest scenery, and you might have it mostly to yourself.*",
           "link": "https://olmstedlinearpark.org/",
           "neighborhood": "Druid Hills",
           "tip": "Walk the full length from Virgilee Park to Deepdene Park for a peaceful two-mile stroll through some of Atlanta's prettiest scenery."
@@ -69,7 +69,7 @@
         {
           "rank": 8,
           "name": "Fernbank Forest",
-          "description": "65 acres of old-growth forest right in the middle of the city. Seriously. Some of these trees are over 200 years old. Access is through Fernbank Museum (with admission) or the free WildWoods paths. It feels like you've been transported to the mountains.",
+          "description": "**65 acres of old-growth forest** right in the middle of the city. Seriously. Some of these trees are over 200 years old.\n\n- Access through [Fernbank Museum](https://www.fernbankmuseum.org/) (with admission) or the **free WildWoods paths**\n- Paved loop trail that's great for kids\n- Museum trail goes deeper into the old growth\n\n*It feels like you've been transported to the north Georgia mountains, except you're ten minutes from downtown.*",
           "link": "https://www.fernbankmuseum.org/explore/fernbank-forest",
           "neighborhood": "Druid Hills",
           "tip": "The WildWoods outdoor experience is free and has a paved loop trail that's great for kids. The museum trail requires admission but is worth it."
@@ -77,7 +77,7 @@
         {
           "rank": 9,
           "name": "Brownwood Park",
-          "description": "A small, well-loved park in East Atlanta with a playground, tennis courts, and a community garden. It's the kind of neighborhood park where everyone knows each other's dogs. The mature tree canopy provides solid shade even in August.",
+          "description": "A small, well-loved park in East Atlanta. **The kind of neighborhood park where everyone knows each other's dogs.**\n\n- Playground, tennis courts, community garden\n- Mature tree canopy provides solid shade even in August\n- Community garden plots sometimes have openings\n\n*Check with the [East Atlanta Community Association](https://www.eaca.net/) if you're interested in a garden plot.*",
           "link": "https://www.facebook.com/BrownwoodPark/",
           "neighborhood": "East Atlanta",
           "tip": "The community garden plots sometimes have openings. Check with the East Atlanta Community Association if you're interested."
@@ -85,15 +85,28 @@
         {
           "rank": 10,
           "name": "Coan Park",
-          "description": "Tucked into the East Lake neighborhood, Coan Park has a recently renovated playground, walking paths, and a rec center. It's never crowded and the rolling terrain makes for a decent workout. A true hidden gem.",
+          "description": "Located in the East Lake neighborhood, Coan Park has a **recently renovated playground**, walking paths, and a rec center.\n\n- Never crowded, even on weekends\n- **Rolling terrain** makes for a decent workout\n- Walking loop has real hills (unlike the flat BeltLine)\n\n*If you want a tougher walk than the BeltLine without leaving the city, this is your spot.*",
           "link": "https://www.atlantaga.gov/government/departments/parks-recreation",
           "neighborhood": "East Lake",
           "tip": "The walking loop has some real hills. If you want a tougher walk than the flat BeltLine, this is your spot."
         }
       ],
-      "relatedLists": ["best-coffee-shops-beltline", "dog-friendly-spots-grant-park"],
-      "relatedGuides": ["atlanta-beltline", "things-to-do-in-atlanta"],
-      "keywords": ["parks", "ITP", "outdoor", "green space", "Piedmont Park", "Grant Park"]
+      "relatedLists": [
+        "best-coffee-shops-beltline",
+        "dog-friendly-spots-grant-park"
+      ],
+      "relatedGuides": [
+        "atlanta-beltline",
+        "things-to-do-in-atlanta"
+      ],
+      "keywords": [
+        "parks",
+        "ITP",
+        "outdoor",
+        "green space",
+        "Piedmont Park",
+        "Grant Park"
+      ]
     },
     {
       "slug": "best-coffee-shops-beltline",
@@ -108,7 +121,7 @@
         {
           "rank": 1,
           "name": "Dancing Goats Coffee Bar (Ponce City Market)",
-          "description": "Batdorf & Bronson's flagship Atlanta location, right at the central hub of the Eastside Trail. The space is beautiful, the espresso is consistently excellent, and the patio overlooks the BeltLine. You can watch the whole parade of joggers, dogs, and strollers while you sip.",
+          "description": "[Batdorf & Bronson's](https://www.batdorfcoffee.com/) flagship Atlanta location, right at the central hub of the Eastside Trail. **The espresso is consistently excellent.**\n\n- Beautiful space with a **patio overlooking the BeltLine**\n- Outstanding cold brew\n- Skip the line inside and order at the outdoor window when it's open\n\n*You can watch the whole parade of joggers, dogs, and strollers while you sip. Peak people-watching territory.*",
           "link": "https://www.batdorfcoffee.com/",
           "neighborhood": "Old Fourth Ward",
           "tip": "The cold brew here is outstanding. Skip the line inside and order at the outdoor window when it's open."
@@ -116,7 +129,7 @@
         {
           "rank": 2,
           "name": "Revelator Coffee (Westside Trail)",
-          "description": "A Birmingham-born roaster with a sleek outpost on the Westside Trail near Lee + White. The pour-overs are precise and the space has a cool industrial feel. Great place to post up with a laptop.",
+          "description": "A Birmingham-born roaster with a **sleek outpost on the Westside Trail** near [Lee + White](https://leeandwhite.com/).\n\n- **Pour-overs are precise** and well-executed\n- Cool industrial feel to the space\n- Great place to post up with a laptop\n\n> Try the seasonal single-origin pour-over. The baristas here actually know their stuff and can guide you through the menu.",
           "link": "https://revelatorcoffee.com/",
           "neighborhood": "West End",
           "tip": "Try the seasonal single-origin pour-over. The baristas here actually know their stuff and can guide you."
@@ -124,7 +137,7 @@
         {
           "rank": 3,
           "name": "Chrome Yellow Trading Co.",
-          "description": "A coffee shop and general store on Krog Street, steps from the Eastside Trail. The vibe is part neighborhood hangout, part design store. Their drip coffee is simple and good, and they stock interesting local goods you won't find elsewhere.",
+          "description": "A coffee shop and general store on Krog Street, **steps from the Eastside Trail**. The vibe is part neighborhood hangout, part design store.\n\n- **Drip coffee** is simple and good\n- Stocks interesting local goods you won't find elsewhere\n- Quick walk to the [Krog Street Tunnel](https://en.wikipedia.org/wiki/Krog_Street_Tunnel) for street art\n\n*Half the fun is browsing the curated shelf of local zines, ceramics, and oddities.*",
           "link": "https://chromeyellow.com/",
           "neighborhood": "Cabbagetown",
           "tip": "Grab a coffee and walk over to the Krog Street Tunnel to see the latest street art. It changes constantly."
@@ -132,7 +145,7 @@
         {
           "rank": 4,
           "name": "Muchacho",
-          "description": "A tiny takeaway window in Summerhill that punches way above its weight. The cortado is one of the best in Atlanta, and the breakfast tacos are legit. It's a quick detour from the Southside Trail section of the BeltLine.",
+          "description": "A **tiny takeaway window** in Summerhill that punches way above its weight. Quick detour from the Southside Trail section of the BeltLine.\n\n- **The cortado** is one of the best in Atlanta\n- **Breakfast tacos** are legit (get them with your coffee, you won't regret it)\n- Cash and card accepted, line moves fast\n\n*This is the kind of place that's impossible to walk past once you know about it.*",
           "link": "https://www.eatatmuchacho.com/",
           "neighborhood": "Summerhill",
           "tip": "Cash and card accepted. The line moves fast. Get the breakfast tacos with your coffee, you won't regret it."
@@ -140,7 +153,7 @@
         {
           "rank": 5,
           "name": "Brash Coffee",
-          "description": "Located in Ponce City Market, Brash is laser-focused on espresso. The menu is short by design: espresso, macchiato, cortado, latte. That's it. And every single one is dialed in. If you care about the craft, this is your spot.",
+          "description": "Located in [Ponce City Market](https://poncecitymarket.com/), Brash is **laser-focused on espresso**. The menu is short by design.\n\n- Espresso, macchiato, cortado, latte. That's it.\n- **Every single one is dialed in**\n- Frequently features rotating guest roasters\n\n*If you care about the craft and don't need a 30-item menu, this is your spot.*",
           "link": "https://www.brashcoffee.com/",
           "neighborhood": "Old Fourth Ward",
           "tip": "Ask for the guest espresso if they have one running. Brash frequently features rotating roasters."
@@ -148,7 +161,7 @@
         {
           "rank": 6,
           "name": "Hodgepodge Coffeehouse",
-          "description": "A cozy, slightly funky neighborhood spot in East Atlanta Village with a solid patio. The vibe is relaxed, the coffee is good, and it's a short ride from the planned Southeast Trail. Great for a low-key afternoon.",
+          "description": "A cozy, slightly funky neighborhood spot in East Atlanta Village with a **solid patio**. *A short ride from the planned Southeast Trail.*\n\n- Relaxed vibe, good coffee\n- **Thai iced tea** is worth trying if you want something different\n- Patio is dog-friendly and shaded\n\nGreat for a low-key afternoon when you don't want the BeltLine crowds.",
           "link": "https://hodgepodgecoffee.com/",
           "neighborhood": "East Atlanta Village",
           "tip": "Try the Thai iced tea if you want something different. The patio is dog-friendly and shaded."
@@ -156,7 +169,7 @@
         {
           "rank": 7,
           "name": "Docent Coffee",
-          "description": "Docent has two locations near BeltLine-adjacent neighborhoods: one on the Westside and one in the Ford Factory Lofts in Poncey-Highland. Both serve excellent specialty coffee. The Ford Factory spot is a quick walk to the Eastside Trail.",
+          "description": "[Docent](https://docentcoffee.com/) has locations near BeltLine-adjacent neighborhoods, including one in the **Ford Factory Lofts in Poncey-Highland**.\n\n- Excellent specialty coffee at both spots\n- Ford Factory location is a **quick walk to the Eastside Trail**\n- Limited seating but a great window counter for people watching on North Avenue\n\n*The baristas here take their craft seriously without being pretentious about it.*",
           "link": "https://docentcoffee.com/",
           "neighborhood": "Poncey-Highland",
           "tip": "The Ford Factory location has limited seating but a great window counter for people watching on North Avenue."
@@ -164,7 +177,7 @@
         {
           "rank": 8,
           "name": "Little Tart Bakeshop",
-          "description": "Located in the Krog Street Market, just off the BeltLine. Not purely a coffee shop, but the espresso is serious and the pastries are some of the best in Atlanta. The almond croissant is famous for a reason.",
+          "description": "Located in [Krog Street Market](https://krogstreetmarket.com/), just off the BeltLine. Not purely a coffee shop, but the **espresso is serious** and the pastries are some of the best in Atlanta.\n\n- **The almond croissant** is famous for a reason\n- Excellent seasonal pastry rotation\n- Proper espresso drinks\n\n> Get there before 10am on weekends or the almond croissants will be gone. Not an exaggeration.",
           "link": "https://littletartatl.com/",
           "neighborhood": "Inman Park",
           "tip": "Get there before 10am on weekends or the almond croissants will be gone. Not an exaggeration."
@@ -172,7 +185,7 @@
         {
           "rank": 9,
           "name": "East Pole Coffee Co.",
-          "description": "A roaster and cafe in the Armour Yards area near the Eastside Trail's northern section. The space is open and airy, the beans are roasted on site, and there's plenty of room to spread out with a laptop. One of the best work-from-cafe setups in Atlanta.",
+          "description": "A roaster and cafe in the Armour Yards area near the **Eastside Trail's northern section**. One of the best work-from-cafe setups in Atlanta.\n\n- Beans **roasted on site**\n- Open, airy space with plenty of room to spread out\n- Their house blend is a great everyday coffee to take home\n\n*If you need to get actual work done while caffeinated, this is the move.*",
           "link": "https://eastpolecoffee.com/",
           "neighborhood": "Armour-Ottley",
           "tip": "Buy a bag of their house blend to take home. It's a great everyday coffee and roasted fresh."
@@ -180,15 +193,27 @@
         {
           "rank": 10,
           "name": "Taproom Coffee",
-          "description": "A Kirkwood favorite that's close to the planned eastward BeltLine extension. Taproom is all about community: they host events, support local artists, and the coffee is consistently solid. The outdoor space is generous.",
+          "description": "A **Kirkwood favorite** close to the planned eastward BeltLine extension. [Taproom](https://taproomcoffee.com/) is all about community.\n\n- Hosts events, supports local artists\n- Coffee is consistently solid\n- **Generous outdoor space**\n\n*Check their Instagram for pop-up events. They regularly host local vendors and live music.*",
           "link": "https://taproomcoffee.com/",
           "neighborhood": "Kirkwood",
           "tip": "Check their Instagram for pop-up events. They regularly host local vendors and live music."
         }
       ],
-      "relatedLists": ["top-restaurants-old-fourth-ward", "top-things-eastside-trail"],
-      "relatedGuides": ["atlanta-beltline", "best-restaurants-in-atlanta"],
-      "keywords": ["coffee", "BeltLine", "cafes", "Eastside Trail", "espresso"]
+      "relatedLists": [
+        "top-restaurants-old-fourth-ward",
+        "top-things-eastside-trail"
+      ],
+      "relatedGuides": [
+        "atlanta-beltline",
+        "best-restaurants-in-atlanta"
+      ],
+      "keywords": [
+        "coffee",
+        "BeltLine",
+        "cafes",
+        "Eastside Trail",
+        "espresso"
+      ]
     },
     {
       "slug": "top-restaurants-old-fourth-ward",
@@ -203,7 +228,7 @@
         {
           "rank": 1,
           "name": "Staplehouse",
-          "description": "One of Atlanta's most celebrated restaurants. The tasting menu changes regularly and features creative dishes built from seasonal Southern ingredients. The space is intimate and the service is warm without being fussy. Staplehouse also supports the Giving Kitchen nonprofit, so your meal goes toward a good cause.",
+          "description": "One of Atlanta's most celebrated restaurants. **The tasting menu changes regularly** and features creative dishes built from seasonal Southern ingredients.\n\n- *Intimate space, warm service without being fussy*\n- Supports the [Giving Kitchen](https://thegivingkitchen.org/) nonprofit, so your meal goes toward a good cause\n- Reservations are essential\n\n> Check their site on Monday mornings when new reservation dates drop. They go fast.",
           "link": "https://www.staplehouse.com/",
           "neighborhood": "Old Fourth Ward",
           "tip": "Reservations are essential and can be tough to get. Check their site on Monday mornings when new dates drop."
@@ -211,7 +236,7 @@
         {
           "rank": 2,
           "name": "Tabla",
-          "description": "Indian cuisine with a modern approach, located right on the Eastside Trail. The dosas are excellent, the cocktail menu is thoughtful, and the BeltLine-facing patio is hard to beat for people watching. This is a great date night spot.",
+          "description": "**Indian cuisine with a modern approach**, located right on the Eastside Trail. A great date night spot.\n\n- **The dosas** are excellent\n- Thoughtful cocktail menu\n- BeltLine-facing patio is hard to beat for people watching\n\n*Sit on the patio during sunset and order the lamb rogan josh. One of the best entrees on the menu.*",
           "link": "https://www.tablaatl.com/",
           "neighborhood": "Old Fourth Ward",
           "tip": "Sit on the BeltLine-side patio during sunset. The lamb rogan josh is one of the best entrees on the menu."
@@ -219,7 +244,7 @@
         {
           "rank": 3,
           "name": "Barcelona Wine Bar",
-          "description": "Spanish tapas and an extensive wine list in a lively, warm space. The patatas bravas are a must, the cheese boards are well-curated, and the weekend brunch is excellent. It gets loud in the best way.",
+          "description": "Spanish tapas and an **extensive wine list** in a lively, warm space. *It gets loud in the best way.*\n\n- **Patatas bravas** are a must-order\n- Well-curated cheese boards\n- Weekend brunch is excellent\n\n> The happy hour specials on wine and select tapas are a genuine deal. Go early on a weeknight.",
           "link": "https://barcelonawinebar.com/",
           "neighborhood": "Old Fourth Ward",
           "tip": "The happy hour specials on wine and select tapas are a genuine deal. Go early on a weeknight."
@@ -227,7 +252,7 @@
         {
           "rank": 4,
           "name": "Ponce City Market Food Hall",
-          "description": "Not a single restaurant but a collection of excellent stalls under one roof. Highlights include H&F Burger (from the Holeman & Finch team), Minero (Sean Brock's taco spot), Ton Ton (ramen and dumplings), and Honeysuckle Gelato. It's a food hall done right.",
+          "description": "Not a single restaurant but a **collection of excellent stalls** under one roof in the old [Sears building](https://en.wikipedia.org/wiki/Ponce_City_Market). A food hall done right.\n\n- **H&F Burger** (from the Holeman & Finch team)\n- **Minero** (Sean Brock's taco spot)\n- **Ton Ton** (ramen and dumplings)\n- **Honeysuckle Gelato**\n\n*Skip the crowds on the main level and head upstairs to The Roof for skyline views of Midtown.*",
           "link": "https://poncecitymarket.com/eat-drink/",
           "neighborhood": "Old Fourth Ward",
           "tip": "Skip the crowds on the main level and head upstairs to the roof. The views of Midtown from The Roof at PCM are worth the elevator ride."
@@ -235,7 +260,7 @@
         {
           "rank": 5,
           "name": "Vortex Bar & Grill",
-          "description": "A Midtown/L5P institution, but the original location at 438 Moreland is the one with the giant skull entrance. The burgers are massive, the atmosphere is unapologetically dive-bar-meets-burger-joint, and they have a strict no-kids policy. It's an experience.",
+          "description": "A Midtown/L5P institution. The original location at 438 Moreland is the one with **the giant skull entrance**. *An experience as much as a meal.*\n\n- Burgers are massive and unapologetic\n- Atmosphere is dive-bar-meets-burger-joint\n- **Strict no-kids policy**\n\n> Get the Coronary Bypass burger if you're feeling brave. Multiple patties, fried eggs, all the fixings.",
           "link": "https://thevortexbarandgrill.com/",
           "neighborhood": "Little Five Points",
           "tip": "Get the Coronary Bypass burger if you're feeling brave. It's multiple patties with fried eggs and all the fixings."
@@ -243,7 +268,7 @@
         {
           "rank": 6,
           "name": "BoccaLupo",
-          "description": "Handmade pasta in a cozy, unpretentious space on North Highland. The corzetti with pork sugo is a standout, and the menu changes often based on what's available. It's the kind of place that makes you wonder why you ever eat pasta from a box.",
+          "description": "**Handmade pasta** in a cozy, unpretentious space on North Highland. The kind of place that makes you wonder why you ever eat pasta from a box.\n\n- **Corzetti with pork sugo** is a standout\n- Menu changes often based on what's available\n- Sit at the bar and watch the pasta being made\n\n*The bartenders are great conversationalists, and watching the pasta process is mesmerizing.*",
           "link": "https://www.boccalupoatl.com/",
           "neighborhood": "Inman Park",
           "tip": "Sit at the bar and watch the pasta being made. It's mesmerizing and the bartenders are great conversationalists."
@@ -251,7 +276,7 @@
         {
           "rank": 7,
           "name": "Wrecking Bar Brewpub",
-          "description": "A brewpub set in the basement of a restored Victorian mansion. The beer is brewed on-site and the food goes way beyond typical pub fare. The smoked wings and the burger are both excellent. The space itself is worth the visit.",
+          "description": "A brewpub set in the **basement of a restored Victorian mansion**. The beer is brewed on-site and the food goes way beyond typical pub fare.\n\n- **Smoked wings** and the **burger** are both excellent\n- Creative seasonal beers on tap\n- The space itself is worth the visit\n\n*Try whatever seasonal beer is on tap. The brewers here are creative and the limited releases sell out fast.*",
           "link": "https://www.wreckingbarbrewpub.com/",
           "neighborhood": "Little Five Points",
           "tip": "Try whatever seasonal beer is on tap. The brewers here are creative and the limited releases sell out fast."
@@ -259,7 +284,7 @@
         {
           "rank": 8,
           "name": "Ammazza",
-          "description": "Neapolitan-style pizza cooked in a massive wood-fired oven. The dough is made with imported Italian flour and fermented for 72 hours. The margherita is perfect in its simplicity, and the burrata appetizer is rich enough to split.",
+          "description": "**Neapolitan-style pizza** cooked in a massive wood-fired oven. The dough is made with imported Italian flour and **fermented for 72 hours**.\n\n- **Margherita** is perfect in its simplicity\n- Burrata appetizer is rich enough to split\n- No reservations taken\n\n*They get packed. Arrive before 6pm on weeknights to avoid the wait.*",
           "link": "https://www.ammazza.com/",
           "neighborhood": "Old Fourth Ward",
           "tip": "They don't take reservations and it gets packed. Arrive before 6pm on weeknights to avoid the wait."
@@ -267,7 +292,7 @@
         {
           "rank": 9,
           "name": "Poor Hendrix",
-          "description": "A cocktail-forward restaurant with a seasonal menu that changes frequently. The small plates are inventive without being gimmicky, and the drink program is one of the best in the neighborhood. The space is intimate and dimly lit in that good-date way.",
+          "description": "A **cocktail-forward restaurant** with a seasonal menu that changes frequently. *The space is intimate and dimly lit in that good-date way.*\n\n- Small plates are inventive without being gimmicky\n- **Drink program** is one of the best in the neighborhood\n- The bartender's choice cocktail is always a good call\n\n> Tell them what you like and they'll make something custom. They're good at it.",
           "link": "https://www.poorhendrix.com/",
           "neighborhood": "Old Fourth Ward",
           "tip": "The bartender's choice cocktail is always a good call. Tell them what you like and they'll make something custom."
@@ -275,15 +300,27 @@
         {
           "rank": 10,
           "name": "Krog Street Market",
-          "description": "Another food hall, this one in a converted warehouse with a BeltLine entrance. Standouts include Gu's Dumplings (legendary Chinese dumplings), Fred's Meat & Bread (incredible sandwiches), and Jeni's Splendid Ice Creams. More focused than PCM and less touristy.",
+          "description": "A food hall in a **converted warehouse** with a BeltLine entrance. More focused than PCM and less touristy.\n\n- **[Gu's Dumplings](https://www.gusdumplings.com/)** (legendary Chinese dumplings)\n- **Fred's Meat & Bread** (incredible sandwiches)\n- **Jeni's Splendid Ice Creams**\n\n> Gu's always has a line, and it's always worth the wait. Get the spicy wontons and pan-fried pork dumplings.",
           "link": "https://krogstreetmarket.com/",
           "neighborhood": "Inman Park",
           "tip": "Gu's Dumplings always has a line, and it's always worth the wait. Get the spicy wontons and pan-fried pork dumplings."
         }
       ],
-      "relatedLists": ["best-pizza-atlanta-itp", "best-coffee-shops-beltline"],
-      "relatedGuides": ["best-restaurants-in-atlanta", "atlanta-beltline"],
-      "keywords": ["restaurants", "Old Fourth Ward", "O4W", "dining", "Ponce City Market"]
+      "relatedLists": [
+        "best-pizza-atlanta-itp",
+        "best-coffee-shops-beltline"
+      ],
+      "relatedGuides": [
+        "best-restaurants-in-atlanta",
+        "atlanta-beltline"
+      ],
+      "keywords": [
+        "restaurants",
+        "Old Fourth Ward",
+        "O4W",
+        "dining",
+        "Ponce City Market"
+      ]
     },
     {
       "slug": "best-brunch-decatur",
@@ -298,7 +335,7 @@
         {
           "rank": 1,
           "name": "Revival",
-          "description": "Kevin Gillespie's Southern restaurant on the Decatur square does a brunch that's hard to top. The fried chicken biscuit is legendary, the shrimp and grits are textbook, and the pastry case will test your willpower. The patio overlooking the square is prime real estate.",
+          "description": "**Kevin Gillespie's Southern restaurant** on the Decatur square does a brunch that's hard to top. The patio overlooking the square is prime real estate.\n\n- **Fried chicken biscuit** is legendary\n- **Shrimp and grits** are textbook\n- Pastry case will test your willpower\n\n> Go early. By 10:30am on Saturdays there's usually a wait. The pastry basket is worth adding to any order.",
           "link": "https://www.revivaldecatur.com/",
           "neighborhood": "Decatur",
           "tip": "Go early. By 10:30am on Saturdays there's usually a wait. The pastry basket is worth adding to any order."
@@ -306,7 +343,7 @@
         {
           "rank": 2,
           "name": "Brick Store Pub",
-          "description": "Known primarily as a beer bar, but the Brick Store's brunch is an underrated gem. The menu is small and focused, the bloody mary is excellent, and the Belgian-style space upstairs feels like a proper European pub breakfast. A Decatur institution since 1997.",
+          "description": "Known primarily as a **beer bar**, but the Brick Store's brunch is an underrated gem. A [Decatur institution](https://www.brickstorepub.com/) since 1997.\n\n- Small, focused menu\n- Excellent **bloody mary**\n- Belgian-style space upstairs feels like a proper European pub breakfast\n\n*Head upstairs to the Belgian bar for a quieter experience. Pair your brunch with one of their curated Belgian ales.*",
           "link": "https://www.brickstorepub.com/",
           "neighborhood": "Decatur",
           "tip": "Head upstairs to the Belgian bar for a quieter experience. Pair your brunch with one of their curated Belgian ales."
@@ -314,7 +351,7 @@
         {
           "rank": 3,
           "name": "Sun in My Belly",
-          "description": "A Kirkwood gem that's technically just outside Decatur proper but close enough to count. The menu uses lots of local produce, the baked goods are made in-house, and the garden patio is one of the most pleasant brunch settings in metro Atlanta.",
+          "description": "A Kirkwood gem that's technically just outside Decatur proper but close enough to count. **The garden patio** is one of the most pleasant brunch settings in metro Atlanta.\n\n- Menu uses lots of **local produce**\n- Baked goods are made in-house\n- **French toast with seasonal fruit compote** is a regular favorite\n\n*Call ahead for weekend reservations. This place fills up for good reason.*",
           "link": "https://www.suninmybelly.com/",
           "neighborhood": "Kirkwood",
           "tip": "The French toast with seasonal fruit compote is a regular favorite. Call ahead for weekend reservations."
@@ -322,7 +359,7 @@
         {
           "rank": 4,
           "name": "White Bull",
-          "description": "Italian-leaning brunch in a charming space on Church Street. The frittata is always well-executed, and the brunch cocktail menu is creative without being over the top. It's a refined brunch spot that doesn't take itself too seriously.",
+          "description": "**Italian-leaning brunch** in a charming space on Church Street. A refined brunch spot that doesn't take itself too seriously.\n\n- **Frittata** is always well-executed\n- Creative brunch cocktail menu\n- House-made focaccia is excellent\n\n*Ask if they have any fresh pasta specials running at brunch. Worth the detour.*",
           "link": "https://www.whitebullatl.com/",
           "neighborhood": "Decatur",
           "tip": "The house-made focaccia is excellent. Ask if they have any fresh pasta specials running at brunch."
@@ -330,7 +367,7 @@
         {
           "rank": 5,
           "name": "The Iberian Pig",
-          "description": "Spanish tapas-style brunch with a killer cocktail menu. The churros with chocolate are a must, and the savory egg dishes have a Spanish twist that sets them apart from every other brunch spot in town. The space is cozy and energetic.",
+          "description": "**Spanish tapas-style brunch** with a killer cocktail menu. The space is cozy and energetic.\n\n- **Churros with chocolate** are a must\n- Savory egg dishes have a Spanish twist that sets them apart\n- Bottomless sangria brunch deal is one of the best values in Decatur\n\n*Make a reservation. This place gets packed on weekends, and for good reason.*",
           "link": "https://www.theiberianpigatl.com/",
           "neighborhood": "Decatur",
           "tip": "The bottomless sangria brunch deal is one of the best values in Decatur. Make a reservation."
@@ -338,7 +375,7 @@
         {
           "rank": 6,
           "name": "Cafe Alsace",
-          "description": "An Alsatian-inspired cafe on West Ponce de Leon with excellent pastries, savory tarts, and proper French coffee. The quiche is consistently perfect, and the outdoor seating area is relaxed and dog-friendly.",
+          "description": "An **Alsatian-inspired cafe** on West Ponce de Leon with excellent pastries, savory tarts, and proper French coffee.\n\n- **Quiche** is consistently perfect\n- Relaxed outdoor seating area (dog-friendly)\n- Try the **tarte flambee** (Alsatian flatbread)\n\n*Different from anything else you'll find at brunch in Decatur. A genuine European cafe experience.*",
           "link": "https://cafealsace.com/",
           "neighborhood": "Decatur",
           "tip": "The tarte flambee (Alsatian flatbread) is different from anything else you'll find at brunch in Decatur."
@@ -346,7 +383,7 @@
         {
           "rank": 7,
           "name": "Community Q BBQ",
-          "description": "A barbecue joint doing brunch might sound unusual, but Community Q makes it work. Brisket hash, smoked meat omelets, and some of the best biscuits in Decatur. It's not fancy, but the quality speaks for itself.",
+          "description": "A barbecue joint doing brunch might sound unusual, but **Community Q makes it work**. Not fancy, but the quality speaks for itself.\n\n- **Brisket hash with eggs** is the move\n- Smoked meat omelets\n- Some of the **best biscuits** in Decatur\n\n*Don't overthink your order. Get the brisket hash.*",
           "link": "https://communityqbbq.com/",
           "neighborhood": "Decatur",
           "tip": "The brisket hash with eggs is the move. Don't overthink it."
@@ -354,15 +391,26 @@
         {
           "rank": 8,
           "name": "Saba Italian Bar + Kitchen",
-          "description": "A newer Italian spot on the Decatur square with a weekend brunch that's gaining a following. The lemon ricotta pancakes are a standout, and the espresso program is legit. It's a solid addition to the Decatur brunch scene.",
+          "description": "A newer Italian spot on the Decatur square with a weekend brunch that's **gaining a following**.\n\n- **Lemon ricotta pancakes** are a standout\n- Espresso program is legit (proper pulls, not an afterthought)\n- Solid addition to the Decatur brunch scene\n\n*Sit at the bar for a more relaxed vibe and faster service.*",
           "link": "https://sabadecatur.com/",
           "neighborhood": "Decatur",
           "tip": "Sit at the bar for a more relaxed vibe and faster service. The baristas pull proper espresso."
         }
       ],
-      "relatedLists": ["top-restaurants-old-fourth-ward", "best-coffee-shops-beltline"],
-      "relatedGuides": ["best-restaurants-in-atlanta"],
-      "keywords": ["brunch", "Decatur", "breakfast", "weekend", "restaurants"]
+      "relatedLists": [
+        "top-restaurants-old-fourth-ward",
+        "best-coffee-shops-beltline"
+      ],
+      "relatedGuides": [
+        "best-restaurants-in-atlanta"
+      ],
+      "keywords": [
+        "brunch",
+        "Decatur",
+        "breakfast",
+        "weekend",
+        "restaurants"
+      ]
     },
     {
       "slug": "best-bars-east-atlanta-village",
@@ -377,7 +425,7 @@
         {
           "rank": 1,
           "name": "The EARL",
-          "description": "The anchor of EAV's bar and music scene. The EARL is a dive bar and music venue that's been hosting indie bands, punk shows, and everything in between for over two decades. The burgers are surprisingly good, the patio is a classic hang, and the music calendar is always worth checking.",
+          "description": "The anchor of EAV's bar and music scene. **The EARL has been hosting indie bands, punk shows, and everything in between for over two decades**, and the room still sounds great.\n\n- The **burgers** are surprisingly good for a music venue\n- The patio is a classic hang between sets\n- Live music calendar is *always* worth checking\n\n> Local move: some of the best shows in Atlanta happen here on random weeknights for under $15.",
           "link": "https://www.badearl.com/",
           "neighborhood": "East Atlanta Village",
           "tip": "Check the live music schedule on their website. Some of the best shows in Atlanta happen here on random Tuesday nights."
@@ -385,7 +433,7 @@
         {
           "rank": 2,
           "name": "Argosy",
-          "description": "A gastropub with a deep beer list, solid cocktails, and elevated bar food. The space is large with a great patio, and it's the kind of place where you can bring a date or meet up with a group. The burger and the Nashville hot chicken sandwich are both excellent.",
+          "description": "A gastropub with a **deep beer list**, solid cocktails, and elevated bar food. The space is large with a great patio, and it works equally well for a date or a big group hangout.\n\n- **The burger** and the **Nashville hot chicken sandwich** are both excellent\n- Back patio has *fire pits* that are perfect on cooler nights\n- Beer selection leans local and rotates frequently",
           "link": "https://argosyeast.com/",
           "neighborhood": "East Atlanta Village",
           "tip": "The back patio has fire pits that are perfect on cooler nights. Arrive early on weekends to snag a spot."
@@ -393,7 +441,7 @@
         {
           "rank": 3,
           "name": "Gaja Korean Bar",
-          "description": "Korean-inspired cocktails and bar snacks in a stylish space that adds some variety to the EAV strip. The soju cocktails are fun, the fried chicken is outstanding, and the late-night menu is a lifesaver after a night of bar hopping.",
+          "description": "Korean-inspired cocktails and bar snacks in a stylish space that adds real variety to the EAV strip. *The vibe is cool without trying too hard.*\n\n- **Soju cocktails** are fun and dangerously easy to drink\n- The **Korean fried chicken** is outstanding (get the gochujang sauce)\n- Late-night menu is a lifesaver after a night of bar hopping",
           "link": "https://www.gajakoreanbar.com/",
           "neighborhood": "East Atlanta Village",
           "tip": "The Korean fried chicken wings are a must. Order them with the gochujang sauce."
@@ -401,7 +449,7 @@
         {
           "rank": 4,
           "name": "Flatiron",
-          "description": "A cocktail bar and restaurant in the historic Flatiron building at the center of the village. The drink menu is creative and seasonal, the food is solid New American, and the rooftop patio has great views of the EAV intersection.",
+          "description": "A cocktail bar and restaurant in the **historic [Flatiron building](https://en.wikipedia.org/wiki/Flat_Iron_Building_(Atlanta))** at the center of the village. The drink menu is creative and seasonal, the food is solid New American.\n\n- **Rooftop patio** has great views of the EAV intersection\n- Cocktail menu changes with the seasons\n- *One of the more polished spots on the strip, but it still fits the neighborhood*",
           "link": "https://www.flatironatlanta.com/",
           "neighborhood": "East Atlanta Village",
           "tip": "Head to the rooftop for sunset. It's one of the better rooftop views in east Atlanta."
@@ -409,7 +457,7 @@
         {
           "rank": 5,
           "name": "Mary's",
-          "description": "An LGBTQ+ bar and dance spot that's been a cornerstone of EAV for years. The energy is always high, the DJs know what they're doing, and it's one of the most welcoming bars in the city. The drag shows are legendary.",
+          "description": "An **LGBTQ+ bar and dance spot** that's been a cornerstone of EAV for years. The energy is always high, the DJs know what they're doing, and it's one of the most welcoming bars in the city.\n\n- **Drag shows** are legendary (get there early for a good spot)\n- DJs keep the dance floor moving all night\n- *The kind of place where strangers become friends by last call*",
           "link": "https://www.facebook.com/MarysInEAV/",
           "neighborhood": "East Atlanta Village",
           "tip": "The drag shows on weekends are not to be missed. Get there early for a good spot."
@@ -417,7 +465,7 @@
         {
           "rank": 6,
           "name": "The Midway Pub",
-          "description": "A proper dive bar with cheap beer, pool tables, and zero pretense. The Midway is where you go when you want a $4 PBR and a game of pool without any fuss. The jukebox is solid and the regulars are friendly.",
+          "description": "A **proper dive bar** with cheap beer, pool tables, and zero pretense. *This is where you go when you want a $4 PBR and a game of pool without any fuss.*\n\n- **Jukebox** is solid and the regulars are friendly\n- Pool tables are first come, first served\n- Cash is king here (there's an ATM inside)",
           "link": "https://www.facebook.com/TheMidwayPub/",
           "neighborhood": "East Atlanta Village",
           "tip": "Cash is king here. There's an ATM inside but bring your own to avoid the fee."
@@ -425,7 +473,7 @@
         {
           "rank": 7,
           "name": "Banshee",
-          "description": "Craft cocktails and a curated wine list in a moody, intimate space. Banshee is the more refined option on the EAV strip. The bartenders are knowledgeable, the drink menu changes with the seasons, and the small plates pair well with drinks.",
+          "description": "**Craft cocktails and a curated wine list** in a moody, intimate space. [Banshee](https://www.bansheeatl.com/) is the more refined option on the EAV strip.\n\n- Bartenders are knowledgeable. *Tell them what spirits you like and let them go off-menu.*\n- Drink menu **changes with the seasons**\n- Small plates pair well with drinks (don't skip the snack menu)",
           "link": "https://www.bansheeatl.com/",
           "neighborhood": "East Atlanta Village",
           "tip": "Tell the bartender what spirits you like and let them make you something off-menu. They're good at it."
@@ -433,15 +481,27 @@
         {
           "rank": 8,
           "name": "Crown and Conch",
-          "description": "A newer bar and restaurant in EAV with a tropical-meets-Southern vibe. The rum cocktails are strong and creative, the seafood is surprisingly good for a bar, and the patio is a nice hangout in warmer months.",
+          "description": "A newer bar and restaurant in EAV with a **tropical-meets-Southern** vibe. *The patio is a nice hangout in warmer months.*\n\n- **Rum cocktails** are strong and creative\n- Seafood is surprisingly good for a bar\n- The rum punch is dangerously easy to drink on a hot day",
           "link": "https://www.crownandconchatl.com/",
           "neighborhood": "East Atlanta Village",
           "tip": "Try the rum punch. It's dangerously easy to drink on a hot day."
         }
       ],
-      "relatedLists": ["top-restaurants-old-fourth-ward", "best-pizza-atlanta-itp"],
-      "relatedGuides": ["things-to-do-in-atlanta"],
-      "keywords": ["bars", "East Atlanta Village", "EAV", "nightlife", "dive bars", "cocktails"]
+      "relatedLists": [
+        "top-restaurants-old-fourth-ward",
+        "best-pizza-atlanta-itp"
+      ],
+      "relatedGuides": [
+        "things-to-do-in-atlanta"
+      ],
+      "keywords": [
+        "bars",
+        "East Atlanta Village",
+        "EAV",
+        "nightlife",
+        "dive bars",
+        "cocktails"
+      ]
     },
     {
       "slug": "top-things-eastside-trail",
@@ -456,7 +516,7 @@
         {
           "rank": 1,
           "name": "Piedmont Park Access Point",
-          "description": "Start your walk at the southern end of Piedmont Park where the trail connects. The transition from park to trail is seamless, and you get some of the best skyline views right at the beginning. There are usually food vendors and buskers near the entry point.",
+          "description": "Start your walk at the **southern end of [Piedmont Park](https://piedmontpark.org/)** where the trail connects. The transition from park to trail is seamless, and you get some of the best skyline views right at the beginning.\n\n- Food vendors and buskers usually set up near the entry point\n- *Start early on weekend mornings (before 9am) to beat the crowds*\n- Great photo op with the Midtown skyline behind you",
           "link": "https://piedmontpark.org/",
           "neighborhood": "Midtown",
           "tip": "Start early on weekend mornings (before 9am) to beat the crowds. The trail gets packed by mid-morning on nice days."
@@ -464,7 +524,7 @@
         {
           "rank": 2,
           "name": "Ponce City Market",
-          "description": "The massive mixed-use development in the old Sears building is the biggest attraction on the trail. The food hall has dozens of vendors, the shops are worth browsing, and The Roof amusement area on top has carnival games and skyline views.",
+          "description": "The massive mixed-use development in the **old Sears building** is the biggest attraction on the trail. [Ponce City Market](https://poncecitymarket.com/) has something for everyone.\n\n- **Central Food Hall** has dozens of vendors (skip the sit-down restaurants, graze the stalls instead)\n- **The Roof** on top has carnival games and skyline views\n- Shops are worth browsing, especially the local Atlanta brands",
           "link": "https://poncecitymarket.com/",
           "neighborhood": "Old Fourth Ward",
           "tip": "The Central Food Hall on the main floor has the best food options. Skip the sit-down restaurants and graze the stalls instead."
@@ -472,7 +532,7 @@
         {
           "rank": 3,
           "name": "Historic Fourth Ward Park",
-          "description": "This award-winning park sits right on the trail between Ponce City Market and the Inman Park section. The splash pad is perfect for kids in summer, and the walking loop around the stormwater pond is a nice detour from the main trail.",
+          "description": "This **award-winning park** sits right on the trail between Ponce City Market and the Inman Park section. *It's a perfect mid-walk breather.*\n\n- **Splash pad** is perfect for kids in summer\n- Walking loop around the stormwater pond is a nice detour from the main trail\n- Bring a blanket and sit on the hill overlooking the pond",
           "link": "https://www.atlantaga.gov/government/departments/parks-recreation",
           "neighborhood": "Old Fourth Ward",
           "tip": "Bring a blanket and sit on the hill overlooking the pond. It's one of the most relaxing spots on the whole BeltLine."
@@ -480,7 +540,7 @@
         {
           "rank": 4,
           "name": "BeltLine Art Installations",
-          "description": "Art on the Atlanta BeltLine is a curated public art program that commissions temporary and permanent installations along the trail. The murals, sculptures, and interactive pieces change regularly. You'll see new stuff every few months.",
+          "description": "[Art on the Atlanta BeltLine](https://art.beltline.org/) is a curated public art program that commissions **temporary and permanent installations** along the trail. You'll see new stuff every few months.\n\n- Murals, sculptures, and **interactive pieces** change regularly\n- Download the BeltLine app to get info on current installations\n- *Some of the interactive pieces are easy to walk right past, so keep your eyes open*",
           "link": "https://art.beltline.org/",
           "neighborhood": "Old Fourth Ward",
           "tip": "Download the BeltLine app to get info on current installations. Some of the interactive pieces are easy to walk right past."
@@ -488,7 +548,7 @@
         {
           "rank": 5,
           "name": "Krog Street Tunnel",
-          "description": "The famous graffiti tunnel that passes under railroad tracks near the southern end of the Eastside Trail. It's a constantly evolving gallery of street art, tags, and murals. It's loud, colorful, and distinctly Atlanta.",
+          "description": "The **famous graffiti tunnel** that passes under railroad tracks near the southern end of the Eastside Trail. [Krog Street Tunnel](https://en.wikipedia.org/wiki/Krog_Street_Tunnel) is a constantly evolving gallery of street art, tags, and murals. *Loud, colorful, and distinctly Atlanta.*\n\n> The art changes weekly. If you see something you love, photograph it because it might be painted over by next weekend.",
           "link": "https://en.wikipedia.org/wiki/Krog_Street_Tunnel",
           "neighborhood": "Cabbagetown",
           "tip": "The art changes weekly. If you see something you love, photograph it because it might be painted over by next week."
@@ -496,7 +556,7 @@
         {
           "rank": 6,
           "name": "Krog Street Market",
-          "description": "A food hall in a converted warehouse at the southern end of the Eastside Trail. Smaller and more intimate than Ponce City Market. Highlights include Gu's Dumplings, Fred's Meat & Bread, and Jeni's Ice Creams.",
+          "description": "A food hall in a **converted warehouse** at the southern end of the Eastside Trail. Smaller and more intimate than Ponce City Market. *The quality-to-crowd ratio is better here.*\n\n- **Gu's Dumplings** (don't skip these)\n- **Fred's Meat & Bread** for sandwiches\n- **Jeni's Ice Creams** for dessert\n- Back patio connects directly to the trail",
           "link": "https://krogstreetmarket.com/",
           "neighborhood": "Inman Park",
           "tip": "The back patio connects to the trail and is a great place to eat with a view of the BeltLine traffic."
@@ -504,7 +564,7 @@
         {
           "rank": 7,
           "name": "New Realm Brewing",
-          "description": "A massive brewery with a rooftop patio directly on the BeltLine. The beers are solid, the food menu is more extensive than most breweries, and the views of the Eastside Trail from above are great for watching the sunset.",
+          "description": "A **massive brewery with a rooftop patio** directly on the BeltLine. [New Realm](https://www.newrealmbrewing.com/) has solid beers and a food menu that's more extensive than most breweries.\n\n- **Rooftop views** of the Eastside Trail are great for watching the sunset\n- The rooftop fills up fast on weekends, so *head up there first to grab a table*\n- Good option for a mid-walk beer break",
           "link": "https://www.newrealmbrewing.com/",
           "neighborhood": "Old Fourth Ward",
           "tip": "The rooftop fills up fast on weekends. Head up there first to grab a table, then order at the bar."
@@ -512,7 +572,7 @@
         {
           "rank": 8,
           "name": "Bike Rentals and Scooter Stations",
-          "description": "Multiple bike and scooter rental stations sit along the trail. Relay Bike Share has docking stations at several points, and Bird/Lime scooters are scattered throughout. Riding the trail is a completely different experience than walking it.",
+          "description": "Multiple bike and scooter rental stations sit along the trail. **Riding the trail is a completely different experience than walking it.**\n\n- [Relay Bike Share](https://relaybikeshare.com/atlanta/) has docking stations at several points\n- Bird/Lime scooters are scattered throughout\n- *Rent a bike over a scooter.* The trail has some narrow sections where scooters at full speed can be a hazard for pedestrians.",
           "link": "https://relaybikeshare.com/atlanta/",
           "neighborhood": "Various",
           "tip": "Rent a bike over a scooter. The trail has some narrow sections where scooters at full speed can be a hazard for pedestrians."
@@ -520,7 +580,7 @@
         {
           "rank": 9,
           "name": "Inman Park Neighborhood",
-          "description": "The southern terminus of the Eastside Trail puts you right in Inman Park, one of Atlanta's most beautiful neighborhoods. Walk the tree-lined streets to see some incredible Victorian architecture. The Inman Park Festival in April is one of the city's best events.",
+          "description": "The southern terminus of the Eastside Trail puts you right in **[Inman Park](https://inmanpark.org/)**, one of Atlanta's most beautiful neighborhoods.\n\n- Walk the **tree-lined streets** to see incredible Victorian architecture\n- **Elizabeth Street** has some of the best Victorian homes in Atlanta\n- The [Inman Park Festival](https://inmanparkfestival.com/) in April is one of the city's best events\n\n*Even if you're just passing through, detour down a few side streets. It's worth it.*",
           "link": "https://inmanpark.org/",
           "neighborhood": "Inman Park",
           "tip": "Walk down Elizabeth Street for some of the best Victorian homes in Atlanta. The butterfly sculpture at the corner is a popular photo spot."
@@ -528,15 +588,27 @@
         {
           "rank": 10,
           "name": "Paris on Ponce",
-          "description": "A massive vintage and antique store on North Highland Avenue, a short walk from the trail. It's 50,000 square feet of curated chaos: old signs, furniture, art, oddities, and one-of-a-kind finds. Even if you don't buy anything, it's worth the browse.",
+          "description": "A massive **vintage and antique store** on North Highland Avenue, a short walk from the trail. [Paris on Ponce](https://parisonponce.com/) is **50,000 square feet of curated chaos.**\n\n- Old signs, furniture, art, oddities, and one-of-a-kind finds\n- Even if you don't buy anything, it's worth the browse\n- *Allow more time than you think. You can easily spend an hour wandering through the different rooms.*",
           "link": "https://parisonponce.com/",
           "neighborhood": "Old Fourth Ward",
           "tip": "Allow more time than you think. You can easily spend an hour wandering through the different rooms and vendor booths."
         }
       ],
-      "relatedLists": ["best-coffee-shops-beltline", "best-parks-itp-atlanta"],
-      "relatedGuides": ["atlanta-beltline", "things-to-do-in-atlanta"],
-      "keywords": ["BeltLine", "Eastside Trail", "things to do", "walking", "attractions"]
+      "relatedLists": [
+        "best-coffee-shops-beltline",
+        "best-parks-itp-atlanta"
+      ],
+      "relatedGuides": [
+        "atlanta-beltline",
+        "things-to-do-in-atlanta"
+      ],
+      "keywords": [
+        "BeltLine",
+        "Eastside Trail",
+        "things to do",
+        "walking",
+        "attractions"
+      ]
     },
     {
       "slug": "best-pizza-atlanta-itp",
@@ -551,7 +623,7 @@
         {
           "rank": 1,
           "name": "Antico Pizza Napoletana",
-          "description": "The place that put Atlanta on the pizza map. Giovanni Di Palma's wood-fired Neapolitan pies are the real deal, made with imported Italian ingredients and cooked at 900 degrees. The San Gennaro (sausage, peppers, onions) is outstanding. The communal seating and BYOB policy make it a great group spot.",
+          "description": "**The place that put Atlanta on the pizza map.** Giovanni Di Palma's wood-fired Neapolitan pies are the real deal, made with imported Italian ingredients and cooked at 900 degrees.\n\n- The **San Gennaro** (sausage, peppers, onions) is outstanding\n- Communal seating and **BYOB policy** (no corkage fee) make it a great group spot\n\n> Bring a bottle of wine and you've got a very affordable dinner at one of the best pizza places in the Southeast.",
           "link": "https://www.anticopizza.it/",
           "neighborhood": "West Midtown",
           "tip": "It's BYOB with no corkage fee. Bring a bottle of wine and you've got a very affordable dinner at one of the best pizza places in the Southeast."
@@ -559,7 +631,7 @@
         {
           "rank": 2,
           "name": "Ammazza",
-          "description": "Neapolitan-style pizza in Old Fourth Ward with a 72-hour fermented dough and a massive wood-fired oven. The margherita is a thing of beauty, simple and perfectly charred. The rooftop patio overlooks the neighborhood.",
+          "description": "Neapolitan-style pizza in Old Fourth Ward with a **72-hour fermented dough** and a massive wood-fired oven. *The margherita is a thing of beauty, simple and perfectly charred.*\n\n- **Rooftop patio** overlooks the neighborhood\n- No reservations, so put your name in on weekends and walk the BeltLine while you wait\n- The dough is the star here",
           "link": "https://www.ammazza.com/",
           "neighborhood": "Old Fourth Ward",
           "tip": "No reservations. On weekends, put your name in and walk the BeltLine for 30 minutes while you wait."
@@ -567,7 +639,7 @@
         {
           "rank": 3,
           "name": "O4W Pizza",
-          "description": "New York-style slices and whole pies in a casual counter-service spot. The slices are big, foldable, and properly greasy in the best way. The pepperoni slice is a go-to for a reason. They also do a mean calzone.",
+          "description": "**New York-style slices** and whole pies in a casual counter-service spot. The slices are big, foldable, and properly greasy in the best way.\n\n- **Pepperoni slice** is a go-to for a reason\n- The **white pizza with ricotta** is an underrated pick\n- They also do a mean calzone\n\n*Two slices and a beer is the perfect quick lunch.*",
           "link": "https://o4wpizza.com/",
           "neighborhood": "Old Fourth Ward",
           "tip": "Grab two slices and a beer for a quick, satisfying lunch. The white pizza with ricotta is an underrated pick."
@@ -575,7 +647,7 @@
         {
           "rank": 4,
           "name": "Slim & Husky's",
-          "description": "Creative, thick-crust pizzas with interesting topping combinations in a hip-hop-themed space. The dough is made fresh daily and the specialty pies (like the Cee-Lo Green with pesto) are worth trying. Started in Nashville and the Atlanta location delivers.",
+          "description": "**Creative, thick-crust pizzas** with interesting topping combinations in a hip-hop-themed space. Started in Nashville and the Atlanta location delivers.\n\n- Dough is made fresh daily\n- Specialty pies like the **Cee-Lo Green** (with pesto) are worth trying\n- *Build your own if the specialty pies feel too adventurous. The crust is the star, so keep toppings simple.*",
           "link": "https://www.slimandhuskys.com/",
           "neighborhood": "Summerhill",
           "tip": "Build your own if the specialty pies feel too adventurous. The crust is the star here, so keep the toppings simple."
@@ -583,7 +655,7 @@
         {
           "rank": 5,
           "name": "Junior's Pizza",
-          "description": "A late-night staple near the West End. New York-style slices that are perfect at 1am (and just as good at noon). Nothing fancy, just solid pizza at a fair price. The kind of slice shop every neighborhood needs.",
+          "description": "A **late-night staple** near the West End. New York-style slices that are perfect at 1am (and just as good at noon). Nothing fancy, just solid pizza at a fair price.\n\n- The **cheese slice** is all you need\n- Open late, making it your go-to **post-bar pizza destination**\n- *The kind of slice shop every neighborhood needs.*",
           "link": "https://www.juniorspizzaatl.com/",
           "neighborhood": "West End",
           "tip": "Open late. This is your post-bar pizza destination. The cheese slice is all you need."
@@ -591,7 +663,7 @@
         {
           "rank": 6,
           "name": "Varuni Napoli",
-          "description": "Certified Neapolitan pizza in Midtown using imported Italian ingredients, a custom-built oven, and a dough recipe that produces a beautifully blistered crust. The margherita DOC with buffalo mozzarella is the way to go.",
+          "description": "**Certified Neapolitan pizza** in Midtown using imported Italian ingredients and a custom-built oven. The dough recipe produces a beautifully blistered crust.\n\n- **Margherita DOC** with buffalo mozzarella is the way to go\n- Lunch special is an excellent value (personal pizza and a drink for well under $15)\n- *The certification is real. This is as close to Naples as you'll get in Atlanta.*",
           "link": "https://www.varuninapoli.com/",
           "neighborhood": "Midtown",
           "tip": "The lunch special is an excellent value. Get a personal pizza and a drink for well under $15."
@@ -599,7 +671,7 @@
         {
           "rank": 7,
           "name": "Nina & Rafi",
-          "description": "A newer spot in Poncey-Highland doing creative neo-Neapolitan pies. The dough is excellent, the toppings are thoughtful, and the natural wine list pairs perfectly. It's a date-night pizza spot done right.",
+          "description": "A newer spot in Poncey-Highland doing **creative neo-Neapolitan pies**. The dough is excellent and the toppings are thoughtful. *A date-night pizza spot done right.*\n\n- The **fungi pizza** with mixed mushrooms and truffle oil is worth the upcharge\n- **Natural wine list** pairs perfectly with any pie\n- Intimate space with a polished but relaxed feel",
           "link": "https://ninaandrafi.com/",
           "neighborhood": "Poncey-Highland",
           "tip": "The fungi pizza with mixed mushrooms and truffle oil is worth the upcharge. Pair it with something from the natural wine list."
@@ -607,7 +679,7 @@
         {
           "rank": 8,
           "name": "Edgewood Pizza",
-          "description": "A no-frills slice shop on Edgewood Avenue that's been feeding the late-night crowd for years. The slices are huge, the prices are right, and it's exactly the kind of pizza you want after a night out on Edgewood Avenue.",
+          "description": "A **no-frills slice shop** on [Edgewood Avenue](https://en.wikipedia.org/wiki/Edgewood_Avenue) that's been feeding the late-night crowd for years. The slices are huge and the prices are right.\n\n- Open **very late on weekends**\n- The pepperoni slice at 2am hits different\n- *Exactly the kind of pizza you want after a night out on Edgewood*",
           "link": "https://www.yelp.com/biz/edgewood-pizza-atlanta",
           "neighborhood": "Old Fourth Ward",
           "tip": "Open very late on weekends. The pepperoni slice at 2am hits different."
@@ -615,7 +687,7 @@
         {
           "rank": 9,
           "name": "Little Bear",
-          "description": "A Summerhill restaurant that does excellent wood-fired pizzas among other things. The menu is broader than just pizza, but the pies are consistently great. The space is warm and inviting, and the cocktails are strong.",
+          "description": "A Summerhill restaurant that does **excellent wood-fired pizzas** among other things. The menu is broader than just pizza, but the pies are consistently great.\n\n- **Split a pizza and a few small plates** for the best experience\n- The **burrata appetizer** pairs perfectly with any pie\n- Cocktails are strong and the space is warm and inviting",
           "link": "https://www.littlebearatl.com/",
           "neighborhood": "Summerhill",
           "tip": "Split a pizza and a few small plates for the best experience. The burrata appetizer pairs perfectly with any pie."
@@ -623,15 +695,26 @@
         {
           "rank": 10,
           "name": "Fred's Pizza",
-          "description": "A Decatur institution doing New York-style pizza since the '80s. It's cash-only, the decor hasn't changed in decades, and the pizza is exactly as good as it's always been. A true original in a sea of newcomers.",
+          "description": "A **Decatur institution** doing New York-style pizza since the '80s. The decor hasn't changed in decades, and the pizza is exactly as good as it's always been.\n\n- **Cash only** (ATM next door)\n- The **large cheese pizza** is the move for groups\n- *A true original in a sea of newcomers. No frills, no gimmicks, just pizza.*",
           "link": "https://www.yelp.com/biz/freds-pizza-decatur",
           "neighborhood": "Decatur",
           "tip": "Cash only. There's an ATM next door. The large cheese pizza is the move for groups."
         }
       ],
-      "relatedLists": ["top-restaurants-old-fourth-ward", "best-bars-east-atlanta-village"],
-      "relatedGuides": ["best-restaurants-in-atlanta"],
-      "keywords": ["pizza", "ITP", "Neapolitan", "New York style", "restaurants"]
+      "relatedLists": [
+        "top-restaurants-old-fourth-ward",
+        "best-bars-east-atlanta-village"
+      ],
+      "relatedGuides": [
+        "best-restaurants-in-atlanta"
+      ],
+      "keywords": [
+        "pizza",
+        "ITP",
+        "Neapolitan",
+        "New York style",
+        "restaurants"
+      ]
     },
     {
       "slug": "dog-friendly-spots-grant-park",
@@ -646,7 +729,7 @@
         {
           "rank": 1,
           "name": "Grant Park Dog Park (Hank Aaron Dog Park)",
-          "description": "The neighborhood's dedicated off-leash dog park, located in the southeast corner of Grant Park near Boulevard. It has separate areas for large and small dogs, water fountains, and shade trees. It's well-maintained and has a strong regular crowd of friendly dog owners.",
+          "description": "The neighborhood's **dedicated off-leash dog park**, located in the southeast corner of [Grant Park](https://grantpark.org/) near Boulevard. Well-maintained with a strong regular crowd of friendly dog owners.\n\n- **Separate areas** for large and small dogs\n- Water fountains and **shade trees** throughout\n- *Weekday mornings are the sweet spot: less crowded but still enough dogs for yours to socialize with.*",
           "link": "https://grantpark.org/",
           "neighborhood": "Grant Park",
           "tip": "Weekday mornings are the sweet spot. Less crowded than evenings but still enough dogs for yours to socialize with."
@@ -654,7 +737,7 @@
         {
           "rank": 2,
           "name": "Grant Park Trails",
-          "description": "The park itself has multiple walking paths that loop through the green space. Dogs must be on-leash outside the dog park area, but the trails are wide, shaded, and perfect for a long walk. The full loop is about 1.5 miles.",
+          "description": "The park itself has multiple walking paths that loop through the green space. Dogs must be on-leash outside the dog park area, but the trails are **wide, shaded, and perfect for a long walk**.\n\n- Full loop is about **1.5 miles**\n- The path near the gazebo and around the perimeter is the quietest route\n- *Avoid the [Zoo Atlanta](https://zooatlanta.org/) entrance area during peak hours if your dog gets overstimulated by crowds.*",
           "link": "https://en.wikipedia.org/wiki/Grant_Park_(Atlanta)",
           "neighborhood": "Grant Park",
           "tip": "The path near the gazebo and around the perimeter is the quietest route. Avoid the Zoo Atlanta entrance area during peak hours."
@@ -662,7 +745,7 @@
         {
           "rank": 3,
           "name": "Six Feet Under Pub & Fish House",
-          "description": "A rooftop seafood restaurant with one of the best patios in Grant Park. The rooftop is not dog-friendly, but the ground-level patio welcomes dogs. The fried fish tacos and the views of Oakland Cemetery make it a great stop.",
+          "description": "A rooftop seafood restaurant with one of the **best patios in Grant Park**. The rooftop is not dog-friendly, but the **ground-level patio welcomes dogs** (they'll bring a water bowl).\n\n- **Fried fish tacos** are the standout\n- Views of [Oakland Cemetery](https://oaklandcemetery.com/) make it a great stop\n- *Fish and chips are the way to go if you're keeping it simple.*",
           "link": "https://www.sixfeetunder.com/",
           "neighborhood": "Grant Park",
           "tip": "Request the ground-floor patio and they'll bring a water bowl for your dog. The fish and chips are the way to go."
@@ -670,7 +753,7 @@
         {
           "rank": 4,
           "name": "Beacon Atlanta",
-          "description": "A coffee shop and bar on Memorial Drive with a spacious patio that's very dog-friendly. The outdoor seating area is big enough that dogs aren't bumping into other tables. Good coffee in the morning, good beer in the evening.",
+          "description": "A **coffee shop and bar** on Memorial Drive with a spacious patio that's very dog-friendly. The outdoor seating area is big enough that dogs aren't bumping into other tables.\n\n- **Good coffee** in the morning, **good beer** in the evening\n- Patio has shade umbrellas and water bowls for dogs\n- *A great work-from-patio spot on weekday mornings.*",
           "link": "https://www.beaconatl.com/",
           "neighborhood": "Grant Park",
           "tip": "The patio has shade umbrellas and water bowls for dogs. It's a great work-from-patio spot on weekday mornings."
@@ -678,7 +761,7 @@
         {
           "rank": 5,
           "name": "Dakota Blue",
-          "description": "A neighborhood bar and restaurant with a casual patio that welcomes dogs. The menu is comfort food done well, and the outdoor space is laid-back enough that your dog can relax under the table without stress.",
+          "description": "A neighborhood bar and restaurant with a **casual patio that welcomes dogs**. The outdoor space is laid-back enough that your dog can relax under the table without stress.\n\n- Menu is **comfort food done well**\n- Weekend brunch is dog-patio friendly\n- **Chicken and waffles** are solid",
           "link": "https://www.dakotablueatl.com/",
           "neighborhood": "Grant Park",
           "tip": "The weekend brunch is dog-patio friendly. The chicken and waffles are solid."
@@ -686,7 +769,7 @@
         {
           "rank": 6,
           "name": "Grant Park Farmers Market",
-          "description": "Held every Sunday at the park, this farmers market is dog-friendly (on leash) and a great place to do a lap with your pup. Local produce, baked goods, coffee vendors, and often a dog treat vendor. It's a neighborhood institution.",
+          "description": "Held **every Sunday** at the park, this [farmers market](https://www.cfmatl.org/grant-park) is dog-friendly (on leash) and a great place to do a lap with your pup. *A neighborhood institution.*\n\n- Local produce, baked goods, and coffee vendors\n- Often has a **dog treat vendor**\n- Get there between 9 and 10am for the best selection",
           "link": "https://www.cfmatl.org/grant-park",
           "neighborhood": "Grant Park",
           "tip": "Get there between 9 and 10am for the best selection. Bring bags and keep your dog close in the crowded aisles."
@@ -694,7 +777,7 @@
         {
           "rank": 7,
           "name": "Oakland Cemetery",
-          "description": "Atlanta's oldest cemetery is also a beautiful 48-acre greenspace. Dogs are allowed on-leash and the wide paths, old trees, and historic monuments make it one of the most unique walks in the city. It's peaceful and rarely crowded.",
+          "description": "**Atlanta's oldest cemetery** is also a beautiful [48-acre greenspace](https://oaklandcemetery.com/). Dogs are allowed on-leash, and the wide paths, old trees, and historic monuments make it one of the most unique walks in the city.\n\n- Peaceful and rarely crowded\n- Walking paths have some of the **oldest trees** in the area\n\n> The cemetery closes at dusk. Respect the grounds and clean up after your dog.",
           "link": "https://oaklandcemetery.com/",
           "neighborhood": "Grant Park",
           "tip": "The cemetery closes at dusk. Respect the grounds and clean up after your dog. The walking paths near the Confederate section have some of the oldest trees."
@@ -702,15 +785,27 @@
         {
           "rank": 8,
           "name": "Eventide Brewing",
-          "description": "A Grant Park brewery with a large outdoor area and a very dog-friendly policy. Dogs are welcome in the outdoor space, and there's plenty of room for them to hang out while you enjoy a beer. The beer is solid and the vibe is casual.",
+          "description": "A Grant Park brewery with a **large outdoor area** and a very dog-friendly policy. Dogs are welcome in the outdoor space, and there's plenty of room for them to hang out while you enjoy a beer.\n\n- Beer is solid and the vibe is casual\n- They sometimes host **yappy hours** and dog-themed events\n- *Check their [social media](https://www.instagram.com/eventidebrewing/) for upcoming ones.*",
           "link": "https://eventidebrewing.com/",
           "neighborhood": "Grant Park",
           "tip": "They sometimes host yappy hours and dog-themed events. Check their social media for upcoming ones."
         }
       ],
-      "relatedLists": ["best-parks-itp-atlanta", "best-bars-east-atlanta-village"],
-      "relatedGuides": ["things-to-do-in-atlanta"],
-      "keywords": ["dogs", "dog-friendly", "Grant Park", "patios", "dog parks", "pets"]
+      "relatedLists": [
+        "best-parks-itp-atlanta",
+        "best-bars-east-atlanta-village"
+      ],
+      "relatedGuides": [
+        "things-to-do-in-atlanta"
+      ],
+      "keywords": [
+        "dogs",
+        "dog-friendly",
+        "Grant Park",
+        "patios",
+        "dog parks",
+        "pets"
+      ]
     }
   ]
 }

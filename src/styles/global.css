@@ -478,6 +478,131 @@ img {
   background: var(--color-red-deep);
 }
 
+/* Prose: rich content from markdown */
+.prose {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+.prose p {
+  margin-bottom: 1rem;
+}
+
+.prose strong {
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.prose em {
+  font-style: italic;
+}
+
+.prose a {
+  color: var(--color-blue-bright);
+  text-decoration: underline;
+  text-decoration-color: rgba(31, 63, 122, 0.3);
+  text-underline-offset: 2px;
+}
+
+.prose a:hover {
+  color: var(--color-red);
+  text-decoration-color: var(--color-red);
+}
+
+.prose ul,
+.prose ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.prose ul {
+  list-style: disc;
+}
+
+.prose ol {
+  list-style: decimal;
+}
+
+.prose li {
+  margin-bottom: 0.4rem;
+  padding-left: 0.25rem;
+}
+
+.prose li::marker {
+  color: var(--color-red);
+}
+
+.prose blockquote {
+  margin: 1.25rem 0;
+  padding: 0.85rem 1.15rem;
+  border-left: 3px solid var(--color-red);
+  background: rgba(19, 39, 79, 0.04);
+  border-radius: 0 8px 8px 0;
+  font-size: 0.93rem;
+  line-height: 1.65;
+}
+
+.prose blockquote p {
+  margin-bottom: 0;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+  font-size: 0.88rem;
+}
+
+.prose th {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-soft);
+  text-align: left;
+  padding: 0.55rem 0.7rem;
+  border-bottom: 2px solid var(--color-line-strong);
+}
+
+.prose td {
+  padding: 0.55rem 0.7rem;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.prose tr:last-child td {
+  border-bottom: none;
+}
+
+.prose img {
+  border-radius: 12px;
+  margin: 1.25rem 0;
+}
+
+.prose figure {
+  margin: 1.25rem 0;
+}
+
+.prose figcaption {
+  font-size: 0.72rem;
+  color: var(--color-text-soft);
+  margin-top: 0.35rem;
+}
+
+.prose hr {
+  border: none;
+  border-top: 1px solid var(--color-line);
+  margin: 1.5rem 0;
+}
+
+.prose-sm {
+  font-size: 0.9rem;
+}
+
+.prose-sm p:last-child {
+  margin-bottom: 0;
+}
+
 .related-section {
   margin-top: 2.8rem;
   padding-top: 1.8rem;
@@ -1008,6 +1133,21 @@ img {
 
 .guide-section p {
   margin-bottom: 1.15rem;
+}
+
+.guide-section-figure {
+  margin: 0 0 1.25rem;
+}
+
+.guide-section-figure img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.guide-section-figure figcaption {
+  font-size: 0.72rem;
+  color: var(--color-text-soft);
+  margin-top: 0.35rem;
 }
 
 /* Breadcrumb navigation */

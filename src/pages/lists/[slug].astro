@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import { SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../../lib/helpers';
+import { marked } from 'marked';
 import listsData from '../../data/lists.json';
 import guidesData from '../../data/guides.json';
 
@@ -93,7 +94,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
             {item.neighborhood && (
               <span class="list-item-neighborhood">{item.neighborhood}</span>
             )}
-            <p class="list-item-description">{item.description}</p>
+            <div class="list-item-description prose prose-sm" set:html={marked.parse(item.description)} />
             {item.tip && (
               <blockquote class="list-item-tip">
                 <strong>Local tip:</strong> {item.tip}

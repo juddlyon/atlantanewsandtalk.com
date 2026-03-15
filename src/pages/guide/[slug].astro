@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import { slugify, SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../../lib/helpers';
+import { marked } from 'marked';
 import guidesData from '../../data/guides.json';
 
 export function getStaticPaths() {
@@ -58,19 +59,19 @@ const breadcrumbSchema = buildBreadcrumbSchema([
       <h1 class="guide-h1">{guide.h1}</h1>
     </header>
 
-    <div class="guide-intro">
-      {guide.intro.split('\n\n').map((paragraph) => (
-        <p>{paragraph}</p>
-      ))}
-    </div>
+    <div class="guide-intro prose" set:html={marked.parse(guide.intro)} />
 
     <div class="guide-body">
       {guide.sections.map((section) => (
         <section class="guide-section">
           <h2>{section.heading}</h2>
-          {section.content.split('\n\n').map((paragraph) => (
-            <p>{paragraph}</p>
-          ))}
+          {section.imageUrl && (
+            <figure class="guide-section-figure">
+              <img src={section.imageUrl} alt={section.imageAlt || section.heading} loading="lazy" />
+              {section.imageCredit && <figcaption>{section.imageCredit}</figcaption>}
+            </figure>
+          )}
+          <div class="prose" set:html={marked.parse(section.content)} />
         </section>
       ))}
     </div>
