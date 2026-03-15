@@ -135,12 +135,12 @@ img {
 }
 
 .header-date {
-  display: none;
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   color: var(--color-ink-soft);
+  white-space: nowrap;
 }
 
 .header-nav {
@@ -637,11 +637,8 @@ img {
   }
 
   .header-date {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: var(--tap-target);
-    padding: 0.7rem 1rem;
+    font-size: 0.68rem;
+    padding: 0.5rem 0.85rem;
     border: 1px solid rgba(19, 39, 79, 0.14);
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.6);
