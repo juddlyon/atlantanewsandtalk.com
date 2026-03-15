@@ -17,34 +17,42 @@ const sections = digest.sections.map((section) => ({
 ---
 
 <Base>
-  <div class="page-container">
-    <div class="digest-header">
-      <div class="digest-label">today's briefing</div>
-      <div class="digest-date">{formatDate(digest.date)}</div>
-      <p class="digest-summary">{digest.summary}</p>
-      <div class="digest-meta">{totalStories} stories · {digest.sections.length} sections</div>
+  <div class="max-w-7xl mx-auto px-4 lg:px-8 py-6 lg:py-10">
+    <div class="bg-gradient-to-br from-ink to-ink/80 text-white rounded-3xl p-6 lg:p-10 mb-8">
+      <div class="font-mono text-[0.68rem] uppercase tracking-[0.16em] text-white/50 mb-1">today's briefing</div>
+      <div class="font-mono text-[0.72rem] uppercase tracking-[0.12em] text-white/70 mb-3">{formatDate(digest.date)}</div>
+      <p class="text-base lg:text-lg leading-relaxed text-white/85 max-w-2xl mb-3">{digest.summary}</p>
+      <div class="font-mono text-[0.68rem] uppercase tracking-[0.12em] text-white/40">{totalStories} stories · {digest.sections.length} sections</div>
     </div>
 
     <Hero story={topStory} />
 
-    <div class="main-grid">
-      <div class="main-content">
+    <div class="grid lg:grid-cols-[1fr_320px] gap-8 lg:gap-10">
+      <div class="min-w-0 grid gap-10">
         {sections.map((section) => (
           <section id={section.category.toLowerCase().replace(/\s+&\s+/g, '-').replace(/\s+/g, '-')}>
-            <div class="section-header">
-              <h2 class="section-title">{section.category}</h2>
-              <span class="section-count">{section.stories.length} {section.stories.length === 1 ? 'story' : 'stories'}</span>
+            <div class="flex items-baseline justify-between border-t-2 border-ink pt-3 mb-5">
+              <h2 class="font-display text-xl lg:text-2xl font-bold text-ink">{section.category}</h2>
+              <span class="font-mono text-[0.66rem] uppercase tracking-[0.12em] text-text-soft">{section.stories.length} {section.stories.length === 1 ? 'story' : 'stories'}</span>
             </div>
-            <div class="story-grid">
+            <ul class="grid gap-3 list-none pl-0">
               {section.stories.map((story) => (
-                <StoryCard story={story} />
+                <li class="flex gap-3 items-baseline">
+                  <span class="text-red text-lg leading-none mt-0.5 shrink-0">&bull;</span>
+                  <div class="min-w-0">
+                    <a href={`/${story.id}`} class="font-display text-[1.05rem] lg:text-[1.15rem] leading-snug text-ink no-underline hover:text-red">{story.headline}</a>
+                    <span class="font-mono text-[0.64rem] tracking-[0.1em] uppercase text-text-soft ml-2">{story.source}</span>
+                  </div>
+                </li>
               ))}
-            </div>
+            </ul>
           </section>
         ))}
       </div>
 
-      <Sidebar />
+      <div class="hidden lg:block min-w-0">
+        <Sidebar />
+      </div>
     </div>
   </div>
 </Base>
