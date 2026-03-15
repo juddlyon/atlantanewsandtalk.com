@@ -13,6 +13,7 @@ interface Props {
     tags?: string[];
   };
   jsonLd?: object;
+  breadcrumbSchema?: object;
 }
 
 const {
@@ -23,6 +24,7 @@ const {
   canonicalUrl = Astro.url.href,
   article,
   jsonLd,
+  breadcrumbSchema,
 } = Astro.props;
 
 const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
@@ -61,7 +63,8 @@ const organizationSchema = {
 <title>{fullTitle}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonicalUrl} />
-<link rel="sitemap" href="/sitemap.xml" />
+<link rel="sitemap" href="/sitemap-index.xml" />
+<link rel="alternate" type="application/rss+xml" title={SITE_NAME} href={`${SITE_URL}/rss.xml`} />
 
 <!-- Open Graph -->
 <meta property="og:title" content={fullTitle} />
@@ -93,4 +96,7 @@ const organizationSchema = {
 <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
 {jsonLd && (
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+)}
+{breadcrumbSchema && (
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 )}

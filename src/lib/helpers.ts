@@ -135,3 +135,21 @@ export function getNeighborhoodColor(neighborhood: string): string {
 export const SITE_URL = 'https://atlantanewsandtalk.com';
 export const SITE_NAME = 'Atlanta News & Talk';
 export const SITE_DESCRIPTION = 'Daily hyperlocal news from Inside The Perimeter Atlanta neighborhoods';
+
+export interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+export function buildBreadcrumbSchema(items: BreadcrumbItem[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
+}

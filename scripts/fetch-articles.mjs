@@ -80,7 +80,7 @@ function extractImageFromItem(item) {
 async function fetchOgImage(url) {
   try {
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 5000);
+    const timeout = setTimeout(() => controller.abort(), 3000);
     const res = await fetch(url, {
       signal: controller.signal,
       headers: { 'User-Agent': 'AtlantaNewsAndTalk/1.0' },
@@ -99,7 +99,17 @@ async function fetchOgImage(url) {
 async function fetchFeed(source) {
   try {
     console.log(`  Fetching ${source.name}...`);
-    const feed = await parser.parseURL(source.url);
+    // Timeout each feed fetch at 15 seconds
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15000);
+    const res = await fetch(source.url, {
+      signal: controller.signal,
+      headers: { 'User-Agent': 'AtlantaNewsAndTalk/1.0' },
+    });
+    clearTimeout(timeout);
+    if (!res.ok) throw new Error(`Status code ${res.status}`);
+    const xml = await res.text();
+    const feed = await parser.parseString(xml);
     const twoDaysAgo = Date.now() - 48 * 60 * 60 * 1000; // 48 hours for more coverage
 
     const items = feed.items
@@ -151,8 +161,8 @@ async function main() {
 
   console.log(`\nTotal articles: ${articles.length}`);
 
-  // Try to get og:image for articles without images (first 8)
-  const needImages = articles.filter((a) => !a.imageUrl).slice(0, 8);
+  // Try to get og:image for articles without images (max 3, don't slow things down)
+  const needImages = articles.filter((a) => !a.imageUrl).slice(0, 3);
   if (needImages.length > 0) {
     console.log(`\nFetching og:images for ${needImages.length} articles...`);
     const ogResults = await Promise.allSettled(

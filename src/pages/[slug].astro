@@ -2,7 +2,8 @@
 import Base from '../layouts/Base.astro';
 import StoryCard from '../components/StoryCard.astro';
 import NeighborhoodTag from '../components/NeighborhoodTag.astro';
-import { getAllStories, getStoriesByNeighborhood, formatDate, SITE_URL, SITE_NAME } from '../lib/helpers';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { getAllStories, getStoriesByNeighborhood, formatDate, SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../lib/helpers';
 
 export function getStaticPaths() {
   const stories = getAllStories();
@@ -50,6 +51,12 @@ const articleJsonLd = {
   },
   keywords: story.keywords?.join(', '),
 };
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: SITE_URL },
+  { name: story.neighborhood, url: `${SITE_URL}/neighborhoods/${story.neighborhood.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}` },
+  { name: story.headline, url: `${SITE_URL}/${story.id}` },
+]);
 
 const bodyParagraphs = story.body.split('\n\n').filter((p: string) => p.trim());
 ---
