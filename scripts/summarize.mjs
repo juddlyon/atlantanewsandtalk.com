@@ -55,7 +55,7 @@ async function main() {
   const today = new Date().toISOString().slice(0, 10);
 
   const message = await client.messages.create({
-    model: 'claude-sonnet-4-5-20250514',
+    model: 'claude-sonnet-4-20250514',
     max_tokens: 8192,
     messages: [
       {
