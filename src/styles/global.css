@@ -200,11 +200,13 @@ img {
 
 .main-grid {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 1.5rem;
 }
 
 .main-content {
   min-width: 0;
+  max-width: 100%;
 }
 
 .digest-header {
@@ -283,6 +285,7 @@ img {
 
 .story-grid {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 1rem;
   margin-bottom: 2.2rem;
 }
