@@ -2,6 +2,11 @@ import digest from '../data/digest-latest.json';
 import fs from 'node:fs';
 import path from 'node:path';
 
+export interface StorySource {
+  name: string;
+  url: string;
+}
+
 export interface Story {
   id: string;
   headline: string;
@@ -11,6 +16,7 @@ export interface Story {
   neighborhoods: string[];
   source: string;
   sourceUrl: string;
+  sources?: StorySource[];
   imageUrl: string | null;
   imageAlt: string;
   publishedAt: string;

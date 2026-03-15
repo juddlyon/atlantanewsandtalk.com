@@ -56,14 +56,14 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 
     <div class="archive-nav">
       {prev ? (
-        <a href={`/archive/${prev}`} class="archive-nav-link">&larr; {formatDate(prev)}</a>
+        <a href={`/archive/${prev}`} class="archive-nav-link">‹ {formatDate(prev)}</a>
       ) : <span />}
       {next ? (
-        <a href={`/archive/${next}`} class="archive-nav-link">{formatDate(next)} &rarr;</a>
+        <a href={`/archive/${next}`} class="archive-nav-link">{formatDate(next)} ›</a>
       ) : isToday ? (
         <span />
       ) : (
-        <a href="/" class="archive-nav-link">Today &rarr;</a>
+        <a href="/" class="archive-nav-link">Today ›</a>
       )}
     </div>
 
@@ -96,17 +96,17 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 
     <div class="archive-nav" style="margin-top: 2rem;">
       {prev ? (
-        <a href={`/archive/${prev}`} class="archive-nav-link">&larr; {formatDate(prev)}</a>
+        <a href={`/archive/${prev}`} class="archive-nav-link">‹ {formatDate(prev)}</a>
       ) : <span />}
       {next ? (
-        <a href={`/archive/${next}`} class="archive-nav-link">{formatDate(next)} &rarr;</a>
+        <a href={`/archive/${next}`} class="archive-nav-link">{formatDate(next)} ›</a>
       ) : isToday ? (
         <span />
       ) : (
-        <a href="/" class="archive-nav-link">Today &rarr;</a>
+        <a href="/" class="archive-nav-link">Today ›</a>
       )}
     </div>
 
-    <a href="/archive" class="back-link" style="margin-top: 1.5rem;">&larr; All archives</a>
+    <a href="/archive" class="back-link" style="margin-top: 1.5rem;">‹ All archives</a>
   </div>
 </Base>

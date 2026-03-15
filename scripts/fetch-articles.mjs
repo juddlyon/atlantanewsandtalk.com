@@ -30,8 +30,8 @@ const parser = new RSSParser({
 // Sources ordered by SE BeltLine relevance
 const SOURCES = [
   // Tier 1 — hyperlocal ITP
-  { name: 'Decaturish', url: 'https://decaturish.com/feed/', tier: 1 },
-  { name: 'Urbanize Atlanta', url: 'https://atlanta.urbanize.city/feed', tier: 1 },
+  { name: 'Decaturish', url: 'https://www.decaturish.com/search/?f=rss&t=article&l=25&s=start_time&sd=desc', tier: 1 },
+  { name: 'Urbanize Atlanta', url: 'https://urbanize.city/atlanta/rss.xml', tier: 1 },
   { name: 'Atlanta Civic Circle', url: 'https://atlantaciviccircle.org/feed/', tier: 1 },
 
   // Tier 2 — Atlanta-wide with good ITP coverage
@@ -41,11 +41,21 @@ const SOURCES = [
   { name: 'The Atlanta Voice', url: 'https://www.theatlantavoice.com/feed/', tier: 2 },
   { name: 'Georgia Recorder', url: 'https://georgiarecorder.com/feed/', tier: 2 },
   { name: 'Global Atlanta', url: 'https://globalatlanta.com/feed/', tier: 2 },
+  { name: 'Capital B Atlanta', url: 'https://atlanta.capitalbnews.org/feed/', tier: 2 },
+  { name: 'Eater Atlanta', url: 'https://atlanta.eater.com/rss/index.xml', tier: 2 },
+  { name: 'What Now Atlanta', url: 'https://whatnow.com/atlanta/feed/', tier: 2 },
+  { name: 'Hypepotamus', url: 'https://hypepotamus.com/feed/', tier: 2 },
 
   // Tier 3 — TV/radio news (broader but high volume, good images)
   { name: '11Alive', url: 'https://www.11alive.com/feeds/syndication/rss/news', tier: 3 },
   { name: 'WSB-TV', url: 'https://www.wsbtv.com/arc/outboundfeeds/rss/?outputType=xml', tier: 3 },
   { name: 'GPB News', url: 'https://www.gpb.org/news/rss.xml', tier: 3 },
+  { name: 'Fox 5 Atlanta', url: 'https://www.fox5atlanta.com/rss.xml', tier: 3 },
+
+  // Tier 3 — Google News proxies (sources without direct RSS)
+  { name: 'WABE', url: 'https://news.google.com/rss/search?q=site:wabe.org+when:2d&hl=en-US&gl=US&ceid=US:en', tier: 3 },
+  { name: 'AJC', url: 'https://news.google.com/rss/search?q=site:ajc.com+atlanta+when:2d&hl=en-US&gl=US&ceid=US:en', tier: 3 },
+  { name: 'Axios Atlanta', url: 'https://news.google.com/rss/search?q=site:axios.com/local/atlanta+when:2d&hl=en-US&gl=US&ceid=US:en', tier: 3 },
 ];
 
 function extractImageFromItem(item) {

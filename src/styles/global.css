@@ -143,7 +143,7 @@ img {
 .site-name .amp {
   color: var(--color-red);
   font-style: italic;
-  margin: 0 0.08em;
+  margin: 0 0.02em 0 0.12em;
 }
 
 .header-right {
@@ -479,6 +479,45 @@ img {
 .article-original-link:hover {
   color: #fff;
   background: var(--color-red-deep);
+}
+
+.article-sources {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.article-sources-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-text-soft);
+}
+
+.article-sources-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.article-source-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-target);
+  padding: 0.7rem 1.15rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-line-strong);
+  background: rgba(255, 253, 248, 0.85);
+  color: var(--color-ink);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.article-source-link:hover {
+  color: #fff;
+  background: var(--color-blue);
+  border-color: var(--color-blue);
 }
 
 /* Prose: rich content from markdown */

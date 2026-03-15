@@ -116,9 +116,22 @@ const bodyParagraphs = story.body.split('\n\n').filter((p: string) => p.trim());
     }).join('\n')} />
 
     <div class="article-footer">
-      <a href={story.sourceUrl} class="article-original-link" target="_blank" rel="noopener noreferrer">
-        Read original at {story.source} &rarr;
-      </a>
+      {story.sources && story.sources.length > 1 ? (
+        <div class="article-sources">
+          <span class="article-sources-label">Reported by {story.sources.length} sources</span>
+          <div class="article-sources-list">
+            {story.sources.map((s) => (
+              <a href={s.url} class="article-source-link" target="_blank" rel="noopener noreferrer">
+                {s.name} ›
+              </a>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <a href={story.sourceUrl} class="article-original-link" target="_blank" rel="noopener noreferrer">
+          Read original at {story.source} ›
+        </a>
+      )}
     </div>
 
     {relatedStories.length > 0 && (
