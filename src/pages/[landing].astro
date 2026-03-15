@@ -2,7 +2,8 @@
 import Base from '../layouts/Base.astro';
 import StoryCard from '../components/StoryCard.astro';
 import Sidebar from '../components/Sidebar.astro';
-import { getDigest, getAllStories, formatDate, SITE_URL, SITE_NAME } from '../lib/helpers';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { getDigest, getAllStories, formatDate, SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../lib/helpers';
 import landingData from '../data/landing-pages.json';
 
 export function getStaticPaths() {
@@ -31,6 +32,11 @@ if (page.filterType === 'all') {
   );
 }
 
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: SITE_URL },
+  { name: page.title, url: `${SITE_URL}/${page.slug}` },
+]);
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
@@ -55,11 +61,17 @@ const jsonLd = {
 ---
 
 <Base
-  title={`${page.title} | ${SITE_NAME}`}
+  title={page.title}
   description={page.description}
   jsonLd={jsonLd}
+  breadcrumbSchema={breadcrumbSchema}
 >
   <div class="page-container">
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: page.title },
+    ]} />
+
     <div class="landing-header">
       <h1 class="landing-title">{page.h1}</h1>
       <p class="landing-description">{page.description}</p>

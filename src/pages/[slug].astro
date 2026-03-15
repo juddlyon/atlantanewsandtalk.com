@@ -72,8 +72,15 @@ const bodyParagraphs = story.body.split('\n\n').filter((p: string) => p.trim());
     tags: story.keywords,
   }}
   jsonLd={articleJsonLd}
+  breadcrumbSchema={breadcrumbSchema}
 >
   <article class="article-page">
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: story.neighborhood, href: `/neighborhoods/${story.neighborhood.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}` },
+      { label: story.headline },
+    ]} />
+
     {story.imageUrl ? (
       <img
         src={story.imageUrl}

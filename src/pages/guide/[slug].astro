@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { slugify, SITE_URL } from '../../lib/helpers';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { slugify, SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../../lib/helpers';
 import guidesData from '../../data/guides.json';
 
 export function getStaticPaths() {
@@ -24,7 +25,7 @@ const jsonLd = {
   "url": `${SITE_URL}/guide/${guide.slug}`,
   "publisher": {
     "@type": "Organization",
-    "name": "atlanta news & talk",
+    "name": SITE_NAME,
     "url": SITE_URL
   },
   "mainEntityOfPage": {
@@ -32,21 +33,26 @@ const jsonLd = {
     "@id": `${SITE_URL}/guide/${guide.slug}`
   }
 };
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: SITE_URL },
+  { name: 'Guides', url: `${SITE_URL}/guide` },
+  { name: guide.title, url: `${SITE_URL}/guide/${guide.slug}` },
+]);
 ---
 
 <Base
   title={guide.seoTitle}
   description={guide.seoDescription}
   jsonLd={jsonLd}
+  breadcrumbSchema={breadcrumbSchema}
 >
   <article class="guide-page">
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <ol>
-        <li><a href="/">Home</a></li>
-        <li><a href="/guide">Guides</a></li>
-        <li aria-current="page">{guide.title}</li>
-      </ol>
-    </nav>
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'Guides', href: '/guide' },
+      { label: guide.title },
+    ]} />
 
     <header class="guide-header">
       <h1 class="guide-h1">{guide.h1}</h1>
