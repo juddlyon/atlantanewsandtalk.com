@@ -19,9 +19,10 @@ const sections = digest.sections.map((section) => ({
 <Base>
   <div class="page-container">
     <div class="digest-header">
+      <div class="digest-label">today's briefing</div>
       <div class="digest-date">{formatDate(digest.date)}</div>
       <p class="digest-summary">{digest.summary}</p>
-      <div class="digest-date">{digest.sections.length} sections · {totalStories} stories across Atlanta</div>
+      <div class="digest-meta">{totalStories} stories · {digest.sections.length} sections</div>
     </div>
 
     <Hero story={topStory} />
