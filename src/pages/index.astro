@@ -16,7 +16,11 @@ const sections = digest.sections.map((section) => ({
 })).filter((section) => section.stories.length > 0);
 ---
 
-<Base>
+<Base
+  title="Atlanta News Today | Daily ITP Neighborhood Briefing"
+  description={`${formatDate(digest.date)}: ${digest.summary}`}
+  ogImage={topStory.imageUrl || undefined}
+>
   <div class="page-container">
     <div class="digest-header">
       <div class="digest-label">today's briefing</div>
