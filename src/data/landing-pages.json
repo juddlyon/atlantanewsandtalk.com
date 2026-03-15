@@ -5,7 +5,12 @@
       "title": "Atlanta News Today",
       "h1": "Atlanta News Today",
       "description": "Today's top Atlanta news stories from Inside The Perimeter neighborhoods. Updated daily with local development, transit, food, and community coverage.",
-      "keywords": ["atlanta news", "atlanta news today", "atlanta local news", "atlanta breaking news"],
+      "keywords": [
+        "atlanta news",
+        "atlanta news today",
+        "atlanta local news",
+        "atlanta breaking news"
+      ],
       "filterType": "all"
     },
     {
@@ -13,171 +18,328 @@
       "title": "Things to Do in Atlanta",
       "h1": "Things to Do in Atlanta",
       "description": "What's happening in Atlanta this week. Events, restaurant openings, festivals, art shows, and community happenings across ITP neighborhoods.",
-      "keywords": ["things to do in atlanta", "things to do atlanta", "atlanta events", "what to do in atlanta"],
+      "keywords": [
+        "things to do in atlanta",
+        "things to do atlanta",
+        "atlanta events",
+        "what to do in atlanta"
+      ],
       "filterType": "categories",
-      "categories": ["Food & Drink", "Arts & Culture", "Community"]
+      "categories": [
+        "Food & Drink",
+        "Arts & Culture",
+        "Community"
+      ]
     },
     {
       "slug": "atlanta-beltline-news",
       "title": "Atlanta BeltLine News",
       "h1": "Atlanta BeltLine News & Updates",
       "description": "Latest news and developments along the Atlanta BeltLine. Coverage of construction, new businesses, housing, and community events on the trail.",
-      "keywords": ["atlanta beltline", "beltline atlanta", "atlanta beltline news", "beltline restaurants"],
+      "keywords": [
+        "atlanta beltline",
+        "beltline atlanta",
+        "atlanta beltline news",
+        "beltline restaurants"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["Old Fourth Ward", "Inman Park", "Reynoldstown", "Grant Park", "Summerhill", "Cabbagetown", "Poncey-Highland"]
+      "neighborhoods": [
+        "Old Fourth Ward",
+        "Inman Park",
+        "Reynoldstown",
+        "Grant Park",
+        "Summerhill",
+        "Cabbagetown",
+        "Poncey-Highland"
+      ]
     },
     {
       "slug": "atlanta-development-news",
       "title": "Atlanta Development News",
       "h1": "Atlanta Development & Construction News",
       "description": "New construction, zoning changes, and real estate development across Atlanta's ITP neighborhoods. Track what's being built in your neighborhood.",
-      "keywords": ["atlanta development", "atlanta construction", "atlanta real estate news", "atlanta zoning"],
+      "keywords": [
+        "atlanta development",
+        "atlanta construction",
+        "atlanta real estate news",
+        "atlanta zoning"
+      ],
       "filterType": "categories",
-      "categories": ["Development & Housing"]
+      "categories": [
+        "Development & Housing"
+      ]
     },
     {
       "slug": "atlanta-restaurants-news",
       "title": "Atlanta Restaurant News",
       "h1": "Atlanta Restaurant & Food News",
       "description": "New restaurant openings, closings, and food news across Atlanta's neighborhoods. From Krog Street Market to Ponce City Market and beyond.",
-      "keywords": ["atlanta restaurants", "best restaurants atlanta", "new restaurants atlanta", "atlanta food news"],
+      "keywords": [
+        "atlanta restaurants",
+        "best restaurants atlanta",
+        "new restaurants atlanta",
+        "atlanta food news"
+      ],
       "filterType": "categories",
-      "categories": ["Food & Drink"]
+      "categories": [
+        "Food & Drink"
+      ]
     },
     {
       "slug": "midtown-atlanta-news",
       "title": "Midtown Atlanta News",
       "h1": "Midtown Atlanta News & Updates",
       "description": "Latest news from Midtown Atlanta including development, restaurants, events, transit, and community updates.",
-      "keywords": ["midtown atlanta", "midtown atlanta news", "midtown atlanta restaurants", "midtown atlanta events"],
+      "keywords": [
+        "midtown atlanta",
+        "midtown atlanta news",
+        "midtown atlanta restaurants",
+        "midtown atlanta events"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["Midtown"]
+      "neighborhoods": [
+        "Midtown"
+      ]
     },
     {
       "slug": "old-fourth-ward-news",
       "title": "Old Fourth Ward Atlanta News",
       "h1": "Old Fourth Ward News & Updates",
-      "description": "Hyperlocal news from Old Fourth Ward — BeltLine development, restaurant openings, Ponce City Market updates, and neighborhood events.",
-      "keywords": ["old fourth ward", "o4w atlanta", "old fourth ward news", "ponce city market news"],
+      "description": "Hyperlocal news from Old Fourth Ward \u2014 BeltLine development, restaurant openings, Ponce City Market updates, and neighborhood events.",
+      "keywords": [
+        "old fourth ward",
+        "o4w atlanta",
+        "old fourth ward news",
+        "ponce city market news"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["Old Fourth Ward"]
+      "neighborhoods": [
+        "Old Fourth Ward"
+      ]
     },
     {
       "slug": "grant-park-atlanta-news",
       "title": "Grant Park Atlanta News",
       "h1": "Grant Park News & Updates",
-      "description": "Latest news from Grant Park Atlanta — neighborhood development, Zoo Atlanta updates, community events, and local business happenings.",
-      "keywords": ["grant park atlanta", "grant park news", "grant park atlanta events", "zoo atlanta news"],
+      "description": "Latest news from Grant Park Atlanta \u2014 neighborhood development, Zoo Atlanta updates, community events, and local business happenings.",
+      "keywords": [
+        "grant park atlanta",
+        "grant park news",
+        "grant park atlanta events",
+        "zoo atlanta news"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["Grant Park"]
+      "neighborhoods": [
+        "Grant Park"
+      ]
     },
     {
       "slug": "inman-park-news",
       "title": "Inman Park Atlanta News",
       "h1": "Inman Park News & Updates",
-      "description": "News from Inman Park Atlanta — Krog Street Market, BeltLine updates, restaurant openings, the Inman Park Festival, and neighborhood development.",
-      "keywords": ["inman park atlanta", "inman park news", "krog street market", "inman park festival"],
+      "description": "News from Inman Park Atlanta \u2014 Krog Street Market, BeltLine updates, restaurant openings, the Inman Park Festival, and neighborhood development.",
+      "keywords": [
+        "inman park atlanta",
+        "inman park news",
+        "krog street market",
+        "inman park festival"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["Inman Park"]
+      "neighborhoods": [
+        "Inman Park"
+      ]
     },
     {
       "slug": "east-atlanta-village-news",
       "title": "East Atlanta Village News",
       "h1": "East Atlanta Village News & Updates",
-      "description": "Hyperlocal news from East Atlanta Village — new businesses, music venues, the East Atlanta Strut, and community happenings.",
-      "keywords": ["east atlanta village", "east atlanta news", "east atlanta village restaurants", "east atlanta strut"],
+      "description": "Hyperlocal news from East Atlanta Village \u2014 new businesses, music venues, the East Atlanta Strut, and community happenings.",
+      "keywords": [
+        "east atlanta village",
+        "east atlanta news",
+        "east atlanta village restaurants",
+        "east atlanta strut"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["East Atlanta Village", "East Atlanta"]
+      "neighborhoods": [
+        "East Atlanta Village",
+        "East Atlanta"
+      ]
     },
     {
       "slug": "downtown-atlanta-news",
       "title": "Downtown Atlanta News",
       "h1": "Downtown Atlanta News & Updates",
-      "description": "Latest news from Downtown Atlanta — development, events, safety updates, and what's happening in the city center.",
-      "keywords": ["downtown atlanta", "downtown atlanta news", "downtown atlanta events", "underground atlanta"],
+      "description": "Latest news from Downtown Atlanta \u2014 development, events, safety updates, and what's happening in the city center.",
+      "keywords": [
+        "downtown atlanta",
+        "downtown atlanta news",
+        "downtown atlanta events",
+        "underground atlanta"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["Downtown", "Castleberry Hill", "Sweet Auburn"]
+      "neighborhoods": [
+        "Downtown",
+        "Castleberry Hill",
+        "Sweet Auburn"
+      ]
     },
     {
       "slug": "buckhead-atlanta-news",
       "title": "Buckhead Atlanta News",
       "h1": "Buckhead News & Updates",
-      "description": "News from Buckhead Atlanta — real estate, restaurants, retail, and community updates from Atlanta's uptown neighborhood.",
-      "keywords": ["buckhead atlanta", "buckhead news", "buckhead atlanta restaurants", "buckhead atlanta apartments"],
+      "description": "News from Buckhead Atlanta \u2014 real estate, restaurants, retail, and community updates from Atlanta's uptown neighborhood.",
+      "keywords": [
+        "buckhead atlanta",
+        "buckhead news",
+        "buckhead atlanta restaurants",
+        "buckhead atlanta apartments"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["Buckhead"]
+      "neighborhoods": [
+        "Buckhead"
+      ]
     },
     {
       "slug": "atlanta-events-this-weekend",
       "title": "Atlanta Events This Weekend",
       "h1": "Atlanta Events This Weekend",
       "description": "What's happening in Atlanta this weekend. Festivals, concerts, markets, art shows, and community events across ITP neighborhoods.",
-      "keywords": ["atlanta events this weekend", "events in atlanta this weekend", "things to do in atlanta this weekend"],
+      "keywords": [
+        "atlanta events this weekend",
+        "events in atlanta this weekend",
+        "things to do in atlanta this weekend"
+      ],
       "filterType": "categories",
-      "categories": ["Arts & Culture", "Community"]
+      "categories": [
+        "Arts & Culture",
+        "Community"
+      ]
     },
     {
       "slug": "virginia-highland-news",
       "title": "Virginia-Highland Atlanta News",
       "h1": "Virginia-Highland News & Updates",
-      "description": "Latest news from Virginia-Highland — restaurants, shops, neighborhood development, and Summerfest updates.",
-      "keywords": ["virginia highland atlanta", "virginia highlands atlanta", "virginia highland restaurants"],
+      "description": "Latest news from Virginia-Highland \u2014 restaurants, shops, neighborhood development, and Summerfest updates.",
+      "keywords": [
+        "virginia highland atlanta",
+        "virginia highlands atlanta",
+        "virginia highland restaurants"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["Virginia-Highland"]
+      "neighborhoods": [
+        "Virginia-Highland"
+      ]
     },
     {
       "slug": "decatur-news",
       "title": "Decatur Georgia News",
       "h1": "Decatur News & Updates",
-      "description": "Hyperlocal news from Decatur, Georgia — city government, restaurants, Decatur Square events, school news, and community updates.",
-      "keywords": ["decatur georgia", "decatur ga news", "decatur atlanta", "decatur square"],
+      "description": "Hyperlocal news from Decatur, Georgia \u2014 city government, restaurants, Decatur Square events, school news, and community updates.",
+      "keywords": [
+        "decatur georgia",
+        "decatur ga news",
+        "decatur atlanta",
+        "decatur square"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["Decatur"]
+      "neighborhoods": [
+        "Decatur"
+      ]
     },
     {
       "slug": "atlanta-transit-news",
       "title": "Atlanta Transit & MARTA News",
       "h1": "Atlanta Transit & MARTA News",
       "description": "MARTA updates, BeltLine transit, bike lanes, and transportation news for Atlanta's ITP neighborhoods.",
-      "keywords": ["marta atlanta", "atlanta transit", "atlanta traffic", "atlanta bike lanes"],
+      "keywords": [
+        "marta atlanta",
+        "atlanta transit",
+        "atlanta traffic",
+        "atlanta bike lanes"
+      ],
       "filterType": "categories",
-      "categories": ["Transit & Infrastructure"]
+      "categories": [
+        "Transit & Infrastructure"
+      ]
     },
     {
       "slug": "kirkwood-atlanta-news",
       "title": "Kirkwood Atlanta News",
       "h1": "Kirkwood News & Updates",
-      "description": "News from Kirkwood Atlanta — neighborhood development, community events, local businesses, and what's happening in this growing eastside neighborhood.",
-      "keywords": ["kirkwood atlanta", "kirkwood news", "kirkwood neighborhood"],
+      "description": "News from Kirkwood Atlanta \u2014 neighborhood development, community events, local businesses, and what's happening in this growing eastside neighborhood.",
+      "keywords": [
+        "kirkwood atlanta",
+        "kirkwood news",
+        "kirkwood neighborhood"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["Kirkwood"]
+      "neighborhoods": [
+        "Kirkwood"
+      ]
     },
     {
       "slug": "reynoldstown-atlanta-news",
       "title": "Reynoldstown Atlanta News",
       "h1": "Reynoldstown News & Updates",
-      "description": "Hyperlocal news from Reynoldstown — BeltLine development, new businesses, community events, and neighborhood updates.",
-      "keywords": ["reynoldstown atlanta", "reynoldstown news", "reynoldstown beltline"],
+      "description": "Hyperlocal news from Reynoldstown \u2014 BeltLine development, new businesses, community events, and neighborhood updates.",
+      "keywords": [
+        "reynoldstown atlanta",
+        "reynoldstown news",
+        "reynoldstown beltline"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["Reynoldstown"]
+      "neighborhoods": [
+        "Reynoldstown"
+      ]
     },
     {
       "slug": "west-midtown-atlanta-news",
       "title": "West Midtown Atlanta News",
       "h1": "West Midtown News & Updates",
-      "description": "News from West Midtown Atlanta — Westside Provisions, restaurant openings, art galleries, and development updates.",
-      "keywords": ["west midtown atlanta", "west midtown restaurants", "westside provisions"],
+      "description": "News from West Midtown Atlanta \u2014 Westside Provisions, restaurant openings, art galleries, and development updates.",
+      "keywords": [
+        "west midtown atlanta",
+        "west midtown restaurants",
+        "westside provisions"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["West Midtown", "Westside"]
+      "neighborhoods": [
+        "West Midtown",
+        "Westside"
+      ]
     },
     {
       "slug": "summerhill-atlanta-news",
       "title": "Summerhill Atlanta News",
       "h1": "Summerhill News & Updates",
-      "description": "News from Summerhill Atlanta — one of the city's fastest-growing neighborhoods. Development, new businesses, Georgia State area updates.",
-      "keywords": ["summerhill atlanta", "summerhill news", "summerhill development"],
+      "description": "News from Summerhill Atlanta \u2014 one of the city's fastest-growing neighborhoods. Development, new businesses, Georgia State area updates.",
+      "keywords": [
+        "summerhill atlanta",
+        "summerhill news",
+        "summerhill development"
+      ],
       "filterType": "neighborhoods",
-      "neighborhoods": ["Summerhill"]
+      "neighborhoods": [
+        "Summerhill"
+      ]
+    },
+    {
+      "slug": "fifa-world-cup-atlanta-2026",
+      "title": "FIFA World Cup Atlanta 2026",
+      "h1": "FIFA World Cup Atlanta 2026",
+      "description": "Everything Atlanta locals need to know about the 2026 FIFA World Cup. Matches at Mercedes-Benz Stadium, transit plans, watch parties, road closures, and neighborhood impact.",
+      "keywords": [
+        "fifa world cup atlanta",
+        "world cup atlanta 2026",
+        "world cup atlanta",
+        "fifa 2026 atlanta"
+      ],
+      "filterType": "categories",
+      "categories": [
+        "Community",
+        "Transit & Infrastructure"
+      ]
     }
   ]
 }
