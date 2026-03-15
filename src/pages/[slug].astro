@@ -109,7 +109,7 @@ const bodyParagraphs = story.body.split('\n\n').filter((p: string) => p.trim());
 
     <div class="article-body" set:html={story.body.split('\n\n').map((p: string) => {
       // If paragraph is already wrapped in a block element, pass through
-      if (p.trim().startsWith('<blockquote') || p.trim().startsWith('<ul') || p.trim().startsWith('<ol') || p.trim().startsWith('<table')) {
+      if (p.trim().startsWith('<blockquote') || p.trim().startsWith('<ul') || p.trim().startsWith('<ol') || p.trim().startsWith('<table') || p.trim().startsWith('<figure') || p.trim().startsWith('<img') || p.trim().startsWith('<div')) {
         return p;
       }
       return `<p>${p}</p>`;
