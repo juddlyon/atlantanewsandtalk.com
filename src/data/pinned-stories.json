@@ -13,8 +13,8 @@
       { "name": "The Row 900", "url": "https://therow900.com" },
       { "name": "Bobbie Spiller, Keller Knapp", "url": "https://bobbiespiller.com/the-row-900" }
     ],
-    "imageUrl": null,
-    "imageAlt": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Summerhill%2C_Atlanta%2C_GA%2C_USA_-_panoramio_%281%29.jpg/1200px-Summerhill%2C_Atlanta%2C_GA%2C_USA_-_panoramio_%281%29.jpg",
+    "imageAlt": "Summerhill neighborhood in Atlanta near The Row 900 development site",
     "publishedAt": "2026-02-27T12:00:00.000Z",
     "keywords": ["peoplestown", "the row 900", "atlanta new construction", "hank aaron drive", "marta rapid a-line", "southside"],
     "pinned": true
