@@ -142,8 +142,11 @@ img {
 
 .site-name .amp {
   color: var(--color-red);
+  font-family: Georgia, 'Times New Roman', serif;
   font-style: italic;
-  padding: 0 0.06em 0 0.15em;
+  font-weight: normal;
+  font-size: 1.05em;
+  padding: 0 0.04em;
 }
 
 .header-right {
