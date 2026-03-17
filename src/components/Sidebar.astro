@@ -53,6 +53,22 @@ const trending = allStories.slice(0, 5);
     </ol>
   </div>
 
+  <div class="sidebar-box sidebar-spotlight">
+    <h3 class="box-title">Spotlight</h3>
+    <div class="spotlight-items">
+      <a href="/guide/fifa-world-cup-atlanta-2026" class="spotlight-card">
+        <span class="spotlight-label">Guide</span>
+        <span class="spotlight-hed">FIFA World Cup Atlanta 2026</span>
+        <span class="spotlight-sub">Match schedule, MARTA plans, watch parties, neighborhood impact</span>
+      </a>
+      <a href="/the-row-900-peoplestown" class="spotlight-card">
+        <span class="spotlight-label">Peoplestown</span>
+        <span class="spotlight-hed">The Row 900 Breaks Ground</span>
+        <span class="spotlight-sub">16-home development on Hank Aaron Drive</span>
+      </a>
+    </div>
+  </div>
+
   <div class="sidebar-box">
     <h3 class="box-title">How it works</h3>
     <p class="about-text">
@@ -204,6 +220,61 @@ const trending = allStories.slice(0, 5);
 
   .box-more:hover {
     color: #fff;
+  }
+
+  .sidebar-spotlight {
+    background:
+      linear-gradient(145deg, rgba(206, 17, 65, 0.06), transparent 60%),
+      rgba(255, 253, 248, 0.92);
+    border-color: rgba(206, 17, 65, 0.18);
+  }
+
+  .spotlight-items {
+    display: grid;
+    gap: 0.7rem;
+  }
+
+  .spotlight-card {
+    display: block;
+    padding: 0.7rem 0.8rem;
+    border-radius: 6px;
+    background: rgba(19, 39, 79, 0.04);
+    border: 1px solid rgba(19, 39, 79, 0.08);
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  .spotlight-card:hover {
+    border-color: var(--color-red);
+    background: rgba(206, 17, 65, 0.04);
+  }
+
+  .spotlight-label {
+    display: inline-block;
+    margin-bottom: 0.3rem;
+    font-family: var(--font-mono);
+    font-size: 0.58rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-red);
+  }
+
+  .spotlight-hed {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--color-ink);
+  }
+
+  .spotlight-sub {
+    display: block;
+    margin-top: 0.2rem;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    color: var(--color-text-soft);
   }
 
   .trending {
