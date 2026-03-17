@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://atlantanewsandtalk.com/sitemap-index.xml
+Sitemap: https://atlantanewsandtalk.com/news-sitemap.xml
