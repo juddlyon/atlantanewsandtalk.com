@@ -167,7 +167,7 @@ export function getNeighborhoodData(): Record<string, { storyCount: number; topS
 export function formatDate(dateStr: string): string {
   const d = new Date(dateStr + 'T12:00:00');
   return d.toLocaleDateString('en-US', {
-    weekday: 'long',
+    weekday: 'short',
     year: 'numeric',
     month: 'long',
     day: 'numeric',

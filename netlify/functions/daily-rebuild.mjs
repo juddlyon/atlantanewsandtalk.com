@@ -17,5 +17,5 @@ export default async function handler() {
 }
 
 export const config = {
-  schedule: '0 11 * * *', // 7am ET (11:00 UTC)
+  schedule: '0 9 * * *', // 5am EDT / 4am EST (09:00 UTC)
 };

@@ -1,118 +1,130 @@
 {
-  "date": "2026-03-31",
-  "generatedAt": "2026-03-31T20:30:00.000Z",
-  "summary": "Midtown International School abruptly closes with just days' notice, two Atlanta restaurants earn James Beard Award finalist nods, and Trans Day of Visibility brings a summit to City Hall. Plus: Tyler Perry's TSA gift cards get the green light, 404 Day events kick off this week, and the Braves shut out the A's 4-0.",
+  "date": "2026-03-15",
+  "generatedAt": "2026-03-15T15:10:04.164Z",
+  "summary": "Grant Park's Beacon is struggling with vacancy issues along the Beltline, while the Westside community organizes against a massive proposed homeless shelter near the new Beltline section. Plus, Atlanta's getting ready for World Cup festivities at Centennial Olympic Park.",
   "topStory": {
-    "id": "midtown-international-school-closure",
-    "headline": "Midtown International School Closes Abruptly, Stunning Families",
-    "summary": "The Druid Hills private school for gifted and exceptional students announced it will shut its doors on April 3, leaving families scrambling just weeks before the end of the school year.",
-    "body": "Midtown International School dropped a bombshell on parents this week: the school will close Friday, April 3, after what the board called an \"extensive review of the school's financial and enrollment position.\"\n\nThe K-12 private school, founded in 2013 and located in Druid Hills, serves gifted and exceptional students. Three board members signed the closure letter, citing a 20-30% drop in applications across independent schools this year and \"pressures of the current economic environment.\"\n\nParents are understandably scrambling. With about eight weeks left in the academic year, families are trying to figure out how students can finish coursework, earn credit, or graduate. Fourth and fifth grade parents are exploring whether they can rent space and bring teachers along to finish out the year.\n\n\"The fourth grade parents are trying to rally together and figure out if there is a way with liability, credibility... if we can find a space,\" one parent said. For families who had younger children planning to enroll in fall, the closure means starting from scratch on school searches.",
-    "neighborhood": "Druid Hills",
-    "neighborhoods": ["Druid Hills", "Decatur"],
-    "source": "Rough Draft Atlanta",
-    "sourceUrl": "https://roughdraftatlanta.com/2026/03/31/midtown-international-school-closure/",
-    "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/MIS-600x349.png",
-    "imageAlt": "Midtown International School building in Druid Hills",
-    "publishedAt": "2026-03-31",
-    "keywords": ["midtown international school", "private school", "druid hills", "school closure", "education"]
+    "id": "beacon-grant-park-vacancy-struggle",
+    "headline": "Grant Park's Beacon Loses Its Shine with Rising Vacancy",
+    "summary": "The trendy Beltline warehouse complex that thrived during COVID is now seeing major vacancy issues. A local resident estimates only 35% of retail space is occupied, a dramatic drop for what was once a weekend hotspot. The Beacon's struggles highlight broader challenges for Beltline developments as the novelty wears off and economic pressures mount.",
+    "body": "Remember when The Beacon felt like Atlanta's best-kept secret? You know, that warehouse complex right off the Southside Trail where you could grab a beer, browse local art, and pretend you were in some cooler version of Ponce City Market. Well, those days might be behind us.\n\nKirkwood resident Taylor Cross used to be a regular, but his recent visit was pretty sobering. He's estimating maybe 35% of the retail spaces are actually occupied now, which is a far cry from the bustling weekend scene The Beacon was known for just a couple years ago. During the pandemic, oddly enough, this place was thriving with artists, food vendors, and even a medical clinic all packed into this converted warehouse space with direct Beltline access.\n\nThis isn't just about one development struggling. The Beacon's vacancy issues reflect what's happening to a lot of these Beltline projects as the initial excitement wears off and economic realities set in. Rising rents, increased competition from newer developments, and changing consumer habits post-pandemic are all taking their toll. For Grant Park residents who saw The Beacon as a sign of positive neighborhood change, watching it empty out has to be pretty disappointing.",
+    "neighborhood": "Grant Park",
+    "neighborhoods": [
+      "Grant Park",
+      "Kirkwood"
+    ],
+    "source": "Urbanize Atlanta",
+    "sourceUrl": "https://atlanta.urbanize.city/post/the-beacon-grant-park-vacant-businesses-why-southside-beltline",
+    "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/The%20Beacon%208.jpg?itok=TymA1P2H",
+    "imageAlt": "Empty retail spaces at The Beacon warehouse complex in Grant Park",
+    "publishedAt": "2026-03-13T19:18:38.000Z",
+    "keywords": [
+      "Beltline",
+      "Grant Park",
+      "retail vacancy",
+      "Southside Trail",
+      "development"
+    ]
   },
   "sections": [
     {
       "category": "Development & Housing",
       "stories": [
         {
-          "id": "tower-piedmont-buckhead-sale",
-          "headline": "Pioneering Buckhead High-Rise Sells, Upgrades Planned",
-          "summary": "The Tower on Piedmont, a 20-story luxury apartment building that set the bar for rental living when it opened in 2009, has sold to TruAmerica Multifamily. Renovations are planned for the 155-unit property near Peachtree and Piedmont roads.",
-          "body": "A Peachtree Road high-rise that defined luxury rental living in Atlanta when it debuted in 2009 has changed hands for a second time.\n\nLos Angeles-based TruAmerica Multifamily has acquired The Tower on Piedmont (formerly the 05 Buckhead tower) at 3242 Peachtree Road NW in central Buckhead. The 20-story building counts 155 apartments, and the purchase price wasn't disclosed.\n\nTruAmerica officials say the acquisition continues a strategy of adding well-located apartment properties where demand for rental housing outpaces supply. The Buckhead purchase grows TruAmerica's Atlanta portfolio to roughly 3,000 units owned and managed.\n\nCoro Realty originally developed the building as the first residential component of Buckhead Place, a mixed-use district spanning about 12 acres. Unique aspects at the time included two-story penthouses, rooftop amenity decks, and a \"white glove, ultra-luxury\" approach. Upgrades are planned under the new ownership.",
-          "neighborhood": "Buckhead",
-          "neighborhoods": ["Buckhead"],
+          "id": "beacon-grant-park-vacancy-struggle",
+          "headline": "Grant Park's Beacon Loses Its Shine with Rising Vacancy",
+          "summary": "The trendy Beltline warehouse complex that thrived during COVID is now seeing major vacancy issues. A local resident estimates only 35% of retail space is occupied, a dramatic drop for what was once a weekend hotspot. The Beacon's struggles highlight broader challenges for Beltline developments as the novelty wears off and economic pressures mount.",
+          "body": "Remember when The Beacon felt like Atlanta's best-kept secret? You know, that warehouse complex right off the Southside Trail where you could grab a beer, browse local art, and pretend you were in some cooler version of Ponce City Market. Well, those days might be behind us.\n\nKirkwood resident Taylor Cross used to be a regular, but his recent visit was pretty sobering. He's estimating maybe 35% of the retail spaces are actually occupied now, which is a far cry from the bustling weekend scene The Beacon was known for just a couple years ago. During the pandemic, oddly enough, this place was thriving with artists, food vendors, and even a medical clinic all packed into this converted warehouse space with direct Beltline access.\n\nThis isn't just about one development struggling. The Beacon's vacancy issues reflect what's happening to a lot of these Beltline projects as the initial excitement wears off and economic realities set in. Rising rents, increased competition from newer developments, and changing consumer habits post-pandemic are all taking their toll. For Grant Park residents who saw The Beacon as a sign of positive neighborhood change, watching it empty out has to be pretty disappointing.",
+          "neighborhood": "Grant Park",
+          "neighborhoods": [
+            "Grant Park",
+            "Kirkwood"
+          ],
           "source": "Urbanize Atlanta",
-          "sourceUrl": "https://atlanta.urbanize.city/post/buckhead-peachtree-road-tower-sells-upgrades-planned-images",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/3242%20Peachtree%20Road%20Tower%20on%20Piedmont%201.png?itok=wDotz62f",
-          "imageAlt": "The Tower on Piedmont luxury apartment building in Buckhead",
-          "publishedAt": "2026-03-31",
-          "keywords": ["buckhead", "apartments", "real estate", "tower on piedmont", "truamerica"]
+          "sourceUrl": "https://atlanta.urbanize.city/post/the-beacon-grant-park-vacant-businesses-why-southside-beltline",
+          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/The%20Beacon%208.jpg?itok=TymA1P2H",
+          "imageAlt": "Empty retail spaces at The Beacon warehouse complex in Grant Park",
+          "publishedAt": "2026-03-13T19:18:38.000Z",
+          "keywords": [
+            "Beltline",
+            "Grant Park",
+            "retail vacancy",
+            "Southside Trail",
+            "development"
+          ]
         },
         {
-          "id": "constitution-building-world-cup-prep",
-          "headline": "Constitution Building Revival Nears Phase One Completion for World Cup",
-          "summary": "The long-vacant Atlanta Constitution Building is getting a facelift ahead of the FIFA World Cup. Vinyl wraps and murals will dress up the downtown landmark while larger renovation plans continue.",
-          "body": "With Atlanta's first 2026 FIFA World Cup match just 76 days away, the long-vacant Atlanta Constitution Building is finally seeing action.\n\nDevelopers Gorman & Company report that pre-World Cup phase one work has nearly finished at the iconic downtown structure at 143 Alabama St. The building's facade has been washed, metal panels covering windows have been removed and replaced with stained wood, and vinyl wraps are going up facing Forsyth Street. A mural project will line the bottom windows on Alabama Street.\n\nThe area behind the building, dubbed \"The Pitch,\" will be activated during World Cup matches beginning in mid-June. Plans call for food, entertainment, and watch party programming throughout the tournament.\n\nPost-World Cup, the adaptive-reuse project will continue with full renovation plans. The Constitution Building has been vacant for over a decade, and this transformation has been in the works for years.",
-          "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "id": "westside-shelter-opposition-beltline",
+          "headline": "Westside Residents Fight Massive Homeless Shelter Near Beltline",
+          "summary": "A grassroots group is organizing against Atlanta Mission's plan for a 900-bed shelter on land originally planned for the Stars Metals District development. The 'Westside for Economic Justice' meeting on March 26 reflects growing neighborhood opposition to the facility near the new Beltline section. Community leaders want City Council to reject the special use permit.",
+          "body": "The battle over what gets built on that massive Stars Metals District site is heating up, and it's not going the way the Westside community expected. Where developers once planned a mixed-use warehouse complex (think Ponce City Market vibes), Atlanta Mission now wants to build a 900-bed homeless shelter, and neighbors are not having it.\n\nA group called 'Westside for Economic Justice' has organized a community meeting for March 26, asking all City Council members to show up and hear their concerns. They're specifically calling on council to reject Atlanta Mission's special use permit request. You can understand why residents are frustrated - they were probably envisioning retail, restaurants, and maybe some loft apartments, not the city's largest homeless facility.\n\nThis whole situation highlights the ongoing tension in Atlanta between addressing the homelessness crisis and community development. Atlanta Mission argues their facility could help lift people up and ultimately benefit the surrounding neighborhoods, but residents worry about property values and safety. The fact that this is happening right along the new Beltline section makes it even more contentious, since everyone knows how much the trail drives development and gentrification.",
+          "neighborhood": "Westside",
+          "neighborhoods": [
+            "Westside"
+          ],
           "source": "Urbanize Atlanta",
-          "sourceUrl": "https://atlanta.urbanize.city/post/atl-constitution-building-world-cup-redevelopment-stands-now",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-02/after%20World%20Cup%20Atlanta%20Constitution%20Building%20Gorman.png?itok=LPEd9s0g",
-          "imageAlt": "Rendering of the Constitution Building renovation in downtown Atlanta",
-          "publishedAt": "2026-03-31",
-          "keywords": ["constitution building", "downtown", "world cup", "redevelopment", "gorman"]
+          "sourceUrl": "https://atlanta.urbanize.city/post/westside-homeless-shelter-beltline-opponents-want-economic-justice-massive-site",
+          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2024-11/1060%20Donald%20Lee%20Hollowell%20Ironside%20Allen%20Morris%201.png?itok=sqcCBxx5",
+          "imageAlt": "Rendering of proposed development site on the Westside near the Beltline",
+          "publishedAt": "2026-03-13T15:11:35.000Z",
+          "keywords": [
+            "Westside",
+            "homeless shelter",
+            "Beltline",
+            "community opposition",
+            "Atlanta Mission"
+          ]
         }
       ]
     },
     {
-      "category": "Food & Drink",
+      "category": "Transit & Infrastructure",
       "stories": [
         {
-          "id": "james-beard-award-finalists-atlanta",
-          "headline": "Two Atlanta Names Earn James Beard Award Finalist Nods",
-          "summary": "Mujō chef J. Trent Harris is nominated for Best Chef: Southeast, while wine bar Aria earns a nod for Outstanding Hospitality. Winners will be announced in June.",
-          "body": "The James Beard Foundation announced its official 2026 slate of nominees Tuesday, and two Atlanta names made the cut.\n\nJ. Trent Harris of lauded Midtown restaurant Mujō is nominated in the Best Chef: Southeast category. The restaurant has earned acclaim for its innovative approach to Southern cuisine with Japanese influences.\n\nAdditionally, wine-focused Aria, which was also a finalist last year, was recognized in the Outstanding Hospitality category. The Atlanta establishment continues to impress the foundation's voting body.\n\nThe news comes after eight Atlanta restaurants and bars were originally under consideration when the long list of semifinalists was revealed in January. The winners will be announced at a ceremony at the Lyric Opera of Chicago on Monday, June 15.\n\nConsidered one of the restaurant industry's most coveted awards, the James Beard honors span categories including Restaurant and Chef Awards, Media Awards, and Achievement Awards.",
-          "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown"],
-          "source": "Eater Atlanta",
-          "sourceUrl": "https://atlanta.eater.com/restaurant-news/87260/atlanta-2026-james-beard-award-restaurant-chef-nominees",
-          "imageUrl": "https://platform.atlanta.eater.com/wp-content/uploads/sites/14/2026/03/JamesBeard_A.png?quality=90&strip=all&crop=0,0,100,100",
-          "imageAlt": "James Beard Awards logo",
-          "publishedAt": "2026-03-31",
-          "keywords": ["james beard", "mujo", "aria", "midtown", "restaurant awards"]
-        },
-        {
-          "id": "fords-bbq-oakhurst-review",
-          "headline": "Ford's BBQ in Oakhurst: A Mix of Hits and Misses",
-          "summary": "The Decatur-area barbecue spot has huge smokers constantly billowing aromatic smoke. The results are uneven, but worth a stop for fans of wood-smoked meat.",
-          "body": "Ford's BBQ in Oakhurst has been on the radar for a while. You can't miss the huge pile of firewood next to the impressive metal smokers that seem to constantly billow plumes of aromatic smoke into the local air.\n\nThe results, according to a recent Decaturish review, are a mixed bag. Some items shine while others fall short of the promise suggested by all that smoke production. But for barbecue enthusiasts in the Decatur area, it's worth a visit to see what's working and what needs more time in the pit.\n\nOakhurst, the Decatur neighborhood where Ford's is located, has become a solid dining destination with options ranging from Southern comfort to international flavors. Adding a dedicated barbecue spot to the mix gives residents another reason to stay local for dinner.",
-          "neighborhood": "Decatur",
-          "neighborhoods": ["Decatur"],
-          "source": "Decaturish",
-          "sourceUrl": "https://www.decaturish.com/news/dekalb/ford-s-bbq-in-oakhurst-is-a-mix-of-hits-and-misses/article_fc25e836-1752-404c-8caa-61b985e89af2.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/e/36/e3614cf8-a894-45d0-b9ca-73b5c18abaf2/69cbdeabd9d27.image.jpg?resize=300%2C225",
-          "imageAlt": "Ford's BBQ restaurant in Oakhurst near Decatur",
-          "publishedAt": "2026-03-31",
-          "keywords": ["fords bbq", "oakhurst", "decatur", "barbecue", "restaurant review"]
-        }
-      ]
-    },
-    {
-      "category": "Arts & Culture",
-      "stories": [
-        {
-          "id": "trans-day-visibility-atlanta-summit",
-          "headline": "Trans Day of Visibility Summit Comes to Atlanta City Hall",
-          "summary": "SnapCo hosts \"Deeper Than Visibility\" at City Hall on March 31, centering Black trans survival and joy while releasing a new digital guide for community messaging.",
-          "body": "As Trans Day of Visibility arrives, the Solutions NOT Punishment Collaborative (SnapCo) is hosting its \"Deeper Than Visibility Summit: Shift the Narrative and Gag the Right\" at Atlanta City Hall today.\n\nToni-Michelle Williams, co-founder and executive director of SnapCo, spoke about the challenges facing trans youth in Georgia. \"My message to young trans people is to get excited and stay excited to be alive right now,\" Williams told Capital B Atlanta. \"I just want to continue to encourage young people to stay alive and stay grounded and stay connected to the people that love them.\"\n\nSnapCo is also releasing \"How We Talk About Us,\" a new digital zine serving as a guide for community members navigating anti-trans narratives. The organization's work includes mutual aid, the Snap for Freedom School political education hub, and organizing efforts to keep trans people safe.\n\nWilliams, who turns 35 next week, reflected on her own journey from a suicide attempt at 14 to becoming a prominent advocate. The summit focuses on fighting anti-trans legislation while centering joy and survival.",
+          "id": "world-cup-atlanta-downtown-preparations",
+          "headline": "Atlanta's World Cup Plans Take Shape at Centennial Park",
+          "summary": "With 95 days until FIFA World Cup matches arrive, Atlanta officials unveiled details for the Fan Festival at Centennial Olympic Park. MARTA will launch its Better Breeze payment system in two weeks and increase service during matches. The airport's long-delayed South Terminal project will also finally open before the tournament.",
+          "body": "Okay, I'll admit it - when Atlanta got picked as a World Cup host city, I was skeptical about whether we'd actually be ready. But listening to the officials at Mercedes-Benz Stadium this week, they're sounding pretty confident with just over three months to go.\n\nThe big announcement is that Centennial Olympic Park is getting transformed into FIFA Fan Festival Atlanta, which sounds like it could either be amazing or a complete zoo depending on how well they manage it. Think live match broadcasts, food vendors, cultural programming, and probably thousands of people from around the world all crammed into downtown. MARTA's finally rolling out that Better Breeze payment system we've been hearing about forever, plus they're increasing service during matches.\n\nMaybe the most surprising news is that the airport's South Terminal expansion will actually open before the World Cup. If you've flown through Hartsfield lately, you know that construction has been going on forever, so having that extra capacity when the world's eyes are on Atlanta could be huge. The whole thing feels like one of those make-or-break moments for the city's reputation on the global stage.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
-          "source": "Capital B Atlanta",
-          "sourceUrl": "https://atlanta.capitalbnews.org/trans-day-of-visibility-atlanta/",
-          "imageUrl": "https://i0.wp.com/atlanta.capitalbnews.org/wp-content/uploads/2026/03/DSC_6927.jpg?fit=1024%2C684&ssl=1",
-          "imageAlt": "Trans Day of Visibility event at Atlanta City Hall",
-          "publishedAt": "2026-03-31",
-          "keywords": ["trans day of visibility", "snapco", "downtown", "lgbtq", "advocacy"]
+          "neighborhoods": [
+            "Downtown",
+            "Midtown"
+          ],
+          "source": "Atlanta Magazine",
+          "sourceUrl": "https://www.atlantamagazine.com/news-culture-articles/the-promises-atlanta-is-making-with-a-little-over-90-days-until-the-world-cup/",
+          "imageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/worldcup95days03_xstevens.jpg",
+          "imageAlt": "Atlanta World Cup officials speaking at Mercedes-Benz Stadium",
+          "publishedAt": "2026-03-14T02:55:10.000Z",
+          "keywords": [
+            "World Cup",
+            "Downtown",
+            "MARTA",
+            "Centennial Olympic Park",
+            "FIFA"
+          ]
         },
         {
-          "id": "jimmy-carter-superfan-atlanta-visit",
-          "headline": "5-Year-Old Jimmy Carter Superfan Gets VIP Tour of Carter Center",
-          "summary": "Ryan, whose Carter-themed birthday party went viral, surprised his family with an invitation to tour areas of the Carter Center not typically open to the public.",
-          "body": "A 5-year-old presidential history buff got a once-in-a-lifetime surprise during a spring break visit to The Carter Center in Atlanta.\n\nRyan, who went viral after his Jimmy Carter-themed fifth birthday party, traveled from New Jersey with his family expecting a regular tour. Instead, they were invited to meet members of the Carter family and explore areas not typically open to the public, including offices and living spaces used by Jimmy and Rosalynn Carter.\n\nDuring the visit, Ryan toured exhibits and saw a replica of the Oval Office desk, complete with carved initials. \"I am so excited. It's Jimmy Carter day,\" Ryan said.\n\nHis mother said Ryan hopes to follow in Carter's footsteps someday and has already participated in service work, including helping build a playhouse for Habitat for Humanity. The family continued their Atlanta trip with stops at a Braves game and the Georgia Aquarium.",
-          "neighborhood": "Druid Hills",
-          "neighborhoods": ["Druid Hills"],
-          "source": "GPB News",
-          "sourceUrl": "https://www.gpb.org/news/2026/03/31/5-year-old-presidential-fan-arrives-at-jimmy-carter-world",
-          "imageUrl": "https://www.gpb.org/sites/default/files/styles/three_two_702x468/public/2026-03/659096942_1353320363487155_5777039460156535720_n.jpg?h=f4761ccc&itok=VCPXHGyk",
-          "imageAlt": "Young fan Ryan at the Jimmy Carter Presidential Library and Museum",
-          "publishedAt": "2026-03-31",
-          "keywords": ["jimmy carter", "carter center", "druid hills", "viral", "presidential history"]
+          "id": "10th-street-hemphill-construction-closure",
+          "headline": "Emergency Water Work Shuts Down 10th and Hemphill for a Month",
+          "summary": "The intersection of 10th Street and Hemphill Avenue will be completely closed for about four weeks starting Monday while crews replace a large water valve. The work is part of the city's water distribution maintenance program and will run Monday through Saturday, 7 a.m. to 7 p.m. Drivers should expect detours throughout the area.",
+          "body": "Hope you don't regularly drive through the intersection at 10th and Hemphill, because it's about to become your least favorite part of town for the next month. The city's shutting down that entire intersection starting Monday for emergency water valve replacement, and they're saying it'll take about four weeks to complete.\n\nThis is all part of Atlanta's ongoing water distribution maintenance program, which honestly feels like it never ends. If you live in Home Park, Virginia-Highland, or Midtown and use that intersection to cut between different parts of town, you're going to need to find alternate routes. The work runs Monday through Saturday from 7 a.m. to 7 p.m., so at least you'll get some relief on Sundays and evenings.\n\nWhat's frustrating is that these 'emergency' infrastructure repairs keep popping up around the city, suggesting our water system is in worse shape than we'd like to admit. At least they're being proactive about fixing it before it becomes a major break that floods the street, but the timing never seems convenient for anyone who actually has to navigate these construction zones.",
+          "neighborhood": "Home Park",
+          "neighborhoods": [
+            "Home Park",
+            "Midtown",
+            "Virginia-Highland"
+          ],
+          "source": "WSB-TV",
+          "sourceUrl": "https://www.wsbtv.com/news/local/atlanta/emergency-construction-shut-down-busy-atlanta-street-several-weeks/XZQELXNGRRFXHJG4L7ZHM4DO7A/",
+          "imageUrl": "https://www.wsbtv.com/resizer/v2/PF64SMFZZVGWBDBMMFR2D2NPOI.jpg?auth=42d54236c2cd88fdb354accf84937d6b1008cb5cdbcf37f44d32c975adb21e4b&smart=true&width=1300&height=865",
+          "imageAlt": "Construction equipment at Atlanta street intersection",
+          "publishedAt": "2026-03-15T11:52:35.000Z",
+          "keywords": [
+            "infrastructure",
+            "water valve",
+            "construction",
+            "10th Street",
+            "traffic"
+          ]
         }
       ]
     },
@@ -120,32 +132,75 @@
       "category": "Politics & Policy",
       "stories": [
         {
-          "id": "georgia-legislature-final-days",
-          "headline": "Georgia Legislature Enters Final Days with Budget, Major Bills in Limbo",
-          "summary": "The $38 billion state budget remains unsettled as House and Senate wrangle over issues including literacy rates, ICE controls, and election changes.",
-          "body": "Georgia's legislative session enters its final days this week with significant work left undone. The $38 billion state budget for 2027, the only thing the General Assembly is constitutionally required to pass, remains caught in negotiations between the House and Senate.\n\nGovernor Brian Kemp says the process is normal. \"You normally don't pass the budget until the last day of the session,\" Kemp said Monday. \"I know the House and Senate were working on that all weekend.\"\n\nThe Senate Rules Committee passed out nearly 100 bills for the final two days, including measures to reduce income taxes, require weapon detectors in public schools, and ban foreign nationals from contributing to political campaigns.\n\nHouse Speaker Jon Burns' literacy bill, which he calls his \"No. 1 issue,\" can now get a Senate vote. The bill aims to address Georgia's struggling reading scores with new standards and interventions.",
-          "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
-          "source": "WSB-TV",
-          "sourceUrl": "https://www.wsbtv.com/news/local/2027-state-budget-literacy-rates-among-top-bills-that-havent-been-passed-yet/UV5KUBDC6RGGREQGJIZFG6EKUE/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/GPFNDRIJ65ASBHWBMVHT7ES67I.jpeg?auth=951ccab8b6dc03ed550c4799e5ec873bbaba5fcd0a9af332e064e92efb1056c2&smart=true&width=1280&height=720",
-          "imageAlt": "Georgia State Capitol building during legislative session",
-          "publishedAt": "2026-03-31",
-          "keywords": ["georgia legislature", "state budget", "downtown", "literacy", "session"]
+          "id": "decatur-watchfest-mural-replacement",
+          "headline": "Decatur Commission to Discuss Replacing WatchFest Mural",
+          "summary": "The Decatur City Commission will take up the question of replacing the WatchFest mural during their regular meeting Monday night at City Hall. The mural discussion comes as part of ongoing conversations about public art and community representation in the downtown square area.",
+          "body": "The WatchFest mural has been a fixture in downtown Decatur for years, but it looks like change might be coming. The City Commission is putting the question of replacement on Monday night's agenda, though they haven't released many details about what prompted this discussion or what might replace it.\n\nIf you're not familiar with the WatchFest mural, it's been part of Decatur's downtown landscape for quite a while, connected to the city's annual film festival. Public art discussions in Decatur tend to get pretty animated - residents here are passionate about maintaining the city's character while also evolving with the times. The mural replacement conversation probably involves questions about community representation, artistic vision, and who gets to decide what goes on public buildings.\n\nThe commission meeting starts at 7:30 p.m. at City Hall on McDonough Street, with dinner and executive sessions beforehand. If you care about public art in Decatur, Monday night might be worth showing up for, especially since these decisions tend to stick around for years once they're made.",
+          "neighborhood": "Decatur",
+          "neighborhoods": [
+            "Decatur"
+          ],
+          "source": "Decaturish",
+          "sourceUrl": "https://www.decaturish.com/news/decatur/decatur-city-commission-to-discuss-replacing-watchfest-mural/article_eef3273c-06ff-489d-87a2-6a7dfc0cc009.html",
+          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/1/d2/1d29ce0e-5d18-4a9b-9029-014c463ddb06/691bca848b530.image.png?resize=300%2C318",
+          "imageAlt": "Decatur City Hall building where commission meets",
+          "publishedAt": "2026-03-13T19:03:00.000Z",
+          "keywords": [
+            "Decatur",
+            "public art",
+            "city commission",
+            "mural",
+            "community"
+          ]
         },
         {
-          "id": "nonpartisan-elections-bill-veto-push",
-          "headline": "Metro Atlanta Leaders Urge Kemp to Veto Nonpartisan Elections Bill",
-          "summary": "County and state lawmakers from five metro counties call the Republican-backed measure an unconstitutional power grab targeting Democratic strongholds.",
-          "body": "A group of metro Atlanta county and state lawmakers is urging Governor Brian Kemp to veto a Republican-sponsored bill that would force nonpartisan elections on the state's five most populous counties.\n\nThe legislation would mandate nonpartisan elections for district attorneys, county commissioners, and other high-profile local offices in Fulton, DeKalb, Gwinnett, Cobb, and Clayton counties only.\n\nDeKalb County CEO Lorraine Cochran-Johnson called it a \"blatantly unconstitutional power grab.\" Critics argue that singling out metro Atlanta's largest counties, which have recently elected Democratic officeholders, bypasses the will of voters.\n\nRepublican supporters say removing party labels is essential for election integrity. Governor Kemp has not indicated whether he will sign or veto the bill. DeKalb County officials have indicated they will sue immediately if the bill is signed.",
-          "neighborhood": "Decatur",
-          "neighborhoods": ["Decatur", "Downtown"],
-          "source": "Fox 5 Atlanta",
-          "sourceUrl": "https://www.fox5atlanta.com/news/gov-kemp-urged-veto-nonpartisan-bill-5-atlanta-counties",
-          "imageUrl": "https://images.foxtv.com/d3ayhwgrwyc4j8.cloudfront.net/ue2/mcvod/fmc-3re73n5kujo985bn_A-1644044--1522042/hls/v1_0/931/523/index.m3u8?ve=1&tl=1",
-          "imageAlt": "Metro Atlanta lawmakers urging Governor Kemp to veto nonpartisan elections bill",
-          "publishedAt": "2026-03-31",
-          "keywords": ["nonpartisan elections", "georgia legislature", "decatur", "fulton county", "kemp"]
+          "id": "firefighter-union-contract-dispute",
+          "headline": "Dickens Attacks Fire Union Leader Instead of Signing Contract",
+          "summary": "Mayor Andre Dickens missed the firefighters union's Friday deadline to sign Atlanta's first-ever fire contract, which City Council unanimously approved nearly a year ago. Instead of signing, Dickens questioned union president Nate Bailey's legitimacy and claimed 'irregularities' in Bailey's recent re-election. The union is threatening legal action.",
+          "body": "This whole firefighter contract situation is getting ugly, and honestly, it's making the mayor look petty. City Council unanimously approved Atlanta's first-ever firefighter union contract almost a year ago in April 2025, but Andre Dickens still hasn't signed the thing. Friday was the union's deadline, and instead of just signing it, he went after union president Nate Bailey personally.\n\nDickens is claiming there were 'irregularities' in Bailey's re-election as president of IAFF Local 134 back in November, and says the union might have to redo the election in May. His statement basically argues that Bailey's leadership is 'called into question,' so he won't sign the contract. That's a pretty convenient excuse for avoiding a contract that his own city council already approved unanimously.\n\nThe firefighters union isn't backing down and is threatening legal action. This feels like classic Atlanta politics - when you don't want to deal with something, attack the messenger instead of addressing the actual issue. Our firefighters deserve better than political games, especially when they're asking for basic workplace protections that every other major city provides.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "Atlanta Civic Circle",
+          "sourceUrl": "https://atlantaciviccircle.org/2026/03/14/atlanta-mayor-mudslings-firefighter-union-contract/",
+          "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/PHOTO-2026-03-10-13-43-06-e1773508038487-1024x796.jpg",
+          "imageAlt": "Atlanta firefighters at a union meeting",
+          "publishedAt": "2026-03-14T17:09:38.000Z",
+          "keywords": [
+            "firefighters",
+            "union contract",
+            "Andre Dickens",
+            "labor dispute",
+            "Atlanta"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Arts & Culture",
+      "stories": [
+        {
+          "id": "alliance-theatre-playwriting-winner",
+          "headline": "Juilliard Student Wins Alliance Theatre's Kendeda Competition",
+          "summary": "JuCoby Johnson, currently at Juilliard School, won the 23rd annual Alliance/Kendeda National Graduate Playwriting Competition with his Southern Gothic thriller 'The Red Man.' The play will be produced as part of Alliance's 2027/28 season, while four other finalists will get developmental workshops during the 2027 Kendeda Week.",
+          "body": "The Alliance Theatre just announced the winner of their big playwriting competition, and it's going to bring some serious Southern Gothic energy to the Woodruff Arts Center stage. JuCoby Johnson, a playwright and actor currently studying at Juilliard, took home the top prize with his thriller 'The Red Man,' which the Alliance describes as both a love story and a Southern Gothic thriller.\n\nThis is the 23rd year of the Alliance/Kendeda competition, which has become a pretty big deal in the theater world for discovering new voices. Johnson's play will get a full production as part of the Alliance's 2027/28 season, which means Atlanta audiences will be among the first to see this work. Four other finalists will also get their plays workshopped and presented during next year's Kendeda Week.\n\nWhat's interesting is that Johnson is based in New York but chose to write something rooted in Southern storytelling traditions. The Alliance has always done a good job of balancing local stories with works that speak to broader themes, and a Southern Gothic piece from an emerging playwright sounds like it could be exactly the kind of provocative, discussion-worthy theater that makes the Alliance special.",
+          "neighborhood": "Midtown",
+          "neighborhoods": [
+            "Midtown"
+          ],
+          "source": "Rough Draft Atlanta",
+          "sourceUrl": "https://roughdraftatlanta.com/2026/03/14/alliance-kendeda-playwriting-winner/",
+          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Headshot-JuCoby-600x400.jpg",
+          "imageAlt": "Playwright JuCoby Johnson, winner of Alliance Theatre competition",
+          "publishedAt": "2026-03-14T14:21:00.000Z",
+          "keywords": [
+            "Alliance Theatre",
+            "playwriting",
+            "Southern Gothic",
+            "theater",
+            "Kendeda competition"
+          ]
         }
       ]
     },
@@ -153,125 +208,66 @@
       "category": "Community",
       "stories": [
         {
-          "id": "404-day-events-2026",
-          "headline": "404 Day Returns with Block Party, Parade, and Week of Events",
-          "summary": "Atlanta's annual celebration of the 404 area code brings festivals, parties, and concerts across the city starting April 1 and culminating on April 4.",
-          "body": "404 Day is back, and Atlanta's annual celebration of its original area code has a full slate of events planned throughout the city.\n\nThe festivities kick off April 1 with a launch party at Jagger Suite following an influencer dinner. Thursday brings the 404 Fund Scholarship Gala at Monday Night Garage, followed by an afterparty at F1 Arcade.\n\nFriday features the \"From 404 With Love\" rooftop event at The Retreat by The Gathering Spot, with live music and awards for notable Atlantans. The Run Atlanta 404 Day Weekend 5K steps off Saturday morning through Downtown and Castleberry Hill at 8 a.m.\n\nThe main event, the 404 Day Parade, marches down Peachtree Street at 10 a.m. on Saturday with floats, marching bands, and dancers. The 404 Day Block Party takes over Underground Atlanta from noon to 5 p.m. with live music, food trucks, and local vendors.",
-          "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown", "Castleberry Hill"],
-          "source": "Fox 5 Atlanta",
-          "sourceUrl": "https://www.fox5atlanta.com/news/404-day-celebrations-metro-atlanta-2026",
-          "imageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/03/931/523/untitled-design-2.jpg?ve=1&tl=1",
-          "imageAlt": "404 Day celebration events in Atlanta",
-          "publishedAt": "2026-03-31",
-          "keywords": ["404 day", "atlanta", "block party", "parade", "underground atlanta"]
-        },
-        {
-          "id": "tyler-perry-tsa-gift-cards-approved",
-          "headline": "Tyler Perry's $250K in TSA Gift Cards Get Green Light",
-          "summary": "After initial ethics concerns, Tyler Perry representatives confirm TSA workers at Hartsfield-Jackson can keep the $1,000 gift cards donated during the shutdown.",
-          "body": "TSA workers at Hartsfield-Jackson will be able to keep Tyler Perry's generous gift after all.\n\nPerry donated $250,000 worth of $1,000 gift cards to support TSA employees who worked without pay for nearly six weeks during the partial government shutdown. Initial reports raised questions about whether federal ethics rules would prevent workers from accepting the gifts.\n\nPerry's representatives confirmed Tuesday that the gift cards have been cleared and workers can keep them. The donation was part of Perry's larger effort to support federal workers affected by the shutdown, which saw callout rates at the airport spike to over 40% at one point.\n\nThe gesture follows Perry's long history of philanthropy in Atlanta, including surprise giveaways and support for various causes. TSA workers have now begun receiving backpay, and security lines at the airport are finally starting to normalize.",
-          "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
-          "source": "11Alive",
-          "sourceUrl": "https://www.11alive.com/article/news/community/tyler-perry-tsa-worker-gift-card-atlanta-update/85-2052ab09-feec-4edc-9550-ca2dfda1cf57",
-          "imageUrl": "https://media.tegna-media.com/assets/WXIA/images/cea7c887-d3db-4f83-8258-53bc017a1c37/20260331T172058/cea7c887-d3db-4f83-8258-53bc017a1c37_750x422.jpg",
-          "imageAlt": "Tyler Perry donating gift cards to TSA workers at Hartsfield-Jackson",
-          "publishedAt": "2026-03-31",
-          "keywords": ["tyler perry", "tsa", "hartsfield-jackson", "gift cards", "shutdown"]
-        },
-        {
-          "id": "kirkwood-preserve-renamed-home-tour",
-          "headline": "Kirkwood Nature Preserve Renamed for Local Volunteer, Added to Home Tour",
-          "summary": "When the 23rd annual Kirkwood Spring Fling and Tour of Homes takes place May 16-17, one stop won't be a traditional residence but a nature preserve honoring a community champion.",
-          "body": "The 23rd annual Kirkwood Spring Fling and Tour of Homes will feature an unusual stop this May: a nature preserve recently renamed to honor a longtime local volunteer.\n\nThe preserve, which offers a pocket of green space in the east-side neighborhood, has been a community treasure for years. Now it carries the name of someone who dedicated significant time to its preservation and improvement.\n\nThe Kirkwood Spring Fling runs May 16-17 and typically showcases the neighborhood's charming Craftsman bungalows and larger family homes. Adding the preserve to the tour highlights Kirkwood's commitment to green space and community stewardship.\n\nKirkwood has maintained a strong neighborhood identity even as surrounding areas have rapidly developed. The active Kirkwood Neighbors' Organization and events like the Spring Fling reinforce the community bonds that make the neighborhood distinctive.",
-          "neighborhood": "Kirkwood",
-          "neighborhoods": ["Kirkwood"],
-          "source": "Decaturish",
-          "sourceUrl": "https://www.decaturish.com/news/kirkwood/preserve-renamed-for-local-volunteer-placed-on-home-tour/article_3fcc5c57-3e08-49cf-be7a-56193c89572a.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/e/b0/eb011d9f-3415-4b5a-a9b3-fa08aa0d6189/69cb1b5baa71f.image.jpg?resize=300%2C200",
-          "imageAlt": "Kirkwood nature preserve being added to Spring Fling home tour",
-          "publishedAt": "2026-03-31",
-          "keywords": ["kirkwood", "spring fling", "home tour", "nature preserve", "volunteer"]
-        }
-      ]
-    },
-    {
-      "category": "Business",
-      "stories": [
-        {
-          "id": "georgia-healthtech-syndicate-investment",
-          "headline": "Georgia Tech, Emory Back Atlanta HealthTech Startup Through New Syndicate",
-          "summary": "A new investor group combining Georgia's major research institutions has invested in Sanguina, which offers AI-powered anemia monitoring through a smartphone app.",
-          "body": "A new investor syndicate bringing together two of Atlanta's prominent research institutions has announced its latest investment into Sanguina, a wellness and diagnostic company offering at-home anemia management tools.\n\nThe syndicate is a collaboration between EBFI (the Emory BioFoundry Institute), Invest Georgia, and the Georgia Tech Research Impact Fund. Sanguina's flagship technology is an AI-powered smartphone application that analyzes a fingernail photo to provide insights into blood health and help users monitor indicators associated with iron deficiency and anemia.\n\nThe condition impacts close to two billion people worldwide. Sanguina was founded on intellectual property developed at both Georgia Tech and Emory University, getting its app into the app store in 2020.\n\nCo-founders include Erika Tyburski (CEO and Georgia Tech graduate) and Wilbur Lam (Vice President of Entrepreneurship at Emory). The investment represents the growing collaboration between Atlanta's research institutions to support local healthcare entrepreneurs.",
-          "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown", "Druid Hills"],
-          "source": "Hypepotamus",
-          "sourceUrl": "https://hypepotamus.com/news/georgia-biotech-syndicate-atlanta-healthtech-sanguina-investment/",
-          "imageUrl": "http://hypepotamus.com/wp-content/uploads/2026/03/1716329473851.jpg",
-          "imageAlt": "Sanguina healthtech startup team",
-          "publishedAt": "2026-03-31",
-          "keywords": ["sanguina", "healthtech", "georgia tech", "emory", "startup"]
-        },
-        {
-          "id": "delta-amazon-satellite-wifi",
-          "headline": "Delta to Add Amazon Satellite Internet to Fleet Starting 2028",
-          "summary": "The Atlanta-based airline will install Amazon Leo on 500 planes beginning in 2028, promising faster, more reliable in-flight Wi-Fi for domestic and international flights.",
-          "body": "Delta Air Lines plans to work with Amazon to dramatically improve Wi-Fi on its fleet of planes.\n\nThe airline announced it will add Amazon Leo satellite internet to planes, beginning with 500 installations in 2028. Delta says the change will bring faster, more personalized digital experiences on board for both domestic and international flights.\n\nAmazon Leo is a direct competitor with Starlink, working to bring satellite internet to areas with limited connectivity. The in-flight solutions are powered by an aviation-grade version of Amazon's most powerful antenna, Leo Ultra, described as the fastest commercial phased-array antenna in production.\n\n\"Delta's future is global,\" said CEO Ed Bastian. \"This agreement gives us the fastest and most cost-effective technology available to better connect the world today.\"\n\nSince 2020, Delta and AWS have migrated nearly 600 applications to the cloud and accelerated adoption of new technologies to empower employees and improve customer service.",
-          "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
-          "source": "Fox 5 Atlanta",
-          "sourceUrl": "https://www.fox5atlanta.com/news/delta-add-amazon-satellite-internet-fleet",
-          "imageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/03/931/523/gettyimages-1237800264-scaled.jpg?ve=1&tl=1",
-          "imageAlt": "Delta Air Lines plane to receive Amazon satellite internet",
-          "publishedAt": "2026-03-31",
-          "keywords": ["delta", "amazon", "satellite internet", "wifi", "aviation"]
-        }
-      ]
-    },
-    {
-      "category": "Sports",
-      "stories": [
-        {
-          "id": "braves-shutout-athletics-4-0",
-          "headline": "Braves Shut Out A's 4-0, Bryce Elder Shines in Season Debut",
-          "summary": "Strong pitching from Bryce Elder and early offense led by Mauricio Dubon powered Atlanta to a comfortable win at Truist Park.",
-          "body": "The Atlanta Braves wasted no time getting their second homestand started on a positive note. The Sacramento A's came into town with an 0-3 record and were immediately behind 3-0 after an inning of work.\n\nAtlanta won 4-0, led by strong pitching and two RBI from shortstop Mauricio Dubon. Matt Olson also drove in a run, and the Braves drew three walks against A's starter Jacob Lopez in the first half-inning.\n\nBryce Elder made his first start of the season and looked like he belonged in the rotation. Through six innings, Elder allowed just one extra-base hit, no runs, and struck out five. It was a strong way to start the season for the pitcher making his first Opening Day roster.\n\n\"Another outstanding start,\" said manager Walt Weiss. \"It's really nice to go through the rotation and get these kinds of starts.\" Weiss said Jose Suarez would start Tuesday night. \"Everything starts with starting pitching,\" he noted.",
-          "neighborhood": "Buckhead",
-          "neighborhoods": ["Buckhead"],
+          "id": "tulsa-welding-school-decatur-opens",
+          "headline": "Tulsa Welding School Opens New Campus in Decatur",
+          "summary": "A 44,639-square-foot campus in Decatur opened Friday to train students in welding, HVAC, and electrical trades. The school aims to address the nearly 400,000 unfilled skilled trade jobs across the U.S., a number projected to hit 2 million by 2033. The campus is part of StrataTech Education Group's expansion into high-demand workforce markets.",
+          "body": "Decatur just got a major boost in skilled trades education with the opening of Tulsa Welding School's new Atlanta Metro campus. The 44,639-square-foot facility on Friday officially opened its doors, focusing on welding, HVAC/R, and electrical technologies training. Given that there are roughly 400,000 unfilled skilled trade jobs nationwide (and that number's expected to hit 2 million by 2033), this couldn't come at a better time.\n\nThe timing makes sense - Georgia's construction and manufacturing sectors are booming, but finding qualified tradespeople has become a real challenge. Companies are desperate for welders, HVAC technicians, and electricians, and traditional four-year college programs obviously aren't meeting that need. StrataTech Education Group, which owns Tulsa Welding School, is betting that Decatur's location and proximity to both Atlanta's airport and major industrial areas will make it an ideal training hub.\n\nWhat's smart about this approach is recognizing that not everyone needs or wants a traditional college degree to build a solid career. These trade jobs often pay better than many positions that require bachelor's degrees, and there's real job security in skills that can't be outsourced or automated. For Decatur, having a major vocational training facility adds another dimension to the area's educational landscape beyond just Emory and Agnes Scott.",
+          "neighborhood": "Decatur",
+          "neighborhoods": [
+            "Decatur"
+          ],
           "source": "The Atlanta Voice",
-          "sourceUrl": "https://theatlantavoice.com/braves-4-0-athletics/",
-          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/260328_BR_royals_game2_MG201753-scaled.jpg?fit=1024%2C683&quality=89&ssl=1",
-          "imageAlt": "Atlanta Braves players celebrating win over Athletics at Truist Park",
-          "publishedAt": "2026-03-31",
-          "keywords": ["braves", "athletics", "truist park", "bryce elder", "baseball"]
+          "sourceUrl": "https://theatlantavoice.com/tulsa-welding-school-atlanta/",
+          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/Tulsa-Wedling-School-exterior-2026.jpeg?fit=768%2C1024&quality=89&ssl=1",
+          "imageAlt": "New Tulsa Welding School campus building in Decatur",
+          "publishedAt": "2026-03-14T12:20:05.000Z",
+          "keywords": [
+            "skilled trades",
+            "vocational training",
+            "Decatur",
+            "workforce development",
+            "HVAC"
+          ]
         }
       ]
     }
   ],
   "neighborhoods": {
-    "Downtown": { "storyCount": 52, "topStory": "constitution-building-world-cup-prep" },
-    "Midtown": { "storyCount": 32, "topStory": "james-beard-award-finalists-atlanta" },
-    "Decatur": { "storyCount": 30, "topStory": "fords-bbq-oakhurst-review" },
-    "Druid Hills": { "storyCount": 4, "topStory": "midtown-international-school-closure" },
-    "Old Fourth Ward": { "storyCount": 11, "topStory": "colmado-wine-shop-old-fourth-ward" },
-    "Buckhead": { "storyCount": 10, "topStory": "tower-piedmont-buckhead-sale" },
-    "Grant Park": { "storyCount": 6, "topStory": "meeples-board-game-cafe-grant-park-beltline" },
-    "Kirkwood": { "storyCount": 8, "topStory": "kirkwood-preserve-renamed-home-tour" },
-    "West End": { "storyCount": 8, "topStory": "calida-rawles-spelman-exhibit-homecoming" },
-    "Reynoldstown": { "storyCount": 7, "topStory": "casa-coya-best-dishes-march-reynoldstown" },
-    "Westside": { "storyCount": 6, "topStory": "westside-homeless-housing-beltline" },
-    "Inman Park": { "storyCount": 5, "topStory": "mushi-ni-opens-inman-park" },
-    "East Atlanta Village": { "storyCount": 2, "topStory": "kirkwood-wine-shop-finally-wine" },
-    "East Atlanta": { "storyCount": 4, "topStory": "space-explorers-infinite-pullman-yards" },
-    "West Midtown": { "storyCount": 4, "topStory": "andrew-young-94th-birthday" },
-    "Summerhill": { "storyCount": 3, "topStory": "gsu-summerhill-athletics-neighborhood" },
-    "Home Park": { "storyCount": 3, "topStory": "10th-street-hemphill-construction-closure" },
-    "Virginia-Highland": { "storyCount": 3, "topStory": "10th-street-hemphill-construction-closure" },
-    "Ansley Park": { "storyCount": 3, "topStory": "lewis-barbecue-ansley-mall-beltline" },
-    "Castleberry Hill": { "storyCount": 4, "topStory": "404-day-events-2026" },
-    "Piedmont Heights": { "storyCount": 1, "topStory": "midtown-sewer-repairs-close-juniper" },
-    "Cabbagetown": { "storyCount": 1, "topStory": "reynoldstown-townhomes-beltline-construction" },
-    "East Point": { "storyCount": 1, "topStory": "east-point-affordable-housing-marta" }
+    "Grant Park": {
+      "storyCount": 1,
+      "topStory": "beacon-grant-park-vacancy-struggle"
+    },
+    "Westside": {
+      "storyCount": 1,
+      "topStory": "westside-shelter-opposition-beltline"
+    },
+    "Downtown": {
+      "storyCount": 3,
+      "topStory": "world-cup-atlanta-downtown-preparations"
+    },
+    "Decatur": {
+      "storyCount": 2,
+      "topStory": "tulsa-welding-school-decatur-opens"
+    },
+    "Midtown": {
+      "storyCount": 2,
+      "topStory": "alliance-theatre-playwriting-winner"
+    },
+    "Home Park": {
+      "storyCount": 1,
+      "topStory": "10th-street-hemphill-construction-closure"
+    },
+    "Southwest Atlanta": {
+      "storyCount": 1,
+      "topStory": "atlanta-child-stabbing-death"
+    },
+    "Kirkwood": {
+      "storyCount": 1,
+      "topStory": "beacon-grant-park-vacancy-struggle"
+    },
+    "Virginia-Highland": {
+      "storyCount": 1,
+      "topStory": "10th-street-hemphill-construction-closure"
+    }
   }
 }

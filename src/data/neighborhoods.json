@@ -1333,6 +1333,206 @@
           "url": "https://www.itsmarta.com/"
         }
       ]
+    },
+    {
+      "name": "Collier Hills",
+      "slug": "collier-hills",
+      "tier": 3,
+      "description": "Collier Hills is a quiet residential neighborhood tucked between Buckhead, Midtown, and the Howell Mill corridor. It's mostly single-family ranch homes from the 1940s and 50s on rolling, wooded lots, giving it a suburban feel despite being well inside the Perimeter. Bobby Jones Golf Course (now revamped as a public course with a reversible nine-hole layout) is the neighborhood's biggest landmark. Collier Hills offers relatively affordable entry for its location, with easy access to Peachtree Battle shopping, Howell Mill restaurants, and I-75.",
+      "highlights": [
+        "Bobby Jones Golf Course",
+        "1940s-50s ranch homes on wooded lots",
+        "Close to Howell Mill and Peachtree Battle corridors"
+      ],
+      "seoTitle": "Collier Hills Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Collier Hills Atlanta neighborhood guide with news, housing, Bobby Jones Golf Course, and community updates.",
+      "relatedNeighborhoods": [
+        "Buckhead",
+        "Home Park",
+        "West Midtown"
+      ],
+      "npu": "D",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-d",
+      "zipCodes": [
+        "30309",
+        "30318"
+      ],
+      "resources": [
+        {
+          "label": "Collier Hills on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Collier_Hills"
+        },
+        {
+          "label": "Bobby Jones Golf Course",
+          "url": "https://www.bobbyjonesgc.com/"
+        }
+      ]
+    },
+    {
+      "name": "Bolton",
+      "slug": "bolton",
+      "tier": 3,
+      "description": "Bolton is a northwest Atlanta neighborhood along the Chattahoochee River, one of the few ITP areas with actual river access. It's a mix of mid-century ranch homes and newer construction, with the Chattahoochee River National Recreation Area trails right in the backyard. Bolton has a small commercial strip along Bolton Road and benefits from proximity to the Riverside/Whittier Mill area, which has seen significant investment. The neighborhood is relatively affordable for how much green space surrounds it.",
+      "highlights": [
+        "Chattahoochee River access and trail system",
+        "Affordable mid-century homes",
+        "Adjacent to Whittier Mill Park area"
+      ],
+      "seoTitle": "Bolton Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Bolton Atlanta neighborhood guide with news, Chattahoochee River access, housing, and development updates.",
+      "relatedNeighborhoods": [
+        "Grove Park",
+        "Westside",
+        "Collier Hills"
+      ],
+      "npu": "G",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-g",
+      "zipCodes": [
+        "30331"
+      ],
+      "resources": [
+        {
+          "label": "Bolton on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolton,_Atlanta"
+        },
+        {
+          "label": "Chattahoochee River National Recreation Area",
+          "url": "https://www.nps.gov/chat/"
+        }
+      ]
+    },
+    {
+      "name": "Grove Park",
+      "slug": "grove-park",
+      "tier": 3,
+      "description": "Grove Park is a northwest Atlanta neighborhood with a strong sense of community identity, centered around the Grove Park neighborhood association and the historic Grove Park elementary school. The area has a mix of Craftsman bungalows from the early 1900s and mid-century homes. Grove Park has been the focus of several community development initiatives, including investments from the Westside Future Fund. The neighborhood sits along the future BeltLine Westside Trail extension, which could significantly change development patterns here.",
+      "highlights": [
+        "Historic Craftsman bungalows",
+        "Westside Future Fund investment area",
+        "Future BeltLine Westside Trail extension"
+      ],
+      "seoTitle": "Grove Park Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Grove Park Atlanta neighborhood guide with news, historic homes, community development, and BeltLine planning.",
+      "relatedNeighborhoods": [
+        "Bolton",
+        "Westside",
+        "West End"
+      ],
+      "npu": "G",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-g",
+      "zipCodes": [
+        "30318"
+      ],
+      "resources": [
+        {
+          "label": "Grove Park on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grove_Park,_Atlanta"
+        },
+        {
+          "label": "Westside Future Fund",
+          "url": "https://www.westsidefuturefund.org/"
+        }
+      ]
+    },
+    {
+      "name": "Lakewood Heights",
+      "slug": "lakewood-heights",
+      "tier": 3,
+      "description": "Lakewood Heights is a south Atlanta neighborhood near the former Lakewood Fairgrounds site (now the Lakewood Amphitheatre and surrounding commercial area). The neighborhood has a mix of older single-family homes and is one of the more affordable areas inside the Perimeter. The BeltLine's Southside Trail is planned to run through this area, connecting it to the southeast corridor. The Lakewood-Fort McPherson MARTA station provides rail access. Redevelopment of the former Fort McPherson site (now Tyler Perry Studios) has brought renewed attention to this part of the city.",
+      "highlights": [
+        "Near Lakewood Amphitheatre",
+        "MARTA rail access at Lakewood station",
+        "Future BeltLine Southside Trail connection"
+      ],
+      "seoTitle": "Lakewood Heights Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Lakewood Heights Atlanta neighborhood guide with news, MARTA access, BeltLine Southside Trail, and development updates.",
+      "relatedNeighborhoods": [
+        "Sylvan Hills",
+        "Pittsburgh",
+        "Chosewood Park"
+      ],
+      "npu": "Y",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-y",
+      "zipCodes": [
+        "30315"
+      ],
+      "resources": [
+        {
+          "label": "Lakewood Heights on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lakewood_Heights"
+        },
+        {
+          "label": "MARTA Transit",
+          "url": "https://www.itsmarta.com/"
+        }
+      ]
+    },
+    {
+      "name": "Sylvan Hills",
+      "slug": "sylvan-hills",
+      "tier": 3,
+      "description": "Sylvan Hills is a southwest Atlanta neighborhood with a commercial strip along Sylvan Road and a residential core of bungalows and ranch homes. It has its own public library branch and a growing number of community-driven revitalization efforts. The neighborhood is near the Oakland City MARTA station and the Beltline's planned Southside Trail route. Sylvan Hills has some of the most affordable housing inside the Perimeter, and community groups have been active in pushing for better infrastructure and economic investment.",
+      "highlights": [
+        "Sylvan Hills branch library",
+        "Affordable ITP housing stock",
+        "Near Oakland City MARTA station"
+      ],
+      "seoTitle": "Sylvan Hills Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Sylvan Hills Atlanta neighborhood guide with news, affordable housing, community updates, and development stories.",
+      "relatedNeighborhoods": [
+        "Oakland City",
+        "Capitol View",
+        "Lakewood Heights"
+      ],
+      "npu": "S",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-s",
+      "zipCodes": [
+        "30310",
+        "30311"
+      ],
+      "resources": [
+        {
+          "label": "Sylvan Hills on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sylvan_Hills,_Atlanta"
+        },
+        {
+          "label": "Atlanta-Fulton Public Library",
+          "url": "https://afpls.org/"
+        }
+      ]
+    },
+    {
+      "name": "Pittsburgh",
+      "slug": "pittsburgh",
+      "tier": 3,
+      "description": "Pittsburgh is a historic southwest Atlanta neighborhood named after Pittsburgh, Pennsylvania, by railroad workers who settled here in the late 1800s. The neighborhood centers around McDaniel Street and has one of the most intact collections of Victorian and Craftsman homes on the southwest side, though many need restoration. The BeltLine's Southside Trail is planned to connect through this area. Pittsburgh has been a focus of the Westside Future Fund's anti-displacement work, and community leaders are pushing to balance new investment with keeping longtime residents in place.",
+      "highlights": [
+        "Historic Victorian and Craftsman architecture",
+        "Westside Future Fund anti-displacement focus",
+        "Future BeltLine Southside Trail route"
+      ],
+      "seoTitle": "Pittsburgh Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Pittsburgh Atlanta neighborhood guide with news, historic homes, community development, and BeltLine Southside Trail updates.",
+      "relatedNeighborhoods": [
+        "Mechanicsville",
+        "West End",
+        "Capitol View"
+      ],
+      "npu": "V",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-v",
+      "zipCodes": [
+        "30310"
+      ],
+      "resources": [
+        {
+          "label": "Pittsburgh (Atlanta) on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pittsburgh_(Atlanta)"
+        },
+        {
+          "label": "Westside Future Fund",
+          "url": "https://www.westsidefuturefund.org/"
+        }
+      ]
     }
   ]
 }
