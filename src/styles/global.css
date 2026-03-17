@@ -282,9 +282,15 @@ img {
 }
 
 .digest-summary {
-  max-width: 54rem;
+  max-width: 42rem;
   font-size: 0.95rem;
   line-height: 1.55;
+}
+
+@media (min-width: 980px) {
+  .digest-header {
+    max-width: 42rem;
+  }
 }
 
 .digest-meta {
