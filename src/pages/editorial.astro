@@ -1,0 +1,84 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { SITE_URL, buildBreadcrumbSchema } from '../lib/helpers';
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: SITE_URL },
+  { name: 'Editorial Standards', url: `${SITE_URL}/editorial` },
+]);
+---
+
+<Base
+  title="Editorial Standards | atlanta news & talk"
+  description="How Atlanta News & Talk selects, summarizes, and attributes local news from 20 Atlanta sources."
+  breadcrumbSchema={breadcrumbSchema}
+>
+  <div class="article-page">
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'Editorial Standards' },
+    ]} />
+
+    <h1 class="article-headline">editorial standards</h1>
+
+    <div class="article-body">
+      <p>
+        Atlanta News & Talk is a daily news curation site covering Inside The Perimeter Atlanta
+        neighborhoods. This page explains how content is selected, written, and attributed.
+      </p>
+
+      <h2>Daily digest (curated)</h2>
+      <p>
+        The daily digest pulls from <a href="/about">20 local news sources</a> each morning. Articles are
+        filtered for ITP relevance, mapped to specific neighborhoods, and summarized. Every digest story
+        links back to the original source with full attribution.
+      </p>
+      <p>
+        When multiple outlets cover the same story, we merge them into a single entry and credit all
+        sources. The primary source is always a local or independent outlet when available.
+      </p>
+      <p>
+        We do not publish stories that cannot be mapped to a specific ITP neighborhood. Generic
+        "Metro Atlanta" or statewide stories are excluded.
+      </p>
+
+      <h2>Guides, lists, and neighborhood pages (original)</h2>
+      <p>
+        Guides, listicles, and neighborhood descriptions are original content written by
+        <a href="/about">David</a>, a web developer and Summerhill resident. These are based on
+        personal experience, local knowledge, and research from authoritative sources (official
+        websites, Wikipedia, government data). Outbound links cite sources directly.
+      </p>
+
+      <h2>Images</h2>
+      <p>
+        Images come from two places: RSS feed media (attributed to the source publication) and
+        <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a>
+        (credited with photographer name and license). We do not use stock photos or generated images.
+      </p>
+
+      <h2>Corrections</h2>
+      <p>
+        If something is wrong, <a href="/contact">let us know</a>.
+        Corrections are made directly to the content. We do not publish corrections notices for daily
+        digest summaries since those are rebuilt each day. Errors in evergreen content (guides, lists,
+        neighborhood pages) are corrected in place.
+      </p>
+
+      <h2>Independence</h2>
+      <p>
+        This site is an independent project. It is not affiliated with any of the news sources it
+        aggregates. <a href="/the-row-900-peoplestown">Sponsored content</a> is clearly labeled
+        and appears as pinned stories with full disclosure.
+      </p>
+
+      <h2>Content filtering</h2>
+      <p>
+        The daily digest excludes violent crime stories (homicides, assaults) and stories with
+        invalid or non-ITP neighborhood mappings. This is an editorial choice to focus on
+        constructive local coverage rather than crime blotter content.
+      </p>
+    </div>
+  </div>
+</Base>

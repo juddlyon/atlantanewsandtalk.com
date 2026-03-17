@@ -919,6 +919,18 @@ img {
   border-top: 1px solid rgba(255, 248, 240, 0.12);
   font-size: 0.72rem;
   color: rgba(255, 248, 240, 0.54);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.footer-legal a {
+  color: rgba(255, 248, 240, 0.54);
+}
+
+.footer-legal a:hover {
+  color: #fff;
 }
 
 @keyframes rise-in {
@@ -1273,6 +1285,26 @@ img {
   line-height: 1;
   letter-spacing: -0.03em;
   color: var(--color-ink);
+}
+
+.guide-byline {
+  margin-top: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-soft);
+}
+
+.guide-byline a {
+  color: var(--color-text-soft);
+  text-decoration: underline;
+  text-decoration-color: rgba(19, 39, 79, 0.2);
+  text-underline-offset: 2px;
+}
+
+.guide-byline a:hover {
+  color: var(--color-red);
 }
 
 .guide-intro {

@@ -1,5 +1,5 @@
 [build]
-  command = "node scripts/fetch-articles.mjs && (node scripts/summarize.mjs || echo 'Summarize failed, using existing digest') && node scripts/validate-digest.mjs && node scripts/commit-digest.mjs && npm run build"
+  command = "node scripts/fetch-articles.mjs && (node scripts/summarize.mjs || echo 'Summarize failed, using existing digest') && node scripts/validate-digest.mjs && node scripts/commit-digest.mjs && npm run build && (node scripts/ping-indexnow.mjs || true)"
   publish = "dist"
 
 [functions]

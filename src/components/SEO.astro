@@ -48,6 +48,16 @@ const organizationSchema = {
   name: SITE_NAME,
   url: SITE_URL,
   description: 'Hyperlocal news coverage of Atlanta\'s Inside The Perimeter neighborhoods',
+  founder: {
+    '@type': 'Person',
+    name: 'David',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Atlanta',
+      addressRegion: 'GA',
+      addressCountry: 'US',
+    },
+  },
   areaServed: {
     '@type': 'City',
     name: 'Atlanta',
