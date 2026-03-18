@@ -102,7 +102,8 @@ Output this exact JSON structure:
 RULES:
 - ONLY assign neighborhoods from this EXACT list (do not invent or generalize): ${ITP_NEIGHBORHOODS.join(', ')}
 - If a story doesn't map to one of those neighborhoods, use the closest match or drop the story
-- HARD FILTER: Drop any story not primarily about Atlanta ITP (Inside I-285). No suburbs, no Athens, no Cobb, no Gwinnett, no South Fulton, no "Southwest Atlanta", no "Statewide", no "Metro Atlanta". Every story must map to a specific neighborhood from the list above.
+- HARD FILTER — ITP ONLY: This site covers ONLY Inside The Perimeter (I-285). If a story is not physically located inside I-285, DROP IT. No exceptions. No suburbs. No exurbs. No "metro Atlanta." No county-level stories. No state-level stories. If it happens outside the perimeter, it does not exist to us. Every story MUST map to a specific neighborhood from the list above. If it doesn't fit a neighborhood, drop it.
+- ZERO TOLERANCE for non-ITP locations. Stories mentioning places like Villa Rica, Marietta, Roswell, Alpharetta, Lawrenceville, Kennesaw, Smyrna, Stockbridge, Douglasville, or ANY city/town outside I-285 must be dropped entirely. "Statewide", "Metro Atlanta", "Georgia", "Southwest Atlanta" are not valid neighborhoods.
 - Categories: Development & Housing, Transit & Infrastructure, Food & Drink, Arts & Culture, Politics & Policy, Public Safety, Community, Business
 - SE BeltLine stories get priority placement
 - Write like a real person, not a press release. Have a voice. Be the neighbor who reads everything.
