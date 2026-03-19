@@ -188,7 +188,7 @@
       "slug": "buckhead-atlanta-news",
       "title": "Buckhead Atlanta News",
       "h1": "Buckhead News & Updates",
-      "description": "News from Buckhead Atlanta \u2014 real estate, restaurants, retail, and community updates from Atlanta's uptown neighborhood.",
+      "description": "News from Buckhead Atlanta. Real estate, restaurants, retail, and community updates from Atlanta's uptown neighborhood.",
       "keywords": [
         "buckhead atlanta",
         "buckhead news",
@@ -198,7 +198,8 @@
       "filterType": "neighborhoods",
       "neighborhoods": [
         "Buckhead"
-      ]
+      ],
+      "seoContent": "<p>Buckhead is Atlanta's uptown commercial and residential district, home to Lenox Square, Phipps Plaza, and some of the city's most expensive real estate. The neighborhood has been at the center of ongoing debates about cityhood, public safety, and development.</p><p>Our daily coverage includes <a href=\"/atlanta-development-news\">real estate developments</a>, restaurant openings along Peachtree Road and in Buckhead Village, retail news from the malls, and community updates. Whether you're tracking the latest luxury condo project or a new dining spot, we pull from sources like <em>Urbanize Atlanta</em>, <em>SaportaReport</em>, and <em>Atlanta Magazine</em> to keep Buckhead residents informed.</p>"
     },
     {
       "slug": "atlanta-events-this-weekend",
@@ -235,17 +236,19 @@
       "slug": "decatur-news",
       "title": "Decatur Georgia News",
       "h1": "Decatur News & Updates",
-      "description": "Hyperlocal news from Decatur, Georgia \u2014 city government, restaurants, Decatur Square events, school news, and community updates.",
+      "description": "Hyperlocal news from Decatur, Georgia. City government, restaurants, Decatur Square events, school news, and community updates.",
       "keywords": [
         "decatur georgia",
         "decatur ga news",
         "decatur atlanta",
-        "decatur square"
+        "decatur square",
+        "decatur news"
       ],
       "filterType": "neighborhoods",
       "neighborhoods": [
         "Decatur"
-      ]
+      ],
+      "seoContent": "<p>Decatur is an independent city within DeKalb County, known for its walkable downtown, excellent schools, and tight-knit community. From City Schools of Decatur updates to what's opening on the square, we cover it all.</p><p>Our coverage draws heavily from <a href=\"https://decaturish.com\" target=\"_blank\" rel=\"noopener\">Decaturish</a>, the go-to hyperlocal source for Decatur and DeKalb news, plus regional outlets like <em>SaportaReport</em> and <em>Atlanta Magazine</em>. Whether it's a new restaurant on Ponce, city commission decisions, or community events at Legacy Park, you'll find it here.</p><p>Looking for nearby coverage? Check out news from <a href=\"/kirkwood-atlanta-news\">Kirkwood</a>, <a href=\"/east-atlanta-village-news\">East Atlanta Village</a>, or <a href=\"/inman-park-news\">Inman Park</a>.</p>"
     },
     {
       "slug": "atlanta-transit-news",

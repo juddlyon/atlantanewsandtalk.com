@@ -1,0 +1,118 @@
+---
+import trendingData from '../data/trending-links.json';
+
+interface Props {
+  position?: 'top' | 'bottom';
+}
+
+const { position = 'bottom' } = Astro.props;
+const links = trendingData.links;
+---
+
+<div class:list={['trending-bar', `trending-bar-${position}`]}>
+  <div class="trending-inner">
+    <span class="trending-label">Trending</span>
+    <div class="trending-links">
+      {links.map((link, i) => (
+        <>
+          <a
+            href={link.href}
+            class:list={['trending-link', { highlight: link.highlight }]}
+          >
+            {link.label}
+          </a>
+          {i < links.length - 1 && <span class="trending-sep">·</span>}
+        </>
+      ))}
+    </div>
+  </div>
+</div>
+
+<style>
+  .trending-bar {
+    background: linear-gradient(90deg, #13274f 0%, #1a3366 50%, #13274f 100%);
+    border-bottom: 1px solid rgba(206, 17, 65, 0.3);
+    overflow: hidden;
+  }
+
+  .trending-bar-bottom {
+    border-top: 1px solid rgba(206, 17, 65, 0.3);
+    border-bottom: none;
+  }
+
+  .trending-inner {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.6rem 1rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .trending-inner::-webkit-scrollbar {
+    display: none;
+  }
+
+  .trending-label {
+    flex-shrink: 0;
+    padding: 0.25rem 0.6rem;
+    background: var(--color-red);
+    border-radius: 3px;
+    color: #fff;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .trending-links {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .trending-link {
+    color: rgba(255, 247, 238, 0.85);
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    font-weight: 500;
+    transition: color 0.15s ease;
+  }
+
+  .trending-link:hover {
+    color: #fff;
+  }
+
+  .trending-link.highlight {
+    color: var(--color-gold);
+    font-weight: 600;
+  }
+
+  .trending-link.highlight:hover {
+    color: #f5c56b;
+  }
+
+  .trending-sep {
+    color: rgba(255, 247, 238, 0.35);
+    font-size: 0.9rem;
+  }
+
+  @media (min-width: 768px) {
+    .trending-inner {
+      padding: 0.7rem 1.5rem;
+      gap: 1rem;
+    }
+
+    .trending-links {
+      gap: 0.6rem;
+    }
+
+    .trending-link {
+      font-size: 0.88rem;
+    }
+  }
+</style>

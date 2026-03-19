@@ -1,0 +1,37 @@
+{
+  "links": [
+    {
+      "label": "World Cup 2026",
+      "href": "/fifa-world-cup-atlanta-2026",
+      "highlight": true
+    },
+    {
+      "label": "Buckhead News",
+      "href": "/buckhead-atlanta-news"
+    },
+    {
+      "label": "Decatur News",
+      "href": "/decatur-news"
+    },
+    {
+      "label": "BeltLine Guide",
+      "href": "/guide/atlanta-beltline"
+    },
+    {
+      "label": "The Row 900",
+      "href": "/the-row-900-peoplestown-atlanta"
+    },
+    {
+      "label": "Summerhill",
+      "href": "/guide/summerhill-atlanta"
+    },
+    {
+      "label": "Grant Park",
+      "href": "/grant-park-atlanta-news"
+    },
+    {
+      "label": "Old Fourth Ward",
+      "href": "/old-fourth-ward-news"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 ---
 import SEO from '../components/SEO.astro';
+import TrendingBar from '../components/TrendingBar.astro';
 import { formatDate, getDigest, SITE_NAME } from '../lib/helpers';
 
 interface Props {
@@ -85,6 +86,8 @@ const navItems = [
     </header>
 
     <slot />
+
+    <TrendingBar position="bottom" />
 
     <footer class="site-footer">
       <div class="footer-inner">

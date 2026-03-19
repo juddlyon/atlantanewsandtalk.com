@@ -77,12 +77,39 @@ export function getStoriesByNeighborhood(neighborhood: string): Story[] {
 }
 
 export function getAllNeighborhoods(): string[] {
-  const d = getDigest();
-  return Object.keys(d.neighborhoods).sort();
+  // Get all unique neighborhoods from actual stories
+  const allStories = getAllStories();
+  const neighborhoodSet = new Set<string>();
+  for (const story of allStories) {
+    if (story.neighborhood) neighborhoodSet.add(story.neighborhood);
+    if (story.neighborhoods) {
+      for (const n of story.neighborhoods) neighborhoodSet.add(n);
+    }
+  }
+  return Array.from(neighborhoodSet).sort();
 }
 
 export function getNeighborhoodData(): Record<string, { storyCount: number; topStory: string }> {
-  return getDigest().neighborhoods;
+  // Compute neighborhood data dynamically from actual stories
+  const allStories = getAllStories();
+  const data: Record<string, { storyCount: number; topStory: string }> = {};
+
+  for (const story of allStories) {
+    const neighborhoods = new Set<string>();
+    if (story.neighborhood) neighborhoods.add(story.neighborhood);
+    if (story.neighborhoods) {
+      for (const n of story.neighborhoods) neighborhoods.add(n);
+    }
+
+    for (const name of neighborhoods) {
+      if (!data[name]) {
+        data[name] = { storyCount: 0, topStory: story.id };
+      }
+      data[name].storyCount++;
+    }
+  }
+
+  return data;
 }
 
 export function formatDate(dateStr: string): string {

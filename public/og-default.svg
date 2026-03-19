@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#13274f"/>
+      <stop offset="100%" stop-color="#0f1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ce1141"/>
+      <stop offset="50%" stop-color="#d2a24c"/>
+      <stop offset="100%" stop-color="#13274f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Accent stripe top -->
+  <rect y="0" width="1200" height="6" fill="url(#accent)"/>
+
+  <!-- Accent stripe bottom -->
+  <rect y="624" width="1200" height="6" fill="url(#accent)"/>
+
+  <!-- Site name -->
+  <text x="600" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#fff7ee">atlanta news</text>
+  <text x="600" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#fff7ee">
+    <tspan font-style="italic" fill="#d2a24c">&amp;</tspan>
+    <tspan> talk</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="420" text-anchor="middle" font-family="sans-serif" font-size="28" letter-spacing="4" fill="#8899aa" text-transform="uppercase">DAILY ITP NEIGHBORHOOD BRIEFING</text>
+
+  <!-- URL -->
+  <text x="600" y="560" text-anchor="middle" font-family="monospace" font-size="22" fill="#6b7a8c">atlantanewsandtalk.com</text>
+</svg>
