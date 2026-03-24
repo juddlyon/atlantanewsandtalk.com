@@ -66,6 +66,49 @@ export function getAllStories(): Story[] {
   return d.sections.flatMap((s) => s.stories);
 }
 
+// Get ALL stories from ALL archived digests (for building permanent story pages)
+export function getAllArchivedStories(): Story[] {
+  const storyMap = new Map<string, Story>();
+
+  // Add pinned stories first
+  for (const story of pinnedStories as unknown as Story[]) {
+    storyMap.set(story.id, story);
+  }
+
+  // Read all archived digests
+  const archiveDates = getArchiveDates();
+  for (const date of archiveDates) {
+    const digest = getDigestByDate(date);
+    if (digest) {
+      for (const section of digest.sections) {
+        for (const story of section.stories) {
+          // Only add if not already present (keeps newest version)
+          if (!storyMap.has(story.id)) {
+            storyMap.set(story.id, story);
+          }
+        }
+      }
+    }
+  }
+
+  // Also include current digest
+  const current = getDigest();
+  for (const section of current.sections) {
+    for (const story of section.stories) {
+      if (!storyMap.has(story.id)) {
+        storyMap.set(story.id, story);
+      }
+    }
+  }
+
+  return Array.from(storyMap.values());
+}
+
+// Get a story by slug from ALL archives (not just today)
+export function getArchivedStoryBySlug(slug: string): Story | undefined {
+  return getAllArchivedStories().find((s) => s.id === slug);
+}
+
 export function getStoryBySlug(slug: string): Story | undefined {
   return getAllStories().find((s) => s.id === slug);
 }

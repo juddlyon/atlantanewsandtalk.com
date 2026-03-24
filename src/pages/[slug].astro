@@ -3,10 +3,11 @@ import Base from '../layouts/Base.astro';
 import StoryCard from '../components/StoryCard.astro';
 import NeighborhoodTag from '../components/NeighborhoodTag.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
-import { getAllStories, getStoriesByNeighborhood, formatDate, SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../lib/helpers';
+import { getAllArchivedStories, getStoriesByNeighborhood, formatDate, SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../lib/helpers';
 
 export function getStaticPaths() {
-  const stories = getAllStories();
+  // Use ALL archived stories so pages persist forever (SEO)
+  const stories = getAllArchivedStories();
   return stories.map((story) => ({
     params: { slug: story.id },
     props: { story },
