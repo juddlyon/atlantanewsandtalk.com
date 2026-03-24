@@ -36,14 +36,16 @@ Hyperlocal Atlanta news aggregator focused on Inside The Perimeter (ITP) neighbo
 ## Architecture
 
 - **Astro** static site on **Netlify** (atlantanewsandtalk.com)
-- **Daily automation:** Netlify scheduled function (`netlify/functions/daily-rebuild.mjs`) fires a build hook at 7am ET (11:00 UTC). The `netlify.toml` build command chains: fetch RSS, summarize with Claude API, then Astro build.
+- **Daily automation:** Netlify scheduled function (`netlify/functions/daily-rebuild.mjs`) fires a build hook at 7am ET (11:00 UTC). The `netlify.toml` build command chains: fetch RSS, summarize with Claude API, commit digest to git, then Astro build.
   1. `scripts/fetch-articles.mjs` fetches RSS (20 sources, 15s per-feed timeout)
-  2. `scripts/summarize.mjs` sends raw articles to Claude API (Sonnet, 16384 max tokens), writes `src/data/digest-latest.json`
-  3. `npm run build` generates static pages from the digest
-  4. Netlify deploys `dist/` automatically
-- **Data flow:** Netlify cron → build hook → fetch RSS → Claude API summarization → `digest-latest.json` → Astro build → deploy
+  2. `scripts/summarize.mjs` sends raw articles to Claude API (Sonnet, 16384 max tokens), writes `src/data/digest-latest.json` and `digest-YYYY-MM-DD.json`
+  3. `scripts/commit-digest.mjs` commits the archive digest back to git via GitHub API (so archives persist)
+  4. `npm run build` generates static pages from ALL archived digests (not just today)
+  5. Netlify deploys `dist/` automatically
+- **Data flow:** Netlify cron → build hook → fetch RSS → Claude API summarization → commit digest to git → Astro build (all archives) → deploy
+- **Story persistence:** Story pages are built from ALL archived digest files, so URLs stay live forever. SEO value accumulates over time.
 - **Rollback:** Dated archives (`digest-YYYY-MM-DD.json`) kept in git. Use `npm run rollback` or Netlify deploy rollback.
-- **Env vars (Netlify):** `ANTHROPIC_API_KEY` (Claude API), `BUILD_HOOK_URL` (Netlify build hook)
+- **Env vars (Netlify):** `ANTHROPIC_API_KEY` (Claude API), `BUILD_HOOK_URL` (Netlify build hook), `GITHUB_TOKEN` (repo write access for digest commits)
 - **No GitHub Actions.** All automation runs through Netlify.
 
 ## RSS Sources (20 feeds)
