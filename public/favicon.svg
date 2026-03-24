@@ -6,8 +6,11 @@
       <stop offset="100%" stop-color="#13274f"/>
     </linearGradient>
   </defs>
+  <!-- Navy rounded square -->
   <rect width="32" height="32" rx="6" fill="#13274f"/>
-  <text x="16" y="21" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#fff7ee">A</text>
-  <text x="23" y="21" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-style="italic" fill="#d2a24c">&amp;</text>
-  <rect x="4" y="25" width="24" height="3" rx="1.5" fill="url(#stripe)"/>
+  <!-- Top accent stripe -->
+  <rect x="0" y="0" width="32" height="3" rx="1.5" fill="url(#stripe)"/>
+  <!-- A& mark -->
+  <text x="10" y="23" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#fff7ee">A</text>
+  <text x="21" y="23" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#d2a24c">&amp;</text>
 </svg>

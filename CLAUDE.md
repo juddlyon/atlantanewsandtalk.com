@@ -75,6 +75,10 @@ When multiple sources cover the same story, merge into a single entry with a `so
 
 Article pages render multi-source stories with "Reported by N sources" and buttons to each original. Prefer Tier 1/2 as primary source.
 
+## Source Diversity
+
+Each daily digest includes at most ONE story per source. This prevents any single publication (especially prolific ones like Urbanize Atlanta) from dominating the homepage. The summarization prompt enforces this rule.
+
 ## Pinned Stories
 
 `src/data/pinned-stories.json` contains stories that persist across daily digest rebuilds. Merged into Development & Housing section at build time by `helpers.ts`. Use for SEO client content or stories that should remain visible. Each entry follows the `Story` interface with `"pinned": true`.

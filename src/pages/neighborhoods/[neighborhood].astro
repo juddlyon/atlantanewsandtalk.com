@@ -2,14 +2,15 @@
 import Base from '../../layouts/Base.astro';
 import StoryCard from '../../components/StoryCard.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import { getAllNeighborhoods, getStoriesByNeighborhood, slugify, SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../../lib/helpers';
+import { getStoriesByNeighborhood, slugify, SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../../lib/helpers';
 import neighborhoodsData from '../../data/neighborhoods.json';
 
 export function getStaticPaths() {
-  const neighborhoods = getAllNeighborhoods();
-  return neighborhoods.map((name) => ({
-    params: { neighborhood: slugify(name) },
-    props: { neighborhoodName: name },
+  // Use static neighborhoods.json to ensure all 36 pages are always generated,
+  // even if a neighborhood has no stories in today's digest
+  return neighborhoodsData.neighborhoods.map((n) => ({
+    params: { neighborhood: n.slug },
+    props: { neighborhoodName: n.name },
   }));
 }
 

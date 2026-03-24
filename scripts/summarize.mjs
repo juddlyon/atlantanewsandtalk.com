@@ -115,6 +115,7 @@ RULES:
 - NEVER use em dashes (—). Use periods, commas, or parentheses instead. Em dashes are a dead giveaway.
 - Don't use "delves", "tapestry", "vibrant", "bustling", "nestled", or other overused filler words
 - Include 10-20 stories total, prioritizing quality and ITP relevance
+- SOURCE DIVERSITY: Do not include more than ONE story from the same source. If multiple stories come from Urbanize Atlanta (or any other source), pick the single best one and skip the rest. Variety of sources matters.
 - Each story's id should be a URL-friendly slug
 
 Articles:
