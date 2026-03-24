@@ -1,12 +1,12 @@
 {
   "date": "2026-03-24",
-  "generatedAt": "2026-03-24T23:19:25.431Z",
-  "summary": "Big news in Reynoldstown where that long-empty corner near the Beltline is finally seeing construction after five years. Meanwhile, Atlanta's airport chaos continues with ICE agents walking around but mostly just standing there while TSA lines stretch for hours.",
+  "generatedAt": "2026-03-24T23:22:21.581Z",
+  "summary": "Today was all about Reynoldstown's big development news and airport chaos. Meanwhile, ICE agents showed up at Hartsfield-Jackson (though folks say they're mostly just standing around), and Atlantic Station somehow scored the top spot on a national 'best places to live' list.",
   "topStory": {
-    "id": "reynoldstown-beltline-construction-finally-starts",
-    "headline": "Reynoldstown's Empty Beltline Corner Finally Sees Construction After 5 Years",
-    "summary": "That cleared lot at Chester Avenue and Fulton Terrace in Reynoldstown is finally getting built on after sitting empty since 2021. Embry Development is moving forward with 85 townhomes and condos about a block from the Eastside Trail. It's a sign that even delayed projects are moving again near the Beltline, though neighbors have been waiting a long time for something to happen on that prominent corner.",
-    "body": "If you've walked the Eastside Trail recently, you know that cleared corner at Chester Avenue and Fulton Terrace in Reynoldstown. It's been an empty reminder of stalled development for nearly five years now, ever since the original buildings were demolished in 2021. But finally, there's movement.\n\nEmbry Development Company, which bought the 2-acre site from Toll Brothers two years ago, has started groundwork for what will become Camber Crossing. The project calls for 85 residential units, a mix of townhomes and for-sale condos, just a block west of the Beltline's Eastside Trail. You know the spot - it's right there where Memorial Drive meets all that foot traffic heading to Ponce City Market.\n\nThis is exactly the kind of infill development the Beltline was supposed to encourage, though the timeline shows how even prime real estate can sit idle when financing gets tricky. The original developer got permits but couldn't make the numbers work. Now Embry is betting that the market has caught up to the location, and honestly, with everything else happening along the trail, it's probably the right call.",
+    "id": "reynoldstown-beltline-development-underway",
+    "headline": "Reynoldstown's Stalled Beltline Corner Finally Breaks Ground",
+    "summary": "After nearly five years of sitting as an empty lot, that cleared corner at Chester Avenue and Fulton Terrace in Reynoldstown is finally seeing action. Atlanta-based Embry Development took over from Toll Brothers and is moving forward with 85 residential units just a block from the Eastside Trail. Local folks have been wondering what the heck was happening with that prime spot near Memorial Drive.",
+    "body": "Remember that corner in Reynoldstown where Chester Avenue meets Fulton Terrace? The one that's been sitting empty since they cleared the buildings back in 2021? Well, finally some good news. Embry Development Company has taken over the project from Toll Brothers and is actually breaking ground on what they're calling Camber Crossing.\n\nWe're talking 85 residential units (mix of townhomes and condos) just a block west of the Beltline's Eastside Trail and a stone's throw from Memorial Drive. This is exactly the kind of infill development that makes sense in Reynoldstown, especially with all the foot traffic from the trail. The fact that it sat vacant for nearly five years while the neighborhood kept evolving around it was honestly pretty frustrating for locals.\n\nEmbry Development's managing partner says they're focused on delivering quality housing that fits the neighborhood's character. Given how hot Reynoldstown has gotten with young professionals and families wanting to be close to the Beltline, these units should move pretty quickly once they're ready. It's about time this corner got the attention it deserved.",
     "neighborhood": "Reynoldstown",
     "neighborhoods": [
       "Reynoldstown",
@@ -15,14 +15,14 @@
     "source": "Urbanize Atlanta",
     "sourceUrl": "https://atlanta.urbanize.city/post/project-reynoldstown-beltline-development-finally-underway",
     "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/Camber%20Crossing%20195%20Chester%20Avenue%20March%202026%201.jpg?itok=_z_7QhjR",
-    "imageAlt": "Construction equipment at the Reynoldstown development site near the Beltline",
-    "publishedAt": "2026-03-24T17:30:32Z",
+    "imageAlt": "Construction equipment and work beginning at the Reynoldstown development site",
+    "publishedAt": "2026-03-24T17:30:32.000Z",
     "keywords": [
       "Reynoldstown",
-      "Beltline",
-      "development",
-      "townhomes",
-      "Eastside Trail"
+      "Beltline development",
+      "Atlanta housing",
+      "Eastside Trail",
+      "infill development"
     ]
   },
   "sections": [
@@ -30,10 +30,10 @@
       "category": "Development & Housing",
       "stories": [
         {
-          "id": "reynoldstown-beltline-construction-finally-starts",
-          "headline": "Reynoldstown's Empty Beltline Corner Finally Sees Construction After 5 Years",
-          "summary": "That cleared lot at Chester Avenue and Fulton Terrace in Reynoldstown is finally getting built on after sitting empty since 2021. Embry Development is moving forward with 85 townhomes and condos about a block from the Eastside Trail. It's a sign that even delayed projects are moving again near the Beltline, though neighbors have been waiting a long time for something to happen on that prominent corner.",
-          "body": "If you've walked the Eastside Trail recently, you know that cleared corner at Chester Avenue and Fulton Terrace in Reynoldstown. It's been an empty reminder of stalled development for nearly five years now, ever since the original buildings were demolished in 2021. But finally, there's movement.\n\nEmbry Development Company, which bought the 2-acre site from Toll Brothers two years ago, has started groundwork for what will become Camber Crossing. The project calls for 85 residential units, a mix of townhomes and for-sale condos, just a block west of the Beltline's Eastside Trail. You know the spot - it's right there where Memorial Drive meets all that foot traffic heading to Ponce City Market.\n\nThis is exactly the kind of infill development the Beltline was supposed to encourage, though the timeline shows how even prime real estate can sit idle when financing gets tricky. The original developer got permits but couldn't make the numbers work. Now Embry is betting that the market has caught up to the location, and honestly, with everything else happening along the trail, it's probably the right call.",
+          "id": "reynoldstown-beltline-development-underway",
+          "headline": "Reynoldstown's Stalled Beltline Corner Finally Breaks Ground",
+          "summary": "After nearly five years of sitting as an empty lot, that cleared corner at Chester Avenue and Fulton Terrace in Reynoldstown is finally seeing action. Atlanta-based Embry Development took over from Toll Brothers and is moving forward with 85 residential units just a block from the Eastside Trail. Local folks have been wondering what the heck was happening with that prime spot near Memorial Drive.",
+          "body": "Remember that corner in Reynoldstown where Chester Avenue meets Fulton Terrace? The one that's been sitting empty since they cleared the buildings back in 2021? Well, finally some good news. Embry Development Company has taken over the project from Toll Brothers and is actually breaking ground on what they're calling Camber Crossing.\n\nWe're talking 85 residential units (mix of townhomes and condos) just a block west of the Beltline's Eastside Trail and a stone's throw from Memorial Drive. This is exactly the kind of infill development that makes sense in Reynoldstown, especially with all the foot traffic from the trail. The fact that it sat vacant for nearly five years while the neighborhood kept evolving around it was honestly pretty frustrating for locals.\n\nEmbry Development's managing partner says they're focused on delivering quality housing that fits the neighborhood's character. Given how hot Reynoldstown has gotten with young professionals and families wanting to be close to the Beltline, these units should move pretty quickly once they're ready. It's about time this corner got the attention it deserved.",
           "neighborhood": "Reynoldstown",
           "neighborhoods": [
             "Reynoldstown",
@@ -42,21 +42,21 @@
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/project-reynoldstown-beltline-development-finally-underway",
           "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/Camber%20Crossing%20195%20Chester%20Avenue%20March%202026%201.jpg?itok=_z_7QhjR",
-          "imageAlt": "Construction equipment at the Reynoldstown development site near the Beltline",
-          "publishedAt": "2026-03-24T17:30:32Z",
+          "imageAlt": "Construction equipment and work beginning at the Reynoldstown development site",
+          "publishedAt": "2026-03-24T17:30:32.000Z",
           "keywords": [
             "Reynoldstown",
-            "Beltline",
-            "development",
-            "townhomes",
-            "Eastside Trail"
+            "Beltline development",
+            "Atlanta housing",
+            "Eastside Trail",
+            "infill development"
           ]
         },
         {
-          "id": "decatur-affordable-housing-village-opening",
-          "headline": "Decatur's 'Missing Middle' Housing Village Almost Ready to Launch",
-          "summary": "Cottages at Midway is wrapping up construction on 18 standalone houses built around shared courtyards on Midway Road. The goal is creating more accessible single-family housing near Decatur, where median home values have hit $700,000. It's the kind of village-style development that could offer a middle ground between apartments and expensive houses.",
-          "body": "With Decatur home prices pushing $700,000, finding affordable single-family housing ITP feels nearly impossible. But Cottages at Midway might offer a solution that's been missing from the market. The 18-house development on Midway Road is designed as a village-style community with shared courtyards and green space, replacing two underused lots.\n\nThe project is targeting what planners call \"missing middle\" housing - the space between apartments and expensive single-family homes. Instead of maximizing density, the developers focused on community design, clustering houses around common areas that encourage neighbors to actually know each other. It's a throwback to how neighborhoods used to be built.\n\nA soft launch starts next week to drum up interest before the full opening. The location puts residents within walking distance of downtown Decatur while staying at price points that might actually work for middle-class families. If it succeeds, expect more developers to try similar approaches to the affordability crisis.",
+          "id": "decatur-missing-middle-housing-debut",
+          "headline": "Decatur Gets 18 Affordable Cottages in Village-Style Community",
+          "summary": "Cottages at Midway is getting ready to launch as a 'missing middle' housing solution near downtown Decatur. These 18 standalone houses on Midway Road are designed around shared courtyards and green space, aiming to offer more accessible single-family options in an area where median home values have hit $700,000. It's the kind of thoughtful infill that could help address Decatur's affordability crunch.",
+          "body": "With Decatur home prices hitting over $700,000, finding anything approaching affordable in the city limits feels nearly impossible. Enter Cottages at Midway, a new community that's trying to thread the needle on that 2.1-acre site at 2883 and 2893 Midway Road.\n\nThis isn't your typical subdivision. We're talking 18 standalone houses arranged around shared courtyards and common green space, what planners call 'village-style' development. The goal is creating community while keeping costs more reasonable than what you'd pay for a renovated bungalow in downtown Decatur. The developers are calling it a soft launch next week, which means they're ready to start drumming up interest.\n\nWhat makes this interesting is the location. You're close to a major commercial corridor but still in that sweet spot near downtown Decatur. Given how much young families want to be in the Decatur school district, these could move fast once word gets out. It's exactly the kind of 'missing middle' housing that cities like Decatur need more of.",
           "neighborhood": "Decatur",
           "neighborhoods": [
             "Decatur"
@@ -64,14 +64,36 @@
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/decatur-cottages-midway-village-relatively-attainable-decatur-housing-nears-debut",
           "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-09/Cottages%20at%20Midway%20map%202.png?itok=7E4R37YD",
-          "imageAlt": "Site plan for Cottages at Midway development in Decatur",
-          "publishedAt": "2026-03-24T18:41:16Z",
+          "imageAlt": "Site map showing the layout of the Cottages at Midway development",
+          "publishedAt": "2026-03-24T18:41:16.000Z",
           "keywords": [
-            "Decatur",
-            "affordable housing",
+            "Decatur housing",
             "missing middle",
-            "development",
-            "community design"
+            "affordable housing",
+            "village development",
+            "Decatur schools"
+          ]
+        },
+        {
+          "id": "west-end-beltline-townhomes-rising",
+          "headline": "West End's GW Parkside Townhomes Start Taking Shape",
+          "summary": "Those townhomes going up at 600 Hopkins Street in the West End are finally showing some real progress. Ackerman & Co. (the folks behind Lee + White) started this project a year ago and now the first seven units are nearly topped out. These 23 for-sale townhomes are hitting the market this spring, bringing some rare homeownership options right along the Beltline's southwest stretch.",
+          "body": "If you've been walking the Beltline's southwest section lately, you've probably noticed the construction at 600 Hopkins Street in the West End. That's GW Parkside (formerly called Hopkins and White Townhomes), and it's finally starting to look like something.\n\nAckerman & Co., the same developers who've been expanding Lee + White into a legitimate food and office destination, broke ground on this project a year ago. Now we've got seven units nearly topped out, with 16 more to follow. That's 23 total for-sale townhomes, which is pretty rare along this stretch of the Beltline where most new construction has been apartments.\n\nWhat's interesting is the timing. The West End has been slower to see the kind of development boom that hit other Beltline neighborhoods, but projects like this suggest that's changing. These should hit the market this spring, and given the location right along the trail, they'll probably appeal to folks who want the Beltline lifestyle but don't want to pay Old Fourth Ward prices.",
+          "neighborhood": "West End",
+          "neighborhoods": [
+            "West End"
+          ],
+          "source": "Urbanize Atlanta",
+          "sourceUrl": "https://atlanta.urbanize.city/post/gw-parkside-west-end-townhomes-project-beltline-starts-rising",
+          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/GW%20Parkside%20Gordon%20White%20Parkside%201.png?itok=vN7x7ctQ",
+          "imageAlt": "Rendering of the GW Parkside townhomes near the Beltline",
+          "publishedAt": "2026-03-23T12:07:18.000Z",
+          "keywords": [
+            "West End",
+            "Beltline townhomes",
+            "Atlanta housing",
+            "Lee + White",
+            "homeownership"
           ]
         }
       ]
@@ -80,70 +102,49 @@
       "category": "Food & Drink",
       "stories": [
         {
-          "id": "mushi-ni-opens-inman-park-elizabeth-street",
+          "id": "mushi-ni-opens-inman-park",
           "headline": "Mushi Ni Brings Asian-American Comfort Food to Inman Park",
-          "summary": "Chefs Michael Le and Tanya Jimenez opened their first restaurant today on Elizabeth Street, just off the Freedom Park Trail. The menu features Peking chicken platters, soft shell crab bao, and Thai tea martinis. Both are restaurant industry veterans - Jimenez worked for Gordon Ramsay in NYC before moving to Atlanta.",
-          "body": "After years of pop-ups and restaurant industry experience, chefs Michael Le and Tanya Jimenez finally have their own place. Mushi Ni opened today on Elizabeth Street in Inman Park, right by the Freedom Park Trail, serving what they call Asian-American comfort food.\n\nThe menu hits that sweet spot between familiar and interesting. You'll find soft shell crab bao and chicken longanisa alongside umami fries and crab Rangoon puffs. The Peking chicken platter feeds two for $25, which feels reasonable for the neighborhood. They're also doing Thai tea martinis and other cocktails for both lunch and dinner.\n\nJimenez brings serious credentials - she worked for Gordon Ramsay in New York before moving to Atlanta. Le has his own restaurant background. Together, they've been testing concepts around the city, and the Inman Park location gives them a chance to build something permanent. The Elizabeth Street spot puts them right in the path of trail traffic, which should help with discovery.",
+          "summary": "Chefs Michael Le and Tanya Jimenez just opened their first restaurant on Elizabeth Street, right off the Freedom Park Trail. Mushi Ni serves up everything from soft shell crab bao to Peking chicken platters, plus Thai tea martinis. It's the kind of elevated Asian-American comfort food that Inman Park has been missing, and at $25 for a Peking chicken platter that feeds two, the pricing feels right.",
+          "body": "After years of pop-ups and working in other people's kitchens, Michael Le and Tanya Jimenez finally have their own place. Mushi Ni opened today on Elizabeth Street in Inman Park, and it's exactly what this stretch needed - serious Asian-American comfort food that doesn't take itself too seriously.\n\nWe're talking soft shell crab bao, chicken longanisa bao, umami fries, crab Rangoon puffs, and their signature Peking chicken platters that feed two people for $25. Le and Jimenez both have serious restaurant pedigree (she worked for Gordon Ramsay in New York before moving to Atlanta), and it shows in the execution. The cocktails include Thai tea martinis, which honestly sounds like something that could become a signature drink for the neighborhood.\n\nThe location is perfect - right off the Freedom Park Trail where you get foot traffic from both the trail and people heading to and from Little Five Points. Inman Park has had some great food options, but this fills a gap that's been there for a while. Given how much the neighborhood loves supporting local spots, this could become a real anchor for that section of Elizabeth Street.",
           "neighborhood": "Inman Park",
           "neighborhoods": [
-            "Inman Park"
+            "Inman Park",
+            "Little Five Points"
           ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/03/24/mushi-ni-restaurant-opens-inman-park-atlanta/",
           "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Screenshot-2026-03-24-at-1.37.21-PM-600x517.png",
-          "imageAlt": "Peking chicken dish from Mushi Ni restaurant",
-          "publishedAt": "2026-03-24T18:51:02Z",
+          "imageAlt": "Interior of Mushi Ni restaurant showing the dining area",
+          "publishedAt": "2026-03-24T18:51:02.000Z",
           "keywords": [
-            "Inman Park",
-            "new restaurant",
-            "Asian food",
+            "Inman Park restaurants",
+            "Asian-American food",
             "Freedom Park Trail",
-            "Elizabeth Street"
+            "new restaurant opening",
+            "Atlanta dining"
           ]
         },
         {
-          "id": "lewis-barbecue-opens-ansley-mall-beltline",
-          "headline": "Lewis Barbecue Brings Austin-Style BBQ to Ansley Mall",
-          "summary": "John Lewis, the pitmaster who helped put Austin barbecue on the map, has opened at Ansley Mall behind The Cook's Warehouse. The upstairs smokehouse has panoramic windows overlooking the new Beltline pedestrian bridge, with six 22-foot smokers running 24 hours a day. It's some of the best brisket you'll find in Atlanta.",
-          "body": "The smokehouse at Lewis Barbecue is unlike anything you've seen in Atlanta. Most barbecue joints hide their cookers in back rooms or outdoor sheds, but John Lewis put his six 22-foot smokers upstairs in a loft with floor-to-ceiling windows overlooking the new Beltline pedestrian bridge. It looks like the fanciest engine room in Georgia, and it runs 24 hours a day.\n\nLewis helped weld those smokers himself out of 1,000-gallon propane tanks. The man knows his way around both Austin and Charleston barbecue scenes, and he's brought that knowledge to Ansley Mall. The brisket here competes with anything you'll find in the city, with that perfect balance of smoke and heat that makes great Texas-style barbecue.\n\nThe location behind The Cook's Warehouse puts Lewis right on the Beltline corridor, catching foot traffic from the trail. The timing feels right - Atlanta's barbecue scene has room for someone with Lewis's credentials, and the Ansley Mall spot gives him the space to do things properly. Those panoramic windows aren't just for show; they let you watch the whole smoking process while you eat.",
+          "id": "lewis-barbecue-beltline-ansley",
+          "headline": "Lewis Barbecue's Austin-Style Brisket Lands at Ansley Mall",
+          "summary": "The smokehouse behind The Cook's Warehouse at Ansley Mall is unlike anything else in Atlanta. John Lewis brought his Austin barbecue expertise (by way of Charleston) to a loft space with panoramic windows overlooking the new Beltline bridge. Six 22-foot smokers run 24/7, turning out some of the best brisket you'll find in the city. This isn't your typical Atlanta barbecue spot.",
+          "body": "Most barbecue joints hide their smokers in back alleys or screened-off areas. John Lewis put his upstairs in a spacious loft with floor-to-ceiling windows overlooking the new pedestrian bridge to the Beltline. It's like the fanciest engine room in Georgia, with six 22-foot smokers he helped weld out of 1,000-gallon propane tanks.\n\nLewis brought his Austin credentials to Atlanta via Charleston, and the difference shows up in every bite of brisket. We're talking about 24-hour smoking schedules, staggered in eight-hour shifts, producing barbecue that tastes like it came straight from central Texas. The location at Ansley Mall puts it right in the heart of that Piedmont/Midtown area where people know good food.\n\nWhat makes this spot special isn't just the barbecue (though that brisket is legitimately exceptional). It's the whole setup - you can actually watch the smoking process while you eat, and the connection to the Beltline means you're getting foot traffic from all over the city. This feels like the kind of place that could become a destination, not just a neighborhood spot.",
           "neighborhood": "Midtown",
           "neighborhoods": [
-            "Midtown"
+            "Midtown",
+            "Ansley Park"
           ],
           "source": "Atlanta Magazine",
           "sourceUrl": "https://www.atlantamagazine.com/dining-news/lewis-barbecue-brings-the-best-of-austin-by-way-of-charleston-to-the-beltline/",
           "imageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/0326_TexasOnTheBeltline1_GrowlBros._oneuseonly.jpg",
-          "imageAlt": "Barbecue platter at Lewis Barbecue with meat and sides",
-          "publishedAt": "2026-03-24T18:54:47Z",
+          "imageAlt": "Platter of barbecue from Lewis Barbecue showing brisket and sides",
+          "publishedAt": "2026-03-24T18:54:47.000Z",
           "keywords": [
-            "barbecue",
-            "Beltline",
+            "Lewis Barbecue",
+            "Beltline restaurants",
+            "Austin barbecue",
             "Ansley Mall",
-            "Texas BBQ",
-            "smokehouse"
-          ]
-        },
-        {
-          "id": "vela-park-food-hall-east-lake-opening",
-          "headline": "Robert Montwaid's New Food Hall Opens in April Near East Lake",
-          "summary": "The creator of NYC's Gansevoort Market is opening Vela Park Food Works near East Lake Golf Club in mid-April. It's his third Atlanta food hall, featuring six chef-driven concepts with craft cocktails and outdoor dining. The food hall anchors the new Vela Park apartment community.",
-          "body": "Robert Montwaid, the mastermind behind New York City's famous Gansevoort Market, is bringing his food hall expertise to Atlanta's eastside. Vela Park Food Works is finishing construction now at the new Vela Park apartment community near East Lake Golf Club, with an opening planned for mid-April.\n\nThis marks Montwaid's third multi-concept food destination in Atlanta, building on his track record of creating spaces that work for both residents and destination diners. The food hall will feature six different chef-driven concepts, along with craft cocktails and plenty of outdoor dining space. The setup mirrors what made Gansevoort Market so successful - multiple options in one space with room to spread out.\n\nThe location near East Lake puts it in a part of town that's been waiting for this kind of dining destination. The apartment community gives it a built-in customer base, but the food hall concept should draw from across the eastside. Montwaid has proven he knows how to make these projects work, and the April opening gives him a good runway into summer when outdoor dining really picks up.",
-          "neighborhood": "East Atlanta",
-          "neighborhoods": [
-            "East Atlanta",
-            "Kirkwood"
-          ],
-          "source": "Urbanize Atlanta",
-          "sourceUrl": "https://atlanta.urbanize.city/post/robert-montwaid-vela-park-food-hall-sets-opening-images-exclusive",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/1.2%20Vela%20Park%20Food%20Works.jpg?itok=1OJnSkDu",
-          "imageAlt": "Interior rendering of Vela Park Food Works showing dining areas",
-          "publishedAt": "2026-03-23T17:48:43Z",
-          "keywords": [
-            "food hall",
-            "East Lake",
-            "Robert Montwaid",
-            "restaurants",
-            "eastside dining"
+            "Atlanta brisket"
           ]
         }
       ]
@@ -152,10 +153,10 @@
       "category": "Transit & Infrastructure",
       "stories": [
         {
-          "id": "atlanta-airport-tsa-lines-ice-agents-chaos",
-          "headline": "ICE Agents Walk Around Atlanta Airport While TSA Lines Stretch for Hours",
-          "summary": "Federal immigration agents are at Hartsfield-Jackson to help with security as the government shutdown continues, but travelers say they're mostly just standing around. TSA agents are working without pay, leading to long lines and unpredictable wait times. The airport warned of four-hour delays on Monday.",
-          "body": "The scene at Hartsfield-Jackson this week has been something else. ICE agents in tactical gear are walking around the terminals, supposedly helping with security as TSA agents work without pay during the partial government shutdown. But travelers are telling a different story - the agents are mostly just standing there, not really doing anything to help the lines move faster.\n\nMayor Dickens assured everyone that the ICE agents won't be doing immigration enforcement during this deployment, just providing security support. Still, it's an unusual sight at the world's busiest airport, and it highlights how desperate the situation has become. TSA agents have been working without paychecks for over a month, and nearly 3,500 called out on Monday alone.\n\nThe wait times have been all over the place - four hours one day, 30 minutes the next. Delta even suspended its special services for Congress members because of resource constraints. It's a mess that's affecting everyone trying to travel through Atlanta, and there's no clear end in sight until the shutdown gets resolved.",
+          "id": "ice-agents-atlanta-airport-chaos",
+          "headline": "ICE Agents Show Up at Airport but Travelers Say They're Just Standing Around",
+          "summary": "ICE agents are now walking around Hartsfield-Jackson as the partial government shutdown creates massive TSA lines, but travelers and officials can't figure out what they're actually doing. The Trump administration deployed them to help with the chaos, but they're not doing security screenings or immigration enforcement. Meanwhile, TSA agents are working without pay and 41% called out on Sunday, creating wait times of four hours or more.",
+          "body": "The scene at Hartsfield-Jackson is pretty surreal right now. You've got ICE agents in tactical gear walking around the terminals while travelers stand in security lines that stretch for hours, and nobody seems clear on what the agents are supposed to be doing. They're not screening passengers, they're not doing immigration enforcement - they're just there.\n\nThe numbers tell the story of how bad things have gotten. On Sunday, 41% of TSA agents at the Atlanta airport called out of work. When you're dealing with the world's busiest airport and nearly half your security workforce doesn't show up, you get the kind of chaos we're seeing now. People are reporting four-hour waits just to get through security, and that's on a good day.\n\nMayor Andre Dickens tried to reassure folks that the ICE agents won't be doing immigration enforcement, but travelers we talked to said they're mostly just standing around. One person put it bluntly: 'I don't think I've ever seen it this busy, and they can't do anything.' It's a perfect example of how political theater doesn't solve actual operational problems. TSA agents need to get paid, period.",
           "neighborhood": "Downtown",
           "neighborhoods": [
             "Downtown"
@@ -163,21 +164,21 @@
           "source": "Georgia Recorder",
           "sourceUrl": "https://georgiarecorder.com/2026/03/23/ice-agents-deployed-to-atlanta-airport-as-shutdown-drives-long-waits/",
           "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/03/DSC_4409-1024x683.jpg",
-          "imageAlt": "Long TSA security lines at Atlanta airport during government shutdown",
-          "publishedAt": "2026-03-23T22:28:38Z",
+          "imageAlt": "ICE agents at Hartsfield-Jackson Atlanta International Airport",
+          "publishedAt": "2026-03-23T22:28:38.000Z",
           "keywords": [
             "Atlanta airport",
-            "TSA",
-            "government shutdown",
-            "travel delays",
-            "ICE agents"
+            "TSA shutdown",
+            "ICE agents",
+            "Hartsfield-Jackson",
+            "travel delays"
           ]
         },
         {
-          "id": "decatur-bike-lanes-complete-streets-project",
-          "headline": "Decatur's Complete Streets Project Almost Done After Years of Planning",
-          "summary": "The West Howard Avenue project between downtown Decatur and East Lake MARTA station is wrapping up after nearly a decade in planning. The one-mile stretch now has a two-way cycle track with concrete barriers, wider sidewalks, and traffic calming measures. It transforms what used to be a high-speed corridor into something more people-friendly.",
-          "body": "After nearly a decade of planning, Decatur's big Complete Streets project on West Howard Avenue is almost finished. The roughly one-mile stretch between Commerce Drive (near Decatur High School) and Paden Circle (by East Lake MARTA station) now looks completely different from the high-speed drag strip it used to be.\n\nThe centerpiece is a two-way cycle track with concrete barriers running most of the length, along with wider sidewalks and traffic calming measures throughout. It's the kind of infrastructure that makes streets work for people, not just cars. The project connects downtown Decatur to the MARTA station, which should encourage more people to bike or walk instead of driving.\n\nWork started last August, and you can see the transformation is nearly complete. The concrete barriers and repaved sections make it clear this isn't just a paint job - it's a fundamental rethinking of how this corridor functions. Other cities are watching projects like this to see if Complete Streets really work in practice, and Decatur's version should provide some good lessons.",
+          "id": "decatur-complete-streets-nearly-done",
+          "headline": "Decatur's West Howard Complete Streets Project Almost Finished",
+          "summary": "That big Complete Streets makeover along West Howard Avenue in Decatur is finally wrapping up after nearly a decade of planning. The roughly one-mile stretch from Commerce Drive to Paden Circle now has a two-way cycle track with concrete barriers, new sidewalks, and traffic calming features. It's exactly the kind of infrastructure that makes Decatur feel more like a real city and less like a suburban speedway.",
+          "body": "If you've been avoiding West Howard Avenue in Decatur because of all the construction, it's time to take another look. The Complete Streets project that started last August is almost done, and the transformation is pretty impressive. We're talking about a full mile from Commerce Drive (near Decatur High School) down to Paden Circle by the East Lake MARTA station.\n\nThe big addition is a two-way cycle track with concrete barriers - not just painted bike lanes that cars ignore, but actual protected space for cyclists. They've also redone the sidewalks and added traffic calming features that should slow down the cars that used to treat this stretch like a highway. It's been in the works for nearly a decade, so seeing it actually happen feels pretty significant.\n\nThis is the kind of infrastructure project that changes how people move around a city. Instead of West Howard being a car-only speedway, you've got options for walking, biking, and taking transit. Given how much Decatur talks about walkability and sustainability, putting concrete behind those words matters. Plus, the connection to East Lake MARTA means this could become a real commuter route for people biking to the train.",
           "neighborhood": "Decatur",
           "neighborhoods": [
             "Decatur"
@@ -185,14 +186,14 @@
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/decatur-bike-lanes-west-howard-avenue-project-complete-street-photos",
           "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/9%20Decatur%20Complete%20Street%20West%20Howard%20Avenue%20Cycle%20Track.jpg?itok=MrEfjH6U",
-          "imageAlt": "New bike lanes and sidewalks on West Howard Avenue in Decatur",
-          "publishedAt": "2026-03-23T19:46:13Z",
+          "imageAlt": "New protected bike lanes and sidewalks on West Howard Avenue in Decatur",
+          "publishedAt": "2026-03-23T19:46:13.000Z",
           "keywords": [
-            "Decatur",
+            "Decatur infrastructure",
+            "complete streets",
             "bike lanes",
-            "Complete Streets",
-            "MARTA",
-            "transportation"
+            "West Howard Avenue",
+            "MARTA"
           ]
         }
       ]
@@ -201,10 +202,10 @@
       "category": "Politics & Policy",
       "stories": [
         {
-          "id": "atlanta-city-council-ice-resolution-fire-union",
-          "headline": "City Council Advances ICE Controls as Firefighters Blast Mayor",
-          "summary": "The Public Safety Committee unanimously advanced resolutions to bar ICE detention facilities in Atlanta and require documentation when agents work with police. Meanwhile, dozens of firefighters criticized Mayor Dickens for refusing to sign their first-ever union contract that council already ratified.",
-          "body": "Atlanta City Council's Public Safety Committee had a lot to unpack this week, and most of it centered on federal enforcement and labor disputes. The committee unanimously advanced two resolutions targeting ICE operations - one would ban detention facilities within city limits, while the other requires Atlanta police to document any time ICE agents are present during their operations.\n\nBut the bigger drama came from dozens of firefighters who showed up to criticize Mayor Dickens for refusing to sign their union contract. The city council ratified the agreement back in April 2025, making it Atlanta's first-ever firefighter union contract, but Dickens has been sitting on it ever since. The timing is particularly awkward given all the federal agents currently walking around the airport.\n\nBoth ICE resolutions head to the full council for a vote on April 20. The firefighter contract situation remains in limbo, with union members clearly frustrated that their groundbreaking agreement is stuck in the mayor's office while other cities are moving ahead with similar deals.",
+          "id": "atlanta-city-council-ice-controls",
+          "headline": "City Council Advances Resolutions to Limit ICE Operations",
+          "summary": "Atlanta's Public Safety Committee unanimously moved forward two resolutions aimed at controlling ICE activities in the city. One would ban ICE detention facilities within city limits, the other would require Atlanta police to document when ICE agents are present during their operations. The full council votes April 20, and dozens of residents showed up to support the measures while also criticizing Mayor Dickens for not signing the firefighter union contract.",
+          "body": "The timing couldn't be more relevant. Just as ICE agents started showing up at Hartsfield-Jackson, Atlanta's City Council moved forward with two resolutions designed to limit the agency's local operations. The Public Safety Committee unanimously advanced measures that would ban ICE detention facilities in the city and require APD to document whenever ICE agents are involved in their operations.\n\nDozens of residents packed the meeting to support these resolutions, but they also used the opportunity to blast Mayor Andre Dickens for refusing to sign the firefighters' union contract that the council ratified almost a year ago. It was the first council meeting since the International Association of Fire Chiefs said Dickens was undermining collective bargaining, and residents made sure he heard about it.\n\nThe ICE resolutions head to the full council for a vote on April 20. Given the unanimous committee support and the current situation at the airport, they'll probably pass easily. But the real test will be how the city actually implements these policies, especially with the federal government taking an increasingly aggressive stance on immigration enforcement.",
           "neighborhood": "Downtown",
           "neighborhoods": [
             "Downtown"
@@ -212,39 +213,14 @@
           "source": "Atlanta Civic Circle",
           "sourceUrl": "https://atlantaciviccircle.org/2026/03/24/atlanta-city-council-ice-controls-fire-union-contract/",
           "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/IMG_8217-1024x768.jpg",
-          "imageAlt": "Atlanta firefighters at city council meeting",
-          "publishedAt": "2026-03-24T22:03:09Z",
+          "imageAlt": "Atlanta City Council meeting with residents speaking at podium",
+          "publishedAt": "2026-03-24T22:03:09.000Z",
           "keywords": [
             "Atlanta City Council",
-            "ICE",
-            "firefighters",
-            "union contract",
-            "Mayor Dickens"
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Public Safety",
-      "stories": [
-        {
-          "id": "hillgrove-high-school-gun-lockdown-cobb",
-          "headline": "15-Year-Old Arrested After Gun Found at Hillgrove High School",
-          "summary": "A weapon detection system at Hillgrove High School found a gun in a student's possession, triggering a Code Red lockdown. The 15-year-old was arrested within 12 minutes, but the incident left parents and students shaken. The school's principal credited the detection technology for preventing a potentially dangerous situation.",
-          "body": "Hillgrove High School went into Code Red lockdown Tuesday morning after a weapon detection system found a gun on a 15-year-old student. The entire incident, from detection to arrest, was resolved in about 12 minutes, according to Cobb County school officials. Nobody was injured, but those 12 minutes felt much longer for parents and students.\n\nThe weapon was reportedly found in the cafeteria, and the school's detection technology immediately alerted authorities. This is exactly the kind of situation these systems are designed for - catching weapons before they can be used. The principal specifically credited the detection equipment for the quick response, which prevented what could have been a much more serious incident.\n\nParents lined up outside the school during the lockdown, and students were understandably shaken by the whole experience. It's become an unfortunately familiar scene at schools across Georgia, but the quick resolution shows that security measures can work when they're properly implemented. The question is whether we should be relieved that the system worked or concerned that we need these systems in the first place.",
-          "neighborhood": "Cobb County",
-          "neighborhoods": [],
-          "source": "WSB-TV",
-          "sourceUrl": "https://www.wsbtv.com/news/local/cobb-county/parents-students-shaken-after-15-year-old-arrested-bringing-gun-cobb-county-high-school/5N747XH3JFECZJN3KHBUUFJ5DE/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-24-2026%2Ft_32381a931406409593e023cfa0c4b8c8_name_4PP_LOCKDOWN_HILLGROVE_COBB_PKG__transfer_frame_659.jpeg?auth=6bf0c8c683fcd1f243dd8f47c374fd4bf626e225281a409898a3e39d2bc57be9&smart=true&width=1280&height=720",
-          "imageAlt": "Police response at Hillgrove High School during lockdown",
-          "publishedAt": "2026-03-24T20:27:07Z",
-          "keywords": [
-            "school safety",
-            "weapon detection",
-            "Cobb County",
-            "high school",
-            "lockdown"
+            "ICE detention",
+            "immigration policy",
+            "firefighter union",
+            "Andre Dickens"
           ]
         }
       ]
@@ -253,25 +229,26 @@
       "category": "Community",
       "stories": [
         {
-          "id": "beltline-python-atlanta-conda-sighting",
-          "headline": "'Atlanta-Conda': 8-Foot Python Found on the Beltline",
-          "summary": "Video captured someone handling an 8- to 10-foot python found along the Atlanta Beltline, but wildlife officials are warning people not to handle snakes they find. It's definitely not a typical Georgia snake, and experts are concerned about people trying to grab unknown reptiles.",
-          "body": "Just when you think you've seen everything on the Beltline, someone finds an 8-foot python. Joseph Ragland was walking the trail when he spotted what he calls the \"Atlanta-Conda\" and started filming. The video shows someone's uncle (apparently) yanking the snake out of some bushes like it's no big deal, leaving 10 feet of snake sprawled across the trail.\n\nRagland has no idea if the person handling the snake is the owner or just someone who decided to help. Either way, officials from Southeastern Reptile Rescue are not happy about it. Jason Clark says the video is concerning because handling unknown snakes, especially large ones, can be dangerous for both the person and the animal.\n\nThis definitely wasn't a typical Georgia snake - pythons aren't native here, so it was either someone's escaped pet or an abandoned animal. The Beltline attracts all kinds of wildlife, but usually we're talking about birds and the occasional fox, not massive constrictors. Wildlife officials want people to call professionals instead of trying to wrestle snakes themselves.",
-          "neighborhood": "Old Fourth Ward",
+          "id": "atlantic-station-midtown-best-places",
+          "headline": "Atlantic Station and Midtown Land Top 10 on National 'Best Places' List",
+          "summary": "Leave it to Atlanta to grab 20% of a national Top 10 list. Atlantic Station scored the #1 spot on Niche.com's 'Best Places to Live in America' rankings, with Midtown coming in at #6. The rankings looked at schools, cost of living, job opportunities, crime, and local amenities across 18,000 neighborhoods nationwide. Not bad for a city that gets constantly underrated.",
+          "body": "You know how Atlanta always feels like it doesn't get enough national recognition? Well, here's some vindication. Niche.com just dropped their '2026 Best Places to Live in America' list, ranking over 18,000 neighborhoods across the country, and Atlantic Station grabbed the top spot. Midtown wasn't far behind at #6.\n\nThe rankings considered public schools, cost of living, job opportunities, crime rates, and local amenities - basically all the stuff that actually matters when you're deciding where to live. For Atlantic Station to beat out every other neighborhood in the country is pretty remarkable, especially given how much it's evolved from that original corporate development into something that feels like a real community.\n\nWhat's interesting is having both Atlantic Station and Midtown in the top 10. These are very different neighborhoods that appeal to different types of people, but both offer that mix of urban amenities, job access, and livability that makes Atlanta work. It's also worth noting that both areas have invested heavily in walkability and transit access, which probably doesn't hurt when national ranking sites are looking at quality of life factors.",
+          "neighborhood": "Atlantic Station",
           "neighborhoods": [
-            "Old Fourth Ward"
+            "Atlantic Station",
+            "Midtown"
           ],
-          "source": "WSB-TV",
-          "sourceUrl": "https://www.wsbtv.com/news/local/atlanta/atlanta-conda-8-foot-python-spotted-beltline/DXE5U6RFIFBYXBCOZFSSTV5CDE/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-24-2026%2Ft_3550395e51074d7095ed4e9cec13ad37_name_4PP_SNAKE_BELTLINE_ATL_PKG__transfer_frame_459.jpeg?auth=6048f7765f7cc99289e1b0df4bc66db68380778fe3210788f58e96e95de7b1f4&smart=true&width=1280&height=720",
-          "imageAlt": "Large python on the Atlanta Beltline being handled by person",
-          "publishedAt": "2026-03-24T22:41:41Z",
+          "source": "Urbanize Atlanta",
+          "sourceUrl": "https://atlanta.urbanize.city/post/atl-two-districts-top-10-best-places-live-america-list",
+          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-10/Atlantic%20Station%20today%2020250714-Atlantic-Station-177.jpg?itok=sVoTDkv9",
+          "imageAlt": "Atlantic Station development showing modern buildings and walkable streets",
+          "publishedAt": "2026-03-24T12:04:01.000Z",
           "keywords": [
-            "Beltline",
-            "python",
-            "wildlife",
-            "Atlanta snake",
-            "reptile rescue"
+            "Atlantic Station",
+            "Midtown Atlanta",
+            "best places to live",
+            "Atlanta rankings",
+            "quality of life"
           ]
         }
       ]
@@ -280,31 +257,31 @@
   "neighborhoods": {
     "Reynoldstown": {
       "storyCount": 1,
-      "topStory": "reynoldstown-beltline-construction-finally-starts"
-    },
-    "Inman Park": {
-      "storyCount": 1,
-      "topStory": "mushi-ni-opens-inman-park-elizabeth-street"
-    },
-    "Old Fourth Ward": {
-      "storyCount": 1,
-      "topStory": "beltline-python-atlanta-conda-sighting"
+      "topStory": "reynoldstown-beltline-development-underway"
     },
     "Decatur": {
       "storyCount": 2,
-      "topStory": "decatur-affordable-housing-village-opening"
+      "topStory": "decatur-missing-middle-housing-debut"
+    },
+    "West End": {
+      "storyCount": 1,
+      "topStory": "west-end-beltline-townhomes-rising"
+    },
+    "Inman Park": {
+      "storyCount": 1,
+      "topStory": "mushi-ni-opens-inman-park"
     },
     "Midtown": {
-      "storyCount": 1,
-      "topStory": "lewis-barbecue-opens-ansley-mall-beltline"
+      "storyCount": 2,
+      "topStory": "lewis-barbecue-beltline-ansley"
     },
-    "East Atlanta": {
+    "Atlantic Station": {
       "storyCount": 1,
-      "topStory": "vela-park-food-hall-east-lake-opening"
+      "topStory": "atlantic-station-midtown-best-places"
     },
     "Downtown": {
       "storyCount": 2,
-      "topStory": "atlanta-airport-tsa-lines-ice-agents-chaos"
+      "topStory": "ice-agents-atlanta-airport-chaos"
     }
   }
 }
