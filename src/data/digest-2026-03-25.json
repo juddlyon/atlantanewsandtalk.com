@@ -1,0 +1,289 @@
+{
+  "date": "2026-03-25",
+  "generatedAt": "2026-03-25T11:01:35.045Z",
+  "summary": "It's been a busy Tuesday in the SE BeltLine neighborhoods. We've got construction finally starting on that long-delayed Reynoldstown project near the BeltLine, plus news of a major food hall opening next month in Decatur. Meanwhile, the partial government shutdown is causing chaos at the airport with ICE agents deployed to help with security lines.",
+  "topStory": {
+    "id": "reynoldstown-development-finally-breaks-ground",
+    "headline": "Reynoldstown Development Near BeltLine Finally Breaks Ground After Five Years",
+    "summary": "After sitting as an empty lot for nearly five years, construction has finally started on a mixed-use project at Chester Avenue and Fulton Terrace. The 85-unit development is just a block from the BeltLine's Eastside Trail and includes both townhomes and condos. It's another sign of the continued development pressure along our favorite trail.",
+    "body": "You know that corner lot at Chester and Fulton Terrace that's been sitting empty forever? Well, construction crews are finally moving dirt around there. The site was cleared back in 2021, and frankly, I'd started to wonder if anything would ever get built.\n\nEmbry Development Company took over the project from national developer Toll Brothers two years ago, inheriting permits for 85 residential units. The development, which will mix townhomes and for-sale condos, sits about a block west of the BeltLine's Eastside Trail. You can practically see the trail from the construction site, which explains why this particular corner has been so attractive to developers.\n\nThis is just the latest example of the ongoing development boom along the BeltLine corridor. While it's exciting to see more housing options in Reynoldstown, longtime residents are watching carefully to see how these new projects fit into the neighborhood's character. The good news is that Embry has a decent track record with smaller-scale developments that don't completely overwhelm their surroundings.",
+    "neighborhood": "Reynoldstown",
+    "neighborhoods": [
+      "Reynoldstown"
+    ],
+    "source": "Urbanize Atlanta",
+    "sourceUrl": "https://atlanta.urbanize.city/post/project-reynoldstown-beltline-development-finally-underway",
+    "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/Camber%20Crossing%20195%20Chester%20Avenue%20March%202026%201.jpg?itok=_z_7QhjR",
+    "imageAlt": "Construction site at Chester Avenue and Fulton Terrace in Reynoldstown with excavation equipment",
+    "publishedAt": "2026-03-24T17:30:32.000Z",
+    "keywords": [
+      "Reynoldstown",
+      "BeltLine",
+      "housing",
+      "development",
+      "Eastside Trail"
+    ]
+  },
+  "sections": [
+    {
+      "category": "Development & Housing",
+      "stories": [
+        {
+          "id": "reynoldstown-development-finally-breaks-ground",
+          "headline": "Reynoldstown Development Near BeltLine Finally Breaks Ground After Five Years",
+          "summary": "After sitting as an empty lot for nearly five years, construction has finally started on a mixed-use project at Chester Avenue and Fulton Terrace. The 85-unit development is just a block from the BeltLine's Eastside Trail and includes both townhomes and condos. It's another sign of the continued development pressure along our favorite trail.",
+          "body": "You know that corner lot at Chester and Fulton Terrace that's been sitting empty forever? Well, construction crews are finally moving dirt around there. The site was cleared back in 2021, and frankly, I'd started to wonder if anything would ever get built.\n\nEmbry Development Company took over the project from national developer Toll Brothers two years ago, inheriting permits for 85 residential units. The development, which will mix townhomes and for-sale condos, sits about a block west of the BeltLine's Eastside Trail. You can practically see the trail from the construction site, which explains why this particular corner has been so attractive to developers.\n\nThis is just the latest example of the ongoing development boom along the BeltLine corridor. While it's exciting to see more housing options in Reynoldstown, longtime residents are watching carefully to see how these new projects fit into the neighborhood's character. The good news is that Embry has a decent track record with smaller-scale developments that don't completely overwhelm their surroundings.",
+          "neighborhood": "Reynoldstown",
+          "neighborhoods": [
+            "Reynoldstown"
+          ],
+          "source": "Urbanize Atlanta",
+          "sourceUrl": "https://atlanta.urbanize.city/post/project-reynoldstown-beltline-development-finally-underway",
+          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/Camber%20Crossing%20195%20Chester%20Avenue%20March%202026%201.jpg?itok=_z_7QhjR",
+          "imageAlt": "Construction site at Chester Avenue and Fulton Terrace in Reynoldstown with excavation equipment",
+          "publishedAt": "2026-03-24T17:30:32.000Z",
+          "keywords": [
+            "Reynoldstown",
+            "BeltLine",
+            "housing",
+            "development",
+            "Eastside Trail"
+          ]
+        },
+        {
+          "id": "decatur-cottages-midway-affordable-housing",
+          "headline": "Decatur's Missing Middle Housing Project Aims for Affordability",
+          "summary": "A new 18-home development called Cottages at Midway is starting to market its village-style housing near downtown Decatur. The project targets the gap between apartments and expensive single-family homes, with a soft launch planned for next week. It's designed around shared courtyards and green space.",
+          "body": "Finally, someone's trying to tackle that tricky housing gap in Decatur. You know the problem: you either rent an apartment or shell out $700,000+ for a house. Cottages at Midway is attempting to bridge that divide with 18 standalone homes built around shared courtyards and green space.\n\nThe development sits on about two acres at 2883 and 2893 Midway Road, replacing a couple of underused lots. The timing couldn't be better, considering how Decatur's home prices have gone completely bananas. A soft launch starts next week to gauge interest, which suggests they're being strategic about how they roll this out.\n\nThe \"village style\" concept is interesting because it tries to maintain some sense of community while still giving people their own front door. Whether it can actually deliver on the affordability promise remains to be seen, but at least someone's thinking creatively about housing options that aren't just another luxury tower or McMansion subdivision.",
+          "neighborhood": "Decatur",
+          "neighborhoods": [
+            "Decatur"
+          ],
+          "source": "Urbanize Atlanta",
+          "sourceUrl": "https://atlanta.urbanize.city/post/decatur-cottages-midway-village-relatively-attainable-decatur-housing-nears-debut",
+          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-09/Cottages%20at%20Midway%20map%202.png?itok=7E4R37YD",
+          "imageAlt": "Site plan showing layout of Cottages at Midway development in Decatur",
+          "publishedAt": "2026-03-24T18:41:16.000Z",
+          "keywords": [
+            "Decatur",
+            "affordable housing",
+            "missing middle",
+            "development",
+            "Midway Road"
+          ]
+        },
+        {
+          "id": "west-end-beltline-townhomes-progress",
+          "headline": "West End BeltLine Townhomes Start Taking Shape",
+          "summary": "The GW Parkside development along the BeltLine in West End is finally showing some vertical progress. Ackerman & Co. is building 23 for-sale townhomes, with the first seven units expected to hit the market this spring. It's a rare opportunity for homeownership right on the BeltLine's Westside Trail.",
+          "body": "If you've been walking the Westside Trail lately, you've probably noticed some actual construction happening at 600 Hopkins Street. The GW Parkside project (formerly Hopkins and White Townhomes) is finally starting to look like something after a year of site prep and demolition work.\n\nAckerman & Co., the folks behind Lee + White, are developing 23 for-sale townhomes here, and the first seven are getting close to market-ready. This is actually pretty significant because there aren't many opportunities to buy something right on the BeltLine, especially on the west side. Most of what gets built along the trail these days is rental apartments or luxury condos.\n\nThe project represents the ongoing transformation of neighborhoods like West End, where the BeltLine has created development pressure that's both exciting and concerning for longtime residents. At least townhomes feel more neighborhood-appropriate than some of the massive apartment complexes we've seen pop up along other BeltLine sections.",
+          "neighborhood": "West End",
+          "neighborhoods": [
+            "West End"
+          ],
+          "source": "Urbanize Atlanta",
+          "sourceUrl": "https://atlanta.urbanize.city/post/gw-parkside-west-end-townhomes-project-beltline-starts-rising",
+          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/GW%20Parkside%20Gordon%20White%20Parkside%201.png?itok=vN7x7ctQ",
+          "imageAlt": "Rendering of GW Parkside townhomes development in West End",
+          "publishedAt": "2026-03-23T12:07:18.000Z",
+          "keywords": [
+            "West End",
+            "BeltLine",
+            "townhomes",
+            "Westside Trail",
+            "for-sale housing"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Food & Drink",
+      "stories": [
+        {
+          "id": "vela-park-food-hall-eastside-opening",
+          "headline": "NYC Food Hall Pioneer Opens East Lake Location Next Month",
+          "summary": "Robert Montwaid, the guy behind New York's Gansevoort Market, is opening Vela Park Food Works near East Lake Golf Club in mid-April. The food hall will feature six chef-driven concepts plus craft cocktails and outdoor dining. It's part of the larger Vela Park rental community that's been under construction.",
+          "body": "Robert Montwaid has quite the reputation when it comes to food halls. The man behind NYC's legendary Gansevoort Market is bringing his third Atlanta concept to the eastside with Vela Park Food Works, and it's slated to open in mid-April.\n\nThe food hall sits within the nearly 12-acre Vela Park rental community near East Lake Golf Club, and it sounds like they're going all-out with six different chef-driven concepts, craft cocktails, and plenty of outdoor dining space. This isn't just another collection of fast-casual chains thrown together; Montwaid has a track record of curating interesting, high-quality food vendors.\n\nThe timing is interesting because the eastside has been somewhat underserved by the food hall trend compared to areas like Ponce City Market or Krog Street Market. If Montwaid can recreate some of that Gansevoort Market magic here, it could become a real destination for food lovers who don't want to fight the crowds at PCM.",
+          "neighborhood": "East Atlanta",
+          "neighborhoods": [
+            "East Atlanta",
+            "Decatur"
+          ],
+          "source": "Urbanize Atlanta",
+          "sourceUrl": "https://atlanta.urbanize.city/post/robert-montwaid-vela-park-food-hall-sets-opening-images-exclusive",
+          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/1.2%20Vela%20Park%20Food%20Works.jpg?itok=1OJnSkDu",
+          "imageAlt": "Interior rendering of Vela Park Food Works food hall",
+          "publishedAt": "2026-03-23T17:48:43.000Z",
+          "keywords": [
+            "East Lake",
+            "food hall",
+            "Robert Montwaid",
+            "Vela Park",
+            "eastside dining"
+          ]
+        },
+        {
+          "id": "mushi-ni-inman-park-opening",
+          "headline": "Asian-American Comfort Food Spot Opens in Inman Park",
+          "summary": "Mushi Ni opened today on Elizabeth Street, bringing soft shell crab bao, Peking chicken, and Thai tea martinis to Inman Park. Chefs Michael Le and Tanya Jimenez turned their successful pop-up into a brick-and-mortar restaurant right off the Freedom Park Trail. The menu focuses on Asian-American comfort food with creative cocktails.",
+          "body": "Michael Le and Tanya Jimenez have been building a following with their pop-up concept, and today they finally got their own brick-and-mortar space. Mushi Ni opened on Elizabeth Street in Inman Park, just a short walk from the Freedom Park Trail, and they're serving up the kind of Asian-American comfort food that's been missing from the neighborhood.\n\nThe menu hits all the right notes: soft shell crab bao, chicken longanisa bao, umami fries, and crab Rangoon puffs for snacking, plus heartier options like Peking chicken platters that feed two for $25. They're also doing creative cocktails like Thai tea martinis, which sounds like exactly the kind of thing you'd want after a walk through Freedom Park.\n\nBoth chefs have serious credentials (Jimenez worked for Gordon Ramsay in NYC before moving to Atlanta), and their approach to Asian-American fusion feels thoughtful rather than gimmicky. The location is perfect too, tucked into a spot where locals can easily walk over for lunch or dinner without dealing with the chaos of some of the busier corridors.",
+          "neighborhood": "Inman Park",
+          "neighborhoods": [
+            "Inman Park"
+          ],
+          "source": "Rough Draft Atlanta",
+          "sourceUrl": "https://roughdraftatlanta.com/2026/03/24/mushi-ni-restaurant-opens-inman-park-atlanta/",
+          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Screenshot-2026-03-24-at-1.37.21-PM-600x517.png",
+          "imageAlt": "Peking chicken platter at Mushi Ni restaurant",
+          "publishedAt": "2026-03-24T18:51:02.000Z",
+          "keywords": [
+            "Inman Park",
+            "Asian-American cuisine",
+            "Mushi Ni",
+            "Freedom Park Trail",
+            "bao"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Transit & Infrastructure",
+      "stories": [
+        {
+          "id": "decatur-complete-streets-west-howard",
+          "headline": "Decatur's Complete Streets Project Nearly Finished on West Howard",
+          "summary": "After almost a decade in planning, Decatur's transformation of West Howard Avenue is nearly complete. The project includes a two-way cycle track with concrete barriers, new sidewalks, and traffic calming measures from Commerce Drive to the Atlanta city limits. It's designed to make the corridor safer for pedestrians and cyclists.",
+          "body": "It's taken nearly a decade, but Decatur is finally wrapping up its ambitious plan to transform West Howard Avenue from a car-centric speedway into something more people-friendly. The Complete Streets project stretches about a mile from Commerce Drive (near Decatur High School) to the Atlanta city limits at Paden Circle.\n\nThe centerpiece is a two-way cycle track with concrete barriers that runs most of the length of the corridor. They've also added new sidewalks, upgraded infrastructure, and implemented traffic calming measures designed to slow down drivers who used to treat this as their personal highway. The timing is perfect since this connects to the northern edge of East Lake MARTA station.\n\nThis is exactly the kind of infrastructure investment that makes neighborhoods more walkable and bikeable. West Howard was always a barrier between downtown Decatur and the surrounding neighborhoods, and this project should make it much easier for people to get around without a car. It's also a good example of how Complete Streets principles can work even on busy corridors when you're willing to commit the resources and political will.",
+          "neighborhood": "Decatur",
+          "neighborhoods": [
+            "Decatur"
+          ],
+          "source": "Urbanize Atlanta",
+          "sourceUrl": "https://atlanta.urbanize.city/post/decatur-bike-lanes-west-howard-avenue-project-complete-street-photos",
+          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/9%20Decatur%20Complete%20Street%20West%20Howard%20Avenue%20Cycle%20Track.jpg?itok=MrEfjH6U",
+          "imageAlt": "New cycle track and sidewalks on West Howard Avenue in Decatur",
+          "publishedAt": "2026-03-23T19:46:13.000Z",
+          "keywords": [
+            "Decatur",
+            "Complete Streets",
+            "bike lanes",
+            "West Howard Avenue",
+            "traffic calming"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Politics & Policy",
+      "stories": [
+        {
+          "id": "atlanta-council-ice-controls-fire-union",
+          "headline": "City Council Advances ICE Restrictions, Questions Mayor on Fire Contract",
+          "summary": "Atlanta's Public Safety Committee unanimously passed resolutions to ban ICE detention facilities and require police documentation when ICE agents are present during operations. The full council votes April 20. Dozens also criticized Mayor Dickens for not signing the firefighters' union contract that council ratified last year.",
+          "body": "The Public Safety Committee had quite a full agenda yesterday, with two significant ICE-related resolutions moving forward unanimously. The first would ban Immigration and Customs Enforcement detention facilities within city limits, while the second requires Atlanta police to document when ICE agents are present during their operations. Both head to the full council for a vote on April 20.\n\nBut the fireworks weren't just about ICE policy. Dozens of residents showed up to ask some pointed questions about why Mayor Dickens still hasn't signed the firefighters' union contract that the city council ratified back in April 2025. This was the first council meeting since that contract dispute became public, and people clearly want answers.\n\nThe ICE resolutions are particularly timely given what's happening at the airport right now with federal agents being deployed to help with security lines. These measures would give Atlanta some additional tools to limit federal immigration enforcement within city limits, though the practical impact remains to be seen given federal vs. local authority questions.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "Atlanta Civic Circle",
+          "sourceUrl": "https://atlantaciviccircle.org/2026/03/24/atlanta-city-council-ice-controls-fire-union-contract/",
+          "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/IMG_8217-1024x768.jpg",
+          "imageAlt": "Atlanta City Council Public Safety Committee meeting",
+          "publishedAt": "2026-03-24T22:03:09.000Z",
+          "keywords": [
+            "Atlanta City Council",
+            "ICE",
+            "immigration",
+            "firefighters union",
+            "Mayor Dickens"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Public Safety",
+      "stories": [
+        {
+          "id": "atlanta-airport-ice-agents-security",
+          "headline": "ICE Agents Deployed to Atlanta Airport as TSA Struggles",
+          "summary": "Immigration and Customs Enforcement agents are now working at Hartsfield-Jackson to help with security as the partial government shutdown continues to strain TSA operations. Mayor Dickens assured residents the agents won't engage in immigration enforcement during this deployment. Wait times have been fluctuating wildly.",
+          "body": "The ongoing federal shutdown has created some serious chaos at the world's busiest airport, and now ICE agents are walking the terminals in tactical gear to help shore up security operations. Mayor Dickens announced the deployment Sunday night, though he was quick to emphasize that these agents won't be doing immigration enforcement while they're here.\n\nThe situation has been pretty unpredictable for travelers, with wait times swinging wildly from four hours to 30 minutes depending on the day and time. TSA agents are working without pay, which has led to higher-than-normal callout rates and staffing shortages. That's where the ICE agents come in, basically providing additional security presence even though they can't actually screen passengers.\n\nThis whole mess highlights just how dependent we are on federal workers who keep critical infrastructure running. Hartsfield-Jackson isn't just important to Atlanta; it's a major hub that connects the entire Southeast to the world. When something goes wrong here, it ripples out everywhere.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown",
+            "East Atlanta"
+          ],
+          "source": "Capital B Atlanta",
+          "sourceUrl": "https://atlanta.capitalbnews.org/ice-atlanta-dentention-facility-social-circle/",
+          "imageUrl": "https://i0.wp.com/atlanta.capitalbnews.org/wp-content/uploads/2026/02/GettyImages-2266397199-scaled.jpg?fit=1024%2C683&ssl=1",
+          "imageAlt": "TSA security checkpoint at airport with long lines",
+          "publishedAt": "2026-03-23T13:00:00.000Z",
+          "keywords": [
+            "Hartsfield-Jackson",
+            "TSA",
+            "ICE agents",
+            "airport security",
+            "government shutdown"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Community",
+      "stories": [
+        {
+          "id": "atlanta-parks-climate-resilience-conference",
+          "headline": "Park Pride Conference Tackles Climate Change and Green Space",
+          "summary": "Park Pride's 25th annual Parks & Greenspace Conference drew hundreds to the Atlanta Botanical Garden to discuss how parks can build climate resilience. The theme was \"Resilient Parks, Resilient Communities,\" with attendees from across the Southeast sharing strategies for adapting green spaces to climate challenges.",
+          "body": "Park Pride's annual conference has become the Southeast's biggest gathering of parks and greenspace advocates, and this year's 25th anniversary event tackled one of the most pressing issues facing our urban forests and green spaces: climate change. Hundreds of attendees packed into the Atlanta Botanical Garden to discuss \"Resilient Parks, Resilient Communities.\"\n\nPark Pride Education Director Eli Dickerson opened with a sobering reality check: \"Maybe no city is a climate refuge.\" But rather than doom and gloom, the conference focused on practical strategies for making our parks and green spaces more resilient to extreme weather, rising temperatures, and changing precipitation patterns. This builds on similar discussions they had back in 2018 about urban resilience.\n\nThe timing couldn't be more relevant as Atlanta grapples with increasingly hot summers, more frequent severe storms, and the urban heat island effect that hits some neighborhoods harder than others. Parks aren't just nice amenities anymore; they're critical infrastructure for helping communities adapt to climate change. The strategies discussed here will likely influence how we think about everything from tree selection to stormwater management in parks across the region.",
+          "neighborhood": "Midtown",
+          "neighborhoods": [
+            "Midtown"
+          ],
+          "source": "SaportaReport",
+          "sourceUrl": "https://saportareport.com/can-resilient-parks-help-save-the-world-park-pride-tackles-climate-change-at-annual-conference/columnists/delaney-tarr/delaneytarr/",
+          "imageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/03/IMG_3223-scaled.jpeg?fit=1024%2C768&ssl=1",
+          "imageAlt": "Attendees at Park Pride conference at Atlanta Botanical Garden",
+          "publishedAt": "2026-03-24T21:15:13.000Z",
+          "keywords": [
+            "Park Pride",
+            "climate change",
+            "parks",
+            "Atlanta Botanical Garden",
+            "resilience"
+          ]
+        }
+      ]
+    }
+  ],
+  "neighborhoods": {
+    "Reynoldstown": {
+      "storyCount": 1,
+      "topStory": "reynoldstown-development-finally-breaks-ground"
+    },
+    "Decatur": {
+      "storyCount": 2,
+      "topStory": "decatur-cottages-midway-affordable-housing"
+    },
+    "West End": {
+      "storyCount": 1,
+      "topStory": "west-end-beltline-townhomes-progress"
+    },
+    "East Atlanta": {
+      "storyCount": 1,
+      "topStory": "vela-park-food-hall-eastside-opening"
+    },
+    "Inman Park": {
+      "storyCount": 1,
+      "topStory": "mushi-ni-inman-park-opening"
+    },
+    "Downtown": {
+      "storyCount": 2,
+      "topStory": "atlanta-council-ice-controls-fire-union"
+    },
+    "Midtown": {
+      "storyCount": 1,
+      "topStory": "atlanta-parks-climate-resilience-conference"
+    }
+  }
+}
