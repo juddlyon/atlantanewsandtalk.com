@@ -18,7 +18,7 @@ Hyperlocal Atlanta news aggregator focused on Inside The Perimeter (ITP) neighbo
 - `npm run fetch` — fetch RSS articles to `src/data/raw-articles.json`
 - `npm run summarize` — summarize raw articles into digest (requires ANTHROPIC_API_KEY, currently disabled)
 - `npm run rollback` — list or restore previous digest versions
-- `netlify deploy --prod` — deploy to production
+- `netlify deploy --prod --dir=dist` — upload pre-built site (no build minutes used)
 
 ### Daily Update Workflow (via Claude Code)
 
@@ -26,8 +26,9 @@ When the user says **"run today's news"**, execute this full workflow:
 
 1. `npm run fetch` — fetch RSS articles from 20 sources
 2. **Summarize in Claude Code** — read `raw-articles.json`, generate digest JSON, write to `digest-latest.json` and `digest-YYYY-MM-DD.json`
-3. `git add src/data/digest-*.json && git commit -m "archive digest YYYY-MM-DD" && git push` — **REQUIRED: lock archives into git**
-4. `netlify deploy --prod` — deploy to production
+3. `npm run build` — build the static site locally
+4. `git add src/data/digest-*.json && git commit -m "archive digest YYYY-MM-DD" && git push` — **REQUIRED: lock archives into git**
+5. `netlify deploy --prod --dir=dist` — upload pre-built dist (no Netlify build minutes)
 
 **Why Claude Code instead of API?** Summarization runs through the Claude Code conversation (covered by Max subscription) instead of the external Anthropic API, eliminating per-token costs.
 
