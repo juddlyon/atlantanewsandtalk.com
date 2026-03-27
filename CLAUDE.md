@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Hyperlocal Atlanta news aggregator focused on Inside The Perimeter (ITP) neighborhoods, especially the SE BeltLine corridor. Pulls from 20 local RSS feeds, summarizes via Claude API, and publishes as a static Astro site on Netlify. Supports SEO for local businesses (real estate, small biz).
+Hyperlocal Atlanta news aggregator focused on Inside The Perimeter (ITP) neighborhoods, especially the SE BeltLine corridor. Pulls from 20 local RSS feeds, summarizes via Claude Code, and publishes as a static Astro site on Netlify. Supports SEO for local businesses (real estate, small biz).
+
+**PERSISTENCE IS A HARD REQUIREMENT.** Every daily digest must be committed to git so story URLs accumulate SEO value over time. Never skip the git commit step.
 
 **Live site:** https://atlantanewsandtalk.com
 
@@ -14,10 +16,20 @@ Hyperlocal Atlanta news aggregator focused on Inside The Perimeter (ITP) neighbo
 - `npm run build` — build static site to `dist/`
 - `npx serve dist` — preview built site (Netlify adapter doesn't support `astro preview`)
 - `npm run fetch` — fetch RSS articles to `src/data/raw-articles.json`
-- `npm run summarize` — summarize raw articles into digest (requires ANTHROPIC_API_KEY)
-- `npm run update` — fetch + summarize in one step
+- `npm run summarize` — summarize raw articles into digest (requires ANTHROPIC_API_KEY, currently disabled)
 - `npm run rollback` — list or restore previous digest versions
-- `netlify deploy --build --prod` — deploy to production
+- `netlify deploy --prod` — deploy to production
+
+### Daily Update Workflow (via Claude Code)
+
+When the user says **"run today's news"**, execute this full workflow:
+
+1. `npm run fetch` — fetch RSS articles from 20 sources
+2. **Summarize in Claude Code** — read `raw-articles.json`, generate digest JSON, write to `digest-latest.json` and `digest-YYYY-MM-DD.json`
+3. `git add src/data/digest-*.json && git commit -m "archive digest YYYY-MM-DD" && git push` — **REQUIRED: lock archives into git**
+4. `netlify deploy --prod` — deploy to production
+
+**Why Claude Code instead of API?** Summarization runs through the Claude Code conversation (covered by Max subscription) instead of the external Anthropic API, eliminating per-token costs.
 
 ### Global tools (installed globally via npm)
 
@@ -36,17 +48,28 @@ Hyperlocal Atlanta news aggregator focused on Inside The Perimeter (ITP) neighbo
 ## Architecture
 
 - **Astro** static site on **Netlify** (atlantanewsandtalk.com)
-- **Daily automation:** Netlify scheduled function (`netlify/functions/daily-rebuild.mjs`) fires a build hook at 7am ET (11:00 UTC). The `netlify.toml` build command chains: fetch RSS, summarize with Claude API, commit digest to git, then Astro build.
-  1. `scripts/fetch-articles.mjs` fetches RSS (20 sources, 15s per-feed timeout)
-  2. `scripts/summarize.mjs` sends raw articles to Claude API (Sonnet, 16384 max tokens), writes `src/data/digest-latest.json` and `digest-YYYY-MM-DD.json`
-  3. `scripts/commit-digest.mjs` commits the archive digest back to git via GitHub API (so archives persist)
-  4. `npm run build` generates static pages from ALL archived digests (not just today)
-  5. Netlify deploys `dist/` automatically
-- **Data flow:** Netlify cron → build hook → fetch RSS → Claude API summarization → commit digest to git → Astro build (all archives) → deploy
-- **Story persistence:** Story pages are built from ALL archived digest files, so URLs stay live forever. SEO value accumulates over time.
-- **Rollback:** Dated archives (`digest-YYYY-MM-DD.json`) kept in git. Use `npm run rollback` or Netlify deploy rollback.
-- **Env vars (Netlify):** `ANTHROPIC_API_KEY` (Claude API), `BUILD_HOOK_URL` (Netlify build hook), `GITHUB_TOKEN` (repo write access for digest commits)
-- **No GitHub Actions.** All automation runs through Netlify.
+- **Current mode: Manual via Claude Code.** Netlify automation is disabled to save API costs. Updates run through Claude Code conversation.
+- **Data flow (manual):**
+  1. `npm run fetch` — fetches RSS (20 sources, 15s per-feed timeout)
+  2. Claude Code reads `raw-articles.json` and generates digest JSON
+  3. Write `digest-latest.json` + `digest-YYYY-MM-DD.json`
+  4. **Git commit + push** — archives persist in version control
+  5. `netlify deploy --prod` — builds static pages from ALL archived digests and deploys
+- **Story persistence:** Story pages are built from ALL archived digest files (`digest-YYYY-MM-DD.json`), so URLs stay live forever. SEO value accumulates over time. **This is why git commits are mandatory.**
+- **Rollback:** Dated archives kept in git. Use `npm run rollback` or Netlify deploy rollback.
+- **Env vars (Netlify):** `BUILD_HOOK_URL` (for future re-automation), `GITHUB_TOKEN` (repo write access)
+
+### Future Re-automation
+
+To re-enable daily automated builds, uncomment in `netlify.toml`:
+```
+command = "node scripts/fetch-articles.mjs && node scripts/summarize.mjs && node scripts/commit-digest.mjs && npm run build"
+```
+And uncomment the schedule in `netlify/functions/daily-rebuild.mjs`:
+```js
+export const config = { schedule: '0 11 * * *' }; // 7am ET
+```
+This requires `ANTHROPIC_API_KEY` in Netlify env vars.
 
 ## RSS Sources (20 feeds)
 
@@ -92,10 +115,11 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 | File | Purpose |
 |------|---------|
 | `scripts/fetch-articles.mjs` | RSS fetcher (20 sources) with image extraction |
-| `scripts/summarize.mjs` | Claude API summarization (Sonnet, 16384 tokens) |
+| `scripts/summarize.mjs` | Claude API summarization (currently disabled, using Claude Code instead) |
+| `scripts/commit-digest.mjs` | Commits digest to git via GitHub API (for automated builds) |
 | `scripts/rollback.mjs` | Digest version management |
-| `netlify/functions/daily-rebuild.mjs` | Scheduled function: triggers daily build at 7am ET |
-| `netlify.toml` | Build command: fetch + summarize + build |
+| `netlify/functions/daily-rebuild.mjs` | Scheduled function (currently disabled) |
+| `netlify.toml` | Build command (automation currently disabled) |
 | `src/data/digest-latest.json` | Current digest (generated daily, committed) |
 | `src/data/pinned-stories.json` | Persistent stories that survive daily rebuilds |
 | `src/data/neighborhoods.json` | 36 neighborhood descriptions |
@@ -170,11 +194,9 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 
 ## Dev Workflow
 
-- `digest-latest.json` is updated daily by the Netlify scheduled build. Don't `git add -A` locally. Add files by name.
-- Build before shipping: `npm run build`
-- Deploy: `netlify deploy --build --prod`
-- Netlify env vars needed: `ANTHROPIC_API_KEY`, `BUILD_HOOK_URL`
-- Archive digests (`digest-YYYY-MM-DD.json`) are committed to git for rollback and archive browsing.
+- **"Run today's news"** triggers the full workflow: fetch → summarize (Claude Code) → git commit → git push → deploy
+- **ALWAYS commit digest files to git.** This is non-negotiable. Story URLs must persist for SEO.
+- Don't use `git add -A`. Add digest files by name: `git add src/data/digest-*.json`
+- Archive digests (`digest-YYYY-MM-DD.json`) accumulate in git for rollback and archive browsing.
 - Run `internal-linker all` after adding new pages to check linking opportunities.
 - Run `seo-pulse read sc-domain:atlantanewsandtalk.com` periodically to check GSC performance.
-- To manually refresh the digest locally: `ANTHROPIC_API_KEY=$(netlify env:get ANTHROPIC_API_KEY) npm run update`
