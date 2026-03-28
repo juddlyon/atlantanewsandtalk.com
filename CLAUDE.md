@@ -26,9 +26,12 @@ When the user says **"run today's news"**, execute this full workflow:
 
 1. `npm run fetch` — fetch RSS articles from 20 sources
 2. **Summarize in Claude Code** — read `raw-articles.json`, generate digest JSON, write to `digest-latest.json` and `digest-YYYY-MM-DD.json`
-3. `npm run build` — build the static site locally
-4. `git add src/data/digest-*.json && git commit -m "archive digest YYYY-MM-DD" && git push` — **REQUIRED: lock archives into git**
-5. `netlify deploy --prod --dir=dist` — upload pre-built dist (no Netlify build minutes)
+3. **Calculate cumulative neighborhood counts** — scan ALL `digest-YYYY-MM-DD.json` files and sum story counts per neighborhood across all digests. The `neighborhoods` object in the digest must show cumulative totals, not just today's counts.
+4. `npm run build` — build the static site locally
+5. `git add src/data/digest-*.json && git commit -m "update digest YYYY-MM-DD" && git push` — **REQUIRED: lock archives into git**
+6. `netlify deploy --prod --dir=dist` — upload pre-built dist (no Netlify build minutes)
+
+**IMPORTANT: Cumulative counts.** The `neighborhoods` object at the end of each digest must contain cumulative story counts across ALL archived digests, not just stories from that day. This ensures SEO value accumulates over time.
 
 **Why Claude Code instead of API?** Summarization runs through the Claude Code conversation (covered by Max subscription) instead of the external Anthropic API, eliminating per-token costs.
 
