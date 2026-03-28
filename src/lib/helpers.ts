@@ -114,14 +114,15 @@ export function getStoryBySlug(slug: string): Story | undefined {
 }
 
 export function getStoriesByNeighborhood(neighborhood: string): Story[] {
-  return getAllStories().filter(
+  // Use ALL archived stories for cumulative neighborhood pages
+  return getAllArchivedStories().filter(
     (s) => s.neighborhoods.includes(neighborhood) || s.neighborhood === neighborhood
   );
 }
 
 export function getAllNeighborhoods(): string[] {
-  // Get all unique neighborhoods from actual stories
-  const allStories = getAllStories();
+  // Get all unique neighborhoods from ALL archived stories
+  const allStories = getAllArchivedStories();
   const neighborhoodSet = new Set<string>();
   for (const story of allStories) {
     if (story.neighborhood) neighborhoodSet.add(story.neighborhood);
@@ -133,8 +134,8 @@ export function getAllNeighborhoods(): string[] {
 }
 
 export function getNeighborhoodData(): Record<string, { storyCount: number; topStory: string }> {
-  // Compute neighborhood data dynamically from actual stories
-  const allStories = getAllStories();
+  // Compute neighborhood data from ALL archived stories (cumulative counts)
+  const allStories = getAllArchivedStories();
   const data: Record<string, { storyCount: number; topStory: string }> = {};
 
   for (const story of allStories) {
