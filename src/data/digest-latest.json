@@ -334,13 +334,27 @@
     }
   ],
   "neighborhoods": {
-    "Downtown": { "storyCount": 8, "topStory": "no-kings-protests-atlanta-march-2026" },
-    "Decatur": { "storyCount": 4, "topStory": "barnes-noble-toco-hills-decatur" },
-    "Grant Park": { "storyCount": 1, "topStory": "meeples-board-game-cafe-grant-park-beltline" },
-    "Buckhead": { "storyCount": 3, "topStory": "braves-opening-night-shutout-royals" },
-    "Midtown": { "storyCount": 3, "topStory": "atlanta-symphony-piedmont-park-free-concert" },
-    "Kirkwood": { "storyCount": 1, "topStory": "space-explorers-infinite-pullman-yards" },
-    "East Point": { "storyCount": 1, "topStory": "east-point-affordable-housing-marta" },
-    "Castleberry Hill": { "storyCount": 1, "topStory": "south-downtown-world-cup-transformation-2026" }
+    "Downtown": { "storyCount": 24, "topStory": "no-kings-protests-atlanta-march-2026" },
+    "Midtown": { "storyCount": 16, "topStory": "atlanta-symphony-piedmont-park-free-concert" },
+    "Decatur": { "storyCount": 13, "topStory": "barnes-noble-toco-hills-decatur" },
+    "Grant Park": { "storyCount": 5, "topStory": "meeples-board-game-cafe-grant-park-beltline" },
+    "Old Fourth Ward": { "storyCount": 5, "topStory": "colmado-wine-shop-old-fourth-ward" },
+    "Buckhead": { "storyCount": 5, "topStory": "braves-opening-night-shutout-royals" },
+    "Kirkwood": { "storyCount": 4, "topStory": "space-explorers-infinite-pullman-yards" },
+    "Reynoldstown": { "storyCount": 3, "topStory": "reynoldstown-townhomes-beltline-construction" },
+    "Westside": { "storyCount": 3, "topStory": "westside-homeless-housing-beltline" },
+    "West End": { "storyCount": 3, "topStory": "fulton-commission-chair-debate" },
+    "East Atlanta Village": { "storyCount": 2, "topStory": "kirkwood-wine-shop-finally-wine" },
+    "Inman Park": { "storyCount": 2, "topStory": "mushi-ni-opens-inman-park" },
+    "East Atlanta": { "storyCount": 2, "topStory": "space-explorers-infinite-pullman-yards" },
+    "West Midtown": { "storyCount": 2, "topStory": "andrew-young-94th-birthday" },
+    "Piedmont Heights": { "storyCount": 1, "topStory": "midtown-sewer-repairs-close-juniper" },
+    "Home Park": { "storyCount": 1, "topStory": "10th-street-hemphill-construction-closure" },
+    "Virginia-Highland": { "storyCount": 1, "topStory": "10th-street-hemphill-construction-closure" },
+    "Cabbagetown": { "storyCount": 1, "topStory": "reynoldstown-townhomes-beltline-construction" },
+    "Ansley Park": { "storyCount": 1, "topStory": "lewis-barbecue-ansley-mall-beltline" },
+    "Summerhill": { "storyCount": 1, "topStory": "gsu-summerhill-athletics-neighborhood" },
+    "Castleberry Hill": { "storyCount": 1, "topStory": "south-downtown-world-cup-transformation-2026" },
+    "East Point": { "storyCount": 1, "topStory": "east-point-affordable-housing-marta" }
   }
 }
