@@ -80,6 +80,10 @@ export function getAllArchivedStories(): Story[] {
   for (const date of archiveDates) {
     const digest = getDigestByDate(date);
     if (digest) {
+      // Include topStory
+      if (digest.topStory && !storyMap.has(digest.topStory.id)) {
+        storyMap.set(digest.topStory.id, digest.topStory);
+      }
       for (const section of digest.sections) {
         for (const story of section.stories) {
           // Only add if not already present (keeps newest version)
@@ -93,6 +97,10 @@ export function getAllArchivedStories(): Story[] {
 
   // Also include current digest
   const current = getDigest();
+  // Include topStory from current digest
+  if (current.topStory && !storyMap.has(current.topStory.id)) {
+    storyMap.set(current.topStory.id, current.topStory);
+  }
   for (const section of current.sections) {
     for (const story of section.stories) {
       if (!storyMap.has(story.id)) {

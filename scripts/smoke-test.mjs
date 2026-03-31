@@ -215,11 +215,45 @@ async function checkNeighborhoodPageCounts() {
   }
 }
 
+async function getTopStorySlug() {
+  /**
+   * Extract the top story slug from the homepage
+   * Stories have slugs like /midtown-international-school-closure (with hyphen)
+   * Excludes: /neighborhoods, /guide, /lists, /archive, /about, /fifa-*
+   */
+  try {
+    const response = await fetchWithTimeout(SITE_URL);
+    const html = await response.text();
+
+    // Find all hrefs that look like story slugs (contain hyphen, not a known section)
+    const hrefMatches = html.match(/href="\/([a-z][a-z0-9]+-[a-z0-9-]+)"/g) || [];
+
+    for (const match of hrefMatches) {
+      const slug = match.match(/href="\/([^"]+)"/)?.[1];
+      if (slug &&
+          !slug.startsWith('neighborhoods') &&
+          !slug.startsWith('guide') &&
+          !slug.startsWith('lists') &&
+          !slug.startsWith('archive') &&
+          !slug.startsWith('about') &&
+          !slug.startsWith('fifa-') &&
+          slug.includes('-')) {
+        return slug;
+      }
+    }
+
+    return null;
+  } catch (error) {
+    return null;
+  }
+}
+
 async function checkTodayContent() {
   /**
    * Verify today's digest content appears on the site
    */
   const today = new Date().toISOString().split('T')[0];
+  let allPassed = true;
 
   try {
     // Check homepage for today's date or recent content
@@ -245,13 +279,40 @@ async function checkTodayContent() {
     const archiveResponse = await fetchWithTimeout(`${SITE_URL}/archive/${today}/`);
     if (archiveResponse.status === 200) {
       log('pass', `/archive/${today}/ exists`);
-      return true;
     } else {
       log('fail', `/archive/${today}/ not found (${archiveResponse.status})`);
+      allPassed = false;
+    }
+
+    return allPassed;
+  } catch (error) {
+    log('fail', `Today's content check - ${error.message}`);
+    return false;
+  }
+}
+
+async function checkTopStory() {
+  /**
+   * Verify the top/headline story page exists (critical test)
+   */
+  const topStorySlug = await getTopStorySlug();
+
+  if (!topStorySlug) {
+    log('warn', 'Could not identify top story from homepage');
+    return true; // Warn but don't fail
+  }
+
+  try {
+    const response = await fetchWithTimeout(`${SITE_URL}/${topStorySlug}/`);
+    if (response.status === 200) {
+      log('pass', `Top story /${topStorySlug}/ exists`);
+      return true;
+    } else {
+      log('fail', `Top story /${topStorySlug}/ returns ${response.status}`);
       return false;
     }
   } catch (error) {
-    log('fail', `Today's content check - ${error.message}`);
+    log('fail', `Top story check - ${error.message}`);
     return false;
   }
 }
@@ -400,6 +461,7 @@ async function runTests() {
   // 9. Today's content and freshness
   section('Content Freshness');
   track(await checkTodayContent());
+  track(await checkTopStory());
 
   // 10. Story counts
   section('Story Counts');
