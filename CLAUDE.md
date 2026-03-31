@@ -19,6 +19,7 @@ Hyperlocal Atlanta news aggregator focused on Inside The Perimeter (ITP) neighbo
 - `npm run summarize` — summarize raw articles into digest (requires ANTHROPIC_API_KEY, currently disabled)
 - `npm run rollback` — list or restore previous digest versions
 - `npm run deploy` — upload pre-built site (no build minutes used)
+- `npm run test:deploy` — run post-deploy smoke tests to verify site health
 
 ### Daily Update Workflow (via Claude Code)
 
@@ -30,6 +31,7 @@ When the user says **"run today's news"**, execute this full workflow:
 4. `npm run build` — build the static site locally
 5. `git add src/data/digest-*.json && git commit -m "update digest YYYY-MM-DD" && git push` — **REQUIRED: lock archives into git**
 6. `npm run deploy` — upload pre-built dist (no Netlify build minutes)
+7. `npm run test:deploy` — verify deployment with smoke tests
 
 **IMPORTANT: Cumulative counts.** The `neighborhoods` object at the end of each digest must contain cumulative story counts across ALL archived digests, not just stories from that day. This ensures SEO value accumulates over time.
 
@@ -122,6 +124,7 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 | `scripts/summarize.mjs` | Claude API summarization (currently disabled, using Claude Code instead) |
 | `scripts/commit-digest.mjs` | Commits digest to git via GitHub API (for automated builds) |
 | `scripts/rollback.mjs` | Digest version management |
+| `scripts/smoke-test.mjs` | Post-deploy smoke tests (pages, redirects, story counts) |
 | `netlify/functions/daily-rebuild.mjs` | Scheduled function (currently disabled) |
 | `netlify.toml` | Build command (automation currently disabled) |
 | `src/data/digest-latest.json` | Current digest (generated daily, committed) |
