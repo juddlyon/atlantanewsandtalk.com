@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import StoryCard from '../components/StoryCard.astro';
 import NeighborhoodTag from '../components/NeighborhoodTag.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
-import { getAllArchivedStories, getStoriesByNeighborhood, formatDate, SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../lib/helpers';
+import { getAllArchivedStories, getStoriesByNeighborhood, formatDate, slugify, SITE_URL, SITE_NAME, buildBreadcrumbSchema } from '../lib/helpers';
 
 export function getStaticPaths() {
   // Use ALL archived stories so pages persist forever (SEO)
@@ -23,28 +23,52 @@ const relatedStories = getStoriesByNeighborhood(story.neighborhood)
 
 const dateStr = formatDate(story.publishedAt);
 
+const sourceUrls = story.sources?.map((s: { url: string }) => s.url) || [story.sourceUrl];
+
 const articleJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'NewsArticle',
   headline: story.headline,
   description: story.summary,
-  image: story.imageUrl || undefined,
+  articleBody: story.body?.replace(/<[^>]+>/g, '').slice(0, 5000),
+  articleSection: story.neighborhood,
+  image: story.imageUrl ? {
+    '@type': 'ImageObject',
+    url: story.imageUrl,
+    caption: story.imageAlt || story.headline,
+  } : undefined,
   datePublished: story.publishedAt,
+  dateModified: story.publishedAt,
+  inLanguage: 'en-US',
   author: {
     '@type': 'Organization',
     name: story.source,
     url: story.sourceUrl,
   },
   publisher: {
-    '@type': 'Organization',
+    '@type': 'NewsMediaOrganization',
+    '@id': `${SITE_URL}/#organization`,
     name: SITE_NAME,
     url: SITE_URL,
+    logo: `${SITE_URL}/favicon.svg`,
   },
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': `${SITE_URL}/${story.id}`,
+    '@id': `${SITE_URL}/${story.id}/`,
   },
+  url: `${SITE_URL}/${story.id}/`,
   keywords: story.keywords?.join(', '),
+  ...(sourceUrls.length > 1 ? { sameAs: sourceUrls } : { sameAs: story.sourceUrl }),
+  spatialCoverage: {
+    '@type': 'Place',
+    name: `${story.neighborhood}, Atlanta, GA`,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Atlanta',
+      addressRegion: 'GA',
+      addressCountry: 'US',
+    },
+  },
 };
 
 const breadcrumbSchema = buildBreadcrumbSchema([

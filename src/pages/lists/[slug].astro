@@ -25,17 +25,46 @@ const relatedGuides = list.relatedGuides
 
 const itemListSchema = {
   "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": list.title,
+  "@type": "Article",
+  "headline": list.title,
   "description": list.seoDescription,
-  "url": `${SITE_URL}/lists/${list.slug}`,
-  "numberOfItems": list.items.length,
-  "itemListElement": list.items.map((item) => ({
-    "@type": "ListItem",
-    "position": item.rank,
-    "name": item.name,
-    "url": item.link,
-  })),
+  "url": `${SITE_URL}/lists/${list.slug}/`,
+  "inLanguage": "en-US",
+  ...(list.imageUrl ? { "image": { "@type": "ImageObject", "url": list.imageUrl, "caption": list.imageAlt } } : {}),
+  "datePublished": list.datePublished || "2025-03-01",
+  "dateModified": list.dateModified || list.datePublished || "2025-03-01",
+  "author": {
+    "@type": "Person",
+    "name": "David",
+    "url": `${SITE_URL}/about`
+  },
+  "publisher": {
+    "@type": "NewsMediaOrganization",
+    "@id": `${SITE_URL}/#organization`,
+    "name": SITE_NAME,
+    "url": SITE_URL,
+    "logo": `${SITE_URL}/favicon.svg`
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `${SITE_URL}/lists/${list.slug}/`
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": list.title,
+    "numberOfItems": list.items.length,
+    "itemListElement": list.items.map((item) => ({
+      "@type": "ListItem",
+      "position": item.rank,
+      "name": item.name,
+      "url": item.link,
+    })),
+  },
+  "spatialCoverage": {
+    "@type": "City",
+    "name": "Atlanta",
+    "@id": "https://www.wikidata.org/wiki/Q23556"
+  }
 };
 
 const breadcrumbSchema = buildBreadcrumbSchema([
@@ -63,7 +92,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
       <div class="list-hero">
         <img
           src={list.imageUrl}
-          alt={list.imageAlt}
+          alt={list.imageAlt || list.title}
           class="list-hero-image"
           loading="eager"
           width="1200"
@@ -112,7 +141,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
         <h2 class="related-guides-title">More Lists</h2>
         <div class="related-guides-grid">
           {relatedLists.map((l) => (
-            <a href={`/lists/${l.slug}`} class="guide-card">
+            <a href={`/lists/${l.slug}/`} class="guide-card">
               <span class="guide-card-title">{l.title}</span>
               <span class="guide-card-desc">{l.seoDescription}</span>
             </a>
@@ -126,7 +155,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
         <h2 class="related-guides-title">Related Guides</h2>
         <div class="related-guides-grid">
           {relatedGuides.map((g) => (
-            <a href={`/guide/${g.slug}`} class="guide-card">
+            <a href={`/guide/${g.slug}/`} class="guide-card">
               <span class="guide-card-title">{g.title}</span>
               <span class="guide-card-desc">{g.seoDescription}</span>
             </a>

@@ -121,9 +121,10 @@ const breadcrumbSchema = buildBreadcrumbSchema([
   .form-group input:focus,
   .form-group select:focus,
   .form-group textarea:focus {
-    outline: none;
+    outline: 2px solid var(--color-blue);
+    outline-offset: 1px;
     border-color: var(--color-blue);
-    box-shadow: 0 0 0 3px rgba(19, 39, 79, 0.08);
+    box-shadow: 0 0 0 3px rgba(19, 39, 79, 0.12);
   }
 
   .form-group textarea {

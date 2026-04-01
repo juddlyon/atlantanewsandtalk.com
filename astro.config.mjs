@@ -2,10 +2,30 @@
 import { defineConfig } from 'astro/config';
 import netlify from '@astrojs/netlify';
 import sitemap from '@astrojs/sitemap';
+import fs from 'node:fs';
+
+/** Injects news-sitemap.xml into the @astrojs/sitemap index */
+function newsSitemapIndex() {
+  return {
+    name: 'news-sitemap-index',
+    hooks: {
+      'astro:build:done': ({ dir }) => {
+        const indexPath = new URL('sitemap-index.xml', dir);
+        if (fs.existsSync(indexPath)) {
+          let xml = fs.readFileSync(indexPath, 'utf-8');
+          const entry = '<sitemap><loc>https://atlantanewsandtalk.com/news-sitemap.xml</loc></sitemap>';
+          xml = xml.replace('</sitemapindex>', entry + '</sitemapindex>');
+          fs.writeFileSync(indexPath, xml);
+        }
+      },
+    },
+  };
+}
 
 export default defineConfig({
   output: 'static',
   site: 'https://atlantanewsandtalk.com',
+  trailingSlash: 'always',
   adapter: netlify(),
   integrations: [sitemap({
     changefreq: 'daily',
@@ -52,5 +72,5 @@ export default defineConfig({
       }
       return item;
     },
-  })],
+  }), newsSitemapIndex()],
 });

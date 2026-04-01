@@ -47,7 +47,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
     ) : (
       <div class="archive-list">
         {archives.map((archive) => (
-          <a href={`/archive/${archive.date}`} class="archive-item">
+          <a href={`/archive/${archive.date}/`} class="archive-item">
             <div class="archive-item-date">{archive.formatted}</div>
             <p class="archive-item-summary">{archive.summary}</p>
             <div class="archive-item-meta">{archive.storyCount} stories · {archive.sectionCount} sections</div>

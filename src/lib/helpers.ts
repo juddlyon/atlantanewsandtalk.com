@@ -61,9 +61,34 @@ export function getDigest(): Digest {
   return d;
 }
 
+// Content filter: drop violent crime stories from all outputs
+const CRIME_PATTERNS = [
+  /\bmurder(?:ed|s|ing)?\b/i,
+  /\bhomicide\b/i,
+  /\bkill(?:ed|ing|s)\b/i,
+  /\bstabb(?:ed|ing)\b/i,
+  /\brape[ds]?\b/i,
+  /\bsexual\s+assault/i,
+  /\bchild\s+abuse\b/i,
+  /\bfatal\s+shoot/i,
+  /\bshot\s+(?:and\s+)?kill/i,
+  /\bman\s+(?:found\s+)?dead\b/i,
+  /\bwoman\s+(?:found\s+)?dead\b/i,
+  /\bchild\s+(?:found\s+)?dead\b/i,
+  /\bbody\s+found\b/i,
+  /\bdead\s+(?:at|in|on|near)\b/i,
+  /\bgun\s+violence\b/i,
+  /\bshooting\b/i,
+];
+
+function isCrimeStory(story: Story): boolean {
+  const text = `${story.headline} ${story.summary} ${(story.keywords || []).join(' ')}`;
+  return CRIME_PATTERNS.some((p) => p.test(text));
+}
+
 export function getAllStories(): Story[] {
   const d = getDigest();
-  return d.sections.flatMap((s) => s.stories);
+  return d.sections.flatMap((s) => s.stories).filter((s) => !isCrimeStory(s));
 }
 
 // Get ALL stories from ALL archived digests (for building permanent story pages)
@@ -109,7 +134,7 @@ export function getAllArchivedStories(): Story[] {
     }
   }
 
-  return Array.from(storyMap.values());
+  return Array.from(storyMap.values()).filter((s) => !isCrimeStory(s));
 }
 
 // Get a story by slug from ALL archives (not just today)
@@ -160,7 +185,6 @@ export function getNeighborhoodData(): Record<string, { storyCount: number; topS
       data[name].storyCount++;
     }
   }
-
   return data;
 }
 

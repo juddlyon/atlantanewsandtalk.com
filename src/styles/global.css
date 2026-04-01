@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap');
 
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.75rem 1.5rem;
+  background: var(--color-blue);
+  color: #fff;
+  font-family: var(--font-body);
+  font-weight: 600;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 :root {
   --color-ink: #0f1a2e;
   --color-ink-soft: #24324d;
@@ -298,7 +316,7 @@ img {
   font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: rgba(255, 247, 238, 0.5);
+  color: rgba(255, 247, 238, 0.72);
 }
 
 .section-header {
@@ -850,12 +868,12 @@ img {
 }
 
 .site-footer {
-  margin-top: 3rem;
+  margin-top: 0;
   padding: 2.5rem 1rem 2rem;
   background:
     linear-gradient(135deg, rgba(19, 39, 79, 0.98), rgba(19, 39, 79, 0.86)),
     linear-gradient(135deg, rgba(206, 17, 65, 0.18), transparent 55%);
-  color: rgba(255, 248, 240, 0.78);
+  color: rgba(255, 248, 240, 0.92);
 }
 
 .footer-inner,
@@ -889,7 +907,7 @@ img {
   font-size: 0.68rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: rgba(255, 248, 240, 0.52);
+  color: rgba(255, 248, 240, 0.7);
 }
 
 .footer-source-list {
@@ -924,7 +942,7 @@ img {
   padding-top: 1rem;
   border-top: 1px solid rgba(255, 248, 240, 0.12);
   font-size: 0.72rem;
-  color: rgba(255, 248, 240, 0.54);
+  color: rgba(255, 248, 240, 0.72);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -932,11 +950,21 @@ img {
 }
 
 .footer-legal a {
-  color: rgba(255, 248, 240, 0.54);
+  color: rgba(255, 248, 240, 0.72);
 }
 
 .footer-legal a:hover {
   color: #fff;
+}
+
+.build-stamp {
+  display: block;
+  width: 100%;
+  text-align: right;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: rgba(255, 248, 240, 0.25);
+  margin-top: 0.4rem;
 }
 
 @keyframes rise-in {
@@ -1018,26 +1046,6 @@ img {
     background: rgba(255, 255, 255, 0.6);
   }
 
-  .burger {
-    display: none;
-  }
-
-  .header-nav,
-  .header-nav.nav-open {
-    display: block;
-  }
-
-  .nav-inner {
-    overflow-x: auto;
-    scrollbar-width: none;
-    flex-wrap: nowrap;
-    padding: 0.75rem 1.25rem 1rem;
-  }
-
-  .nav-inner::-webkit-scrollbar {
-    display: none;
-  }
-
   .page-container {
     padding: 1.5rem 1.25rem 4rem;
   }
@@ -1061,6 +1069,26 @@ img {
 }
 
 @media (min-width: 980px) {
+  .burger {
+    display: none;
+  }
+
+  .header-nav,
+  .header-nav.nav-open {
+    display: block;
+  }
+
+  .nav-inner {
+    overflow-x: auto;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    padding: 0.75rem 1.25rem 1rem;
+  }
+
+  .nav-inner::-webkit-scrollbar {
+    display: none;
+  }
+
   .header-top,
   .nav-inner {
     width: min(100%, var(--max-width));
@@ -1124,6 +1152,22 @@ img {
   line-height: 1.85;
   color: var(--color-text);
   max-width: 48rem;
+}
+
+.neighborhood-description a {
+  color: var(--color-blue);
+  text-decoration: underline;
+  text-decoration-color: rgba(19, 39, 79, 0.25);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.15s;
+}
+
+.neighborhood-description a:hover {
+  text-decoration-color: var(--color-blue);
+}
+
+.neighborhood-description a[href^="/"] {
+  font-weight: 600;
 }
 
 /* Neighborhood highlights */
@@ -1606,6 +1650,30 @@ img {
   width: 100%;
   aspect-ratio: 2 / 1;
   object-fit: cover;
+}
+
+.list-index-card-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  aspect-ratio: 2 / 1;
+  background:
+    linear-gradient(145deg, rgba(19, 39, 79, 0.92), rgba(31, 63, 122, 0.85)),
+    linear-gradient(135deg, rgba(206, 17, 65, 0.15), transparent 60%);
+  color: rgba(255, 248, 240, 0.7);
+}
+
+.placeholder-icon {
+  opacity: 0.5;
+}
+
+.placeholder-count {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .list-index-card-body {

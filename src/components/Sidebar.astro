@@ -17,7 +17,7 @@ const trending = allStories.slice(0, 5);
     <div class="hood-scroll">
       {topNeighborhoods.map(([name, data]) => (
         <a
-          href={`/neighborhoods/${slugify(name)}`}
+          href={`/neighborhoods/${slugify(name)}/`}
           class="hood-pill"
           style={`--pill-bg: ${getNeighborhoodColor(name)};`}
         >
@@ -28,14 +28,14 @@ const trending = allStories.slice(0, 5);
     </div>
     <div class="hood-list-desktop">
       {topNeighborhoods.map(([name, data]) => (
-        <a href={`/neighborhoods/${slugify(name)}`} class="hood-row">
+        <a href={`/neighborhoods/${slugify(name)}/`} class="hood-row">
           <span class="hood-dot" style={`background: ${getNeighborhoodColor(name)};`}></span>
           <span class="hood-name">{name}</span>
           <span class="hood-n">{data.storyCount}</span>
         </a>
       ))}
     </div>
-    <a href="/neighborhoods" class="box-more">Browse all neighborhoods</a>
+    <a href="/neighborhoods/" class="box-more">Browse all neighborhoods</a>
   </div>
 
   <div class="sidebar-box">
@@ -45,7 +45,7 @@ const trending = allStories.slice(0, 5);
         <li class="trending-row">
           <span class="trending-i">{i + 1}</span>
           <div>
-            <a href={`/${story.id}`} class="trending-hed">{story.headline}</a>
+            <a href={`/${story.id}/`} class="trending-hed">{story.headline}</a>
             <span class="trending-hood">{story.neighborhood}</span>
           </div>
         </li>
@@ -56,12 +56,12 @@ const trending = allStories.slice(0, 5);
   <div class="sidebar-box sidebar-spotlight">
     <h3 class="box-title">Spotlight</h3>
     <div class="spotlight-items">
-      <a href="/guide/fifa-world-cup-atlanta-2026" class="spotlight-card">
+      <a href="/guide/fifa-world-cup-atlanta-2026/" class="spotlight-card">
         <span class="spotlight-label">Guide</span>
         <span class="spotlight-hed">FIFA World Cup Atlanta 2026</span>
         <span class="spotlight-sub">Match schedule, MARTA plans, watch parties, neighborhood impact</span>
       </a>
-      <a href="/the-row-900-peoplestown" class="spotlight-card">
+      <a href="/the-row-900-peoplestown/" class="spotlight-card">
         <span class="spotlight-label">Peoplestown</span>
         <span class="spotlight-hed">The Row 900 Breaks Ground</span>
         <span class="spotlight-sub">16-home development on Hank Aaron Drive</span>
@@ -76,7 +76,7 @@ const trending = allStories.slice(0, 5);
     </p>
     <p class="about-text sidebar-note">
       Have a source we should follow or a correction to send?
-      <a href="/contact">Send us a tip</a>.
+      <a href="/contact/">Send us a tip</a>.
     </p>
   </div>
 </aside>
@@ -115,7 +115,7 @@ const trending = allStories.slice(0, 5);
   }
 
   .sidebar-pulse .box-title {
-    color: rgba(255, 247, 238, 0.62);
+    color: rgba(255, 247, 238, 0.82);
   }
 
   .hood-scroll {

@@ -30,8 +30,8 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 
     <div class="list-index-grid">
       {listsData.lists.map((list) => (
-        <a href={`/lists/${list.slug}`} class="list-index-card">
-          {list.imageUrl && (
+        <a href={`/lists/${list.slug}/`} class="list-index-card">
+          {list.imageUrl ? (
             <img
               src={list.imageUrl}
               alt={list.imageAlt}
@@ -40,6 +40,13 @@ const breadcrumbSchema = buildBreadcrumbSchema([
               width="600"
               height="300"
             />
+          ) : (
+            <div class="list-index-card-placeholder">
+              <span class="placeholder-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 6h16M4 10h16M4 14h10M4 18h6"/></svg>
+              </span>
+              <span class="placeholder-count">{list.items.length} picks</span>
+            </div>
           )}
           <div class="list-index-card-body">
             <span class="list-index-card-count">{list.items.length} picks</span>

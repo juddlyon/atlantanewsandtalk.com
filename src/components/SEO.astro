@@ -21,7 +21,12 @@ const {
   description = 'Daily hyperlocal news from Inside The Perimeter Atlanta neighborhoods',
   ogImage = `${SITE_URL}/og-default.png`,
   ogType = 'website',
-  canonicalUrl = Astro.url.href,
+  canonicalUrl = (() => {
+    const url = Astro.url.href;
+    // Ensure trailing slash on all pages (except files like .xml, .txt)
+    if (!url.endsWith('/') && !url.match(/\.\w+$/)) return url + '/';
+    return url;
+  })(),
   article,
   jsonLd,
   breadcrumbSchema,
@@ -45,12 +50,17 @@ const websiteSchema = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'NewsMediaOrganization',
+  '@id': `${SITE_URL}/#organization`,
   name: SITE_NAME,
   url: SITE_URL,
-  description: 'Hyperlocal news coverage of Atlanta\'s Inside The Perimeter neighborhoods',
+  logo: `${SITE_URL}/favicon.svg`,
+  description: 'Hyperlocal news coverage of Atlanta\'s Inside The Perimeter neighborhoods. Daily briefings from 20+ local sources covering development, transit, food, arts, and community news.',
+  foundingDate: '2025',
+  inLanguage: 'en-US',
   founder: {
     '@type': 'Person',
     name: 'David',
+    url: `${SITE_URL}/about`,
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Atlanta',
@@ -61,12 +71,43 @@ const organizationSchema = {
   areaServed: {
     '@type': 'City',
     name: 'Atlanta',
-    address: {
-      '@type': 'PostalAddress',
-      addressRegion: 'GA',
-      addressCountry: 'US',
+    '@id': 'https://www.wikidata.org/wiki/Q23556',
+    sameAs: 'https://en.wikipedia.org/wiki/Atlanta',
+    geo: {
+      '@type': 'GeoCircle',
+      geoMidpoint: {
+        '@type': 'GeoCoordinates',
+        latitude: 33.749,
+        longitude: -84.388,
+      },
+      geoRadius: '12000',
+    },
+    containedInPlace: {
+      '@type': 'State',
+      name: 'Georgia',
+      '@id': 'https://www.wikidata.org/wiki/Q1428',
     },
   },
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'editorial',
+    url: `${SITE_URL}/contact`,
+  },
+  sameAs: [
+    'https://en.wikipedia.org/wiki/Atlanta',
+  ],
+  knowsAbout: [
+    'Atlanta neighborhoods',
+    'Atlanta BeltLine',
+    'Inside The Perimeter Atlanta',
+    'Atlanta development news',
+    'Atlanta local news',
+    'Atlanta restaurants',
+    'MARTA transit',
+    'Atlanta real estate',
+  ],
+  publishingPrinciples: `${SITE_URL}/editorial`,
+  correctionsPolicy: `${SITE_URL}/editorial`,
 };
 ---
 
@@ -74,6 +115,13 @@ const organizationSchema = {
 <meta name="description" content={description} />
 <link rel="canonical" href={canonicalUrl} />
 <link rel="sitemap" href="/sitemap-index.xml" />
+
+<!-- Google News / Discover -->
+<meta name="robots" content="max-image-preview:large, max-snippet:-1" />
+<meta name="geo.region" content="US-GA" />
+<meta name="geo.placename" content="Atlanta" />
+<meta name="geo.position" content="33.749;-84.388" />
+<meta name="ICBM" content="33.749, -84.388" />
 <link rel="alternate" type="application/rss+xml" title={SITE_NAME} href={`${SITE_URL}/rss.xml`} />
 
 <!-- Open Graph -->

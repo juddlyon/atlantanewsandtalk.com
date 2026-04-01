@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { story } = Astro.props;
-const articleUrl = `/${story.id}`;
+const articleUrl = `/${story.id}/`;
 const bgImage = story.imageUrl || '';
 ---
 
@@ -26,8 +26,9 @@ const bgImage = story.imageUrl || '';
           <span class="hero-cta">Read full brief</span>
         </div>
       </div>
-      <div class="hero-image" style={bgImage ? `background-image: url('${bgImage}')` : ''}>
-        <div class="hero-image-badge">ATL</div>
+      <div class="hero-image">
+        {bgImage && <img src={bgImage} alt={story.imageAlt || story.headline} class="hero-img" loading="eager" />}
+        <div class="hero-image-badge" aria-hidden="true">ATL</div>
       </div>
     </div>
   </a>
@@ -85,7 +86,7 @@ const bgImage = story.imageUrl || '';
     font-size: 0.68rem;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    color: rgba(255, 247, 238, 0.72);
+    color: rgba(255, 247, 238, 0.88);
   }
 
   .hero-headline {
@@ -100,7 +101,7 @@ const bgImage = story.imageUrl || '';
     max-width: 38rem;
     font-size: 1rem;
     line-height: 1.7;
-    color: rgba(255, 247, 238, 0.82);
+    color: rgba(255, 247, 238, 0.92);
   }
 
   .hero-bottom {
@@ -123,12 +124,16 @@ const bgImage = story.imageUrl || '';
   .hero-image {
     position: relative;
     min-height: 300px;
-    background:
-      linear-gradient(180deg, rgba(19, 39, 79, 0.1), rgba(19, 39, 79, 0.32)),
-      linear-gradient(135deg, rgba(206, 17, 65, 0.25), transparent 55%);
+    overflow: hidden;
     background-color: var(--color-blue);
-    background-position: center;
-    background-size: cover;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
   }
 
   .hero-image::after {

@@ -44,6 +44,15 @@ const CRIME_PATTERNS = [
   /\bdead\s+(?:at|in|on|near)\b/i,
 ];
 
+const BANNED_WORDS_RE = [
+  /\bvibrant\b/gi,
+  /\bbustling\b/gi,
+  /\bnestled\b/gi,
+  /\btapestry\b/gi,
+  /\bdelves\b/gi,
+  /it's worth noting/gi,
+];
+
 const REQUIRED_FIELDS = ['id', 'headline', 'summary', 'neighborhood', 'source', 'sourceUrl', 'publishedAt'];
 
 const dropped = [];
@@ -143,6 +152,59 @@ for (const section of digest.sections) {
 }
 
 // Remove empty sections
+digest.sections = digest.sections.filter((s) => s.stories && s.stories.length > 0);
+
+// --- Auto-clean text issues ---
+
+function cleanText(text) {
+  let cleaned = text;
+  // Replace em dashes with comma or period depending on context
+  cleaned = cleaned.replace(/\s*—\s*/g, ', ');
+  // Strip banned words (replace with simpler alternatives)
+  for (const pattern of BANNED_WORDS_RE) {
+    if (pattern.test(cleaned)) {
+      warnings.push(`cleaned banned word "${pattern.source}" from text`);
+      cleaned = cleaned.replace(pattern, '');
+      // Clean up double spaces left behind
+      cleaned = cleaned.replace(/  +/g, ' ').trim();
+    }
+  }
+  return cleaned;
+}
+
+for (const section of digest.sections) {
+  for (const story of section.stories) {
+    const origH = story.headline;
+    const origS = story.summary;
+    const origB = story.body;
+    story.headline = cleanText(story.headline);
+    story.summary = cleanText(story.summary);
+    story.body = cleanText(story.body);
+    if (story.headline !== origH || story.summary !== origS || story.body !== origB) {
+      warnings.push(`[${story.id}] auto-cleaned text (em dashes / banned words)`);
+    }
+  }
+}
+if (digest.summary) {
+  digest.summary = cleanText(digest.summary);
+}
+
+// --- Source diversity: max 1 story per source ---
+
+const seenSources = new Set();
+if (digest.topStory) {
+  seenSources.add(digest.topStory.source);
+}
+for (const section of digest.sections) {
+  section.stories = section.stories.filter((story) => {
+    if (seenSources.has(story.source)) {
+      dropped.push(`[${story.id}] duplicate source "${story.source}"`);
+      return false;
+    }
+    seenSources.add(story.source);
+    return true;
+  });
+}
 digest.sections = digest.sections.filter((s) => s.stories && s.stories.length > 0);
 
 // --- Fix topStory if it was dropped ---

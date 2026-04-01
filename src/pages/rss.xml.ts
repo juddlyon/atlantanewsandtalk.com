@@ -1,21 +1,37 @@
 import rss from '@astrojs/rss';
 import type { APIContext } from 'astro';
-import { getAllStories, SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '../lib/helpers';
+import { getAllArchivedStories, SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '../lib/helpers';
 
 export function GET(context: APIContext) {
-  const stories = getAllStories();
+  // Include all archived stories so the feed has history
+  const stories = getAllArchivedStories();
+
+  // Sort newest first, limit to 50 most recent
+  const sorted = stories
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, 50);
 
   return rss({
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
     site: context.site!.toString(),
-    items: stories.map((story) => ({
+    items: sorted.map((story) => ({
       title: story.headline,
       pubDate: new Date(story.publishedAt),
       description: story.summary,
-      link: `${SITE_URL}/${story.id}`,
-      categories: [story.neighborhood, ...story.keywords].filter(Boolean),
+      link: `${SITE_URL}/${story.id}/`,
+      categories: [story.neighborhood, ...(story.keywords || [])].filter(Boolean),
+      content: story.body,
     })),
-    customData: `<language>en-us</language>`,
+    customData: `<language>en-us</language>
+<atom:link href="${SITE_URL}/rss.xml" rel="self" type="application/rss+xml" />
+<image>
+  <url>${SITE_URL}/favicon.svg</url>
+  <title>${SITE_NAME}</title>
+  <link>${SITE_URL}</link>
+</image>`,
+    xmlns: {
+      atom: 'http://www.w3.org/2005/Atom',
+    },
   });
 }
