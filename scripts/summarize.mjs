@@ -46,7 +46,20 @@ async function main() {
 
   const client = new Anthropic();
 
-  const articleText = raw.articles
+  // Pre-filter: max 3 articles per source going INTO the prompt.
+  // This prevents any single source from dominating the input and
+  // gives Claude a more balanced pool to pick from.
+  const MAX_PER_SOURCE_INPUT = 3;
+  const sourceCounts = {};
+  const filteredArticles = raw.articles.filter((a) => {
+    const src = a.source;
+    sourceCounts[src] = (sourceCounts[src] || 0) + 1;
+    return sourceCounts[src] <= MAX_PER_SOURCE_INPUT;
+  });
+
+  console.log(`Filtered ${raw.articles.length} -> ${filteredArticles.length} articles (max ${MAX_PER_SOURCE_INPUT} per source)`);
+
+  const articleText = filteredArticles
     .map((a, i) =>
       `${i + 1}. [${a.source}] "${a.title}"\n   ${a.content.slice(0, 800)}\n   Link: ${a.link}\n   Image: ${a.imageUrl || 'none'}\n   Published: ${a.pubDate}`
     )
@@ -55,7 +68,7 @@ async function main() {
   const today = new Date().toISOString().slice(0, 10);
 
   const message = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: process.env.SUMMARIZE_MODEL || 'claude-haiku-4-5-20251001',
     max_tokens: 16384,
     messages: [
       {
@@ -102,7 +115,8 @@ Output this exact JSON structure:
 RULES:
 - ONLY assign neighborhoods from this EXACT list (do not invent or generalize): ${ITP_NEIGHBORHOODS.join(', ')}
 - If a story doesn't map to one of those neighborhoods, use the closest match or drop the story
-- HARD FILTER: Drop any story not primarily about Atlanta ITP (Inside I-285). No suburbs, no Athens, no Cobb, no Gwinnett, no South Fulton, no "Southwest Atlanta", no "Statewide", no "Metro Atlanta". Every story must map to a specific neighborhood from the list above.
+- HARD FILTER — ITP ONLY: This site covers ONLY Inside The Perimeter (I-285). If a story is not physically located inside I-285, DROP IT. No exceptions. No suburbs. No exurbs. No "metro Atlanta." No county-level stories. No state-level stories. If it happens outside the perimeter, it does not exist to us. Every story MUST map to a specific neighborhood from the list above. If it doesn't fit a neighborhood, drop it.
+- ZERO TOLERANCE for non-ITP locations. Stories mentioning places like Villa Rica, Marietta, Roswell, Alpharetta, Lawrenceville, Kennesaw, Smyrna, Stockbridge, Douglasville, or ANY city/town outside I-285 must be dropped entirely. "Statewide", "Metro Atlanta", "Georgia", "Southwest Atlanta" are not valid neighborhoods.
 - Categories: Development & Housing, Transit & Infrastructure, Food & Drink, Arts & Culture, Politics & Policy, Public Safety, Community, Business
 - SE BeltLine stories get priority placement
 - Write like a real person, not a press release. Have a voice. Be the neighbor who reads everything.
@@ -128,6 +142,59 @@ Respond with ONLY valid JSON, no markdown fences.`,
 
   const text = message.content[0].type === 'text' ? message.content[0].text : '';
   const digest = JSON.parse(text);
+
+  // HARD ENFORCE: max 1 story per source across the entire digest.
+  // The prompt asks for this but Claude sometimes ignores it.
+  const seenSources = new Set();
+  let droppedCount = 0;
+  for (const section of digest.sections) {
+    section.stories = section.stories.filter((story) => {
+      const src = story.source;
+      if (seenSources.has(src)) {
+        droppedCount++;
+        return false;
+      }
+      seenSources.add(src);
+      return true;
+    });
+  }
+  // Remove empty sections
+  digest.sections = digest.sections.filter((s) => s.stories.length > 0);
+
+  // Make sure topStory source isn't duplicated elsewhere
+  if (digest.topStory) {
+    const topSrc = digest.topStory.source;
+    for (const section of digest.sections) {
+      section.stories = section.stories.filter((story) => {
+        if (story.id !== digest.topStory.id && story.source === topSrc) {
+          droppedCount++;
+          return false;
+        }
+        return true;
+      });
+    }
+    digest.sections = digest.sections.filter((s) => s.stories.length > 0);
+  }
+
+  if (droppedCount > 0) {
+    console.log(`Source diversity: dropped ${droppedCount} duplicate-source stories`);
+  }
+
+  // Rebuild neighborhoods counts after filtering
+  const neighborhoods = {};
+  for (const section of digest.sections) {
+    for (const story of section.stories) {
+      const hoods = [story.neighborhood, ...(story.neighborhoods || [])];
+      for (const hood of hoods) {
+        if (!hood) continue;
+        if (!neighborhoods[hood]) {
+          neighborhoods[hood] = { storyCount: 0, topStory: story.id };
+        }
+        neighborhoods[hood].storyCount++;
+      }
+    }
+  }
+  digest.neighborhoods = neighborhoods;
 
   // Write digest
   const digestPath = path.join(DATA_DIR, 'digest-latest.json');

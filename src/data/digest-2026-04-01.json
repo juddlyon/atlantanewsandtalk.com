@@ -1,0 +1,589 @@
+{
+  "date": "2026-04-01",
+  "generatedAt": "2026-04-01T17:30:00.000Z",
+  "summary": "Mayor Dickens' $10 billion neighborhood plan hits snags over TAD extensions, Decatur sells a key property for workforce housing, and the Georgia legislature rushes to wrap up its session. Plus: two Atlanta restaurants earn James Beard finalist nods, MARTA rolls out its new Breeze fare system, and the Braves drop game two to the A's.",
+  "topStory": {
+    "id": "dickens-10b-neighborhood-plan-tad-fissures",
+    "headline": "Dickens' $10 Billion Neighborhood Plan Hits Snags Over TAD Extensions",
+    "summary": "An oversight commission broadly endorsed extending Atlanta's eight tax allocation districts to fund the Neighborhood Reinvestment Initiative, but key members pushed back on giving the mayor a blank check.",
+    "body": "Mayor Andre Dickens' push to extend the timelines of Atlanta's eight tax allocation districts to fund his proposed $10 billion Neighborhood Reinvestment Initiative hit a speed bump on Tuesday.\n\nThe Neighborhood Reinvestment Initiative Commission, a 13-member oversight board appointed by the Atlanta City Council in January, issued guidelines for the mayor's plan to spend $10 billion over 30 years revitalizing high-poverty neighborhoods. That includes funding for affordable housing, parks, transit expansions, social services, and early childhood education.\n\nThe commission broadly endorsed negotiating to extend the TADs until 2055. But it recommended evaluating each TAD on a case-by-case basis and urged finding additional public funding sources to jumpstart the seven pilot areas: West Hollowell, Grove Park/Bankhead, English Avenue/Vine City, Downtown Atlanta, Thomasville Heights, East Campbellton, and West Campbellton.\n\nTwo key commission members dissented. Atlanta Public Schools Superintendent Danielle Battle did not vote in favor, and Invest Atlanta CEO Eloisa Klementich also raised concerns. Schools and the development authority both stand to lose tax revenue if TAD timelines are extended, since TADs redirect property tax growth away from the general fund.\n\nThe tension highlights the core challenge: TADs generate funding by capturing rising property values, but extending them means other public services wait longer to benefit from that growth.",
+    "neighborhood": "Downtown",
+    "neighborhoods": [
+      "Downtown",
+      "Westside"
+    ],
+    "source": "Atlanta Civic Circle",
+    "sourceUrl": "https://atlantaciviccircle.org/2026/03/31/atlanta-neighborhood-reinvestment-initiative-tad-extension-resistance/",
+    "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/Beltline-Eastside-Trail-1024x1024.jpg",
+    "imageAlt": "Atlanta BeltLine Eastside Trail near Downtown",
+    "publishedAt": "2026-04-01",
+    "keywords": [
+      "neighborhood reinvestment initiative",
+      "tad",
+      "andre dickens",
+      "affordable housing",
+      "downtown"
+    ]
+  },
+  "sections": [
+    {
+      "category": "Development & Housing",
+      "stories": [
+        {
+          "id": "decatur-dda-workforce-housing-south-columbia",
+          "headline": "Decatur Sells South Columbia Drive Property for Workforce Housing",
+          "summary": "The Decatur Development Authority is selling 252 S. Columbia Dr. to Woda Cooper Development, with plans to build a workforce housing project on the site.",
+          "body": "The Decatur Development Authority is selling a property at 252 South Columbia Drive to Woda Cooper Development, with plans to construct a workforce housing project.\n\nThe two entities have entered into a development agreement for the site, which sits along one of Decatur's main corridors. Woda Cooper is a national affordable and workforce housing developer with projects across multiple states.\n\nWorkforce housing targets residents who earn too much to qualify for subsidized affordable housing but still struggle with market-rate rents. The development comes as Decatur, like much of metro Atlanta, faces mounting pressure on housing affordability.\n\nThe sale represents a strategic use of a publicly held asset to address housing needs rather than pursuing maximum market value. Details on the number of units, timeline, and income targets have not yet been released.",
+          "neighborhood": "Decatur",
+          "neighborhoods": [
+            "Decatur"
+          ],
+          "source": "Decaturish",
+          "sourceUrl": "https://www.decaturish.com/business/decatur-dda-will-sell-south-columbia-drive-property/article_caf3a51c-cb4f-4c07-aa90-4fbe4bf26a21.html",
+          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/b/aa/baa1ca4e-bf0e-51bd-a29e-5cf677a9c978/68383d3aaf6e4.image.jpg?resize=300%2C225",
+          "imageAlt": "South Columbia Drive property in Decatur slated for workforce housing",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "decatur",
+            "workforce housing",
+            "development authority",
+            "woda cooper",
+            "south columbia"
+          ]
+        },
+        {
+          "id": "cnn-center-the-center-rebirth",
+          "headline": "CNN Center's Rebirth as 'The Center' Comes Into Focus",
+          "summary": "New renderings show how the former CNN headquarters near Centennial Olympic Park will be transformed into a mixed-use destination ahead of the World Cup.",
+          "body": "The transformation of CNN Center into its next life as \"The Center\" is coming into sharper focus as the World Cup approaches.\n\nNew renderings published by the AJC show plans for the massive mixed-use redevelopment of the former cable news headquarters adjacent to Centennial Olympic Park. The project is part of the broader wave of Downtown revitalization that includes Centennial Yards and the Constitution Building revival.\n\nThe reimagined space will include retail, dining, entertainment, and potentially residential components. Its location next to Mercedes-Benz Stadium and the future FIFA Fan Festival site at Centennial Olympic Park makes it a prime candidate for activation during the World Cup matches beginning in June.\n\nCNN relocated its headquarters to the Hudson Yards neighborhood in New York in 2024, leaving the iconic atrium building available for redevelopment. The project joins Georgia-Pacific Center's 51-story tower conversion and several other major Downtown projects in various stages of planning.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "AJC",
+          "sourceUrl": "https://www.ajc.com/news/atlanta-news/cnn-centers-rebirth-as-the-center-comes-into-focus-take-a-look/",
+          "imageUrl": "",
+          "imageAlt": "Rendering of The Center, formerly CNN Center, in Downtown Atlanta",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "cnn center",
+            "the center",
+            "downtown",
+            "redevelopment",
+            "world cup"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Food & Drink",
+      "stories": [
+        {
+          "id": "james-beard-2026-atlanta-finalists",
+          "headline": "Two Atlanta Names Earn James Beard Award Finalist Nods",
+          "summary": "Mujo chef J. Trent Harris is up for Best Chef: Southeast, while wine bar Aria returns as a finalist for Outstanding Hospitality. Winners announced June 15.",
+          "body": "The James Beard Foundation announced its official 2026 nominees on Tuesday, and two Atlanta names made the cut.\n\nJ. Trent Harris of Midtown restaurant Mujo is nominated in the Best Chef: Southeast category. The restaurant has earned acclaim for its innovative approach blending Southern cuisine with Japanese influences. Aria, the wine-focused restaurant that was also a finalist last year, returns in the Outstanding Hospitality category.\n\nEight Atlanta restaurants and bars were originally under consideration when the semifinalist list dropped in January. The winners will be announced at the Lyric Opera of Chicago on June 15.\n\nThe James Beard Awards are among the restaurant industry's most coveted honors. The recognition continues Atlanta's steady rise as a serious food city, with 63 Atlanta and metro Atlanta restaurants currently featured in the Michelin Guide to the American South.",
+          "neighborhood": "Midtown",
+          "neighborhoods": [
+            "Midtown"
+          ],
+          "source": "Eater Atlanta",
+          "sourceUrl": "https://atlanta.eater.com/restaurant-news/87260/atlanta-2026-james-beard-award-restaurant-chef-nominees",
+          "sources": [
+            {
+              "name": "Eater Atlanta",
+              "url": "https://atlanta.eater.com/restaurant-news/87260/atlanta-2026-james-beard-award-restaurant-chef-nominees"
+            },
+            {
+              "name": "WABE",
+              "url": "https://www.wabe.org/two-atlanta-restaurants-named-finalists-for-2026-james-beard-awards/"
+            },
+            {
+              "name": "Axios Atlanta",
+              "url": "https://www.axios.com/local/atlanta/2026/04/01/atlantas-james-beard-awards-finalists"
+            }
+          ],
+          "imageUrl": "https://platform.atlanta.eater.com/wp-content/uploads/sites/14/2026/03/JamesBeard_A.png?quality=90&strip=all&crop=0,0,100,100",
+          "imageAlt": "James Beard Awards logo",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "james beard",
+            "mujo",
+            "aria",
+            "midtown",
+            "restaurant awards",
+            "chef"
+          ]
+        },
+        {
+          "id": "wayfair-first-atlanta-store-opens",
+          "headline": "Wayfair Opens First Atlanta Store",
+          "summary": "The online furniture retailer opens its second large-format brick-and-mortar location in metro Atlanta, giving shoppers a chance to see and touch products before buying.",
+          "body": "Wayfair has opened its first Atlanta store, marking the online furniture giant's continued push into physical retail.\n\nThe large-format store gives Atlanta shoppers a chance to see, touch, and test Wayfair's home goods in person before purchasing. It's the company's second large-format brick-and-mortar location as the e-commerce retailer expands its physical presence.\n\nThe opening comes as several major retailers are rethinking their physical footprint in Atlanta. The metro area's population growth and consumer spending power have made it an attractive market for flagship retail experiences.\n\nWayfair went public in 2014 and has primarily operated as an online-only retailer. The shift to physical stores represents a strategic pivot to capture customers who prefer to shop in person for big-ticket home items like furniture, rugs, and decor.",
+          "neighborhood": "Buckhead",
+          "neighborhoods": [
+            "Buckhead"
+          ],
+          "source": "Axios Atlanta",
+          "sourceUrl": "https://www.axios.com/local/atlanta/2026/03/31/wayfair-second-large-format-store-atlanta",
+          "sources": [
+            {
+              "name": "Axios Atlanta",
+              "url": "https://www.axios.com/local/atlanta/2026/03/31/wayfair-second-large-format-store-atlanta"
+            },
+            {
+              "name": "AJC",
+              "url": "https://www.ajc.com/news/atlanta-news/wayfair-opens-first-atlanta-store-heres-a-look-inside/"
+            }
+          ],
+          "imageUrl": "",
+          "imageAlt": "Wayfair's new Atlanta store",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "wayfair",
+            "retail",
+            "buckhead",
+            "furniture",
+            "store opening"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Arts & Culture",
+      "stories": [
+        {
+          "id": "art-papers-magazine-farewell-little-five-points",
+          "headline": "Art Papers Magazine Bids Farewell After 50 Years",
+          "summary": "The longest-running nonprofit art magazine in the country gathers one last time April 12 at Whitespace Gallery, followed by a Second Line march to its Little Five Points office.",
+          "body": "Art Papers magazine, the longest-running nonprofit art publication in the United States, is closing after 50 years. The Atlanta community that built it will gather one last time on April 12.\n\nFounded in 1976 by Atlanta artists as the Atlanta Art Workers Coalition, Art Papers started as a two-page printed newsletter. By 1991, it had grown into a national art journal with readers in more than 35 countries.\n\nThe farewell event runs 1 to 4 p.m. at Whitespace Gallery. At 4 p.m., the Seed & Feed Marching Abominable Band leads a Second Line procession from Whitespace to the Art Papers office at the Little 5 Points Community Art Center.\n\n\"Many of the arts leaders in Atlanta interned, worked for, wrote for, or served on the board of Art Papers,\" said executive director Sarah Higgins. \"We're in the DNA of Atlanta's visual arts community. Art Papers was shaped by the people in this community, and it has shaped the community in return.\"\n\nThe publication leaves behind a half-century archive of Southern contemporary art criticism and community journalism.",
+          "neighborhood": "Little Five Points",
+          "neighborhoods": [
+            "Little Five Points"
+          ],
+          "source": "Rough Draft Atlanta",
+          "sourceUrl": "https://roughdraftatlanta.com/2026/04/01/art-papers-goes-out-the-way-it-came-together-in-community/",
+          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Art-Papers-600x334.jpeg",
+          "imageAlt": "Art Papers magazine farewell event announcement",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "art papers",
+            "little five points",
+            "art magazine",
+            "nonprofit",
+            "farewell"
+          ]
+        },
+        {
+          "id": "dave-hayward-lgbtq-historian-memorial",
+          "headline": "Memorial Planned for LGBTQ+ Historian Dave Hayward",
+          "summary": "A Celebration of Life for the co-founder of Touching Up Our Roots, Atlanta's LGBTQ+ story project, takes place April 11 at First Existentialist Congregation followed by a gathering at Manuel's Tavern.",
+          "body": "The community is invited to a Celebration of Life honoring LGBTQ+ historian and activist Dave Hayward on Saturday, April 11.\n\nThe service runs from 11 a.m. to 12:30 p.m. at First Existentialist Congregation of Atlanta at 470 Candler Park Drive NE. Afterward, guests will continue sharing memories at Manuel's Tavern from 1 to 3 p.m.\n\nHayward arrived in Atlanta in 1971 and became a dedicated chronicler of the city's queer history. He participated in Atlanta's first sanctioned Pride march in 1972 and co-founded the nonprofit Touching Up Our Roots, the LGBTQ+ story project and self-guided audio tour featuring sites important to queer Atlanta.\n\nA lover of history and storytelling, Hayward spent decades befriending and documenting the people who shaped Atlanta's gay rights movement during its earliest years. He died in November after suffering a heart attack at home.\n\nAttendees are encouraged to bring stories, memories, and reflections to share during the service.",
+          "neighborhood": "Candler Park",
+          "neighborhoods": [
+            "Candler Park",
+            "Poncey-Highland"
+          ],
+          "source": "Rough Draft Atlanta",
+          "sourceUrl": "https://roughdraftatlanta.com/2026/04/01/dave-hayward-memorial-service/",
+          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2025/11/Screenshot-2025-11-07-at-10.31.51-AM-600x456.png",
+          "imageAlt": "Dave Hayward, LGBTQ+ historian and activist",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "dave hayward",
+            "lgbtq",
+            "candler park",
+            "manuels tavern",
+            "memorial"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Politics & Policy",
+      "stories": [
+        {
+          "id": "georgia-legislature-final-session-day",
+          "headline": "Georgia Legislature Races to Finish as Session Deadline Looms",
+          "summary": "Thursday is the final day for bills to pass, with the state budget, literacy reform, property tax cuts, and election changes all still in play.",
+          "body": "The Georgia General Assembly enters its final stretch this week with a stack of major legislation still unresolved. Thursday is the last day for bills to make it across the finish line. Anything left behind dies and must start over next year under a new governor and lieutenant governor.\n\nThe $38.5 billion state budget remains in negotiations between the House and Senate. Speaker Jon Burns' literacy bill, unanimously passed as a compromise, would place literacy coaches in every K-3 school to address the fact that over 60% of Georgia third graders can't read proficiently.\n\nThe Senate passed a bill to cut property taxes by increasing sales taxes. The legislature also passed an HOA oversight bill and sent it to the governor's desk. Still pending: measures on synthetic hemp bans, medical marijuana expansion, data center regulation, and a controversial nonpartisan elections bill targeting the state's five largest counties.\n\nMeanwhile, county leaders from DeKalb, Fulton, Gwinnett, Cobb, and Clayton held a press conference urging Governor Kemp to veto the nonpartisan elections bill, calling it an unconstitutional power grab targeting Democratic strongholds.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "Georgia Recorder",
+          "sourceUrl": "https://georgiarecorder.com/2026/03/31/do-or-die-deadline-looms-for-georgia-voting-taxes-data-center-legislation/",
+          "sources": [
+            {
+              "name": "Georgia Recorder",
+              "url": "https://georgiarecorder.com/2026/03/31/do-or-die-deadline-looms-for-georgia-voting-taxes-data-center-legislation/"
+            },
+            {
+              "name": "Decaturish",
+              "url": "https://www.decaturish.com/voter_guide/county-leaders-urge-veto-of-nonpartisan-elections-bill/article_5e263ea8-4a62-4f26-978e-a8ff002021b7.html"
+            },
+            {
+              "name": "WABE",
+              "url": "https://www.wabe.org/georgia-legislature-passes-hoa-oversight-bill/"
+            }
+          ],
+          "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2024/06/IMG_0221.jpeg",
+          "imageAlt": "Georgia State Capitol building during legislative session",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "georgia legislature",
+            "session",
+            "budget",
+            "literacy",
+            "property tax",
+            "hoa"
+          ]
+        },
+        {
+          "id": "no-kings-protests-thousands-atlanta",
+          "headline": "Thousands Rally at State Capitol in Largest 'No Kings' Protest Yet",
+          "summary": "An estimated 6,000 demonstrators marched to the Georgia State Capitol on Saturday, protesting the Trump administration, the Iran war, and ICE. Senator Warnock addressed the crowd.",
+          "body": "Thousands of demonstrators took part in \"No Kings\" rallies across metro Atlanta on Saturday, joining millions of Americans nationally who took to the streets.\n\nThe largest local rally drew an estimated 6,000 people to the State Capitol. Chants of \"Abolish ICE!\" and \"No war, no kings!\" rang out in what was easily Atlanta's biggest day of protests so far in 2026.\n\nU.S. Senator Raphael Warnock warned the crowd about Christian nationalism. \"Part of what pains me in this moment is that, too often, it is religious voices that are among the meanest voices in our country,\" he said. Warnock vowed not to vote for \"a single dime\" of additional ICE funding without major reforms.\n\nThe protest was organized by a coalition including Georgia chapters of 50501, Indivisible, the ACLU, and the Democratic Socialists of America. Demonstrations also took place at other locations, including a luxury retirement community in Dunwoody.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "Atlanta Civic Circle",
+          "sourceUrl": "https://atlantaciviccircle.org/2026/03/30/no-kings-thousands-atlanta-luxury-retirement-community-lenwood/",
+          "sources": [
+            {
+              "name": "Atlanta Civic Circle",
+              "url": "https://atlantaciviccircle.org/2026/03/30/no-kings-thousands-atlanta-luxury-retirement-community-lenwood/"
+            },
+            {
+              "name": "AJC",
+              "url": "https://www.ajc.com/news/atlanta-news/immigration-war-bring-thousands-to-georgia-state-capitol-for-no-kings-march/"
+            }
+          ],
+          "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/IMG_9089-1024x576.jpg",
+          "imageAlt": "No Kings rally at the Georgia State Capitol in Atlanta",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "no kings",
+            "protest",
+            "state capitol",
+            "warnock",
+            "ice",
+            "iran war"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Transportation",
+      "stories": [
+        {
+          "id": "marta-better-breeze-fare-system-launch",
+          "headline": "MARTA Launches New Better Breeze Fare System",
+          "summary": "Riders have until May 2 to switch to the new payment system, which supports tap-to-pay with bank cards and mobile wallets alongside new Breeze cards.",
+          "body": "MARTA launched its Better Breeze fare payment system, and riders have a five-week transition period through May 2 to get familiar with the changes.\n\nDuring the transition, both old and new Breeze systems will be active. Old Breeze cards still work at existing faregates, but old ticket vending machines have been turned off and no new fare can be added to old cards. Old faregates will be left open to ensure access, but riders should still tap if possible.\n\nThe new system supports tap-to-pay with bank cards and mobile wallets, a major upgrade from the proprietary Breeze card system. Riders can also get new Breeze cards at station kiosks.\n\n\"If you've ever done an improvement project, you know it can be messy and inconvenient, but short-term pain is often necessary for long-term gain,\" said MARTA CEO Jonathan Hunt. \"Pay attention to signs and announcements to enter and exit rail stations.\"\n\nThe overhaul brings MARTA in line with transit systems in other major cities that have adopted open-loop contactless payment.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "The Atlanta Voice",
+          "sourceUrl": "https://theatlantavoice.com/new-breeze-fare-system/",
+          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2025/03/Front-Page_Five-Points1.jpg?fit=1024%2C681&quality=89&ssl=1",
+          "imageAlt": "MARTA Five Points station with new Breeze fare equipment",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "marta",
+            "breeze",
+            "fare system",
+            "transit",
+            "tap to pay"
+          ]
+        },
+        {
+          "id": "hartsfield-jackson-spring-travel-surge",
+          "headline": "Hartsfield-Jackson Braces for Record Spring Travel",
+          "summary": "More than 8.3 million passengers are expected this month, with April 3 potentially setting a single-day record as TSA lines start to normalize after the shutdown.",
+          "body": "Hartsfield-Jackson Atlanta International Airport is preparing for a major spring travel surge, with more than 8.3 million passengers expected to pass through the airport in April.\n\nAirport officials say April 3 could be one of the busiest travel days on record. The spike comes as the airport recovers from weeks of chaos caused by the DHS funding lapse, which saw TSA callout rates spike above 40% and security lines stretch for hours.\n\nTSA workers have now begun receiving back pay covering four weeks of wages held up by the partial government shutdown. Security lines are starting to normalize as workers return.\n\nThe timing coincides with spring break travel, the Easter holiday weekend, and the beginning of early World Cup tourism. Atlanta's airport remains the world's busiest by passenger traffic, a distinction it has held for most of the past two decades.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "Fox 5 Atlanta",
+          "sourceUrl": "https://www.fox5atlanta.com/news/atl-braces-spring-travel-surge-record-passenger-day",
+          "imageUrl": "",
+          "imageAlt": "Hartsfield-Jackson Atlanta International Airport terminal",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "hartsfield-jackson",
+            "airport",
+            "travel",
+            "tsa",
+            "spring break"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Community",
+      "stories": [
+        {
+          "id": "teen-takeovers-atlanta-what-next",
+          "headline": "Teen Takeovers Spark Debate: Crackdown or Investment?",
+          "summary": "As metro Atlanta weighs legal responses to unauthorized teen gatherings at spots like the BeltLine and the Battery, advocates say the real question is where teens can actually go.",
+          "body": "Teen takeovers have become the latest flashpoint in metro Atlanta. The unauthorized gatherings of hundreds of teenagers at spots like the Battery, the BeltLine, and the Mall of Georgia have sometimes ended in chaos, including a February 28 BeltLine incident that resulted in 14 arrests and 11 confiscated firearms.\n\nSome call for crackdowns: anti-loitering rules, curfews, age restrictions. Lawyer Gil Deitch points to Lenox Square's chaperone requirement as a model. \"To me, it's all about location, where these things are happening,\" he says.\n\nBut others argue the real issue is a lack of investment in spaces for young people. SaportaReport asked the question bluntly: where will teens go? Meanwhile, a Decaturish editorial argued that the takeovers themselves aren't the real problem, pointing instead to decades of disinvestment in youth programming and public spaces.\n\nGwinnett County Police arrested a man wearing a ski mask and carrying a firearm during a special operation targeting a possible takeover on March 14, illustrating the security concerns driving the debate.",
+          "neighborhood": "Midtown",
+          "neighborhoods": [
+            "Midtown",
+            "Buckhead"
+          ],
+          "source": "SaportaReport",
+          "sourceUrl": "https://saportareport.com/metro-atlanta-wants-to-crack-down-on-teen-takeovers-where-will-teens-go/columnists/delaneytarr/",
+          "sources": [
+            {
+              "name": "SaportaReport",
+              "url": "https://saportareport.com/metro-atlanta-wants-to-crack-down-on-teen-takeovers-where-will-teens-go/columnists/delaneytarr/"
+            },
+            {
+              "name": "Decaturish",
+              "url": "https://www.decaturish.com/opinion/teen-takeover-breaking-stereotypes-on-social-media/article_65e77998-cf39-4755-9d7d-51bc9d48c509.html"
+            }
+          ],
+          "imageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/03/Screenshot-2026-03-31-at-4.29.43-PM-scaled.png?fit=1024%2C686&ssl=1",
+          "imageAlt": "Teen takeover discussion in metro Atlanta",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "teen takeovers",
+            "beltline",
+            "battery",
+            "youth",
+            "public safety"
+          ]
+        },
+        {
+          "id": "world-cup-events-calendar-atlanta",
+          "headline": "The Ultimate Atlanta FIFA World Cup Events Calendar",
+          "summary": "Eight matches at Atlanta Stadium from June 15 to July 15, plus the FIFA Fan Festival taking over Centennial Olympic Park. Last-minute tickets go on sale April 1.",
+          "body": "Atlanta's FIFA World Cup calendar is filling up fast. The city hosts eight matches at Atlanta Stadium from June 15 through July 15, including a semifinal.\n\nThe match schedule: Spain vs. Cabo Verde (June 15), a playoff winner vs. South Africa (June 18), Spain vs. Saudi Arabia (June 21), Morocco vs. Haiti (June 24), a playoff winner vs. Uzbekistan (June 27), a Round of 32 match (July 1), a Round of 16 match (July 7), and a semifinal (July 15).\n\nFIFA opened last-minute face-value tickets on April 1, with an official Resale/Exchange Marketplace launching April 2.\n\nBeyond the matches, the FIFA Fan Festival takes over the entirety of Centennial Olympic Park from June 16 to July 15. The free, family-friendly festival will feature four zones of live music, performances, kids' activities, match broadcasts, food vendors, and art installations.\n\nThe city's biggest event since the 1996 Olympics is expected to draw millions of visitors and billions in economic impact.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "Atlanta Magazine",
+          "sourceUrl": "https://www.atlantamagazine.com/news-culture-articles/the-ultimate-atlanta-fifa-world-cup-events-calendar/",
+          "imageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/04/fifafanfest_fb_courtesy.jpg",
+          "imageAlt": "FIFA Fan Festival rendering at Centennial Olympic Park in Atlanta",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "world cup",
+            "fifa",
+            "centennial olympic park",
+            "atlanta stadium",
+            "tickets"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "stories": [
+        {
+          "id": "southeast-startup-funding-march-2026",
+          "headline": "Southeast Startups Raised Big in March, Atlanta's Zero RFI Lands $13.8M",
+          "summary": "Atlanta construction-tech startup Zero RFI pulled in a $13.8 million seed round as Southeast venture funding saw strong cybersecurity and healthtech activity.",
+          "body": "March was a strong month for Southeast startup funding, with several large rounds headlining the region's venture activity.\n\nAtlanta's Zero RFI, an AI-native holding company focused on the construction industry, raised a $13.8 million seed round. The company buys construction businesses and integrates them with AI-powered tools.\n\nOther notable raises included Sarasota-based TENEX AI ($250M Series B in cybersecurity), Miami's eMed ($200M Series A for GLP-1 weight-loss management, valued at $2 billion), and Huntsville's Performance Drone Works ($110M Series B for autonomous drones).\n\nSeparately, a new Georgia investor syndicate combining the Emory BioFoundry Institute, Invest Georgia, and the Georgia Tech Research Impact Fund announced an investment in Atlanta healthtech startup Sanguina, which offers AI-powered anemia monitoring through a smartphone app analyzing fingernail photos.",
+          "neighborhood": "Midtown",
+          "neighborhoods": [
+            "Midtown"
+          ],
+          "source": "Hypepotamus",
+          "sourceUrl": "https://hypepotamus.com/startup-news/startups-that-raised-vc-in-march-2026/",
+          "imageUrl": "https://hypepotamus.com/wp-content/uploads/2026/04/blogging-guide-K5DY18hy5JQ-unsplash-scaled.jpg",
+          "imageAlt": "Southeast startup funding activity for March 2026",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "startups",
+            "venture capital",
+            "zero rfi",
+            "construction",
+            "atlanta tech"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Sports",
+      "stories": [
+        {
+          "id": "braves-lose-5-2-athletics-game-two",
+          "headline": "Braves Drop Game Two to A's 5-2, Offense Struggles",
+          "summary": "Jose Suarez gave up four earned runs in his first start of the season as Atlanta's offense continued to sputter at Truist Park.",
+          "body": "The Braves couldn't keep the good times rolling in game two against the Sacramento A's, falling 5-2 at Truist Park on Tuesday night.\n\nJose Suarez, making his first start of the season, looked like a reliever early on. After Drake Baldwin put the Braves up 1-0 with his third home run of the season, Suarez gave up a two-out RBI single to Andy Ibanez in the second inning, followed by a ground-rule double from Jacob Wilson that scored two more.\n\nThe first and third innings were perfect for Suarez, who struck out six A's total. But the fourth inning brought more damage: a double by Max Muncy and another RBI single from Ibanez.\n\nThe Braves have had issues driving in runs early this season. Manager Walt Weiss has emphasized that pitching will be key, but the offense needs to find its rhythm. The series continues at Truist Park.",
+          "neighborhood": "Buckhead",
+          "neighborhoods": [
+            "Buckhead"
+          ],
+          "source": "The Atlanta Voice",
+          "sourceUrl": "https://theatlantavoice.com/braves-struggle-scoring-runs/",
+          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/260331_BR__game2_KL104879-scaled.jpg?fit=1024%2C683&quality=89&ssl=1",
+          "imageAlt": "Jose Suarez pitching for the Atlanta Braves at Truist Park",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "braves",
+            "athletics",
+            "truist park",
+            "jose suarez",
+            "baseball"
+          ]
+        },
+        {
+          "id": "hawks-role-players-playoff-push",
+          "headline": "Hawks Role Players Finding Their Groove in Playoff Push",
+          "summary": "Atlanta's supporting cast is stepping up as the team makes its push for a postseason spot down the stretch.",
+          "body": "The Atlanta Hawks' role players are finding their rhythm at exactly the right time.\n\nAs the NBA regular season winds down, Atlanta's supporting cast has been stepping up to complement the team's stars. The depth has been a key factor in the Hawks' push for a playoff berth, with bench contributions and defensive improvements making a noticeable difference.\n\nThe Hawks have been one of the more exciting teams in the Eastern Conference this season, with their fast-paced style and young talent drawing attention. Securing a playoff spot would mark a significant step in the team's rebuilding arc.\n\nWith just a handful of games remaining in the regular season, every win matters. The Hawks play their home games at State Farm Arena in Downtown Atlanta.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "AJC",
+          "sourceUrl": "https://www.ajc.com/sports/atlanta-hawks/atlanta-hawks-role-players-finding-their-groove-in-push-to-playoffs/",
+          "imageUrl": "",
+          "imageAlt": "Atlanta Hawks players at State Farm Arena",
+          "publishedAt": "2026-04-01",
+          "keywords": [
+            "hawks",
+            "nba",
+            "playoffs",
+            "state farm arena",
+            "basketball"
+          ]
+        }
+      ]
+    }
+  ],
+  "neighborhoods": {
+    "Downtown": {
+      "storyCount": 58,
+      "topStory": "dickens-refuses-firefighter-contract"
+    },
+    "Decatur": {
+      "storyCount": 27,
+      "topStory": "tulsa-welding-school-decatur"
+    },
+    "Midtown": {
+      "storyCount": 26,
+      "topStory": "midtown-sewer-repairs-close-juniper"
+    },
+    "Buckhead": {
+      "storyCount": 10,
+      "topStory": "freedom-plane-documents-atlanta-history-center"
+    },
+    "Grant Park": {
+      "storyCount": 9,
+      "topStory": "senate-passes-investor-home-limits"
+    },
+    "Westside": {
+      "storyCount": 8,
+      "topStory": "atlanta-united-first-win"
+    },
+    "Reynoldstown": {
+      "storyCount": 6,
+      "topStory": "senate-passes-investor-home-limits"
+    },
+    "Kirkwood": {
+      "storyCount": 6,
+      "topStory": "beacon-grant-park-vacancy-struggle"
+    },
+    "Oakland City": {
+      "storyCount": 6,
+      "topStory": "beltline-murphy-crossing-redesign"
+    },
+    "West End": {
+      "storyCount": 6,
+      "topStory": "eats-reopens-wild-heaven-west-end"
+    },
+    "Old Fourth Ward": {
+      "storyCount": 5,
+      "topStory": "senate-passes-investor-home-limits"
+    },
+    "Druid Hills": {
+      "storyCount": 5,
+      "topStory": "south-peachtree-creek-trail-funding"
+    },
+    "West Midtown": {
+      "storyCount": 3,
+      "topStory": "fum-west-midtown-italian-restaurant"
+    },
+    "Castleberry Hill": {
+      "storyCount": 3,
+      "topStory": "south-downtown-world-cup-transformation-2026"
+    },
+    "East Atlanta Village": {
+      "storyCount": 2,
+      "topStory": "senate-passes-investor-home-limits"
+    },
+    "Virginia-Highland": {
+      "storyCount": 2,
+      "topStory": "10th-street-hemphill-construction-closure"
+    },
+    "Capitol View": {
+      "storyCount": 2,
+      "topStory": "beltline-oakland-city-marta-connector-trail-visuals"
+    },
+    "Inman Park": {
+      "storyCount": 2,
+      "topStory": "mushi-ni-opens-inman-park"
+    },
+    "East Atlanta": {
+      "storyCount": 2,
+      "topStory": "vela-park-food-hall-opening"
+    },
+    "Cabbagetown": {
+      "storyCount": 2,
+      "topStory": "reynoldstown-townhomes-beltline-construction"
+    },
+    "Summerhill": {
+      "storyCount": 2,
+      "topStory": "gsu-summerhill-athletics-neighborhood"
+    },
+    "South Fulton": {
+      "storyCount": 1,
+      "topStory": "south-fulton-murder-suicide"
+    },
+    "Piedmont Heights": {
+      "storyCount": 1,
+      "topStory": "midtown-sewer-repairs-close-juniper"
+    },
+    "Home Park": {
+      "storyCount": 1,
+      "topStory": "10th-street-hemphill-construction-closure"
+    },
+    "College Park": {
+      "storyCount": 1,
+      "topStory": "atlanta-airport-tsa-delays"
+    },
+    "Vine City": {
+      "storyCount": 1,
+      "topStory": "atlanta-streets-alive-new-route"
+    },
+    "Ansley Park": {
+      "storyCount": 1,
+      "topStory": "lewis-barbecue-ansley-mall-beltline"
+    },
+    "East Point": {
+      "storyCount": 1,
+      "topStory": "east-point-affordable-housing-marta"
+    },
+    "Little Five Points": {
+      "storyCount": 1,
+      "topStory": "art-papers-magazine-farewell-little-five-points"
+    },
+    "Candler Park": {
+      "storyCount": 1,
+      "topStory": "dave-hayward-lgbtq-historian-memorial"
+    },
+    "Poncey-Highland": {
+      "storyCount": 1,
+      "topStory": "dave-hayward-lgbtq-historian-memorial"
+    }
+  }
+}

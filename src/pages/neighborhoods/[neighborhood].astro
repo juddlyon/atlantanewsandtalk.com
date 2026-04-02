@@ -6,8 +6,7 @@ import { getStoriesByNeighborhood, slugify, SITE_URL, SITE_NAME, buildBreadcrumb
 import neighborhoodsData from '../../data/neighborhoods.json';
 
 export function getStaticPaths() {
-  // Use static neighborhoods.json to ensure all 36 pages are always generated,
-  // even if a neighborhood has no stories in today's digest
+  // Use static neighborhoods.json to ensure all pages are always generated
   return neighborhoodsData.neighborhoods.map((n) => ({
     params: { neighborhood: n.slug },
     props: { neighborhoodName: n.name },
@@ -33,22 +32,51 @@ const neighborhoodJsonLd = {
   '@type': 'CollectionPage',
   name: seoTitle,
   description: seoDesc,
-  url: `${SITE_URL}/neighborhoods/${slug}`,
+  url: `${SITE_URL}/neighborhoods/${slug}/`,
+  inLanguage: 'en-US',
   publisher: {
-    '@type': 'Organization',
+    '@type': 'NewsMediaOrganization',
+    '@id': `${SITE_URL}/#organization`,
     name: SITE_NAME,
     url: SITE_URL,
   },
   about: {
     '@type': 'Place',
     name: neighborhoodName,
+    description: hoodInfo?.description?.replace(/<[^>]+>/g, '').slice(0, 500),
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Atlanta',
       addressRegion: 'GA',
       addressCountry: 'US',
+      ...(hoodInfo?.zipCodes?.[0] ? { postalCode: hoodInfo.zipCodes[0] } : {}),
+    },
+    ...(hoodInfo?.latitude ? {
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: hoodInfo.latitude,
+        longitude: hoodInfo.longitude,
+      },
+    } : {}),
+    containedInPlace: {
+      '@type': 'City',
+      name: 'Atlanta',
+      '@id': 'https://www.wikidata.org/wiki/Q23556',
+      sameAs: 'https://en.wikipedia.org/wiki/Atlanta',
     },
   },
+  ...(stories.length > 0 ? {
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: stories.length,
+      itemListElement: stories.slice(0, 10).map((s, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: `${SITE_URL}/${s.id}/`,
+        name: s.headline,
+      })),
+    },
+  } : {}),
 };
 ---
 
@@ -88,7 +116,7 @@ const neighborhoodJsonLd = {
       <section class="neighborhood-description">
         <h2 class="neighborhood-description-title">About {neighborhoodName}</h2>
         {hoodInfo.description.split('\n\n').map((paragraph) => (
-          <p>{paragraph}</p>
+          <p set:html={paragraph} />
         ))}
       </section>
     )}
@@ -142,7 +170,7 @@ const neighborhoodJsonLd = {
           {hoodInfo.relatedNeighborhoods.map((name) => {
             const relatedInfo = neighborhoodsData.neighborhoods.find((n) => n.name === name);
             return (
-              <a href={`/neighborhoods/${slugify(name)}`} class="related-hood-card">
+              <a href={`/neighborhoods/${slugify(name)}/`} class="related-hood-card">
                 <span class="related-hood-name">{name}</span>
                 {relatedInfo && (
                   <span class="related-hood-blurb">{relatedInfo.highlights[0]}</span>

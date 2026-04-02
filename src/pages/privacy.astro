@@ -1,0 +1,70 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { SITE_URL, buildBreadcrumbSchema } from '../lib/helpers';
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: SITE_URL },
+  { name: 'Privacy Policy', url: `${SITE_URL}/privacy` },
+]);
+---
+
+<Base
+  title="Privacy Policy | atlanta news & talk"
+  description="Privacy policy for Atlanta News & Talk. No tracking, no ads, no accounts."
+  breadcrumbSchema={breadcrumbSchema}
+>
+  <div class="article-page">
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'Privacy Policy' },
+    ]} />
+
+    <h1 class="article-headline">privacy policy</h1>
+
+    <div class="article-body">
+      <p><strong>Last updated:</strong> March 17, 2026</p>
+
+      <h2>The short version</h2>
+      <p>
+        This site does not track you. There are no analytics scripts, no ad networks, no cookies,
+        no user accounts, and no data collection. You show up, read the news, and leave. That's it.
+      </p>
+
+      <h2>What we collect</h2>
+      <p>
+        <strong>Nothing from you directly.</strong> There are no forms, logins, newsletter signups,
+        or comment sections on this site. The only way to contact us is by emailing
+        the <a href="/contact">contact form</a>.
+      </p>
+
+      <h2>Hosting and server logs</h2>
+      <p>
+        This site is hosted on <a href="https://www.netlify.com" target="_blank" rel="noopener">Netlify</a>.
+        Like any web host, Netlify processes standard server logs (IP addresses, browser type,
+        pages requested) as part of normal web serving. These logs are managed by Netlify under
+        their <a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener">privacy policy</a>.
+        We do not access or analyze these logs.
+      </p>
+
+      <h2>Third-party content</h2>
+      <p>
+        Article pages may display images hosted by the original news source (loaded directly from
+        their servers) or from <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a>.
+        These external servers may log standard request data when your browser loads those images.
+      </p>
+
+      <h2>Cookies</h2>
+      <p>This site does not set any cookies.</p>
+
+      <h2>Children</h2>
+      <p>This site is a general news aggregator and does not knowingly collect information from anyone, including children.</p>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, the update will be posted here with a new date.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy: <a href="/contact">contact form</a></p>
+    </div>
+  </div>
+</Base>

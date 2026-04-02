@@ -29,16 +29,21 @@ const {
 
 const digest = getDigest();
 const dateDisplay = formatDate(digest.date);
+const now = new Date();
+const buildId = now.toISOString().replace(/[:-]/g, '').slice(0, 15);
+const buildLabel = now.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'America/New_York' })
+  + ' · '
+  + now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' }).toLowerCase();
 
 const navItems = [
-  { label: 'Neighborhoods', href: '/neighborhoods' },
-  { label: 'Guides', href: '/guide' },
-  { label: 'Lists', href: '/lists' },
-  { label: 'Archive', href: '/archive' },
-  { label: 'Summerhill', href: '/guide/summerhill-atlanta' },
-  { label: 'Peoplestown', href: '/guide/peoplestown-atlanta' },
-  { label: 'World Cup', href: '/fifa-world-cup-atlanta-2026' },
-  { label: 'About', href: '/about' },
+  { label: 'Neighborhoods', href: '/neighborhoods/' },
+  { label: 'Guides', href: '/guide/' },
+  { label: 'Lists', href: '/lists/' },
+  { label: 'Archive', href: '/archive/' },
+  { label: 'Resources', href: '/resources/' },
+  { label: 'World Cup', href: '/guide/fifa-world-cup-atlanta-2026/' },
+  { label: 'About', href: '/about/' },
+  { label: 'Contact', href: '/contact/' },
 ];
 ---
 
@@ -47,6 +52,7 @@ const navItems = [
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="build-id" content={buildId} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -61,6 +67,7 @@ const navItems = [
     />
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header class="site-header">
       <div class="header-top">
         <div class="site-brand">
@@ -85,7 +92,9 @@ const navItems = [
       </nav>
     </header>
 
-    <slot />
+    <main id="main-content">
+      <slot />
+    </main>
 
     <TrendingBar position="bottom" />
 
@@ -113,56 +122,60 @@ const navItems = [
         <div class="footer-links-inner">
           <div class="footer-link-group">
             <h4>topics</h4>
-            <a href="/atlanta-news-today">atlanta news today</a>
-            <a href="/atlanta-development-news">development news</a>
-            <a href="/atlanta-restaurants-news">restaurant news</a>
-            <a href="/atlanta-transit-news">transit + marta</a>
-            <a href="/things-to-do-in-atlanta">things to do</a>
-            <a href="/atlanta-events-this-weekend">weekend events</a>
-            <a href="/atlanta-beltline-news">beltline news</a>
-            <a href="/archive">digest archive</a>
+            <a href="/atlanta-news-today/">atlanta news today</a>
+            <a href="/atlanta-development-news/">development news</a>
+            <a href="/atlanta-restaurants-news/">restaurant news</a>
+            <a href="/atlanta-transit-news/">transit + marta</a>
+            <a href="/things-to-do-in-atlanta/">things to do</a>
+            <a href="/atlanta-events-this-weekend/">weekend events</a>
+            <a href="/atlanta-beltline-news/">beltline news</a>
+            <a href="/archive/">digest archive</a>
           </div>
           <div class="footer-link-group">
             <h4>se beltline</h4>
-            <a href="/old-fourth-ward-news">old fourth ward</a>
-            <a href="/grant-park-atlanta-news">grant park</a>
-            <a href="/inman-park-news">inman park</a>
-            <a href="/east-atlanta-village-news">east atlanta village</a>
-            <a href="/reynoldstown-atlanta-news">reynoldstown</a>
-            <a href="/summerhill-atlanta-news">summerhill</a>
-            <a href="/kirkwood-atlanta-news">kirkwood</a>
+            <a href="/old-fourth-ward-news/">old fourth ward</a>
+            <a href="/grant-park-atlanta-news/">grant park</a>
+            <a href="/inman-park-news/">inman park</a>
+            <a href="/east-atlanta-village-news/">east atlanta village</a>
+            <a href="/reynoldstown-atlanta-news/">reynoldstown</a>
+            <a href="/summerhill-atlanta-news/">summerhill</a>
+            <a href="/kirkwood-atlanta-news/">kirkwood</a>
           </div>
           <div class="footer-link-group">
             <h4>more neighborhoods</h4>
-            <a href="/midtown-atlanta-news">midtown</a>
-            <a href="/downtown-atlanta-news">downtown</a>
-            <a href="/buckhead-atlanta-news">buckhead</a>
-            <a href="/virginia-highland-news">virginia-highland</a>
-            <a href="/decatur-news">decatur</a>
-            <a href="/west-midtown-atlanta-news">west midtown</a>
-            <a href="/neighborhoods">all neighborhoods ›</a>
+            <a href="/midtown-atlanta-news/">midtown</a>
+            <a href="/downtown-atlanta-news/">downtown</a>
+            <a href="/buckhead-atlanta-news/">buckhead</a>
+            <a href="/virginia-highland-news/">virginia-highland</a>
+            <a href="/decatur-news/">decatur</a>
+            <a href="/west-midtown-atlanta-news/">west midtown</a>
+            <a href="/neighborhoods/">all neighborhoods ›</a>
           </div>
           <div class="footer-link-group">
             <h4>guides</h4>
-            <a href="/guide/things-to-do-in-atlanta">things to do</a>
-            <a href="/guide/atlanta-beltline">beltline guide</a>
-            <a href="/guide/best-restaurants-in-atlanta">best restaurants</a>
-            <a href="/guide/atlanta-neighborhoods">neighborhoods guide</a>
-            <a href="/guide/moving-to-atlanta">moving to atlanta</a>
-            <a href="/guide">all guides ›</a>
+            <a href="/guide/things-to-do-in-atlanta/">things to do</a>
+            <a href="/guide/atlanta-beltline/">beltline guide</a>
+            <a href="/guide/best-restaurants-in-atlanta/">best restaurants</a>
+            <a href="/guide/atlanta-neighborhoods/">neighborhoods guide</a>
+            <a href="/guide/moving-to-atlanta/">moving to atlanta</a>
+            <a href="/guide/">all guides ›</a>
           </div>
           <div class="footer-link-group">
             <h4>lists</h4>
-            <a href="/lists/best-parks-itp-atlanta">best parks ITP</a>
-            <a href="/lists/best-coffee-shops-beltline">beltline coffee shops</a>
-            <a href="/lists/best-pizza-atlanta-itp">best pizza ITP</a>
-            <a href="/lists/best-bars-east-atlanta-village">EAV bars</a>
-            <a href="/lists">all lists ›</a>
+            <a href="/lists/best-parks-itp-atlanta/">best parks ITP</a>
+            <a href="/lists/best-coffee-shops-beltline/">beltline coffee shops</a>
+            <a href="/lists/best-pizza-atlanta-itp/">best pizza ITP</a>
+            <a href="/lists/best-bars-east-atlanta-village/">EAV bars</a>
+            <a href="/lists/">all lists ›</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        © {new Date().getFullYear()} atlanta news & talk. Original reporting remains with the respective publishers.
+        <span>© {new Date().getFullYear()} atlanta news & talk. Original reporting remains with the respective publishers.</span>
+        <span class="footer-legal">
+          <a href="/about/">About</a> · <a href="/resources/">Resources</a> · <a href="/editorial/">Editorial Standards</a> · <a href="/privacy/">Privacy</a> · <a href="/contact/">Contact</a>
+        </span>
+        <span class="build-stamp" title={`Build ${buildId}`}>built {buildLabel}</span>
       </div>
     </footer>
   </body>

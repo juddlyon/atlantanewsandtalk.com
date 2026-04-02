@@ -9,7 +9,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
   { name: 'Neighborhoods', url: `${SITE_URL}/neighborhoods` },
 ]);
 
-// Use static neighborhoods.json to ensure all 36 neighborhoods are always shown,
+// Use static neighborhoods.json to ensure all neighborhoods are always shown,
 // even if some have no stories in today's digest
 const neighborhoodData = getNeighborhoodData();
 
@@ -59,7 +59,7 @@ function getBlurb(name: string): string {
         const count = data?.storyCount || 0;
         const blurb = getBlurb(name);
         return (
-          <a href={`/neighborhoods/${slugify(name)}`} class="neighborhood-card">
+          <a href={`/neighborhoods/${slugify(name)}/`} class="neighborhood-card">
             <div class="neighborhood-card-info">
               <span class="neighborhood-card-name">{name}</span>
               {blurb && <span class="neighborhood-card-blurb">{blurb}</span>}

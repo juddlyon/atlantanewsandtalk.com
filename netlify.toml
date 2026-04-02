@@ -1,9 +1,11 @@
 [build]
-  command = "node scripts/fetch-articles.mjs && (node scripts/summarize.mjs || echo 'Summarize failed, using existing digest') && node scripts/commit-digest.mjs && npm run build"
+  command = "echo 'Build locally, deploy with: netlify deploy --prod'"
   publish = "dist"
+  ignore = "exit 0"
 
-[functions]
-  directory = "netlify/functions"
+# Functions disabled until build minutes reset (April 2026)
+# [functions]
+#   directory = "netlify/functions"
 
 [build.processing.html]
   pretty_urls = true

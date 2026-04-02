@@ -1,0 +1,156 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { SITE_URL, buildBreadcrumbSchema } from '../lib/helpers';
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: SITE_URL },
+  { name: 'Contact', url: `${SITE_URL}/contact` },
+]);
+---
+
+<Base
+  title="Contact | atlanta news & talk"
+  description="Send a tip, correction, or suggestion to Atlanta News & Talk."
+  breadcrumbSchema={breadcrumbSchema}
+>
+  <div class="article-page">
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'Contact' },
+    ]} />
+
+    <h1 class="article-headline">get in touch</h1>
+
+    <div class="article-body">
+      <p>
+        Got a tip? A correction? A neighborhood source we should be reading? Use the form
+        below and we'll take a look.
+      </p>
+
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        action="/contact/thanks"
+        class="contact-form"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+
+        <p class="honey" aria-hidden="true">
+          <label>Don't fill this out: <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
+        </p>
+
+        <div class="form-group">
+          <label for="name">Name <span class="optional">(optional)</span></label>
+          <input type="text" id="name" name="name" placeholder="First name is fine" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        </div>
+
+        <div class="form-group">
+          <label for="type">What's this about?</label>
+          <select id="type" name="type">
+            <option value="tip">News tip</option>
+            <option value="correction">Correction</option>
+            <option value="source">Suggest a source</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="What's up?"></textarea>
+        </div>
+
+        <button type="submit" class="form-submit">Send it ›</button>
+      </form>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .honey {
+    display: none !important;
+  }
+
+  .contact-form {
+    max-width: 32rem;
+    margin-top: 1.5rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.25rem;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-text-soft);
+  }
+
+  .optional {
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.7rem 0.85rem;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-sm);
+    background: #fff;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--color-ink);
+    transition: border-color 0.15s;
+  }
+
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: 2px solid var(--color-blue);
+    outline-offset: 1px;
+    border-color: var(--color-blue);
+    box-shadow: 0 0 0 3px rgba(19, 39, 79, 0.12);
+  }
+
+  .form-group textarea {
+    resize: vertical;
+    min-height: 6rem;
+  }
+
+  .form-submit {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap-target);
+    padding: 0.75rem 1.6rem;
+    border: none;
+    border-radius: var(--radius-sm);
+    background: var(--color-blue);
+    color: #fff;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+
+  .form-submit:hover {
+    background: var(--color-red);
+  }
+</style>

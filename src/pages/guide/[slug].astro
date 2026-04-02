@@ -18,20 +18,39 @@ const relatedGuides = guide.relatedGuides
   ? guidesData.guides.filter((g) => guide.relatedGuides.includes(g.slug))
   : [];
 
+const firstImage = guide.sections?.find((s) => s.imageUrl)?.imageUrl;
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": guide.h1,
   "description": guide.seoDescription,
-  "url": `${SITE_URL}/guide/${guide.slug}`,
+  "url": `${SITE_URL}/guide/${guide.slug}/`,
+  "inLanguage": "en-US",
+  ...(firstImage ? { "image": { "@type": "ImageObject", "url": firstImage } } : {}),
+  "datePublished": guide.datePublished || "2025-03-01",
+  "dateModified": guide.dateModified || guide.datePublished || "2025-03-01",
+  "articleSection": guide.category || "Atlanta Guide",
+  "author": {
+    "@type": "Person",
+    "name": "David",
+    "url": `${SITE_URL}/about`
+  },
   "publisher": {
-    "@type": "Organization",
+    "@type": "NewsMediaOrganization",
+    "@id": `${SITE_URL}/#organization`,
     "name": SITE_NAME,
-    "url": SITE_URL
+    "url": SITE_URL,
+    "logo": `${SITE_URL}/favicon.svg`
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": `${SITE_URL}/guide/${guide.slug}`
+    "@id": `${SITE_URL}/guide/${guide.slug}/`
+  },
+  "spatialCoverage": {
+    "@type": "City",
+    "name": "Atlanta",
+    "@id": "https://www.wikidata.org/wiki/Q23556"
   }
 };
 
@@ -57,6 +76,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 
     <header class="guide-header">
       <h1 class="guide-h1">{guide.h1}</h1>
+      <p class="guide-byline">by <a href="/about">David</a> in <a href="/neighborhoods/summerhill">Summerhill</a></p>
     </header>
 
     <div class="guide-intro prose" set:html={marked.parse(guide.intro)} />
@@ -81,7 +101,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
         <h2 class="related-guides-title">Related Guides</h2>
         <div class="related-guides-grid">
           {relatedGuides.map((g) => (
-            <a href={`/guide/${g.slug}`} class="guide-card">
+            <a href={`/guide/${g.slug}/`} class="guide-card">
               <span class="guide-card-title">{g.title}</span>
               <span class="guide-card-desc">{g.seoDescription}</span>
             </a>

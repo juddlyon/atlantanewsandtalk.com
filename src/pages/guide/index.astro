@@ -30,7 +30,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 
     <div class="guide-index-grid">
       {guidesData.guides.map((guide) => (
-        <a href={`/guide/${guide.slug}`} class="guide-card">
+        <a href={`/guide/${guide.slug}/`} class="guide-card">
           <span class="guide-card-title">{guide.title}</span>
           <span class="guide-card-desc">{guide.seoDescription}</span>
         </a>

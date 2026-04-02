@@ -1,0 +1,184 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { SITE_URL, buildBreadcrumbSchema } from '../lib/helpers';
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: SITE_URL },
+  { name: 'Resources', url: `${SITE_URL}/resources` },
+]);
+
+const resources = [
+  {
+    category: 'Hyperlocal News',
+    sites: [
+      { name: 'Decaturish', url: 'https://decaturish.com', desc: 'Deep coverage of Decatur, Avondale Estates, and Tucker with real accountability reporting.' },
+      { name: 'Atlanta Civic Circle', url: 'https://atlantaciviccircle.org', desc: 'Nonprofit newsroom covering Atlanta city government, housing, and policy.' },
+      { name: 'Urbanize Atlanta', url: 'https://atlanta.urbanize.city', desc: 'Development tracker with renderings, permits, and project updates across ITP.' },
+      { name: 'SaportaReport', url: 'https://saportareport.com', desc: 'Maria Saporta\'s long-running site on Atlanta civic life, business, and philanthropy.' },
+      { name: 'Rough Draft Atlanta', url: 'https://roughdraftatlanta.com', desc: 'Arts, culture, and urbanism coverage with a sharp editorial voice.' },
+      { name: 'Capital B Atlanta', url: 'https://capitalbnews.com/atlanta/', desc: 'Local Black news covering education, politics, health, and neighborhoods.' },
+      { name: 'The Atlanta Voice', url: 'https://theatlantavoice.com', desc: 'One of Atlanta\'s oldest Black newspapers, covering city politics and community.' },
+    ],
+  },
+  {
+    category: 'Food & Drink',
+    sites: [
+      { name: 'Eater Atlanta', url: 'https://atlanta.eater.com', desc: 'Restaurant openings, closings, reviews, and the Atlanta dining scene.' },
+      { name: 'What Now Atlanta', url: 'https://whatnowatlanta.com', desc: 'Quick-hit restaurant and retail opening/closing news across metro Atlanta.' },
+    ],
+  },
+  {
+    category: 'Business & Tech',
+    sites: [
+      { name: 'Hypepotamus', url: 'https://hypepotamus.com', desc: 'Atlanta startup and tech ecosystem news, funding rounds, and founder profiles.' },
+      { name: 'Global Atlanta', url: 'https://globalatlanta.com', desc: 'International business, trade, and diplomatic community coverage.' },
+    ],
+  },
+  {
+    category: 'Statewide & Public Media',
+    sites: [
+      { name: 'WABE', url: 'https://wabe.org', desc: 'Atlanta\'s NPR station with strong local reporting on politics, education, and transit.' },
+      { name: 'GPB News', url: 'https://gpb.org/news', desc: 'Georgia Public Broadcasting\'s statewide news with solid Atlanta coverage.' },
+      { name: 'Georgia Recorder', url: 'https://georgiarecorder.com', desc: 'Nonprofit statehouse reporting on legislation, policy, and elections.' },
+      { name: 'Atlanta Magazine', url: 'https://atlantamagazine.com', desc: 'Long-form features, dining guides, and city culture from Atlanta\'s glossy magazine.' },
+    ],
+  },
+  {
+    category: 'Community & Neighborhoods',
+    sites: [
+      { name: 'Atlanta BeltLine', url: 'https://beltline.org', desc: 'Official BeltLine site with trail updates, events, and project timelines.' },
+      { name: 'Park Pride', url: 'https://parkpride.org', desc: 'Nonprofit supporting Atlanta\'s parks through grants, advocacy, and community engagement.' },
+      { name: 'Atlanta Regional Commission', url: 'https://atlantaregional.org', desc: 'Regional planning agency with data, maps, and transportation plans.' },
+      { name: 'City of Atlanta Open Data', url: 'https://opendata.atlantaga.gov', desc: 'City datasets on permits, zoning, crime, and infrastructure.' },
+      { name: 'NPU System', url: 'https://atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-units', desc: 'Atlanta\'s 25 Neighborhood Planning Units where residents weigh in on zoning and development.' },
+    ],
+  },
+  {
+    category: 'Transit',
+    sites: [
+      { name: 'MARTA', url: 'https://itsmarta.com', desc: 'Official MARTA site for routes, schedules, and service alerts.' },
+      { name: 'Atlanta Streetcar', url: 'https://streetcar.atlantaga.gov', desc: 'Downtown streetcar schedules and route info.' },
+      { name: 'ATL District', url: 'https://atl.com', desc: 'Hartsfield-Jackson airport info, flight status, and terminal maps.' },
+    ],
+  },
+  {
+    category: 'Reddit & Forums',
+    sites: [
+      { name: 'r/Atlanta', url: 'https://reddit.com/r/Atlanta', desc: 'The main Atlanta subreddit. Great for restaurant recs, moving questions, and local drama.' },
+      { name: 'r/AtlantaDrinkingClub', url: 'https://reddit.com/r/AtlantaDrinkingClub', desc: 'Bar meetups, cocktail spots, and brewery recommendations.' },
+    ],
+  },
+];
+---
+
+<Base
+  title="Atlanta Resources & Local Sources | atlanta news & talk"
+  description="A curated list of Atlanta news sites, community resources, neighborhood organizations, and local blogs worth reading."
+  breadcrumbSchema={breadcrumbSchema}
+>
+  <div class="article-page">
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'Resources' },
+    ]} />
+
+    <h1 class="article-headline">resources & local sources</h1>
+
+    <div class="article-body">
+      <p>
+        Local sites, newsrooms, and community resources we read, reference, and recommend.
+        These are the people doing the real reporting and organizing across ITP Atlanta.
+      </p>
+
+      {resources.map((group) => (
+        <div class="resource-section">
+          <h2 class="resource-category">{group.category}</h2>
+          <ul class="resource-list">
+            {group.sites.map((site) => (
+              <li class="resource-item">
+                <a href={site.url} target="_blank" rel="noopener noreferrer" class="resource-link">{site.name}</a>
+                <span class="resource-desc">{site.desc}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+
+      <p class="resource-cta">
+        Know a local site, newsletter, or community resource we should add?
+        <a href="/contact">Send it our way</a>.
+      </p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .resource-section {
+    margin-top: 2rem;
+  }
+
+  .resource-category {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-red);
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--color-line);
+  }
+
+  .resource-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  .resource-item {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(19, 39, 79, 0.06);
+    line-height: 1.5;
+  }
+
+  .resource-item:last-child {
+    border-bottom: none;
+  }
+
+  .resource-link {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--color-blue);
+    letter-spacing: -0.01em;
+  }
+
+  .resource-link:hover {
+    color: var(--color-red);
+  }
+
+  .resource-desc {
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 0.9rem;
+    color: var(--color-text-soft);
+    line-height: 1.5;
+  }
+
+  .resource-cta {
+    margin-top: 2.5rem;
+    padding: 1rem 1.2rem;
+    background: rgba(19, 39, 79, 0.04);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-line);
+    font-size: 0.93rem;
+  }
+
+  .resource-cta a {
+    color: var(--color-red);
+    font-weight: 600;
+  }
+</style>
