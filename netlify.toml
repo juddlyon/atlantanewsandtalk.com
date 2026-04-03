@@ -9,3 +9,85 @@
 
 [build.processing.html]
   pretty_urls = true
+
+# Force trailing slashes (fixes URL cannibalization in Google)
+[[redirects]]
+  from = "/*"
+  to = "/:splat/"
+  status = 301
+  force = false
+  conditions = {Path = ["/:path"], PathNegate = ["/:path/"]}
+
+# Explicit trailing slash redirects for pages showing cannibalization
+[[redirects]]
+  from = "/buckhead-atlanta-news"
+  to = "/buckhead-atlanta-news/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/trinity-center-flats-groundbreaking"
+  to = "/trinity-center-flats-groundbreaking/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/druid-hills"
+  to = "/neighborhoods/druid-hills/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/lists/best-brunch-decatur"
+  to = "/lists/best-brunch-decatur/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/atlanta-neighborhood-reinvestment-initiative-tads"
+  to = "/atlanta-neighborhood-reinvestment-initiative-tads/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gsu-summerhill-athletics-neighborhood"
+  to = "/gsu-summerhill-athletics-neighborhood/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/atlanta-firefighters-union-sues-city"
+  to = "/atlanta-firefighters-union-sues-city/"
+  status = 301
+  force = true
+
+# Cache static assets
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/news-sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/rss.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"

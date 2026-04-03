@@ -22,10 +22,10 @@ const {
   ogImage = `${SITE_URL}/og-default.png`,
   ogType = 'website',
   canonicalUrl = (() => {
-    const url = Astro.url.href;
-    // Ensure trailing slash on all pages (except files like .xml, .txt)
-    if (!url.endsWith('/') && !url.match(/\.\w+$/)) return url + '/';
-    return url;
+    // Always use production URL for canonical, with trailing slash
+    const path = Astro.url.pathname;
+    const normalizedPath = path.endsWith('/') || path.match(/\.\w+$/) ? path : path + '/';
+    return `${SITE_URL}${normalizedPath}`;
   })(),
   article,
   jsonLd,
