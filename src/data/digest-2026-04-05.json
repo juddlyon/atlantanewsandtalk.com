@@ -1,66 +1,59 @@
 {
   "date": "2026-04-05",
-  "generatedAt": "2026-04-06T01:00:00.000Z",
-  "summary": "A violent Easter weekend leaves a 16-year-old dead in Piedmont Park and a 3-year-old killed on Washington Street. Emory's basketball dream ends on a buzzer-beater, Atlanta United falls flat on 404 Day, and Decatur state legislators force the school district to reset its ECLC process.",
+  "generatedAt": "2026-04-06T01:30:00.000Z",
+  "summary": "Emory's basketball dream dies on a buzzer-beater in Indianapolis, Tayari Jones brings her Oprah-picked novel home to Atlanta, and Atlanta United falls flat on 404 Day. Plus: Decatur legislators force a school board reset, Atlanta lands in the top 5 for first-time homebuyers, and Georgia State drops its gender studies major.",
   "topStory": {
-    "id": "piedmont-park-shooting-404-day-teen-killed",
-    "headline": "16-Year-Old Girl Killed in Piedmont Park Shooting After 404 Day",
-    "summary": "Tianah Robinson, 16, was shot dead and a 15-year-old girl was wounded near the pond in Piedmont Park Saturday night. Police say the shooting stemmed from an unpermitted gathering, not the permitted 404 Day Festival.",
-    "body": "What started as a day of citywide celebration ended in tragedy Saturday night when gunfire erupted inside Piedmont Park, killing a 16-year-old girl and wounding a 15-year-old.\n\nThe Fulton County Medical Examiner identified the victim as Tianah Robinson, 16, of Riverdale. The second victim, a 15-year-old girl shot in the shoulder, was taken to Grady Memorial Hospital in stable condition.\n\nAtlanta police officers responded to the park just after 9 p.m. following reports of shots fired near the pond on the park's far west end. Officers found the 15-year-old first, then located Robinson, who was pronounced dead at the scene.\n\nInvestigators were quick to distinguish the shooting from the permitted 404 Day Festival, which had taken place on the opposite side of the park and concluded at 7:45 p.m. Police said the incident stemmed from an unpermitted gathering that drew a large crowd to the west end of the park after the festival wrapped.\n\nWitnesses described a chaotic scene, with large crowds fleeing after shots rang out. K-9 units and homicide investigators processed multiple crime scene locations and recovered ballistic evidence.\n\nThe 404 Collective, Atlanta Influences Everything, ButterATL, Finish First, and Trap Music Museum, which organized the official 404 Day Weekend events, issued a statement clarifying they had no affiliation with the Piedmont Park gathering. Their events took place across multiple venues and concluded without incident.\n\nNo suspects have been identified and no arrests have been made. The shooting was one of seven gun violence incidents across Atlanta between Friday evening and Sunday afternoon, a weekend that also claimed the life of a 3-year-old child.",
-    "neighborhood": "Midtown",
+    "id": "emory-d3-championship-buzzer-beater-loss",
+    "headline": "Emory Falls Two Points Short in D3 National Championship Heartbreaker",
+    "summary": "A last-second putback by Mary Washington's Colin Mitchell denied Emory its first national title, 75-73, capping the best season in Eagles program history.",
+    "body": "Emory University's best basketball season in program history ended in the cruelest possible way Sunday in Indianapolis. A buzzer-beating putback by University of Mary Washington sophomore Colin Mitchell gave UMW a 75-73 victory in the Division III national championship game at Gainbridge Fieldhouse.\n\nMitchell, a forward who had not started a single game all year, grabbed an offensive rebound and scored as time expired to give Mary Washington its first national title.\n\nEmory led 30-28 at halftime in a grinding first half where both teams shot just 29%. The Eagles got a scare when national player of the year Ben Pearce left the game with an injury early in the second half. He returned but didn't hit his first field goal until late, finishing with 10 points, five rebounds, and seven assists.\n\nMary Washington steadily pulled ahead in the second half, building a 63-50 lead with under five minutes remaining. But Emory had one more run. The Eagles went on a 23-12 tear, with Ethan Faust (24 points, six rebounds) hitting a three-pointer to tie the game at 73 with seconds left after a UMW turnover.\n\nThen came the gut punch. A missed shot, a scramble for the rebound, and Mitchell put it back at the buzzer.\n\nThe Eagles won 27 games this season under head coach Jason Zimmerman, who has been with the program for 19 years. It was their first national championship game appearance. Zimmerman told reporters he doesn't know what the future holds but called the season \"something special.\"",
+    "neighborhood": "Druid Hills",
     "neighborhoods": [
-      "Midtown"
+      "Druid Hills"
     ],
     "source": "Rough Draft Atlanta",
-    "sourceUrl": "https://roughdraftatlanta.com/2026/04/05/gun-violence-atlanta-weekend/",
+    "sourceUrl": "https://roughdraftatlanta.com/2026/04/05/emory-umw-buzzer-beater/",
     "sources": [
-      { "name": "Rough Draft Atlanta", "url": "https://roughdraftatlanta.com/2026/04/05/gun-violence-atlanta-weekend/" },
-      { "name": "11Alive", "url": "https://www.11alive.com/article/news/crime/1-person-dead-at-least-1-other-injured-shooting-piedmont-park-404-day-events/85-35af2d9d-bcb0-4562-ae22-e5e157fb91e8" },
-      { "name": "WSB-TV", "url": "https://www.wsbtv.com/news/local/atlanta/teen-who-died-piedmont-park-shooting-identified/6Q33HGVRT5GFTICRMPWS6PSOAM/" },
-      { "name": "Fox 5 Atlanta", "url": "https://www.fox5atlanta.com/news/piedmont-park-shooting-witnesses-describe-chaotic-scene" }
+      { "name": "Rough Draft Atlanta", "url": "https://roughdraftatlanta.com/2026/04/05/emory-umw-buzzer-beater/" },
+      { "name": "WSB-TV", "url": "https://www.wsbtv.com/sports/college-basketball/emory-falls-just-short-basketball-championship-game/AJOF7WK55ZBD5PPZSB244RABT4/" }
     ],
-    "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2024/06/Police-Adobe-1-600x338.png",
-    "imageAlt": "Atlanta police responding to a shooting scene",
+    "imageUrl": "https://www.wsbtv.com/resizer/v2/MYKMM25OC5BO3PA6XNM7ADTMDE.png?auth=aa1d5fc6fa36bfc9468942075e30d30c8f177a312001b5f89dbb072df7ad71b8&smart=true&width=651&height=409",
+    "imageAlt": "Emory University men's basketball team during the Division III national championship game",
     "publishedAt": "2026-04-05",
     "keywords": [
-      "piedmont park",
-      "shooting",
-      "404 day",
-      "midtown",
-      "gun violence",
-      "teen killed"
+      "emory",
+      "basketball",
+      "d3 championship",
+      "buzzer beater",
+      "druid hills",
+      "ncaa"
     ]
   },
   "sections": [
     {
-      "category": "Public Safety",
+      "category": "Community & Culture",
       "stories": [
         {
-          "id": "3-year-old-killed-washington-street-easter",
-          "headline": "3-Year-Old Dies in Easter Morning Shooting on Washington Street",
-          "summary": "A child was shot and killed in the 900 block of Washington Street SW early Sunday morning. Police are investigating the circumstances.",
-          "body": "A 3-year-old child died at Grady Memorial Hospital after being shot in southwest Atlanta early Easter Sunday morning, marking the second gun death involving a minor in the city in less than four hours.\n\nAtlanta police officers responded to a report of a person shot near the 900 block of Washington Street SW around 12:37 a.m. Sunday. When they arrived, they found the child with an apparent gunshot wound. The child was rushed to the hospital by ambulance but was pronounced deceased.\n\nNeighbors at the small apartment complex expressed fear and sadness. One neighbor who declined to go on camera told reporters she was scared to see the heavy police presence and felt heartbroken for the child.\n\nInvestigators are canvassing the scene and searching the residence to determine what led to the gunfire and the exact circumstances of how the child was shot. No suspect descriptions or arrest information has been released.\n\nThe shooting occurred in the Peoplestown neighborhood, about two miles south of Piedmont Park where a 16-year-old girl had been killed just three hours earlier.",
-          "neighborhood": "Peoplestown",
+          "id": "tayari-jones-kin-emory-book-launch",
+          "headline": "Tayari Jones Brings Oprah-Picked Novel 'Kin' Home to Emory",
+          "summary": "The Atlanta author's new novel debuted at No. 3 on the New York Times bestseller list. She'll discuss it with Pulitzer winner Jericho Brown at a free Emory event Monday.",
+          "body": "Award-winning Atlanta author Tayari Jones has joined the small club of writers who've had more than one book chosen for Oprah's Book Club. Oprah Winfrey selected Jones' newly published \"Kin\" in February, seven years after picking her fourth novel \"An American Marriage.\" The book debuted at No. 3 on the New York Times bestseller list.\n\nJones will discuss \"Kin\" with Pulitzer Prize-winning poet Jericho Brown on Monday, April 6, at 5:30 p.m. at Glenn Memorial Chapel at Emory University. The event is free and open to the public.\n\n\"Kin\" follows Annie and Vernice (Niecy), two motherless girls raised together in 1950s Louisiana. After losing their mothers under different circumstances, the girls form a deep bond. As they grow up, Niecy leaves for Spelman College and marries into an affluent Black family, while Annie sets out across the Jim Crow South searching for the mother who abandoned her.\n\nJones said the novel began as a word doodle during the pandemic. \"There were so many problems in the world, and everything seemed so urgent,\" she recalled. \"I had a hard time plugging into fiction and creativity, so I was not doing the work. I had writer's block.\"\n\nWhat started as scribbles on a notepad became a novel that connects Atlanta's literary and academic communities. The Emory event pairs two of the city's most celebrated literary voices in a setting that underscores Atlanta's role as a center for Black literary culture.",
+          "neighborhood": "Druid Hills",
           "neighborhoods": [
-            "Peoplestown"
+            "Druid Hills"
           ],
-          "source": "Fox 5 Atlanta",
-          "sourceUrl": "https://www.fox5atlanta.com/news/3-year-old-dies-after-being-shot-southwest-atlanta",
-          "sources": [
-            { "name": "Fox 5 Atlanta", "url": "https://www.fox5atlanta.com/news/3-year-old-dies-after-being-shot-southwest-atlanta" },
-            { "name": "11Alive", "url": "https://www.11alive.com/article/news/crime/child-dies-in-overnight-shooting-on-washington-street-sw/85-b30ce1fb-7346-4f06-82c1-679b9b3c95ee" },
-            { "name": "WSB-TV", "url": "https://www.wsbtv.com/news/local/atlanta/4-year-old-dies-atlanta-shooting/YNJL7DDVABDSZPLPTZJJ624CNA/" }
-          ],
-          "imageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/04/931/523/child-shot-washington-st-wagame001_mxf_00.02.57.56.jpg?ve=1&tl=1",
-          "imageAlt": "Police scene at the 900 block of Washington Street SW in Atlanta",
+          "source": "WSB-TV",
+          "sourceUrl": "https://roughdraftatlanta.com/2026/04/05/tayari-jones-kin-novel/",
+          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/04/Tayari-Jones-600x337.jpg",
+          "imageAlt": "Author Tayari Jones discussing her new novel Kin",
           "publishedAt": "2026-04-05",
           "keywords": [
-            "shooting",
-            "peoplestown",
-            "washington street",
-            "child killed",
-            "gun violence",
-            "easter"
+            "tayari jones",
+            "kin",
+            "emory",
+            "oprah book club",
+            "atlanta author",
+            "jericho brown"
           ]
         }
       ]
@@ -68,33 +61,6 @@
     {
       "category": "Sports",
       "stories": [
-        {
-          "id": "emory-d3-championship-buzzer-beater-loss",
-          "headline": "Emory Falls Two Points Short in D3 National Championship Heartbreaker",
-          "summary": "A last-second putback by Mary Washington's Colin Mitchell denied Emory its first national title, 75-73, after the Eagles erased a 13-point deficit in the final five minutes.",
-          "body": "Emory University's best basketball season in program history ended in the cruelest possible way Sunday in Indianapolis. A buzzer-beating putback by University of Mary Washington sophomore Colin Mitchell gave UMW a 75-73 victory in the Division III national championship game at Gainbridge Fieldhouse.\n\nMitchell, a forward who had not started a single game all year, grabbed an offensive rebound and scored as time expired to give Mary Washington its first national title.\n\nEmory led 30-28 at halftime in a grinding first half where both teams shot just 29%. The Eagles got a scare when national player of the year Ben Pearce left the game with an injury early in the second half. He returned but didn't hit his first field goal until late, finishing with 10 points, five rebounds, and seven assists.\n\nMary Washington steadily pulled ahead in the second half, building a 63-50 lead with under five minutes remaining. But Emory had one more run. The Eagles went on a 23-12 tear, with Ethan Faust (24 points, six rebounds) hitting a three-pointer to tie the game at 73 with seconds left after a UMW turnover.\n\nThe Eagles won 27 games this season under head coach Jason Zimmerman, who has been with the program for 19 years. It was their first national championship game appearance.",
-          "neighborhood": "Druid Hills",
-          "neighborhoods": [
-            "Druid Hills"
-          ],
-          "source": "WSB-TV",
-          "sourceUrl": "https://www.wsbtv.com/sports/college-basketball/emory-falls-just-short-basketball-championship-game/AJOF7WK55ZBD5PPZSB244RABT4/",
-          "sources": [
-            { "name": "WSB-TV", "url": "https://www.wsbtv.com/sports/college-basketball/emory-falls-just-short-basketball-championship-game/AJOF7WK55ZBD5PPZSB244RABT4/" },
-            { "name": "Rough Draft Atlanta", "url": "https://roughdraftatlanta.com/2026/04/05/emory-umw-buzzer-beater/" }
-          ],
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/MYKMM25OC5BO3PA6XNM7ADTMDE.png?auth=aa1d5fc6fa36bfc9468942075e30d30c8f177a312001b5f89dbb072df7ad71b8&smart=true&width=651&height=409",
-          "imageAlt": "Emory University men's basketball team during the Division III national championship game",
-          "publishedAt": "2026-04-05",
-          "keywords": [
-            "emory",
-            "basketball",
-            "d3 championship",
-            "buzzer beater",
-            "druid hills",
-            "ncaa"
-          ]
-        },
         {
           "id": "atlanta-united-drops-404-day-match-columbus",
           "headline": "Atlanta United Drops 3-1 to Columbus on 404 Day",
@@ -107,7 +73,7 @@
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/atlanta-united-struggles-home/",
           "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/04/untitled-2-8-scaled.jpg?fit=1024%2C683&quality=89&ssl=1",
-          "imageAlt": "Atlanta United match at Mercedes-Benz Stadium",
+          "imageAlt": "Atlanta United match at Mercedes-Benz Stadium on 404 Day",
           "publishedAt": "2026-04-05",
           "keywords": [
             "atlanta united",
@@ -149,8 +115,8 @@
         {
           "id": "georgia-state-eliminates-gender-studies-major",
           "headline": "Georgia State University Eliminates Gender Studies Major",
-          "summary": "GSU has dropped its gender studies major, joining a broader trend of program cuts at public universities across the state.",
-          "body": "Georgia State University has eliminated its gender studies major, a move that comes amid broader scrutiny of academic programs at public universities across Georgia and the country.\n\nThe decision follows a pattern of program reviews and cuts at state institutions, where administrators and governing boards have increasingly questioned the enrollment numbers and workforce alignment of certain humanities and social science programs.\n\nGSU, the largest university in Georgia by enrollment, has not issued a detailed public statement on the reasoning behind the cut. The university serves a diverse student body of more than 50,000 students at its Downtown Atlanta campus and satellite locations.\n\nThe elimination of the gender studies major at a major urban research university is likely to draw attention from both critics and defenders of such programs. Supporters argue these programs provide critical analytical skills and attract students interested in law, policy, and social services. Critics contend they draw insufficient enrollment to justify their cost.\n\nIt remains unclear how many current students are affected or whether a minor or certificate option will remain available.",
+          "summary": "GSU has dropped its gender studies major, joining a broader trend of program reviews at public universities across the state.",
+          "body": "Georgia State University has eliminated its gender studies major, a move that comes amid broader scrutiny of academic programs at public universities across Georgia and the country.\n\nThe decision follows a pattern of program reviews and cuts at state institutions, where administrators and governing boards have increasingly questioned the enrollment numbers and workforce alignment of certain humanities and social science programs.\n\nGSU, the largest university in Georgia by enrollment, serves a diverse student body of more than 50,000 students at its Downtown Atlanta campus and satellite locations. The university has not issued a detailed public statement on the reasoning behind the cut.\n\nThe elimination of the gender studies major at a major urban research university is likely to draw attention from both critics and defenders of such programs. Supporters argue these programs provide critical analytical skills and attract students interested in law, policy, and social services. Critics contend they draw insufficient enrollment to justify their cost.\n\nIt remains unclear how many current students are affected or whether a minor or certificate option will remain available.",
           "neighborhood": "Downtown",
           "neighborhoods": [
             "Downtown"
@@ -166,6 +132,34 @@
             "downtown",
             "higher education",
             "program cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Development & Housing",
+      "stories": [
+        {
+          "id": "atlanta-top-5-first-time-homebuyers-zillow",
+          "headline": "Atlanta Ranked Top 5 for First-Time Homebuyers by Zillow",
+          "summary": "Atlanta placed No. 4 among the 50 largest U.S. metros for first-time buyer opportunity, with improving inventory and relative affordability driving the ranking.",
+          "body": "Atlanta is one of the best large metros in the country for people buying their first home, according to the latest market report from Zillow.\n\nAmong the 50 largest metro areas in the United States, Atlanta ranked No. 4 for first-time homebuyer opportunity. Jacksonville, Florida took the top spot, followed by Birmingham, Alabama and San Antonio, Texas. Houston rounded out the top five.\n\nZillow determined the rankings by combining lower rent burdens with more affordable listings and less competition from other buyers. Six of the top 10 markets were in the Sun Belt, where improving inventory and relative affordability continue to make it easier for first-time buyers to break in.\n\nThe ranking reflects a shift in Atlanta's housing market. While the metro area saw explosive price growth during the pandemic era, recent inventory gains have started to ease competition. For buyers who have been priced out of coastal markets, Atlanta's combination of job growth, relatively lower price points, and expanding housing stock makes it an increasingly attractive option.\n\nThe report comes as the BeltLine corridor and surrounding ITP neighborhoods continue to see strong demand, though affordability remains a challenge in the most sought-after intown areas.",
+          "neighborhood": "Downtown",
+          "neighborhoods": [
+            "Downtown"
+          ],
+          "source": "Fox 5 Atlanta",
+          "sourceUrl": "https://www.wsbtv.com/news/local/atlanta/atlanta-among-top-5-cities-first-time-homebuyers-zillow-says/M5HL2E7HPFCZBHOVIP345WBJ5Q/",
+          "imageUrl": "https://www.wsbtv.com/resizer/v2/QUMDFJPE3NANLE7ZKNM2KZGVKQ.jpeg?auth=76980d2f06df2eaa1153b3a791299a674492477bd3a31414acc43a34d28b7120&smart=true&width=1280&height=720",
+          "imageAlt": "Atlanta skyline and residential homes",
+          "publishedAt": "2026-04-05",
+          "keywords": [
+            "homebuyers",
+            "zillow",
+            "real estate",
+            "affordable housing",
+            "atlanta housing market",
+            "first-time buyers"
           ]
         }
       ]
@@ -201,7 +195,7 @@
   ],
   "neighborhoods": {
     "Downtown": {
-      "storyCount": 64,
+      "storyCount": 65,
       "topStory": "atlanta-united-drops-404-day-match-columbus"
     },
     "Decatur": {
@@ -209,8 +203,8 @@
       "topStory": "decatur-legislators-eclc-school-board-reset"
     },
     "Midtown": {
-      "storyCount": 27,
-      "topStory": "piedmont-park-shooting-404-day-teen-killed"
+      "storyCount": 26,
+      "topStory": "midtown-sewer-repairs-close-juniper"
     },
     "Buckhead": {
       "storyCount": 10,
@@ -229,7 +223,7 @@
       "topStory": "atlanta-united-first-win"
     },
     "Druid Hills": {
-      "storyCount": 7,
+      "storyCount": 8,
       "topStory": "emory-d3-championship-buzzer-beater-loss"
     },
     "Kirkwood": {
@@ -287,10 +281,6 @@
     "Little Five Points": {
       "storyCount": 2,
       "topStory": "atlanta-womens-comedy-film-festival-7-stages"
-    },
-    "Peoplestown": {
-      "storyCount": 1,
-      "topStory": "3-year-old-killed-washington-street-easter"
     },
     "Ormewood Park": {
       "storyCount": 1,
