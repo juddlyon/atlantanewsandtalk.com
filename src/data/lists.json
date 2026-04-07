@@ -104,9 +104,10 @@
         "Piedmont Park",
         "Grant Park"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Midtown_Atlanta_skyline_from_Clara_Meer_in_Piedmont_Park.JPG/1200px-Midtown_Atlanta_skyline_from_Clara_Meer_in_Piedmont_Park.JPG",
+      "imageUrl": "/images/content/best-parks-itp-atlanta.webp",
       "imageAlt": "Midtown Atlanta skyline reflected in Lake Clara Meer at Piedmont Park",
-      "imageCredit": "Photo: Daniel Mayer / Wikimedia Commons (CC BY-SA 3.0)"
+      "imageCredit": "Photo: Daniel Mayer / Wikimedia Commons (CC BY-SA 3.0)",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Midtown_Atlanta_skyline_from_Clara_Meer_in_Piedmont_Park.JPG/1200px-Midtown_Atlanta_skyline_from_Clara_Meer_in_Piedmont_Park.JPG"
     },
     {
       "slug": "best-coffee-shops-beltline",
@@ -594,9 +595,10 @@
         "walking",
         "attractions"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sunset_view_of_the_midtown_Atlanta_skyline_from_the_Eastside_BeltLine_Trail.jpg/1200px-Sunset_view_of_the_midtown_Atlanta_skyline_from_the_Eastside_BeltLine_Trail.jpg",
+      "imageUrl": "/images/content/top-things-eastside-trail.webp",
       "imageAlt": "Sunset view of the Midtown Atlanta skyline from the Eastside BeltLine Trail",
-      "imageCredit": "Photo: Marc Merlin / Wikimedia Commons (CC BY-SA 4.0)"
+      "imageCredit": "Photo: Marc Merlin / Wikimedia Commons (CC BY-SA 4.0)",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sunset_view_of_the_midtown_Atlanta_skyline_from_the_Eastside_BeltLine_Trail.jpg/1200px-Sunset_view_of_the_midtown_Atlanta_skyline_from_the_Eastside_BeltLine_Trail.jpg"
     },
     {
       "slug": "best-pizza-atlanta-itp",
@@ -788,9 +790,10 @@
         "dog parks",
         "pets"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Grant_Park%2C_Atlanta_fountain.jpg/1200px-Grant_Park%2C_Atlanta_fountain.jpg",
+      "imageUrl": "/images/content/dog-friendly-spots-grant-park.webp",
       "imageAlt": "Fountain at Grant Park in Atlanta",
-      "imageCredit": "Photo: JJonahJackalope / Wikimedia Commons (CC BY-SA 4.0)"
+      "imageCredit": "Photo: JJonahJackalope / Wikimedia Commons (CC BY-SA 4.0)",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Grant_Park%2C_Atlanta_fountain.jpg/1200px-Grant_Park%2C_Atlanta_fountain.jpg"
     }
   ]
 }
