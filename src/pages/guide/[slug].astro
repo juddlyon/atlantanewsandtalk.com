@@ -76,7 +76,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 
     <header class="guide-header">
       <h1 class="guide-h1">{guide.h1}</h1>
-      <p class="guide-byline">by <a href="/about">David</a> in <a href="/neighborhoods/summerhill">Summerhill</a></p>
+      <p class="guide-byline">by <a href="/about/">David</a> in <a href="/neighborhoods/summerhill/">Summerhill</a></p>
     </header>
 
     <div class="guide-intro prose" set:html={marked.parse(guide.intro)} />
@@ -110,6 +110,6 @@ const breadcrumbSchema = buildBreadcrumbSchema([
       </section>
     )}
 
-    <a href="/guide" class="back-link">‹ All guides</a>
+    <a href="/guide/" class="back-link">‹ All guides</a>
   </article>
 </Base>

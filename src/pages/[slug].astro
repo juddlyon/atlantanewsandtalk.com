@@ -16,6 +16,47 @@ export function getStaticPaths() {
 
 const { story } = Astro.props;
 
+// Map neighborhoods to their landing page slugs
+const NEIGHBORHOOD_LANDING_PAGES: Record<string, string> = {
+  'Old Fourth Ward': 'old-fourth-ward-news',
+  'Grant Park': 'grant-park-atlanta-news',
+  'Inman Park': 'inman-park-news',
+  'East Atlanta Village': 'east-atlanta-village-news',
+  'Reynoldstown': 'reynoldstown-atlanta-news',
+  'Summerhill': 'summerhill-atlanta-news',
+  'Kirkwood': 'kirkwood-atlanta-news',
+  'Midtown': 'midtown-atlanta-news',
+  'Downtown': 'downtown-atlanta-news',
+  'Buckhead': 'buckhead-atlanta-news',
+  'Virginia-Highland': 'virginia-highland-news',
+  'Decatur': 'decatur-news',
+  'West Midtown': 'west-midtown-atlanta-news',
+};
+
+// Build contextual links for this story
+const contextLinks: Array<{ label: string; href: string }> = [];
+const hoodSlug = NEIGHBORHOOD_LANDING_PAGES[story.neighborhood];
+if (hoodSlug) {
+  contextLinks.push({ label: `More ${story.neighborhood} news`, href: `/${hoodSlug}/` });
+}
+// Add category-relevant links based on keywords and section
+const kw = (story.keywords || []).join(' ').toLowerCase();
+const bodyLower = (story.body || '').toLowerCase();
+if (kw.includes('restaurant') || kw.includes('food') || kw.includes('dining') || kw.includes('chef') || kw.includes('menu')) {
+  contextLinks.push({ label: 'Atlanta restaurant news', href: '/atlanta-restaurants-news/' });
+}
+if (kw.includes('beltline') || bodyLower.includes('beltline')) {
+  contextLinks.push({ label: 'BeltLine news', href: '/atlanta-beltline-news/' });
+}
+if (kw.includes('development') || kw.includes('housing') || kw.includes('construction') || kw.includes('redevelopment')) {
+  contextLinks.push({ label: 'Atlanta development news', href: '/atlanta-development-news/' });
+}
+if (kw.includes('marta') || kw.includes('transit')) {
+  contextLinks.push({ label: 'Atlanta transit news', href: '/atlanta-transit-news/' });
+}
+// Always link to today's news
+contextLinks.push({ label: 'Atlanta news today', href: '/atlanta-news-today/' });
+
 // Get related stories from the same neighborhood, excluding this one
 const relatedStories = getStoriesByNeighborhood(story.neighborhood)
   .filter((s) => s.id !== story.id)
@@ -168,6 +209,14 @@ const breadcrumbSchema = buildBreadcrumbSchema([
           ))}
         </div>
       </div>
+    )}
+
+    {contextLinks.length > 0 && (
+      <nav class="context-links" aria-label="Related topics">
+        {contextLinks.map((link) => (
+          <a href={link.href} class="context-link">{link.label} ›</a>
+        ))}
+      </nav>
     )}
   </article>
 </Base>
