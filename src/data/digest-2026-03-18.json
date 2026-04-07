@@ -185,24 +185,28 @@
       "stories": [
         {
           "id": "omakase-table-chef-argentinian-steakhouse",
-          "headline": "Omakase Table Chef Opens Argentine Steakhouse on the Westside",
-          "summary": "Leonardo Yu is shifting from Tokyo fish to Argentine beef with O-nada, a 30-seat steakhouse coming to Huff Road. The restaurant will feature an asado grill where premium cuts are cooked over live fire in front of guests, plus house-aged steaks.",
+          "headline": "Omakase Table Chef Opens Argentine Steakhouse in Atlanta's Westside",
+          "summary": "Leonardo Yu, the Old Fourth Ward sushi chef behind Omakase Table and Ryokou, is shifting from Tokyo fish to Argentine beef with O-nada, a 30-seat steakhouse coming to Huff Road. The restaurant will feature an asado grill where premium cuts are cooked over live fire in front of guests.",
           "body": "Leonardo Yu has made his mark flying in fresh fish from Tokyo for Omakase Table and Ryokou, but now he's pivoting to something completely different: Argentine-style steakhouse cooking. O-nada, opening at 1075 Huff Road Northwest, is going to be a meat lover's dream with only 30 seats and an asado grill as the centerpiece.\n\nWhat sets this apart from your typical steakhouse is the open-fire cooking concept. Classic cuts like New York strip and ribeye will be aged in-house, then cooked over live fire right in front of guests. Yu is partnering with Argentine chef Pietro Cinti and business partner Matthew Braden, so this isn't just someone slapping \"Argentine\" on a menu and calling it a day. They're bringing the actual technique and authenticity.\n\nThe Westside location makes sense given how that area has been evolving into a legitimate dining destination. Having someone with Yu's reputation and track record opening there is another sign that the Westside restaurant scene is really coming into its own. If they can bring the same attention to detail they're known for at their sushi spots, this could be something special.",
           "neighborhood": "Westside",
           "neighborhoods": [
-            "Westside"
+            "Westside",
+            "Old Fourth Ward"
           ],
           "source": "Atlanta Magazine",
           "sourceUrl": "https://www.atlantamagazine.com/dining-news/the-latest-details-on-omakase-table-chef-leonardo-yus-argentinean-steakhouse-o-nada/",
           "imageUrl": "/images/stories/omakase-table-chef-argentinian-steakhouse.webp",
-          "imageAlt": "Lamb sausage with burnt leeks from O-nada restaurant",
+          "imageAlt": "Lamb sausage with burnt leeks from O-nada, a new Argentine steakhouse in Atlanta",
           "publishedAt": "2026-03-17T22:47:42.000Z",
           "keywords": [
             "westside",
+            "old fourth ward",
             "steakhouse",
-            "argentine",
+            "argentine restaurant",
             "omakase table",
-            "leonardo yu"
+            "leonardo yu",
+            "o-nada",
+            "atlanta restaurant"
           ],
           "originalImageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/O-nada_Lamb-Sausage.jpg"
         },
