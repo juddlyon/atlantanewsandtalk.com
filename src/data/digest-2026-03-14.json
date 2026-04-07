@@ -287,7 +287,8 @@
           ],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/atlanta-united-first-win-season/",
-          "imageUrl": "Atlanta United players celebrating during 3-1 victory over Philadelphia Union",
+          "imageUrl": null,
+          "imageAlt": "Atlanta United players celebrating during 3-1 victory over Philadelphia Union",
           "publishedAt": "2026-03-14T21:27:51.000Z",
           "keywords": [
             "atlanta",
