@@ -13,7 +13,7 @@
     ],
     "source": "Urbanize Atlanta",
     "sourceUrl": "https://atlanta.urbanize.city/post/project-reynoldstown-beltline-development-finally-underway",
-    "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/Camber%20Crossing%20195%20Chester%20Avenue%20March%202026%201.jpg?itok=_z_7QhjR",
+    "imageUrl": "/images/stories/reynoldstown-beltline-development-underway.webp",
     "imageAlt": "Construction equipment and cleared site at Chester Avenue and Fulton Terrace in Reynoldstown",
     "publishedAt": "2026-03-24T17:30:32.000Z",
     "keywords": [
@@ -22,7 +22,8 @@
       "development",
       "housing",
       "townhomes"
-    ]
+    ],
+    "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/Camber%20Crossing%20195%20Chester%20Avenue%20March%202026%201.jpg?itok=_z_7QhjR"
   },
   "sections": [
     {
@@ -39,7 +40,7 @@
           ],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/project-reynoldstown-beltline-development-finally-underway",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/Camber%20Crossing%20195%20Chester%20Avenue%20March%202026%201.jpg?itok=_z_7QhjR",
+          "imageUrl": "/images/stories/reynoldstown-beltline-development-underway.webp",
           "imageAlt": "Construction equipment and cleared site at Chester Avenue and Fulton Terrace in Reynoldstown",
           "publishedAt": "2026-03-24T17:30:32.000Z",
           "keywords": [
@@ -48,7 +49,8 @@
             "development",
             "housing",
             "townhomes"
-          ]
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/Camber%20Crossing%20195%20Chester%20Avenue%20March%202026%201.jpg?itok=_z_7QhjR"
         },
         {
           "id": "decatur-missing-middle-housing-debuts",
@@ -61,7 +63,7 @@
           ],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/decatur-cottages-midway-village-relatively-attainable-decatur-housing-nears-debut",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-09/Cottages%20at%20Midway%20map%202.png?itok=7E4R37YD",
+          "imageUrl": "/images/stories/decatur-missing-middle-housing-debuts.webp",
           "imageAlt": "Site plan showing 18 houses arranged around courtyards at Cottages at Midway",
           "publishedAt": "2026-03-24T18:41:16.000Z",
           "keywords": [
@@ -70,7 +72,8 @@
             "housing",
             "affordable",
             "development"
-          ]
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-09/Cottages%20at%20Midway%20map%202.png?itok=7E4R37YD"
         },
         {
           "id": "west-end-beltline-townhomes-rising",
@@ -83,7 +86,7 @@
           ],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/gw-parkside-west-end-townhomes-project-beltline-starts-rising",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/GW%20Parkside%20Gordon%20White%20Parkside%201.png?itok=vN7x7ctQ",
+          "imageUrl": "/images/stories/west-end-beltline-townhomes-rising.webp",
           "imageAlt": "Rendering of GW Parkside townhomes near BeltLine in West End",
           "publishedAt": "2026-03-24T12:07:18.000Z",
           "keywords": [
@@ -92,7 +95,8 @@
             "townhomes",
             "housing",
             "for-sale"
-          ]
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/GW%20Parkside%20Gordon%20White%20Parkside%201.png?itok=vN7x7ctQ"
         }
       ]
     },
@@ -110,7 +114,7 @@
           ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/03/24/mushi-ni-restaurant-opens-inman-park-atlanta/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Screenshot-2026-03-24-at-1.37.21-PM-600x517.png",
+          "imageUrl": "/images/stories/mushi-ni-opens-inman-park.webp",
           "imageAlt": "Interior of Mushi Ni restaurant showing modern Asian decor",
           "publishedAt": "2026-03-24T18:51:02.000Z",
           "keywords": [
@@ -119,7 +123,8 @@
             "Asian food",
             "bao",
             "new restaurant"
-          ]
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Screenshot-2026-03-24-at-1.37.21-PM-600x517.png"
         },
         {
           "id": "vela-park-food-hall-opening",
@@ -134,7 +139,7 @@
           ],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/robert-montwaid-vela-park-food-hall-sets-opening-images-exclusive",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/1.2%20Vela%20Park%20Food%20Works.jpg?itok=1OJnSkDu",
+          "imageUrl": "/images/stories/vela-park-food-hall-opening.webp",
           "imageAlt": "Interior rendering of Vela Park Food Works showing multiple vendor stalls",
           "publishedAt": "2026-03-24T17:48:43.000Z",
           "keywords": [
@@ -143,7 +148,8 @@
             "Robert Montwaid",
             "restaurant",
             "opening"
-          ]
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/1.2%20Vela%20Park%20Food%20Works.jpg?itok=1OJnSkDu"
         },
         {
           "id": "lewis-barbecue-beltline-opens",
@@ -156,7 +162,7 @@
           ],
           "source": "Atlanta Magazine",
           "sourceUrl": "https://www.atlantamagazine.com/dining-news/lewis-barbecue-brings-the-best-of-austin-by-way-of-charleston-to-the-beltline/",
-          "imageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/0326_TexasOnTheBeltline1_GrowlBros._oneuseonly.jpg",
+          "imageUrl": "/images/stories/lewis-barbecue-beltline-opens.webp",
           "imageAlt": "Loaded barbecue platter at Lewis Barbecue with brisket and sides",
           "publishedAt": "2026-03-24T18:54:47.000Z",
           "keywords": [
@@ -165,7 +171,8 @@
             "brisket",
             "new restaurant",
             "Midtown"
-          ]
+          ],
+          "originalImageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/0326_TexasOnTheBeltline1_GrowlBros._oneuseonly.jpg"
         }
       ]
     },
@@ -183,7 +190,7 @@
           ],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/decatur-bike-lanes-west-howard-avenue-project-complete-street-photos",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/9%20Decatur%20Complete%20Street%20West%20Howard%20Avenue%20Cycle%20Track.jpg?itok=MrEfjH6U",
+          "imageUrl": "/images/stories/decatur-complete-streets-project-finishing.webp",
           "imageAlt": "New concrete-protected bike lanes on West Howard Avenue in Decatur",
           "publishedAt": "2026-03-23T19:46:13.000Z",
           "keywords": [
@@ -192,7 +199,8 @@
             "bike lanes",
             "infrastructure",
             "MARTA"
-          ]
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/9%20Decatur%20Complete%20Street%20West%20Howard%20Avenue%20Cycle%20Track.jpg?itok=MrEfjH6U"
         }
       ]
     },
@@ -210,7 +218,7 @@
           ],
           "source": "Atlanta Civic Circle",
           "sourceUrl": "https://atlantaciviccircle.org/2026/03/24/atlanta-city-council-ice-controls-fire-union-contract/",
-          "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/IMG_8217-1024x768.jpg",
+          "imageUrl": "/images/stories/atlanta-city-council-ice-controls-fire-union.webp",
           "imageAlt": "Atlanta firefighters speaking at city council meeting",
           "publishedAt": "2026-03-24T22:03:09.000Z",
           "keywords": [
@@ -219,7 +227,8 @@
             "ICE",
             "firefighters",
             "union contract"
-          ]
+          ],
+          "originalImageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/IMG_8217-1024x768.jpg"
         }
       ]
     },
@@ -237,7 +246,7 @@
           ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/atlanta/atlanta-conda-8-foot-python-spotted-beltline/DXE5U6RFIFBYXBCOZFSSTV5CDE/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-24-2026%2Ft_3550395e51074d7095ed4e9cec13ad37_name_4PP_SNAKE_BELTLINE_ATL_PKG__transfer_frame_459.jpeg?auth=6048f7765f7cc99289e1b0df4bc66db68380778fe3210788f58e96e95de7b1f4&smart=true&width=1280&height=720",
+          "imageUrl": "/images/stories/atlanta-snake-beltline-sighting.webp",
           "imageAlt": "Large snake being handled by person along Atlanta BeltLine trail",
           "publishedAt": "2026-03-24T22:41:41.000Z",
           "keywords": [
@@ -246,7 +255,8 @@
             "wildlife",
             "Atlanta",
             "safety"
-          ]
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-24-2026%2Ft_3550395e51074d7095ed4e9cec13ad37_name_4PP_SNAKE_BELTLINE_ATL_PKG__transfer_frame_459.jpeg?auth=6048f7765f7cc99289e1b0df4bc66db68380778fe3210788f58e96e95de7b1f4&smart=true&width=1280&height=720"
         }
       ]
     },
@@ -264,7 +274,7 @@
           ],
           "source": "Capital B Atlanta",
           "sourceUrl": "https://atlanta.capitalbnews.org/ice-atlanta-dentention-facility-social-circle/",
-          "imageUrl": "https://i0.wp.com/atlanta.capitalbnews.org/wp-content/uploads/2026/02/GettyImages-2266397199-scaled.jpg?fit=1024%2C683&ssl=1",
+          "imageUrl": "/images/stories/atlanta-airport-ice-deployment.webp",
           "imageAlt": "ICE agents in tactical gear at airport security checkpoint",
           "publishedAt": "2026-03-23T13:00:00.000Z",
           "keywords": [
@@ -273,7 +283,8 @@
             "TSA",
             "government shutdown",
             "security"
-          ]
+          ],
+          "originalImageUrl": "https://i0.wp.com/atlanta.capitalbnews.org/wp-content/uploads/2026/02/GettyImages-2266397199-scaled.jpg?fit=1024%2C683&ssl=1"
         }
       ]
     }

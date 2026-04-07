@@ -29,5 +29,8 @@ _ref/
 # raw fetched articles (intermediate, not committed)
 src/data/raw-articles.json
 
+# downloaded story images (regenerated before each build)
+public/images/stories/
+
 # Local Netlify folder
 .netlify

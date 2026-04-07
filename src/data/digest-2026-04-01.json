@@ -14,7 +14,7 @@
     ],
     "source": "Atlanta Civic Circle",
     "sourceUrl": "https://atlantaciviccircle.org/2026/03/31/atlanta-neighborhood-reinvestment-initiative-tad-extension-resistance/",
-    "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/Beltline-Eastside-Trail-1024x1024.jpg",
+    "imageUrl": "/images/stories/dickens-10b-neighborhood-plan-tad-fissures.webp",
     "imageAlt": "Atlanta BeltLine Eastside Trail near Downtown",
     "publishedAt": "2026-04-01",
     "keywords": [
@@ -23,7 +23,8 @@
       "andre dickens",
       "affordable housing",
       "downtown"
-    ]
+    ],
+    "originalImageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/Beltline-Eastside-Trail-1024x1024.jpg"
   },
   "sections": [
     {
@@ -40,7 +41,7 @@
           ],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/business/decatur-dda-will-sell-south-columbia-drive-property/article_caf3a51c-cb4f-4c07-aa90-4fbe4bf26a21.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/b/aa/baa1ca4e-bf0e-51bd-a29e-5cf677a9c978/68383d3aaf6e4.image.jpg?resize=300%2C225",
+          "imageUrl": "/images/stories/decatur-dda-workforce-housing-south-columbia.webp",
           "imageAlt": "South Columbia Drive property in Decatur slated for workforce housing",
           "publishedAt": "2026-04-01",
           "keywords": [
@@ -49,7 +50,8 @@
             "development authority",
             "woda cooper",
             "south columbia"
-          ]
+          ],
+          "originalImageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/b/aa/baa1ca4e-bf0e-51bd-a29e-5cf677a9c978/68383d3aaf6e4.image.jpg?resize=300%2C225"
         },
         {
           "id": "cnn-center-the-center-rebirth",
@@ -103,7 +105,7 @@
               "url": "https://www.axios.com/local/atlanta/2026/04/01/atlantas-james-beard-awards-finalists"
             }
           ],
-          "imageUrl": "https://platform.atlanta.eater.com/wp-content/uploads/sites/14/2026/03/JamesBeard_A.png?quality=90&strip=all&crop=0,0,100,100",
+          "imageUrl": "/images/stories/james-beard-2026-atlanta-finalists.webp",
           "imageAlt": "James Beard Awards logo",
           "publishedAt": "2026-04-01",
           "keywords": [
@@ -113,7 +115,8 @@
             "midtown",
             "restaurant awards",
             "chef"
-          ]
+          ],
+          "originalImageUrl": "https://platform.atlanta.eater.com/wp-content/uploads/sites/14/2026/03/JamesBeard_A.png?quality=90&strip=all&crop=0,0,100,100"
         },
         {
           "id": "wayfair-first-atlanta-store-opens",
@@ -163,7 +166,7 @@
           ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/04/01/art-papers-goes-out-the-way-it-came-together-in-community/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Art-Papers-600x334.jpeg",
+          "imageUrl": "/images/stories/art-papers-magazine-farewell-little-five-points.webp",
           "imageAlt": "Art Papers magazine farewell event announcement",
           "publishedAt": "2026-04-01",
           "keywords": [
@@ -172,7 +175,8 @@
             "art magazine",
             "nonprofit",
             "farewell"
-          ]
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Art-Papers-600x334.jpeg"
         },
         {
           "id": "dave-hayward-lgbtq-historian-memorial",
@@ -186,7 +190,7 @@
           ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/04/01/dave-hayward-memorial-service/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2025/11/Screenshot-2025-11-07-at-10.31.51-AM-600x456.png",
+          "imageUrl": "/images/stories/dave-hayward-lgbtq-historian-memorial.webp",
           "imageAlt": "Dave Hayward, LGBTQ+ historian and activist",
           "publishedAt": "2026-04-01",
           "keywords": [
@@ -195,7 +199,8 @@
             "candler park",
             "manuels tavern",
             "memorial"
-          ]
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2025/11/Screenshot-2025-11-07-at-10.31.51-AM-600x456.png"
         }
       ]
     },
@@ -227,7 +232,7 @@
               "url": "https://www.wabe.org/georgia-legislature-passes-hoa-oversight-bill/"
             }
           ],
-          "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2024/06/IMG_0221.jpeg",
+          "imageUrl": "/images/stories/georgia-legislature-final-session-day.webp",
           "imageAlt": "Georgia State Capitol building during legislative session",
           "publishedAt": "2026-04-01",
           "keywords": [
@@ -237,7 +242,8 @@
             "literacy",
             "property tax",
             "hoa"
-          ]
+          ],
+          "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2024/06/IMG_0221.jpeg"
         },
         {
           "id": "no-kings-protests-thousands-atlanta",
@@ -260,7 +266,7 @@
               "url": "https://www.ajc.com/news/atlanta-news/immigration-war-bring-thousands-to-georgia-state-capitol-for-no-kings-march/"
             }
           ],
-          "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/IMG_9089-1024x576.jpg",
+          "imageUrl": "/images/stories/no-kings-protests-thousands-atlanta.webp",
           "imageAlt": "No Kings rally at the Georgia State Capitol in Atlanta",
           "publishedAt": "2026-04-01",
           "keywords": [
@@ -270,7 +276,8 @@
             "warnock",
             "ice",
             "iran war"
-          ]
+          ],
+          "originalImageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/IMG_9089-1024x576.jpg"
         }
       ]
     },
@@ -288,7 +295,7 @@
           ],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/new-breeze-fare-system/",
-          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2025/03/Front-Page_Five-Points1.jpg?fit=1024%2C681&quality=89&ssl=1",
+          "imageUrl": "/images/stories/marta-better-breeze-fare-system-launch.webp",
           "imageAlt": "MARTA Five Points station with new Breeze fare equipment",
           "publishedAt": "2026-04-01",
           "keywords": [
@@ -297,7 +304,8 @@
             "fare system",
             "transit",
             "tap to pay"
-          ]
+          ],
+          "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2025/03/Front-Page_Five-Points1.jpg?fit=1024%2C681&quality=89&ssl=1"
         },
         {
           "id": "hartsfield-jackson-spring-travel-surge",
@@ -348,7 +356,7 @@
               "url": "https://www.decaturish.com/opinion/teen-takeover-breaking-stereotypes-on-social-media/article_65e77998-cf39-4755-9d7d-51bc9d48c509.html"
             }
           ],
-          "imageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/03/Screenshot-2026-03-31-at-4.29.43-PM-scaled.png?fit=1024%2C686&ssl=1",
+          "imageUrl": "/images/stories/teen-takeovers-atlanta-what-next.webp",
           "imageAlt": "Teen takeover discussion in metro Atlanta",
           "publishedAt": "2026-04-01",
           "keywords": [
@@ -357,7 +365,8 @@
             "battery",
             "youth",
             "public safety"
-          ]
+          ],
+          "originalImageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/03/Screenshot-2026-03-31-at-4.29.43-PM-scaled.png?fit=1024%2C686&ssl=1"
         },
         {
           "id": "world-cup-events-calendar-atlanta",
@@ -370,7 +379,7 @@
           ],
           "source": "Atlanta Magazine",
           "sourceUrl": "https://www.atlantamagazine.com/news-culture-articles/the-ultimate-atlanta-fifa-world-cup-events-calendar/",
-          "imageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/04/fifafanfest_fb_courtesy.jpg",
+          "imageUrl": "/images/stories/world-cup-events-calendar-atlanta.webp",
           "imageAlt": "FIFA Fan Festival rendering at Centennial Olympic Park in Atlanta",
           "publishedAt": "2026-04-01",
           "keywords": [
@@ -379,7 +388,8 @@
             "centennial olympic park",
             "atlanta stadium",
             "tickets"
-          ]
+          ],
+          "originalImageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/04/fifafanfest_fb_courtesy.jpg"
         }
       ]
     },
@@ -397,7 +407,7 @@
           ],
           "source": "Hypepotamus",
           "sourceUrl": "https://hypepotamus.com/startup-news/startups-that-raised-vc-in-march-2026/",
-          "imageUrl": "https://hypepotamus.com/wp-content/uploads/2026/04/blogging-guide-K5DY18hy5JQ-unsplash-scaled.jpg",
+          "imageUrl": "/images/stories/southeast-startup-funding-march-2026.webp",
           "imageAlt": "Southeast startup funding activity for March 2026",
           "publishedAt": "2026-04-01",
           "keywords": [
@@ -406,7 +416,8 @@
             "zero rfi",
             "construction",
             "atlanta tech"
-          ]
+          ],
+          "originalImageUrl": "https://hypepotamus.com/wp-content/uploads/2026/04/blogging-guide-K5DY18hy5JQ-unsplash-scaled.jpg"
         }
       ]
     },
@@ -424,7 +435,7 @@
           ],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/braves-struggle-scoring-runs/",
-          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/260331_BR__game2_KL104879-scaled.jpg?fit=1024%2C683&quality=89&ssl=1",
+          "imageUrl": "/images/stories/braves-lose-5-2-athletics-game-two.webp",
           "imageAlt": "Jose Suarez pitching for the Atlanta Braves at Truist Park",
           "publishedAt": "2026-04-01",
           "keywords": [
@@ -433,7 +444,8 @@
             "truist park",
             "jose suarez",
             "baseball"
-          ]
+          ],
+          "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/260331_BR__game2_KL104879-scaled.jpg?fit=1024%2C683&quality=89&ssl=1"
         },
         {
           "id": "hawks-role-players-playoff-push",

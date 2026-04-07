@@ -34,8 +34,10 @@ const articleJsonLd = {
   articleSection: story.neighborhood,
   image: story.imageUrl ? {
     '@type': 'ImageObject',
-    url: story.imageUrl,
+    url: story.imageUrl.startsWith('/') ? `${SITE_URL}${story.imageUrl}` : story.imageUrl,
     caption: story.imageAlt || story.headline,
+    width: 1200,
+    height: 675,
   } : undefined,
   datePublished: story.publishedAt,
   dateModified: story.publishedAt,
@@ -83,7 +85,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 <Base
   title={story.headline}
   description={story.summary}
-  ogImage={story.imageUrl || undefined}
+  ogImage={story.imageUrl ? (story.imageUrl.startsWith('/') ? `${SITE_URL}${story.imageUrl}` : story.imageUrl) : undefined}
   ogType="article"
   article={{
     publishedTime: story.publishedAt,
@@ -105,6 +107,10 @@ const breadcrumbSchema = buildBreadcrumbSchema([
         src={story.imageUrl}
         alt={story.imageAlt || story.headline}
         class="article-hero-image"
+        loading="eager"
+        decoding="async"
+        width="1200"
+        height="675"
       />
     ) : (
       <div class="article-hero-fallback">

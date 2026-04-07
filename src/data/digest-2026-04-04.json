@@ -14,7 +14,7 @@
     ],
     "source": "Urbanize Atlanta",
     "sourceUrl": "https://atlanta.urbanize.city/post/beltline-interstate-20-bridge-new-trail-eastside-images-construction-coming",
-    "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-04/Bridge%20Overview%20Southside%20Trail%20Segment%206%20%202.png?itok=cQD7aYNo",
+    "imageUrl": "/images/stories/beltline-i20-bridge-southside-trail-segment-6.webp",
     "imageAlt": "Rendering of the new BeltLine Southside Trail bridge over Interstate 20",
     "publishedAt": "2026-04-04",
     "keywords": [
@@ -25,7 +25,8 @@
       "reynoldstown",
       "ormewood park",
       "trail construction"
-    ]
+    ],
+    "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-04/Bridge%20Overview%20Southside%20Trail%20Segment%206%20%202.png?itok=cQD7aYNo"
   },
   "sections": [
     {
@@ -43,10 +44,16 @@
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/04/04/affordable-housing-beltline-initiative/",
           "sources": [
-            { "name": "Rough Draft Atlanta", "url": "https://roughdraftatlanta.com/2026/04/04/affordable-housing-beltline-initiative/" },
-            { "name": "WSB-TV", "url": "https://www.wsbtv.com/news/local/atlanta/some-people-are-paying-less-than-100-live-beltline/QGKQNGKMXVFQ7E3KUUYUHZQ6MI/" }
+            {
+              "name": "Rough Draft Atlanta",
+              "url": "https://roughdraftatlanta.com/2026/04/04/affordable-housing-beltline-initiative/"
+            },
+            {
+              "name": "WSB-TV",
+              "url": "https://www.wsbtv.com/news/local/atlanta/some-people-are-paying-less-than-100-live-beltline/QGKQNGKMXVFQ7E3KUUYUHZQ6MI/"
+            }
           ],
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/04/356-University-Ave-SW_V2-600x338.jpg",
+          "imageUrl": "/images/stories/beltline-affordable-housing-79-percent-goal.webp",
           "imageAlt": "356 University Avenue, one of the affordable housing projects completed by Atlanta BeltLine Inc.",
           "publishedAt": "2026-04-04",
           "keywords": [
@@ -55,7 +62,8 @@
             "reynoldstown",
             "tax allocation district",
             "housing goal"
-          ]
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/04/356-University-Ave-SW_V2-600x338.jpg"
         },
         {
           "id": "pie-bar-westside-market-new-location",
@@ -68,7 +76,7 @@
           ],
           "source": "What Now Atlanta",
           "sourceUrl": "https://whatnow.com/atlanta/restaurants/pie-bar-planning-new-location-at-westside-market/",
-          "imageUrl": "https://whatnow.com/wp-content/uploads/2026/04/Screenshot-2026-04-03-at-11.53.29-AM-768x536.png",
+          "imageUrl": "/images/stories/pie-bar-westside-market-new-location.webp",
           "imageAlt": "Pie Bar storefront, expanding to Westside Market in West Midtown",
           "publishedAt": "2026-04-04",
           "keywords": [
@@ -77,7 +85,8 @@
             "west midtown",
             "restaurant opening",
             "bakery"
-          ]
+          ],
+          "originalImageUrl": "https://whatnow.com/wp-content/uploads/2026/04/Screenshot-2026-04-03-at-11.53.29-AM-768x536.png"
         }
       ]
     },
@@ -95,7 +104,7 @@
           ],
           "source": "Atlanta Civic Circle",
           "sourceUrl": "https://atlantaciviccircle.org/2026/04/03/judge-rejects-hud-homeless-funding-overhaul-atlanta/",
-          "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/01/Screenshot-2026-01-07-174155.png",
+          "imageUrl": "/images/stories/federal-judge-blocks-hud-homeless-grants-overhaul.webp",
           "imageAlt": "Atlanta homeless services and supportive housing",
           "publishedAt": "2026-04-04",
           "keywords": [
@@ -105,7 +114,8 @@
             "housing first",
             "partner for home",
             "federal funding"
-          ]
+          ],
+          "originalImageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/01/Screenshot-2026-01-07-174155.png"
         },
         {
           "id": "georgia-legislature-sine-die-2026-wrap",
@@ -119,13 +129,28 @@
           "source": "Georgia Recorder",
           "sourceUrl": "https://georgiarecorder.com/2026/04/03/thats-a-wrap-what-did-and-didnt-happen-on-the-final-day-of-georgias-2026-legislative-session/",
           "sources": [
-            { "name": "Georgia Recorder", "url": "https://georgiarecorder.com/2026/04/03/thats-a-wrap-what-did-and-didnt-happen-on-the-final-day-of-georgias-2026-legislative-session/" },
-            { "name": "Atlanta Civic Circle", "url": "https://atlantaciviccircle.org/2026/04/03/georgia-legislature-sine-die-2026/" },
-            { "name": "WABE", "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeHBKU1VHRkk0dThTOVVWOGplaHRpeVFOM0RydWVKb1I5dVpSa2VyaFluWmMzR1FWVWdHZ1dFeC1oU09rREMwT0p0OWN2VzhxdTZMWjl2N09VNlRneFFfdUozbWpSdG9LTGNIOERXUG5Bc2d6N0k1ZlZZcEJLOS1qdDllZlBUSmhrMFZya1Fxb1JKMWN4UXprQW5qYTE5NmxZbVVEeTh3?oc=5" },
-            { "name": "AJC", "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUDBTM0dJWGhNdnZwXy1PMjEwMU53QzQ4Yy0wUVFteGFNY2pKZzlJZGV3R1lPQm9vNFM4Z0lGVnNXNXlvTmxHd04tQS1ES3drdGdXZ2NaWUFBQVQwdWptSi1udDhqX3FEREFTSkxudzRRQTZEdVpUS1V2S1JJNEVoeWMwNF9XaVJSc3NfZzZWeVdLMWkzY3NZOGdyTFZUUWZRQVBYM2RzeTU?oc=5" },
-            { "name": "Axios Atlanta", "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdVEzTDFERnVZaHlIc1Roa1B1ZXNBcGtHMTNGOEZqaHNPWlpsXzREcmRDdkdxOFdqd1YzUFlIYWg5YlNScnlzTUZsSG5NT3V1NWx5RmtNWnVrM0VTR3ZDTWUtamNYQ0xPX2pSak9XbXNOMmJXbVZiU3VZZ3I0MTV3R1VPZHBhZ0ROQjhyYnE0dUFwY1NqbjJZcEotOTJzRDdneW9HVi1LcVVVMDhxeEZjdkZOai0tYXRH?oc=5" }
+            {
+              "name": "Georgia Recorder",
+              "url": "https://georgiarecorder.com/2026/04/03/thats-a-wrap-what-did-and-didnt-happen-on-the-final-day-of-georgias-2026-legislative-session/"
+            },
+            {
+              "name": "Atlanta Civic Circle",
+              "url": "https://atlantaciviccircle.org/2026/04/03/georgia-legislature-sine-die-2026/"
+            },
+            {
+              "name": "WABE",
+              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeHBKU1VHRkk0dThTOVVWOGplaHRpeVFOM0RydWVKb1I5dVpSa2VyaFluWmMzR1FWVWdHZ1dFeC1oU09rREMwT0p0OWN2VzhxdTZMWjl2N09VNlRneFFfdUozbWpSdG9LTGNIOERXUG5Bc2d6N0k1ZlZZcEJLOS1qdDllZlBUSmhrMFZya1Fxb1JKMWN4UXprQW5qYTE5NmxZbVVEeTh3?oc=5"
+            },
+            {
+              "name": "AJC",
+              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUDBTM0dJWGhNdnZwXy1PMjEwMU53QzQ4Yy0wUVFteGFNY2pKZzlJZGV3R1lPQm9vNFM4Z0lGVnNXNXlvTmxHd04tQS1ES3drdGdXZ2NaWUFBQVQwdWptSi1udDhqX3FEREFTSkxudzRRQTZEdVpUS1V2S1JJNEVoeWMwNF9XaVJSc3NfZzZWeVdLMWkzY3NZOGdyTFZUUWZRQVBYM2RzeTU?oc=5"
+            },
+            {
+              "name": "Axios Atlanta",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdVEzTDFERnVZaHlIc1Roa1B1ZXNBcGtHMTNGOEZqaHNPWlpsXzREcmRDdkdxOFdqd1YzUFlIYWg5YlNScnlzTUZsSG5NT3V1NWx5RmtNWnVrM0VTR3ZDTWUtamNYQ0xPX2pSak9XbXNOMmJXbVZiU3VZZ3I0MTV3R1VPZHBhZ0ROQjhyYnE0dUFwY1NqbjJZcEotOTJzRDdneW9HVi1LcVVVMDhxeEZjdkZOai0tYXRH?oc=5"
+            }
           ],
-          "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/04/DSC_7421-1024x683.jpg",
+          "imageUrl": "/images/stories/georgia-legislature-sine-die-2026-wrap.webp",
           "imageAlt": "Georgia senators celebrate sine die at the end of the 2026 legislative session",
           "publishedAt": "2026-04-04",
           "keywords": [
@@ -136,7 +161,8 @@
             "election reform",
             "qr codes",
             "budget"
-          ]
+          ],
+          "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/04/DSC_7421-1024x683.jpg"
         }
       ]
     },
@@ -154,7 +180,7 @@
           ],
           "source": "11Alive",
           "sourceUrl": "https://www.11alive.com/article/news/404-day-parade-brings-out-hundreds-to-celebrate-atlanta/85-a59d51e4-05e1-4ce7-8361-b74d65c1747f",
-          "imageUrl": "https://media.tegna-media.com/assets/WXIA/images/c1474495-1b7b-4433-92e5-79151876538e/20260404T183405/c1474495-1b7b-4433-92e5-79151876538e_750x422.jpg",
+          "imageUrl": "/images/stories/atlanta-404-day-parade-2026.webp",
           "imageAlt": "Crowds at the second annual 404 Day parade in Downtown Atlanta",
           "publishedAt": "2026-04-04",
           "keywords": [
@@ -163,7 +189,8 @@
             "downtown",
             "atlanta culture",
             "area code"
-          ]
+          ],
+          "originalImageUrl": "https://media.tegna-media.com/assets/WXIA/images/c1474495-1b7b-4433-92e5-79151876538e/20260404T183405/c1474495-1b7b-4433-92e5-79151876538e_750x422.jpg"
         },
         {
           "id": "puma-portugal-kit-launch-world-cup-atlanta",
@@ -176,7 +203,7 @@
           ],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/puma-portugal-kit-launch/",
-          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/04/download-7.png?fit=1024%2C768&quality=80&ssl=1",
+          "imageUrl": "/images/stories/puma-portugal-kit-launch-world-cup-atlanta.webp",
           "imageAlt": "PUMA's Portugal kit launch activation outside Mercedes-Benz Stadium in Atlanta",
           "publishedAt": "2026-04-04",
           "keywords": [
@@ -186,7 +213,8 @@
             "mercedes-benz stadium",
             "fifa",
             "soccer"
-          ]
+          ],
+          "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/04/download-7.png?fit=1024%2C768&quality=80&ssl=1"
         },
         {
           "id": "atlanta-womens-comedy-film-festival-7-stages",
@@ -199,7 +227,7 @@
           ],
           "source": "SaportaReport",
           "sourceUrl": "https://saportareport.com/atlanta-womens-comedy-film-festival-brings-boutique-experience-in-seventh-year/uncategorized/delaneytarr/",
-          "imageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/04/Screenshot-2026-04-03-at-2.38.53-PM.png?fit=1024%2C581&ssl=1",
+          "imageUrl": "/images/stories/atlanta-womens-comedy-film-festival-7-stages.webp",
           "imageAlt": "Atlanta Women's Comedy Film Festival at 7 Stages Theatre in Little Five Points",
           "publishedAt": "2026-04-04",
           "keywords": [
@@ -209,7 +237,8 @@
             "women filmmakers",
             "comedy",
             "cinema life"
-          ]
+          ],
+          "originalImageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/04/Screenshot-2026-04-03-at-2.38.53-PM.png?fit=1024%2C581&ssl=1"
         }
       ]
     },
@@ -228,7 +257,7 @@
           ],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/news/dekalb/dekalb-county-fixing-30-inch-main-break-in-greater-decatur/article_a0818685-3d79-4737-815a-43973f21a323.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/8/64/8641cee8-41ae-592f-8762-d31569c2e077/683848b596f7b.image.png?resize=300%2C197",
+          "imageUrl": "/images/stories/dekalb-30-inch-water-main-break-decatur.webp",
           "imageAlt": "DeKalb County water main break repair at North Druid Hills and Lawrenceville Highway",
           "publishedAt": "2026-04-04",
           "keywords": [
@@ -238,7 +267,8 @@
             "druid hills",
             "infrastructure",
             "watershed management"
-          ]
+          ],
+          "originalImageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/8/64/8641cee8-41ae-592f-8762-d31569c2e077/683848b596f7b.image.png?resize=300%2C197"
         }
       ]
     }

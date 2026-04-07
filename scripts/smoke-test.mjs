@@ -356,6 +356,91 @@ async function checkRSSFreshness() {
   }
 }
 
+async function checkStoryImages() {
+  /**
+   * Verify story images in today's digest:
+   * - Local images: check the file exists in public/ and is served by the live site
+   * - Remote images: HEAD-request to check reachability
+   * - Missing images: flag stories with no imageUrl
+   */
+  try {
+    const fs = await import('node:fs');
+    const path = await import('node:path');
+    const digestPath = path.join(process.cwd(), 'src', 'data', 'digest-latest.json');
+    const digest = JSON.parse(fs.readFileSync(digestPath, 'utf-8'));
+
+    const stories = [digest.topStory, ...digest.sections.flatMap(s => s.stories)].filter(Boolean);
+    const noImageStories = stories.filter(s => !s.imageUrl);
+    const imageStories = stories.filter(s => s.imageUrl);
+    const brokenImages = [];
+    let localCount = 0;
+    let remoteCount = 0;
+
+    for (const story of imageStories) {
+      const url = story.imageUrl;
+
+      if (url.startsWith('/images/stories/')) {
+        // Local image — check file exists
+        localCount++;
+        const filePath = path.join(process.cwd(), 'public', url);
+        if (!fs.existsSync(filePath)) {
+          brokenImages.push({ id: story.id, url, status: 'file missing' });
+          continue;
+        }
+        // Also verify it's served on the live site
+        try {
+          const response = await fetchWithTimeout(`${SITE_URL}${url}`, 10000);
+          if (response.status >= 400) {
+            brokenImages.push({ id: story.id, url, status: `HTTP ${response.status}` });
+          }
+        } catch (err) {
+          brokenImages.push({ id: story.id, url, status: err.message });
+        }
+      } else if (url.startsWith('http')) {
+        // Remote image — HEAD-request
+        remoteCount++;
+        try {
+          const controller = new AbortController();
+          const timeoutId = setTimeout(() => controller.abort(), 10000);
+          const response = await fetch(url, {
+            method: 'HEAD',
+            signal: controller.signal,
+            headers: { 'User-Agent': 'AtlantaNewsAndTalk-SmokeTest/1.0' },
+            redirect: 'follow'
+          });
+          clearTimeout(timeoutId);
+          if (response.status >= 400) {
+            brokenImages.push({ id: story.id, url, status: `HTTP ${response.status}` });
+          }
+        } catch (err) {
+          brokenImages.push({ id: story.id, url, status: err.message });
+        }
+      }
+    }
+
+    if (brokenImages.length > 0) {
+      for (const m of brokenImages) {
+        log('fail', `Broken image: ${m.id} (${m.status})`);
+      }
+      log('fail', `${brokenImages.length} of ${imageStories.length} story images broken`);
+      return false;
+    }
+
+    let msg = `${imageStories.length} story images OK`;
+    if (localCount > 0) msg += ` (${localCount} local WebP`;
+    if (remoteCount > 0) msg += localCount > 0 ? `, ${remoteCount} remote` : ` (${remoteCount} remote`;
+    msg += ')';
+    if (noImageStories.length > 0) {
+      msg += ` — ${noImageStories.length} stories have no image`;
+    }
+    log('pass', msg);
+    return true;
+  } catch (error) {
+    log('fail', `Story image check - ${error.message}`);
+    return false;
+  }
+}
+
 async function runTests() {
   console.log(`\n${colors.cyan}═══════════════════════════════════════════════════════════${colors.reset}`);
   console.log(`${colors.cyan}  atlanta news & talk - Post-Deploy Smoke Test${colors.reset}`);
@@ -463,7 +548,11 @@ async function runTests() {
   track(await checkTodayContent());
   track(await checkTopStory());
 
-  // 10. Story counts
+  // 10. Story images
+  section('Story Images');
+  track(await checkStoryImages());
+
+  // 11. Story counts
   section('Story Counts');
   track(await checkNeighborhoodStoryCounts());
   track(await checkNeighborhoodPageCounts());

@@ -13,7 +13,7 @@
     ],
     "source": "Fox 5 Atlanta",
     "sourceUrl": "https://www.fox5atlanta.com/news/mariah-carey-joins-easter-service-led-sen-warnock-atlanta",
-    "imageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/04/1280/720/GettyImages-mariah-carey.jpg",
+    "imageUrl": null,
     "imageAlt": "Mariah Carey at Ebenezer Baptist Church Easter service in Sweet Auburn",
     "publishedAt": "2026-04-06",
     "keywords": [
@@ -23,7 +23,8 @@
       "easter",
       "sweet auburn",
       "atlanta"
-    ]
+    ],
+    "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/04/1280/720/GettyImages-mariah-carey.jpg"
   },
   "sections": [
     {
@@ -40,7 +41,7 @@
           ],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/atlanta-voice-404-day/",
-          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/04/404-day-parade.jpg",
+          "imageUrl": null,
           "imageAlt": "Crowds celebrating at the 404 Day Parade in downtown Atlanta",
           "publishedAt": "2026-04-06",
           "keywords": [
@@ -49,7 +50,8 @@
             "atlanta",
             "community",
             "downtown"
-          ]
+          ],
+          "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/04/404-day-parade.jpg"
         },
         {
           "id": "atlanta-pride-2026-grand-marshal-nominations",
@@ -208,41 +210,149 @@
     }
   ],
   "neighborhoods": {
-    "Downtown": { "storyCount": 78, "topStory": "404-day-parade-atlanta-community-celebration" },
-    "Midtown": { "storyCount": 34, "topStory": "atlanta-pride-2026-grand-marshal-nominations" },
-    "Decatur": { "storyCount": 34, "topStory": "decatur-beacon-hill-historic-district-hearing" },
-    "Buckhead": { "storyCount": 12, "topStory": "freedom-plane-documents-atlanta-history-center" },
-    "Westside": { "storyCount": 10, "topStory": "atlanta-united-first-win" },
-    "Old Fourth Ward": { "storyCount": 9, "topStory": "senate-passes-investor-home-limits" },
-    "Grant Park": { "storyCount": 9, "topStory": "senate-passes-investor-home-limits" },
-    "Druid Hills": { "storyCount": 9, "topStory": "emory-d3-championship-buzzer-beater-loss" },
-    "Reynoldstown": { "storyCount": 8, "topStory": "beltline-i20-bridge-southside-trail-segment-6" },
-    "Oakland City": { "storyCount": 7, "topStory": "beltline-murphy-crossing-redesign" },
-    "West End": { "storyCount": 7, "topStory": "eats-reopens-wild-heaven-west-end" },
-    "Kirkwood": { "storyCount": 6, "topStory": "beacon-grant-park-vacancy-struggle" },
-    "West Midtown": { "storyCount": 5, "topStory": "pie-bar-westside-market-new-location" },
-    "Virginia-Highland": { "storyCount": 4, "topStory": "10th-street-hemphill-construction-closure" },
-    "Castleberry Hill": { "storyCount": 4, "topStory": "south-downtown-world-cup-transformation-2026" },
-    "Inman Park": { "storyCount": 3, "topStory": "mushi-ni-opens-inman-park" },
-    "Sweet Auburn": { "storyCount": 2, "topStory": "mariah-carey-ebenezer-baptist-easter-service" },
-    "East Atlanta Village": { "storyCount": 2, "topStory": "senate-passes-investor-home-limits" },
-    "East Atlanta": { "storyCount": 2, "topStory": "vela-park-food-hall-opening" },
-    "Cabbagetown": { "storyCount": 2, "topStory": "reynoldstown-townhomes-beltline-construction" },
-    "Summerhill": { "storyCount": 2, "topStory": "gsu-summerhill-athletics-neighborhood" },
-    "Little Five Points": { "storyCount": 2, "topStory": "atlanta-womens-comedy-film-festival-7-stages" },
-    "Capitol View": { "storyCount": 2, "topStory": "beltline-oakland-city-marta-connector-trail-visuals" },
-    "Edgewood": { "storyCount": 1, "topStory": "edgewood-retail-district" },
-    "Ormewood Park": { "storyCount": 1, "topStory": "beltline-i20-bridge-southside-trail-segment-6" },
-    "Piedmont Heights": { "storyCount": 1, "topStory": "midtown-sewer-repairs-close-juniper" },
-    "Home Park": { "storyCount": 1, "topStory": "10th-street-hemphill-construction-closure" },
-    "College Park": { "storyCount": 1, "topStory": "atlanta-airport-tsa-delays" },
-    "Vine City": { "storyCount": 1, "topStory": "atlanta-streets-alive-new-route" },
-    "Ansley Park": { "storyCount": 1, "topStory": "lewis-barbecue-ansley-mall-beltline" },
-    "East Point": { "storyCount": 1, "topStory": "east-point-affordable-housing-marta" },
-    "Candler Park": { "storyCount": 1, "topStory": "dave-hayward-lgbtq-historian-memorial" },
-    "Poncey-Highland": { "storyCount": 1, "topStory": "dave-hayward-lgbtq-historian-memorial" },
-    "Chosewood Park": { "storyCount": 0, "topStory": "" },
-    "Peoplestown": { "storyCount": 0, "topStory": "" },
-    "Morningside": { "storyCount": 0, "topStory": "" }
+    "Downtown": {
+      "storyCount": 78,
+      "topStory": "404-day-parade-atlanta-community-celebration"
+    },
+    "Midtown": {
+      "storyCount": 34,
+      "topStory": "atlanta-pride-2026-grand-marshal-nominations"
+    },
+    "Decatur": {
+      "storyCount": 34,
+      "topStory": "decatur-beacon-hill-historic-district-hearing"
+    },
+    "Buckhead": {
+      "storyCount": 12,
+      "topStory": "freedom-plane-documents-atlanta-history-center"
+    },
+    "Westside": {
+      "storyCount": 10,
+      "topStory": "atlanta-united-first-win"
+    },
+    "Old Fourth Ward": {
+      "storyCount": 9,
+      "topStory": "senate-passes-investor-home-limits"
+    },
+    "Grant Park": {
+      "storyCount": 9,
+      "topStory": "senate-passes-investor-home-limits"
+    },
+    "Druid Hills": {
+      "storyCount": 9,
+      "topStory": "emory-d3-championship-buzzer-beater-loss"
+    },
+    "Reynoldstown": {
+      "storyCount": 8,
+      "topStory": "beltline-i20-bridge-southside-trail-segment-6"
+    },
+    "Oakland City": {
+      "storyCount": 7,
+      "topStory": "beltline-murphy-crossing-redesign"
+    },
+    "West End": {
+      "storyCount": 7,
+      "topStory": "eats-reopens-wild-heaven-west-end"
+    },
+    "Kirkwood": {
+      "storyCount": 6,
+      "topStory": "beacon-grant-park-vacancy-struggle"
+    },
+    "West Midtown": {
+      "storyCount": 5,
+      "topStory": "pie-bar-westside-market-new-location"
+    },
+    "Virginia-Highland": {
+      "storyCount": 4,
+      "topStory": "10th-street-hemphill-construction-closure"
+    },
+    "Castleberry Hill": {
+      "storyCount": 4,
+      "topStory": "south-downtown-world-cup-transformation-2026"
+    },
+    "Inman Park": {
+      "storyCount": 3,
+      "topStory": "mushi-ni-opens-inman-park"
+    },
+    "Sweet Auburn": {
+      "storyCount": 2,
+      "topStory": "mariah-carey-ebenezer-baptist-easter-service"
+    },
+    "East Atlanta Village": {
+      "storyCount": 2,
+      "topStory": "senate-passes-investor-home-limits"
+    },
+    "East Atlanta": {
+      "storyCount": 2,
+      "topStory": "vela-park-food-hall-opening"
+    },
+    "Cabbagetown": {
+      "storyCount": 2,
+      "topStory": "reynoldstown-townhomes-beltline-construction"
+    },
+    "Summerhill": {
+      "storyCount": 2,
+      "topStory": "gsu-summerhill-athletics-neighborhood"
+    },
+    "Little Five Points": {
+      "storyCount": 2,
+      "topStory": "atlanta-womens-comedy-film-festival-7-stages"
+    },
+    "Capitol View": {
+      "storyCount": 2,
+      "topStory": "beltline-oakland-city-marta-connector-trail-visuals"
+    },
+    "Edgewood": {
+      "storyCount": 1,
+      "topStory": "edgewood-retail-district"
+    },
+    "Ormewood Park": {
+      "storyCount": 1,
+      "topStory": "beltline-i20-bridge-southside-trail-segment-6"
+    },
+    "Piedmont Heights": {
+      "storyCount": 1,
+      "topStory": "midtown-sewer-repairs-close-juniper"
+    },
+    "Home Park": {
+      "storyCount": 1,
+      "topStory": "10th-street-hemphill-construction-closure"
+    },
+    "College Park": {
+      "storyCount": 1,
+      "topStory": "atlanta-airport-tsa-delays"
+    },
+    "Vine City": {
+      "storyCount": 1,
+      "topStory": "atlanta-streets-alive-new-route"
+    },
+    "Ansley Park": {
+      "storyCount": 1,
+      "topStory": "lewis-barbecue-ansley-mall-beltline"
+    },
+    "East Point": {
+      "storyCount": 1,
+      "topStory": "east-point-affordable-housing-marta"
+    },
+    "Candler Park": {
+      "storyCount": 1,
+      "topStory": "dave-hayward-lgbtq-historian-memorial"
+    },
+    "Poncey-Highland": {
+      "storyCount": 1,
+      "topStory": "dave-hayward-lgbtq-historian-memorial"
+    },
+    "Chosewood Park": {
+      "storyCount": 0,
+      "topStory": ""
+    },
+    "Peoplestown": {
+      "storyCount": 0,
+      "topStory": ""
+    },
+    "Morningside": {
+      "storyCount": 0,
+      "topStory": ""
+    }
   }
 }

@@ -8,13 +8,24 @@
     "summary": "GSU wants to transform the area around Center Parc Stadium into a cohesive sports campus. New softball, beach volleyball, and football practice facilities are planned for the next three to five years, all within walking distance of Georgia Avenue.",
     "body": "Georgia State University just dropped some big news for Summerhill. The school is planning a major expansion of its athletic facilities around Center Parc Stadium (the former Turner Field), with the goal of creating what they're calling an \"athletics neighborhood.\"\n\nThe plan includes covered football practice fields, new softball and beach volleyball facilities, and improvements to the stadium itself. Everything would be clustered together, making it easy for fans to walk from games to the restaurants and bars on Georgia Avenue. With the new MARTA line to Summerhill opening next month, the timing couldn't be better.\n\nGSU says this is about more than just sports. They want to boost fan engagement, give student-athletes better training facilities, and raise the school's profile in college athletics. For Summerhill residents, it means more foot traffic and more reasons for people to spend time (and money) in the neighborhood.",
     "neighborhood": "Summerhill",
-    "neighborhoods": ["Summerhill", "Grant Park"],
+    "neighborhoods": [
+      "Summerhill",
+      "Grant Park"
+    ],
     "source": "Urbanize Atlanta",
     "sourceUrl": "https://atlanta.urbanize.city/post/georgia-state-university-summerhill-athletics-neighborhood-softball-beach-volleyball-images",
-    "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/Center%20Parc%20Stadium%20Georgia%20State%20DJI_0244.jpg?itok=SsqQQ18A",
+    "imageUrl": "/images/stories/gsu-summerhill-athletics-neighborhood.webp",
     "imageAlt": "Aerial view of Center Parc Stadium and Georgia State University's planned athletics neighborhood in Summerhill",
     "publishedAt": "2026-03-26",
-    "keywords": ["summerhill", "georgia state university", "center parc stadium", "athletics", "beltline adjacent", "atlanta development"]
+    "keywords": [
+      "summerhill",
+      "georgia state university",
+      "center parc stadium",
+      "athletics",
+      "beltline adjacent",
+      "atlanta development"
+    ],
+    "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/Center%20Parc%20Stadium%20Georgia%20State%20DJI_0244.jpg?itok=SsqQQ18A"
   },
   "sections": [
     {
@@ -26,13 +37,23 @@
           "summary": "GSU wants to transform the area around Center Parc Stadium into a cohesive sports campus. New softball, beach volleyball, and football practice facilities are planned for the next three to five years, all within walking distance of Georgia Avenue.",
           "body": "Georgia State University just dropped some big news for Summerhill. The school is planning a major expansion of its athletic facilities around Center Parc Stadium (the former Turner Field), with the goal of creating what they're calling an \"athletics neighborhood.\"\n\nThe plan includes covered football practice fields, new softball and beach volleyball facilities, and improvements to the stadium itself. Everything would be clustered together, making it easy for fans to walk from games to the restaurants and bars on Georgia Avenue. With the new MARTA line to Summerhill opening next month, the timing couldn't be better.\n\nGSU says this is about more than just sports. They want to boost fan engagement, give student-athletes better training facilities, and raise the school's profile in college athletics. For Summerhill residents, it means more foot traffic and more reasons for people to spend time (and money) in the neighborhood.",
           "neighborhood": "Summerhill",
-          "neighborhoods": ["Summerhill", "Grant Park"],
+          "neighborhoods": [
+            "Summerhill",
+            "Grant Park"
+          ],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/georgia-state-university-summerhill-athletics-neighborhood-softball-beach-volleyball-images",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/Center%20Parc%20Stadium%20Georgia%20State%20DJI_0244.jpg?itok=SsqQQ18A",
+          "imageUrl": "/images/stories/gsu-summerhill-athletics-neighborhood.webp",
           "imageAlt": "Aerial view of Center Parc Stadium and Georgia State University's planned athletics neighborhood in Summerhill",
           "publishedAt": "2026-03-26",
-          "keywords": ["summerhill", "georgia state university", "center parc stadium", "athletics", "atlanta development"]
+          "keywords": [
+            "summerhill",
+            "georgia state university",
+            "center parc stadium",
+            "athletics",
+            "atlanta development"
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/Center%20Parc%20Stadium%20Georgia%20State%20DJI_0244.jpg?itok=SsqQQ18A"
         },
         {
           "id": "colmado-wine-shop-old-fourth-ward",
@@ -40,13 +61,22 @@
           "summary": "The non-toxic, no-tipping salon on Highland Avenue is expanding. A specialty wine shop and flower bar are coming to the space in May.",
           "body": "Colmado, the Old Fourth Ward hair salon known for its non-toxic, no-tipping approach, is branching out. The shop at 655 Highland Ave is adding a specialty wine shop and flower bar, according to NPU filings.\n\nThe expansion is set to open in May. Colmado has built a following in O4W for putting \"artistry, well-being, and genuine connection first.\" Adding wine and flowers feels like a natural extension of that vibe.\n\nIt's the latest sign that Highland Avenue continues to evolve. The corridor between Ponce City Market and Inman Park has seen steady growth in boutique retail and food concepts.",
           "neighborhood": "Old Fourth Ward",
-          "neighborhoods": ["Old Fourth Ward"],
+          "neighborhoods": [
+            "Old Fourth Ward"
+          ],
           "source": "What Now Atlanta",
           "sourceUrl": "https://whatnow.com/atlanta/retail/hair-salon-colmado-expanding-with-wine-shop/",
-          "imageUrl": "https://whatnow.com/wp-content/uploads/2026/03/Hair-Salon-Colmado-Expanding-With-Wine-Shop-copy-768x435.jpg",
+          "imageUrl": "/images/stories/colmado-wine-shop-old-fourth-ward.webp",
           "imageAlt": "Colmado salon in Old Fourth Ward",
           "publishedAt": "2026-03-26",
-          "keywords": ["old fourth ward", "wine shop", "colmado", "highland avenue", "o4w"]
+          "keywords": [
+            "old fourth ward",
+            "wine shop",
+            "colmado",
+            "highland avenue",
+            "o4w"
+          ],
+          "originalImageUrl": "https://whatnow.com/wp-content/uploads/2026/03/Hair-Salon-Colmado-Expanding-With-Wine-Shop-copy-768x435.jpg"
         },
         {
           "id": "westside-homeless-housing-beltline",
@@ -54,13 +84,23 @@
           "summary": "Atlanta Mission wants to convert the Village Skatepark into housing for people experiencing homelessness. Neighbors and Councilman Byron Amos question the location.",
           "body": "Dozens of Westside residents packed a meeting Thursday night to discuss a controversial proposal from Atlanta Mission. The nonprofit wants to convert the Village Skatepark near the Westside BeltLine Trail into a residential complex for people experiencing homelessness.\n\nThe project would include wrap-around services, but neighbors are pushing back. An online petition against the plan has collected nearly 1,100 signatures. City Councilman Byron Amos attended the meeting and questioned why this facility needs to be right on the BeltLine.\n\n\"I understand the project. I understand the need,\" Amos said. \"I disagree with the location.\" The skatepark's current tenant says he was told to vacate by next Friday. He called it devastating, especially with summer events already planned.",
           "neighborhood": "Westside",
-          "neighborhoods": ["Westside", "West Midtown"],
+          "neighborhoods": [
+            "Westside",
+            "West Midtown"
+          ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/atlanta/neighbors-question-why-proposal-would-bring-900-homeless-people-atlanta-community/XRJKBDU3XVAFRDMYVXSSACC764/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-27-2026%2Ft_b69c1f0105d0408cbd842165c8a9444f_name_11PP_HOMELESS_DEVELOPMENT_ATL_PKG_Copy_01_frame_0.jpeg?auth=1b79f4c541833e95d5f2f7b07075bc514702f626a2d00205099e8e1240c7df9c&smart=true&width=1280&height=720",
+          "imageUrl": "/images/stories/westside-homeless-housing-beltline.webp",
           "imageAlt": "Community meeting about proposed homeless housing near Westside BeltLine",
           "publishedAt": "2026-03-27",
-          "keywords": ["westside", "beltline", "homeless housing", "atlanta mission", "affordable housing"]
+          "keywords": [
+            "westside",
+            "beltline",
+            "homeless housing",
+            "atlanta mission",
+            "affordable housing"
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-27-2026%2Ft_b69c1f0105d0408cbd842165c8a9444f_name_11PP_HOMELESS_DEVELOPMENT_ATL_PKG_Copy_01_frame_0.jpeg?auth=1b79f4c541833e95d5f2f7b07075bc514702f626a2d00205099e8e1240c7df9c&smart=true&width=1280&height=720"
         }
       ]
     },
@@ -73,13 +113,23 @@
           "summary": "After 41 days of unpaid TSA workers and four-hour security lines at Hartsfield-Jackson, the Senate approved funding for most of Homeland Security early Friday. The House votes next.",
           "body": "Relief may finally be coming for Atlanta travelers. The Senate voted early Friday morning to fund the Transportation Security Administration and most other Department of Homeland Security agencies, ending a standoff that left TSA workers unpaid for over a month.\n\nThe deal does not include funding for Immigration and Customs Enforcement or Border Patrol (those agencies were already funded separately). But it means TSA workers should finally get paid, and the four-hour security lines at Hartsfield-Jackson should start to ease.\n\nThe House still needs to pass the bill before Congress leaves for a two-week recess. President Trump had threatened to sign an emergency order to pay TSA workers if Congress didn't act. Multiple airports reported over 40% callout rates among TSA workers, and nearly 500 officers have quit during the shutdown.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "Georgia Recorder",
           "sourceUrl": "https://georgiarecorder.com/2026/03/27/repub/us-senate-votes-to-leave-out-ice-border-patrol-funding-in-deal-on-homeland-security-house-next/",
-          "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/03/atlanta2026airport-1024x683.jpg",
+          "imageUrl": "/images/stories/senate-passes-tsa-funding-shutdown-ending.webp",
           "imageAlt": "Long security lines at Hartsfield-Jackson Atlanta International Airport",
           "publishedAt": "2026-03-27",
-          "keywords": ["hartsfield-jackson", "tsa", "airport", "shutdown", "atlanta airport", "security lines"]
+          "keywords": [
+            "hartsfield-jackson",
+            "tsa",
+            "airport",
+            "shutdown",
+            "atlanta airport",
+            "security lines"
+          ],
+          "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/03/atlanta2026airport-1024x683.jpg"
         },
         {
           "id": "midtown-power-outage",
@@ -87,13 +137,21 @@
           "summary": "Georgia Power is working to restore service to neighborhoods along Juniper Street and Piedmont Ave between 10th Street and North Ave.",
           "body": "If you're in Midtown and your lights went out this morning, you're not alone. Georgia Power's outage map showed more than 5,000 customers without power, concentrated in neighborhoods along Juniper Street and Piedmont Ave.\n\nThe outage stretched from around 10th Street NE down past North Ave. Georgia Power hasn't said what caused it, but they estimated power would be restored by mid-morning.\n\nThis is a developing situation. Check Georgia Power's outage map for updates if you're affected.",
           "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown"],
+          "neighborhoods": [
+            "Midtown"
+          ],
           "source": "11Alive",
           "sourceUrl": "https://www.wsbtv.com/news/local/thousands-customers-without-power-midtown-atlanta/5SY2ELTQDBG2NPQPHOTW4SDFRU/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/IJZT6RHPM5EMVJ4QYXURY5M5QQ.png?auth=00526bc86d83279d2cabcd5e04ad8ea77e1037c70f3c20a7b05a2d310919557f&smart=true&width=807&height=559",
+          "imageUrl": "/images/stories/midtown-power-outage.webp",
           "imageAlt": "Georgia Power outage map showing Midtown Atlanta",
           "publishedAt": "2026-03-27",
-          "keywords": ["midtown", "power outage", "georgia power", "atlanta"]
+          "keywords": [
+            "midtown",
+            "power outage",
+            "georgia power",
+            "atlanta"
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/IJZT6RHPM5EMVJ4QYXURY5M5QQ.png?auth=00526bc86d83279d2cabcd5e04ad8ea77e1037c70f3c20a7b05a2d310919557f&smart=true&width=807&height=559"
         }
       ]
     },
@@ -106,13 +164,23 @@
           "summary": "A longtime Kirkwood resident is taking over the wine shop on Hosea L. Williams Drive. Donyal Andrews plans to reopen as Finally Wine in mid-April with a fresh, modern look.",
           "body": "Change is coming to the wine shop at 2033 Hosea L. Williams Dr. in Kirkwood. Donyal Andrews, a longtime neighborhood resident, is taking over Dom Beijos and renaming it Finally Wine.\n\nAndrews is friends with the previous owner, who ran the shop for six and a half years. As an empty nester looking for a new chapter, Andrews saw this as the perfect opportunity. She'll close briefly in April for minor renovations to give the space a modern, bright feel.\n\nThe grand opening is planned for April 18. Andrews plans to continue daily tastings and add events like live music on weekends. \"I'm really hoping to provide a space that allows people to taste great wines, unwind and build community,\" she said.",
           "neighborhood": "Kirkwood",
-          "neighborhoods": ["Kirkwood", "East Atlanta Village"],
+          "neighborhoods": [
+            "Kirkwood",
+            "East Atlanta Village"
+          ],
           "source": "What Now Atlanta",
           "sourceUrl": "https://whatnow.com/atlanta/retail/dom-beijos-changing-hands-rebranding-in-kirkwood/",
-          "imageUrl": "https://whatnow.com/wp-content/uploads/2026/03/Dom-Beijos-Changing-Hands-Rebranding-In-Kirkwood-768x434.png",
+          "imageUrl": "/images/stories/kirkwood-wine-shop-finally-wine.webp",
           "imageAlt": "Dom Beijos wine shop in Kirkwood, soon to become Finally Wine",
           "publishedAt": "2026-03-25",
-          "keywords": ["kirkwood", "wine shop", "finally wine", "hosea l williams", "east atlanta"]
+          "keywords": [
+            "kirkwood",
+            "wine shop",
+            "finally wine",
+            "hosea l williams",
+            "east atlanta"
+          ],
+          "originalImageUrl": "https://whatnow.com/wp-content/uploads/2026/03/Dom-Beijos-Changing-Hands-Rebranding-In-Kirkwood-768x434.png"
         }
       ]
     },
@@ -125,13 +193,22 @@
           "summary": "See original copies of the Declaration of Independence, Constitution, and Bill of Rights through April 12. Admission is free with reserved tickets.",
           "body": "The Freedom Plane National Tour has arrived in Atlanta, and it's bringing some of America's most important historical documents with it. Through April 12, you can see rare originals at the Atlanta History Center in Buckhead.\n\nThe collection includes an 1823 engraving of the Declaration of Independence, the Articles of Association from 1774, the Treaty of Paris, a rare draft printing of the Constitution, and the Senate markup of the Bill of Rights. You can also see oaths of allegiance signed by George Washington, Alexander Hamilton, and Aaron Burr.\n\nThis is part of the nation's 250th birthday celebration. Admission is free, but you need to reserve tickets in advance. Entry is timed, so grab a slot online before you go.",
           "neighborhood": "Buckhead",
-          "neighborhoods": ["Buckhead"],
+          "neighborhoods": [
+            "Buckhead"
+          ],
           "source": "SaportaReport",
           "sourceUrl": "https://saportareport.com/reporters-notebook-rare-documents-at-atl-history-center-sandy-springs-artsapalooza-calida-rawles-exhibit-at-spelman/reporters-notebook/derek/",
-          "imageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/03/1-3.png?fit=1024%2C536&ssl=1",
+          "imageUrl": "/images/stories/freedom-plane-documents-atlanta-history-center.webp",
           "imageAlt": "Freedom Plane National Tour documents at Atlanta History Center",
           "publishedAt": "2026-03-26",
-          "keywords": ["atlanta history center", "declaration of independence", "constitution", "buckhead", "america 250"]
+          "keywords": [
+            "atlanta history center",
+            "declaration of independence",
+            "constitution",
+            "buckhead",
+            "america 250"
+          ],
+          "originalImageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/03/1-3.png?fit=1024%2C536&ssl=1"
         },
         {
           "id": "cherry-blossom-festival-brookhaven",
@@ -139,13 +216,22 @@
           "summary": "The Head and the Heart, Soul Asylum, and Natasha Bedingfield headline the free two-day festival at Blackburn Park. An estimated 60,000 people are expected.",
           "body": "Brookhaven's biggest event of the year is here. The Cherry Blossom Festival takes over Blackburn Park this Saturday and Sunday, March 28-29, from 10 a.m. to 6 p.m. both days.\n\nThe lineup includes The Head and the Heart, Max McNown, Soul Asylum, and Natasha Bedingfield. There will also be food vendors, art markets, and activities for kids. Best part? It's completely free to attend.\n\nThe city spends over $500,000 on the festival each year. Mayor John Park says Brookhaven is fully committed to making this their signature annual event. \"We basically said, 'Hey, we're going to have one major festival a year, and invest all of our resources into it,'\" he said.",
           "neighborhood": "Decatur",
-          "neighborhoods": ["Decatur"],
+          "neighborhoods": [
+            "Decatur"
+          ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/03/27/cherry-blossom-fest/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2025/06/Daily-Newsletter-on-website-5-2-450x375.png",
+          "imageUrl": "/images/stories/cherry-blossom-festival-brookhaven.webp",
           "imageAlt": "Brookhaven Cherry Blossom Festival crowd",
           "publishedAt": "2026-03-27",
-          "keywords": ["cherry blossom festival", "brookhaven", "free concert", "the head and the heart", "atlanta events"]
+          "keywords": [
+            "cherry blossom festival",
+            "brookhaven",
+            "free concert",
+            "the head and the heart",
+            "atlanta events"
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2025/06/Daily-Newsletter-on-website-5-2-450x375.png"
         }
       ]
     },
@@ -158,13 +244,23 @@
           "summary": "Starbucks Workers United announced that contract negotiations will resume in April. Unionized baristas, including three Atlanta stores, walked out in November demanding better pay and staffing.",
           "body": "The longest strike in Starbucks Workers United history is coming to an end. After 131 days on the picket line, unionized baristas will return to the bargaining table in April.\n\nOver 14,000 unionized workers have been demanding higher pay, better staffing, and resolution of over 600 unfair labor practice charges filed with the National Labor Relations Board. The union has scaled back some demands since November, now asking for a $17 minimum hourly wage (down from $20) and 4% annual raises (down from 5%).\n\nThree Atlanta-area stores participated in the walkout. Workers are also pushing for at least three baristas per shift instead of two, along with stronger protections for scheduling, discipline, and safety.",
           "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown", "Downtown"],
+          "neighborhoods": [
+            "Midtown",
+            "Downtown"
+          ],
           "source": "Atlanta Civic Circle",
           "sourceUrl": "https://atlantaciviccircle.org/2026/03/25/barista-strike-starbucks-resume-bargaining-sbwu-union/",
-          "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/IMG_5805-1024x768.jpg",
+          "imageUrl": "/images/stories/starbucks-strike-ends-bargaining-resumes.webp",
           "imageAlt": "Starbucks Workers United baristas on strike",
           "publishedAt": "2026-03-26",
-          "keywords": ["starbucks", "union", "strike", "workers united", "atlanta labor"]
+          "keywords": [
+            "starbucks",
+            "union",
+            "strike",
+            "workers united",
+            "atlanta labor"
+          ],
+          "originalImageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/IMG_5805-1024x768.jpg"
         },
         {
           "id": "fulton-commission-chair-debate",
@@ -172,13 +268,23 @@
           "summary": "Marvin Arrington Jr. and Mo Ivory challenged incumbent Robb Pitts at a South Fulton debate, blaming his leadership for conditions at the county jail and disparities between north and south Fulton.",
           "body": "The race for Fulton County Commission chair is heating up. At a debate Tuesday night at Enon Church in South Fulton, challengers Marvin Arrington Jr. and Mo Ivory went after incumbent Robb Pitts on multiple fronts.\n\nBoth candidates blamed Pitts for horrific conditions at the county jail and the ongoing backlog in county courts. They also pointed to disparities in economic development and health care between the wealthier, whiter north side and the poorer, largely Black south side.\n\n\"The definition of insanity is doing the same thing over and over again and expecting a different result,\" Ivory said. \"For the past 12 to 20 years, we've seen the same leadership, same patterns, same problems.\" The primary is May 19.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown", "West End"],
+          "neighborhoods": [
+            "Downtown",
+            "West End"
+          ],
           "source": "Capital B Atlanta",
           "sourceUrl": "https://atlanta.capitalbnews.org/fulton-chair-race-jail-crisis-health-disparities/",
-          "imageUrl": "https://i0.wp.com/atlanta.capitalbnews.org/wp-content/uploads/2026/03/2026-03-25-12.18.17-scaled.jpg?fit=1024%2C768&ssl=1",
+          "imageUrl": "/images/stories/fulton-commission-chair-debate.webp",
           "imageAlt": "Fulton County Commission chair candidates debate at Enon Church",
           "publishedAt": "2026-03-25",
-          "keywords": ["fulton county", "commission chair", "robb pitts", "mo ivory", "marvin arrington"]
+          "keywords": [
+            "fulton county",
+            "commission chair",
+            "robb pitts",
+            "mo ivory",
+            "marvin arrington"
+          ],
+          "originalImageUrl": "https://i0.wp.com/atlanta.capitalbnews.org/wp-content/uploads/2026/03/2026-03-25-12.18.17-scaled.jpg?fit=1024%2C768&ssl=1"
         }
       ]
     },
@@ -191,13 +297,22 @@
           "summary": "Chris Sale takes the mound against the Kansas City Royals at 7:15 p.m. It's the first home opener since 2022, and the team will celebrate six decades of baseball in Atlanta.",
           "body": "Play ball! The Atlanta Braves open their 2026 season at Truist Park tonight, and for the first time since 2022, they get to do it at home.\n\nChris Sale will start against the Kansas City Royals, with first pitch at 7:15 p.m. Gates open at 5:15 p.m. The Braves Walk kicks off at 4 p.m. for fans who want to line the streets of The Battery and cheer the team as they arrive.\n\nThis is a milestone season. The Braves are celebrating 60 years in Atlanta, and there will be a special on-field presentation at 6:40 p.m. to mark the occasion. Every fan gets a magnetic schedule and rally towel. And if you're wondering about the new broadcast setup, the team just launched Braves.TV for $99.99 per season or $19.99 per month.",
           "neighborhood": "Buckhead",
-          "neighborhoods": ["Buckhead"],
+          "neighborhoods": [
+            "Buckhead"
+          ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/cobb-county/atlanta-braves-opening-day-what-know-about-2026-season-opener-against-kansas-city-royals/I4MFDHWRKZEUZEUS3SLAHBFOXE/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/36P3TUBOS5HQ3ISVEMISLZRKQE.jpg?auth=0e27ef1521f929cc136632376c134a4e96e75a109be129c9012317ee471b6ee8&smart=true&width=6385&height=4257",
+          "imageUrl": "/images/stories/braves-opening-day-2026.webp",
           "imageAlt": "Truist Park ready for Atlanta Braves Opening Day 2026",
           "publishedAt": "2026-03-27",
-          "keywords": ["braves", "opening day", "truist park", "chris sale", "atlanta baseball"]
+          "keywords": [
+            "braves",
+            "opening day",
+            "truist park",
+            "chris sale",
+            "atlanta baseball"
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/36P3TUBOS5HQ3ISVEMISLZRKQE.jpg?auth=0e27ef1521f929cc136632376c134a4e96e75a109be129c9012317ee471b6ee8&smart=true&width=6385&height=4257"
         },
         {
           "id": "andrew-young-94th-birthday",
@@ -205,13 +320,23 @@
           "summary": "Civic leaders, preachers, and officials gathered at the Retreat by the Gathering to honor the former mayor, UN ambassador, and civil rights leader.",
           "body": "Andrew Young turned 94 this month, and Atlanta showed up to celebrate. Dozens of dignitaries gathered at the Retreat by the Gathering at the Interlock on March 25 to honor a man whose resume reads like a history of modern Atlanta.\n\nCivil rights leader who worked alongside Martin Luther King Jr. Congressman. UN Ambassador. Two-term Atlanta mayor. Preacher. Philanthropist. The Atlanta BeltLine, which hosted the party, has thrown Young a birthday celebration for four years running.\n\nBefore the speeches, Young pulled aside SaportaReport's Maria Saporta to share news from an earlier birthday lunch. Seven gentlemen, including former Gov. Roy Barnes, had gathered to discuss the upcoming gubernatorial race. Their unanimous conclusion? Michael Thurmond, former DeKalb County CEO, should be the next governor of Georgia.",
           "neighborhood": "West Midtown",
-          "neighborhoods": ["West Midtown", "Midtown"],
+          "neighborhoods": [
+            "West Midtown",
+            "Midtown"
+          ],
           "source": "SaportaReport",
           "sourceUrl": "https://saportareport.com/atlantans-celebrate-andrew-youngs-94th-birthday/sections/reports/maria_saporta/",
-          "imageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/03/Andy-Yong-greeting-folks-scaled.jpeg?fit=1024%2C835&ssl=1",
+          "imageUrl": "/images/stories/andrew-young-94th-birthday.webp",
           "imageAlt": "Andrew Young greeting guests at his 94th birthday celebration",
           "publishedAt": "2026-03-26",
-          "keywords": ["andrew young", "atlanta history", "civil rights", "birthday", "atlanta leaders"]
+          "keywords": [
+            "andrew young",
+            "atlanta history",
+            "civil rights",
+            "birthday",
+            "atlanta leaders"
+          ],
+          "originalImageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/03/Andy-Yong-greeting-folks-scaled.jpeg?fit=1024%2C835&ssl=1"
         },
         {
           "id": "decatur-world-cup-economic-impact",
@@ -219,13 +344,22 @@
           "summary": "The city is planning Decatur WatchFest'26, a 34-day festival during the FIFA World Cup this summer. An economic impact study projects big returns.",
           "body": "Decatur is going all in on the World Cup. The city is planning WatchFest'26, a 34-day festival running during the FIFA World Cup matches this summer. An economic impact study projects $142 million flowing into the local economy.\n\nAtlanta is hosting World Cup matches at Mercedes-Benz Stadium, and Decatur is positioning itself as the place to watch games if you don't have tickets. The square is expected to be packed with watch parties, food vendors, and soccer fans from around the world.\n\nWith hotels and bars in Decatur already bracing for the crowds, this could be the city's biggest tourism moment in years.",
           "neighborhood": "Decatur",
-          "neighborhoods": ["Decatur"],
+          "neighborhoods": [
+            "Decatur"
+          ],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/news/decatur/decatur-could-see-economic-impact-of-142m-during-world-cup/article_f1a1fb2d-0354-4421-a80f-47a175e84127.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/3/ca/3caed685-0faf-4e70-a156-4d50aeaee716/69b88ef2533c3.image.jpg?resize=300%2C196",
+          "imageUrl": "/images/stories/decatur-world-cup-economic-impact.webp",
           "imageAlt": "Decatur Square preparing for World Cup watch parties",
           "publishedAt": "2026-03-26",
-          "keywords": ["decatur", "world cup", "fifa", "watchfest", "economic impact"]
+          "keywords": [
+            "decatur",
+            "world cup",
+            "fifa",
+            "watchfest",
+            "economic impact"
+          ],
+          "originalImageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/3/ca/3caed685-0faf-4e70-a156-4d50aeaee716/69b88ef2533c3.image.jpg?resize=300%2C196"
         }
       ]
     },
@@ -238,26 +372,62 @@
           "summary": "As search fragments across Google, ChatGPT, and other tools, Searchbird builds custom websites optimized for both traditional search and generative engines.",
           "body": "Search isn't what it used to be. Someone looking for a local plumber might ask Google, or they might ask ChatGPT or Claude. For small businesses, that fragmentation creates a real problem: how do you show up everywhere your customers might be looking?\n\nAtlanta-based Searchbird thinks they have the answer. The startup builds custom-coded websites from scratch (no WordPress templates) and optimizes them for both traditional SEO and what they call GEO (generative engine optimization).\n\nCo-founder Sam Lukens says the company delivers \"enterprise-level, highly architected websites\" to businesses that have traditionally been priced out of that tier. The focus is on building long-term brand value, not just chasing algorithm tricks.",
           "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown"],
+          "neighborhoods": [
+            "Midtown"
+          ],
           "source": "Hypepotamus",
           "sourceUrl": "https://hypepotamus.com/startup-news/search-is-fragmenting-fast-this-atlanta-startup-wants-to-make-sure-your-business-doesnt-disappear-online/",
-          "imageUrl": "http://hypepotamus.com/wp-content/uploads/2026/03/1768577183708.jpg",
+          "imageUrl": "/images/stories/searchbird-atlanta-startup-seo.webp",
           "imageAlt": "Searchbird startup team",
           "publishedAt": "2026-03-27",
-          "keywords": ["atlanta startup", "searchbird", "seo", "small business", "tech"]
+          "keywords": [
+            "atlanta startup",
+            "searchbird",
+            "seo",
+            "small business",
+            "tech"
+          ],
+          "originalImageUrl": "http://hypepotamus.com/wp-content/uploads/2026/03/1768577183708.jpg"
         }
       ]
     }
   ],
   "neighborhoods": {
-    "Summerhill": { "storyCount": 1, "topStory": "gsu-summerhill-athletics-neighborhood" },
-    "Old Fourth Ward": { "storyCount": 1, "topStory": "colmado-wine-shop-old-fourth-ward" },
-    "Westside": { "storyCount": 1, "topStory": "westside-homeless-housing-beltline" },
-    "Downtown": { "storyCount": 2, "topStory": "senate-passes-tsa-funding-shutdown-ending" },
-    "Midtown": { "storyCount": 3, "topStory": "midtown-power-outage" },
-    "Kirkwood": { "storyCount": 1, "topStory": "kirkwood-wine-shop-finally-wine" },
-    "Buckhead": { "storyCount": 2, "topStory": "freedom-plane-documents-atlanta-history-center" },
-    "Decatur": { "storyCount": 2, "topStory": "decatur-world-cup-economic-impact" },
-    "West Midtown": { "storyCount": 1, "topStory": "andrew-young-94th-birthday" }
+    "Summerhill": {
+      "storyCount": 1,
+      "topStory": "gsu-summerhill-athletics-neighborhood"
+    },
+    "Old Fourth Ward": {
+      "storyCount": 1,
+      "topStory": "colmado-wine-shop-old-fourth-ward"
+    },
+    "Westside": {
+      "storyCount": 1,
+      "topStory": "westside-homeless-housing-beltline"
+    },
+    "Downtown": {
+      "storyCount": 2,
+      "topStory": "senate-passes-tsa-funding-shutdown-ending"
+    },
+    "Midtown": {
+      "storyCount": 3,
+      "topStory": "midtown-power-outage"
+    },
+    "Kirkwood": {
+      "storyCount": 1,
+      "topStory": "kirkwood-wine-shop-finally-wine"
+    },
+    "Buckhead": {
+      "storyCount": 2,
+      "topStory": "freedom-plane-documents-atlanta-history-center"
+    },
+    "Decatur": {
+      "storyCount": 2,
+      "topStory": "decatur-world-cup-economic-impact"
+    },
+    "West Midtown": {
+      "storyCount": 1,
+      "topStory": "andrew-young-94th-birthday"
+    }
   }
 }

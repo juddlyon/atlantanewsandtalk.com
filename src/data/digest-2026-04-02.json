@@ -8,13 +8,24 @@
     "summary": "As FIFA World Cup matches approach in June, advocates worry Atlanta will repeat its 1996 Olympics playbook of arrests and displacement. An estimated 9,000 low-income residents were arrested in the 18 months before the Summer Games.",
     "body": "As Atlanta prepared to host the 1996 Olympic Games, the city built a jail. The Atlanta City Detention Center opened in 1995, pitched as a pressure valve for the upcoming influx of visitors. For people like Allen Hall, who've endured chronic homelessness, it felt like something else entirely.\n\n\"The jails became homeless shelters,\" said Hall, now 72. He remembers people packed \"wall to wall\" in cold, cramped cells as the city showcased itself to the world. Hall was arrested in 1996 while living under an Old Fourth Ward bridge, then jailed after police discovered crack cocaine in his pocket. But he believes he would have been locked up regardless.\n\n\"No question about it, the Olympics was why people were being arrested,\" Hall said. For local unhoused people back then, it was either jail or a one-way bus ticket out of town, courtesy of Fulton County. An estimated 9,000 low-income Atlantans were arrested in the 18 months leading up to the 1996 Olympics.\n\nWith the FIFA World Cup fast approaching in June, Hall fears history repeating itself. He finally moved into an apartment in January after spending nearly 30 years on the streets, with assistance from housing advocates and city leaders. Mayor Andre Dickens has committed to a \"housing first\" approach, but advocates remain wary as the tournament draws near.",
     "neighborhood": "Downtown",
-    "neighborhoods": ["Downtown", "Old Fourth Ward"],
+    "neighborhoods": [
+      "Downtown",
+      "Old Fourth Ward"
+    ],
     "source": "Atlanta Civic Circle",
     "sourceUrl": "https://atlantaciviccircle.org/2026/04/01/atlanta-olympics-fifa-world-cup-homelessness/",
-    "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2025/01/MelodyJail.webp",
+    "imageUrl": "/images/stories/world-cup-homelessness-olympics-history.webp",
     "imageAlt": "Advocates raise concerns about homelessness policies ahead of FIFA World Cup",
     "publishedAt": "2026-04-02",
-    "keywords": ["world cup", "homelessness", "olympics", "downtown", "old fourth ward", "housing"]
+    "keywords": [
+      "world cup",
+      "homelessness",
+      "olympics",
+      "downtown",
+      "old fourth ward",
+      "housing"
+    ],
+    "originalImageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2025/01/MelodyJail.webp"
   },
   "sections": [
     {
@@ -26,13 +37,24 @@
           "summary": "The brewery's Ponce Brew Terminal finally fills the prime Eastside Trail retail space at Signal House. DAS BBQ is running the kitchen, and the massive patio overlooks the city's busiest trail section.",
           "body": "Come this weekend, a Ponce City Market retail space fronting the Atlanta BeltLine's most popular trail will finally have a permanent tenant. Three Taverns Ponce Brew Terminal opens Saturday with a front-row seat to the Eastside Trail.\n\nThe business has claimed retail space at the base of the 21-story Signal House apartment tower, which marked Ponce City Market's first new-construction standalone building when it opened two years ago. The 680 North Ave. retail space was completed a decade ago but has never had a tenant that fully capitalized on its BeltLine visibility and large patio area.\n\nThe concept from Three Taverns Craft Brewery will feature a full kitchen from Atlanta-based DAS BBQ, which operates locations on Collier Road and Memorial Drive in Grant Park. Award-winning Three Taverns, founded in 2013, operates two other ITP locations: the original Decatur brewery and The Imaginarium in Reynoldstown, which opened in 2020 with a focus on experimental concoctions.\n\nFor BeltLine regulars, this fills a gap that's been obvious for years: prime trail-adjacent retail that actually serves the people walking and biking by.",
           "neighborhood": "Old Fourth Ward",
-          "neighborhoods": ["Old Fourth Ward", "Midtown"],
+          "neighborhoods": [
+            "Old Fourth Ward",
+            "Midtown"
+          ],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/three-taverns-brewery-beltline-bbq-retail-ponce-city-market-opening",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-04/Three%20Taverns%20Ponce%20Brew%20Terminal%20at%20Ponce%20City%20Market_Photo%20by%20Andrew%20Thomas%20Lee%201.jpg?itok=E1GBc1PC",
+          "imageUrl": "/images/stories/three-taverns-ponce-brew-terminal-beltline.webp",
           "imageAlt": "Three Taverns Ponce Brew Terminal opening at Ponce City Market on the BeltLine",
           "publishedAt": "2026-04-02",
-          "keywords": ["three taverns", "ponce city market", "beltline", "old fourth ward", "das bbq", "brewery"]
+          "keywords": [
+            "three taverns",
+            "ponce city market",
+            "beltline",
+            "old fourth ward",
+            "das bbq",
+            "brewery"
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-04/Three%20Taverns%20Ponce%20Brew%20Terminal%20at%20Ponce%20City%20Market_Photo%20by%20Andrew%20Thomas%20Lee%201.jpg?itok=E1GBc1PC"
         },
         {
           "id": "decatur-dda-workforce-housing-columbia",
@@ -40,13 +62,22 @@
           "summary": "The Decatur Development Authority is selling 252 S. Columbia Dr. to Woda Cooper Development. The site will become workforce housing, adding to the city's limited affordable stock.",
           "body": "The Decatur Development Authority is selling 252 S. Columbia Dr. to Woda Cooper Development. The entities have entered into a development agreement with plans to construct a workforce housing project on the site.\n\nThe sale marks another step in Decatur's ongoing efforts to address housing affordability in one of metro Atlanta's most expensive small cities. Woda Cooper Development specializes in affordable and workforce housing projects, having completed similar developments across the Southeast.\n\nFor Decatur residents who have watched housing costs climb steadily over the past decade, the project represents a rare win for affordability in a city where median home prices now exceed $600,000. The South Columbia Drive location offers proximity to downtown Decatur's restaurants and shops while remaining accessible to transit.",
           "neighborhood": "Decatur",
-          "neighborhoods": ["Decatur"],
+          "neighborhoods": [
+            "Decatur"
+          ],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/business/decatur-dda-will-sell-south-columbia-drive-property/article_caf3a51c-cb4f-4c07-aa90-4fbe4bf26a21.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/b/aa/baa1ca4e-bf0e-51bd-a29e-5cf677a9c978/68383d3aaf6e4.image.jpg?resize=300%2C225",
+          "imageUrl": "/images/stories/decatur-dda-workforce-housing-columbia.webp",
           "imageAlt": "Decatur Development Authority property being sold for workforce housing",
           "publishedAt": "2026-04-02",
-          "keywords": ["decatur", "workforce housing", "affordable housing", "development", "woda cooper"]
+          "keywords": [
+            "decatur",
+            "workforce housing",
+            "affordable housing",
+            "development",
+            "woda cooper"
+          ],
+          "originalImageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/b/aa/baa1ca4e-bf0e-51bd-a29e-5cf677a9c978/68383d3aaf6e4.image.jpg?resize=300%2C225"
         }
       ]
     },
@@ -59,13 +90,23 @@
           "summary": "The Detroit-style deep dish chain is finally coming inside the Perimeter. A franchisee who worked corporate for nine years is opening at 857 Collier Rd NW, bringing the brand to Buckhead, Upper Westside, and Midtown customers.",
           "body": "Jet's Pizza franchisee Noah Creighton has plans to open his second location in a 1,160-square-foot space at 857 Collier Rd NW in Buckhead. The spot is currently in the permitting phase with a late summer or early fall opening targeted.\n\nCreighton has a long history with the company, working for nine years on the corporate side of the business. He formerly worked as a corporate trainer for Jet's Pizza in Michigan, developing a close relationship with Jet's founders. About a year and a half ago, Creighton moved to Atlanta and took over ownership of the existing Jet's location on Powers Ferry and Delk Road in Marietta.\n\n\"I'm really excited. This will be the first Jet's ITP,\" Creighton said. \"That was a big goal of mine: to have one closer to the city because all the Jet's here are in the suburbs. There's not one that's actually in Atlanta, so let's be the first one.\"\n\nThe brand is known for its Detroit-style deep dish pizza, featuring square pizzas with fluffy centers and crunchy edges. Everything is made fresh in-house daily, from the dough to the sauces.",
           "neighborhood": "Buckhead",
-          "neighborhoods": ["Buckhead", "West Midtown"],
+          "neighborhoods": [
+            "Buckhead",
+            "West Midtown"
+          ],
           "source": "What Now Atlanta",
           "sourceUrl": "https://whatnow.com/atlanta/restaurants/local-jets-pizza-owner-gearing-up-to-open-in-buckhead/",
-          "imageUrl": "https://whatnow.com/wp-content/uploads/2026/03/image-768x432.png",
+          "imageUrl": "/images/stories/jets-pizza-first-itp-location-buckhead.webp",
           "imageAlt": "Jet's Pizza planning first ITP location in Buckhead",
           "publishedAt": "2026-04-02",
-          "keywords": ["jets pizza", "buckhead", "detroit style", "pizza", "restaurant opening"]
+          "keywords": [
+            "jets pizza",
+            "buckhead",
+            "detroit style",
+            "pizza",
+            "restaurant opening"
+          ],
+          "originalImageUrl": "https://whatnow.com/wp-content/uploads/2026/03/image-768x432.png"
         }
       ]
     },
@@ -78,13 +119,22 @@
           "summary": "Georgia's legislative session ends tonight at midnight. The literacy overhaul passed unanimously, but the $38 billion state budget and several controversial bills remain in limbo.",
           "body": "Thursday is Sine Die, the final day of Georgia's legislative session. If a bill hasn't passed by midnight tonight, it fails for the year.\n\nThe biggest success story so far is House Bill 1193, the literacy overhaul that would place a specialized educator called a literacy coach in every school teaching kindergarten through third grade. Both chambers passed it unanimously on Tuesday, and it's now heading to Governor Kemp's desk.\n\n\"The passage of the Early Literacy Act of 2026 marks the beginning of unprecedented change,\" said House Speaker Jon Burns, who made the bill his top priority. More than 60% of Georgia third graders currently do not read proficiently.\n\nStill in limbo: the $38 billion state budget (the only thing the General Assembly is constitutionally required to pass), bills on data centers, property taxes, and gender-affirming care. A House bill that would have protected Confederate monuments from removal fell two votes short of passage on Tuesday.\n\nThe Senate Rules Committee passed out nearly 100 bills for the final two days, setting up a marathon finish under the Gold Dome.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "Georgia Recorder",
           "sourceUrl": "https://georgiarecorder.com/2026/03/31/student-literacy-overhaul-poised-for-georgia-governors-signature-after-compromise/",
-          "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/03/DSC_7000-1024x683.jpg",
+          "imageUrl": "/images/stories/sine-die-georgia-legislature-final-day.webp",
           "imageAlt": "Georgia State Capitol during Sine Die legislative session",
           "publishedAt": "2026-04-02",
-          "keywords": ["sine die", "georgia legislature", "literacy bill", "state budget", "downtown"]
+          "keywords": [
+            "sine die",
+            "georgia legislature",
+            "literacy bill",
+            "state budget",
+            "downtown"
+          ],
+          "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/03/DSC_7000-1024x683.jpg"
         }
       ]
     },
@@ -97,13 +147,24 @@
           "summary": "Governor Kemp and Mayor Dickens attended the ribbon-cutting for Georgia Works' new headquarters on Auburn Avenue. The nonprofit has served more than 1,200 unhoused men since 2013.",
           "body": "Georgia Works reached a major milestone on April 1 when Governor Brian Kemp and Mayor Andre Dickens attended the ribbon-cutting celebration of the nonprofit's new home in the Odd Fellows building on Auburn Avenue.\n\nGeorgia Works is dedicated to breaking the cycle of homelessness and criminal recidivism by offering housing and employment to chronically homeless men as long as they commit to being drug- and alcohol-free. The nonprofit, founded in 2013 by Bill McGahan, has served more than 1,200 unhoused men by providing housing, workforce training, employment, and other services.\n\n\"It's been such a joyous journey. It's humbling,\" McGahan said at the ceremony. \"The problem we are trying to solve is to get unsheltered men off the streets and into productive lives.\"\n\nSpeaker after speaker spoke of the symbolism of restoring a 110-year-old building on Auburn Avenue, the historic heart of Black business in Atlanta. The move brings Georgia Works closer to the communities it serves while honoring the legacy of Sweet Auburn.",
           "neighborhood": "Sweet Auburn",
-          "neighborhoods": ["Sweet Auburn", "Downtown"],
+          "neighborhoods": [
+            "Sweet Auburn",
+            "Downtown"
+          ],
           "source": "SaportaReport",
           "sourceUrl": "https://saportareport.com/georgia-works-makes-its-new-home-in-the-restored-odd-fellows-building/sections/reports/maria_saporta/",
-          "imageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/04/ribbon-cutting-scaled.jpeg?fit=1024%2C838&ssl=1",
+          "imageUrl": "/images/stories/georgia-works-odd-fellows-auburn-avenue.webp",
           "imageAlt": "Georgia Works ribbon cutting at Odd Fellows building on Auburn Avenue",
           "publishedAt": "2026-04-02",
-          "keywords": ["georgia works", "odd fellows", "auburn avenue", "sweet auburn", "homelessness", "nonprofit"]
+          "keywords": [
+            "georgia works",
+            "odd fellows",
+            "auburn avenue",
+            "sweet auburn",
+            "homelessness",
+            "nonprofit"
+          ],
+          "originalImageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/04/ribbon-cutting-scaled.jpeg?fit=1024%2C838&ssl=1"
         },
         {
           "id": "peachtree-road-race-registration-2026",
@@ -111,13 +172,23 @@
           "summary": "The world's largest 10K marks America's 250th birthday this year. Atlanta Track Club members get guaranteed spots; everyone else enters the lottery by April 21.",
           "body": "Registration is now open for the Northside Hospital Peachtree Road Race, Atlanta's signature Fourth of July event. The 2026 race coincides with the 250th birthday of the United States and marks the debut of Northside Hospital as title sponsor.\n\n\"Moments like this don't come around often,\" said Rich Kenah, CEO of Atlanta Track Club and race director. \"The 250th anniversary of the United States is a once-in-a-lifetime milestone, and there is no better place to celebrate the Fourth of July than at the Peachtree in Atlanta.\"\n\nThe Peachtree is the world's largest 10K, drawing more than 60,000 runners and walkers to a 6.2-mile course that begins at Lenox Square and finishes in Piedmont Park. Atlanta Track Club members are guaranteed a spot and pay $60 to enter. Everyone else must enter the race's lottery system ($80 if selected). Registration closes April 21.\n\nThis year's theme, \"Peachtree Unites,\" reflects what organizers say the race has always done: bring Atlanta together for a celebration of community and endurance.",
           "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown", "Buckhead"],
+          "neighborhoods": [
+            "Midtown",
+            "Buckhead"
+          ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/04/02/registration-open-for-2026-peachtree-road-race/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2014/07/Peachtree-Road-race-450x450.jpg",
+          "imageUrl": "/images/stories/peachtree-road-race-registration-2026.webp",
           "imageAlt": "Peachtree Road Race registration opens for 2026",
           "publishedAt": "2026-04-02",
-          "keywords": ["peachtree road race", "fourth of july", "10k", "midtown", "atlanta track club"]
+          "keywords": [
+            "peachtree road race",
+            "fourth of july",
+            "10k",
+            "midtown",
+            "atlanta track club"
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2014/07/Peachtree-Road-race-450x450.jpg"
         }
       ]
     },
@@ -130,13 +201,22 @@
           "summary": "The city's Office of Technology and Innovation previewed its 2025 impact report: 1,155 organic new hires, $85M in pension capital committed to VC, and a stated goal to become a top-five tech hub.",
           "body": "Three years after Mayor Andre Dickens created the city's Office of Technology and Innovation, Atlanta is making its case as a rising tech hub. The Atlanta Tech Hub previewed its 2025 Impact Report on Wednesday at Intuit's Midtown office.\n\nThe numbers: more than $37 million in OTI investments since inception, 1,155 organic new hires from OTI-supported companies, and $85 million in city pension capital committed to private equity and venture capital (a first for Atlanta).\n\n\"We have a stated goal to become a top five tech hub, one of the best places to build a technology company,\" said Donnie Beamer, the city's Senior Technology Advisor. \"Because it is a great way to change the outcomes for Atlanta residents.\"\n\nBeamer noted that technology jobs pay roughly two and a half times the average salary, framing the ecosystem push as an economic equity issue. A 30-page study from Georgia Tech's Office of Commercialization found that Atlanta ranks in the top tier among 13 peer cities across metrics spanning people, innovation, infrastructure, and place.\n\nOver a five-year period, Atlanta attracted roughly $12 billion in venture capital. According to the Georgia Tech research, the city's ecosystem strength could grow toward $66 billion with continued investment.",
           "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown"],
+          "neighborhoods": [
+            "Midtown"
+          ],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/atlanta-tech-hub-marks-three-years-with-37m-in-investments/",
-          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/04/ATL-TECH-2.jpeg?fit=1024%2C768&quality=89&ssl=1",
+          "imageUrl": "/images/stories/atlanta-tech-hub-three-years-37m.webp",
           "imageAlt": "Atlanta Tech Hub three-year impact report presentation",
           "publishedAt": "2026-04-02",
-          "keywords": ["atlanta tech hub", "office of technology", "midtown", "venture capital", "startups"]
+          "keywords": [
+            "atlanta tech hub",
+            "office of technology",
+            "midtown",
+            "venture capital",
+            "startups"
+          ],
+          "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/04/ATL-TECH-2.jpeg?fit=1024%2C768&quality=89&ssl=1"
         }
       ]
     },
@@ -149,13 +229,22 @@
           "summary": "Political leaders, lawmakers, and the public gathered under the Gold Dome for a patriotic celebration marking the semiquincentennial of American independence.",
           "body": "It was a patriotic celebration at the state Capitol as political leaders, lawmakers, and the general public gathered to celebrate the 250th anniversary of American independence.\n\nThe event coincides with the final day of Georgia's 2026 legislative session, adding a ceremonial flourish to what's typically a frantic day of last-minute bill passage and budget negotiations. The Capitol building itself, completed in 1889 and topped with its distinctive gold dome, served as a fitting backdrop for the celebration.\n\nGeorgia played a pivotal role in the nation's founding, signing the Declaration of Independence in 1776 and becoming the fourth state to ratify the Constitution in 1788. The year-long semiquincentennial celebration will include events across the state leading up to July 4th.\n\nFor lawmakers working through the final hours of Sine Die, the ceremony offered a brief respite from the partisan battles that have defined this year's session.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "GPB News",
           "sourceUrl": "https://www.gpb.org/news/2026/04/02/the-georgia-capitol-celebrates-americas-250th-anniversary-year",
-          "imageUrl": "https://www.gpb.org/sites/default/files/styles/three_two_702x468/public/2026-04/america_250_at_georgia_capitol.png?h=9434a287&itok=8MRir93j",
+          "imageUrl": "/images/stories/georgia-capitol-america-250-celebration.webp",
           "imageAlt": "Georgia Capitol celebrating America's 250th anniversary",
           "publishedAt": "2026-04-02",
-          "keywords": ["georgia capitol", "america 250", "semiquincentennial", "downtown", "independence"]
+          "keywords": [
+            "georgia capitol",
+            "america 250",
+            "semiquincentennial",
+            "downtown",
+            "independence"
+          ],
+          "originalImageUrl": "https://www.gpb.org/sites/default/files/styles/three_two_702x468/public/2026-04/america_250_at_georgia_capitol.png?h=9434a287&itok=8MRir93j"
         }
       ]
     },
@@ -168,41 +257,122 @@
           "summary": "The team's redesigned uniforms bring back red as the primary color for the first time in years. Matt Ryan called it honoring the franchise's history while fueling what's next.",
           "body": "The Atlanta Falcons have unveiled new primary uniforms that the team will begin wearing in the 2026 season, marking a return to red as the centerpiece of the franchise's identity.\n\nTeam officials say the redesigned uniforms are meant to honor the Falcons' history while signaling a new era for the organization. The primary home uniform features a black helmet, red jersey, white pants, and red socks. The team will also continue to wear its 1966-inspired throwback uniforms.\n\n\"Atlanta has always been a city that moves with purpose, and our team is being built the same way,\" Falcons President and CEO Greg Beadles said. \"These uniforms are intentionally timeless. They honor the past, reflect who we are today, and signal a new era.\"\n\nFalcons legend Matt Ryan highlighted the significance of the return to red: \"When you put on red, you feel the history, the pride, and the energy that comes with being a Falcon. Bringing it back honors what's been built here and fueling what's coming next.\"\n\nRunning back Bijan Robinson called the new look \"fire,\" and the uniforms have drawn positive reactions from fans eager for a fresh start after disappointing recent seasons.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "Fox 5 Atlanta",
           "sourceUrl": "https://www.fox5atlanta.com/news/new-falcons-uniforms-blend-throwback-style-future-vision",
-          "imageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/04/931/523/presskit-16x9-hero.png?ve=1&tl=1",
+          "imageUrl": "/images/stories/falcons-new-uniforms-red-2026.webp",
           "imageAlt": "Atlanta Falcons new uniforms for 2026 season",
           "publishedAt": "2026-04-02",
-          "keywords": ["falcons", "uniforms", "nfl", "downtown", "football"]
+          "keywords": [
+            "falcons",
+            "uniforms",
+            "nfl",
+            "downtown",
+            "football"
+          ],
+          "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/04/931/523/presskit-16x9-hero.png?ve=1&tl=1"
         }
       ]
     }
   ],
   "neighborhoods": {
-    "Downtown": { "storyCount": 57, "topStory": "world-cup-homelessness-olympics-history" },
-    "Midtown": { "storyCount": 36, "topStory": "atlanta-tech-hub-three-years-37m" },
-    "Decatur": { "storyCount": 31, "topStory": "decatur-dda-workforce-housing-columbia" },
-    "Old Fourth Ward": { "storyCount": 13, "topStory": "three-taverns-ponce-brew-terminal-beltline" },
-    "Buckhead": { "storyCount": 12, "topStory": "jets-pizza-first-itp-location-buckhead" },
-    "Kirkwood": { "storyCount": 8, "topStory": "kirkwood-preserve-renamed-home-tour" },
-    "West End": { "storyCount": 8, "topStory": "calida-rawles-spelman-exhibit-homecoming" },
-    "Reynoldstown": { "storyCount": 7, "topStory": "casa-coya-best-dishes-march-reynoldstown" },
-    "Westside": { "storyCount": 6, "topStory": "westside-homeless-housing-beltline" },
-    "Grant Park": { "storyCount": 6, "topStory": "meeples-board-game-cafe-grant-park-beltline" },
-    "Inman Park": { "storyCount": 5, "topStory": "mushi-ni-opens-inman-park" },
-    "West Midtown": { "storyCount": 5, "topStory": "jets-pizza-first-itp-location-buckhead" },
-    "Druid Hills": { "storyCount": 4, "topStory": "midtown-international-school-closure" },
-    "East Atlanta": { "storyCount": 4, "topStory": "space-explorers-infinite-pullman-yards" },
-    "Castleberry Hill": { "storyCount": 4, "topStory": "404-day-events-2026" },
-    "Summerhill": { "storyCount": 3, "topStory": "gsu-summerhill-athletics-neighborhood" },
-    "Home Park": { "storyCount": 3, "topStory": "10th-street-hemphill-construction-closure" },
-    "Virginia-Highland": { "storyCount": 3, "topStory": "10th-street-hemphill-construction-closure" },
-    "Ansley Park": { "storyCount": 3, "topStory": "lewis-barbecue-ansley-mall-beltline" },
-    "East Atlanta Village": { "storyCount": 2, "topStory": "kirkwood-wine-shop-finally-wine" },
-    "Sweet Auburn": { "storyCount": 2, "topStory": "georgia-works-odd-fellows-auburn-avenue" },
-    "Piedmont Heights": { "storyCount": 1, "topStory": "midtown-sewer-repairs-close-juniper" },
-    "Cabbagetown": { "storyCount": 1, "topStory": "reynoldstown-townhomes-beltline-construction" },
-    "East Point": { "storyCount": 1, "topStory": "east-point-affordable-housing-marta" }
+    "Downtown": {
+      "storyCount": 57,
+      "topStory": "world-cup-homelessness-olympics-history"
+    },
+    "Midtown": {
+      "storyCount": 36,
+      "topStory": "atlanta-tech-hub-three-years-37m"
+    },
+    "Decatur": {
+      "storyCount": 31,
+      "topStory": "decatur-dda-workforce-housing-columbia"
+    },
+    "Old Fourth Ward": {
+      "storyCount": 13,
+      "topStory": "three-taverns-ponce-brew-terminal-beltline"
+    },
+    "Buckhead": {
+      "storyCount": 12,
+      "topStory": "jets-pizza-first-itp-location-buckhead"
+    },
+    "Kirkwood": {
+      "storyCount": 8,
+      "topStory": "kirkwood-preserve-renamed-home-tour"
+    },
+    "West End": {
+      "storyCount": 8,
+      "topStory": "calida-rawles-spelman-exhibit-homecoming"
+    },
+    "Reynoldstown": {
+      "storyCount": 7,
+      "topStory": "casa-coya-best-dishes-march-reynoldstown"
+    },
+    "Westside": {
+      "storyCount": 6,
+      "topStory": "westside-homeless-housing-beltline"
+    },
+    "Grant Park": {
+      "storyCount": 6,
+      "topStory": "meeples-board-game-cafe-grant-park-beltline"
+    },
+    "Inman Park": {
+      "storyCount": 5,
+      "topStory": "mushi-ni-opens-inman-park"
+    },
+    "West Midtown": {
+      "storyCount": 5,
+      "topStory": "jets-pizza-first-itp-location-buckhead"
+    },
+    "Druid Hills": {
+      "storyCount": 4,
+      "topStory": "midtown-international-school-closure"
+    },
+    "East Atlanta": {
+      "storyCount": 4,
+      "topStory": "space-explorers-infinite-pullman-yards"
+    },
+    "Castleberry Hill": {
+      "storyCount": 4,
+      "topStory": "404-day-events-2026"
+    },
+    "Summerhill": {
+      "storyCount": 3,
+      "topStory": "gsu-summerhill-athletics-neighborhood"
+    },
+    "Home Park": {
+      "storyCount": 3,
+      "topStory": "10th-street-hemphill-construction-closure"
+    },
+    "Virginia-Highland": {
+      "storyCount": 3,
+      "topStory": "10th-street-hemphill-construction-closure"
+    },
+    "Ansley Park": {
+      "storyCount": 3,
+      "topStory": "lewis-barbecue-ansley-mall-beltline"
+    },
+    "East Atlanta Village": {
+      "storyCount": 2,
+      "topStory": "kirkwood-wine-shop-finally-wine"
+    },
+    "Sweet Auburn": {
+      "storyCount": 2,
+      "topStory": "georgia-works-odd-fellows-auburn-avenue"
+    },
+    "Piedmont Heights": {
+      "storyCount": 1,
+      "topStory": "midtown-sewer-repairs-close-juniper"
+    },
+    "Cabbagetown": {
+      "storyCount": 1,
+      "topStory": "reynoldstown-townhomes-beltline-construction"
+    },
+    "East Point": {
+      "storyCount": 1,
+      "topStory": "east-point-affordable-housing-marta"
+    }
   }
 }

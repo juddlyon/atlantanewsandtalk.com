@@ -8,13 +8,24 @@
     "summary": "The new tap-to-pay system is now active at all MARTA stations. Both old and new Breeze cards work through May 2, giving riders time to transition. The upgrade brings contactless payment options and faster fare processing.",
     "body": "MARTA's long-awaited Better Breeze fare system is finally here. All stations across the transit network are now online with the new payment technology, replacing the aging Breeze system that's been in place for over a decade.\n\nThe transition period runs through May 2, meaning both old Breeze cards and new contactless options will work at fare gates during that window. MARTA is encouraging riders to make the switch sooner rather than later to avoid any last-minute headaches.\n\nThe Better Breeze system supports tap-to-pay with credit cards, smartphones, and new reloadable cards. It's the kind of infrastructure upgrade that World Cup visitors will appreciate when they descend on Atlanta this summer. For daily commuters, it means faster throughput at busy stations like Five Points and Lindbergh.",
     "neighborhood": "Downtown",
-    "neighborhoods": ["Downtown", "Midtown"],
+    "neighborhoods": [
+      "Downtown",
+      "Midtown"
+    ],
     "source": "11Alive",
     "sourceUrl": "https://www.11alive.com/article/news/local/stations-now-online-for-marta-better-breeze-system-fare-gates-open-as-old-system-sunsets/85-631968de-1f1b-4198-aa37-dc8d90cfdef9",
-    "imageUrl": "https://media.tegna-media.com/assets/WXIA/images/a2643d23-4f8a-4546-9bad-0b21a39d337e/20260330T184857/a2643d23-4f8a-4546-9bad-0b21a39d337e_750x422.jpg",
+    "imageUrl": "/images/stories/marta-better-breeze-system-live.webp",
     "imageAlt": "MARTA Better Breeze fare gates at a transit station",
     "publishedAt": "2026-03-30",
-    "keywords": ["marta", "better breeze", "transit", "fare system", "downtown", "world cup"]
+    "keywords": [
+      "marta",
+      "better breeze",
+      "transit",
+      "fare system",
+      "downtown",
+      "world cup"
+    ],
+    "originalImageUrl": "https://media.tegna-media.com/assets/WXIA/images/a2643d23-4f8a-4546-9bad-0b21a39d337e/20260330T184857/a2643d23-4f8a-4546-9bad-0b21a39d337e_750x422.jpg"
   },
   "sections": [
     {
@@ -26,13 +37,22 @@
           "summary": "One of the largest tower conversions in the U.S. is targeting a late 2026 groundbreaking. The project will turn the downtown landmark into mixed-use housing with a major affordable component for teachers, nurses, and essential workers.",
           "body": "The Georgia-Pacific Center, that 51-story downtown landmark, is getting closer to a massive transformation. Project leaders shared updates at Thursday's Future of Downtown panel, revealing that 30% of the 400+ planned apartments will be income-restricted for households earning 50-80% of area median income.\n\nSuzanne Maynard, head of real estate development for Georgia-Pacific, says the project specifically targets essential workers: teachers, nurses, hospitality employees, and younger corporate professionals. It's a deliberate attempt to bring workforce housing to a downtown that desperately needs it.\n\nThe company plans to take the project to capital markets this summer to secure financing, with groundbreaking targeted for late 2026. A \"strong, active public-private partnership\" is required, meaning city-approved incentives will be part of the equation. If it happens, this would be one of the largest office-to-residential conversions in the country.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/georgia-pacific-scope-timeline-clearer-51-story-downtown-atl-tower-conversion",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2024-09/Georgia-Pacific%20tower%202.png?itok=iefYOq7p",
+          "imageUrl": "/images/stories/georgia-pacific-tower-conversion-downtown.webp",
           "imageAlt": "Georgia-Pacific Center tower in downtown Atlanta",
           "publishedAt": "2026-03-30",
-          "keywords": ["georgia-pacific", "downtown", "affordable housing", "tower conversion", "apartments"]
+          "keywords": [
+            "georgia-pacific",
+            "downtown",
+            "affordable housing",
+            "tower conversion",
+            "apartments"
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2024-09/Georgia-Pacific%20tower%202.png?itok=iefYOq7p"
         },
         {
           "id": "oakland-city-beltline-townhomes-culdesac",
@@ -40,13 +60,23 @@
           "summary": "Culdesac Inc.'s 19-home project at 1121 Allene is on pace for August completion. The modern townhomes sit less than a block from the Southwest Trail with new down-payment assistance options available.",
           "body": "On a formerly vacant corner in Oakland City, a pocket neighborhood is taking shape with prices aimed at first-time buyers. Arizona-based Culdesac Inc. is building 19 modern townhomes at 1121 Allene, less than a block from what will officially become the BeltLine's Southwest Trail.\n\nThe project offers two and three-bedroom units in either two or three stories, all arranged around a central parklet. Each home includes a small backyard. Current prices start at $210K, with new down-payment assistance options now available for pre-sales.\n\nRob Maloney, Culdesac's business operations lead, says the project is on pace for August completion. For a BeltLine-adjacent location, these are some of the most affordable for-sale options you'll find. The Southwest Trail connection means residents will have direct access to the growing westside trail network.",
           "neighborhood": "West End",
-          "neighborhoods": ["West End", "Oakland City"],
+          "neighborhoods": [
+            "West End",
+            "Oakland City"
+          ],
           "source": "What Now Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/beltline-townhome-project-210ks-prices-images-how-turning-out",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/3%201121%20Allene%20.jpg?itok=A2zZHyfc",
+          "imageUrl": "/images/stories/oakland-city-beltline-townhomes-culdesac.webp",
           "imageAlt": "Townhomes under construction at 1121 Allene in Oakland City near the BeltLine",
           "publishedAt": "2026-03-30",
-          "keywords": ["oakland city", "beltline", "townhomes", "affordable", "southwest trail"]
+          "keywords": [
+            "oakland city",
+            "beltline",
+            "townhomes",
+            "affordable",
+            "southwest trail"
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/3%201121%20Allene%20.jpg?itok=A2zZHyfc"
         }
       ]
     },
@@ -59,13 +89,23 @@
           "summary": "The new tap-to-pay system is now active at all MARTA stations. Both old and new Breeze cards work through May 2, giving riders time to transition. The upgrade brings contactless payment options and faster fare processing.",
           "body": "MARTA's long-awaited Better Breeze fare system is finally here. All stations across the transit network are now online with the new payment technology, replacing the aging Breeze system that's been in place for over a decade.\n\nThe transition period runs through May 2, meaning both old Breeze cards and new contactless options will work at fare gates during that window. MARTA is encouraging riders to make the switch sooner rather than later to avoid any last-minute headaches.\n\nThe Better Breeze system supports tap-to-pay with credit cards, smartphones, and new reloadable cards. It's the kind of infrastructure upgrade that World Cup visitors will appreciate when they descend on Atlanta this summer. For daily commuters, it means faster throughput at busy stations like Five Points and Lindbergh.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown", "Midtown"],
+          "neighborhoods": [
+            "Downtown",
+            "Midtown"
+          ],
           "source": "11Alive",
           "sourceUrl": "https://www.11alive.com/article/news/local/stations-now-online-for-marta-better-breeze-system-fare-gates-open-as-old-system-sunsets/85-631968de-1f1b-4198-aa37-dc8d90cfdef9",
-          "imageUrl": "https://media.tegna-media.com/assets/WXIA/images/a2643d23-4f8a-4546-9bad-0b21a39d337e/20260330T184857/a2643d23-4f8a-4546-9bad-0b21a39d337e_750x422.jpg",
+          "imageUrl": "/images/stories/marta-better-breeze-system-live.webp",
           "imageAlt": "MARTA Better Breeze fare gates at a transit station",
           "publishedAt": "2026-03-30",
-          "keywords": ["marta", "better breeze", "transit", "fare system", "downtown"]
+          "keywords": [
+            "marta",
+            "better breeze",
+            "transit",
+            "fare system",
+            "downtown"
+          ],
+          "originalImageUrl": "https://media.tegna-media.com/assets/WXIA/images/a2643d23-4f8a-4546-9bad-0b21a39d337e/20260330T184857/a2643d23-4f8a-4546-9bad-0b21a39d337e_750x422.jpg"
         },
         {
           "id": "tsa-workers-paid-airport-easing",
@@ -73,13 +113,22 @@
           "summary": "Most TSA employees received backpay covering at least two missed paychecks Monday. Callout rates have dropped and wait times at Atlanta's airport are improving after weeks of four-hour lines.",
           "body": "Relief has arrived for TSA workers at Hartsfield-Jackson. After more than six weeks without pay during the partial government shutdown, most officers received backpay Monday covering at least two full paychecks.\n\nThe payment comes after President Trump signed an executive order citing airport security as a national emergency. Homeland Security says a small number of workers may see slight delays due to direct deposit issues, but the majority should have funds in their accounts.\n\nThe impact is already visible at the airport. Callout rates dropped to 10.59% on Sunday, down from the peak of over 40% earlier in the shutdown. The TSA wait time tracking page is back online, and travelers are reporting noticeably shorter lines. Airport officials still recommend arriving early, especially during busy morning hours between 5 and 9 a.m.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/most-tsa-workers-receive-paychecks-first-time-6-weeks/TLPW5R4VXJBCLIQO6MSVEOXTCA/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/P7ZQLWFABFGLHL6HQPK7BAAEGY.jpg?auth=ff6edd94ceede68b0227ce87bf383d1a0247e4fab772c57a79a5719ca780f471&smart=true&width=5798&height=3865",
+          "imageUrl": "/images/stories/tsa-workers-paid-airport-easing.webp",
           "imageAlt": "TSA workers at Hartsfield-Jackson Atlanta International Airport",
           "publishedAt": "2026-03-30",
-          "keywords": ["tsa", "hartsfield-jackson", "airport", "shutdown", "backpay"]
+          "keywords": [
+            "tsa",
+            "hartsfield-jackson",
+            "airport",
+            "shutdown",
+            "backpay"
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/P7ZQLWFABFGLHL6HQPK7BAAEGY.jpg?auth=ff6edd94ceede68b0227ce87bf383d1a0247e4fab772c57a79a5719ca780f471&smart=true&width=5798&height=3865"
         }
       ]
     },
@@ -92,13 +141,22 @@
           "summary": "The Reynoldstown steakhouse's Japanese-Peruvian fusion dish made Rough Draft's monthly best-of list. Paper-thin raw hamachi with charred avocado and leche de tigre shows why the restaurant's Nikkei menu deserves attention.",
           "body": "Casa Coya in Reynoldstown bills itself as a steakhouse, but Rough Draft Atlanta's dining team says you should focus on the Nikkei (Japanese-Peruvian) dishes. Their hamachi tiradito landed on the publication's March best dishes list.\n\nThe $26 dish features paper-thin slices of raw hamachi marinated in citrusy leche de tigre (tiger's milk), topped with charred avocado, chalaquita onions, and crispy sweet potatoes. It's a stunning plate that showcases the fusion cuisine that developed when Japanese immigrants arrived in Peru in the mid-19th century.\n\nCasa Coya also does chaufa (Peruvian fried rice) and other Chinese-Peruvian dishes well. The steaks are fine, but the kitchen really shines when working with seafood and the immigrant culinary traditions that define modern Peruvian cooking.",
           "neighborhood": "Reynoldstown",
-          "neighborhoods": ["Reynoldstown"],
+          "neighborhoods": [
+            "Reynoldstown"
+          ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/03/30/best-atlanta-restaurant-dishes-march-2026/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/magictacos-600x597.jpeg",
+          "imageUrl": "/images/stories/casa-coya-best-dishes-march-reynoldstown.webp",
           "imageAlt": "Hamachi tiradito dish at Casa Coya in Reynoldstown",
           "publishedAt": "2026-03-30",
-          "keywords": ["casa coya", "reynoldstown", "peruvian", "nikkei", "restaurant"]
+          "keywords": [
+            "casa coya",
+            "reynoldstown",
+            "peruvian",
+            "nikkei",
+            "restaurant"
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/magictacos-600x597.jpeg"
         },
         {
           "id": "fork-vine-social-decatur-opens",
@@ -106,13 +164,22 @@
           "summary": "The new 65-seat restaurant on the Decatur square offers dishes inspired by chef Palash Kadam's travels, from brussel sprout bhel to jackfruit carnitas tacos. Co-owners want it to be a modern gathering place for lingering over shared tastes.",
           "body": "Decatur's dining scene has a new player. Fork & Vine Social opened in late January with global small plates and craft cocktails in a 65-seat space designed for socializing.\n\nChef Palash Kadam draws on his travels for the menu. Born in India, he worked in Europe and cooked on a cruise ship before landing in Decatur. Expect dishes like brussel sprout bhel (an Indian spin with peanuts, pomegranate seeds, and yogurt drizzle), spanakopita, and jackfruit carnitas tacos.\n\nCo-owner Meha Parikh, who also runs Johnny's New York Style Pizza on the Westside, says the variety is intentional. \"We have a lot of different flavors in our food. You are not stuck eating just Mediterranean or steakhouse or Italian.\" The lamb chops and crab cakes have already drawn attention.",
           "neighborhood": "Decatur",
-          "neighborhoods": ["Decatur"],
+          "neighborhoods": [
+            "Decatur"
+          ],
           "source": "Atlanta Magazine",
           "sourceUrl": "https://www.atlantamagazine.com/dining-news/decaturs-fork-vine-social-offers-creative-takes-on-global-dishes/",
-          "imageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/062A8078.jpg",
+          "imageUrl": "/images/stories/fork-vine-social-decatur-opens.webp",
           "imageAlt": "Grilled lamb chops at Fork & Vine Social in Decatur",
           "publishedAt": "2026-03-30",
-          "keywords": ["fork vine social", "decatur", "small plates", "global cuisine", "restaurant"]
+          "keywords": [
+            "fork vine social",
+            "decatur",
+            "small plates",
+            "global cuisine",
+            "restaurant"
+          ],
+          "originalImageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/062A8078.jpg"
         }
       ]
     },
@@ -125,13 +192,22 @@
           "summary": "The Spelman alumna who once dreamed of showing at the campus museum is now featured there. Her hyperrealist paintings of Black subjects submerged in water explore cultural history and resilience.",
           "body": "When Calida Rawles was a student at Spelman in the late 1990s, she watched the campus museum open and imagined having her work on those walls someday. Now, nearly three decades later, that moment has arrived.\n\n\"Away with the Tides\" opened March 27 at the Spelman College Museum of Fine Art and runs through September 5. The exhibition features hyperrealist acrylic paintings of Black subjects submerged in water, alongside a video installation exploring Miami's historic Overtown neighborhood.\n\nRawles built the works through a collaborative process with Overtown residents, using water as both visual subject and historical metaphor. The exhibition originated at Perez Art Museum Miami in 2024 before traveling to several venues. Spelman is the final stop on the national tour, a detail the 1998 graduate says carries deep meaning.",
           "neighborhood": "West End",
-          "neighborhoods": ["West End"],
+          "neighborhoods": [
+            "West End"
+          ],
           "source": "Capital B Atlanta",
           "sourceUrl": "https://atlanta.capitalbnews.org/calida-rawles-spelman-art-exhibit/",
-          "imageUrl": "https://i0.wp.com/atlanta.capitalbnews.org/wp-content/uploads/2026/03/Screenshot-2026-03-30-at-2.20.54-PM.png?fit=1024%2C772&ssl=1",
+          "imageUrl": "/images/stories/calida-rawles-spelman-exhibit-homecoming.webp",
           "imageAlt": "Calida Rawles painting at Spelman College Museum of Fine Art",
           "publishedAt": "2026-03-30",
-          "keywords": ["calida rawles", "spelman", "art exhibit", "west end", "hyperrealism"]
+          "keywords": [
+            "calida rawles",
+            "spelman",
+            "art exhibit",
+            "west end",
+            "hyperrealism"
+          ],
+          "originalImageUrl": "https://i0.wp.com/atlanta.capitalbnews.org/wp-content/uploads/2026/03/Screenshot-2026-03-30-at-2.20.54-PM.png?fit=1024%2C772&ssl=1"
         },
         {
           "id": "vietnam-memorial-piedmont-park-dedication",
@@ -139,13 +215,22 @@
           "summary": "Veterans who never received a homecoming celebration finally got one Sunday. The new monument features five pillars and 240 names of Atlanta and Fulton County soldiers killed in the war.",
           "body": "At the Vietnam War Memorial dedication in Piedmont Park on Sunday, veteran Rev. Elderson J. McGhee surveyed the crowd and said what many in attendance felt: \"This is what I wanted when I came home from Vietnam.\"\n\nThere were no parades or ceremonies for soldiers returning from that war. Some were spat upon. The average age of those who served was just 19. This memorial, decades in the making, finally honors their sacrifice.\n\nThe monument features five pillars representing the armed services branches and plaques with 240 names of Atlanta and Fulton County soldiers killed in Vietnam. Over 58,000 Americans died in the war, not counting many who returned with Agent Orange exposure, PTSD, and other ailments. For the veterans who gathered Sunday, the recognition was long overdue.",
           "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown"],
+          "neighborhoods": [
+            "Midtown"
+          ],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/atlanta-vietnam-veterans-memorial/",
-          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/ANMP0007-scaled.jpg?fit=1024%2C768&quality=89&ssl=1",
+          "imageUrl": "/images/stories/vietnam-memorial-piedmont-park-dedication.webp",
           "imageAlt": "Vietnam War Memorial dedication ceremony in Piedmont Park",
           "publishedAt": "2026-03-30",
-          "keywords": ["vietnam memorial", "piedmont park", "veterans", "midtown", "dedication"]
+          "keywords": [
+            "vietnam memorial",
+            "piedmont park",
+            "veterans",
+            "midtown",
+            "dedication"
+          ],
+          "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/ANMP0007-scaled.jpg?fit=1024%2C768&quality=89&ssl=1"
         }
       ]
     },
@@ -158,13 +243,22 @@
           "summary": "DeKalb County saw thousands march in Tucker and Decatur. In Macon, the rally ended when the sheriff tried to address concerns about ICE cooperation and protesters refused to let him speak.",
           "body": "The third round of No Kings demonstrations brought thousands of Georgians to the streets Saturday. In DeKalb County, protesters gathered along Clairmont Road in Decatur and marched in Tucker, joining nationwide actions against the Trump administration.\n\nIn Macon, the event took an unexpected turn. Organizers with Macon Rising had invited Bibb County Sheriff David Davis to address concerns about the county's cooperation with ICE. But agitated protesters prevented him from speaking, chanting \"this is what democracy looks like\" until organizers ended the rally early.\n\nNational organizers claimed over 8 million people participated in demonstrations across more than 3,000 locations. The protests continue to draw diverse crowds united in opposition to what they see as executive overreach.",
           "neighborhood": "Decatur",
-          "neighborhoods": ["Decatur"],
+          "neighborhoods": [
+            "Decatur"
+          ],
           "source": "Georgia Recorder",
           "sourceUrl": "https://georgiarecorder.com/2026/03/28/macon-no-kings-event-ends-abruptly-when-sheriff-tries-to-address-concerns-about-cooperation-with-ice/",
-          "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/03/DSC00201-1024x683.jpg",
+          "imageUrl": "/images/stories/no-kings-protests-georgia-dekalb-macon.webp",
           "imageAlt": "No Kings protesters in Macon, Georgia",
           "publishedAt": "2026-03-30",
-          "keywords": ["no kings", "protests", "decatur", "macon", "ice"]
+          "keywords": [
+            "no kings",
+            "protests",
+            "decatur",
+            "macon",
+            "ice"
+          ],
+          "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/03/DSC00201-1024x683.jpg"
         },
         {
           "id": "georgia-psc-tsa-utility-protection",
@@ -172,13 +266,22 @@
           "summary": "Public Service Commissioner Tricia Pridemore is introducing a motion to stop power companies from cutting off TSA employees who can't pay during the shutdown. Critics call it an election-year gimmick.",
           "body": "TSA workers who've gone six weeks without pay may get some relief on their utility bills. Public Service Commissioner Tricia Pridemore announced she'll introduce a motion to stop utility companies from disconnecting power to TSA employees during the shutdown.\n\nThe proposal would also waive late fees and provide a 30-day grace period for payments once the shutdown ends. It specifically targets workers at Hartsfield-Jackson, though it's unclear which utility companies have agreed or whether protections extend to other federal employees.\n\nNot everyone is celebrating. Georgia WAND executive director Kimberly Scott called the move an \"election-year gimmick,\" noting regulators have approved six Georgia Power rate increases since 2022. \"If you're going to utilize your role as an elected official, why not for the betterment of all Georgians?\" she asked.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "Fox 5 Atlanta",
           "sourceUrl": "https://www.fox5atlanta.com/news/georgia-psc-seeks-stop-power-cut-offs-tsa-staff",
-          "imageUrl": "https://images.foxtv.com/d3ayhwgrwyc4j8.cloudfront.net/ue2/mcvod/fmc-iwsdcu80qzab8816_A-1600324--1520804/hls/v1_0/931/523/index.m3u8?ve=1&tl=1",
+          "imageUrl": null,
           "imageAlt": "Georgia Public Service Commission meeting",
           "publishedAt": "2026-03-30",
-          "keywords": ["psc", "tsa", "utilities", "shutdown", "georgia power"]
+          "keywords": [
+            "psc",
+            "tsa",
+            "utilities",
+            "shutdown",
+            "georgia power"
+          ],
+          "originalImageUrl": "https://images.foxtv.com/d3ayhwgrwyc4j8.cloudfront.net/ue2/mcvod/fmc-iwsdcu80qzab8816_A-1600324--1520804/hls/v1_0/931/523/index.m3u8?ve=1&tl=1"
         }
       ]
     },
@@ -191,13 +294,23 @@
           "summary": "Atlanta's annual celebration of the 404 area code kicks off April 4 with events across the city. A free block party takes over Underground Atlanta, and the parade marches down Peachtree Street.",
           "body": "404 Day is back. Atlanta's annual celebration of its original area code falls on Saturday, April 4, and organizers have a full slate of events planned throughout the city.\n\nThe day starts early with the Run Atlanta 404 Day Weekend 5K through Downtown and Castleberry Hill at 8 a.m. The 404 Day Parade steps off at 10 a.m., marching down Peachtree Street with floats, marching bands, and dancers. Then the 404 Day Block Party takes over Underground Atlanta from noon to 5 p.m. with live music, food trucks, and local vendors.\n\nFriday night offers a preview with the \"From 404 with LOVE\" rooftop event at The Interlock, featuring a live band and awards for notable Atlantans. If you want to support scholarships, The 404 Fund Gala happens Thursday at Monday Night Brewing's Garage location with $150 tickets.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown", "Castleberry Hill"],
+          "neighborhoods": [
+            "Downtown",
+            "Castleberry Hill"
+          ],
           "source": "Decaturish",
           "sourceUrl": "https://roughdraftatlanta.com/2026/03/30/atlanta-404-day-events-2026/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2025/11/shutterstock_1792065305-copy-1-600x400.jpg",
+          "imageUrl": "/images/stories/404-day-events-atlanta-2026.webp",
           "imageAlt": "404 Day celebration events in Atlanta",
           "publishedAt": "2026-03-30",
-          "keywords": ["404 day", "atlanta", "block party", "parade", "underground atlanta"]
+          "keywords": [
+            "404 day",
+            "atlanta",
+            "block party",
+            "parade",
+            "underground atlanta"
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2025/11/shutterstock_1792065305-copy-1-600x400.jpg"
         },
         {
           "id": "dekalb-tire-dumping-arrests-continue",
@@ -205,13 +318,22 @@
           "summary": "The county's Digital Shield initiative has led to arrests since late 2025. The most recent case involved over 300 tires dumped at a church on Glenfair Road.",
           "body": "DeKalb County's fight against illegal tire dumping is making progress. Police have arrested 10 people since the launch of the Digital Shield safety initiative in late 2025, including a recent case involving more than 300 tires dumped overnight at Temple of Faith Apostolic Church.\n\nThe church on Glenfair Road woke up to find the massive pile of tires between March 21 and 22. The next morning, officers flagged down near Glenwood Road encountered Joseph Franklin driving a U-Haul carrying about 30 used tires. He was arrested on two counts of illegal dumping.\n\nCEO Lorraine Cochran-Johnson introduced Digital Shield specifically to tackle illegal dumping in neighborhoods. While enforcement continues, police warn the problem persists. The financial and environmental burden falls on property owners left to clean up after dumpers.",
           "neighborhood": "Decatur",
-          "neighborhoods": ["Decatur"],
+          "neighborhoods": [
+            "Decatur"
+          ],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/news/tucker/sherry-s-produce-overcomes-challenges-opens-for-the-season/article_873d0368-7dd3-486c-9906-5f79e028931d.html",
-          "imageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/03/931/523/mixcollage-30-mar-2026-10-59-am-7886.jpg?ve=1&tl=1",
+          "imageUrl": "/images/stories/dekalb-tire-dumping-arrests-continue.webp",
           "imageAlt": "Illegally dumped tires at a DeKalb County church",
           "publishedAt": "2026-03-30",
-          "keywords": ["dekalb", "tire dumping", "digital shield", "arrests", "illegal dumping"]
+          "keywords": [
+            "dekalb",
+            "tire dumping",
+            "digital shield",
+            "arrests",
+            "illegal dumping"
+          ],
+          "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/03/931/523/mixcollage-30-mar-2026-10-59-am-7886.jpg?ve=1&tl=1"
         }
       ]
     },
@@ -224,40 +346,119 @@
           "summary": "The airline chief marks 10 years leading Delta and nearly 30 years with the company. He'll receive an honorary doctorate at the May 11 ceremony and address the Class of 2026.",
           "body": "Delta Air Lines CEO Ed Bastian will deliver the keynote address at Emory University's 181st Commencement on May 11. The university will also award him an honorary doctor of humane letters degree.\n\nBastian marks 10 years as Delta's CEO in 2026, leading a global workforce of more than 100,000 employees, including nearly 40,000 in Georgia. The airline is headquartered near Hartsfield-Jackson and serves nearly 200 million travelers annually to destinations in over 50 countries.\n\nInterim President Leah Ward Sears praised Bastian's resilience and leadership through \"unprecedented challenges,\" noting his commitment to employees, customers, and communities. Bastian called the invitation an honor, citing Emory's nearly 200-year legacy as \"a source of excellence, inspiration and innovation for our entire community.\"",
           "neighborhood": "Druid Hills",
-          "neighborhoods": ["Druid Hills", "Decatur"],
+          "neighborhoods": [
+            "Druid Hills",
+            "Decatur"
+          ],
           "source": "SaportaReport",
           "sourceUrl": "https://saportareport.com/delta-ceo-ed-bastian-to-deliver-emorys-2026-commencement-address/thought-leadership/higher-education/emory-university/",
-          "imageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/03/story_main-1-2.jpg?fit=1024%2C683&ssl=1",
+          "imageUrl": "/images/stories/delta-ceo-emory-commencement-speaker.webp",
           "imageAlt": "Delta CEO Ed Bastian speaking at an event",
           "publishedAt": "2026-03-30",
-          "keywords": ["delta", "ed bastian", "emory", "commencement", "atlanta business"]
+          "keywords": [
+            "delta",
+            "ed bastian",
+            "emory",
+            "commencement",
+            "atlanta business"
+          ],
+          "originalImageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/03/story_main-1-2.jpg?fit=1024%2C683&ssl=1"
         }
       ]
     }
   ],
   "neighborhoods": {
-    "Downtown": { "storyCount": 45, "topStory": "marta-better-breeze-system-live" },
-    "Midtown": { "storyCount": 28, "topStory": "vietnam-memorial-piedmont-park-dedication" },
-    "Decatur": { "storyCount": 26, "topStory": "fork-vine-social-decatur-opens" },
-    "Old Fourth Ward": { "storyCount": 9, "topStory": "colmado-wine-shop-old-fourth-ward" },
-    "Buckhead": { "storyCount": 7, "topStory": "freedom-plane-documents-atlanta-history-center" },
-    "Grant Park": { "storyCount": 6, "topStory": "meeples-board-game-cafe-grant-park-beltline" },
-    "Kirkwood": { "storyCount": 6, "topStory": "space-explorers-infinite-pullman-yards" },
-    "West End": { "storyCount": 7, "topStory": "calida-rawles-spelman-exhibit-homecoming" },
-    "Reynoldstown": { "storyCount": 6, "topStory": "casa-coya-best-dishes-march-reynoldstown" },
-    "Westside": { "storyCount": 5, "topStory": "westside-homeless-housing-beltline" },
-    "Inman Park": { "storyCount": 4, "topStory": "mushi-ni-opens-inman-park" },
-    "East Atlanta Village": { "storyCount": 2, "topStory": "kirkwood-wine-shop-finally-wine" },
-    "East Atlanta": { "storyCount": 3, "topStory": "space-explorers-infinite-pullman-yards" },
-    "West Midtown": { "storyCount": 3, "topStory": "andrew-young-94th-birthday" },
-    "Summerhill": { "storyCount": 2, "topStory": "gsu-summerhill-athletics-neighborhood" },
-    "Home Park": { "storyCount": 2, "topStory": "10th-street-hemphill-construction-closure" },
-    "Virginia-Highland": { "storyCount": 2, "topStory": "10th-street-hemphill-construction-closure" },
-    "Ansley Park": { "storyCount": 2, "topStory": "lewis-barbecue-ansley-mall-beltline" },
-    "Castleberry Hill": { "storyCount": 2, "topStory": "404-day-events-atlanta-2026" },
-    "Piedmont Heights": { "storyCount": 1, "topStory": "midtown-sewer-repairs-close-juniper" },
-    "Cabbagetown": { "storyCount": 1, "topStory": "reynoldstown-townhomes-beltline-construction" },
-    "East Point": { "storyCount": 1, "topStory": "east-point-affordable-housing-marta" },
-    "Druid Hills": { "storyCount": 1, "topStory": "delta-ceo-emory-commencement-speaker" }
+    "Downtown": {
+      "storyCount": 45,
+      "topStory": "marta-better-breeze-system-live"
+    },
+    "Midtown": {
+      "storyCount": 28,
+      "topStory": "vietnam-memorial-piedmont-park-dedication"
+    },
+    "Decatur": {
+      "storyCount": 26,
+      "topStory": "fork-vine-social-decatur-opens"
+    },
+    "Old Fourth Ward": {
+      "storyCount": 9,
+      "topStory": "colmado-wine-shop-old-fourth-ward"
+    },
+    "Buckhead": {
+      "storyCount": 7,
+      "topStory": "freedom-plane-documents-atlanta-history-center"
+    },
+    "Grant Park": {
+      "storyCount": 6,
+      "topStory": "meeples-board-game-cafe-grant-park-beltline"
+    },
+    "Kirkwood": {
+      "storyCount": 6,
+      "topStory": "space-explorers-infinite-pullman-yards"
+    },
+    "West End": {
+      "storyCount": 7,
+      "topStory": "calida-rawles-spelman-exhibit-homecoming"
+    },
+    "Reynoldstown": {
+      "storyCount": 6,
+      "topStory": "casa-coya-best-dishes-march-reynoldstown"
+    },
+    "Westside": {
+      "storyCount": 5,
+      "topStory": "westside-homeless-housing-beltline"
+    },
+    "Inman Park": {
+      "storyCount": 4,
+      "topStory": "mushi-ni-opens-inman-park"
+    },
+    "East Atlanta Village": {
+      "storyCount": 2,
+      "topStory": "kirkwood-wine-shop-finally-wine"
+    },
+    "East Atlanta": {
+      "storyCount": 3,
+      "topStory": "space-explorers-infinite-pullman-yards"
+    },
+    "West Midtown": {
+      "storyCount": 3,
+      "topStory": "andrew-young-94th-birthday"
+    },
+    "Summerhill": {
+      "storyCount": 2,
+      "topStory": "gsu-summerhill-athletics-neighborhood"
+    },
+    "Home Park": {
+      "storyCount": 2,
+      "topStory": "10th-street-hemphill-construction-closure"
+    },
+    "Virginia-Highland": {
+      "storyCount": 2,
+      "topStory": "10th-street-hemphill-construction-closure"
+    },
+    "Ansley Park": {
+      "storyCount": 2,
+      "topStory": "lewis-barbecue-ansley-mall-beltline"
+    },
+    "Castleberry Hill": {
+      "storyCount": 2,
+      "topStory": "404-day-events-atlanta-2026"
+    },
+    "Piedmont Heights": {
+      "storyCount": 1,
+      "topStory": "midtown-sewer-repairs-close-juniper"
+    },
+    "Cabbagetown": {
+      "storyCount": 1,
+      "topStory": "reynoldstown-townhomes-beltline-construction"
+    },
+    "East Point": {
+      "storyCount": 1,
+      "topStory": "east-point-affordable-housing-marta"
+    },
+    "Druid Hills": {
+      "storyCount": 1,
+      "topStory": "delta-ceo-emory-commencement-speaker"
+    }
   }
 }

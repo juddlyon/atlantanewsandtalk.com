@@ -8,17 +8,37 @@
     "summary": "Atlanta Beltline Inc. says it will exceed its 5,600-unit affordable housing goal before the 2030 deadline. The agency has locked in 4,425 units to date, with 299 delivered last year and 500 more in the pipeline.",
     "body": "Atlanta Beltline Inc. announced this week it has built or preserved 4,425 units of affordable housing to date, reaching 79 percent of its 2030 goal well ahead of schedule.\n\nThe agency delivered 299 affordable units in 2025 and has more than doubled its affordable housing stock along the 22-mile loop since 2018. Nearly three-quarters of the units are reserved for residents earning 60 percent or less of the Area Median Income, which for a four-person household in the Atlanta region means annual earnings up to $91,350.\n\n\"We have approached affordable housing with urgency,\" said Beltline President and CEO Clyde Higgs. \"We want to ensure residents of all income levels can share in the benefits and enhanced quality of life offered by the Beltline.\"\n\nThe Beltline has also secured 94 acres for future affordable housing and commercial space to support small businesses. Around 500 additional units are actively in development within the Beltline Tax Allocation District.\n\nFor Beltline Vice President of Housing Policy and Development Dennis Richards, the work is personal. \"Household sizes are shrinking and the region is set to add almost 2 million residents by 2050,\" he said. \"Affordability is an urgent issue.\"\n\nThe milestone comes as housing prices along the popular Eastside Trail have skyrocketed, pricing out many longtime residents. The Beltline units also count toward Mayor Dickens' goal of creating or preserving 20,000 affordable housing units citywide by 2030.",
     "neighborhood": "Old Fourth Ward",
-    "neighborhoods": ["Old Fourth Ward", "Midtown", "Westside", "Oakland City"],
+    "neighborhoods": [
+      "Old Fourth Ward",
+      "Midtown",
+      "Westside",
+      "Oakland City"
+    ],
     "source": "Urbanize Atlanta",
     "sourceUrl": "https://atlanta.urbanize.city/post/beltline-4400-affordable-housing-update-projects-more-come",
     "sources": [
-      { "name": "Urbanize Atlanta", "url": "https://atlanta.urbanize.city/post/beltline-4400-affordable-housing-update-projects-more-come" },
-      { "name": "SaportaReport", "url": "https://saportareport.com/beltline-on-track-to-exceed-goal-of-5600-affordable-homes-by-2030/columnists/delaney-tarr/delaneytarr/" }
+      {
+        "name": "Urbanize Atlanta",
+        "url": "https://atlanta.urbanize.city/post/beltline-4400-affordable-housing-update-projects-more-come"
+      },
+      {
+        "name": "SaportaReport",
+        "url": "https://saportareport.com/beltline-on-track-to-exceed-goal-of-5600-affordable-homes-by-2030/columnists/delaney-tarr/delaneytarr/"
+      }
     ],
-    "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-04/Beltline%20356%20University%20Avenue%20Southside%20Trail%20Pittsburgh%20Yards.png?itok=GYwNCBO6",
+    "imageUrl": "/images/stories/beltline-affordable-housing-4400-units-2030-goal.webp",
     "imageAlt": "Affordable housing development along the BeltLine Southside Trail near Pittsburgh Yards",
     "publishedAt": "2026-04-03",
-    "keywords": ["beltline", "affordable housing", "old fourth ward", "midtown", "westside", "oakland city", "2030 goal"]
+    "keywords": [
+      "beltline",
+      "affordable housing",
+      "old fourth ward",
+      "midtown",
+      "westside",
+      "oakland city",
+      "2030 goal"
+    ],
+    "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-04/Beltline%20356%20University%20Avenue%20Southside%20Trail%20Pittsburgh%20Yards.png?itok=GYwNCBO6"
   },
   "sections": [
     {
@@ -30,13 +50,22 @@
           "summary": "The Georgia General Assembly passed a local bill requiring voter approval for City Schools of Decatur bonds over $20 million. A referendum on the ECLC expansion will be on the fall ballot.",
           "body": "The Georgia General Assembly passed a local bill on April 2 that will require a voter referendum for certain City Schools of Decatur bonds exceeding $20 million. Once signed by the governor, a referendum will be held this fall on CSD's Early Childhood Learning Center expansion.\n\nThe bill represents a significant shift in how Decatur funds major school construction projects. Previously, the school board could issue bonds without direct voter approval for amounts under a certain threshold. The new legislation lowers that bar substantially.\n\nFor Decatur parents who have watched the small city's schools become increasingly crowded, the vote will be a test of community support for the district's expansion plans. The ECLC has been at capacity for years, with waitlists common for pre-K programs.\n\nThe fall referendum will give voters a direct say in whether to take on the debt for the project. Supporters argue the expansion is essential for the district's youngest learners, while fiscal conservatives say major bond decisions should always go before voters.",
           "neighborhood": "Decatur",
-          "neighborhoods": ["Decatur"],
+          "neighborhoods": [
+            "Decatur"
+          ],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/schools/decatur-eclc-bond-could-be-decided-in-voter-referendum/article_0bb01809-3d18-4bd4-94a0-fadd7b6c70fc.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/6/bc/6bc16319-fcaa-49d8-a9e6-60a8b1917d0f/69c6f420e09a7.image.jpg?resize=300%2C200",
+          "imageUrl": "/images/stories/decatur-eclc-bond-voter-referendum.webp",
           "imageAlt": "Decatur Early Childhood Learning Center bond referendum",
           "publishedAt": "2026-04-03",
-          "keywords": ["decatur", "schools", "bond referendum", "eclc", "city schools of decatur"]
+          "keywords": [
+            "decatur",
+            "schools",
+            "bond referendum",
+            "eclc",
+            "city schools of decatur"
+          ],
+          "originalImageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/6/bc/6bc16319-fcaa-49d8-a9e6-60a8b1917d0f/69c6f420e09a7.image.jpg?resize=300%2C200"
         },
         {
           "id": "castleberry-hill-northside-plaza-redevelopment",
@@ -44,13 +73,23 @@
           "summary": "The 8-acre site in Mercedes-Benz Stadium's shadow has been cleared. Developer Carter is studying housing and retail for the three-block area bounded by MLK Jr. Drive and Northside Drive.",
           "body": "Several blocks of 1990s-era apartment buildings have been demolished in Castleberry Hill, directly south of Mercedes-Benz Stadium. The 8-acre site, formerly home to Northside Plaza apartments, is being studied for redevelopment by Atlanta-based developer Carter.\n\nYears of quiet property acquisitions preceded the demolition. A natural gas leak in November caused an explosion in one of the buildings, and all structures have since been cleared.\n\nCarter, best known for resuscitating Summerhill's retail district after the Braves' ITP departure, is examining the site for potential housing and retail that would join a surge of investment in nearby blocks. The acreage is bounded by M.L.K. Jr. Drive, Northside Drive, and Markham Street.\n\nFor Castleberry Hill, which has seen fits and starts of development over the decades, the project could represent the area's most significant transformation since the stadium's 2017 opening displaced Friendship Baptist Church from the same stretch of land.",
           "neighborhood": "Castleberry Hill",
-          "neighborhoods": ["Castleberry Hill", "Downtown"],
+          "neighborhoods": [
+            "Castleberry Hill",
+            "Downtown"
+          ],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/mercedes-benz-stadium-demolition-mixed-use-development",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-04/Northside%20Plaza%20March%202026%201%20.jpg?itok=drC-npT5",
+          "imageUrl": "/images/stories/castleberry-hill-northside-plaza-redevelopment.webp",
           "imageAlt": "Cleared site of former Northside Plaza apartments near Mercedes-Benz Stadium in Castleberry Hill",
           "publishedAt": "2026-04-03",
-          "keywords": ["castleberry hill", "northside plaza", "carter", "mercedes-benz stadium", "redevelopment"]
+          "keywords": [
+            "castleberry hill",
+            "northside plaza",
+            "carter",
+            "mercedes-benz stadium",
+            "redevelopment"
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-04/Northside%20Plaza%20March%202026%201%20.jpg?itok=drC-npT5"
         }
       ]
     },
@@ -63,13 +102,24 @@
           "summary": "The Virginia-Highland coffee institution is expanding to Midtown and Druid Hills. The Peachtree Street location opens April 4, with a second spot at Sage Hill coming this summer.",
           "body": "When Doug and Tanya Bond moved to Atlanta from California more than 30 years ago, Doug wanted to bring the West Coast coffee scene to the city. San Francisco Coffee Roasting Company opened its first location in Virginia-Highland in 1992, serving as a trailblazer on the Atlanta coffee scene.\n\nNow the Bonds are expanding with two new locations. A downtown spot at 1441 Peachtree St. NE opens April 4, and a 2,700-square-foot location at Sage Hill shopping center in Druid Hills is slated for this summer.\n\n\"It's a pretty legendary place,\" Doug said of the original Virginia-Highland location. \"It's a destination. People get here, they land and they go, 'Where are we going to get coffee? We're going to Virginia-Highland to San Francisco Coffee.'\"\n\nThe Midtown location will serve small-batch coffee roasted in-house. For a brand that predates the city's current coffee boom, the expansion signals confidence that Atlanta's appetite for quality independent coffee shops hasn't waned.",
           "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown", "Druid Hills", "Virginia-Highland"],
+          "neighborhoods": [
+            "Midtown",
+            "Druid Hills",
+            "Virginia-Highland"
+          ],
           "source": "What Now Atlanta",
           "sourceUrl": "https://whatnow.com/atlanta/restaurants/san-francisco-coffee-expanding-with-two-locations-this-year/",
-          "imageUrl": "https://whatnow.com/wp-content/uploads/2026/04/San-Francisco-Coffee-Expanding-With-Two-Locations-This-Year-768x436.png",
+          "imageUrl": "/images/stories/san-francisco-coffee-midtown-druid-hills-expansion.webp",
           "imageAlt": "San Francisco Coffee expanding to Midtown and Druid Hills",
           "publishedAt": "2026-04-03",
-          "keywords": ["san francisco coffee", "midtown", "druid hills", "virginia-highland", "coffee shop"]
+          "keywords": [
+            "san francisco coffee",
+            "midtown",
+            "druid hills",
+            "virginia-highland",
+            "coffee shop"
+          ],
+          "originalImageUrl": "https://whatnow.com/wp-content/uploads/2026/04/San-Francisco-Coffee-Expanding-With-Two-Locations-This-Year-768x436.png"
         }
       ]
     },
@@ -82,13 +132,23 @@
           "summary": "Georgia lawmakers approved accelerated income tax cuts and increased deductions before the session ended after 1 a.m. A bill to replace QR-code ballots never reached a Senate vote, potentially forcing a special session.",
           "body": "Georgia lawmakers wrapped their 2026 legislative session after 1 a.m. Friday with a mix of victories and failures that will shape the state through November's midterms.\n\nThe income tax bill reduces Georgia's rate from 5.19% to 4.99% immediately, with a plan to eventually reach 3.99% over eight years if revenues allow. The standard deduction jumps from $12,000 to $15,000 for single filers and from $24,000 to $30,000 for married couples. The retirement income deduction for Georgians 65 and older increases from $65,000 to $70,000.\n\nBut a high-profile proposal to overhaul Georgia's voting system failed to pass. Senate Bill 214, which would have postponed a July 1 deadline to eliminate QR codes from ballots until 2028, passed the House but never reached a Senate vote. The failure could force a rapid switch to hand-marked paper ballots before November's midterms or trigger a special session.\n\n\"We'll have to work through the process now,\" said Sen. Max Burns after adjournment. Governor Kemp has not indicated whether he'll call a special session to address the election issue.\n\nThe $38.5 billion state budget also passed in the final hours, funding literacy coaches in every K-3 school as part of the Early Literacy Act.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "Georgia Recorder",
           "sourceUrl": "https://georgiarecorder.com/2026/04/03/thats-a-wrap-what-did-and-didnt-happen-on-the-final-day-of-georgias-2026-legislative-session/",
-          "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/04/DSC_7421-1024x683.jpg",
+          "imageUrl": "/images/stories/georgia-sine-die-2026-income-tax-elections.webp",
           "imageAlt": "Georgia State Capitol on Sine Die as the 2026 legislative session ends",
           "publishedAt": "2026-04-03",
-          "keywords": ["sine die", "georgia legislature", "income tax", "qr code ballots", "elections", "downtown"]
+          "keywords": [
+            "sine die",
+            "georgia legislature",
+            "income tax",
+            "qr code ballots",
+            "elections",
+            "downtown"
+          ],
+          "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/04/DSC_7421-1024x683.jpg"
         },
         {
           "id": "anti-lgbtq-bills-defeated-georgia-2026",
@@ -96,13 +156,22 @@
           "summary": "Georgia Equality celebrates the defeat of more than a dozen anti-LGBTQ+ bills, including HB 54 restricting gender-affirming care. Over 2,500 Georgians contacted legislators and 400 testified at the Capitol.",
           "body": "Georgia Equality is celebrating the defeat of more than a dozen anti-LGBTQ+ bills as state lawmakers wrapped their legislative session in the early hours of April 3.\n\nAll anti-LGBTQ+ legislation was halted, including House Bill 54, which would have prevented doctors from prescribing puberty blockers to minors and restricted gender-affirming care for transgender people.\n\n\"Despite underhanded tactics being employed in these last couple weeks, over 2,500 of us contacted our legislators and nearly 400 came out to the Capitol to make their voices heard in person,\" Georgia Equality said.\n\nThe defeated bills included: SB 30 restricting medical care for trans youth, SB 39 denying coverage of care under the State Employee Health Benefit Plan, SB 74 criminalizing librarians sharing LGBTQ+ content, SB 497 forcing outing of LGBTQ+ students, HB 104 and 267 further restricting trans youth sports participation, HB 671 banning drag performances, and HB 1210 creating exemptions for non-affirming parents.\n\n\"Scapegoating LGBTQ+ Georgians is not a winning political strategy,\" Georgia Equality said. For advocates who spent weeks at the Capitol, the session's end brought relief after months of uncertainty.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/04/03/anti-lgbtq-bills-halted-georgia/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/MG_6117-31-600x486.jpg",
+          "imageUrl": "/images/stories/anti-lgbtq-bills-defeated-georgia-2026.webp",
           "imageAlt": "Georgia Equality advocates at the State Capitol celebrating defeat of anti-LGBTQ+ bills",
           "publishedAt": "2026-04-03",
-          "keywords": ["lgbtq", "georgia legislature", "gender-affirming care", "downtown", "georgia equality"]
+          "keywords": [
+            "lgbtq",
+            "georgia legislature",
+            "gender-affirming care",
+            "downtown",
+            "georgia equality"
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/MG_6117-31-600x486.jpg"
         }
       ]
     },
@@ -115,13 +184,22 @@
           "summary": "Opposition to Atlanta Mission's proposed BeltLine shelter has sharpened beyond NIMBY concerns. Residents are calling for 'proportional economic development' before the facility moves forward.",
           "body": "Atlanta is once again facing a familiar tension. Growth and equity are pulling in different directions, and the Westside is caught in between.\n\nThe debate over a proposed homeless shelter along the Atlanta BeltLine has sparked organized opposition, much of it framed as a fight for economic justice. The proposal would use only part of the site for a shelter, with a comparable portion dedicated to services and other uses.\n\nResidents argue their communities have endured decades of disinvestment and should not be asked to take on another citywide burden. But that history doesn't answer the present question: Why has the Westside struggled to attract the kinds of employers, grocery stores, and sustained commercial activity seen elsewhere in Atlanta?\n\nThe uneven development of the BeltLine reflects that reality. Some sections are filled with art, activity, and amenities. Others are still waiting.\n\nOpponents have sharpened their case beyond simple rejection. They're calling for what they describe as \"proportional economic development,\" arguing that a project of this scale should not move forward without parallel investment in jobs, retail, and mixed-income housing. The debate continues as the proposal awaits city review.",
           "neighborhood": "Westside",
-          "neighborhoods": ["Westside"],
+          "neighborhoods": [
+            "Westside"
+          ],
           "source": "SaportaReport",
           "sourceUrl": "https://saportareport.com/beyond-nimby-what-the-westside-homeless-shelter-debate-is-really-about/columnists/guestcolumn/melinda-sylvester/",
-          "imageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/04/Screenshot-2026-04-02-at-6.02.59-PM-scaled.png?fit=1024%2C570&ssl=1",
+          "imageUrl": "/images/stories/westside-homeless-shelter-beltline-debate.webp",
           "imageAlt": "Westside BeltLine homeless shelter proposal debate",
           "publishedAt": "2026-04-03",
-          "keywords": ["westside", "homeless shelter", "beltline", "atlanta mission", "economic development"]
+          "keywords": [
+            "westside",
+            "homeless shelter",
+            "beltline",
+            "atlanta mission",
+            "economic development"
+          ],
+          "originalImageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/04/Screenshot-2026-04-02-at-6.02.59-PM-scaled.png?fit=1024%2C570&ssl=1"
         },
         {
           "id": "dsa-mathewos-samson-house-district-58",
@@ -129,13 +207,28 @@
           "summary": "Mathewos Samson, 26, went from his first canvass in October to launching a state legislature campaign in March. The DSA-backed candidate is running on affordable housing, healthcare, and school funding.",
           "body": "Less than six months ago, Mathewos Samson, 26, volunteered for the first time in his life to canvass for Democratic Socialist Kelsea Bond, who won their Atlanta City Council District 2 seat in a landslide last November. Now he's running as a Democratic Socialist himself for Atlanta's House District 58.\n\nLast Saturday, he launched his campaign to a packed house at Manuel's Tavern. \"There's a status quo for our politics, where they're not putting working people at the forefront,\" Samson told a crowd of over 75 supporters. \"I'm running on affordable housing, healthcare for everyone, and fully funding our schools.\"\n\nSamson only joined the Democratic Socialists of America (DSA) last October to campaign for Bond. But on March 5, he woke up to urgent text messages from local DSA leaders asking him to run for HD 58, just a day before the qualifying deadline.\n\nThe heavily gerrymandered district snakes from Virginia-Highland southwest through Old Fourth Ward, a slice of Inman Park, Downtown, West End, Adams Park, and ends in Ben Hill. Rep. Park Cannon had quietly decided not to seek reelection, leaving only one candidate, Demetria Henderson, qualified for the Democratic primary on May 19.\n\nFor a district that substantially overlaps with Bond's council seat, DSA leaders saw an opportunity to replicate their 2025 success.",
           "neighborhood": "Old Fourth Ward",
-          "neighborhoods": ["Old Fourth Ward", "Virginia-Highland", "Inman Park", "West End", "Downtown"],
+          "neighborhoods": [
+            "Old Fourth Ward",
+            "Virginia-Highland",
+            "Inman Park",
+            "West End",
+            "Downtown"
+          ],
           "source": "Atlanta Civic Circle",
           "sourceUrl": "https://atlantaciviccircle.org/2026/04/01/unexpected-candidate-dsa-mathewos-samson-legislature-georgia/",
-          "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/04/IMG_9481-1024x683.jpg",
+          "imageUrl": "/images/stories/dsa-mathewos-samson-house-district-58.webp",
           "imageAlt": "Mathewos Samson launches DSA campaign for Georgia House District 58 at Manuel's Tavern",
           "publishedAt": "2026-04-03",
-          "keywords": ["dsa", "democratic socialists", "house district 58", "old fourth ward", "virginia-highland", "west end", "park cannon"]
+          "keywords": [
+            "dsa",
+            "democratic socialists",
+            "house district 58",
+            "old fourth ward",
+            "virginia-highland",
+            "west end",
+            "park cannon"
+          ],
+          "originalImageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/04/IMG_9481-1024x683.jpg"
         }
       ]
     },
@@ -148,13 +241,24 @@
           "summary": "The growth-stage startup that raised $21.5M in 2024 joins the Colorado-based public company. Document Crunch's AI document analysis has been deployed on over 10,000 construction projects.",
           "body": "A growth-stage, construction-focused AI company in Atlanta has been acquired by public company Trimble.\n\nDocument Crunch has built construction-specific AI for document analysis and risk management spanning the full project lifecycle. The platform has been used and deployed on over 10,000 projects to date. The acquisition will allow Trimble to incorporate document intelligence and compliance automation across the Trimble Construction ecosystem.\n\nDocument Crunch took the stage at Venture Atlanta in 2024 and raised its $21.5 million Series B that same year.\n\nCEO and attorney-turned-entrepreneur Josh Levy told Hypepotamus that the \"quintessential American Dream is building a company toward either acquisition or IPO,\" so such an outcome was always on his mind.\n\n\"The only goal when we started was to build something meaningful, and everything else has unfolded from there,\" Levy said. The team was introduced to the NASDAQ-listed company through Document Crunch's VC partners.\n\nFor Atlanta's growing construction tech ecosystem, the acquisition validates the city's role as a hub for industry-specific AI applications. Trimble, based in Colorado, develops positioning technologies for surveying, construction, agriculture, and public safety.",
           "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown"],
+          "neighborhoods": [
+            "Midtown"
+          ],
           "source": "Hypepotamus",
           "sourceUrl": "https://hypepotamus.com/startup-news/document-crunch-acquired-by-trimble/?utm_source=rss&utm_medium=rss&utm_campaign=document-crunch-acquired-by-trimble",
-          "imageUrl": "http://hypepotamus.com/wp-content/uploads/2026/04/0-1038x543.png",
+          "imageUrl": "/images/stories/document-crunch-acquired-trimble-atlanta-construction-ai.webp",
           "imageAlt": "Document Crunch Atlanta construction AI startup acquired by Trimble",
           "publishedAt": "2026-04-03",
-          "keywords": ["document crunch", "trimble", "construction tech", "ai", "midtown", "venture atlanta", "startup acquisition"]
+          "keywords": [
+            "document crunch",
+            "trimble",
+            "construction tech",
+            "ai",
+            "midtown",
+            "venture atlanta",
+            "startup acquisition"
+          ],
+          "originalImageUrl": "http://hypepotamus.com/wp-content/uploads/2026/04/0-1038x543.png"
         }
       ]
     },
@@ -170,39 +274,121 @@
           "neighborhoods": [],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/sports/mlb/atlanta-braves/braves-ride-an-8-run-fifth-inning-cruise-past-diamondbacks-17-2/75HGUYPFBNE4NCJAR4SGJMXRXQ/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/RCQ4PTLWLJBKPKOWH7FH4D3SHY.jpg?auth=38299fe2abb7e288fef5fda1fa7f54943cef0370fd1e61c031e078e4ff8fad67&smart=true&width=7292&height=4861",
+          "imageUrl": "/images/stories/braves-crush-diamondbacks-17-2-olson-homers.webp",
           "imageAlt": "Atlanta Braves defeat Arizona Diamondbacks 17-2",
           "publishedAt": "2026-04-03",
-          "keywords": ["braves", "diamondbacks", "matt olson", "reynaldo lopez", "mlb"]
+          "keywords": [
+            "braves",
+            "diamondbacks",
+            "matt olson",
+            "reynaldo lopez",
+            "mlb"
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/RCQ4PTLWLJBKPKOWH7FH4D3SHY.jpg?auth=38299fe2abb7e288fef5fda1fa7f54943cef0370fd1e61c031e078e4ff8fad67&smart=true&width=7292&height=4861"
         }
       ]
     }
   ],
   "neighborhoods": {
-    "Downtown": { "storyCount": 61, "topStory": "georgia-sine-die-2026-income-tax-elections" },
-    "Midtown": { "storyCount": 39, "topStory": "san-francisco-coffee-midtown-druid-hills-expansion" },
-    "Decatur": { "storyCount": 32, "topStory": "decatur-eclc-bond-voter-referendum" },
-    "Old Fourth Ward": { "storyCount": 15, "topStory": "beltline-affordable-housing-4400-units-2030-goal" },
-    "Buckhead": { "storyCount": 12, "topStory": "jets-pizza-first-itp-location-buckhead" },
-    "West End": { "storyCount": 9, "topStory": "dsa-mathewos-samson-house-district-58" },
-    "Kirkwood": { "storyCount": 8, "topStory": "kirkwood-preserve-renamed-home-tour" },
-    "Westside": { "storyCount": 7, "topStory": "westside-homeless-shelter-beltline-debate" },
-    "Reynoldstown": { "storyCount": 7, "topStory": "casa-coya-best-dishes-march-reynoldstown" },
-    "Grant Park": { "storyCount": 6, "topStory": "meeples-board-game-cafe-grant-park-beltline" },
-    "Inman Park": { "storyCount": 6, "topStory": "dsa-mathewos-samson-house-district-58" },
-    "West Midtown": { "storyCount": 5, "topStory": "jets-pizza-first-itp-location-buckhead" },
-    "Druid Hills": { "storyCount": 5, "topStory": "san-francisco-coffee-midtown-druid-hills-expansion" },
-    "Castleberry Hill": { "storyCount": 5, "topStory": "castleberry-hill-northside-plaza-redevelopment" },
-    "East Atlanta": { "storyCount": 4, "topStory": "space-explorers-infinite-pullman-yards" },
-    "Virginia-Highland": { "storyCount": 4, "topStory": "dsa-mathewos-samson-house-district-58" },
-    "Summerhill": { "storyCount": 3, "topStory": "gsu-summerhill-athletics-neighborhood" },
-    "Home Park": { "storyCount": 3, "topStory": "10th-street-hemphill-construction-closure" },
-    "Ansley Park": { "storyCount": 3, "topStory": "lewis-barbecue-ansley-mall-beltline" },
-    "Sweet Auburn": { "storyCount": 2, "topStory": "georgia-works-odd-fellows-auburn-avenue" },
-    "East Atlanta Village": { "storyCount": 2, "topStory": "kirkwood-wine-shop-finally-wine" },
-    "Oakland City": { "storyCount": 1, "topStory": "beltline-affordable-housing-4400-units-2030-goal" },
-    "Piedmont Heights": { "storyCount": 1, "topStory": "midtown-sewer-repairs-close-juniper" },
-    "Cabbagetown": { "storyCount": 1, "topStory": "reynoldstown-townhomes-beltline-construction" },
-    "East Point": { "storyCount": 1, "topStory": "east-point-affordable-housing-marta" }
+    "Downtown": {
+      "storyCount": 61,
+      "topStory": "georgia-sine-die-2026-income-tax-elections"
+    },
+    "Midtown": {
+      "storyCount": 39,
+      "topStory": "san-francisco-coffee-midtown-druid-hills-expansion"
+    },
+    "Decatur": {
+      "storyCount": 32,
+      "topStory": "decatur-eclc-bond-voter-referendum"
+    },
+    "Old Fourth Ward": {
+      "storyCount": 15,
+      "topStory": "beltline-affordable-housing-4400-units-2030-goal"
+    },
+    "Buckhead": {
+      "storyCount": 12,
+      "topStory": "jets-pizza-first-itp-location-buckhead"
+    },
+    "West End": {
+      "storyCount": 9,
+      "topStory": "dsa-mathewos-samson-house-district-58"
+    },
+    "Kirkwood": {
+      "storyCount": 8,
+      "topStory": "kirkwood-preserve-renamed-home-tour"
+    },
+    "Westside": {
+      "storyCount": 7,
+      "topStory": "westside-homeless-shelter-beltline-debate"
+    },
+    "Reynoldstown": {
+      "storyCount": 7,
+      "topStory": "casa-coya-best-dishes-march-reynoldstown"
+    },
+    "Grant Park": {
+      "storyCount": 6,
+      "topStory": "meeples-board-game-cafe-grant-park-beltline"
+    },
+    "Inman Park": {
+      "storyCount": 6,
+      "topStory": "dsa-mathewos-samson-house-district-58"
+    },
+    "West Midtown": {
+      "storyCount": 5,
+      "topStory": "jets-pizza-first-itp-location-buckhead"
+    },
+    "Druid Hills": {
+      "storyCount": 5,
+      "topStory": "san-francisco-coffee-midtown-druid-hills-expansion"
+    },
+    "Castleberry Hill": {
+      "storyCount": 5,
+      "topStory": "castleberry-hill-northside-plaza-redevelopment"
+    },
+    "East Atlanta": {
+      "storyCount": 4,
+      "topStory": "space-explorers-infinite-pullman-yards"
+    },
+    "Virginia-Highland": {
+      "storyCount": 4,
+      "topStory": "dsa-mathewos-samson-house-district-58"
+    },
+    "Summerhill": {
+      "storyCount": 3,
+      "topStory": "gsu-summerhill-athletics-neighborhood"
+    },
+    "Home Park": {
+      "storyCount": 3,
+      "topStory": "10th-street-hemphill-construction-closure"
+    },
+    "Ansley Park": {
+      "storyCount": 3,
+      "topStory": "lewis-barbecue-ansley-mall-beltline"
+    },
+    "Sweet Auburn": {
+      "storyCount": 2,
+      "topStory": "georgia-works-odd-fellows-auburn-avenue"
+    },
+    "East Atlanta Village": {
+      "storyCount": 2,
+      "topStory": "kirkwood-wine-shop-finally-wine"
+    },
+    "Oakland City": {
+      "storyCount": 1,
+      "topStory": "beltline-affordable-housing-4400-units-2030-goal"
+    },
+    "Piedmont Heights": {
+      "storyCount": 1,
+      "topStory": "midtown-sewer-repairs-close-juniper"
+    },
+    "Cabbagetown": {
+      "storyCount": 1,
+      "topStory": "reynoldstown-townhomes-beltline-construction"
+    },
+    "East Point": {
+      "storyCount": 1,
+      "topStory": "east-point-affordable-housing-marta"
+    }
   }
 }

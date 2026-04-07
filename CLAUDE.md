@@ -28,10 +28,11 @@ When the user says **"run today's news"**, execute this full workflow:
 1. `npm run fetch` — fetch RSS articles from 20 sources
 2. **Summarize in Claude Code** — read `raw-articles.json`, generate digest JSON, write to `digest-latest.json` and `digest-YYYY-MM-DD.json`
 3. **Calculate cumulative neighborhood counts** — scan ALL `digest-YYYY-MM-DD.json` files and sum story counts per neighborhood across all digests. The `neighborhoods` object in the digest must show cumulative totals, not just today's counts.
-4. `npm run build` — build the static site locally
-5. `git add src/data/digest-*.json && git commit -m "update digest YYYY-MM-DD" && git push` — **REQUIRED: lock archives into git**
-6. `npm run deploy` — upload pre-built dist (no Netlify build minutes)
-7. `npm run test:deploy` — verify deployment with smoke tests
+4. `npm run images` — download story images, convert to WebP, update digest URLs to local paths
+5. `npm run build` — build the static site locally
+6. `git add src/data/digest-*.json && git commit -m "update digest YYYY-MM-DD" && git push` — **REQUIRED: lock archives into git**
+7. `npm run deploy` — upload pre-built dist (no Netlify build minutes)
+8. `npm run test:deploy` — verify deployment with smoke tests (includes image check)
 
 **IMPORTANT: Cumulative counts.** The `neighborhoods` object at the end of each digest must contain cumulative story counts across ALL archived digests, not just stories from that day. This ensures SEO value accumulates over time.
 
@@ -122,6 +123,7 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 |------|---------|
 | `scripts/fetch-articles.mjs` | RSS fetcher (20 sources) with image extraction |
 | `scripts/summarize.mjs` | Claude API summarization (currently disabled, using Claude Code instead) |
+| `scripts/download-images.mjs` | Downloads story images, converts to WebP, updates digest URLs |
 | `scripts/commit-digest.mjs` | Commits digest to git via GitHub API (for automated builds) |
 | `scripts/rollback.mjs` | Digest version management |
 | `scripts/smoke-test.mjs` | Post-deploy smoke tests (pages, redirects, story counts) |

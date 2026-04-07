@@ -27,7 +27,7 @@ const bgImage = story.imageUrl || '';
         </div>
       </div>
       <div class="hero-image">
-        {bgImage && <img src={bgImage} alt={story.imageAlt || story.headline} class="hero-img" loading="eager" />}
+        {bgImage && <img src={bgImage} alt={story.imageAlt || story.headline} class="hero-img" loading="eager" decoding="async" fetchpriority="high" width="640" height="400" />}
         <div class="hero-image-badge" aria-hidden="true">ATL</div>
       </div>
     </div>

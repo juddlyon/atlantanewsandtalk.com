@@ -14,10 +14,16 @@
     "source": "Rough Draft Atlanta",
     "sourceUrl": "https://roughdraftatlanta.com/2026/04/05/emory-umw-buzzer-beater/",
     "sources": [
-      { "name": "Rough Draft Atlanta", "url": "https://roughdraftatlanta.com/2026/04/05/emory-umw-buzzer-beater/" },
-      { "name": "WSB-TV", "url": "https://www.wsbtv.com/sports/college-basketball/emory-falls-just-short-basketball-championship-game/AJOF7WK55ZBD5PPZSB244RABT4/" }
+      {
+        "name": "Rough Draft Atlanta",
+        "url": "https://roughdraftatlanta.com/2026/04/05/emory-umw-buzzer-beater/"
+      },
+      {
+        "name": "WSB-TV",
+        "url": "https://www.wsbtv.com/sports/college-basketball/emory-falls-just-short-basketball-championship-game/AJOF7WK55ZBD5PPZSB244RABT4/"
+      }
     ],
-    "imageUrl": "https://www.wsbtv.com/resizer/v2/MYKMM25OC5BO3PA6XNM7ADTMDE.png?auth=aa1d5fc6fa36bfc9468942075e30d30c8f177a312001b5f89dbb072df7ad71b8&smart=true&width=651&height=409",
+    "imageUrl": "/images/stories/emory-d3-championship-buzzer-beater-loss.webp",
     "imageAlt": "Emory University men's basketball team during the Division III national championship game",
     "publishedAt": "2026-04-05",
     "keywords": [
@@ -27,7 +33,8 @@
       "buzzer beater",
       "druid hills",
       "ncaa"
-    ]
+    ],
+    "originalImageUrl": "https://www.wsbtv.com/resizer/v2/MYKMM25OC5BO3PA6XNM7ADTMDE.png?auth=aa1d5fc6fa36bfc9468942075e30d30c8f177a312001b5f89dbb072df7ad71b8&smart=true&width=651&height=409"
   },
   "sections": [
     {
@@ -44,7 +51,7 @@
           ],
           "source": "WSB-TV",
           "sourceUrl": "https://roughdraftatlanta.com/2026/04/05/tayari-jones-kin-novel/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/04/Tayari-Jones-600x337.jpg",
+          "imageUrl": "/images/stories/tayari-jones-kin-emory-book-launch.webp",
           "imageAlt": "Author Tayari Jones discussing her new novel Kin",
           "publishedAt": "2026-04-05",
           "keywords": [
@@ -54,7 +61,8 @@
             "oprah book club",
             "atlanta author",
             "jericho brown"
-          ]
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/04/Tayari-Jones-600x337.jpg"
         }
       ]
     },
@@ -72,7 +80,7 @@
           ],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/atlanta-united-struggles-home/",
-          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/04/untitled-2-8-scaled.jpg?fit=1024%2C683&quality=89&ssl=1",
+          "imageUrl": "/images/stories/atlanta-united-drops-404-day-match-columbus.webp",
           "imageAlt": "Atlanta United match at Mercedes-Benz Stadium on 404 Day",
           "publishedAt": "2026-04-05",
           "keywords": [
@@ -82,7 +90,8 @@
             "404 day",
             "mercedes-benz stadium",
             "soccer"
-          ]
+          ],
+          "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/04/untitled-2-8-scaled.jpg?fit=1024%2C683&quality=89&ssl=1"
         }
       ]
     },
@@ -100,7 +109,7 @@
           ],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/schools/decatur-legislators-tell-school-board-to-reset-eclc-process/article_51e96142-ab97-4164-a457-beec7b3fc3d8.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/b/98/b98f7f05-d8d5-4ffe-b4b6-d6cfe8e9f06a/69c172da4b2c7.image.jpg?resize=300%2C207",
+          "imageUrl": "/images/stories/decatur-legislators-eclc-school-board-reset.webp",
           "imageAlt": "Decatur City Schools building",
           "publishedAt": "2026-04-05",
           "keywords": [
@@ -110,7 +119,8 @@
             "bond referendum",
             "education",
             "georgia legislature"
-          ]
+          ],
+          "originalImageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/b/98/b98f7f05-d8d5-4ffe-b4b6-d6cfe8e9f06a/69c172da4b2c7.image.jpg?resize=300%2C207"
         },
         {
           "id": "georgia-state-eliminates-gender-studies-major",
@@ -150,7 +160,7 @@
           ],
           "source": "Fox 5 Atlanta",
           "sourceUrl": "https://www.wsbtv.com/news/local/atlanta/atlanta-among-top-5-cities-first-time-homebuyers-zillow-says/M5HL2E7HPFCZBHOVIP345WBJ5Q/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/QUMDFJPE3NANLE7ZKNM2KZGVKQ.jpeg?auth=76980d2f06df2eaa1153b3a791299a674492477bd3a31414acc43a34d28b7120&smart=true&width=1280&height=720",
+          "imageUrl": "/images/stories/atlanta-top-5-first-time-homebuyers-zillow.webp",
           "imageAlt": "Atlanta skyline and residential homes",
           "publishedAt": "2026-04-05",
           "keywords": [
@@ -160,7 +170,8 @@
             "affordable housing",
             "atlanta housing market",
             "first-time buyers"
-          ]
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/QUMDFJPE3NANLE7ZKNM2KZGVKQ.jpeg?auth=76980d2f06df2eaa1153b3a791299a674492477bd3a31414acc43a34d28b7120&smart=true&width=1280&height=720"
         }
       ]
     },

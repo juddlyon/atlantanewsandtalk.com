@@ -13,7 +13,7 @@
     ],
     "source": "Atlanta Civic Circle",
     "sourceUrl": "https://atlantaciviccircle.org/2026/03/14/atlanta-mayor-mudslings-firefighter-union-contract/",
-    "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/PHOTO-2026-03-10-13-43-06-e1773508038487-1024x796.jpg",
+    "imageUrl": "/images/stories/dickens-refuses-firefighter-contract.webp",
     "imageAlt": "Atlanta firefighters at a public meeting regarding union contract negotiations",
     "publishedAt": "2026-03-14T17:09:38.000Z",
     "keywords": [
@@ -22,7 +22,8 @@
       "dickens",
       "firefighter",
       "union"
-    ]
+    ],
+    "originalImageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/PHOTO-2026-03-10-13-43-06-e1773508038487-1024x796.jpg"
   },
   "sections": [
     {
@@ -39,7 +40,7 @@
           ],
           "source": "Atlanta Civic Circle",
           "sourceUrl": "https://atlantaciviccircle.org/2026/03/14/atlanta-mayor-mudslings-firefighter-union-contract/",
-          "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/PHOTO-2026-03-10-13-43-06-e1773508038487-1024x796.jpg",
+          "imageUrl": "/images/stories/dickens-refuses-firefighter-contract.webp",
           "imageAlt": "Atlanta firefighters at a public meeting regarding union contract negotiations",
           "publishedAt": "2026-03-14T17:09:38.000Z",
           "keywords": [
@@ -48,7 +49,8 @@
             "dickens",
             "firefighter",
             "union"
-          ]
+          ],
+          "originalImageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/PHOTO-2026-03-10-13-43-06-e1773508038487-1024x796.jpg"
         },
         {
           "id": "georgia-medical-cannabis-expansion",
@@ -61,7 +63,7 @@
           ],
           "source": "Georgia Recorder",
           "sourceUrl": "https://georgiarecorder.com/2026/03/12/house-passes-bill-seeking-to-ease-access-to-georgias-medical-cannabis-program/",
-          "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2023/03/P1020722-1024x769.jpg",
+          "imageUrl": "/images/stories/georgia-medical-cannabis-expansion.webp",
           "imageAlt": "Georgia medical cannabis legislation being discussed in the state capitol",
           "publishedAt": "2026-03-13T00:07:45.000Z",
           "keywords": [
@@ -70,7 +72,8 @@
             "cannabis",
             "house",
             "patients"
-          ]
+          ],
+          "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2023/03/P1020722-1024x769.jpg"
         }
       ]
     },
@@ -88,7 +91,7 @@
           ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/clarke-county/1-dead-2-critically-injured-downtown-athens-shooting/DMT3MITEMJBRVLMBIBSRVSWHII/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/ZSB6333T3BGNXOSUDJASQVGDJI.jpeg?auth=c891619946895f001b1435f9ab0e706956426cbc62a34cc6431b5485b113f7c3&smart=true&width=1920&height=1080",
+          "imageUrl": "/images/stories/deadly-athens-triple-shooting.webp",
           "imageAlt": "Police investigating triple shooting scene on North Jackson Street in downtown Athens",
           "publishedAt": "2026-03-14T21:58:56.000Z",
           "keywords": [
@@ -97,7 +100,8 @@
             "downtown",
             "murder",
             "violence"
-          ]
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/ZSB6333T3BGNXOSUDJASQVGDJI.jpeg?auth=c891619946895f001b1435f9ab0e706956426cbc62a34cc6431b5485b113f7c3&smart=true&width=1920&height=1080"
         },
         {
           "id": "south-fulton-murder-suicide",
@@ -110,7 +114,7 @@
           ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/south-fulton-county/husband-wife-found-dead-inside-south-fulton-home-police-say/RXP5WZBZEVBLRFR3SUNKZPRUPU/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/UV65LNPEQ5F6VMADN46UYPQVJA.jpeg?auth=3d4a96ebcde34ee92b8c5a93d89d82071d960e9882d320492af78286c0e406ce&smart=true&width=1280&height=720",
+          "imageUrl": "/images/stories/south-fulton-murder-suicide.webp",
           "imageAlt": "South Fulton police investigating domestic disturbance scene on Dinmont Chase",
           "publishedAt": "2026-03-14T20:24:36.000Z",
           "keywords": [
@@ -119,7 +123,8 @@
             "domestic",
             "violence",
             "swat"
-          ]
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/UV65LNPEQ5F6VMADN46UYPQVJA.jpeg?auth=3d4a96ebcde34ee92b8c5a93d89d82071d960e9882d320492af78286c0e406ce&smart=true&width=1280&height=720"
         }
       ]
     },
@@ -140,7 +145,7 @@
           ],
           "source": "Georgia Recorder",
           "sourceUrl": "https://georgiarecorder.com/briefs/u-s-senate-passes-bill-with-warnock-backed-provision-limiting-the-number-of-investor-owned-homes/",
-          "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2025/10/DSC0797-1024x683.jpg",
+          "imageUrl": "/images/stories/senate-passes-investor-home-limits.webp",
           "imageAlt": "Senator Raphael Warnock speaking about housing policy",
           "publishedAt": "2026-03-13T00:06:52.000Z",
           "keywords": [
@@ -149,7 +154,8 @@
             "warnock",
             "senate",
             "affordability"
-          ]
+          ],
+          "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2025/10/DSC0797-1024x683.jpg"
         }
       ]
     },
@@ -168,7 +174,7 @@
           ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/busy-atlanta-street-shut-down-least-6-weeks-emergency-sewer-repairs/XEDQG6YPZBD25EB7XVPXMDJVTE/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/FYAPBGYL35G55DFRUZ25THOL34.png?auth=7d125a13dca86db15659b45c10d6d16c221e02a1a546c9bf791480d9e9f68091&smart=true&width=1909&height=984",
+          "imageUrl": "/images/stories/midtown-sewer-repairs-close-juniper.webp",
           "imageAlt": "Construction barriers on Juniper Street in Midtown Atlanta for sewer repairs",
           "publishedAt": "2026-03-14T12:23:25.000Z",
           "keywords": [
@@ -177,7 +183,8 @@
             "street",
             "sewer",
             "repairs"
-          ]
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/FYAPBGYL35G55DFRUZ25THOL34.png?auth=7d125a13dca86db15659b45c10d6d16c221e02a1a546c9bf791480d9e9f68091&smart=true&width=1909&height=984"
         }
       ]
     },
@@ -195,7 +202,7 @@
           ],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/tulsa-welding-school-atlanta/",
-          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/Tulsa-Wedling-School-exterior-2026.jpeg?fit=768%2C1024&quality=89&ssl=1",
+          "imageUrl": "/images/stories/tulsa-welding-school-decatur.webp",
           "imageAlt": "Exterior of new Tulsa Welding School campus in Decatur",
           "publishedAt": "2026-03-14T12:20:05.000Z",
           "keywords": [
@@ -204,7 +211,8 @@
             "school",
             "welding",
             "jobs"
-          ]
+          ],
+          "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/Tulsa-Wedling-School-exterior-2026.jpeg?fit=768%2C1024&quality=89&ssl=1"
         }
       ]
     },
@@ -222,7 +230,7 @@
           ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/03/14/georgia-grown-chefs-2026-class/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/georgiagrown2026chefs-brandonamato-600x520.jpg",
+          "imageUrl": "/images/stories/georgia-grown-executive-chefs.webp",
           "imageAlt": "2026 Georgia Grown Executive Chef class at state capitol ceremony",
           "publishedAt": "2026-03-14T15:00:00.000Z",
           "keywords": [
@@ -231,7 +239,8 @@
             "local",
             "farm",
             "restaurant"
-          ]
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/georgiagrown2026chefs-brandonamato-600x520.jpg"
         }
       ]
     },
@@ -249,7 +258,7 @@
           ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/03/14/alliance-kendeda-playwriting-winner/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Headshot-JuCoby-600x400.jpg",
+          "imageUrl": "/images/stories/alliance-kendeda-playwriting-winner.webp",
           "imageAlt": "JuCoby Johnson, winner of the Alliance/Kendeda National Graduate Playwriting Competition",
           "publishedAt": "2026-03-14T14:21:00.000Z",
           "keywords": [
@@ -258,7 +267,8 @@
             "playwriting",
             "competition",
             "midtown"
-          ]
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Headshot-JuCoby-600x400.jpg"
         }
       ]
     },

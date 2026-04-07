@@ -14,7 +14,7 @@
     ],
     "source": "Urbanize Atlanta",
     "sourceUrl": "https://atlanta.urbanize.city/post/the-beacon-grant-park-vacant-businesses-why-southside-beltline",
-    "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/The%20Beacon%208.jpg?itok=TymA1P2H",
+    "imageUrl": "/images/stories/beacon-grant-park-vacancy-struggle.webp",
     "imageAlt": "Empty retail spaces at The Beacon warehouse complex in Grant Park",
     "publishedAt": "2026-03-13T19:18:38.000Z",
     "keywords": [
@@ -23,7 +23,8 @@
       "retail vacancy",
       "Southside Trail",
       "development"
-    ]
+    ],
+    "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/The%20Beacon%208.jpg?itok=TymA1P2H"
   },
   "sections": [
     {
@@ -41,7 +42,7 @@
           ],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/the-beacon-grant-park-vacant-businesses-why-southside-beltline",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/The%20Beacon%208.jpg?itok=TymA1P2H",
+          "imageUrl": "/images/stories/beacon-grant-park-vacancy-struggle.webp",
           "imageAlt": "Empty retail spaces at The Beacon warehouse complex in Grant Park",
           "publishedAt": "2026-03-13T19:18:38.000Z",
           "keywords": [
@@ -50,7 +51,8 @@
             "retail vacancy",
             "Southside Trail",
             "development"
-          ]
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/The%20Beacon%208.jpg?itok=TymA1P2H"
         },
         {
           "id": "westside-shelter-opposition-beltline",
@@ -63,7 +65,7 @@
           ],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/westside-homeless-shelter-beltline-opponents-want-economic-justice-massive-site",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2024-11/1060%20Donald%20Lee%20Hollowell%20Ironside%20Allen%20Morris%201.png?itok=sqcCBxx5",
+          "imageUrl": "/images/stories/westside-shelter-opposition-beltline.webp",
           "imageAlt": "Rendering of proposed development site on the Westside near the Beltline",
           "publishedAt": "2026-03-13T15:11:35.000Z",
           "keywords": [
@@ -72,7 +74,8 @@
             "Beltline",
             "community opposition",
             "Atlanta Mission"
-          ]
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2024-11/1060%20Donald%20Lee%20Hollowell%20Ironside%20Allen%20Morris%201.png?itok=sqcCBxx5"
         }
       ]
     },
@@ -91,7 +94,7 @@
           ],
           "source": "Atlanta Magazine",
           "sourceUrl": "https://www.atlantamagazine.com/news-culture-articles/the-promises-atlanta-is-making-with-a-little-over-90-days-until-the-world-cup/",
-          "imageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/worldcup95days03_xstevens.jpg",
+          "imageUrl": "/images/stories/world-cup-atlanta-downtown-preparations.webp",
           "imageAlt": "Atlanta World Cup officials speaking at Mercedes-Benz Stadium",
           "publishedAt": "2026-03-14T02:55:10.000Z",
           "keywords": [
@@ -100,7 +103,8 @@
             "MARTA",
             "Centennial Olympic Park",
             "FIFA"
-          ]
+          ],
+          "originalImageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/worldcup95days03_xstevens.jpg"
         },
         {
           "id": "10th-street-hemphill-construction-closure",
@@ -115,7 +119,7 @@
           ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/atlanta/emergency-construction-shut-down-busy-atlanta-street-several-weeks/XZQELXNGRRFXHJG4L7ZHM4DO7A/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/PF64SMFZZVGWBDBMMFR2D2NPOI.jpg?auth=42d54236c2cd88fdb354accf84937d6b1008cb5cdbcf37f44d32c975adb21e4b&smart=true&width=1300&height=865",
+          "imageUrl": "/images/stories/10th-street-hemphill-construction-closure.webp",
           "imageAlt": "Construction equipment at Atlanta street intersection",
           "publishedAt": "2026-03-15T11:52:35.000Z",
           "keywords": [
@@ -124,7 +128,8 @@
             "construction",
             "10th Street",
             "traffic"
-          ]
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/PF64SMFZZVGWBDBMMFR2D2NPOI.jpg?auth=42d54236c2cd88fdb354accf84937d6b1008cb5cdbcf37f44d32c975adb21e4b&smart=true&width=1300&height=865"
         }
       ]
     },
@@ -142,7 +147,7 @@
           ],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/news/decatur/decatur-city-commission-to-discuss-replacing-watchfest-mural/article_eef3273c-06ff-489d-87a2-6a7dfc0cc009.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/1/d2/1d29ce0e-5d18-4a9b-9029-014c463ddb06/691bca848b530.image.png?resize=300%2C318",
+          "imageUrl": "/images/stories/decatur-watchfest-mural-replacement.webp",
           "imageAlt": "Decatur City Hall building where commission meets",
           "publishedAt": "2026-03-13T19:03:00.000Z",
           "keywords": [
@@ -151,7 +156,8 @@
             "city commission",
             "mural",
             "community"
-          ]
+          ],
+          "originalImageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/1/d2/1d29ce0e-5d18-4a9b-9029-014c463ddb06/691bca848b530.image.png?resize=300%2C318"
         },
         {
           "id": "firefighter-union-contract-dispute",
@@ -164,7 +170,7 @@
           ],
           "source": "Atlanta Civic Circle",
           "sourceUrl": "https://atlantaciviccircle.org/2026/03/14/atlanta-mayor-mudslings-firefighter-union-contract/",
-          "imageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/PHOTO-2026-03-10-13-43-06-e1773508038487-1024x796.jpg",
+          "imageUrl": "/images/stories/firefighter-union-contract-dispute.webp",
           "imageAlt": "Atlanta firefighters at a union meeting",
           "publishedAt": "2026-03-14T17:09:38.000Z",
           "keywords": [
@@ -173,7 +179,8 @@
             "Andre Dickens",
             "labor dispute",
             "Atlanta"
-          ]
+          ],
+          "originalImageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/PHOTO-2026-03-10-13-43-06-e1773508038487-1024x796.jpg"
         }
       ]
     },
@@ -213,7 +220,7 @@
           ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/clarke-county/1-dead-2-critically-injured-downtown-athens-shooting/DMT3MITEMJBRVLMBIBSRVSWHII/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-15-2026%2Ft_2a63ab7188c0463e81a4abd2d99d991d_name_6PV_SHOOTING_NORTH_ATHENS_VO_transfer_frame_3291.jpeg?auth=372d41dc421cd56c49d8e2fb5fee1e92f1a22099b357c90a5f36c4c23161d36e&smart=true&width=1280&height=720",
+          "imageUrl": "/images/stories/athens-triple-shooting-arrest.webp",
           "imageAlt": "Police investigating downtown Athens shooting scene",
           "publishedAt": "2026-03-15T04:09:33.000Z",
           "keywords": [
@@ -222,7 +229,8 @@
             "downtown Athens",
             "university area",
             "violence"
-          ]
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-15-2026%2Ft_2a63ab7188c0463e81a4abd2d99d991d_name_6PV_SHOOTING_NORTH_ATHENS_VO_transfer_frame_3291.jpeg?auth=372d41dc421cd56c49d8e2fb5fee1e92f1a22099b357c90a5f36c4c23161d36e&smart=true&width=1280&height=720"
         }
       ]
     },
@@ -240,7 +248,7 @@
           ],
           "source": "Atlanta Magazine",
           "sourceUrl": "https://www.atlantamagazine.com/news-culture-articles/atlanta-hairstylist-shunika-terry-never-thought-shed-work-in-film-now-shes-nominated-for-an-oscar/",
-          "imageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/shunikaterry_mbj_courtesy.jpg",
+          "imageUrl": "/images/stories/atlanta-oscar-nominee-hairstylist.webp",
           "imageAlt": "Shunika Terry with Michael B. Jordan at the 2026 Oscars luncheon",
           "publishedAt": "2026-03-13T18:56:31.000Z",
           "keywords": [
@@ -249,7 +257,8 @@
             "hairstylist",
             "Sinners movie",
             "entertainment industry"
-          ]
+          ],
+          "originalImageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/03/shunikaterry_mbj_courtesy.jpg"
         },
         {
           "id": "alliance-theatre-playwriting-winner",
@@ -262,7 +271,7 @@
           ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/03/14/alliance-kendeda-playwriting-winner/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Headshot-JuCoby-600x400.jpg",
+          "imageUrl": "/images/stories/alliance-theatre-playwriting-winner.webp",
           "imageAlt": "Playwright JuCoby Johnson, winner of Alliance Theatre competition",
           "publishedAt": "2026-03-14T14:21:00.000Z",
           "keywords": [
@@ -271,7 +280,8 @@
             "Southern Gothic",
             "theater",
             "Kendeda competition"
-          ]
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Headshot-JuCoby-600x400.jpg"
         }
       ]
     },
@@ -289,7 +299,7 @@
           ],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/tulsa-welding-school-atlanta/",
-          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/Tulsa-Wedling-School-exterior-2026.jpeg?fit=768%2C1024&quality=89&ssl=1",
+          "imageUrl": "/images/stories/tulsa-welding-school-decatur-opens.webp",
           "imageAlt": "New Tulsa Welding School campus building in Decatur",
           "publishedAt": "2026-03-14T12:20:05.000Z",
           "keywords": [
@@ -298,7 +308,8 @@
             "Decatur",
             "workforce development",
             "HVAC"
-          ]
+          ],
+          "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/Tulsa-Wedling-School-exterior-2026.jpeg?fit=768%2C1024&quality=89&ssl=1"
         }
       ]
     }

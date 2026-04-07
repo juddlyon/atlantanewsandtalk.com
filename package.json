@@ -15,8 +15,9 @@
     "validate": "node scripts/validate-digest.mjs",
     "validate:build": "node scripts/validate-build.mjs",
     "update": "node scripts/fetch-articles.mjs && node scripts/summarize.mjs && node scripts/validate-digest.mjs",
-    "publish": "npm run update && npm run build && git add src/data/digest-latest.json && git commit -m 'update digest' && git push",
+    "publish": "npm run build && git add src/data/digest-*.json && git commit -m \"update digest $(date +%Y-%m-%d)\" && git push && npm run deploy && npm run test:deploy",
     "rollback": "node scripts/rollback.mjs",
+    "images": "node scripts/download-images.mjs",
     "deploy": "netlify deploy --prod --dir=dist",
     "test:deploy": "node scripts/smoke-test.mjs",
     "test": "vitest run",
@@ -34,6 +35,7 @@
     "crawlee": "^3.16.0",
     "marked": "^17.0.4",
     "rss-parser": "^3.13.0",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4.2.1"
   },
   "devDependencies": {

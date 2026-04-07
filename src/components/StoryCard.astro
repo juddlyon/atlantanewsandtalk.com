@@ -15,7 +15,7 @@ const articleUrl = `/${story.id}/`;
 <article class:list={['card', { featured }]}>
   {showImage && story.imageUrl && (
     <a href={articleUrl} class="card-img-wrap">
-      <img src={story.imageUrl} alt={story.imageAlt || story.headline} loading="lazy" width="640" height="400" />
+      <img src={story.imageUrl} alt={story.imageAlt || story.headline} loading="lazy" decoding="async" width="640" height="400" />
     </a>
   )}
   {/* No fallback image block. Cards without images are text-only with the gradient stripe. */}

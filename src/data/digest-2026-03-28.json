@@ -8,13 +8,24 @@
     "summary": "Protesters filled the streets from the Memorial Drive Greenway to the State Capitol on Saturday, joining nationwide demonstrations. Senator Raphael Warnock urged the crowd to stand up for democracy.",
     "body": "Thousands of protesters marched through downtown Atlanta on Saturday as part of the nationwide No Kings demonstrations against the Trump administration's policies. The Atlanta march began at the Memorial Drive Greenway and ended at the State Capitol.\n\nSenator Raphael Warnock addressed the crowd, encouraging attendees to \"stand up for our democracy.\" Common Cause Georgia's Rosario Palacios reminded marchers that they were walking the same route as Dr. King's 1968 funeral procession down what is now Martin Luther King Jr. Drive.\n\nProtests also took place in Decatur, where about 200 people gathered along Clairmont Road by 10:45 a.m. Other demonstrations happened in Marietta, Sandy Springs, Smyrna, McDonough, and Fayetteville. Organizers said about 450 people showed up at the McDonough stop alone.\n\nVeterans were a visible presence at the downtown rally. Army veteran Marc McCaughey called the administration's actions an attempt to \"subvert the Constitution.\" Another veteran, Luke White, carried American flags and criticized recent military actions as lacking Congressional approval.",
     "neighborhood": "Downtown",
-    "neighborhoods": ["Downtown", "Decatur"],
+    "neighborhoods": [
+      "Downtown",
+      "Decatur"
+    ],
     "source": "Rough Draft Atlanta",
     "sourceUrl": "https://roughdraftatlanta.com/2026/03/28/no-kings-protests-atlanta-2/",
-    "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/IMG_3205-450x600.jpg?crop=1",
+    "imageUrl": "/images/stories/no-kings-protests-atlanta-march-2026.webp",
     "imageAlt": "No Kings protesters marching to the Georgia State Capitol in downtown Atlanta",
     "publishedAt": "2026-03-28",
-    "keywords": ["no kings", "protests", "downtown atlanta", "state capitol", "raphael warnock", "decatur"]
+    "keywords": [
+      "no kings",
+      "protests",
+      "downtown atlanta",
+      "state capitol",
+      "raphael warnock",
+      "decatur"
+    ],
+    "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/IMG_3205-450x600.jpg?crop=1"
   },
   "sections": [
     {
@@ -26,13 +37,24 @@
           "summary": "From the Gulch to Broad Street, more than a dozen high-profile openings are on track for May. CNN Center will reopen as The Center, and the BeltLine's new MARTA line debuts next month.",
           "body": "With 80 days until the first World Cup match in Atlanta, South Downtown is looking like a different place. From Mercedes-Benz Stadium's doorstep to the streets around the Gold Dome, a wave of new restaurants, bars, and entertainment venues are racing to open before soccer fans arrive from around the world.\n\nAtlanta Ventures partner Jon Birdsong says all retail and food-and-beverage concepts at his company's 58 historic South Downtown buildings are on pace to open by May 15. Bottle Rocket, the beloved Castleberry Hill burger and sushi spot, could open even earlier.\n\nCNN Center is being remade as The Center and is set to reopen in May with a new food hall focus. Meanwhile, the new MARTA transit line connecting South Downtown to Summerhill is scheduled to debut in April.\n\nThis marks the largest injection of downtown investment in 30 years, since Atlanta hosted the 1996 Olympics. For longtime downtown skeptics, the World Cup may finally deliver on promises of urban revival.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown", "Castleberry Hill"],
+          "neighborhoods": [
+            "Downtown",
+            "Castleberry Hill"
+          ],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/photos-historic-south-downtown-atl-now-80-days-fifa-world-cup",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/1%20South%20Downtown%20March%202026%20.jpg?itok=Dh-MWRL_",
+          "imageUrl": "/images/stories/south-downtown-world-cup-transformation-2026.webp",
           "imageAlt": "South Downtown Atlanta development progress with World Cup preparations underway",
           "publishedAt": "2026-03-27",
-          "keywords": ["south downtown", "world cup", "fifa", "cnn center", "downtown atlanta", "castleberry hill"]
+          "keywords": [
+            "south downtown",
+            "world cup",
+            "fifa",
+            "cnn center",
+            "downtown atlanta",
+            "castleberry hill"
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/1%20South%20Downtown%20March%202026%20.jpg?itok=Dh-MWRL_"
         },
         {
           "id": "beltline-peachtree-creek-bridge-disassembly",
@@ -40,13 +62,22 @@
           "summary": "Less than a year after installation, the sweeping suspension bridge over Peachtree Creek is being torn down. A concrete pour went wrong, forcing the contractor to start over.",
           "body": "That impressive suspension bridge over Peachtree Creek on the BeltLine's Northwest Trail? It's coming apart. Less than a year after installation, contractor Reeves Young is disassembling the one-of-a-kind structure after an issue arose during a concrete deck pour.\n\nAtlanta BeltLine Inc. says an independent engineering review found problems requiring \"further evaluation and corrective action by the contractor.\" The poured concrete has already been removed, and crews are now taking apart the steel.\n\nThe bridge was part of Northwest Trail Segment 1 construction in Buckhead. When completed last May, commenters called it \"quite impressive in person\" and \"bigger than you'd think for a trail bridge.\"\n\nBeltLine officials note that no other sections of the 22-mile loop include a bridge of this type. There's no timeline yet for when the rebuilt bridge might be ready.",
           "neighborhood": "Buckhead",
-          "neighborhoods": ["Buckhead"],
+          "neighborhoods": [
+            "Buckhead"
+          ],
           "source": "Atlanta Civic Circle",
           "sourceUrl": "https://atlanta.urbanize.city/post/beltline-peachtree-creek-bridge-delay-being-disassembled",
-          "imageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/March%20Peachtree%20Creek%20bridge%20Beltline%20Northwest%20Trail%202_0.png?itok=1fy6dAlz",
+          "imageUrl": "/images/stories/beltline-peachtree-creek-bridge-disassembly.webp",
           "imageAlt": "BeltLine Peachtree Creek suspension bridge during disassembly",
           "publishedAt": "2026-03-27",
-          "keywords": ["beltline", "northwest trail", "peachtree creek", "buckhead", "construction"]
+          "keywords": [
+            "beltline",
+            "northwest trail",
+            "peachtree creek",
+            "buckhead",
+            "construction"
+          ],
+          "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/March%20Peachtree%20Creek%20bridge%20Beltline%20Northwest%20Trail%202_0.png?itok=1fy6dAlz"
         },
         {
           "id": "east-point-affordable-housing-marta",
@@ -54,13 +85,22 @@
           "summary": "The Fifty-Five will offer one-, two-, and three-bedroom apartments for households earning 30% to 80% of area median income. Amenities include a fitness center and community space.",
           "body": "A new 60-unit affordable housing project is officially underway in East Point. Gorman & Company broke ground on The Fifty-Five on Friday, located at 2855 East Point Street near the East Point MARTA station.\n\nThe mixed-income development will include one-, two-, and three-bedroom apartments for households earning between 30% and 80% of the area median income. Amenities will include a fitness center, computer lab, community space, and outdoor gathering areas.\n\nThe transit-oriented location is key. Residents will have direct access to MARTA, making it easier to commute without a car. That aligns with East Point's broader push to develop walkable, transit-connected neighborhoods.\n\n\"By creating new affordable housing in a multi-modal location, we're helping ensure East Point residents can remain in the community they call home while continuing to thrive,\" said Joel Reed, Southeast Market President at Gorman & Company.",
           "neighborhood": "East Point",
-          "neighborhoods": ["East Point"],
+          "neighborhoods": [
+            "East Point"
+          ],
           "source": "What Now Atlanta",
           "sourceUrl": "https://whatnow.com/atlanta/real-estate/new-60-unit-mixed-income-mixed-use-project-to-break-ground-in-east-point/",
-          "imageUrl": "https://whatnow.com/wp-content/uploads/2026/03/unnamed-4-1-768x432.jpg",
+          "imageUrl": "/images/stories/east-point-affordable-housing-marta.webp",
           "imageAlt": "Rendering of The Fifty-Five affordable housing development in East Point",
           "publishedAt": "2026-03-26",
-          "keywords": ["east point", "affordable housing", "marta", "transit oriented", "the fifty-five"]
+          "keywords": [
+            "east point",
+            "affordable housing",
+            "marta",
+            "transit oriented",
+            "the fifty-five"
+          ],
+          "originalImageUrl": "https://whatnow.com/wp-content/uploads/2026/03/unnamed-4-1-768x432.jpg"
         }
       ]
     },
@@ -73,13 +113,23 @@
           "summary": "House and Senate passed different bills and left for a two-week recess. Trump signed an executive action to pay TSA workers, but the broader Homeland Security shutdown hits 44 days Sunday.",
           "body": "The Department of Homeland Security shutdown stretches on. Congress adjourned for a two-week spring break Friday after the House and Senate passed vastly different funding bills, leaving no resolution in sight.\n\nThe Senate passed a deal early Friday that would have funded TSA and most DHS agencies. But House Republicans rejected it because it didn't include extra money for Immigration and Customs Enforcement. The House instead passed an eight-week stopgap bill with little chance of Senate approval.\n\nPresident Trump signed an executive action Friday to pay TSA workers, citing airport security as a national emergency. Homeland Security Secretary Markwayne Mullin said paychecks should start arriving Monday.\n\nBut the broader shutdown continues. The partial closure hits 44 days on Sunday, surpassing last fall's 43-day government-wide shutdown. At Hartsfield-Jackson, about 40% of TSA workers have been calling out, though lines were surprisingly short Friday afternoon.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "Georgia Recorder",
           "sourceUrl": "https://georgiarecorder.com/2026/03/27/repub/us-senate-votes-to-leave-out-ice-border-patrol-funding-in-deal-on-homeland-security-house-next/",
-          "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/03/atlanta2026airport-1024x683.jpg",
+          "imageUrl": "/images/stories/house-senate-dhs-shutdown-impasse-continues.webp",
           "imageAlt": "Security lines at Hartsfield-Jackson Atlanta International Airport during DHS shutdown",
           "publishedAt": "2026-03-27",
-          "keywords": ["hartsfield-jackson", "tsa", "shutdown", "airport", "dhs", "congress"]
+          "keywords": [
+            "hartsfield-jackson",
+            "tsa",
+            "shutdown",
+            "airport",
+            "dhs",
+            "congress"
+          ],
+          "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/03/atlanta2026airport-1024x683.jpg"
         },
         {
           "id": "tyler-perry-tsa-gift-cards-atlanta",
@@ -87,13 +137,22 @@
           "summary": "The filmmaker and Atlanta studio owner stepped up to help unpaid federal workers at Hartsfield-Jackson during the ongoing DHS shutdown.",
           "body": "As TSA workers at Hartsfield-Jackson go without paychecks during the DHS shutdown, Tyler Perry stepped in with help. The filmmaker donated $250,000 in gift cards to Atlanta's transportation security officers.\n\nPerry, who runs Tyler Perry Studios in southwest Atlanta, has a history of large charitable gestures. This one comes as TSA workers nationwide face financial hardship during the longest partial government shutdown on record.\n\nWith about 40% of Atlanta's TSA workforce calling out in recent weeks, the airport has struggled to maintain normal security operations. Some officers have quit entirely to find paying work elsewhere.\n\nPerry's donation provides at least temporary relief while Congress remains deadlocked on funding.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "AJC",
           "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZERoRk9tenowaDJpM3FvNW5Zdk1tQ3BIczFyWUlxVXZnbFJ5UFJ6YmFrUUZiM3VZOG5RV2hfWUR0cFdFMkEzSUNaM0diSmI5ejlkMEo2MlVsOE9MUUlqRXFFdkkwZkU0TFBEVlIyaXlDRkxuYW9UcGFPQ3BQcEZJdFJ1M2NDTFhnU2NWX2s0SlNnaEdIamV3NmFHc1UyRnJkd1U0?oc=5",
-          "imageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/03/atlanta2026airport-1024x683.jpg",
+          "imageUrl": "/images/stories/tyler-perry-tsa-gift-cards-atlanta.webp",
           "imageAlt": "TSA workers at Hartsfield-Jackson Atlanta International Airport",
           "publishedAt": "2026-03-27",
-          "keywords": ["tyler perry", "tsa", "hartsfield-jackson", "shutdown", "gift cards"]
+          "keywords": [
+            "tyler perry",
+            "tsa",
+            "hartsfield-jackson",
+            "shutdown",
+            "gift cards"
+          ],
+          "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/03/atlanta2026airport-1024x683.jpg"
         }
       ]
     },
@@ -106,13 +165,23 @@
           "summary": "Meeples Games and Goods will open at The Beacon this summer with a game library, coffee, beer, wine, and baked goods. Owner Inez Falcon-Haus wants to build community through play.",
           "body": "Grant Park is getting a dedicated spot for board game lovers. Meeples Games and Goods will open at The Beacon, 1039 Grant St., targeting a late summer launch depending on permits and construction.\n\nThe concept centers on a board game library where you pay a one-time fee to play as many games as you want. There will also be coffee, baked goods, beer, wine, and potential partnerships with local food vendors. Owner Inez Falcon-Haus is designing the space to be family-friendly, with games specifically curated for children.\n\n\"We want to make an environment where people want to come with their friends and family,\" Falcon-Haus told What Now Atlanta. The open floor plan will accommodate various group sizes.\n\nThe location right off the BeltLine should help draw visitors from across the city. \"We're really excited to get started,\" Falcon-Haus said. \"We hope to be a place that brings people together.\"",
           "neighborhood": "Grant Park",
-          "neighborhoods": ["Grant Park"],
+          "neighborhoods": [
+            "Grant Park"
+          ],
           "source": "What Now Atlanta",
           "sourceUrl": "https://whatnow.com/atlanta/restaurants/board-game-cafe-planned-for-the-beacon-in-grant-park/",
-          "imageUrl": "https://whatnow.com/wp-content/uploads/2026/03/Board-Game-Cafe-Planned-For-The-Beacon-In-Grant-Park-768x434.png",
+          "imageUrl": "/images/stories/meeples-board-game-cafe-grant-park-beltline.webp",
           "imageAlt": "Rendering of Meeples Games and Goods board game cafe coming to Grant Park",
           "publishedAt": "2026-03-27",
-          "keywords": ["grant park", "board games", "cafe", "beltline", "meeples", "the beacon"]
+          "keywords": [
+            "grant park",
+            "board games",
+            "cafe",
+            "beltline",
+            "meeples",
+            "the beacon"
+          ],
+          "originalImageUrl": "https://whatnow.com/wp-content/uploads/2026/03/Board-Game-Cafe-Planned-For-The-Beacon-In-Grant-Park-768x434.png"
         },
         {
           "id": "skol-brewing-valhalla-gaming-lounge-downtown",
@@ -120,13 +189,22 @@
           "summary": "Valhalla Gaming Lounge should debut in May, just in time for World Cup. Expect simulators, bocce courts, billiards, darts, and an old-school arcade.",
           "body": "Skol Brewing Company is about to get a lot bigger. The Nordic-themed brewpub in the 200 Peachtree building (the former Davison's/Macy's department store) is expanding into a massive adjacent space dedicated to gaming.\n\nValhalla Gaming Lounge will span 30,000 square feet and feature more than 40 gaming options: simulators, soccer experiences, bocce courts, billiard tables, darts, and classic arcade games. A live-music stage and climbing wall could come later.\n\nThe timing is deliberate. Valhalla is targeting a May opening, right before World Cup matches begin at nearby Mercedes-Benz Stadium. With soccer fans from around the world descending on downtown Atlanta, Skol is betting they'll want somewhere to unwind.\n\nFood and drinks from Skol's existing menu will be served at Valhalla. The brewpub already operates an axe-throwing venue through a partnership with American Axes.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/03/28/valhalla-gaming-lounge-opening-skol-brewing-downtown-atlanta/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/skolbrewinggaminglounge-rendering-600x400.png",
+          "imageUrl": "/images/stories/skol-brewing-valhalla-gaming-lounge-downtown.webp",
           "imageAlt": "Rendering of Valhalla Gaming Lounge at Skol Brewing in downtown Atlanta",
           "publishedAt": "2026-03-28",
-          "keywords": ["downtown atlanta", "skol brewing", "gaming lounge", "world cup", "200 peachtree"]
+          "keywords": [
+            "downtown atlanta",
+            "skol brewing",
+            "gaming lounge",
+            "world cup",
+            "200 peachtree"
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/skolbrewinggaminglounge-rendering-600x400.png"
         },
         {
           "id": "mister-eater-afro-caribbean-buckhead",
@@ -134,13 +212,22 @@
           "summary": "The new restaurant at 2628 Piedmont Rd. NE will serve dishes inspired by Liberia, Ghana, Nigeria, Haiti, Sierra Leone, and Jamaica. Grand opening planned for early May.",
           "body": "Buckhead is getting a new restaurant focused on Afro-Caribbean cuisine. Mister Eater is targeting an early May opening at 2628 Piedmont Rd. NE.\n\nThe restaurant promises to be \"rooted in tradition\" and \"bursting with flavor,\" according to its Instagram page. The menu will draw from culinary traditions across West Africa and the Caribbean, including Liberia, Ghana, Nigeria, Haiti, Sierra Leone, and Jamaica.\n\nThe location puts Mister Eater near The Juicy Crab, Pure Green, and Talkin' Tacos along Piedmont Road. Details on the full menu and ownership are still forthcoming.",
           "neighborhood": "Buckhead",
-          "neighborhoods": ["Buckhead"],
+          "neighborhoods": [
+            "Buckhead"
+          ],
           "source": "What Now Atlanta",
           "sourceUrl": "https://whatnow.com/atlanta/restaurants/mister-eater-slated-to-join-buckhead-this-spring/",
-          "imageUrl": "https://whatnow.com/wp-content/uploads/2026/03/84.36777186741416-768x435.jpeg",
+          "imageUrl": "/images/stories/mister-eater-afro-caribbean-buckhead.webp",
           "imageAlt": "Location of upcoming Mister Eater Afro-Caribbean restaurant in Buckhead",
           "publishedAt": "2026-03-27",
-          "keywords": ["buckhead", "afro-caribbean", "restaurant", "mister eater", "piedmont road"]
+          "keywords": [
+            "buckhead",
+            "afro-caribbean",
+            "restaurant",
+            "mister eater",
+            "piedmont road"
+          ],
+          "originalImageUrl": "https://whatnow.com/wp-content/uploads/2026/03/84.36777186741416-768x435.jpeg"
         }
       ]
     },
@@ -153,13 +240,24 @@
           "summary": "Space Explorers: THE INFINITE lets you explore a life-size replica of the International Space Station through virtual reality. 21 days to build. Over 60 videos. Cameras sent to actual space.",
           "body": "You can now experience life aboard the International Space Station without leaving Atlanta. Space Explorers: THE INFINITE opens today at Pullman Yards, bringing the world's largest immersive space experience to the city.\n\nThe exhibition features a life-size replica of the ISS that you explore through virtual reality headsets. The content comes from specialized cameras that PHI Studio and Felix & Paul Studios actually sent to the space station starting in 2021. Over two years and six missions, those cameras captured astronauts' daily lives in full 360-degree footage.\n\nThe Pullman Yards installation took 21 days to build and spans four chapters with more than 60 unique videos. Some cameras had nine to ten lenses, allowing for complete freedom of movement while viewing.\n\nThe exhibition has already drawn over half a million visitors across global stops including Montreal, Houston, and Singapore. This Atlanta run is limited engagement.",
           "neighborhood": "Kirkwood",
-          "neighborhoods": ["Kirkwood", "East Atlanta"],
+          "neighborhoods": [
+            "Kirkwood",
+            "East Atlanta"
+          ],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/immersive-space-iss-experience/",
-          "imageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/SPACE_1A.jpeg?fit=768%2C1024&quality=89&ssl=1",
+          "imageUrl": "/images/stories/space-explorers-infinite-pullman-yards.webp",
           "imageAlt": "Space Explorers: THE INFINITE immersive experience at Pullman Yards",
           "publishedAt": "2026-03-27",
-          "keywords": ["pullman yards", "space station", "iss", "virtual reality", "kirkwood", "immersive"]
+          "keywords": [
+            "pullman yards",
+            "space station",
+            "iss",
+            "virtual reality",
+            "kirkwood",
+            "immersive"
+          ],
+          "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/03/SPACE_1A.jpeg?fit=768%2C1024&quality=89&ssl=1"
         },
         {
           "id": "atlanta-symphony-piedmont-park-free-concert",
@@ -167,13 +265,22 @@
           "summary": "The orchestra will perform on Oak Hill at 6 p.m. The program celebrates America's 250th birthday with works by John Williams, Leonard Bernstein, Florence Price, and a teenage Georgia composer.",
           "body": "Mark your calendars. The Atlanta Symphony Orchestra is heading back to Piedmont Park for a free concert on Sunday, April 19, at 6 p.m. on Oak Hill.\n\nConductor Finan Jones is leading a program designed to celebrate the nation's 250th birthday. The setlist includes works by John Williams, Leonard Bernstein, and Florence Price, plus pieces by William Grant Still and a teenage Georgia composer's \"Reflections on Georgia.\" The finale is Dvorak's Symphony No. 9 \"From the New World.\"\n\nArrive early. The park fills up quickly for these annual concerts, and prime blanket spots go fast. There's no admission charge.\n\n\"Returning to perform in Piedmont Park is a cherished tradition,\" said ASO Executive Director Jennifer Barlament. The orchestra sees it as a chance to share music \"in a gorgeous setting under the stars.\"",
           "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown"],
+          "neighborhoods": [
+            "Midtown"
+          ],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/03/28/atlanta-symphony-piedmont-concert/",
-          "imageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Screenshot-2026-03-28-at-10.52.39-AM-600x382.png",
+          "imageUrl": "/images/stories/atlanta-symphony-piedmont-park-free-concert.webp",
           "imageAlt": "Atlanta Symphony Orchestra performing at Piedmont Park",
           "publishedAt": "2026-03-28",
-          "keywords": ["atlanta symphony", "piedmont park", "free concert", "midtown", "john williams"]
+          "keywords": [
+            "atlanta symphony",
+            "piedmont park",
+            "free concert",
+            "midtown",
+            "john williams"
+          ],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Screenshot-2026-03-28-at-10.52.39-AM-600x382.png"
         },
         {
           "id": "404-day-atlanta-events-2026",
@@ -181,13 +288,22 @@
           "summary": "The annual celebration of Black Atlanta culture is April 4. Free block party at Underground, parade down Peachtree Street, and a scholarship gala kick things off.",
           "body": "Atlanta's signature celebration of Black culture returns next week. 404 Day falls on April 4, and Official 404 Day has a full slate of events planned in partnership with Atlanta Influences Everything and Butter.ATL.\n\nThe 404 Day Block Party takes over Underground Atlanta from noon to 5 p.m. on Saturday, April 4. Expect live music, food trucks, interactive experiences, and local vendors. It's free, but RSVP in advance to guarantee your spot.\n\nThe 404 Day Parade kicks off at 10 a.m. that same morning, marching down Peachtree Street with floats, marching bands, and dancers. And if you want to support the cause, The 404 Fund Scholarship Gala happens Thursday, April 2, at Monday Night Brewing's Garage location. Tickets are $150 and tax-deductible.\n\n\"Globally, Atlanta culture is important, and it has been for a long time,\" says Tory Edwards, co-founder of Atlanta Influences Everything.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "Capital B Atlanta",
           "sourceUrl": "https://atlanta.capitalbnews.org/atlanta-404-day-events/",
-          "imageUrl": "https://i0.wp.com/atlanta.capitalbnews.org/wp-content/uploads/2026/03/GettyImages-1389578840-scaled.jpg?fit=1024%2C683&ssl=1",
+          "imageUrl": "/images/stories/404-day-atlanta-events-2026.webp",
           "imageAlt": "404 Day celebration in Atlanta",
           "publishedAt": "2026-03-27",
-          "keywords": ["404 day", "atlanta culture", "underground atlanta", "black atlanta", "parade"]
+          "keywords": [
+            "404 day",
+            "atlanta culture",
+            "underground atlanta",
+            "black atlanta",
+            "parade"
+          ],
+          "originalImageUrl": "https://i0.wp.com/atlanta.capitalbnews.org/wp-content/uploads/2026/03/GettyImages-1389578840-scaled.jpg?fit=1024%2C683&ssl=1"
         }
       ]
     },
@@ -200,13 +316,23 @@
           "summary": "The legislation targets district attorneys, commissioners, and clerks in Fulton, DeKalb, Gwinnett, Cobb, and Clayton counties. DA Fani Willis called it \"blatantly unconstitutional.\"",
           "body": "The Georgia House gave final approval Friday to legislation that would eliminate party labels from local elections in the state's five most populous metro Atlanta counties. The bill targets district attorneys, solicitors general, county commissioners, court clerks, and tax commissioners.\n\nSponsor Senator John Albers says the change promotes public safety and moves elections away from political games. If signed, the new rules would take effect in 2028.\n\nFulton County DA Fani Willis isn't having it. \"This bill is a blatantly unconstitutional attack on metro Atlanta voters, driven in part by race and by legislators who are trying to rewrite the rules because they do not like the outcomes of free and fair elections,\" she said.\n\nThe District Attorneys' Association of Georgia has promised legal challenges. It's unclear if Governor Brian Kemp will sign the bill.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown", "Decatur"],
+          "neighborhoods": [
+            "Downtown",
+            "Decatur"
+          ],
           "source": "Fox 5 Atlanta",
           "sourceUrl": "https://www.fox5atlanta.com/news/georgia-house-passes-nonpartisan-election-bill-metro-atlanta",
-          "imageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2023/02/931/523/snapshot-2023-02-21T191438.428.jpg?ve=1&tl=1",
+          "imageUrl": "/images/stories/georgia-nonpartisan-da-elections-metro-atlanta.webp",
           "imageAlt": "Georgia State Capitol where nonpartisan election bill passed",
           "publishedAt": "2026-03-27",
-          "keywords": ["georgia legislature", "nonpartisan elections", "fani willis", "fulton county", "dekalb"]
+          "keywords": [
+            "georgia legislature",
+            "nonpartisan elections",
+            "fani willis",
+            "fulton county",
+            "dekalb"
+          ],
+          "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2023/02/931/523/snapshot-2023-02-21T191438.428.jpg?ve=1&tl=1"
         },
         {
           "id": "georgia-senate-hand-marked-paper-ballots",
@@ -214,13 +340,22 @@
           "summary": "If it becomes law, Georgia would abandon electronic voting machines for the November election. The bill also strips power from the Secretary of State over election challenges.",
           "body": "Georgia Senators voted along party lines Friday to pass sweeping election legislation that would require hand-marked paper ballots for the November election. The bill eliminates the state's current touchscreen Ballot Marking Devices.\n\nUnder the new system, voters would fill out ballots by hand. Machines would tabulate the paper records, and mandatory hand counts would begin just two days after polls close.\n\nThe bill also significantly changes election oversight. It removes the Secretary of State's role in supervising election challenges and recounts, placing that authority solely with the State Election Board.\n\nDemocrats warned the labor-intensive hand recounts are a \"bad use of tax dollars\" and invite human error. Senator Emanuel Jones called it \"voter suppression by dysfunction.\" Republicans, led by Senator Greg Dolezal, celebrated moving Georgia away from the \"outlier\" status of using ballot marking devices.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "Fox 5 Atlanta",
           "sourceUrl": "https://www.fox5atlanta.com/news/georgia-senate-passes-bill-hand-marked-paper-ballots",
-          "imageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2023/02/931/523/snapshot-2023-02-21T191438.428.jpg?ve=1&tl=1",
+          "imageUrl": "/images/stories/georgia-senate-hand-marked-paper-ballots.webp",
           "imageAlt": "Georgia State Capitol where paper ballot bill passed",
           "publishedAt": "2026-03-27",
-          "keywords": ["georgia elections", "paper ballots", "voting", "state legislature", "downtown"]
+          "keywords": [
+            "georgia elections",
+            "paper ballots",
+            "voting",
+            "state legislature",
+            "downtown"
+          ],
+          "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2023/02/931/523/snapshot-2023-02-21T191438.428.jpg?ve=1&tl=1"
         },
         {
           "id": "fulton-county-doj-2020-ballots-hearing",
@@ -228,13 +363,22 @@
           "summary": "After FBI agents raided an elections warehouse in January, the county argued in federal court that the search warrant was based on an affidavit \"full of lies.\" The judge is taking time to decide.",
           "body": "Attorneys for Fulton County faced off against the Justice Department in federal court Friday, fighting to recover more than 650 boxes of 2020 election documents seized by the FBI in January.\n\nThe county's attorney, Abbe Lowell, argued that FBI agents misled the magistrate judge who authorized the raid. He called the affidavit supporting the warrant \"full of lies\" and said witnesses \"completely misstate each of the alleged problems\" from the 2020 election.\n\nAssistant Attorney General Tysen Duva acknowledged the FBI agent \"may have missed a thing or two\" but maintained there was enough information to justify the warrant. He also tried to distance the investigation from Kurt Olsen, Trump's director of election security, who made the criminal referral and has been sanctioned for his election claims.\n\nJudge JP Boulee didn't issue an immediate ruling. Fulton County Commission Chair Robb Pitts, who attended the hearing, called it a good day for the county.",
           "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
+          "neighborhoods": [
+            "Downtown"
+          ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/atlanta/fulton-chairman-says-it-was-good-day-court-judge-weighs-returning-raided-ballots/5D3NIUAGPVGMFBCMXWYDBULJCY/",
-          "imageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-27-2026%2Ft_498f66d2ece24b17b77aa4104da5740c_name_ELECTION_RAID_FULTON.jpeg?auth=b7b18ec4bacec73115e4e158c6429c76bbe17698c2951498417e47f75c751f43&smart=true&width=1280&height=720",
+          "imageUrl": "/images/stories/fulton-county-doj-2020-ballots-hearing.webp",
           "imageAlt": "Federal courthouse in Atlanta where Fulton County vs DOJ hearing took place",
           "publishedAt": "2026-03-27",
-          "keywords": ["fulton county", "2020 election", "fbi raid", "doj", "ballots"]
+          "keywords": [
+            "fulton county",
+            "2020 election",
+            "fbi raid",
+            "doj",
+            "ballots"
+          ],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/https%3A%2F%2Fd1hfln2sfez66z.cloudfront.net%2F03-27-2026%2Ft_498f66d2ece24b17b77aa4104da5740c_name_ELECTION_RAID_FULTON.jpeg?auth=b7b18ec4bacec73115e4e158c6429c76bbe17698c2951498417e47f75c751f43&smart=true&width=1280&height=720"
         }
       ]
     },
@@ -247,13 +391,22 @@
           "summary": "Sale struck out six over six innings of three-hit ball. Ozzie Albies, Drake Baldwin, and Michael Harris II all homered as Atlanta celebrated its 60th season in the city.",
           "body": "The Braves couldn't have asked for a better start to their 60th Atlanta season. Chris Sale dominated over six innings, and the bats came alive early in a 6-0 shutout of the Kansas City Royals on Friday night.\n\nSale allowed just three hits while striking out six and walking three. Ozzie Albies got things started with a solo homer in the first, and NL Rookie of the Year Drake Baldwin added another in the third. Michael Harris II extended the lead with a two-run shot in the fourth.\n\nMauricio Dubon capped the scoring with a two-run double in the seventh. The revamped bullpen held Kansas City scoreless over the final three innings.\n\nThe energy at Truist Park was high for the home opener, the first since 2022. There's still no timeline on when Spencer Strider, Spencer Schwellenbach, or Hurston Waldrep will return from injuries.",
           "neighborhood": "Buckhead",
-          "neighborhoods": ["Buckhead"],
+          "neighborhoods": [
+            "Buckhead"
+          ],
           "source": "Fox 5 Atlanta",
           "sourceUrl": "https://www.fox5atlanta.com/sports/braves-shut-out-royals-6-0-behind-chris-sale-opening-night",
-          "imageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/03/931/523/gettyimages-2268185961-1-scaled.jpg?ve=1&tl=1",
+          "imageUrl": "/images/stories/braves-opening-night-shutout-royals.webp",
           "imageAlt": "Chris Sale pitching for the Atlanta Braves on opening night 2026",
           "publishedAt": "2026-03-27",
-          "keywords": ["braves", "opening night", "chris sale", "truist park", "baseball"]
+          "keywords": [
+            "braves",
+            "opening night",
+            "chris sale",
+            "truist park",
+            "baseball"
+          ],
+          "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/03/931/523/gettyimages-2268185961-1-scaled.jpg?ve=1&tl=1"
         },
         {
           "id": "cherry-blossom-festival-brookhaven-2026",
@@ -261,13 +414,22 @@
           "summary": "The Head and the Heart, Natasha Bedingfield, and Soul Asylum headline the free two-day festival at Blackburn Park. About 60,000 people are expected.",
           "body": "Brookhaven's signature event is back. The Cherry Blossom Festival runs Saturday and Sunday, March 28-29, from 10 a.m. to 6 p.m. at Blackburn Park.\n\nThis year's lineup includes The Head and the Heart, Natasha Bedingfield, and Soul Asylum. Food vendors, artisan markets, and kids' activities round out the offerings. And the whole thing is free.\n\nThe city spends over $500,000 on the festival each year, with another $250,000 in Special Service District funds allocated for 2026. Sponsors cover the rest. While it's not yet \"self-sustaining,\" Mayor John Park says Brookhaven is committed to making it the city's premier annual event.\n\n\"We basically said, 'Hey, we're going to have one major festival a year, and invest all of our resources into it,'\" Park said. \"It's a part of our policy.\" Expect about 60,000 people over the two days.",
           "neighborhood": "Decatur",
-          "neighborhoods": ["Decatur"],
+          "neighborhoods": [
+            "Decatur"
+          ],
           "source": "SaportaReport",
           "sourceUrl": "https://saportareport.com/cherry-blossom-festival-to-return-with-free-concert-market-and-more-this-weekend/columnists/delaney-tarr/delaneytarr/",
-          "imageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/03/crowd-shot-scaled-1.webp?fit=1024%2C768&ssl=1",
+          "imageUrl": "/images/stories/cherry-blossom-festival-brookhaven-2026.webp",
           "imageAlt": "Crowd at Brookhaven Cherry Blossom Festival",
           "publishedAt": "2026-03-26",
-          "keywords": ["cherry blossom festival", "brookhaven", "free concert", "the head and the heart", "blackburn park"]
+          "keywords": [
+            "cherry blossom festival",
+            "brookhaven",
+            "free concert",
+            "the head and the heart",
+            "blackburn park"
+          ],
+          "originalImageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/03/crowd-shot-scaled-1.webp?fit=1024%2C768&ssl=1"
         },
         {
           "id": "decatur-school-board-rejects-eclc-referendum",
@@ -275,13 +437,22 @@
           "summary": "The 3-2 vote blocks a public referendum on a $23 million bond for a new early learning center. Parents say the public should have a voice on a project this large.",
           "body": "Tempers flared at a special Decatur School Board meeting Friday as members voted 3-2 against holding a public referendum on a $23 million early childhood learning center.\n\nState lawmakers had passed legislation requiring voter approval for the bond, which would also include about $30 million in Decatur High School enhancements. But the school board decided against putting it to a vote.\n\n\"We haven't gotten a hand on how much we're asking, how much this will cost,\" said board member James Herndon during the hour-long meeting.\n\nParents are frustrated with the process. \"With the addition of the high school expansion, we're talking $50 million or more, which is a massive undertaking, so the public should be able to weigh in on that,\" said parent Marci Roberts. The proposed site has also drawn opposition from residents demanding an archaeological study before construction.",
           "neighborhood": "Decatur",
-          "neighborhoods": ["Decatur"],
+          "neighborhoods": [
+            "Decatur"
+          ],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/schools/decatur-school-board-votes-against-eclc-voter-referendum/article_00dc7efb-f652-4c67-9c14-b739fab858fb.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/6/bc/6bc16319-fcaa-49d8-a9e6-60a8b1917d0f/69c6f420e09a7.image.jpg?resize=300%2C200",
+          "imageUrl": "/images/stories/decatur-school-board-rejects-eclc-referendum.webp",
           "imageAlt": "Decatur School Board meeting on early childhood learning center",
           "publishedAt": "2026-03-27",
-          "keywords": ["decatur", "school board", "early childhood", "referendum", "education"]
+          "keywords": [
+            "decatur",
+            "school board",
+            "early childhood",
+            "referendum",
+            "education"
+          ],
+          "originalImageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/6/bc/6bc16319-fcaa-49d8-a9e6-60a8b1917d0f/69c6f420e09a7.image.jpg?resize=300%2C200"
         },
         {
           "id": "barnes-noble-toco-hills-decatur",
@@ -289,13 +460,22 @@
           "summary": "The bookstore will take over a 14,000-square-foot space in the shopping center formerly occupied by Westside Market. It's one of 60 new stores the chain plans to open this year.",
           "body": "Barnes & Noble is coming to Toco Hills. The bookstore chain has signed a lease for a 14,000-square-foot space in the shopping center, with plans to open in September.\n\nThe location will occupy the former Westside Market space. Developer EDENS owns Toco Hills and is also redeveloping the former North DeKalb Mall site into a mixed-use project.\n\nThis will be Barnes & Noble's 12th Atlanta-area location, joining stores in Buckhead, The Avenue at West Cobb, and Mall of Georgia. The chain is also reopening its Edgewood Retail District location this spring.\n\nBarnes & Noble has been on an expansion tear after years of closures, announcing plans to open 60 new stores in 2026.",
           "neighborhood": "Decatur",
-          "neighborhoods": ["Decatur"],
+          "neighborhoods": [
+            "Decatur"
+          ],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/business/barnes-noble-will-open-store-at-toco-hills-shopping-center/article_8bf50e28-2aaa-4d24-b256-1a81040be73d.html",
-          "imageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/a/06/a0669615-63c9-4703-8f38-f531e70893db/69c59eb759d7d.image.jpg?resize=300%2C200",
+          "imageUrl": "/images/stories/barnes-noble-toco-hills-decatur.webp",
           "imageAlt": "Toco Hills shopping center where Barnes & Noble will open",
           "publishedAt": "2026-03-26",
-          "keywords": ["barnes noble", "toco hills", "bookstore", "decatur", "retail"]
+          "keywords": [
+            "barnes noble",
+            "toco hills",
+            "bookstore",
+            "decatur",
+            "retail"
+          ],
+          "originalImageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/a/06/a0669615-63c9-4703-8f38-f531e70893db/69c59eb759d7d.image.jpg?resize=300%2C200"
         }
       ]
     },
@@ -308,13 +488,22 @@
           "summary": "As search fragments across Google, ChatGPT, and Claude, Searchbird builds custom websites optimized for both traditional SEO and generative engines.",
           "body": "Finding a local business online isn't as simple as it used to be. Someone might ask Google, or they might ask ChatGPT or Claude. For small businesses, that fragmentation creates a real visibility problem.\n\nAtlanta-based Searchbird thinks they have a fix. The startup builds custom-coded websites (no WordPress templates) optimized for both traditional SEO and what they call GEO: generative engine optimization.\n\nCo-founder Sam Lukens says the focus is on building long-term brand value, not chasing algorithm tricks. \"We view SEO and GEO as a long-term game focused on building brand value,\" he said.\n\nSearchbird delivers what Lukens calls \"enterprise-level, highly architected websites\" to businesses that traditionally couldn't afford that tier of web development. The core pillars are trust, strong web vitals, and unique content.",
           "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown"],
+          "neighborhoods": [
+            "Midtown"
+          ],
           "source": "Hypepotamus",
           "sourceUrl": "https://hypepotamus.com/startup-news/search-is-fragmenting-fast-this-atlanta-startup-wants-to-make-sure-your-business-doesnt-disappear-online/",
-          "imageUrl": "http://hypepotamus.com/wp-content/uploads/2026/03/1768577183708.jpg",
+          "imageUrl": "/images/stories/searchbird-atlanta-startup-ai-seo.webp",
           "imageAlt": "Searchbird startup founders",
           "publishedAt": "2026-03-27",
-          "keywords": ["searchbird", "startup", "seo", "atlanta tech", "midtown"]
+          "keywords": [
+            "searchbird",
+            "startup",
+            "seo",
+            "atlanta tech",
+            "midtown"
+          ],
+          "originalImageUrl": "http://hypepotamus.com/wp-content/uploads/2026/03/1768577183708.jpg"
         },
         {
           "id": "ireland-ai-hub-atlanta-companies",
@@ -322,39 +511,115 @@
           "summary": "Global Payments, Elavon, and Coca-Cola have large teams in Ireland. More Atlanta companies are following their lead, drawn by tech talent, EU access, and AI infrastructure.",
           "body": "Some of Atlanta's biggest companies have discovered something about Ireland: it's an excellent place to build technology teams.\n\nGlobal Payments, Elavon, and Coca-Cola have all built substantial operations there, taking advantage of English-speaking talent, EU market access, and a pro-business environment. Now more Atlanta firms are following their lead, particularly attracted by Ireland's AI-focused infrastructure.\n\nThe country has positioned itself as a hub for artificial intelligence development, with strong university programs and government incentives for tech companies. For Atlanta firms looking to expand internationally without the language barriers of continental Europe, Ireland offers an appealing combination.\n\nThe trend highlights how Atlanta's corporate connections increasingly stretch across the Atlantic, with talent pipelines flowing in both directions.",
           "neighborhood": "Midtown",
-          "neighborhoods": ["Midtown", "Downtown"],
+          "neighborhoods": [
+            "Midtown",
+            "Downtown"
+          ],
           "source": "Global Atlanta",
           "sourceUrl": "https://www.globalatlanta.com/ireland-becoming-an-ai-hub-for-atlanta-finance-and-tech-firms/",
-          "imageUrl": "https://i0.wp.com/www.globalatlanta.com/wp-content/uploads/saturday_sun-nNtFxF6ny5c-unsplash-scaled.jpg?fit=1024%2C683&ssl=1",
+          "imageUrl": "/images/stories/ireland-ai-hub-atlanta-companies.webp",
           "imageAlt": "Dublin, Ireland where Atlanta companies are building AI teams",
           "publishedAt": "2026-03-26",
-          "keywords": ["ireland", "ai", "global payments", "atlanta tech", "international business"]
+          "keywords": [
+            "ireland",
+            "ai",
+            "global payments",
+            "atlanta tech",
+            "international business"
+          ],
+          "originalImageUrl": "https://i0.wp.com/www.globalatlanta.com/wp-content/uploads/saturday_sun-nNtFxF6ny5c-unsplash-scaled.jpg?fit=1024%2C683&ssl=1"
         }
       ]
     }
   ],
   "neighborhoods": {
-    "Downtown": { "storyCount": 24, "topStory": "no-kings-protests-atlanta-march-2026" },
-    "Midtown": { "storyCount": 16, "topStory": "atlanta-symphony-piedmont-park-free-concert" },
-    "Decatur": { "storyCount": 13, "topStory": "barnes-noble-toco-hills-decatur" },
-    "Grant Park": { "storyCount": 5, "topStory": "meeples-board-game-cafe-grant-park-beltline" },
-    "Old Fourth Ward": { "storyCount": 5, "topStory": "colmado-wine-shop-old-fourth-ward" },
-    "Buckhead": { "storyCount": 5, "topStory": "braves-opening-night-shutout-royals" },
-    "Kirkwood": { "storyCount": 4, "topStory": "space-explorers-infinite-pullman-yards" },
-    "Reynoldstown": { "storyCount": 3, "topStory": "reynoldstown-townhomes-beltline-construction" },
-    "Westside": { "storyCount": 3, "topStory": "westside-homeless-housing-beltline" },
-    "West End": { "storyCount": 3, "topStory": "fulton-commission-chair-debate" },
-    "East Atlanta Village": { "storyCount": 2, "topStory": "kirkwood-wine-shop-finally-wine" },
-    "Inman Park": { "storyCount": 2, "topStory": "mushi-ni-opens-inman-park" },
-    "East Atlanta": { "storyCount": 2, "topStory": "space-explorers-infinite-pullman-yards" },
-    "West Midtown": { "storyCount": 2, "topStory": "andrew-young-94th-birthday" },
-    "Piedmont Heights": { "storyCount": 1, "topStory": "midtown-sewer-repairs-close-juniper" },
-    "Home Park": { "storyCount": 1, "topStory": "10th-street-hemphill-construction-closure" },
-    "Virginia-Highland": { "storyCount": 1, "topStory": "10th-street-hemphill-construction-closure" },
-    "Cabbagetown": { "storyCount": 1, "topStory": "reynoldstown-townhomes-beltline-construction" },
-    "Ansley Park": { "storyCount": 1, "topStory": "lewis-barbecue-ansley-mall-beltline" },
-    "Summerhill": { "storyCount": 1, "topStory": "gsu-summerhill-athletics-neighborhood" },
-    "Castleberry Hill": { "storyCount": 1, "topStory": "south-downtown-world-cup-transformation-2026" },
-    "East Point": { "storyCount": 1, "topStory": "east-point-affordable-housing-marta" }
+    "Downtown": {
+      "storyCount": 24,
+      "topStory": "no-kings-protests-atlanta-march-2026"
+    },
+    "Midtown": {
+      "storyCount": 16,
+      "topStory": "atlanta-symphony-piedmont-park-free-concert"
+    },
+    "Decatur": {
+      "storyCount": 13,
+      "topStory": "barnes-noble-toco-hills-decatur"
+    },
+    "Grant Park": {
+      "storyCount": 5,
+      "topStory": "meeples-board-game-cafe-grant-park-beltline"
+    },
+    "Old Fourth Ward": {
+      "storyCount": 5,
+      "topStory": "colmado-wine-shop-old-fourth-ward"
+    },
+    "Buckhead": {
+      "storyCount": 5,
+      "topStory": "braves-opening-night-shutout-royals"
+    },
+    "Kirkwood": {
+      "storyCount": 4,
+      "topStory": "space-explorers-infinite-pullman-yards"
+    },
+    "Reynoldstown": {
+      "storyCount": 3,
+      "topStory": "reynoldstown-townhomes-beltline-construction"
+    },
+    "Westside": {
+      "storyCount": 3,
+      "topStory": "westside-homeless-housing-beltline"
+    },
+    "West End": {
+      "storyCount": 3,
+      "topStory": "fulton-commission-chair-debate"
+    },
+    "East Atlanta Village": {
+      "storyCount": 2,
+      "topStory": "kirkwood-wine-shop-finally-wine"
+    },
+    "Inman Park": {
+      "storyCount": 2,
+      "topStory": "mushi-ni-opens-inman-park"
+    },
+    "East Atlanta": {
+      "storyCount": 2,
+      "topStory": "space-explorers-infinite-pullman-yards"
+    },
+    "West Midtown": {
+      "storyCount": 2,
+      "topStory": "andrew-young-94th-birthday"
+    },
+    "Piedmont Heights": {
+      "storyCount": 1,
+      "topStory": "midtown-sewer-repairs-close-juniper"
+    },
+    "Home Park": {
+      "storyCount": 1,
+      "topStory": "10th-street-hemphill-construction-closure"
+    },
+    "Virginia-Highland": {
+      "storyCount": 1,
+      "topStory": "10th-street-hemphill-construction-closure"
+    },
+    "Cabbagetown": {
+      "storyCount": 1,
+      "topStory": "reynoldstown-townhomes-beltline-construction"
+    },
+    "Ansley Park": {
+      "storyCount": 1,
+      "topStory": "lewis-barbecue-ansley-mall-beltline"
+    },
+    "Summerhill": {
+      "storyCount": 1,
+      "topStory": "gsu-summerhill-athletics-neighborhood"
+    },
+    "Castleberry Hill": {
+      "storyCount": 1,
+      "topStory": "south-downtown-world-cup-transformation-2026"
+    },
+    "East Point": {
+      "storyCount": 1,
+      "topStory": "east-point-affordable-housing-marta"
+    }
   }
 }
