@@ -1,5 +1,5 @@
 ---
-import { getNeighborhoodColor, slugify } from '../lib/helpers';
+import { getNeighborhoodColor, slugify, isValidNeighborhood } from '../lib/helpers';
 
 interface Props {
   name: string;
@@ -9,10 +9,12 @@ interface Props {
 
 const { name, linked = true, size = 'sm' } = Astro.props;
 const color = getNeighborhoodColor(name);
-const href = `/neighborhoods/${slugify(name)}`;
+const href = `/neighborhoods/${slugify(name)}/`;
+// Only link to valid ITP neighborhoods (prevents 404s for OTP locations)
+const shouldLink = linked && isValidNeighborhood(name);
 ---
 
-{linked ? (
+{shouldLink ? (
   <a href={href} class:list={['hood-tag', `tag-${size}`]} style={`--tag-bg: ${color};`}>
     {name}
   </a>

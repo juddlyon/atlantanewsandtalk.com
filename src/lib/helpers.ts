@@ -264,6 +264,10 @@ export function getNeighborhoodColor(neighborhood: string): string {
   return NEIGHBORHOOD_COLORS[neighborhood] || '#6b7280';
 }
 
+export function isValidNeighborhood(neighborhood: string): boolean {
+  return neighborhood in NEIGHBORHOOD_COLORS;
+}
+
 // Archive functions
 
 const DATA_DIR = path.join(process.cwd(), 'src', 'data');

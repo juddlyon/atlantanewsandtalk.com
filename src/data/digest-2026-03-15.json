@@ -192,9 +192,9 @@
           "headline": "4-Year-Old Stabbed to Death in Southwest Atlanta Apartment",
           "summary": "Atlanta police found a severely injured 4-year-old during a Saturday night domestic dispute call on Alison Court. Officers had to force entry into the locked apartment and used de-escalation techniques to get the child away from a suspect. The child died at the hospital from apparent stab wounds, and a man is in custody.",
           "body": "This is one of those stories that just breaks your heart and makes you wonder how we got here as a city. Saturday night, APD responded to what started as a domestic dispute call on Alison Court in southwest Atlanta, but it turned into something much worse when officers found a 4-year-old with stab wounds.\n\nThe details are pretty horrific - officers had to force their way into a locked apartment where a man and woman had been arguing. They found the child already injured and had to use de-escalation techniques to get the kid away from the suspect. Despite getting the child to Grady quickly, the injuries were too severe. A man is in custody, but police haven't released his relationship to the child yet.\n\nThis happened in a part of southwest Atlanta that's seen some improvements in crime stats recently, but incidents like this remind you that domestic violence cuts across all neighborhoods and demographics. It's especially tragic when children become victims of adult conflicts they had nothing to do with. The whole situation underscores why domestic violence calls are among the most dangerous and unpredictable situations police face.",
-          "neighborhood": "Southwest Atlanta",
+          "neighborhood": "West End",
           "neighborhoods": [
-            "Southwest Atlanta"
+            "West End"
           ],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/1-year-old-stabbed-domestic-dispute-sw-atlanta/JWS4I5W2S5HHRHL5ZZRZRIE5TI/",
@@ -339,7 +339,7 @@
       "storyCount": 1,
       "topStory": "10th-street-hemphill-construction-closure"
     },
-    "Southwest Atlanta": {
+    "West End": {
       "storyCount": 1,
       "topStory": "atlanta-child-stabbing-death"
     },
