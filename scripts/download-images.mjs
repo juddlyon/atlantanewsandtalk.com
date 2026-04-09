@@ -113,13 +113,32 @@ async function processDigest(digestPath) {
   const allStories = [digest.topStory, ...digest.sections.flatMap(s => s.stories)].filter(Boolean);
 
   for (const story of allStories) {
-    if (!story.imageUrl) {
+    if (!story.imageUrl && !story.originalImageUrl) {
       skipped++;
       continue;
     }
 
+    // Check if local image exists
     if (isLocalImage(story.imageUrl)) {
-      // Already converted
+      const localFile = path.join(process.cwd(), 'public', story.imageUrl);
+      if (fs.existsSync(localFile)) {
+        // File exists, skip
+        continue;
+      }
+      // Local path set but file missing - try to re-download from original
+      if (story.originalImageUrl && isRemoteUrl(story.originalImageUrl)) {
+        const localPath = await downloadAndConvert(story.originalImageUrl, story.id);
+        if (localPath) {
+          downloaded++;
+        } else {
+          story.imageUrl = null;
+          failed++;
+        }
+      } else {
+        // No original URL to re-download from
+        story.imageUrl = null;
+        failed++;
+      }
       continue;
     }
 
@@ -175,9 +194,18 @@ async function run() {
     const filePath = path.join(DATA_DIR, file);
     const digest = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
     const stories = [digest.topStory, ...digest.sections.flatMap(s => s.stories)].filter(Boolean);
-    const hasRemote = stories.some(s => isRemoteUrl(s.imageUrl));
 
-    if (!hasRemote) continue; // All images already local
+    // Check if any images need downloading (remote URLs or missing local files)
+    const needsProcessing = stories.some(s => {
+      if (isRemoteUrl(s.imageUrl)) return true;
+      if (isLocalImage(s.imageUrl)) {
+        const localFile = path.join(process.cwd(), 'public', s.imageUrl);
+        return !fs.existsSync(localFile);
+      }
+      return false;
+    });
+
+    if (!needsProcessing) continue; // All images already local and exist
 
     console.log(`  Processing ${file}...`);
     const result = await processDigest(filePath);
