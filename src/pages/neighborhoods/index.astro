@@ -1,7 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import { getNeighborhoodData, slugify, SITE_URL, buildBreadcrumbSchema } from '../../lib/helpers';
+import ContentCard from '../../components/ContentCard.astro';
+import { getNeighborhoodData, SITE_URL, buildBreadcrumbSchema } from '../../lib/helpers';
 import neighborhoodsData from '../../data/neighborhoods.json';
 
 const breadcrumbSchema = buildBreadcrumbSchema([
@@ -37,6 +38,12 @@ function getTierLabel(tier: number): string {
   if (tier === 2) return 'ITP';
   return 'Greater ITP';
 }
+
+function getTierVariant(tier: number): 'tier-1' | 'tier-2' | 'tier-3' {
+  if (tier === 1) return 'tier-1';
+  if (tier === 2) return 'tier-2';
+  return 'tier-3';
+}
 ---
 
 <Base
@@ -50,37 +57,29 @@ function getTierLabel(tier: number): string {
       { label: 'Neighborhoods' },
     ]} />
 
-    <div class="neighborhood-page-header">
-      <h1 class="neighborhood-page-title">Atlanta Neighborhoods</h1>
-      <p class="neighborhood-page-subtitle">
+    <div class="content-index-header">
+      <h1 class="content-index-title">Atlanta Neighborhoods</h1>
+      <p class="content-index-subtitle">
         Hyperlocal coverage from {neighborhoodsData.neighborhoods.length} ITP neighborhoods
       </p>
     </div>
 
-    <div class="neighborhood-index-grid">
+    <div class="content-index-grid">
       {sortedNeighborhoods.map((neighborhood) => {
         const data = neighborhoodData[neighborhood.name];
         const count = data?.storyCount || 0;
         const blurb = getBlurb(neighborhood);
-        const hasImage = !!neighborhood.imageUrl;
         return (
-          <a href={`/neighborhoods/${neighborhood.slug}/`} class={`neighborhood-index-card ${hasImage ? 'has-image' : ''} tier-${neighborhood.tier || 3}`}>
-            {hasImage && (
-              <div class="neighborhood-card-image">
-                <img src={neighborhood.imageUrl} alt={neighborhood.imageAlt || `${neighborhood.name} neighborhood in Atlanta`} loading="lazy" />
-              </div>
-            )}
-            <div class="neighborhood-card-content">
-              <div class="neighborhood-card-header">
-                <span class="neighborhood-card-name">{neighborhood.name}</span>
-                <span class="neighborhood-card-tier">{getTierLabel(neighborhood.tier || 3)}</span>
-              </div>
-              {blurb && <span class="neighborhood-card-blurb">{blurb.slice(0, 150)}{blurb.length > 150 ? '...' : ''}</span>}
-              <span class="neighborhood-card-count">
-                {count} {count === 1 ? 'story' : 'stories'}
-              </span>
-            </div>
-          </a>
+          <ContentCard
+            href={`/neighborhoods/${neighborhood.slug}/`}
+            title={neighborhood.name}
+            description={blurb ? (blurb.slice(0, 150) + (blurb.length > 150 ? '...' : '')) : undefined}
+            imageUrl={neighborhood.imageUrl}
+            imageAlt={neighborhood.imageAlt || `${neighborhood.name} neighborhood in Atlanta`}
+            badge={getTierLabel(neighborhood.tier || 3)}
+            meta={`${count} ${count === 1 ? 'story' : 'stories'}`}
+            variant={getTierVariant(neighborhood.tier || 3)}
+          />
         );
       })}
     </div>
@@ -88,135 +87,38 @@ function getTierLabel(tier: number): string {
 </Base>
 
 <style>
-  .neighborhood-index-grid {
+  .content-index-header {
+    margin-bottom: 1rem;
+  }
+
+  .content-index-title {
+    font-family: var(--font-display, serif);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-text, #1a1a2e);
+    margin: 0 0 0.5rem 0;
+  }
+
+  .content-index-subtitle {
+    font-size: 1.1rem;
+    color: var(--color-text-muted, #6b7280);
+    margin: 0;
+  }
+
+  .content-index-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
   }
 
-  .neighborhood-index-card {
-    display: flex;
-    flex-direction: column;
-    background: var(--color-surface, #fff);
-    border: 1px solid var(--color-border, #e5e5e5);
-    border-radius: 12px;
-    overflow: hidden;
-    text-decoration: none;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-
-  .neighborhood-index-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  }
-
-  .neighborhood-card-image {
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-    background: var(--color-muted, #f5f5f5);
-  }
-
-  .neighborhood-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-  }
-
-  .neighborhood-index-card:hover .neighborhood-card-image img {
-    transform: scale(1.05);
-  }
-
-  .neighborhood-card-content {
-    padding: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    flex: 1;
-  }
-
-  /* Tier 1: Navy gradient for no-image cards */
-  .neighborhood-index-card.tier-1:not(.has-image) {
-    background: linear-gradient(135deg, var(--color-navy, #1a1a2e) 0%, #2d2d4a 100%);
-  }
-
-  /* Tier 2: Darker blue-gray gradient */
-  .neighborhood-index-card.tier-2:not(.has-image) {
-    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
-  }
-
-  /* Tier 3: Muted gray gradient */
-  .neighborhood-index-card.tier-3:not(.has-image) {
-    background: linear-gradient(135deg, #4a5568 0%, #718096 100%);
-  }
-
-  .neighborhood-index-card:not(.has-image) .neighborhood-card-content {
-    padding: 1.5rem;
-  }
-
-  .neighborhood-index-card:not(.has-image) .neighborhood-card-name {
-    color: #fff;
-  }
-
-  .neighborhood-index-card:not(.has-image) .neighborhood-card-blurb {
-    color: rgba(255, 255, 255, 0.75);
-  }
-
-  .neighborhood-index-card:not(.has-image) .neighborhood-card-count {
-    color: rgba(255, 255, 255, 0.6);
-  }
-
-  .neighborhood-index-card:not(.has-image) .neighborhood-card-tier {
-    background: rgba(255, 255, 255, 0.15);
-    color: rgba(255, 255, 255, 0.9);
-  }
-
-  .neighborhood-card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 0.5rem;
-  }
-
-  .neighborhood-card-name {
-    font-family: var(--font-display, serif);
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--color-text, #1a1a2e);
-    line-height: 1.3;
-  }
-
-  .neighborhood-card-tier {
-    font-family: var(--font-mono, monospace);
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding: 0.25rem 0.5rem;
-    background: var(--color-muted, #f0f0f0);
-    color: var(--color-text-muted, #666);
-    border-radius: 4px;
-    white-space: nowrap;
-    flex-shrink: 0;
-  }
-
-  .neighborhood-card-blurb {
-    font-size: 0.875rem;
-    color: var(--color-text-muted, #6b7280);
-    line-height: 1.5;
-    flex: 1;
-  }
-
-  .neighborhood-card-count {
-    font-family: var(--font-mono, monospace);
-    font-size: 0.75rem;
-    color: var(--color-text-muted, #888);
-    margin-top: auto;
-  }
-
   @media (max-width: 640px) {
-    .neighborhood-index-grid {
+    .content-index-grid {
       grid-template-columns: 1fr;
+    }
+
+    .content-index-title {
+      font-size: 1.75rem;
     }
   }
 </style>

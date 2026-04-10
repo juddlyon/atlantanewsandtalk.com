@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
+import ContentCard from '../../components/ContentCard.astro';
 import { SITE_URL, buildBreadcrumbSchema } from '../../lib/helpers';
 import guidesData from '../../data/guides.json';
 
@@ -12,11 +13,18 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 // Get thumbnail for each guide (first section image or fallback)
 function getGuideThumbnail(guide: any): string | null {
   if (guide.sections?.[0]?.imageUrl) return guide.sections[0].imageUrl;
-  // Check other sections
   for (const section of guide.sections || []) {
     if (section.imageUrl) return section.imageUrl;
   }
   return null;
+}
+
+function getGuideImageAlt(guide: any): string {
+  if (guide.sections?.[0]?.imageAlt) return guide.sections[0].imageAlt;
+  for (const section of guide.sections || []) {
+    if (section.imageAlt) return section.imageAlt;
+  }
+  return guide.title;
 }
 
 // Featured guides (with images) first, then others
@@ -36,115 +44,61 @@ const sortedGuides = [...guidesWithImages, ...guidesWithoutImages];
       { label: 'Guides' },
     ]} />
 
-    <div class="neighborhood-page-header">
-      <h1 class="neighborhood-page-title">Atlanta Guides</h1>
-      <p class="neighborhood-page-subtitle">
+    <div class="content-index-header">
+      <h1 class="content-index-title">Atlanta Guides</h1>
+      <p class="content-index-subtitle">
         In-depth guides to ITP life, written by people who actually live here
       </p>
     </div>
 
-    <div class="guide-index-grid">
-      {sortedGuides.map((guide) => {
-        const thumbnail = getGuideThumbnail(guide);
-        return (
-          <a href={`/guide/${guide.slug}/`} class={`guide-card ${thumbnail ? 'has-image' : ''}`}>
-            {thumbnail && (
-              <div class="guide-card-image">
-                <img src={thumbnail} alt={guide.title} loading="lazy" />
-              </div>
-            )}
-            <div class="guide-card-content">
-              <span class="guide-card-title">{guide.title}</span>
-              <span class="guide-card-desc">{guide.seoDescription?.slice(0, 120)}...</span>
-            </div>
-          </a>
-        );
-      })}
+    <div class="content-index-grid">
+      {sortedGuides.map((guide) => (
+        <ContentCard
+          href={`/guide/${guide.slug}/`}
+          title={guide.title}
+          description={guide.seoDescription?.slice(0, 120) + '...'}
+          imageUrl={getGuideThumbnail(guide)}
+          imageAlt={getGuideImageAlt(guide)}
+          badge="Guide"
+        />
+      ))}
     </div>
   </div>
 </Base>
 
 <style>
-  .guide-index-grid {
+  .content-index-header {
+    margin-bottom: 1rem;
+  }
+
+  .content-index-title {
+    font-family: var(--font-display, serif);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-text, #1a1a2e);
+    margin: 0 0 0.5rem 0;
+  }
+
+  .content-index-subtitle {
+    font-size: 1.1rem;
+    color: var(--color-text-muted, #6b7280);
+    margin: 0;
+  }
+
+  .content-index-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
   }
 
-  .guide-card {
-    display: flex;
-    flex-direction: column;
-    background: var(--color-surface, #fff);
-    border: 1px solid var(--color-border, #e5e5e5);
-    border-radius: 12px;
-    overflow: hidden;
-    text-decoration: none;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-
-  .guide-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  }
-
-  .guide-card-image {
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-    background: var(--color-muted, #f5f5f5);
-  }
-
-  .guide-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-  }
-
-  .guide-card:hover .guide-card-image img {
-    transform: scale(1.05);
-  }
-
-  .guide-card-content {
-    padding: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .guide-card:not(.has-image) {
-    background: linear-gradient(135deg, var(--color-navy, #1a1a2e) 0%, #2d2d4a 100%);
-  }
-
-  .guide-card:not(.has-image) .guide-card-content {
-    padding: 2rem 1.5rem;
-  }
-
-  .guide-card:not(.has-image) .guide-card-title {
-    color: #fff;
-  }
-
-  .guide-card:not(.has-image) .guide-card-desc {
-    color: rgba(255, 255, 255, 0.7);
-  }
-
-  .guide-card-title {
-    font-family: var(--font-display, serif);
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--color-text, #1a1a2e);
-    line-height: 1.3;
-  }
-
-  .guide-card-desc {
-    font-size: 0.9rem;
-    color: var(--color-text-muted, #6b7280);
-    line-height: 1.5;
-  }
-
   @media (max-width: 640px) {
-    .guide-index-grid {
+    .content-index-grid {
       grid-template-columns: 1fr;
+    }
+
+    .content-index-title {
+      font-size: 1.75rem;
     }
   }
 </style>
