@@ -40,7 +40,11 @@
         }
       ],
       "latitude": 33.7677,
-      "longitude": -84.3636
+      "longitude": -84.3636,
+      "imageUrl": "/images/neighborhoods/old-fourth-ward.webp",
+      "imageAlt": "Historic Fourth Ward Park with Atlanta skyline in the background",
+      "imageCaption": "Historic Fourth Ward Park connects Old Fourth Ward to the Atlanta BeltLine and downtown skyline.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "name": "Grant Park",
@@ -86,7 +90,11 @@
         }
       ],
       "latitude": 33.74,
-      "longitude": -84.371
+      "longitude": -84.371,
+      "imageUrl": "/images/neighborhoods/grant-park.webp",
+      "imageAlt": "Victorian homes on Augusta Avenue in Grant Park Atlanta",
+      "imageCaption": "Augusta Avenue showcases the historic Victorian architecture that defines Grant Park.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "name": "Inman Park",
@@ -131,7 +139,11 @@
         }
       ],
       "latitude": 33.7612,
-      "longitude": -84.3522
+      "longitude": -84.3522,
+      "imageUrl": "/images/neighborhoods/inman-park.webp",
+      "imageAlt": "Callan Castle historic Victorian mansion in Inman Park Atlanta",
+      "imageCaption": "Callan Castle is one of the grand Victorian mansions that make Inman Park an architectural landmark.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "name": "Reynoldstown",
@@ -173,7 +185,11 @@
         }
       ],
       "latitude": 33.749,
-      "longitude": -84.35
+      "longitude": -84.35,
+      "imageUrl": "/images/neighborhoods/reynoldstown.webp",
+      "imageAlt": "Reynoldstown neighborhood street scene in Atlanta",
+      "imageCaption": "Reynoldstown blends historic charm with modern development along the BeltLine.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "name": "Cabbagetown",
@@ -215,7 +231,11 @@
         }
       ],
       "latitude": 33.749,
-      "longitude": -84.363
+      "longitude": -84.363,
+      "imageUrl": "/images/neighborhoods/cabbagetown.webp",
+      "imageAlt": "Cabbagetown Park green space in Atlanta historic mill district",
+      "imageCaption": "Cabbagetown Park provides green space in this historic cotton mill neighborhood.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "name": "Summerhill",
@@ -257,7 +277,11 @@
         }
       ],
       "latitude": 33.735,
-      "longitude": -84.383
+      "longitude": -84.383,
+      "imageUrl": "/images/neighborhoods/summerhill.webp",
+      "imageAlt": "Summerhill neighborhood view near downtown Atlanta",
+      "imageCaption": "Summerhill sits just south of downtown Atlanta near Georgia State Stadium.",
+      "imageCredit": "Photo: Panoramio / Wikimedia Commons (CC BY 3.0)"
     },
     {
       "name": "East Atlanta Village",
@@ -298,7 +322,11 @@
         }
       ],
       "latitude": 33.74,
-      "longitude": -84.34
+      "longitude": -84.34,
+      "imageUrl": "/images/neighborhoods/east-atlanta-village.webp",
+      "imageAlt": "East Atlanta Village commercial district with local shops and restaurants",
+      "imageCaption": "East Atlanta Village is the walkable heart of the East Atlanta neighborhood.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "name": "Kirkwood",
@@ -339,7 +367,11 @@
         }
       ],
       "latitude": 33.756,
-      "longitude": -84.33
+      "longitude": -84.33,
+      "imageUrl": "/images/neighborhoods/kirkwood.webp",
+      "imageAlt": "Historic downtown Kirkwood Atlanta circa 1954",
+      "imageCaption": "Historic downtown Kirkwood has maintained its small-town character since the 1950s.",
+      "imageCredit": "Photo: Wikimedia Commons (Public Domain)"
     },
     {
       "name": "Decatur",
@@ -698,7 +730,11 @@
         }
       ],
       "latitude": 33.731,
-      "longitude": -84.352
+      "longitude": -84.352,
+      "imageUrl": "/images/neighborhoods/ormewood-park.webp",
+      "imageAlt": "Brownwood Park green space in Ormewood Park Atlanta",
+      "imageCaption": "Brownwood Park anchors the Ormewood Park neighborhood with sports fields and greenery.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "name": "East Atlanta",
@@ -1263,7 +1299,11 @@
         }
       ],
       "latitude": 33.727,
-      "longitude": -84.383
+      "longitude": -84.383,
+      "imageUrl": "/images/neighborhoods/peoplestown.webp",
+      "imageAlt": "Peoplestown neighborhood in southeast Atlanta",
+      "imageCaption": "Peoplestown is a historic neighborhood south of downtown Atlanta undergoing revitalization.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "name": "Capitol View",

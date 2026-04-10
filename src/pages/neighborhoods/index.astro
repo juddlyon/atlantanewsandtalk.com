@@ -15,23 +15,27 @@ const neighborhoodData = getNeighborhoodData();
 
 // Sort by tier first (1, 2, 3), then by story count, then alphabetically
 const sortedNeighborhoods = neighborhoodsData.neighborhoods
-  .map((n) => n.name)
   .sort((a, b) => {
-    const tierA = neighborhoodsData.neighborhoods.find((n) => n.name === a)?.tier || 3;
-    const tierB = neighborhoodsData.neighborhoods.find((n) => n.name === b)?.tier || 3;
+    const tierA = a.tier || 3;
+    const tierB = b.tier || 3;
     if (tierA !== tierB) return tierA - tierB;
-    const countDiff = (neighborhoodData[b]?.storyCount || 0) - (neighborhoodData[a]?.storyCount || 0);
+    const countDiff = (neighborhoodData[b.name]?.storyCount || 0) - (neighborhoodData[a.name]?.storyCount || 0);
     if (countDiff !== 0) return countDiff;
-    return a.localeCompare(b);
+    return a.name.localeCompare(b.name);
   });
 
-function getBlurb(name: string): string {
-  const slug = slugify(name);
-  const info = neighborhoodsData.neighborhoods.find((n) => n.slug === slug);
-  if (!info) return '';
-  // Return the first sentence of the description
-  const firstSentence = info.description.split(/\.\s/)[0];
+function getBlurb(info: any): string {
+  if (!info?.description) return '';
+  // Return the first sentence of the description, stripping HTML tags
+  const plainText = info.description.replace(/<[^>]*>/g, '');
+  const firstSentence = plainText.split(/\.\s/)[0];
   return firstSentence + '.';
+}
+
+function getTierLabel(tier: number): string {
+  if (tier === 1) return 'SE BeltLine';
+  if (tier === 2) return 'ITP';
+  return 'Greater ITP';
 }
 ---
 
@@ -53,23 +57,166 @@ function getBlurb(name: string): string {
       </p>
     </div>
 
-    <div class="neighborhoods-grid">
-      {sortedNeighborhoods.map((name) => {
-        const data = neighborhoodData[name];
+    <div class="neighborhood-index-grid">
+      {sortedNeighborhoods.map((neighborhood) => {
+        const data = neighborhoodData[neighborhood.name];
         const count = data?.storyCount || 0;
-        const blurb = getBlurb(name);
+        const blurb = getBlurb(neighborhood);
+        const hasImage = !!neighborhood.imageUrl;
         return (
-          <a href={`/neighborhoods/${slugify(name)}/`} class="neighborhood-card">
-            <div class="neighborhood-card-info">
-              <span class="neighborhood-card-name">{name}</span>
-              {blurb && <span class="neighborhood-card-blurb">{blurb}</span>}
+          <a href={`/neighborhoods/${neighborhood.slug}/`} class={`neighborhood-index-card ${hasImage ? 'has-image' : ''} tier-${neighborhood.tier || 3}`}>
+            {hasImage && (
+              <div class="neighborhood-card-image">
+                <img src={neighborhood.imageUrl} alt={neighborhood.imageAlt || `${neighborhood.name} neighborhood in Atlanta`} loading="lazy" />
+              </div>
+            )}
+            <div class="neighborhood-card-content">
+              <div class="neighborhood-card-header">
+                <span class="neighborhood-card-name">{neighborhood.name}</span>
+                <span class="neighborhood-card-tier">{getTierLabel(neighborhood.tier || 3)}</span>
+              </div>
+              {blurb && <span class="neighborhood-card-blurb">{blurb.slice(0, 150)}{blurb.length > 150 ? '...' : ''}</span>}
+              <span class="neighborhood-card-count">
+                {count} {count === 1 ? 'story' : 'stories'}
+              </span>
             </div>
-            <span class="neighborhood-card-count">
-              {count} {count === 1 ? 'story' : 'stories'}
-            </span>
           </a>
         );
       })}
     </div>
   </div>
 </Base>
+
+<style>
+  .neighborhood-index-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .neighborhood-index-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-surface, #fff);
+    border: 1px solid var(--color-border, #e5e5e5);
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .neighborhood-index-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .neighborhood-card-image {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--color-muted, #f5f5f5);
+  }
+
+  .neighborhood-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .neighborhood-index-card:hover .neighborhood-card-image img {
+    transform: scale(1.05);
+  }
+
+  .neighborhood-card-content {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+  }
+
+  /* Tier 1: Navy gradient for no-image cards */
+  .neighborhood-index-card.tier-1:not(.has-image) {
+    background: linear-gradient(135deg, var(--color-navy, #1a1a2e) 0%, #2d2d4a 100%);
+  }
+
+  /* Tier 2: Darker blue-gray gradient */
+  .neighborhood-index-card.tier-2:not(.has-image) {
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+  }
+
+  /* Tier 3: Muted gray gradient */
+  .neighborhood-index-card.tier-3:not(.has-image) {
+    background: linear-gradient(135deg, #4a5568 0%, #718096 100%);
+  }
+
+  .neighborhood-index-card:not(.has-image) .neighborhood-card-content {
+    padding: 1.5rem;
+  }
+
+  .neighborhood-index-card:not(.has-image) .neighborhood-card-name {
+    color: #fff;
+  }
+
+  .neighborhood-index-card:not(.has-image) .neighborhood-card-blurb {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .neighborhood-index-card:not(.has-image) .neighborhood-card-count {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .neighborhood-index-card:not(.has-image) .neighborhood-card-tier {
+    background: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .neighborhood-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .neighborhood-card-name {
+    font-family: var(--font-display, serif);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-text, #1a1a2e);
+    line-height: 1.3;
+  }
+
+  .neighborhood-card-tier {
+    font-family: var(--font-mono, monospace);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.25rem 0.5rem;
+    background: var(--color-muted, #f0f0f0);
+    color: var(--color-text-muted, #666);
+    border-radius: 4px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .neighborhood-card-blurb {
+    font-size: 0.875rem;
+    color: var(--color-text-muted, #6b7280);
+    line-height: 1.5;
+    flex: 1;
+  }
+
+  .neighborhood-card-count {
+    font-family: var(--font-mono, monospace);
+    font-size: 0.75rem;
+    color: var(--color-text-muted, #888);
+    margin-top: auto;
+  }
+
+  @media (max-width: 640px) {
+    .neighborhood-index-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
