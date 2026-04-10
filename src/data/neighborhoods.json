@@ -1,50 +1,95 @@
 {
   "neighborhoods": [
     {
-      "name": "Old Fourth Ward",
-      "slug": "old-fourth-ward",
+      "name": "Cabbagetown",
+      "slug": "cabbagetown",
       "tier": 1,
-      "description": "Old Fourth Ward sits just east of <a href=\"/neighborhoods/downtown/\">Downtown</a> Atlanta, roughly bounded by the Downtown Connector to the west, Ponce de Leon Avenue to the north, Moreland Avenue to the east, and Interstate 20 to the south. It's one of the oldest neighborhoods in the city, the birthplace of <strong><a href=\"https://www.nps.gov/malu/\" target=\"_blank\" rel=\"noopener\">Martin Luther King Jr.</a></strong>, and over the past decade it has become ground zero for Atlanta's transformation along the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>. The <a href=\"/guide/atlanta-beltline/\">Eastside Trail</a> runs right through O4W, and that single piece of infrastructure changed everything here.\n\nThe food and drink scene in Old Fourth Ward is stacked. <strong><a href=\"https://www.krogstreetmarket.com/\" target=\"_blank\" rel=\"noopener\">Krog Street Market</a></strong> is the anchor, a repurposed warehouse full of food stalls, restaurants, and a bar scene that stays packed most weekends. Nearby you have spots like <strong>Staplehouse</strong> (one of the best restaurants in the entire Southeast), <em>Watchman's</em> (seafood), and a growing list of cocktail bars along the Irwin Street corridor. <strong><a href=\"https://www.poncecitymarket.com/\" target=\"_blank\" rel=\"noopener\">Ponce City Market</a></strong> is technically on the neighborhood's northern edge and serves as a second food hall with rooftop amusement park views of the skyline. The <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a> itself is lined with patios and pop-ups.\n\nHousing in O4W is a mix of everything. You'll find renovated bungalows and shotgun houses on the historic blocks south of Irwin Street, newer luxury condos and apartments along the BeltLine corridor, and converted lofts in old industrial buildings. It's one of <a href=\"/guide/atlanta-neighborhoods/\">Atlanta's most walkable neighborhoods</a>, especially if your life revolves around the BeltLine. Expect to pay a premium for that access. The vibe is young, diverse, and very much plugged in to what's happening in the city.",
+      "description": "Cabbagetown is tiny. It's one of the smallest officially recognized neighborhoods in Atlanta, just a few blocks tucked between <a href=\"/neighborhoods/reynoldstown/\">Reynoldstown</a>, <a href=\"/neighborhoods/grant-park/\">Grant Park</a>, and the old <strong><a href=\"https://en.wikipedia.org/wiki/Fulton_Cotton_Mill\" target=\"_blank\" rel=\"noopener\">Fulton Cotton Mill</a></strong> (now the <strong><a href=\"https://en.wikipedia.org/wiki/Fulton_Cotton_Mill\" target=\"_blank\" rel=\"noopener\">Fulton Cotton Mill</a></strong> Lofts, <em>reportedly the largest adaptive reuse loft conversion in the world</em>). The neighborhood gets its name from the mill workers who once grew cabbages in their front yards. The streets are narrow, the houses are small, the street art is everywhere, and it feels like a place that hasn't been focus-grouped.\n\nFood-wise, Cabbagetown's anchor is <strong>Carroll Street Cafe</strong>, which has been around forever and feels like the neighborhood's living room. <strong>Little's Food Store</strong> is a beloved corner market and cafe that people drive across town for. The <strong>mural scene</strong> here is arguably the best in Atlanta, with massive wall-to-wall pieces throughout the neighborhood, especially around the <strong>Krog Street Tunnel</strong> area. The neighborhood has BeltLine access via the <a href=\"/guide/atlanta-beltline/\">Eastside Trail</a> and is a short walk to Grant Park and <a href=\"https://zooatlanta.org/\" target=\"_blank\" rel=\"noopener\">Zoo Atlanta</a>.\n\nHousing is mostly small mill houses, shotgun cottages, and the massive <strong><a href=\"https://en.wikipedia.org/wiki/Fulton_Cotton_Mill\" target=\"_blank\" rel=\"noopener\">Fulton Cotton Mill</a></strong> Lofts complex. Because the lots are small and the neighborhood is historically designated, there's less new development here than in surrounding areas. Prices have still gone up, but Cabbagetown has maintained more of its original character than many gentrifying Atlanta neighborhoods. The vibe is artsy, a little rough around the edges, and deeply proud of being weird.",
       "highlights": [
-        "Home to Krog Street Market and Ponce City Market",
-        "Direct BeltLine Eastside Trail access",
-        "Birthplace of Martin Luther King Jr.",
-        "One of Atlanta's most walkable neighborhoods",
-        "Major restaurant and nightlife corridor along Irwin Street"
+        "Home to Fulton Cotton Mill Lofts, the largest loft conversion in the world",
+        "Major street art and mural destination",
+        "Little's Food Store is an Atlanta institution",
+        "One of Atlanta's smallest and most distinctive neighborhoods",
+        "Walking distance to Grant Park and the BeltLine"
       ],
-      "seoTitle": "Old Fourth Ward Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Old Fourth Ward neighborhood guide with daily news, BeltLine access info, restaurants, housing, and local stories from O4W Atlanta.",
+      "seoTitle": "Cabbagetown Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Cabbagetown Atlanta neighborhood guide with news, street art, restaurants, Fulton Cotton Mill Lofts info, and BeltLine access.",
       "relatedNeighborhoods": [
-        "Inman Park",
-        "Poncey-Highland",
-        "Sweet Auburn"
+        "Reynoldstown",
+        "Grant Park",
+        "Inman Park"
       ],
-      "npu": "N",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-n",
+      "npu": "S",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-s",
       "zipCodes": [
-        "30308",
-        "30312"
+        "30312",
+        "30316"
       ],
       "resources": [
         {
-          "label": "Old Fourth Ward on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Old_Fourth_Ward"
+          "label": "Cabbagetown on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cabbagetown"
         },
         {
-          "label": "Martin Luther King Jr. National Historical Park",
-          "url": "https://www.nps.gov/malu/"
+          "label": "Cabbagetown Neighborhood Improvement Association",
+          "url": "https://www.cabbagetown.com/"
         },
         {
           "label": "Atlanta BeltLine",
           "url": "https://beltline.org/"
         }
       ],
-      "latitude": 33.7677,
-      "longitude": -84.3636,
-      "imageUrl": "/images/neighborhoods/old-fourth-ward.webp",
-      "imageAlt": "Historic Fourth Ward Park with Atlanta skyline in the background",
-      "imageCaption": "Historic Fourth Ward Park connects Old Fourth Ward to the Atlanta BeltLine and downtown skyline.",
+      "latitude": 33.749,
+      "longitude": -84.363,
+      "imageUrl": "/images/neighborhoods/cabbagetown.webp",
+      "imageAlt": "Cabbagetown Park green space in Atlanta historic mill district",
+      "imageCaption": "Cabbagetown Park provides green space in this historic cotton mill neighborhood.",
       "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
+      "name": "East Atlanta",
+      "slug": "east-atlanta",
+      "tier": 1,
+      "description": "East Atlanta is the broader residential neighborhood surrounding <a href=\"/neighborhoods/east-atlanta-village/\">East Atlanta Village</a>. While EAV gets the name recognition for its bars and restaurants, the surrounding blocks of East Atlanta are a solid residential area with tree-lined streets, affordable (by ITP standards) bungalows, and a strong neighborhood identity. Brownwood Park and other green spaces give families room to spread out.\n\nThe neighborhood is bounded roughly by I-20 to the north, Bouldercrest Road to the east, Constitution Road to the south, and Moreland Avenue to the west. It's more spread out than neighborhoods closer to the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>, which means you'll probably drive more. But the tradeoff is more house for your money and a community that's genuinely diverse in age, background, and income level. East Atlanta is where a lot of first-time ITP homebuyers end up, and most of them stay.",
+      "highlights": [
+        "Affordable bungalows by ITP standards",
+        "Adjacent to East Atlanta Village commercial district",
+        "Brownwood Park and neighborhood green spaces",
+        "Diverse, community-oriented residential area",
+        "The Earl is one of Atlanta's best live music venues",
+        "Annual East Atlanta Strut festival and parade",
+        "Mix of dive bars, restaurants, and independent shops",
+        "More affordable than many other ITP neighborhoods",
+        "Future BeltLine Southside Trail connection"
+      ],
+      "seoTitle": "East Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "East Atlanta neighborhood guide with daily news, housing info, parks, community events, and local stories.",
+      "relatedNeighborhoods": [
+        "East Atlanta Village",
+        "Ormewood Park",
+        "Kirkwood"
+      ],
+      "npu": "S",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-s",
+      "zipCodes": [
+        "30316"
+      ],
+      "resources": [
+        {
+          "label": "East Atlanta on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/East_Atlanta"
+        },
+        {
+          "label": "East Atlanta Community Association",
+          "url": "https://www.eastatlanta.com/"
+        }
+      ],
+      "latitude": 33.74,
+      "longitude": -84.344,
+      "imageUrl": "/images/neighborhoods/east-atlanta.webp",
+      "imageAlt": "East Atlanta Village commercial district with local shops and restaurants",
+      "imageCaption": "East Atlanta Village is the walkable commercial heart of the East Atlanta neighborhood.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "name": "Grant Park",
@@ -146,6 +191,176 @@
       "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
+      "name": "Kirkwood",
+      "slug": "kirkwood",
+      "tier": 1,
+      "description": "Kirkwood sits just east of <a href=\"/neighborhoods/inman-park/\">Inman Park</a> and <a href=\"/neighborhoods/edgewood/\">Edgewood</a>, with <a href=\"/neighborhoods/decatur/\">Decatur</a> to its north and <a href=\"/neighborhoods/east-atlanta/\">East Atlanta</a> to its south. It's a residential neighborhood with a small but growing commercial strip along <strong>Hosea L. Williams Drive</strong>. Kirkwood was one of those neighborhoods that was quietly affordable for years while the areas closer to the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a> got all the attention. That's changed. Prices have gone up, but Kirkwood still has a family-friendly, community-oriented feel that sets it apart.\n\nThe food scene is small but solid. Pullman Yard, the massive historic railcar repair facility on the neighborhood's edge, has been converted into a mixed-use event and entertainment venue that hosts immersive art shows and markets. Le Petit Marche is a beloved French-Southern brunch spot. Taproom Coffee, Arden's Garden, and a handful of other spots line the main drag. The PATH trail system runs through the neighborhood, and the planned BeltLine spur connections will eventually improve cycling access to the rest of the city.\n\nHousing in Kirkwood is a charming mix of Craftsman bungalows, shotgun houses, and some newer construction. The lots are generous by ITP standards, so you actually get a real yard. The community is tight. The Kirkwood Neighbors' Organization is active, the spring tour of homes is a big deal, and the neighborhood Facebook groups are extremely lively (for better or worse). Kirkwood is where you move when you want the ITP lifestyle with a little more space and a little less scene.",
+      "highlights": [
+        "Home to the historic Pullman Yard event venue",
+        "Charming Craftsman bungalows with real yards",
+        "Active neighborhood association and community events",
+        "Growing restaurant scene on Hosea L. Williams Drive",
+        "Adjacent to Decatur and Inman Park"
+      ],
+      "seoTitle": "Kirkwood Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Kirkwood Atlanta neighborhood guide with news, Pullman Yard events, restaurants, bungalow homes, and community updates.",
+      "relatedNeighborhoods": [
+        "Edgewood",
+        "East Atlanta",
+        "Decatur"
+      ],
+      "npu": "Z",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-z",
+      "zipCodes": [
+        "30317"
+      ],
+      "resources": [
+        {
+          "label": "Kirkwood on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kirkwood"
+        },
+        {
+          "label": "Kirkwood Neighbors' Organization",
+          "url": "https://www.historic-kirkwood.com/"
+        },
+        {
+          "label": "MARTA Transit",
+          "url": "https://www.itsmarta.com/"
+        }
+      ],
+      "latitude": 33.756,
+      "longitude": -84.33,
+      "imageUrl": "/images/neighborhoods/kirkwood.webp",
+      "imageAlt": "Historic downtown Kirkwood Atlanta circa 1954",
+      "imageCaption": "Historic downtown Kirkwood has maintained its small-town character since the 1950s.",
+      "imageCredit": "Photo: Wikimedia Commons (Public Domain)"
+    },
+    {
+      "name": "Old Fourth Ward",
+      "slug": "old-fourth-ward",
+      "tier": 1,
+      "description": "Old Fourth Ward sits just east of <a href=\"/neighborhoods/downtown/\">Downtown</a> Atlanta, roughly bounded by the Downtown Connector to the west, Ponce de Leon Avenue to the north, Moreland Avenue to the east, and Interstate 20 to the south. It's one of the oldest neighborhoods in the city, the birthplace of <strong><a href=\"https://www.nps.gov/malu/\" target=\"_blank\" rel=\"noopener\">Martin Luther King Jr.</a></strong>, and over the past decade it has become ground zero for Atlanta's transformation along the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>. The <a href=\"/guide/atlanta-beltline/\">Eastside Trail</a> runs right through O4W, and that single piece of infrastructure changed everything here.\n\nThe food and drink scene in Old Fourth Ward is stacked. <strong><a href=\"https://www.krogstreetmarket.com/\" target=\"_blank\" rel=\"noopener\">Krog Street Market</a></strong> is the anchor, a repurposed warehouse full of food stalls, restaurants, and a bar scene that stays packed most weekends. Nearby you have spots like <strong>Staplehouse</strong> (one of the best restaurants in the entire Southeast), <em>Watchman's</em> (seafood), and a growing list of cocktail bars along the Irwin Street corridor. <strong><a href=\"https://www.poncecitymarket.com/\" target=\"_blank\" rel=\"noopener\">Ponce City Market</a></strong> is technically on the neighborhood's northern edge and serves as a second food hall with rooftop amusement park views of the skyline. The <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a> itself is lined with patios and pop-ups.\n\nHousing in O4W is a mix of everything. You'll find renovated bungalows and shotgun houses on the historic blocks south of Irwin Street, newer luxury condos and apartments along the BeltLine corridor, and converted lofts in old industrial buildings. It's one of <a href=\"/guide/atlanta-neighborhoods/\">Atlanta's most walkable neighborhoods</a>, especially if your life revolves around the BeltLine. Expect to pay a premium for that access. The vibe is young, diverse, and very much plugged in to what's happening in the city.",
+      "highlights": [
+        "Home to Krog Street Market and Ponce City Market",
+        "Direct BeltLine Eastside Trail access",
+        "Birthplace of Martin Luther King Jr.",
+        "One of Atlanta's most walkable neighborhoods",
+        "Major restaurant and nightlife corridor along Irwin Street"
+      ],
+      "seoTitle": "Old Fourth Ward Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Old Fourth Ward neighborhood guide with daily news, BeltLine access info, restaurants, housing, and local stories from O4W Atlanta.",
+      "relatedNeighborhoods": [
+        "Inman Park",
+        "Poncey-Highland",
+        "Sweet Auburn"
+      ],
+      "npu": "N",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-n",
+      "zipCodes": [
+        "30308",
+        "30312"
+      ],
+      "resources": [
+        {
+          "label": "Old Fourth Ward on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Old_Fourth_Ward"
+        },
+        {
+          "label": "Martin Luther King Jr. National Historical Park",
+          "url": "https://www.nps.gov/malu/"
+        },
+        {
+          "label": "Atlanta BeltLine",
+          "url": "https://beltline.org/"
+        }
+      ],
+      "latitude": 33.7677,
+      "longitude": -84.3636,
+      "imageUrl": "/images/neighborhoods/old-fourth-ward.webp",
+      "imageAlt": "Historic Fourth Ward Park with Atlanta skyline in the background",
+      "imageCaption": "Historic Fourth Ward Park connects Old Fourth Ward to the Atlanta BeltLine and downtown skyline.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
+      "name": "Ormewood Park",
+      "slug": "ormewood-park",
+      "tier": 1,
+      "description": "Ormewood Park is a residential neighborhood between <a href=\"/neighborhoods/grant-park/\">Grant Park</a> and <a href=\"/neighborhoods/east-atlanta/\">East Atlanta</a>, along the Glenwood Avenue corridor. It's been one of the quieter east-side success stories, with steadily appreciating home values and a growing reputation as a family-friendly spot with actual affordability (relative to Grant Park and <a href=\"/neighborhoods/inman-park/\">Inman Park</a>, anyway). The neighborhood has a strong sense of community, an active park, and good access to both the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s future <a href=\"/guide/atlanta-beltline/\">Southside Trail</a> and the commercial options in <a href=\"/neighborhoods/east-atlanta-village/\">East Atlanta Village</a>.\n\nHousing is mostly bungalows and smaller homes on tree-lined streets, with some new construction filling in vacant lots. Ormewood Park sits in a sweet spot: close to the action but not in the middle of it. You're ten minutes from <a href=\"/neighborhoods/downtown/\">Downtown</a>, five minutes from EAV, and surrounded by the kind of residential streets where kids still ride bikes. It's a neighborhood that gets recommended a lot in \"where should I live in Atlanta\" threads, and for good reason.",
+      "highlights": [
+        "Family-friendly residential area between Grant Park and EAV",
+        "Active community park and neighborhood association",
+        "Relatively affordable compared to neighboring areas",
+        "Future BeltLine Southside Trail access"
+      ],
+      "seoTitle": "Ormewood Park Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Ormewood Park Atlanta neighborhood guide with news, housing info, community events, and family-friendly neighborhood coverage.",
+      "relatedNeighborhoods": [
+        "Grant Park",
+        "East Atlanta Village",
+        "East Atlanta"
+      ],
+      "npu": "W",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-w",
+      "zipCodes": [
+        "30316"
+      ],
+      "resources": [
+        {
+          "label": "Ormewood Park on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ormewood_Park"
+        },
+        {
+          "label": "Atlanta BeltLine",
+          "url": "https://beltline.org/"
+        }
+      ],
+      "latitude": 33.731,
+      "longitude": -84.352,
+      "imageUrl": "/images/neighborhoods/ormewood-park.webp",
+      "imageAlt": "Atlanta BeltLine bridge crossing Ormewood Avenue in Ormewood Park neighborhood",
+      "imageCaption": "The BeltLine bridge at Ormewood Avenue connects the neighborhood to the Southside Trail.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
+      "name": "Peoplestown",
+      "slug": "peoplestown",
+      "tier": 1,
+      "description": "Peoplestown is a small residential neighborhood south of <a href=\"/neighborhoods/summerhill/\">Summerhill</a> and the Georgia State campus, with a history of community activism around housing and environmental justice. The neighborhood has been at the center of debates about stormwater infrastructure, displacement, and the impacts of nearby stadium development. New investment is coming, but so are concerns about preserving affordability for longtime residents. It's a neighborhood to watch as the Summerhill development wave pushes southward.",
+      "highlights": [
+        "Strong community activism tradition",
+        "Adjacent to Summerhill development area",
+        "Affordable by ITP standards"
+      ],
+      "seoTitle": "Peoplestown Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Peoplestown Atlanta neighborhood guide with news, community activism updates, development, and housing stories.",
+      "relatedNeighborhoods": [
+        "Summerhill",
+        "Grant Park",
+        "Mechanicsville"
+      ],
+      "npu": "W",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-w",
+      "zipCodes": [
+        "30315"
+      ],
+      "resources": [
+        {
+          "label": "Peoplestown on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peoplestown"
+        },
+        {
+          "label": "Peoplestown Neighborhood Association",
+          "url": "https://www.peoplestown.org/"
+        }
+      ],
+      "latitude": 33.727,
+      "longitude": -84.383,
+      "imageUrl": "/images/neighborhoods/peoplestown.webp",
+      "imageAlt": "Peoplestown neighborhood in southeast Atlanta",
+      "imageCaption": "Peoplestown is a historic neighborhood south of downtown Atlanta undergoing revitalization.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
       "name": "Reynoldstown",
       "slug": "reynoldstown",
       "tier": 1,
@@ -190,52 +405,6 @@
       "imageAlt": "Reynoldstown neighborhood street scene in Atlanta",
       "imageCaption": "Reynoldstown blends historic charm with modern development along the BeltLine.",
       "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 3.0)"
-    },
-    {
-      "name": "Cabbagetown",
-      "slug": "cabbagetown",
-      "tier": 1,
-      "description": "Cabbagetown is tiny. It's one of the smallest officially recognized neighborhoods in Atlanta, just a few blocks tucked between <a href=\"/neighborhoods/reynoldstown/\">Reynoldstown</a>, <a href=\"/neighborhoods/grant-park/\">Grant Park</a>, and the old <strong><a href=\"https://en.wikipedia.org/wiki/Fulton_Cotton_Mill\" target=\"_blank\" rel=\"noopener\">Fulton Cotton Mill</a></strong> (now the <strong><a href=\"https://en.wikipedia.org/wiki/Fulton_Cotton_Mill\" target=\"_blank\" rel=\"noopener\">Fulton Cotton Mill</a></strong> Lofts, <em>reportedly the largest adaptive reuse loft conversion in the world</em>). The neighborhood gets its name from the mill workers who once grew cabbages in their front yards. The streets are narrow, the houses are small, the street art is everywhere, and it feels like a place that hasn't been focus-grouped.\n\nFood-wise, Cabbagetown's anchor is <strong>Carroll Street Cafe</strong>, which has been around forever and feels like the neighborhood's living room. <strong>Little's Food Store</strong> is a beloved corner market and cafe that people drive across town for. The <strong>mural scene</strong> here is arguably the best in Atlanta, with massive wall-to-wall pieces throughout the neighborhood, especially around the <strong>Krog Street Tunnel</strong> area. The neighborhood has BeltLine access via the <a href=\"/guide/atlanta-beltline/\">Eastside Trail</a> and is a short walk to Grant Park and <a href=\"https://zooatlanta.org/\" target=\"_blank\" rel=\"noopener\">Zoo Atlanta</a>.\n\nHousing is mostly small mill houses, shotgun cottages, and the massive <strong><a href=\"https://en.wikipedia.org/wiki/Fulton_Cotton_Mill\" target=\"_blank\" rel=\"noopener\">Fulton Cotton Mill</a></strong> Lofts complex. Because the lots are small and the neighborhood is historically designated, there's less new development here than in surrounding areas. Prices have still gone up, but Cabbagetown has maintained more of its original character than many gentrifying Atlanta neighborhoods. The vibe is artsy, a little rough around the edges, and deeply proud of being weird.",
-      "highlights": [
-        "Home to Fulton Cotton Mill Lofts, the largest loft conversion in the world",
-        "Major street art and mural destination",
-        "Little's Food Store is an Atlanta institution",
-        "One of Atlanta's smallest and most distinctive neighborhoods",
-        "Walking distance to Grant Park and the BeltLine"
-      ],
-      "seoTitle": "Cabbagetown Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Cabbagetown Atlanta neighborhood guide with news, street art, restaurants, Fulton Cotton Mill Lofts info, and BeltLine access.",
-      "relatedNeighborhoods": [
-        "Reynoldstown",
-        "Grant Park",
-        "Inman Park"
-      ],
-      "npu": "S",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-s",
-      "zipCodes": [
-        "30312",
-        "30316"
-      ],
-      "resources": [
-        {
-          "label": "Cabbagetown on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Cabbagetown"
-        },
-        {
-          "label": "Cabbagetown Neighborhood Improvement Association",
-          "url": "https://www.cabbagetown.com/"
-        },
-        {
-          "label": "Atlanta BeltLine",
-          "url": "https://beltline.org/"
-        }
-      ],
-      "latitude": 33.749,
-      "longitude": -84.363,
-      "imageUrl": "/images/neighborhoods/cabbagetown.webp",
-      "imageAlt": "Cabbagetown Park green space in Atlanta historic mill district",
-      "imageCaption": "Cabbagetown Park provides green space in this historic cotton mill neighborhood.",
-      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "name": "Summerhill",
@@ -284,99 +453,49 @@
       "imageCredit": "Photo: Panoramio / Wikimedia Commons (CC BY 3.0)"
     },
     {
-      "name": "East Atlanta Village",
-      "slug": "east-atlanta-village",
-      "tier": 1,
-      "description": "<a href=\"/neighborhoods/east-atlanta/\">East Atlanta</a> Village (EAV) is the commercial heart of the broader East Atlanta neighborhood, centered around the intersection of <strong>Flat Shoals</strong> and <strong>Glenwood Avenues</strong>. It has the energy of a small town's main street, if that small town were full of dive bars, record shops, and taco joints. EAV has long been Atlanta's punk rock and indie neighborhood, the place where bands played before they made it (or didn't), and while it's gotten more polished over the years, it still has more grit than most ITP neighborhoods.\n\nThe food and bar scene in EAV is unpretentious and fun. The Earl is the anchor, a legendary dive bar and live music venue. <strong>Argosy</strong> is the neighborhood's gastropub with a great patio. Holy Taco does exactly what the name suggests. You'll also find Banshee, <strong>We Suki Suki</strong>, and a rotating cast of newer spots trying to put down roots. The EAV Farmers Market and the annual <strong><a href=\"https://www.eastatlantastrut.com/\" target=\"_blank\" rel=\"noopener\">East Atlanta Strut</a></strong> (a neighborhood parade and festival) are community staples. The <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s <a href=\"/guide/atlanta-beltline/\">Southside Trail</a> will eventually connect here, which will likely bring more foot traffic and development.\n\nHousing in EAV is mostly bungalows and Craftsman cottages from the early 1900s, with some newer infill construction. It's more affordable than the neighborhoods directly on the current BeltLine trail, though prices have been climbing. The vibe is proudly independent, a little loud, and very neighborly. People move to EAV because they want a neighborhood with personality, and it delivers.",
+      "name": "Candler Park",
+      "slug": "candler-park",
+      "tier": 2,
+      "description": "Candler Park is the residential neighborhood between <a href=\"/neighborhoods/inman-park/\">Inman Park</a> and <a href=\"/neighborhoods/decatur/\">Decatur</a>'s Lake Claire area, centered around Candler Park itself (a 55-acre green space with a pool, golf course, and the Candler Park Market). It's known for being family-friendly and walkable, with a village feel along McLendon Avenue. <strong>Flying Biscuit</strong> Cafe started here. Fellini's Pizza is a late-night institution. The annual Candler Park Fall Fest draws big crowds.\n\nHousing is mostly Craftsman bungalows and larger family homes, with prices that reflect the neighborhood's strong schools (Mary Lin Elementary is in high demand), walkability, and east-side location. The <a href=\"/neighborhoods/edgewood/\">Edgewood</a>/Candler Park <a href=\"https://www.itsmarta.com/\" target=\"_blank\" rel=\"noopener\">MARTA</a> station is nearby, and the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a> is accessible via connecting trails and the PATH system. Candler Park is where you move when you want Inman Park character with a bit more space and a bit less hype.",
       "highlights": [
-        "The Earl is one of Atlanta's best live music venues",
-        "Annual East Atlanta Strut festival and parade",
-        "Mix of dive bars, restaurants, and independent shops",
-        "More affordable than many other ITP neighborhoods",
-        "Future BeltLine Southside Trail connection"
+        "55-acre Candler Park with pool and green space",
+        "Home to Flying Biscuit Cafe and Fellini's Pizza",
+        "Strong elementary school (Mary Lin) draws families",
+        "Annual Candler Park Fall Fest"
       ],
-      "seoTitle": "East Atlanta Village News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "East Atlanta Village (EAV) neighborhood guide with news, live music, restaurants, bars, community events, and housing info.",
+      "seoTitle": "Candler Park Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Candler Park Atlanta neighborhood guide with news, park info, family-friendly community updates, restaurants, and events.",
       "relatedNeighborhoods": [
-        "East Atlanta",
-        "Ormewood Park",
-        "Kirkwood"
+        "Inman Park",
+        "Little Five Points",
+        "Edgewood"
       ],
-      "npu": "S",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-s",
+      "npu": "O",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-o",
       "zipCodes": [
-        "30316"
+        "30307"
       ],
       "resources": [
         {
-          "label": "East Atlanta Village on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/East_Atlanta_Village"
+          "label": "Candler Park on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Candler_Park"
         },
         {
-          "label": "East Atlanta Community Association",
-          "url": "https://www.eastatlanta.com/"
+          "label": "Candler Park Neighborhood Organization",
+          "url": "https://www.candlerpark.org/"
         },
         {
           "label": "MARTA Transit",
           "url": "https://www.itsmarta.com/"
         }
       ],
-      "latitude": 33.74,
-      "longitude": -84.34,
-      "imageUrl": "/images/neighborhoods/east-atlanta-village.webp",
-      "imageAlt": "East Atlanta Village commercial district with local shops and restaurants",
-      "imageCaption": "East Atlanta Village is the walkable heart of the East Atlanta neighborhood.",
-      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 3.0)"
-    },
-    {
-      "name": "Kirkwood",
-      "slug": "kirkwood",
-      "tier": 1,
-      "description": "Kirkwood sits just east of <a href=\"/neighborhoods/inman-park/\">Inman Park</a> and <a href=\"/neighborhoods/edgewood/\">Edgewood</a>, with <a href=\"/neighborhoods/decatur/\">Decatur</a> to its north and <a href=\"/neighborhoods/east-atlanta/\">East Atlanta</a> to its south. It's a residential neighborhood with a small but growing commercial strip along <strong>Hosea L. Williams Drive</strong>. Kirkwood was one of those neighborhoods that was quietly affordable for years while the areas closer to the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a> got all the attention. That's changed. Prices have gone up, but Kirkwood still has a family-friendly, community-oriented feel that sets it apart.\n\nThe food scene is small but solid. Pullman Yard, the massive historic railcar repair facility on the neighborhood's edge, has been converted into a mixed-use event and entertainment venue that hosts immersive art shows and markets. Le Petit Marche is a beloved French-Southern brunch spot. Taproom Coffee, Arden's Garden, and a handful of other spots line the main drag. The PATH trail system runs through the neighborhood, and the planned BeltLine spur connections will eventually improve cycling access to the rest of the city.\n\nHousing in Kirkwood is a charming mix of Craftsman bungalows, shotgun houses, and some newer construction. The lots are generous by ITP standards, so you actually get a real yard. The community is tight. The Kirkwood Neighbors' Organization is active, the spring tour of homes is a big deal, and the neighborhood Facebook groups are extremely lively (for better or worse). Kirkwood is where you move when you want the ITP lifestyle with a little more space and a little less scene.",
-      "highlights": [
-        "Home to the historic Pullman Yard event venue",
-        "Charming Craftsman bungalows with real yards",
-        "Active neighborhood association and community events",
-        "Growing restaurant scene on Hosea L. Williams Drive",
-        "Adjacent to Decatur and Inman Park"
-      ],
-      "seoTitle": "Kirkwood Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Kirkwood Atlanta neighborhood guide with news, Pullman Yard events, restaurants, bungalow homes, and community updates.",
-      "relatedNeighborhoods": [
-        "Edgewood",
-        "East Atlanta",
-        "Decatur"
-      ],
-      "npu": "Z",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-z",
-      "zipCodes": [
-        "30317"
-      ],
-      "resources": [
-        {
-          "label": "Kirkwood on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Kirkwood"
-        },
-        {
-          "label": "Kirkwood Neighbors' Organization",
-          "url": "https://www.historic-kirkwood.com/"
-        },
-        {
-          "label": "MARTA Transit",
-          "url": "https://www.itsmarta.com/"
-        }
-      ],
-      "latitude": 33.756,
-      "longitude": -84.33,
-      "imageUrl": "/images/neighborhoods/kirkwood.webp",
-      "imageAlt": "Historic downtown Kirkwood Atlanta circa 1954",
-      "imageCaption": "Historic downtown Kirkwood has maintained its small-town character since the 1950s.",
-      "imageCredit": "Photo: Wikimedia Commons (Public Domain)"
+      "latitude": 33.765,
+      "longitude": -84.337
     },
     {
       "name": "Decatur",
       "slug": "decatur",
-      "tier": 1,
+      "tier": 2,
       "description": "Decatur is technically its own city, not an Atlanta neighborhood, but nobody cares about that distinction in daily life. It sits just east of Atlanta along the <a href=\"https://www.itsmarta.com/\" target=\"_blank\" rel=\"noopener\">MARTA</a> rail line, centered around the charming Decatur Square with its old courthouse, independent shops, and restaurants. Decatur has long had a reputation as a progressive, walkable, food-obsessed small city, and that reputation is well earned. If you want to live ITP-adjacent without dealing with Atlanta city government, Decatur is the move.\n\nThe food scene in Decatur is genuinely one of the best in the metro area. <strong>Leon's Full Service</strong> is a cocktail bar and kitchen that consistently ranks among Atlanta's best. The <strong>Brick Store Pub</strong> has one of the most impressive beer selections in the Southeast. <strong>Kimball House</strong> does oysters and cocktails in a converted train depot. Chai Pani brings Asheville's beloved Indian street food concept to the square. You also have Butter & Cream, Revival, Iberian Pig, and a deep bench of independent restaurants that would be the pride of most cities. The annual <strong>Decatur Book Festival</strong> is one of the largest in the country.\n\nHousing in Decatur ranges from downtown condos and apartments within walking distance of the square to single-family homes in surrounding neighborhoods like Oakhurst, Winnona Park, and MAK Historic District. The City of Decatur school system is its own district (separate from DeKalb County schools) and is a major draw for families. MARTA's Decatur station puts you on the rail line with direct access to <a href=\"/neighborhoods/midtown/\">Midtown</a>, <a href=\"/neighborhoods/downtown/\">Downtown</a>, and the airport. The vibe is bookish, foodie, community-minded, and a little smug about all of it.",
       "highlights": [
         "Top-tier restaurant scene around Decatur Square",
@@ -420,9 +539,50 @@
       "longitude": -84.2963
     },
     {
+      "name": "Downtown",
+      "slug": "downtown",
+      "tier": 2,
+      "description": "Downtown Atlanta is the city's historic center, home to the State Capitol, the Gulch (under massive redevelopment as Centennial Yards), <strong><a href=\"https://www.georgiaaquarium.org/\" target=\"_blank\" rel=\"noopener\">Georgia Aquarium</a></strong>, the <strong><a href=\"https://www.worldofcoca-cola.com/\" target=\"_blank\" rel=\"noopener\">World of Coca-Cola</a></strong>, and <strong><a href=\"https://mercedesbenzstadium.com/\" target=\"_blank\" rel=\"noopener\">Mercedes-Benz Stadium</a></strong>. It's been a challenge for decades as a place to actually live, but major investment is starting to change that. The Centennial Yards project alone is a multi-billion dollar mixed-use development that aims to transform 50 acres of underused rail infrastructure into a walkable district.\n\nLiving Downtown has historically been cheaper than <a href=\"/neighborhoods/midtown/\">Midtown</a> or <a href=\"/neighborhoods/buckhead/\">Buckhead</a>, with loft conversions and older buildings offering square footage you can't get elsewhere for the price. MARTA's Five Points station is the transit hub for the entire system. The food scene is growing, with spots like Der Biergarten, Alma Cocina, and South City Kitchen joining the mix. Underground Atlanta is being reimagined (again). It's a neighborhood in the middle of what could be its biggest transformation ever.",
+      "highlights": [
+        "Centennial Yards multi-billion dollar redevelopment underway",
+        "Home to Mercedes-Benz Stadium and Georgia Aquarium",
+        "MARTA Five Points station, the system's central hub",
+        "Some of the most affordable ITP loft living"
+      ],
+      "seoTitle": "Downtown Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Downtown Atlanta neighborhood guide with daily news, Centennial Yards updates, MARTA info, and development coverage.",
+      "relatedNeighborhoods": [
+        "Castleberry Hill",
+        "Sweet Auburn",
+        "Midtown"
+      ],
+      "npu": "M",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-m",
+      "zipCodes": [
+        "30303",
+        "30312"
+      ],
+      "resources": [
+        {
+          "label": "Downtown on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Downtown"
+        },
+        {
+          "label": "Central Atlanta Progress",
+          "url": "https://www.centralatlantaprogress.com/"
+        },
+        {
+          "label": "MARTA Transit",
+          "url": "https://www.itsmarta.com/"
+        }
+      ],
+      "latitude": 33.7537,
+      "longitude": -84.3901
+    },
+    {
       "name": "Edgewood",
       "slug": "edgewood",
-      "tier": 1,
+      "tier": 2,
       "description": "Edgewood is a small residential neighborhood tucked between <a href=\"/neighborhoods/inman-park/\">Inman Park</a>, <a href=\"/neighborhoods/kirkwood/\">Kirkwood</a>, and <a href=\"/neighborhoods/candler-park/\">Candler Park</a>. It's easy to confuse with <strong>Edgewood Avenue</strong> (which runs through <a href=\"/neighborhoods/old-fourth-ward/\">Old Fourth Ward</a> and is known for bars), but the actual Edgewood neighborhood is a quieter, primarily residential area along the MARTA east-west rail corridor. The Edgewood/Candler Park <a href=\"https://www.itsmarta.com/\" target=\"_blank\" rel=\"noopener\">MARTA</a> station sits right in the middle of things, giving the neighborhood some of the best transit access on the east side.\n\nThe neighborhood itself doesn't have a huge commercial district, but its location means you're a short walk or bike ride to the restaurants and bars in Inman Park, Candler Park, and Kirkwood. <strong>Edgewood Retail District</strong> (anchored by a large Kroger) provides everyday shopping. The housing stock is a mix of bungalows, newer townhomes, and apartment developments near the MARTA station. Prices have risen with the tide lifting all east-side neighborhoods, but Edgewood is still somewhat overlooked compared to its more famous neighbors, which can work in a buyer's favor.\n\nThe vibe is residential and low-key. People who live in Edgewood tend to appreciate the central location and transit access without the premium price tag of being directly on the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>. It's a neighborhood where you know your neighbors, the streets are relatively quiet, and you can be at Krog Street Market in ten minutes on a bike.",
       "highlights": [
         "MARTA rail station (Edgewood/Candler Park) for easy transit",
@@ -456,6 +616,42 @@
       ],
       "latitude": 33.755,
       "longitude": -84.337
+    },
+    {
+      "name": "Little Five Points",
+      "slug": "little-five-points",
+      "tier": 2,
+      "description": "Little Five Points (L5P) is Atlanta's counterculture district, a small commercial area at the intersection of Moreland, Euclid, and McLendon Avenues. It's home to <strong>Criminal Records</strong>, the Vortex Bar & Grill (with the giant skull entrance), vintage clothing shops, and a street scene that leans punk, bohemian, and unapologetically weird. The Variety Playhouse (now Variety Playhouse, an iconic mid-size music venue) anchors the entertainment scene.\n\nL5P isn't really a neighborhood in the residential sense. It's a commercial district shared between <a href=\"/neighborhoods/inman-park/\">Inman Park</a>, <a href=\"/neighborhoods/candler-park/\">Candler Park</a>, and the surrounding areas. But it functions as a community gathering point and cultural landmark. The Halloween parade here is legendary. Porter Beer Bar has one of the best beer lists in the Southeast. If Atlanta has a soul that doesn't involve money or development, it probably lives somewhere around here.",
+      "highlights": [
+        "Atlanta's counterculture and indie shopping district",
+        "Home to Criminal Records and Variety Playhouse",
+        "Porter Beer Bar and the Vortex Bar & Grill",
+        "Legendary annual Halloween parade"
+      ],
+      "seoTitle": "Little Five Points Atlanta News & Guide | atlanta news & talk",
+      "seoDescription": "Little Five Points (L5P) Atlanta guide with news, indie shops, live music, bars, restaurants, and counterculture events.",
+      "relatedNeighborhoods": [
+        "Inman Park",
+        "Candler Park",
+        "Poncey-Highland"
+      ],
+      "npu": "O",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-o",
+      "zipCodes": [
+        "30307"
+      ],
+      "resources": [
+        {
+          "label": "Little Five Points on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Little_Five_Points"
+        },
+        {
+          "label": "Little Five Points Business Association",
+          "url": "https://www.littlefivepoints.net/"
+        }
+      ],
+      "latitude": 33.764,
+      "longitude": -84.348
     },
     {
       "name": "Midtown",
@@ -503,83 +699,6 @@
       "longitude": -84.3828
     },
     {
-      "name": "Downtown",
-      "slug": "downtown",
-      "tier": 2,
-      "description": "Downtown Atlanta is the city's historic center, home to the State Capitol, the Gulch (under massive redevelopment as Centennial Yards), <strong><a href=\"https://www.georgiaaquarium.org/\" target=\"_blank\" rel=\"noopener\">Georgia Aquarium</a></strong>, the <strong><a href=\"https://www.worldofcoca-cola.com/\" target=\"_blank\" rel=\"noopener\">World of Coca-Cola</a></strong>, and <strong><a href=\"https://mercedesbenzstadium.com/\" target=\"_blank\" rel=\"noopener\">Mercedes-Benz Stadium</a></strong>. It's been a challenge for decades as a place to actually live, but major investment is starting to change that. The Centennial Yards project alone is a multi-billion dollar mixed-use development that aims to transform 50 acres of underused rail infrastructure into a walkable district.\n\nLiving Downtown has historically been cheaper than <a href=\"/neighborhoods/midtown/\">Midtown</a> or <a href=\"/neighborhoods/buckhead/\">Buckhead</a>, with loft conversions and older buildings offering square footage you can't get elsewhere for the price. MARTA's Five Points station is the transit hub for the entire system. The food scene is growing, with spots like Der Biergarten, Alma Cocina, and South City Kitchen joining the mix. Underground Atlanta is being reimagined (again). It's a neighborhood in the middle of what could be its biggest transformation ever.",
-      "highlights": [
-        "Centennial Yards multi-billion dollar redevelopment underway",
-        "Home to Mercedes-Benz Stadium and Georgia Aquarium",
-        "MARTA Five Points station, the system's central hub",
-        "Some of the most affordable ITP loft living"
-      ],
-      "seoTitle": "Downtown Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Downtown Atlanta neighborhood guide with daily news, Centennial Yards updates, MARTA info, and development coverage.",
-      "relatedNeighborhoods": [
-        "Castleberry Hill",
-        "Sweet Auburn",
-        "Midtown"
-      ],
-      "npu": "M",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-m",
-      "zipCodes": [
-        "30303",
-        "30312"
-      ],
-      "resources": [
-        {
-          "label": "Downtown on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Downtown"
-        },
-        {
-          "label": "Central Atlanta Progress",
-          "url": "https://www.centralatlantaprogress.com/"
-        },
-        {
-          "label": "MARTA Transit",
-          "url": "https://www.itsmarta.com/"
-        }
-      ],
-      "latitude": 33.7537,
-      "longitude": -84.3901
-    },
-    {
-      "name": "Virginia-Highland",
-      "slug": "virginia-highland",
-      "tier": 2,
-      "description": "Virginia-Highland (VaHi to locals) is one of Atlanta's most established walkable neighborhoods, centered around the intersection of Virginia and <strong>North Highland Avenue</strong>s. The commercial district has a village feel, with locally-owned shops, restaurants, and bars lining the streets. It's the kind of neighborhood where you can walk to dinner, stop for ice cream at Morelli's, and stroll home without ever getting in a car.\n\nThe housing is mostly Craftsman bungalows and small Tudor homes, many lovingly maintained with strong property values. VaHi borders Piedmont Park to the west, giving residents easy access to the park and the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s <a href=\"/guide/atlanta-beltline/\">Eastside Trail</a>. Murphy's has been serving the neighborhood for decades. Hand in Hand and La Tavola are local favorites. It's a mature neighborhood that doesn't need to prove anything, popular with young professionals and families who want walkability and a bit of charm without the hustle of the BeltLine corridor.",
-      "highlights": [
-        "Walkable village center with locally-owned shops",
-        "Adjacent to Piedmont Park and BeltLine Eastside Trail",
-        "Classic Craftsman and Tudor bungalow housing",
-        "Strong restaurant scene anchored by longtime favorites"
-      ],
-      "seoTitle": "Virginia-Highland Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Virginia-Highland (VaHi) neighborhood guide with news, restaurants, shops, Piedmont Park access, and bungalow homes.",
-      "relatedNeighborhoods": [
-        "Poncey-Highland",
-        "Morningside",
-        "Midtown"
-      ],
-      "npu": "F",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-f",
-      "zipCodes": [
-        "30306"
-      ],
-      "resources": [
-        {
-          "label": "Virginia-Highland on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Virginia-Highland"
-        },
-        {
-          "label": "Virginia-Highland Civic Association",
-          "url": "https://www.vahi.org/"
-        }
-      ],
-      "latitude": 33.783,
-      "longitude": -84.356
-    },
-    {
       "name": "Poncey-Highland",
       "slug": "poncey-highland",
       "tier": 2,
@@ -621,156 +740,80 @@
       "longitude": -84.356
     },
     {
-      "name": "Candler Park",
-      "slug": "candler-park",
+      "name": "Sweet Auburn",
+      "slug": "sweet-auburn",
       "tier": 2,
-      "description": "Candler Park is the residential neighborhood between <a href=\"/neighborhoods/inman-park/\">Inman Park</a> and <a href=\"/neighborhoods/decatur/\">Decatur</a>'s Lake Claire area, centered around Candler Park itself (a 55-acre green space with a pool, golf course, and the Candler Park Market). It's known for being family-friendly and walkable, with a village feel along McLendon Avenue. <strong>Flying Biscuit</strong> Cafe started here. Fellini's Pizza is a late-night institution. The annual Candler Park Fall Fest draws big crowds.\n\nHousing is mostly Craftsman bungalows and larger family homes, with prices that reflect the neighborhood's strong schools (Mary Lin Elementary is in high demand), walkability, and east-side location. The <a href=\"/neighborhoods/edgewood/\">Edgewood</a>/Candler Park <a href=\"https://www.itsmarta.com/\" target=\"_blank\" rel=\"noopener\">MARTA</a> station is nearby, and the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a> is accessible via connecting trails and the PATH system. Candler Park is where you move when you want Inman Park character with a bit more space and a bit less hype.",
+      "description": "Sweet Auburn is one of the most historically significant neighborhoods in American civil rights history, home to the <strong><a href=\"https://www.nps.gov/malu/\" target=\"_blank\" rel=\"noopener\">Martin Luther King Jr.</a></strong> National Historical Park, <strong><a href=\"https://ebenezeratl.org/\" target=\"_blank\" rel=\"noopener\">Ebenezer Baptist Church</a></strong>, and the APEX Museum. Auburn Avenue was once called \"the richest Negro street in the world\" by Forbes magazine. Today the neighborhood is seeing new investment while working to preserve its immense cultural heritage. The <strong><a href=\"https://municipalmarketatl.com/\" target=\"_blank\" rel=\"noopener\">Sweet Auburn Curb Market</a></strong> is a public market that has been operating since 1923 and remains a beloved food destination.",
       "highlights": [
-        "55-acre Candler Park with pool and green space",
-        "Home to Flying Biscuit Cafe and Fellini's Pizza",
-        "Strong elementary school (Mary Lin) draws families",
-        "Annual Candler Park Fall Fest"
+        "Martin Luther King Jr. National Historical Park",
+        "Historic Auburn Avenue corridor",
+        "Sweet Auburn Curb Market since 1923"
       ],
-      "seoTitle": "Candler Park Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Candler Park Atlanta neighborhood guide with news, park info, family-friendly community updates, restaurants, and events.",
+      "seoTitle": "Sweet Auburn Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Sweet Auburn Atlanta neighborhood guide with news, MLK historical sites, Curb Market, and civil rights history.",
       "relatedNeighborhoods": [
-        "Inman Park",
-        "Little Five Points",
+        "Old Fourth Ward",
+        "Downtown",
         "Edgewood"
       ],
-      "npu": "O",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-o",
+      "npu": "N",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-n",
       "zipCodes": [
-        "30307"
+        "30303",
+        "30312"
       ],
       "resources": [
         {
-          "label": "Candler Park on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Candler_Park"
+          "label": "Sweet Auburn on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sweet_Auburn"
         },
         {
-          "label": "Candler Park Neighborhood Organization",
-          "url": "https://www.candlerpark.org/"
+          "label": "Sweet Auburn Works",
+          "url": "https://www.sweetauburnworks.com/"
         },
         {
           "label": "MARTA Transit",
           "url": "https://www.itsmarta.com/"
         }
       ],
-      "latitude": 33.765,
-      "longitude": -84.337
+      "latitude": 33.756,
+      "longitude": -84.378
     },
     {
-      "name": "Little Five Points",
-      "slug": "little-five-points",
+      "name": "Virginia-Highland",
+      "slug": "virginia-highland",
       "tier": 2,
-      "description": "Little Five Points (L5P) is Atlanta's counterculture district, a small commercial area at the intersection of Moreland, Euclid, and McLendon Avenues. It's home to <strong>Criminal Records</strong>, the Vortex Bar & Grill (with the giant skull entrance), vintage clothing shops, and a street scene that leans punk, bohemian, and unapologetically weird. The Variety Playhouse (now Variety Playhouse, an iconic mid-size music venue) anchors the entertainment scene.\n\nL5P isn't really a neighborhood in the residential sense. It's a commercial district shared between <a href=\"/neighborhoods/inman-park/\">Inman Park</a>, <a href=\"/neighborhoods/candler-park/\">Candler Park</a>, and the surrounding areas. But it functions as a community gathering point and cultural landmark. The Halloween parade here is legendary. Porter Beer Bar has one of the best beer lists in the Southeast. If Atlanta has a soul that doesn't involve money or development, it probably lives somewhere around here.",
+      "description": "Virginia-Highland (VaHi to locals) is one of Atlanta's most established walkable neighborhoods, centered around the intersection of Virginia and <strong>North Highland Avenue</strong>s. The commercial district has a village feel, with locally-owned shops, restaurants, and bars lining the streets. It's the kind of neighborhood where you can walk to dinner, stop for ice cream at Morelli's, and stroll home without ever getting in a car.\n\nThe housing is mostly Craftsman bungalows and small Tudor homes, many lovingly maintained with strong property values. VaHi borders Piedmont Park to the west, giving residents easy access to the park and the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s <a href=\"/guide/atlanta-beltline/\">Eastside Trail</a>. Murphy's has been serving the neighborhood for decades. Hand in Hand and La Tavola are local favorites. It's a mature neighborhood that doesn't need to prove anything, popular with young professionals and families who want walkability and a bit of charm without the hustle of the BeltLine corridor.",
       "highlights": [
-        "Atlanta's counterculture and indie shopping district",
-        "Home to Criminal Records and Variety Playhouse",
-        "Porter Beer Bar and the Vortex Bar & Grill",
-        "Legendary annual Halloween parade"
+        "Walkable village center with locally-owned shops",
+        "Adjacent to Piedmont Park and BeltLine Eastside Trail",
+        "Classic Craftsman and Tudor bungalow housing",
+        "Strong restaurant scene anchored by longtime favorites"
       ],
-      "seoTitle": "Little Five Points Atlanta News & Guide | atlanta news & talk",
-      "seoDescription": "Little Five Points (L5P) Atlanta guide with news, indie shops, live music, bars, restaurants, and counterculture events.",
+      "seoTitle": "Virginia-Highland Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Virginia-Highland (VaHi) neighborhood guide with news, restaurants, shops, Piedmont Park access, and bungalow homes.",
       "relatedNeighborhoods": [
-        "Inman Park",
-        "Candler Park",
-        "Poncey-Highland"
+        "Poncey-Highland",
+        "Morningside",
+        "Midtown"
       ],
-      "npu": "O",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-o",
+      "npu": "F",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-f",
       "zipCodes": [
-        "30307"
+        "30306"
       ],
       "resources": [
         {
-          "label": "Little Five Points on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Little_Five_Points"
+          "label": "Virginia-Highland on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Virginia-Highland"
         },
         {
-          "label": "Little Five Points Business Association",
-          "url": "https://www.littlefivepoints.net/"
+          "label": "Virginia-Highland Civic Association",
+          "url": "https://www.vahi.org/"
         }
       ],
-      "latitude": 33.764,
-      "longitude": -84.348
-    },
-    {
-      "name": "Ormewood Park",
-      "slug": "ormewood-park",
-      "tier": 2,
-      "description": "Ormewood Park is a residential neighborhood between <a href=\"/neighborhoods/grant-park/\">Grant Park</a> and <a href=\"/neighborhoods/east-atlanta/\">East Atlanta</a>, along the Glenwood Avenue corridor. It's been one of the quieter east-side success stories, with steadily appreciating home values and a growing reputation as a family-friendly spot with actual affordability (relative to Grant Park and <a href=\"/neighborhoods/inman-park/\">Inman Park</a>, anyway). The neighborhood has a strong sense of community, an active park, and good access to both the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s future <a href=\"/guide/atlanta-beltline/\">Southside Trail</a> and the commercial options in <a href=\"/neighborhoods/east-atlanta-village/\">East Atlanta Village</a>.\n\nHousing is mostly bungalows and smaller homes on tree-lined streets, with some new construction filling in vacant lots. Ormewood Park sits in a sweet spot: close to the action but not in the middle of it. You're ten minutes from <a href=\"/neighborhoods/downtown/\">Downtown</a>, five minutes from EAV, and surrounded by the kind of residential streets where kids still ride bikes. It's a neighborhood that gets recommended a lot in \"where should I live in Atlanta\" threads, and for good reason.",
-      "highlights": [
-        "Family-friendly residential area between Grant Park and EAV",
-        "Active community park and neighborhood association",
-        "Relatively affordable compared to neighboring areas",
-        "Future BeltLine Southside Trail access"
-      ],
-      "seoTitle": "Ormewood Park Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Ormewood Park Atlanta neighborhood guide with news, housing info, community events, and family-friendly neighborhood coverage.",
-      "relatedNeighborhoods": [
-        "Grant Park",
-        "East Atlanta Village",
-        "East Atlanta"
-      ],
-      "npu": "W",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-w",
-      "zipCodes": [
-        "30316"
-      ],
-      "resources": [
-        {
-          "label": "Ormewood Park on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ormewood_Park"
-        },
-        {
-          "label": "Atlanta BeltLine",
-          "url": "https://beltline.org/"
-        }
-      ],
-      "latitude": 33.731,
-      "longitude": -84.352,
-      "imageUrl": "/images/neighborhoods/ormewood-park.webp",
-      "imageAlt": "Brownwood Park green space in Ormewood Park Atlanta",
-      "imageCaption": "Brownwood Park anchors the Ormewood Park neighborhood with sports fields and greenery.",
-      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
-    },
-    {
-      "name": "East Atlanta",
-      "slug": "east-atlanta",
-      "tier": 2,
-      "description": "East Atlanta is the broader residential neighborhood surrounding <a href=\"/neighborhoods/east-atlanta-village/\">East Atlanta Village</a>. While EAV gets the name recognition for its bars and restaurants, the surrounding blocks of East Atlanta are a solid residential area with tree-lined streets, affordable (by ITP standards) bungalows, and a strong neighborhood identity. Brownwood Park and other green spaces give families room to spread out.\n\nThe neighborhood is bounded roughly by I-20 to the north, Bouldercrest Road to the east, Constitution Road to the south, and Moreland Avenue to the west. It's more spread out than neighborhoods closer to the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>, which means you'll probably drive more. But the tradeoff is more house for your money and a community that's genuinely diverse in age, background, and income level. East Atlanta is where a lot of first-time ITP homebuyers end up, and most of them stay.",
-      "highlights": [
-        "Affordable bungalows by ITP standards",
-        "Adjacent to East Atlanta Village commercial district",
-        "Brownwood Park and neighborhood green spaces",
-        "Diverse, community-oriented residential area"
-      ],
-      "seoTitle": "East Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "East Atlanta neighborhood guide with daily news, housing info, parks, community events, and local stories.",
-      "relatedNeighborhoods": [
-        "East Atlanta Village",
-        "Ormewood Park",
-        "Kirkwood"
-      ],
-      "npu": "S",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-s",
-      "zipCodes": [
-        "30316"
-      ],
-      "resources": [
-        {
-          "label": "East Atlanta on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/East_Atlanta"
-        },
-        {
-          "label": "East Atlanta Community Association",
-          "url": "https://www.eastatlanta.com/"
-        }
-      ],
-      "latitude": 33.74,
-      "longitude": -84.344
+      "latitude": 33.783,
+      "longitude": -84.356
     },
     {
       "name": "West End",
@@ -815,848 +858,6 @@
       ],
       "latitude": 33.736,
       "longitude": -84.413
-    },
-    {
-      "name": "Westside",
-      "slug": "westside",
-      "tier": 2,
-      "description": "Westside is a broad term covering several neighborhoods west of the <a href=\"/neighborhoods/downtown/\">Downtown</a> Connector, including areas around the <strong>Westside Provisions District</strong> and the growing corridor along Howell Mill Road. The Westside Provisions District (home to Bacchanalia, one of Atlanta's finest restaurants, plus shops and offices) and the Star Provisions complex put this area on the food map years ago.\n\nThe Westside is also home to significant cultural landmarks including the Center for Civil and Human Rights history and connections to the Atlanta University Center. Real estate development has been aggressive, with new apartment complexes, townhome communities, and commercial spaces transforming formerly industrial blocks. The <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s <a href=\"/guide/atlanta-beltline/\">Westside Trail</a> connects through parts of this area. The Microsoft campus (the redeveloped Quarry Yards site) is a major driver of change here.",
-      "highlights": [
-        "Westside Provisions District with high-end dining",
-        "BeltLine Westside Trail connectivity",
-        "Major development including the Microsoft campus",
-        "Growing residential options in former industrial areas"
-      ],
-      "seoTitle": "Westside Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Westside Atlanta neighborhood guide with news, Westside Provisions District, BeltLine trail, development, and restaurants.",
-      "relatedNeighborhoods": [
-        "West Midtown",
-        "West End",
-        "Midtown"
-      ],
-      "npu": "T",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-t",
-      "zipCodes": [
-        "30314",
-        "30318"
-      ],
-      "resources": [
-        {
-          "label": "Westside on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Westside"
-        },
-        {
-          "label": "Westside Future Fund",
-          "url": "https://www.westsidefuturefund.org/"
-        },
-        {
-          "label": "Atlanta BeltLine",
-          "url": "https://beltline.org/"
-        }
-      ],
-      "latitude": 33.763,
-      "longitude": -84.416
-    },
-    {
-      "name": "West Midtown",
-      "slug": "west-midtown",
-      "tier": 2,
-      "description": "West <a href=\"/neighborhoods/midtown/\">Midtown</a> (also called the <a href=\"/neighborhoods/westside/\">Westside</a> or Upper Westside depending on who you ask) has transformed from an industrial zone into one of Atlanta's hottest neighborhoods for dining, nightlife, and loft living. The Howell Mill and Huff Road corridors are packed with restaurants, breweries, and converted warehouse spaces. Monday Night Brewing, Optimist, and Marcel are just a few names on a deep list.\n\nThe neighborhood's industrial bones give it a different look than the tree-covered east-side neighborhoods. You'll find converted warehouse lofts, new mid-rise apartments, and a handful of remaining single-family homes. The Upper Westside trail and BeltLine connectivity are improving. It's car-dependent compared to Midtown proper, but the concentration of restaurants and bars along Howell Mill makes it a destination in its own right.",
-      "highlights": [
-        "Major restaurant and brewery corridor along Howell Mill",
-        "Converted warehouse lofts and industrial character",
-        "Monday Night Brewing, Optimist, and Marcel",
-        "Rapidly developing with new residential and retail"
-      ],
-      "seoTitle": "West Midtown Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "West Midtown Atlanta neighborhood guide with news, restaurants, breweries, loft living, and development updates.",
-      "relatedNeighborhoods": [
-        "Midtown",
-        "Westside",
-        "Home Park"
-      ],
-      "npu": "D",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-d",
-      "zipCodes": [
-        "30318"
-      ],
-      "resources": [
-        {
-          "label": "West Midtown on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/West_Midtown"
-        },
-        {
-          "label": "Westside Future Fund",
-          "url": "https://www.westsidefuturefund.org/"
-        }
-      ],
-      "latitude": 33.781,
-      "longitude": -84.41
-    },
-    {
-      "name": "Buckhead",
-      "slug": "buckhead",
-      "tier": 3,
-      "description": "Buckhead is Atlanta's upscale commercial and residential district, home to <strong><a href=\"https://www.simon.com/mall/lenox-square\" target=\"_blank\" rel=\"noopener\">Lenox Square</a></strong> and <strong><a href=\"https://www.simon.com/mall/phipps-plaza\" target=\"_blank\" rel=\"noopener\">Phipps Plaza</a></strong> shopping centers, high-rise condos, and some of the most expensive real estate in the Southeast. The Buckhead <a href=\"https://www.itsmarta.com/\" target=\"_blank\" rel=\"noopener\">MARTA</a> stations provide transit access, and the area has a mix of luxury dining, nightlife, and corporate offices. It's Atlanta's version of a traditional wealthy urban neighborhood, with tree-lined residential streets surrounding a dense commercial core. The vibe is polished and moneyed, and the restaurant scene ranges from established fine dining to the latest trendy openings.",
-      "highlights": [
-        "Lenox Square and Phipps Plaza shopping",
-        "High-end dining and nightlife district",
-        "MARTA Buckhead and Lenox stations"
-      ],
-      "seoTitle": "Buckhead Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Buckhead Atlanta neighborhood guide with news, shopping, dining, luxury real estate, and development updates.",
-      "relatedNeighborhoods": [
-        "Midtown",
-        "Ansley Park",
-        "Piedmont Heights"
-      ],
-      "npu": "B",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-b",
-      "zipCodes": [
-        "30305",
-        "30324"
-      ],
-      "resources": [
-        {
-          "label": "Buckhead on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Buckhead"
-        },
-        {
-          "label": "Buckhead Community Improvement District",
-          "url": "https://www.buckheadcid.com/"
-        },
-        {
-          "label": "MARTA Transit",
-          "url": "https://www.itsmarta.com/"
-        }
-      ],
-      "latitude": 33.84,
-      "longitude": -84.38
-    },
-    {
-      "name": "Morningside",
-      "slug": "morningside",
-      "tier": 3,
-      "description": "Morningside is a leafy, established residential neighborhood between <a href=\"/neighborhoods/virginia-highland/\">Virginia-Highland</a> and <a href=\"/neighborhoods/druid-hills/\">Druid Hills</a>, known for its excellent elementary school (Morningside Elementary), large homes, and quiet, family-oriented streets. Morningside Nature Preserve offers a surprising pocket of woods and trails. The neighborhood is close to the shops and restaurants of both VaHi and Emory Village, giving residents options without the foot traffic of living in a commercial district. It's where east-siders go when they want to upsize their home and their yard.",
-      "highlights": [
-        "Morningside Nature Preserve with hiking trails",
-        "Highly rated Morningside Elementary School",
-        "Large homes on tree-lined residential streets"
-      ],
-      "seoTitle": "Morningside Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Morningside Atlanta neighborhood guide with news, schools, nature preserve, and family-friendly community updates.",
-      "relatedNeighborhoods": [
-        "Virginia-Highland",
-        "Druid Hills",
-        "Ansley Park"
-      ],
-      "npu": "F",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-f",
-      "zipCodes": [
-        "30306"
-      ],
-      "resources": [
-        {
-          "label": "Morningside on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Morningside"
-        },
-        {
-          "label": "Morningside Lenox Park Association",
-          "url": "https://www.mlpa.org/"
-        }
-      ],
-      "latitude": 33.79,
-      "longitude": -84.356
-    },
-    {
-      "name": "Druid Hills",
-      "slug": "druid-hills",
-      "tier": 3,
-      "description": "Druid Hills is an unincorporated DeKalb County community designed in part by Frederick Law Olmsted, known for its grand homes, the <strong><a href=\"https://www.fernbankmuseum.org/\" target=\"_blank\" rel=\"noopener\">Fernbank Museum</a></strong> of Natural History, and its proximity to <strong><a href=\"https://www.emory.edu/\" target=\"_blank\" rel=\"noopener\">Emory University</a></strong>. The tree canopy here is extraordinary, and the winding streets feel a world away from the density of <a href=\"/neighborhoods/midtown/\">Midtown</a> or <a href=\"/neighborhoods/old-fourth-ward/\">Old Fourth Ward</a>. The neighborhood was the setting for \"Driving Miss Daisy.\" Emory Village and the surrounding commercial nodes provide dining and shopping. It's one of the most beautiful residential areas in metro Atlanta.",
-      "highlights": [
-        "Frederick Law Olmsted-designed landscape",
-        "Home to Fernbank Museum and Emory University",
-        "Stunning historic homes and tree canopy"
-      ],
-      "seoTitle": "Druid Hills Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Druid Hills neighborhood guide with news, Emory University updates, Fernbank Museum, historic homes, and community stories.",
-      "relatedNeighborhoods": [
-        "Decatur",
-        "Morningside",
-        "Candler Park"
-      ],
-      "npu": "O",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-o",
-      "zipCodes": [
-        "30307",
-        "30306"
-      ],
-      "resources": [
-        {
-          "label": "Druid Hills on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Druid_Hills,_Georgia"
-        },
-        {
-          "label": "Druid Hills Civic Association",
-          "url": "https://www.druidhills.org/"
-        }
-      ],
-      "latitude": 33.783,
-      "longitude": -84.328
-    },
-    {
-      "name": "Ansley Park",
-      "slug": "ansley-park",
-      "tier": 3,
-      "description": "Ansley Park is one of Atlanta's oldest and most prestigious residential neighborhoods, sitting between <a href=\"/neighborhoods/midtown/\">Midtown</a> and <strong><a href=\"https://piedmontpark.org/\" target=\"_blank\" rel=\"noopener\">Piedmont Park</a></strong>. Designed in 1904 with curving streets and generous lots, it features some of the most architecturally significant homes in the city. The neighborhood is within walking distance of the High Museum, Piedmont Park, and the Midtown commercial district. <strong>Ansley Golf Club</strong> anchors the community. It's quiet money in a city that often prefers its money loud.",
-      "highlights": [
-        "Walking distance to Piedmont Park and Midtown",
-        "Architecturally significant historic homes",
-        "One of Atlanta's most prestigious addresses"
-      ],
-      "seoTitle": "Ansley Park Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Ansley Park Atlanta neighborhood guide with news, historic homes, Piedmont Park access, and community updates.",
-      "relatedNeighborhoods": [
-        "Midtown",
-        "Morningside",
-        "Piedmont Heights"
-      ],
-      "npu": "E",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-e",
-      "zipCodes": [
-        "30309"
-      ],
-      "resources": [
-        {
-          "label": "Ansley Park on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ansley_Park"
-        },
-        {
-          "label": "Ansley Park Civic Association",
-          "url": "https://www.ansleypark.org/"
-        },
-        {
-          "label": "Atlanta BeltLine",
-          "url": "https://beltline.org/"
-        }
-      ],
-      "latitude": 33.788,
-      "longitude": -84.377
-    },
-    {
-      "name": "Piedmont Heights",
-      "slug": "piedmont-heights",
-      "tier": 3,
-      "description": "Piedmont Heights is a smaller residential neighborhood between <a href=\"/neighborhoods/ansley-park/\">Ansley Park</a>, <a href=\"/neighborhoods/midtown/\">Midtown</a>, and Lindbergh, situated along Piedmont Road. It's a mix of older single-family homes and apartment complexes, with easy access to both Piedmont Park and the Lindbergh <a href=\"https://www.itsmarta.com/\" target=\"_blank\" rel=\"noopener\">MARTA</a> station. The neighborhood has been somewhat overlooked, which means you can find more affordable options than in neighboring Ansley Park or <a href=\"/neighborhoods/morningside/\">Morningside</a>. It's a practical, central location without the price tag of Atlanta's more glamorous addresses.",
-      "highlights": [
-        "Close to Piedmont Park and Lindbergh MARTA",
-        "More affordable than neighboring Ansley Park",
-        "Central location between Midtown and Buckhead"
-      ],
-      "seoTitle": "Piedmont Heights Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Piedmont Heights Atlanta neighborhood guide with news, housing info, transit access, and community updates.",
-      "relatedNeighborhoods": [
-        "Ansley Park",
-        "Midtown",
-        "Morningside"
-      ],
-      "npu": "E",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-e",
-      "zipCodes": [
-        "30309"
-      ],
-      "resources": [
-        {
-          "label": "Piedmont Heights on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Piedmont_Heights"
-        },
-        {
-          "label": "Atlanta BeltLine",
-          "url": "https://beltline.org/"
-        }
-      ],
-      "latitude": 33.799,
-      "longitude": -84.373
-    },
-    {
-      "name": "Castleberry Hill",
-      "slug": "castleberry-hill",
-      "tier": 3,
-      "description": "Castleberry Hill is a small neighborhood just southwest of <a href=\"/neighborhoods/downtown/\">Downtown</a>, known for its loft conversions, art galleries, and proximity to Mercedes-Benz Stadium. It was one of Atlanta's first artist neighborhoods, with monthly gallery walks and a community of creatives in converted industrial buildings. The loft living is relatively affordable by ITP standards, and the neighborhood's location puts you within walking distance of Downtown and the stadium district. Development pressure from the Centennial Yards project next door could significantly reshape this area.",
-      "highlights": [
-        "Artist lofts and monthly gallery walks",
-        "Walking distance to Mercedes-Benz Stadium",
-        "Affordable loft living by ITP standards"
-      ],
-      "seoTitle": "Castleberry Hill Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Castleberry Hill Atlanta neighborhood guide with news, loft living, art galleries, and stadium district updates.",
-      "relatedNeighborhoods": [
-        "Downtown",
-        "Mechanicsville",
-        "West End"
-      ],
-      "npu": "M",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-m",
-      "zipCodes": [
-        "30313"
-      ],
-      "resources": [
-        {
-          "label": "Castleberry Hill on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Castleberry_Hill"
-        },
-        {
-          "label": "MARTA Transit",
-          "url": "https://www.itsmarta.com/"
-        }
-      ],
-      "latitude": 33.749,
-      "longitude": -84.402
-    },
-    {
-      "name": "Sweet Auburn",
-      "slug": "sweet-auburn",
-      "tier": 3,
-      "description": "Sweet Auburn is one of the most historically significant neighborhoods in American civil rights history, home to the <strong><a href=\"https://www.nps.gov/malu/\" target=\"_blank\" rel=\"noopener\">Martin Luther King Jr.</a></strong> National Historical Park, <strong><a href=\"https://ebenezeratl.org/\" target=\"_blank\" rel=\"noopener\">Ebenezer Baptist Church</a></strong>, and the APEX Museum. Auburn Avenue was once called \"the richest Negro street in the world\" by Forbes magazine. Today the neighborhood is seeing new investment while working to preserve its immense cultural heritage. The <strong><a href=\"https://municipalmarketatl.com/\" target=\"_blank\" rel=\"noopener\">Sweet Auburn Curb Market</a></strong> is a public market that has been operating since 1923 and remains a beloved food destination.",
-      "highlights": [
-        "Martin Luther King Jr. National Historical Park",
-        "Historic Auburn Avenue corridor",
-        "Sweet Auburn Curb Market since 1923"
-      ],
-      "seoTitle": "Sweet Auburn Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Sweet Auburn Atlanta neighborhood guide with news, MLK historical sites, Curb Market, and civil rights history.",
-      "relatedNeighborhoods": [
-        "Old Fourth Ward",
-        "Downtown",
-        "Edgewood"
-      ],
-      "npu": "N",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-n",
-      "zipCodes": [
-        "30303",
-        "30312"
-      ],
-      "resources": [
-        {
-          "label": "Sweet Auburn on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Sweet_Auburn"
-        },
-        {
-          "label": "Sweet Auburn Works",
-          "url": "https://www.sweetauburnworks.com/"
-        },
-        {
-          "label": "MARTA Transit",
-          "url": "https://www.itsmarta.com/"
-        }
-      ],
-      "latitude": 33.756,
-      "longitude": -84.378
-    },
-    {
-      "name": "Home Park",
-      "slug": "home-park",
-      "tier": 3,
-      "description": "Home Park is a small residential neighborhood adjacent to Georgia Tech, bounded by I-75/85 and the railroad. It has traditionally been a student and young professional area with affordable rental housing, though rising development pressure from the expanding Tech campus and <a href=\"/neighborhoods/midtown/\">Midtown</a> growth has been pushing prices up. The neighborhood has a casual, low-key feel with older homes and tree-covered streets. Its proximity to both the Midtown commercial district and the growing <a href=\"/neighborhoods/westside/\">Westside</a> makes it a strategic location for anyone working on the west side of the city.",
-      "highlights": [
-        "Adjacent to Georgia Tech campus",
-        "Affordable housing near Midtown",
-        "Close to Westside dining and entertainment"
-      ],
-      "seoTitle": "Home Park Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Home Park Atlanta neighborhood guide with news, Georgia Tech updates, housing info, and community stories.",
-      "relatedNeighborhoods": [
-        "West Midtown",
-        "Midtown",
-        "Atlantic Station"
-      ],
-      "npu": "E",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-e",
-      "zipCodes": [
-        "30318"
-      ],
-      "resources": [
-        {
-          "label": "Home Park on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Home_Park"
-        },
-        {
-          "label": "Home Park Community Improvement Association",
-          "url": "https://www.homeparkcia.org/"
-        },
-        {
-          "label": "MARTA Transit",
-          "url": "https://www.itsmarta.com/"
-        }
-      ],
-      "latitude": 33.781,
-      "longitude": -84.398
-    },
-    {
-      "name": "Atlantic Station",
-      "slug": "atlantic-station",
-      "tier": 3,
-      "description": "Atlantic Station is a mixed-use development built on the former Atlantic Steel mill site, located between <a href=\"/neighborhoods/midtown/\">Midtown</a> and <a href=\"/neighborhoods/home-park/\">Home Park</a>. It's a planned community with retail, restaurants, offices, and residential units arranged in a walkable (if somewhat corporate) layout. <strong>IKEA</strong> anchors the retail side. A free shuttle connects to the Arts Center <a href=\"https://www.itsmarta.com/\" target=\"_blank\" rel=\"noopener\">MARTA</a> station. Atlantic Station is polarizing among Atlanta urbanists (it's walkable but feels like a mall that grew apartments), but it offers a self-contained, car-light lifestyle in a city where that's still rare.",
-      "highlights": [
-        "Self-contained mixed-use walkable district",
-        "IKEA and major retail anchors",
-        "Free shuttle to Arts Center MARTA station"
-      ],
-      "seoTitle": "Atlantic Station Atlanta News & Guide | atlanta news & talk",
-      "seoDescription": "Atlantic Station Atlanta guide with news, shopping, dining, residential options, and development updates.",
-      "relatedNeighborhoods": [
-        "Midtown",
-        "Home Park",
-        "West Midtown"
-      ],
-      "npu": "D",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-d",
-      "zipCodes": [
-        "30363"
-      ],
-      "resources": [
-        {
-          "label": "Atlantic Station on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Atlantic_Station"
-        },
-        {
-          "label": "Atlantic Station",
-          "url": "https://www.atlanticstation.com/"
-        },
-        {
-          "label": "MARTA Transit",
-          "url": "https://www.itsmarta.com/"
-        }
-      ],
-      "latitude": 33.792,
-      "longitude": -84.396
-    },
-    {
-      "name": "Chosewood Park",
-      "slug": "chosewood-park",
-      "tier": 3,
-      "description": "Chosewood Park is a small neighborhood just south of <a href=\"/neighborhoods/grant-park/\">Grant Park</a>, bounded by Boulevard, Confederate Avenue (United Avenue), the railroad, and McDonough Boulevard. It's a historically working-class area that's seeing early-stage gentrification, with new townhome developments and renovated bungalows starting to appear. The <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s <a href=\"/guide/atlanta-beltline/\">Southside Trail</a> will pass through or near the neighborhood, and the proximity to Grant Park and <a href=\"/neighborhoods/summerhill/\">Summerhill</a> make Chosewood Park an interesting bet for people looking for more affordable southeast-side options.",
-      "highlights": [
-        "Adjacent to Grant Park",
-        "Affordable bungalows and new townhome development",
-        "Future BeltLine Southside Trail connection"
-      ],
-      "seoTitle": "Chosewood Park Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Chosewood Park Atlanta neighborhood guide with news, development updates, housing, and BeltLine Southside Trail info.",
-      "relatedNeighborhoods": [
-        "Grant Park",
-        "Summerhill",
-        "Peoplestown"
-      ],
-      "npu": "W",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-w",
-      "zipCodes": [
-        "30315"
-      ],
-      "resources": [
-        {
-          "label": "Chosewood Park on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Chosewood_Park"
-        },
-        {
-          "label": "Atlanta BeltLine",
-          "url": "https://beltline.org/"
-        }
-      ],
-      "latitude": 33.726,
-      "longitude": -84.37
-    },
-    {
-      "name": "Peoplestown",
-      "slug": "peoplestown",
-      "tier": 3,
-      "description": "Peoplestown is a small residential neighborhood south of <a href=\"/neighborhoods/summerhill/\">Summerhill</a> and the Georgia State campus, with a history of community activism around housing and environmental justice. The neighborhood has been at the center of debates about stormwater infrastructure, displacement, and the impacts of nearby stadium development. New investment is coming, but so are concerns about preserving affordability for longtime residents. It's a neighborhood to watch as the Summerhill development wave pushes southward.",
-      "highlights": [
-        "Strong community activism tradition",
-        "Adjacent to Summerhill development area",
-        "Affordable by ITP standards"
-      ],
-      "seoTitle": "Peoplestown Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Peoplestown Atlanta neighborhood guide with news, community activism updates, development, and housing stories.",
-      "relatedNeighborhoods": [
-        "Summerhill",
-        "Grant Park",
-        "Mechanicsville"
-      ],
-      "npu": "W",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-w",
-      "zipCodes": [
-        "30315"
-      ],
-      "resources": [
-        {
-          "label": "Peoplestown on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Peoplestown"
-        },
-        {
-          "label": "Peoplestown Neighborhood Association",
-          "url": "https://www.peoplestown.org/"
-        }
-      ],
-      "latitude": 33.727,
-      "longitude": -84.383,
-      "imageUrl": "/images/neighborhoods/peoplestown.webp",
-      "imageAlt": "Peoplestown neighborhood in southeast Atlanta",
-      "imageCaption": "Peoplestown is a historic neighborhood south of downtown Atlanta undergoing revitalization.",
-      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
-    },
-    {
-      "name": "Capitol View",
-      "slug": "capitol-view",
-      "tier": 3,
-      "description": "Capitol View is a southwest Atlanta neighborhood named for its sightline to the Georgia State Capitol dome. It's a historically African American community with a mix of older bungalows and newer construction. The <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s Southside and <a href=\"/neighborhoods/westside/\">Westside</a> trails are planned to improve connectivity for this area, and development pressure from the growing Westside corridor is starting to push into Capitol View. The neighborhood still has some of the most affordable single-family homes inside the Perimeter.",
-      "highlights": [
-        "Views of the Georgia State Capitol dome",
-        "Some of the most affordable ITP homes",
-        "Planned BeltLine connectivity improvements"
-      ],
-      "seoTitle": "Capitol View Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Capitol View Atlanta neighborhood guide with news, affordable housing, development updates, and BeltLine planning.",
-      "relatedNeighborhoods": [
-        "Adair Park",
-        "West End",
-        "Oakland City"
-      ],
-      "npu": "T",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-t",
-      "zipCodes": [
-        "30310",
-        "30315"
-      ],
-      "resources": [
-        {
-          "label": "Capitol View on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Capitol_View"
-        },
-        {
-          "label": "Atlanta BeltLine",
-          "url": "https://beltline.org/"
-        }
-      ],
-      "latitude": 33.715,
-      "longitude": -84.402
-    },
-    {
-      "name": "Adair Park",
-      "slug": "adair-park",
-      "tier": 3,
-      "description": "Adair Park is a small, mostly residential neighborhood south of <a href=\"/neighborhoods/west-end/\">West End</a> and east of the <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s <a href=\"/guide/atlanta-beltline/\"><a href=\"/neighborhoods/westside/\">Westside</a> Trail</a>. The neighborhood has a mix of historic homes and vacant lots that are slowly being filled with new construction. The Westside Trail's completion has given Adair Park direct BeltLine access, connecting it to Lee + White and the growing food and beverage scene along that corridor. It's one of the more affordable westside neighborhoods with BeltLine access, and the community is active in shaping how development happens here.",
-      "highlights": [
-        "Direct BeltLine Westside Trail access",
-        "Close to Lee + White food corridor",
-        "Affordable historic homes on the westside"
-      ],
-      "seoTitle": "Adair Park Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Adair Park Atlanta neighborhood guide with news, BeltLine Westside Trail access, development, and housing updates.",
-      "relatedNeighborhoods": [
-        "West End",
-        "Capitol View",
-        "Westside"
-      ],
-      "npu": "T",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-t",
-      "zipCodes": [
-        "30310"
-      ],
-      "resources": [
-        {
-          "label": "Adair Park on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Adair_Park"
-        },
-        {
-          "label": "Atlanta BeltLine",
-          "url": "https://beltline.org/"
-        }
-      ],
-      "latitude": 33.729,
-      "longitude": -84.406
-    },
-    {
-      "name": "Oakland City",
-      "slug": "oakland-city",
-      "tier": 3,
-      "description": "Oakland City is a southwest Atlanta neighborhood with a MARTA rail station, making it one of the more transit-accessible areas on the west side. The neighborhood has a mix of older homes and is seeing early-stage redevelopment, with new housing and commercial projects starting to take shape. The <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s <a href=\"/guide/atlanta-beltline/\"><a href=\"/neighborhoods/westside/\">Westside</a> Trail</a> passes nearby, and the combination of transit access, affordability, and BeltLine proximity makes Oakland City a neighborhood that developers and homebuyers are starting to notice.",
-      "highlights": [
-        "MARTA Oakland City station",
-        "Affordable housing with transit access",
-        "Near BeltLine Westside Trail"
-      ],
-      "seoTitle": "Oakland City Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Oakland City Atlanta neighborhood guide with news, MARTA access, development updates, and affordable housing info.",
-      "relatedNeighborhoods": [
-        "West End",
-        "Capitol View",
-        "Adair Park"
-      ],
-      "npu": "T",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-t",
-      "zipCodes": [
-        "30310"
-      ],
-      "resources": [
-        {
-          "label": "Oakland City on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Oakland_City"
-        },
-        {
-          "label": "MARTA Transit",
-          "url": "https://www.itsmarta.com/"
-        }
-      ],
-      "latitude": 33.716,
-      "longitude": -84.417
-    },
-    {
-      "name": "Mechanicsville",
-      "slug": "mechanicsville",
-      "tier": 3,
-      "description": "Mechanicsville is one of Atlanta's oldest neighborhoods, located just south of <a href=\"/neighborhoods/downtown/\">Downtown</a> and west of the <a href=\"/neighborhoods/summerhill/\">Summerhill</a> development. Named for the railroad mechanics who once lived here, the neighborhood has faced decades of disinvestment but is now seeing new attention thanks to the stadium district redevelopment and BeltLine planning. The McDaniel-Glenn <a href=\"https://www.itsmarta.com/\" target=\"_blank\" rel=\"noopener\">MARTA</a> station provides transit access. Affordable housing and proximity to Downtown make Mechanicsville a neighborhood with significant upside, though challenges with infrastructure and investment remain.",
-      "highlights": [
-        "One of Atlanta's oldest neighborhoods",
-        "MARTA station access at McDaniel-Glenn",
-        "Adjacent to stadium district and Summerhill development"
-      ],
-      "seoTitle": "Mechanicsville Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Mechanicsville Atlanta neighborhood guide with news, historic district info, development updates, and transit access.",
-      "relatedNeighborhoods": [
-        "Summerhill",
-        "Castleberry Hill",
-        "Peoplestown"
-      ],
-      "npu": "T",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-t",
-      "zipCodes": [
-        "30314"
-      ],
-      "resources": [
-        {
-          "label": "Mechanicsville on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mechanicsville"
-        },
-        {
-          "label": "MARTA Transit",
-          "url": "https://www.itsmarta.com/"
-        }
-      ],
-      "latitude": 33.735,
-      "longitude": -84.396
-    },
-    {
-      "name": "Collier Hills",
-      "slug": "collier-hills",
-      "tier": 3,
-      "description": "Collier Hills is a quiet residential neighborhood tucked between <a href=\"/neighborhoods/buckhead/\">Buckhead</a>, <a href=\"/neighborhoods/midtown/\">Midtown</a>, and the Howell Mill corridor. It's mostly single-family ranch homes from the 1940s and 50s on rolling, wooded lots, giving it a suburban feel despite being well inside the Perimeter. Bobby Jones Golf Course (now revamped as a public course with a reversible nine-hole layout) is the neighborhood's biggest landmark. Collier Hills offers relatively affordable entry for its location, with easy access to Peachtree Battle shopping, Howell Mill restaurants, and I-75.",
-      "highlights": [
-        "Bobby Jones Golf Course",
-        "1940s-50s ranch homes on wooded lots",
-        "Close to Howell Mill and Peachtree Battle corridors"
-      ],
-      "seoTitle": "Collier Hills Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Collier Hills Atlanta neighborhood guide with news, housing, Bobby Jones Golf Course, and community updates.",
-      "relatedNeighborhoods": [
-        "Buckhead",
-        "Home Park",
-        "West Midtown"
-      ],
-      "npu": "D",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-d",
-      "zipCodes": [
-        "30309",
-        "30318"
-      ],
-      "resources": [
-        {
-          "label": "Collier Hills on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Collier_Hills"
-        },
-        {
-          "label": "Bobby Jones Golf Course",
-          "url": "https://www.bobbyjonesgc.com/"
-        }
-      ],
-      "latitude": 33.806,
-      "longitude": -84.403
-    },
-    {
-      "name": "Bolton",
-      "slug": "bolton",
-      "tier": 3,
-      "description": "Bolton is a northwest Atlanta neighborhood along the Chattahoochee River, one of the few ITP areas with actual river access. It's a mix of mid-century ranch homes and newer construction, with the Chattahoochee River National Recreation Area trails right in the backyard. Bolton has a small commercial strip along Bolton Road and benefits from proximity to the Riverside/Whittier Mill area, which has seen significant investment. The neighborhood is relatively affordable for how much green space surrounds it.",
-      "highlights": [
-        "Chattahoochee River access and trail system",
-        "Affordable mid-century homes",
-        "Adjacent to Whittier Mill Park area"
-      ],
-      "seoTitle": "Bolton Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Bolton Atlanta neighborhood guide with news, Chattahoochee River access, housing, and development updates.",
-      "relatedNeighborhoods": [
-        "Grove Park",
-        "Westside",
-        "Collier Hills"
-      ],
-      "npu": "G",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-g",
-      "zipCodes": [
-        "30331"
-      ],
-      "resources": [
-        {
-          "label": "Bolton on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Bolton,_Atlanta"
-        },
-        {
-          "label": "Chattahoochee River National Recreation Area",
-          "url": "https://www.nps.gov/chat/"
-        }
-      ],
-      "latitude": 33.802,
-      "longitude": -84.447
-    },
-    {
-      "name": "Grove Park",
-      "slug": "grove-park",
-      "tier": 3,
-      "description": "Grove Park is a northwest Atlanta neighborhood with a strong sense of community identity, centered around the Grove Park neighborhood association and the historic Grove Park elementary school. The area has a mix of Craftsman bungalows from the early 1900s and mid-century homes. Grove Park has been the focus of several community development initiatives, including investments from the <a href=\"/neighborhoods/westside/\">Westside</a> Future Fund. The neighborhood sits along the future BeltLine <a href=\"/guide/atlanta-beltline/\">Westside Trail</a> extension, which could significantly change development patterns here.",
-      "highlights": [
-        "Historic Craftsman bungalows",
-        "Westside Future Fund investment area",
-        "Future BeltLine Westside Trail extension"
-      ],
-      "seoTitle": "Grove Park Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Grove Park Atlanta neighborhood guide with news, historic homes, community development, and BeltLine planning.",
-      "relatedNeighborhoods": [
-        "Bolton",
-        "Westside",
-        "West End"
-      ],
-      "npu": "G",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-g",
-      "zipCodes": [
-        "30318"
-      ],
-      "resources": [
-        {
-          "label": "Grove Park on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Grove_Park,_Atlanta"
-        },
-        {
-          "label": "Westside Future Fund",
-          "url": "https://www.westsidefuturefund.org/"
-        }
-      ],
-      "latitude": 33.789,
-      "longitude": -84.444
-    },
-    {
-      "name": "Lakewood Heights",
-      "slug": "lakewood-heights",
-      "tier": 3,
-      "description": "Lakewood Heights is a south Atlanta neighborhood near the former Lakewood Fairgrounds site (now the Lakewood Amphitheatre and surrounding commercial area). The neighborhood has a mix of older single-family homes and is one of the more affordable areas inside the Perimeter. The <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s <a href=\"/guide/atlanta-beltline/\">Southside Trail</a> is planned to run through this area, connecting it to the southeast corridor. The Lakewood-Fort McPherson <a href=\"https://www.itsmarta.com/\" target=\"_blank\" rel=\"noopener\">MARTA</a> station provides rail access. Redevelopment of the former Fort McPherson site (now Tyler Perry Studios) has brought renewed attention to this part of the city.",
-      "highlights": [
-        "Near Lakewood Amphitheatre",
-        "MARTA rail access at Lakewood station",
-        "Future BeltLine Southside Trail connection"
-      ],
-      "seoTitle": "Lakewood Heights Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Lakewood Heights Atlanta neighborhood guide with news, MARTA access, BeltLine Southside Trail, and development updates.",
-      "relatedNeighborhoods": [
-        "Sylvan Hills",
-        "Pittsburgh",
-        "Chosewood Park"
-      ],
-      "npu": "Y",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-y",
-      "zipCodes": [
-        "30315"
-      ],
-      "resources": [
-        {
-          "label": "Lakewood Heights on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Lakewood_Heights"
-        },
-        {
-          "label": "MARTA Transit",
-          "url": "https://www.itsmarta.com/"
-        }
-      ],
-      "latitude": 33.708,
-      "longitude": -84.375
-    },
-    {
-      "name": "Sylvan Hills",
-      "slug": "sylvan-hills",
-      "tier": 3,
-      "description": "Sylvan Hills is a southwest Atlanta neighborhood with a commercial strip along Sylvan Road and a residential core of bungalows and ranch homes. It has its own public library branch and a growing number of community-driven revitalization efforts. The neighborhood is near the <a href=\"/neighborhoods/oakland-city/\">Oakland City</a> <a href=\"https://www.itsmarta.com/\" target=\"_blank\" rel=\"noopener\">MARTA</a> station and the Beltline's planned <a href=\"/guide/atlanta-beltline/\">Southside Trail</a> route. Sylvan Hills has some of the most affordable housing inside the Perimeter, and community groups have been active in pushing for better infrastructure and economic investment.",
-      "highlights": [
-        "Sylvan Hills branch library",
-        "Affordable ITP housing stock",
-        "Near Oakland City MARTA station"
-      ],
-      "seoTitle": "Sylvan Hills Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Sylvan Hills Atlanta neighborhood guide with news, affordable housing, community updates, and development stories.",
-      "relatedNeighborhoods": [
-        "Oakland City",
-        "Capitol View",
-        "Lakewood Heights"
-      ],
-      "npu": "S",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-s",
-      "zipCodes": [
-        "30310",
-        "30311"
-      ],
-      "resources": [
-        {
-          "label": "Sylvan Hills on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Sylvan_Hills,_Atlanta"
-        },
-        {
-          "label": "Atlanta-Fulton Public Library",
-          "url": "https://afpls.org/"
-        }
-      ],
-      "latitude": 33.707,
-      "longitude": -84.403
-    },
-    {
-      "name": "Pittsburgh",
-      "slug": "pittsburgh",
-      "tier": 3,
-      "description": "Pittsburgh is a historic southwest Atlanta neighborhood named after Pittsburgh, Pennsylvania, by railroad workers who settled here in the late 1800s. The neighborhood centers around McDaniel Street and has one of the most intact collections of Victorian and Craftsman homes on the southwest side, though many need restoration. The <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s <a href=\"/guide/atlanta-beltline/\">Southside Trail</a> is planned to connect through this area. Pittsburgh has been a focus of the <a href=\"/neighborhoods/westside/\">Westside</a> Future Fund's anti-displacement work, and community leaders are pushing to balance new investment with keeping longtime residents in place.",
-      "highlights": [
-        "Historic Victorian and Craftsman architecture",
-        "Westside Future Fund anti-displacement focus",
-        "Future BeltLine Southside Trail route"
-      ],
-      "seoTitle": "Pittsburgh Atlanta News & Neighborhood Guide | atlanta news & talk",
-      "seoDescription": "Pittsburgh Atlanta neighborhood guide with news, historic homes, community development, and BeltLine Southside Trail updates.",
-      "relatedNeighborhoods": [
-        "Mechanicsville",
-        "West End",
-        "Capitol View"
-      ],
-      "npu": "V",
-      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-v",
-      "zipCodes": [
-        "30310"
-      ],
-      "resources": [
-        {
-          "label": "Pittsburgh (Atlanta) on Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Pittsburgh_(Atlanta)"
-        },
-        {
-          "label": "Westside Future Fund",
-          "url": "https://www.westsidefuturefund.org/"
-        }
-      ],
-      "latitude": 33.731,
-      "longitude": -84.407
     }
   ]
 }

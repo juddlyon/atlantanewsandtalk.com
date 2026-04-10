@@ -31,9 +31,137 @@
   status = 301
   force = true
 
+# Redirect East Atlanta Village to East Atlanta (merged)
 [[redirects]]
-  from = "/neighborhoods/druid-hills"
-  to = "/neighborhoods/druid-hills/"
+  from = "/neighborhoods/east-atlanta-village/*"
+  to = "/neighborhoods/east-atlanta/"
+  status = 301
+  force = true
+
+# Redirects for removed neighborhoods (consolidated April 2026)
+[[redirects]]
+  from = "/neighborhoods/druid-hills/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/buckhead/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/morningside/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/ansley-park/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/piedmont-heights/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/atlantic-station/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/home-park/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/castleberry-hill/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/westside/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/west-midtown/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/chosewood-park/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/capitol-view/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/adair-park/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/oakland-city/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/mechanicsville/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/pittsburgh/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/sylvan-hills/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/lakewood-heights/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/bolton/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/grove-park/*"
+  to = "/neighborhoods/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/neighborhoods/collier-hills/*"
+  to = "/neighborhoods/"
   status = 301
   force = true
 

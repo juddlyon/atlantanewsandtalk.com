@@ -131,7 +131,7 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 | `netlify.toml` | Build command (automation currently disabled) |
 | `src/data/digest-latest.json` | Current digest (generated daily, committed) |
 | `src/data/pinned-stories.json` | Persistent stories that survive daily rebuilds |
-| `src/data/neighborhoods.json` | 36 neighborhood descriptions |
+| `src/data/neighborhoods.json` | 20 neighborhood descriptions (consolidated April 2026) |
 | `src/data/guides.json` | 10 evergreen SEO guide articles |
 | `src/data/lists.json` | 8 listicle/top-list articles |
 | `src/data/landing-pages.json` | 21 long-tail SEO landing pages |
@@ -139,7 +139,7 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 | `src/pages/index.astro` | Homepage: hero + lead cards + bullet lists + sidebar |
 | `src/pages/[slug].astro` | Article pages (Schema.org NewsArticle, multi-source support) |
 | `src/pages/[landing].astro` | Long-tail SEO landing pages |
-| `src/pages/neighborhoods/` | 36 neighborhood pages with descriptions |
+| `src/pages/neighborhoods/` | 20 neighborhood pages with descriptions |
 | `src/pages/guide/` | 10 evergreen guide articles |
 | `src/pages/lists/` | 8 listicle/top-list articles |
 | `src/pages/about.astro` | About page (personal sidequest framing) |
@@ -151,7 +151,7 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 
 1. **Daily digest** — auto-generated article pages from RSS + Claude API
 2. **Landing pages** (21) — keyword-targeted (e.g. "atlanta news today", "fifa world cup atlanta 2026")
-3. **Neighborhood pages** (36) — evergreen descriptions, highlights, resources, daily stories
+3. **Neighborhood pages** (20) — evergreen descriptions, highlights, resources, daily stories
 4. **Guides** (10) — long-form evergreen content (BeltLine, Summerhill, Peoplestown, restaurants, moving guide)
 5. **Lists** (8) — ranked listicles with outbound links (best parks, coffee shops, restaurants)
 6. **Pinned stories** — SEO client content (The Row 900)
@@ -168,13 +168,24 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 - All branding is lowercase: "atlanta news & talk"
 - Guide/list images must be real Atlanta photos (Wikimedia Commons CC-licensed or from source sites). No generic stock photos.
 
-## Neighborhood Priority
+## Neighborhood Coverage (20 neighborhoods)
 
-**Tier 1 (SE BeltLine, top billing):** Old Fourth Ward, Grant Park, Reynoldstown, Cabbagetown, Inman Park, Summerhill, East Atlanta Village, Ormewood Park, Kirkwood, Peoplestown
+Based on [City of Atlanta NPU structure](https://www.atlantaga.gov/government/departments/city-planning/neighborhood-planning-units/neighborhoods-by-npu). Consolidated April 2026 to focus on SE BeltLine corridor.
 
-**Tier 2 (adjacent ITP):** Edgewood, Little Five Points, Candler Park, Poncey-Highland, Decatur, East Atlanta, Chosewood Park, Sweet Auburn
+**Tier 1 (SE BeltLine core, 10 neighborhoods):**
+- NPU-M: Old Fourth Ward
+- NPU-N: Inman Park, Reynoldstown, Cabbagetown, Candler Park, Little Five Points, Poncey-Highland
+- NPU-O: Kirkwood
+- NPU-V: Summerhill, Peoplestown
+- NPU-W: Grant Park, East Atlanta (includes EAV), Ormewood Park
 
-**Tier 3 (broader ITP):** Midtown, Downtown, Virginia-Highland, Morningside, West Midtown, Westside, West End, Buckhead, etc.
+**Tier 2 (adjacent ITP, 10 neighborhoods):**
+- NPU-E: Midtown
+- NPU-F: Virginia-Highland
+- NPU-M: Downtown, Sweet Auburn
+- NPU-O: Edgewood
+- NPU-T: West End
+- Decatur (separate city, essential coverage)
 
 ## Writing Rules
 
@@ -194,7 +205,7 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 - **21 landing pages** targeting high-volume keywords (e.g. "atlanta news today" 73K/mo, "fifa world cup atlanta 2026")
 - **10 guides** targeting informational keywords (e.g. "summerhill atlanta", "peoplestown atlanta", "best restaurants in atlanta")
 - **8 listicles** targeting long-tail keywords (e.g. "best parks east atlanta")
-- **36 neighborhood pages** with evergreen descriptions
+- **20 neighborhood pages** with evergreen descriptions
 - All pages: Schema.org markup, Open Graph, Twitter Cards, sitemap, breadcrumbs, robots.txt
 - Default OG image: Atlanta skyline from Wikimedia Commons
 - RSS feed at `/rss.xml`
