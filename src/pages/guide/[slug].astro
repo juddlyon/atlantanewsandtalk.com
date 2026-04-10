@@ -18,7 +18,10 @@ const relatedGuides = guide.relatedGuides
   ? guidesData.guides.filter((g) => guide.relatedGuides.includes(g.slug))
   : [];
 
-const firstImage = guide.sections?.find((s) => s.imageUrl)?.imageUrl;
+const firstSection = guide.sections?.find((s) => s.imageUrl);
+const firstImage = firstSection?.imageUrl;
+const firstImageAlt = firstSection?.imageAlt || guide.h1;
+const firstImageCredit = firstSection?.imageCredit;
 const ogImage = firstImage ? `${SITE_URL}${firstImage}` : undefined;
 
 // Extract clean title without site name suffix for proper SEO
@@ -83,6 +86,13 @@ const breadcrumbSchema = buildBreadcrumbSchema([
       <h1 class="guide-h1">{guide.h1}</h1>
       <p class="guide-byline">by <a href="/about/">David</a> in <a href="/neighborhoods/summerhill/">Summerhill</a></p>
     </header>
+
+    {firstImage && (
+      <figure class="guide-hero">
+        <img src={firstImage} alt={firstImageAlt} class="guide-hero-img" />
+        {firstImageCredit && <figcaption class="guide-hero-credit">{firstImageCredit}</figcaption>}
+      </figure>
+    )}
 
     <div class="guide-intro prose" set:html={marked.parse(guide.intro)} />
 
