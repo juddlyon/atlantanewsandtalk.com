@@ -21,6 +21,7 @@ const relatedGuides = guide.relatedGuides
 const firstSection = guide.sections?.find((s) => s.imageUrl);
 const firstImage = firstSection?.imageUrl;
 const firstImageAlt = firstSection?.imageAlt || guide.h1;
+const firstImageCaption = firstSection?.imageCaption;
 const firstImageCredit = firstSection?.imageCredit;
 const ogImage = firstImage ? `${SITE_URL}${firstImage}` : undefined;
 
@@ -90,7 +91,12 @@ const breadcrumbSchema = buildBreadcrumbSchema([
     {firstImage && (
       <figure class="guide-hero">
         <img src={firstImage} alt={firstImageAlt} class="guide-hero-img" />
-        {firstImageCredit && <figcaption class="guide-hero-credit">{firstImageCredit}</figcaption>}
+        {(firstImageCaption || firstImageCredit) && (
+          <figcaption class="guide-hero-caption">
+            {firstImageCaption && <span class="caption-text">{firstImageCaption}</span>}
+            {firstImageCredit && <span class="caption-credit">{firstImageCredit}</span>}
+          </figcaption>
+        )}
       </figure>
     )}
 
@@ -103,7 +109,12 @@ const breadcrumbSchema = buildBreadcrumbSchema([
           {section.imageUrl && (
             <figure class="guide-section-figure">
               <img src={section.imageUrl} alt={section.imageAlt || section.heading} loading="lazy" />
-              {section.imageCredit && <figcaption>{section.imageCredit}</figcaption>}
+              {(section.imageCaption || section.imageCredit) && (
+                <figcaption>
+                  {section.imageCaption && <span class="caption-text">{section.imageCaption}</span>}
+                  {section.imageCredit && <span class="caption-credit">{section.imageCredit}</span>}
+                </figcaption>
+              )}
             </figure>
           )}
           <div class="prose" set:html={marked.parse(section.content)} />

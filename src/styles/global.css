@@ -1395,11 +1395,24 @@ img {
   border-radius: 6px;
 }
 
-.guide-hero-credit {
-  font-size: 0.75rem;
+.guide-hero-caption {
+  font-size: 0.85rem;
   color: var(--color-text-muted);
   margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+.guide-hero-caption .caption-text {
+  display: block;
+  color: var(--color-text);
+  font-style: normal;
+}
+
+.guide-hero-caption .caption-credit {
+  display: block;
+  font-size: 0.75rem;
   font-style: italic;
+  margin-top: 0.25rem;
 }
 
 .guide-intro {
@@ -1448,9 +1461,22 @@ img {
 }
 
 .guide-section-figure figcaption {
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   color: var(--color-text-soft);
-  margin-top: 0.35rem;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
+.guide-section-figure figcaption .caption-text {
+  display: block;
+  color: var(--color-text-muted);
+}
+
+.guide-section-figure figcaption .caption-credit {
+  display: block;
+  font-size: 0.72rem;
+  font-style: italic;
+  margin-top: 0.2rem;
 }
 
 /* Breadcrumb navigation */
