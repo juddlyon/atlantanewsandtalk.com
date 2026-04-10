@@ -441,6 +441,73 @@ async function checkStoryImages() {
   }
 }
 
+async function checkContentImages() {
+  /**
+   * Verify critical content images (guides, lists, pinned) are accessible on live site
+   */
+  try {
+    const fs = await import('node:fs');
+    const path = await import('node:path');
+
+    const imagesToCheck = [];
+
+    // Guides - check first image of each guide
+    const guides = JSON.parse(fs.readFileSync('src/data/guides.json', 'utf-8'));
+    for (const guide of guides.guides) {
+      const firstImg = guide.sections?.find(s => s.imageUrl)?.imageUrl;
+      if (firstImg) {
+        imagesToCheck.push({ url: firstImg, context: `guide: ${guide.slug}` });
+      }
+    }
+
+    // Lists
+    const lists = JSON.parse(fs.readFileSync('src/data/lists.json', 'utf-8'));
+    for (const list of lists.lists) {
+      if (list.imageUrl) {
+        imagesToCheck.push({ url: list.imageUrl, context: `list: ${list.slug}` });
+      }
+    }
+
+    // Pinned stories
+    const pinned = JSON.parse(fs.readFileSync('src/data/pinned-stories.json', 'utf-8'));
+    for (const story of pinned) {
+      if (story.imageUrl) {
+        imagesToCheck.push({ url: story.imageUrl, context: `pinned: ${story.id}` });
+      }
+    }
+
+    const broken = [];
+    for (const img of imagesToCheck) {
+      const fullUrl = img.url.startsWith('http') ? img.url : `${SITE_URL}${img.url}`;
+      try {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 5000);
+        const res = await fetch(fullUrl, { method: 'HEAD', signal: controller.signal });
+        clearTimeout(timeout);
+        if (!res.ok) {
+          broken.push({ ...img, status: res.status });
+        }
+      } catch (err) {
+        broken.push({ ...img, status: err.message });
+      }
+    }
+
+    if (broken.length > 0) {
+      for (const b of broken) {
+        log('fail', `Missing: ${b.url} (${b.context}) - ${b.status}`);
+      }
+      log('fail', `${broken.length}/${imagesToCheck.length} content images broken`);
+      return false;
+    }
+
+    log('pass', `${imagesToCheck.length} content images OK (guides, lists, pinned)`);
+    return true;
+  } catch (error) {
+    log('fail', `Content image check - ${error.message}`);
+    return false;
+  }
+}
+
 async function runTests() {
   console.log(`\n${colors.cyan}═══════════════════════════════════════════════════════════${colors.reset}`);
   console.log(`${colors.cyan}  atlanta news & talk - Post-Deploy Smoke Test${colors.reset}`);
@@ -551,6 +618,10 @@ async function runTests() {
   // 10. Story images
   section('Story Images');
   track(await checkStoryImages());
+
+  // 10b. Content images (guides, lists, pinned)
+  section('Content Images');
+  track(await checkContentImages());
 
   // 11. Story counts
   section('Story Counts');

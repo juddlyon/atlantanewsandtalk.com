@@ -19,6 +19,10 @@ const relatedGuides = guide.relatedGuides
   : [];
 
 const firstImage = guide.sections?.find((s) => s.imageUrl)?.imageUrl;
+const ogImage = firstImage ? `${SITE_URL}${firstImage}` : undefined;
+
+// Extract clean title without site name suffix for proper SEO
+const cleanTitle = guide.seoTitle?.replace(/\s*\|\s*atlanta news.*$/i, '').trim() || guide.h1;
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -27,7 +31,7 @@ const jsonLd = {
   "description": guide.seoDescription,
   "url": `${SITE_URL}/guide/${guide.slug}/`,
   "inLanguage": "en-US",
-  ...(firstImage ? { "image": { "@type": "ImageObject", "url": firstImage } } : {}),
+  ...(firstImage ? { "image": { "@type": "ImageObject", "url": `${SITE_URL}${firstImage}` } } : {}),
   "datePublished": guide.datePublished || "2025-03-01",
   "dateModified": guide.dateModified || guide.datePublished || "2025-03-01",
   "articleSection": guide.category || "Atlanta Guide",
@@ -62,8 +66,9 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 ---
 
 <Base
-  title={guide.seoTitle}
+  title={cleanTitle}
   description={guide.seoDescription}
+  ogImage={ogImage}
   jsonLd={jsonLd}
   breadcrumbSchema={breadcrumbSchema}
 >

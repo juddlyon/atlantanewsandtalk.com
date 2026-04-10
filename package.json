@@ -7,6 +7,8 @@
   },
   "scripts": {
     "dev": "astro dev",
+    "check:images": "node scripts/check-images.mjs",
+    "prebuild": "node scripts/check-images.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
