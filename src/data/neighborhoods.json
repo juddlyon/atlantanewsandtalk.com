@@ -490,7 +490,11 @@
         }
       ],
       "latitude": 33.765,
-      "longitude": -84.337
+      "longitude": -84.337,
+      "imageUrl": "/images/neighborhoods/candler-park.webp",
+      "imageAlt": "Candler Park neighborhood green space in Atlanta",
+      "imageCaption": "Candler Park is a leafy, family-friendly neighborhood adjacent to Little Five Points with a popular park.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "name": "Decatur",
@@ -536,7 +540,11 @@
         }
       ],
       "latitude": 33.7748,
-      "longitude": -84.2963
+      "longitude": -84.2963,
+      "imageUrl": "/images/neighborhoods/decatur.webp",
+      "imageAlt": "Decatur Square with local shops and restaurants in downtown Decatur Georgia",
+      "imageCaption": "Decatur is a walkable city east of Atlanta known for excellent schools and a vibrant downtown square.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "name": "Downtown",
@@ -577,7 +585,11 @@
         }
       ],
       "latitude": 33.7537,
-      "longitude": -84.3901
+      "longitude": -84.3901,
+      "imageUrl": "/images/neighborhoods/downtown.webp",
+      "imageAlt": "Downtown Atlanta skyline from Centennial Olympic Park",
+      "imageCaption": "Downtown Atlanta anchors the city with Centennial Olympic Park, Georgia Aquarium, and World of Coca-Cola.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "name": "Edgewood",
@@ -615,7 +627,11 @@
         }
       ],
       "latitude": 33.755,
-      "longitude": -84.337
+      "longitude": -84.337,
+      "imageUrl": "/images/neighborhoods/edgewood.webp",
+      "imageAlt": "Atlanta Streetcar on Edgewood Avenue in the Edgewood neighborhood",
+      "imageCaption": "Edgewood offers easy transit access and a growing food and bar scene along Edgewood Avenue.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "name": "Little Five Points",
@@ -651,7 +667,11 @@
         }
       ],
       "latitude": 33.764,
-      "longitude": -84.348
+      "longitude": -84.348,
+      "imageUrl": "/images/neighborhoods/little-five-points.webp",
+      "imageAlt": "Panoramic view of the Little Five Points business district in Atlanta",
+      "imageCaption": "Little Five Points is Atlanta's bohemian heart, known for vintage shops, street art, and live music venues.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "name": "Midtown",
@@ -696,7 +716,11 @@
         }
       ],
       "latitude": 33.7866,
-      "longitude": -84.3828
+      "longitude": -84.3828,
+      "imageUrl": "/images/neighborhoods/midtown.webp",
+      "imageAlt": "Midtown Atlanta skyline view from the Atlanta Botanical Garden",
+      "imageCaption": "Midtown Atlanta is the city's arts and business district, home to the High Museum and Piedmont Park.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "name": "Poncey-Highland",
@@ -737,7 +761,11 @@
         }
       ],
       "latitude": 33.772,
-      "longitude": -84.356
+      "longitude": -84.356,
+      "imageUrl": "/images/neighborhoods/poncey-highland.webp",
+      "imageAlt": "Ponce City Market viewed from Historic Fourth Ward Park along the BeltLine",
+      "imageCaption": "Poncey-Highland is home to Ponce City Market, a major BeltLine destination with shops and restaurants.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "name": "Sweet Auburn",
@@ -777,7 +805,11 @@
         }
       ],
       "latitude": 33.756,
-      "longitude": -84.378
+      "longitude": -84.378,
+      "imageUrl": "/images/neighborhoods/sweet-auburn.webp",
+      "imageAlt": "Historic Ebenezer Baptist Church in Sweet Auburn, Atlanta",
+      "imageCaption": "Sweet Auburn is the historic heart of Black Atlanta and home to Ebenezer Baptist Church where MLK preached.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "name": "Virginia-Highland",
@@ -813,7 +845,11 @@
         }
       ],
       "latitude": 33.783,
-      "longitude": -84.356
+      "longitude": -84.356,
+      "imageUrl": "/images/neighborhoods/virginia-highland.webp",
+      "imageAlt": "Panoramic view of Virginia-Highland neighborhood in Atlanta",
+      "imageCaption": "Virginia-Highland features charming 1920s bungalows and a walkable restaurant and shopping district.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "name": "West End",
@@ -857,7 +893,11 @@
         }
       ],
       "latitude": 33.736,
-      "longitude": -84.413
+      "longitude": -84.413,
+      "imageUrl": "/images/neighborhoods/west-end.webp",
+      "imageAlt": "Hammonds House Museum in the historic West End neighborhood of Atlanta",
+      "imageCaption": "West End is one of Atlanta's oldest neighborhoods, now connected to the Westside BeltLine trail.",
+      "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
     }
   ]
 }
