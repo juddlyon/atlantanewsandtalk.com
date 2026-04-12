@@ -8,35 +8,17 @@
     "summary": "MARTA is rolling out new express bus routes, extended rail service hours, and temporary park-and-ride capacity as Atlanta prepares to host eight FIFA World Cup matches this summer. Meanwhile, Uzbekistan has confirmed Atlanta as its team base camp.",
     "body": "With 62 days until the World Cup lands in Atlanta for eight matches, MARTA is in full preparation mode. The transit agency is planning new express bus routes connecting outlying park-and-ride lots to Mercedes-Benz Stadium, extended rail service hours on match days, and increased frequency on existing lines serving the downtown core.\n\nCity officials estimate 300,000 tourists will descend on the downtown area, and the transit system is being treated as critical infrastructure for the event. MARTA general manager Collie Greenwood told SaportaReport the agency is working to \"meet the moment\" with what he called the biggest operational lift in the system's history.\n\nThe international presence is already taking shape. Uzbekistan's national soccer team has officially selected Atlanta as its World Cup base, confirming earlier reports that the Central Asian nation's squad would train and stay here during group play. That makes Atlanta one of the first host cities to lock in a team commitment.\n\nFor everyday commuters, the changes will mean more crowded trains but also more frequent service. MARTA is also coordinating with the city on temporary traffic management plans around the stadium district.",
     "neighborhood": "Downtown",
-    "neighborhoods": [
-      "Downtown",
-      "Summerhill",
-      "Midtown"
-    ],
+    "neighborhoods": ["Downtown", "Summerhill", "Midtown"],
     "source": "SaportaReport",
     "sourceUrl": "https://saportareport.com/marta-readies-to-meet-the-moment-as-world-cup-inches-closer-to-atlanta/columnists/delaney-tarr/delaneytarr/",
     "sources": [
-      {
-        "name": "SaportaReport",
-        "url": "https://saportareport.com/marta-readies-to-meet-the-moment-as-world-cup-inches-closer-to-atlanta/columnists/delaney-tarr/delaneytarr/"
-      },
-      {
-        "name": "Global Atlanta",
-        "url": "https://www.globalatlanta.com/uzbekistan-confirms-atlanta-as-world-cup-base/"
-      }
+      { "name": "SaportaReport", "url": "https://saportareport.com/marta-readies-to-meet-the-moment-as-world-cup-inches-closer-to-atlanta/columnists/delaney-tarr/delaneytarr/" },
+      { "name": "Global Atlanta", "url": "https://www.globalatlanta.com/uzbekistan-confirms-atlanta-as-world-cup-base/" }
     ],
     "imageUrl": null,
     "imageAlt": "MARTA train at Five Points station during World Cup transit preparation",
     "publishedAt": "2026-04-12",
-    "keywords": [
-      "marta",
-      "world cup",
-      "fifa",
-      "transit",
-      "downtown",
-      "uzbekistan",
-      "mercedes-benz stadium"
-    ],
+    "keywords": ["marta", "world cup", "fifa", "transit", "downtown", "uzbekistan", "mercedes-benz stadium"],
     "originalImageUrl": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/04/IMG_3487-scaled.jpg?fit=1024%2C768&ssl=1"
   },
   "sections": [
@@ -49,22 +31,13 @@
           "summary": "Legacy at Herndon Square, the second phase of a 12-acre mixed-income development on the former Herndon Homes public housing site, is scheduled to begin leasing this spring with 170 of 201 units designated as affordable.",
           "body": "Two years after its groundbreaking, Legacy at Herndon Square is nearly ready for residents. The building sits on the former Herndon Homes public housing site about a mile north of Mercedes-Benz Stadium on Northside Drive, putting it within walking distance of Georgia Tech, Centennial Yards, and a growing list of Westside job centers.\n\nOf the 201 apartments (one, two, and three-bedroom units), just 30 will be market-rate. The remaining 170 qualify as Low Income Housing Tax Credit units, making this one of the larger affordable housing deliveries in Atlanta this year. The project also includes 10,000 square feet of commercial space set aside for resident programming and an enclosed parking deck.\n\nThe development is part of the larger Herndon Square master plan, which has been reshaping this 12-acre site for several years. A third phase with 178 mixed-income units is already rising behind the new building, with delivery expected in the second quarter of 2027.",
           "neighborhood": "Midtown",
-          "neighborhoods": [
-            "Midtown",
-            "Downtown"
-          ],
+          "neighborhoods": ["Midtown", "Downtown"],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/legacy-herndon-square-affordable-housing-build-near-georgia-tech-opening",
           "imageUrl": null,
           "imageAlt": "Legacy at Herndon Square affordable housing building along Northside Drive near Georgia Tech",
           "publishedAt": "2026-04-10",
-          "keywords": [
-            "herndon square",
-            "affordable housing",
-            "georgia tech",
-            "northside drive",
-            "atlanta housing"
-          ],
+          "keywords": ["herndon square", "affordable housing", "georgia tech", "northside drive", "atlanta housing"],
           "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-04/Legacy%20at%20Herndon%20Square%20April%202026%201.jpg?itok=U5fSsm5r"
         },
         {
@@ -73,21 +46,13 @@
           "summary": "The Georgia Trust for Historic Preservation is fighting to save the century-old former church building in Midtown, warning it faces demolition risk as the neighborhood continues rapid redevelopment.",
           "body": "Egleston Hall, a century-old building in Midtown, has landed on the Georgia Trust for Historic Preservation's annual \"Places in Peril\" list. The designation is both a warning and a rallying cry: the building, which has served as a church and community gathering space, is at risk of demolition as Midtown's development boom continues to swallow up older structures.\n\nHistorians say the building represents an important piece of Midtown's architectural history, from a time before the neighborhood became a forest of glass towers and mixed-use developments. The Georgia Trust is urging the property owner and city officials to explore preservation options before it's too late.\n\nThe listing comes at a moment when Midtown is seeing more construction cranes than at any point in its history, with several large residential and commercial projects underway or recently completed.",
           "neighborhood": "Midtown",
-          "neighborhoods": [
-            "Midtown"
-          ],
+          "neighborhoods": ["Midtown"],
           "source": "Fox 5 Atlanta",
           "sourceUrl": "https://www.fox5atlanta.com/news/midtown-atlantas-egleston-hall-named-place-peril",
           "imageUrl": null,
           "imageAlt": "Historic Egleston Hall building in Midtown Atlanta",
           "publishedAt": "2026-04-11",
-          "keywords": [
-            "egleston hall",
-            "historic preservation",
-            "midtown",
-            "georgia trust",
-            "places in peril"
-          ],
+          "keywords": ["egleston hall", "historic preservation", "midtown", "georgia trust", "places in peril"],
           "originalImageUrl": null
         }
       ]
@@ -101,22 +66,13 @@
           "summary": "TSA employees at the world's busiest airport began receiving back pay this week, but a new DHS notice warns that future paychecks are on hold until federal funding is resolved.",
           "body": "TSA workers at Hartsfield-Jackson International Airport just got their back pay, but the relief may be temporary. A new Department of Homeland Security notice warns that future paychecks are on hold until federal funding issues are sorted out.\n\nThe pay disruptions have been hitting airport security workers for weeks, creating anxiety among the workforce at the world's busiest airport. With roughly 100 million passengers passing through Hartsfield-Jackson each year, staffing stability at TSA checkpoints isn't just a labor issue. It's an infrastructure concern.\n\nThe timing is particularly bad with the World Cup arriving this summer and passenger volumes expected to spike. TSA union representatives say the uncertainty is making it harder to retain experienced screeners, and some workers have started looking for other jobs rather than ride out the funding rollercoaster.",
           "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown"
-          ],
+          "neighborhoods": ["Downtown"],
           "source": "11Alive",
           "sourceUrl": "https://www.11alive.com/article/news/local/tsa-workers-hartsfield-jackson-pay-delays/85-placeholder",
           "imageUrl": null,
           "imageAlt": "TSA security checkpoint at Hartsfield-Jackson Atlanta International Airport",
           "publishedAt": "2026-04-11",
-          "keywords": [
-            "tsa",
-            "hartsfield-jackson",
-            "airport",
-            "pay",
-            "federal funding",
-            "world cup"
-          ],
+          "keywords": ["tsa", "hartsfield-jackson", "airport", "pay", "federal funding", "world cup"],
           "originalImageUrl": null
         }
       ]
@@ -130,21 +86,13 @@
           "summary": "The Korean bakery and cafe franchise is taking a 2,144-square-foot space at 1100 Peachtree St. NE, joining a growing cluster of food options near the 1105 West Peachtree development.",
           "body": "Paris Baguette, the Korean bakery franchise that's been expanding aggressively across metro Atlanta, has a new Midtown location in the works. The cafe will open in a 2,144-square-foot space at 1100 Peachtree St. NE, according to a recent permit filing.\n\nThe spot puts it right in the heart of Midtown's Peachtree corridor, near the recently completed 1105 West Peachtree development and within easy reach of the growing lunch crowd from nearby office towers. Paris Baguette is known for its pastries, sandwiches, and coffee, occupying a niche between a fast-casual bakery and a sit-down cafe.\n\nThis will be one of several Paris Baguette locations in metro Atlanta, as the brand continues its push into the Southeast market.",
           "neighborhood": "Midtown",
-          "neighborhoods": [
-            "Midtown"
-          ],
+          "neighborhoods": ["Midtown"],
           "source": "What Now Atlanta",
           "sourceUrl": "https://whatnow.com/atlanta/restaurants/paris-baguette-has-a-new-location-on-the-way-to-midtown/",
           "imageUrl": null,
           "imageAlt": "Paris Baguette bakery storefront",
           "publishedAt": "2026-04-10",
-          "keywords": [
-            "paris baguette",
-            "midtown",
-            "peachtree",
-            "bakery",
-            "restaurant opening"
-          ],
+          "keywords": ["paris baguette", "midtown", "peachtree", "bakery", "restaurant opening"],
           "originalImageUrl": "https://whatnow.com/wp-content/uploads/2026/03/DSC_2300-copy-1-768x433.jpg"
         }
       ]
@@ -158,22 +106,13 @@
           "summary": "Industrial monitoring startup Tractian, backed by General Catalyst, is expanding its Atlanta office with dozens of new positions even as national hiring slows across the tech sector.",
           "body": "While headlines scream about the worst entry-level job market in decades, at least one Atlanta company is going the other direction. Tractian, an industrial monitoring startup backed by General Catalyst, is on a hiring spree from its Atlanta office.\n\nThe company builds sensors and software that monitor factory equipment to predict failures before they happen. It's the kind of unsexy-but-essential tech that tends to do well regardless of economic cycles, because factories don't stop needing maintenance just because the stock market dips.\n\nTractian's expansion in Atlanta is notable because the city has been positioning itself as a tech hub, and hiring momentum from companies like this helps sustain that narrative even when bigger names are cutting back. The company is recruiting across engineering, sales, and operations roles.",
           "neighborhood": "Midtown",
-          "neighborhoods": [
-            "Midtown"
-          ],
+          "neighborhoods": ["Midtown"],
           "source": "Hypepotamus",
           "sourceUrl": "https://hypepotamus.com/news/atlanta-tractian-internships-general-catalyst/",
           "imageUrl": null,
           "imageAlt": "Tractian startup office in Atlanta",
           "publishedAt": "2026-04-11",
-          "keywords": [
-            "tractian",
-            "startup",
-            "hiring",
-            "general catalyst",
-            "tech",
-            "atlanta"
-          ],
+          "keywords": ["tractian", "startup", "hiring", "general catalyst", "tech", "atlanta"],
           "originalImageUrl": "http://hypepotamus.com/wp-content/uploads/2026/04/0-4-1038x692.jpg"
         }
       ]
@@ -187,21 +126,13 @@
           "summary": "The annual Dogwood Festival returned to Piedmont Park this weekend with fine art, live music, and family entertainment, along with increased security following recent events at the park.",
           "body": "The 90th annual Atlanta Dogwood Festival is back in Piedmont Park this weekend, drawing thousands of visitors for its mix of fine art, live music, food vendors, and family activities. The festival, one of Atlanta's longest-running traditions, features artists from across the region and a lineup of performers on multiple stages.\n\nThis year's event comes with noticeably heightened security after recent incidents in the park area. Festival organizers and Atlanta police have coordinated an expanded security presence, with visible patrols and bag checks at entry points. Despite the added measures, the mood was festive, with attendees describing it as \"a great gumbo\" of art, food, and spring weather.\n\nThe Dogwood Festival has been a Midtown fixture since 1936, and this milestone 90th edition drew particular enthusiasm from longtime Atlantans who see it as one of the city's most enduring community events.",
           "neighborhood": "Midtown",
-          "neighborhoods": [
-            "Midtown"
-          ],
+          "neighborhoods": ["Midtown"],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/atlanta/great-gumbo-dogwood-festival-goes-with-lots-sun-security/3OUVN7UGTJF2TPDMAOEKYD5764/",
           "imageUrl": null,
           "imageAlt": "Crowds enjoying the 90th Atlanta Dogwood Festival at Piedmont Park",
           "publishedAt": "2026-04-12",
-          "keywords": [
-            "dogwood festival",
-            "piedmont park",
-            "midtown",
-            "arts festival",
-            "community event"
-          ],
+          "keywords": ["dogwood festival", "piedmont park", "midtown", "arts festival", "community event"],
           "originalImageUrl": null
         },
         {
@@ -210,21 +141,13 @@
           "summary": "Colleagues, students, and ministry leaders gathered at the Martin Luther King Jr. International Chapel to honor retiring Dean Lawrence Edward Carter, Sr., who helped shape Morehouse's spiritual life for decades.",
           "body": "The Martin Luther King Jr. International Chapel on the Morehouse College campus was packed with well-wishers from as far as Kingston, Jamaica, all gathered to celebrate the career of Dean Lawrence Edward Carter, Sr. Carter, who is retiring after a distinguished tenure, helped shape the spiritual and intellectual life of generations of Morehouse men.\n\nThe celebration drew divinity scholars, former students, and community leaders who credited Carter with maintaining the chapel's role as a center for social justice discourse and interfaith dialogue. At a historically Black college that produced Martin Luther King Jr., the dean of the chapel holds a particularly significant position.\n\nSpeakers at the event reflected on Carter's influence beyond the campus, noting his work in building bridges between religious traditions and his commitment to the nonviolent philosophy that Morehouse has long championed.",
           "neighborhood": "West End",
-          "neighborhoods": [
-            "West End"
-          ],
+          "neighborhoods": ["West End"],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/morehouse-honors-carter-retirement/",
           "imageUrl": null,
           "imageAlt": "Dean Lawrence Edward Carter, Sr. at Morehouse College's Martin Luther King Jr. International Chapel",
           "publishedAt": "2026-04-11",
-          "keywords": [
-            "morehouse",
-            "dean carter",
-            "mlk chapel",
-            "retirement",
-            "west end"
-          ],
+          "keywords": ["morehouse", "dean carter", "mlk chapel", "retirement", "west end"],
           "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/04/Dean-Carter-Open-Mic-retirement-5-scaled.jpg?fit=1024%2C683&quality=89&ssl=1"
         }
       ]
@@ -238,22 +161,13 @@
           "summary": "Kentucky Governor Andy Beshear, a potential 2028 presidential contender, headlined the Democratic Party of Georgia's annual Carter-Lewis Dinner, urging the party to reconnect with rural voters.",
           "body": "Kentucky Governor Andy Beshear brought his red-state-Democrat playbook to Atlanta on Friday night, headlining the Democratic Party of Georgia's Carter-Lewis Dinner at a downtown hotel. Beshear, who is widely considered a leading contender for the 2028 Democratic presidential nomination, told the crowd to get \"dirt on our boots\" by engaging voters in rural Georgia rather than writing off conservative-leaning areas.\n\nThe dinner, named for Jimmy Carter and John Lewis, draws Georgia's Democratic establishment for an evening of fundraising and speeches. Beshear's presence signals that national Democratic figures view Georgia as a genuine battleground, not just a fluke from 2020.\n\nThe event comes as Georgia's May primary approaches, with big money and endorsements flowing into competitive races across the state. Several down-ballot candidates used the dinner as an opportunity to network with donors and party leaders.",
           "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown"
-          ],
+          "neighborhoods": ["Downtown"],
           "source": "Georgia Recorder",
           "sourceUrl": "https://georgiarecorder.com/2026/04/11/at-carter-lewis-dinner-beshear-urges-georgia-democrats-to-get-dirt-on-our-boots/",
           "imageUrl": null,
           "imageAlt": "Kentucky Governor Andy Beshear speaking at the Carter-Lewis Dinner in Atlanta",
           "publishedAt": "2026-04-11",
-          "keywords": [
-            "beshear",
-            "democrats",
-            "georgia",
-            "carter-lewis dinner",
-            "2028",
-            "primary"
-          ],
+          "keywords": ["beshear", "democrats", "georgia", "carter-lewis dinner", "2028", "primary"],
           "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/04/DSC01886-1024x683.jpg"
         },
         {
@@ -262,22 +176,13 @@
           "summary": "The Beacon Hill GrassRoots Coalition is urging the city of Decatur to complete an archaeological survey of a City Schools of Decatur-owned greenspace at 346 W. Trinity Place before any development decisions are made.",
           "body": "A group of residents and archaeologists are pressing the city of Decatur to conduct a proper archaeological survey of a greenspace owned by the City Schools of Decatur at 346 W. Trinity Place in downtown Decatur. The Beacon Hill GrassRoots Coalition says the property could contain historically significant artifacts or features that would be lost if development proceeds without study.\n\nThe push comes amid ongoing conversations about how Decatur uses its limited public land. The school district owns several properties that have been the subject of development proposals, and community groups want to make sure history isn't bulldozed in the process.\n\nArchaeologists involved in the effort say the area's proximity to known historical sites makes a survey worthwhile before any decisions are made about the property's future. The coalition has asked city officials to fund and authorize the work.",
           "neighborhood": "Decatur",
-          "neighborhoods": [
-            "Decatur"
-          ],
+          "neighborhoods": ["Decatur"],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/news/decatur/archaeologists-residents-push-for-survey-of-csd-property/article_d8b10033-d299-442e-afb7-9cce314b3f71.html",
           "imageUrl": null,
           "imageAlt": "Greenspace at 346 W. Trinity Place in downtown Decatur",
           "publishedAt": "2026-04-10",
-          "keywords": [
-            "decatur",
-            "archaeology",
-            "csd",
-            "beacon hill",
-            "greenspace",
-            "historic preservation"
-          ],
+          "keywords": ["decatur", "archaeology", "csd", "beacon hill", "greenspace", "historic preservation"],
           "originalImageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/0/04/004994ed-11e4-426e-b6b1-c811473be20f/69d92037ae011.image.jpg?resize=300%2C200"
         }
       ]
@@ -291,21 +196,13 @@
           "summary": "The Atlanta Falcons exercised the fifth-year option on running back Bijan Robinson's rookie contract, keeping the All-Pro in Atlanta through the 2027 season.",
           "body": "The Atlanta Falcons made the expected move this week, exercising the fifth-year option on Bijan Robinson's rookie contract. The decision keeps the All-Pro running back under contract through the 2027 season and signals that a long-term extension is likely on the horizon.\n\nRobinson has been one of the most productive running backs in the NFL since being drafted eighth overall in 2023. He's earned All-Pro honors and become the centerpiece of Atlanta's offense, giving the Falcons one of the most dynamic playmakers in the league.\n\nThe fifth-year option is a formality for a player of Robinson's caliber, but it locks in roster stability at a key position while the front office works on a potential extension that would keep him in Atlanta well beyond 2027.",
           "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown"
-          ],
+          "neighborhoods": ["Downtown"],
           "source": "AJC",
           "sourceUrl": "https://www.ajc.com/sports/atlanta-falcons/atlanta-falcons-exercise-fifth-year-option-for-all-pro-bijan-robinson/",
           "imageUrl": null,
           "imageAlt": "Bijan Robinson in Atlanta Falcons uniform",
           "publishedAt": "2026-04-11",
-          "keywords": [
-            "falcons",
-            "bijan robinson",
-            "nfl",
-            "fifth-year option",
-            "atlanta falcons"
-          ],
+          "keywords": ["falcons", "bijan robinson", "nfl", "fifth-year option", "atlanta falcons"],
           "originalImageUrl": null
         }
       ]
@@ -319,21 +216,13 @@
           "summary": "The Miles Electric Band will headline a tribute concert during Atlanta Jazz Festival weekend in May, celebrating the 100th birthday of the legendary trumpeter.",
           "body": "The Atlanta Jazz Festival is adding a special tribute to its May lineup. The Miles Electric Band, also known as M.E.B., will perform a concert honoring what would have been Miles Davis's 100th birthday. The band, which carries on Davis's fusion legacy, will take the stage during the festival's traditional weekend at Piedmont Park.\n\nDavis, who reshaped jazz multiple times across a career spanning five decades, has deep connections to the genre's live performance tradition. The tribute concert is part of a broader wave of centennial celebrations happening worldwide in 2026.\n\nThe Atlanta Jazz Festival, a free annual event in Piedmont Park, is one of the largest jazz festivals in the country and regularly draws tens of thousands of attendees over Memorial Day weekend. Adding a Miles Davis tribute gives this year's edition an extra draw for jazz devotees and casual fans alike.",
           "neighborhood": "Midtown",
-          "neighborhoods": [
-            "Midtown"
-          ],
+          "neighborhoods": ["Midtown"],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/04/11/atlanta-jazz-festival-pays-tribute-to-miles-davis-with-special-concert/",
           "imageUrl": null,
           "imageAlt": "Atlanta Jazz Festival stage at Piedmont Park",
           "publishedAt": "2026-04-11",
-          "keywords": [
-            "jazz festival",
-            "miles davis",
-            "piedmont park",
-            "music",
-            "atlanta jazz festival"
-          ],
+          "keywords": ["jazz festival", "miles davis", "piedmont park", "music", "atlanta jazz festival"],
           "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/03/Untitled-design-2026-03-09T123450.969-600x338.png"
         },
         {
@@ -342,138 +231,46 @@
           "summary": "The DeKalb County district attorney is warning that HB 369, which would change how district attorneys are disciplined, could face a constitutional challenge if signed into law.",
           "body": "DeKalb County's district attorney is drawing a line in the sand over House Bill 369, a legislative proposal that would change how Georgia's district attorneys face disciplinary proceedings. The DA warned that the bill, if signed by the governor, will face a legal challenge on constitutional grounds.\n\nThe bill emerged from ongoing tensions between the state legislature and local prosecutors, particularly in metro Atlanta, where some DAs have taken positions at odds with the Republican-controlled state government. Critics say HB 369 is designed to punish prosecutors who exercise discretion in ways the legislature doesn't approve of.\n\nFor DeKalb County residents, the fight is about more than legislative procedure. It touches on questions of local control and whether voters' choice of district attorney can be overridden by state lawmakers. The DA's office says it is prepared to challenge the law in court if it passes.",
           "neighborhood": "Decatur",
-          "neighborhoods": [
-            "Decatur"
-          ],
+          "neighborhoods": ["Decatur"],
           "source": "WABE",
           "sourceUrl": "https://www.wabe.org/dekalb-county-da-warns-hb-369/",
           "imageUrl": null,
           "imageAlt": "DeKalb County Courthouse in Decatur",
           "publishedAt": "2026-04-11",
-          "keywords": [
-            "dekalb county",
-            "district attorney",
-            "hb 369",
-            "legislature",
-            "decatur"
-          ],
+          "keywords": ["dekalb county", "district attorney", "hb 369", "legislature", "decatur"],
           "originalImageUrl": null
         }
       ]
     }
   ],
   "neighborhoods": {
-    "Downtown": {
-      "storyCount": 112,
-      "topStory": "marta-world-cup-transit-preparations-2026"
-    },
-    "Midtown": {
-      "storyCount": 62,
-      "topStory": "herndon-square-affordable-housing-georgia-tech-opening"
-    },
-    "Decatur": {
-      "storyCount": 39,
-      "topStory": "decatur-archaeologists-csd-property-survey"
-    },
-    "Summerhill": {
-      "storyCount": 5,
-      "topStory": "marta-world-cup-transit-preparations-2026"
-    },
-    "West End": {
-      "storyCount": 10,
-      "topStory": "morehouse-dean-carter-retirement-celebration"
-    },
-    "Buckhead": {
-      "storyCount": 21,
-      "topStory": "freedom-plane-documents-atlanta-civil-rights"
-    },
-    "Westside": {
-      "storyCount": 12,
-      "topStory": "westside-homeless-housing-beltline"
-    },
-    "Old Fourth Ward": {
-      "storyCount": 10,
-      "topStory": "old-fourth-ward-garden-plots-open"
-    },
-    "Kirkwood": {
-      "storyCount": 10,
-      "topStory": "kirkwood-rezoning-debate"
-    },
-    "Druid Hills": {
-      "storyCount": 10,
-      "topStory": "emory-medical-robotics-innovation"
-    },
-    "Grant Park": {
-      "storyCount": 9,
-      "topStory": "beacon-grant-park-vacancy-struggle"
-    },
-    "Reynoldstown": {
-      "storyCount": 8,
-      "topStory": "atlanta-studio-tour-reynoldstown"
-    },
-    "Oakland City": {
-      "storyCount": 7,
-      "topStory": "oakland-city-beltline-development"
-    },
-    "West Midtown": {
-      "storyCount": 6,
-      "topStory": "west-midtown-lofts-redevelopment"
-    },
-    "Inman Park": {
-      "storyCount": 5,
-      "topStory": "inman-park-edibles-dispensary-beltline"
-    },
-    "Virginia-Highland": {
-      "storyCount": 4,
-      "topStory": "virginia-highland-crime-concerns-housing"
-    },
-    "Piedmont Heights": {
-      "storyCount": 4,
-      "topStory": "piedmont-heights-traffic-study"
-    },
-    "Capitol View": {
-      "storyCount": 4,
-      "topStory": "capitol-view-community-land-trust"
-    },
-    "Castleberry Hill": {
-      "storyCount": 4,
-      "topStory": "castleberry-hill-art-walk"
-    },
-    "East Atlanta": {
-      "storyCount": 3,
-      "topStory": "east-atlanta-village-business-growth"
-    },
-    "Cabbagetown": {
-      "storyCount": 3,
-      "topStory": "cabbagetown-krog-tunnel-art"
-    },
-    "Sweet Auburn": {
-      "storyCount": 3,
-      "topStory": "sweet-auburn-festival-returns"
-    },
-    "Little Five Points": {
-      "storyCount": 2,
-      "topStory": "little-five-points-music-festival"
-    },
-    "Peoplestown": {
-      "storyCount": 2,
-      "topStory": "the-row-900-peoplestown"
-    },
-    "Candler Park": {
-      "storyCount": 1,
-      "topStory": "candler-park-pool-renovation"
-    },
-    "Poncey-Highland": {
-      "storyCount": 1,
-      "topStory": "poncey-highland-development"
-    },
-    "Ormewood Park": {
-      "storyCount": 1,
-      "topStory": "ormewood-park-greenway"
-    },
-    "Edgewood": {
-      "storyCount": 1,
-      "topStory": "edgewood-retail-district"
-    }
+    "Downtown": { "storyCount": 112, "topStory": "marta-world-cup-transit-preparations-2026" },
+    "Midtown": { "storyCount": 62, "topStory": "herndon-square-affordable-housing-georgia-tech-opening" },
+    "Decatur": { "storyCount": 39, "topStory": "decatur-archaeologists-csd-property-survey" },
+    "Summerhill": { "storyCount": 5, "topStory": "marta-world-cup-transit-preparations-2026" },
+    "West End": { "storyCount": 10, "topStory": "morehouse-dean-carter-retirement-celebration" },
+    "Buckhead": { "storyCount": 21, "topStory": "freedom-plane-documents-atlanta-civil-rights" },
+    "Westside": { "storyCount": 12, "topStory": "westside-homeless-housing-beltline" },
+    "Old Fourth Ward": { "storyCount": 10, "topStory": "old-fourth-ward-garden-plots-open" },
+    "Kirkwood": { "storyCount": 10, "topStory": "kirkwood-rezoning-debate" },
+    "Druid Hills": { "storyCount": 10, "topStory": "emory-medical-robotics-innovation" },
+    "Grant Park": { "storyCount": 9, "topStory": "beacon-grant-park-vacancy-struggle" },
+    "Reynoldstown": { "storyCount": 8, "topStory": "atlanta-studio-tour-reynoldstown" },
+    "Oakland City": { "storyCount": 7, "topStory": "oakland-city-beltline-development" },
+    "West Midtown": { "storyCount": 6, "topStory": "west-midtown-lofts-redevelopment" },
+    "Inman Park": { "storyCount": 5, "topStory": "inman-park-edibles-dispensary-beltline" },
+    "Virginia-Highland": { "storyCount": 4, "topStory": "virginia-highland-crime-concerns-housing" },
+    "Piedmont Heights": { "storyCount": 4, "topStory": "piedmont-heights-traffic-study" },
+    "Capitol View": { "storyCount": 4, "topStory": "capitol-view-community-land-trust" },
+    "Castleberry Hill": { "storyCount": 4, "topStory": "castleberry-hill-art-walk" },
+    "East Atlanta": { "storyCount": 3, "topStory": "east-atlanta-village-business-growth" },
+    "Cabbagetown": { "storyCount": 3, "topStory": "cabbagetown-krog-tunnel-art" },
+    "Sweet Auburn": { "storyCount": 3, "topStory": "sweet-auburn-festival-returns" },
+    "Little Five Points": { "storyCount": 2, "topStory": "little-five-points-music-festival" },
+    "Peoplestown": { "storyCount": 2, "topStory": "the-row-900-peoplestown" },
+    "Candler Park": { "storyCount": 1, "topStory": "candler-park-pool-renovation" },
+    "Poncey-Highland": { "storyCount": 1, "topStory": "poncey-highland-development" },
+    "Ormewood Park": { "storyCount": 1, "topStory": "ormewood-park-greenway" },
+    "Edgewood": { "storyCount": 1, "topStory": "edgewood-retail-district" }
   }
 }
