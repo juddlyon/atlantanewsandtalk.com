@@ -898,6 +898,144 @@
       "imageAlt": "Hammonds House Museum in the historic West End neighborhood of Atlanta",
       "imageCaption": "West End is one of Atlanta's oldest neighborhoods, now connected to the Westside BeltLine trail.",
       "imageCredit": "Photo: Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
+      "name": "Buckhead",
+      "slug": "buckhead",
+      "tier": 3,
+      "description": "Buckhead is Atlanta's upscale commercial and residential district, home to <strong><a href=\"https://www.simon.com/mall/lenox-square\" target=\"_blank\" rel=\"noopener\">Lenox Square</a></strong> and <strong><a href=\"https://www.simon.com/mall/phipps-plaza\" target=\"_blank\" rel=\"noopener\">Phipps Plaza</a></strong> shopping centers, high-rise condos, and some of the most expensive real estate in the Southeast. The Buckhead <a href=\"https://www.itsmarta.com/\" target=\"_blank\" rel=\"noopener\">MARTA</a> stations provide transit access, and the area has a mix of luxury dining, nightlife, and corporate offices. It's Atlanta's version of a traditional wealthy urban neighborhood, with tree-lined residential streets surrounding a dense commercial core. The vibe is polished and moneyed, and the restaurant scene ranges from established fine dining to the latest trendy openings.",
+      "highlights": [
+        "Lenox Square and Phipps Plaza shopping",
+        "High-end dining and nightlife district",
+        "MARTA Buckhead and Lenox stations"
+      ],
+      "seoTitle": "Buckhead Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Buckhead Atlanta neighborhood guide with news, shopping, dining, luxury real estate, and development updates.",
+      "relatedNeighborhoods": [
+        "Midtown",
+        "Virginia-Highland"
+      ],
+      "npu": "B",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-b",
+      "zipCodes": [
+        "30305",
+        "30324"
+      ],
+      "resources": [
+        {
+          "label": "Buckhead on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Buckhead"
+        },
+        {
+          "label": "Buckhead Community Improvement District",
+          "url": "https://www.buckheadcid.com/"
+        }
+      ],
+      "latitude": 33.84,
+      "longitude": -84.38
+    },
+    {
+      "name": "West Midtown",
+      "slug": "west-midtown",
+      "tier": 3,
+      "description": "West <a href=\"/neighborhoods/midtown/\">Midtown</a> has transformed from an industrial zone into one of Atlanta's hottest neighborhoods for dining, nightlife, and loft living. The Howell Mill and Huff Road corridors are packed with restaurants, breweries, and converted warehouse spaces. Monday Night Brewing, Optimist, and Marcel are just a few names on a deep list.\n\nThe neighborhood's industrial bones give it a different look than the tree-covered east-side neighborhoods. You'll find converted warehouse lofts, new mid-rise apartments, and a handful of remaining single-family homes. The Upper Westside trail and BeltLine connectivity are improving. It's car-dependent compared to Midtown proper, but the concentration of restaurants and bars along Howell Mill makes it a destination in its own right.",
+      "highlights": [
+        "Major restaurant and brewery corridor along Howell Mill",
+        "Converted warehouse lofts and industrial character",
+        "Monday Night Brewing, Optimist, and Marcel",
+        "Rapidly developing with new residential and retail"
+      ],
+      "seoTitle": "West Midtown Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "West Midtown Atlanta neighborhood guide with news, restaurants, breweries, loft living, and development updates.",
+      "relatedNeighborhoods": [
+        "Midtown",
+        "West End"
+      ],
+      "npu": "D",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-d",
+      "zipCodes": [
+        "30318"
+      ],
+      "resources": [
+        {
+          "label": "West Midtown on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/West_Midtown"
+        }
+      ],
+      "latitude": 33.781,
+      "longitude": -84.41
+    },
+    {
+      "name": "Westside",
+      "slug": "westside",
+      "tier": 3,
+      "description": "Westside is a broad term covering several neighborhoods west of the <a href=\"/neighborhoods/downtown/\">Downtown</a> Connector, including areas around the <strong>Westside Provisions District</strong> and the growing corridor along Howell Mill Road. The Westside Provisions District (home to Bacchanalia, one of Atlanta's finest restaurants, plus shops and offices) and the Star Provisions complex put this area on the food map years ago.\n\nThe Westside is also home to significant cultural landmarks including connections to the Atlanta University Center. Real estate development has been aggressive, with new apartment complexes, townhome communities, and commercial spaces transforming formerly industrial blocks. The <a href=\"https://beltline.org/\" target=\"_blank\" rel=\"noopener\">BeltLine</a>'s <a href=\"/guide/atlanta-beltline/\">Westside Trail</a> connects through parts of this area. The Microsoft campus (the redeveloped Quarry Yards site) is a major driver of change here.",
+      "highlights": [
+        "Westside Provisions District with high-end dining",
+        "BeltLine Westside Trail connectivity",
+        "Major development including the Microsoft campus",
+        "Growing residential options in former industrial areas"
+      ],
+      "seoTitle": "Westside Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Westside Atlanta neighborhood guide with news, Westside Provisions District, BeltLine trail, development, and restaurants.",
+      "relatedNeighborhoods": [
+        "West Midtown",
+        "West End",
+        "Midtown"
+      ],
+      "npu": "T",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-t",
+      "zipCodes": [
+        "30314",
+        "30318"
+      ],
+      "resources": [
+        {
+          "label": "Westside Future Fund",
+          "url": "https://www.westsidefuturefund.org/"
+        },
+        {
+          "label": "Atlanta BeltLine",
+          "url": "https://beltline.org/"
+        }
+      ],
+      "latitude": 33.763,
+      "longitude": -84.416
+    },
+    {
+      "name": "Druid Hills",
+      "slug": "druid-hills",
+      "tier": 3,
+      "description": "Druid Hills is an unincorporated DeKalb County community designed in part by Frederick Law Olmsted, known for its grand homes, the <strong><a href=\"https://www.fernbankmuseum.org/\" target=\"_blank\" rel=\"noopener\">Fernbank Museum</a></strong> of Natural History, and its proximity to <strong><a href=\"https://www.emory.edu/\" target=\"_blank\" rel=\"noopener\">Emory University</a></strong>. The tree canopy here is extraordinary, and the winding streets feel a world away from the density of <a href=\"/neighborhoods/midtown/\">Midtown</a> or <a href=\"/neighborhoods/old-fourth-ward/\">Old Fourth Ward</a>. The neighborhood was the setting for \"Driving Miss Daisy.\" Emory Village and the surrounding commercial nodes provide dining and shopping. It's one of the most beautiful residential areas in metro Atlanta.",
+      "highlights": [
+        "Frederick Law Olmsted-designed landscape",
+        "Home to Fernbank Museum and Emory University",
+        "Stunning historic homes and tree canopy"
+      ],
+      "seoTitle": "Druid Hills Atlanta News & Neighborhood Guide | atlanta news & talk",
+      "seoDescription": "Druid Hills neighborhood guide with news, Emory University updates, Fernbank Museum, historic homes, and community stories.",
+      "relatedNeighborhoods": [
+        "Decatur",
+        "Candler Park"
+      ],
+      "npu": "O",
+      "npuUrl": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/neighborhood-planning-unit/npu-o",
+      "zipCodes": [
+        "30307",
+        "30306"
+      ],
+      "resources": [
+        {
+          "label": "Druid Hills on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Druid_Hills,_Georgia"
+        },
+        {
+          "label": "Druid Hills Civic Association",
+          "url": "https://www.druidhills.org/"
+        }
+      ],
+      "latitude": 33.783,
+      "longitude": -84.328
     }
   ]
 }
