@@ -248,45 +248,74 @@ async function getTopStorySlug() {
   }
 }
 
-async function checkTodayContent() {
+async function checkDigestMatchesLive() {
   /**
-   * Verify today's digest content appears on the site
+   * CRITICAL: Verify the live site shows the same digest as digest-latest.json.
+   * This is the test that catches stale deploys. It hard-fails on mismatch.
    */
-  const today = new Date().toISOString().split('T')[0];
+  const fs = await import('node:fs');
+  const path = await import('node:path');
   let allPassed = true;
 
   try {
-    // Check homepage for today's date or recent content
+    const digestPath = path.join(process.cwd(), 'src', 'data', 'digest-latest.json');
+    const digest = JSON.parse(fs.readFileSync(digestPath, 'utf-8'));
+    const digestDate = digest.date;
+
+    // Format the date the same way the site does (helpers.ts formatDate)
+    const d = new Date(digestDate + 'T12:00:00');
+    const formatted = d.toLocaleDateString('en-US', {
+      weekday: 'short',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    });
+
+    // Check that the live homepage contains this exact date
     const response = await fetchWithTimeout(SITE_URL);
     const html = await response.text();
 
-    // Check for today's date in various formats
-    const dateFormats = [
-      today, // 2026-03-31
-      new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }), // March 31, 2026
-      new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' }), // Mar 31
-    ];
-
-    const hasToday = dateFormats.some(format => html.includes(format));
-
-    if (hasToday) {
-      log('pass', 'Homepage shows today\'s date');
+    if (html.includes(formatted)) {
+      log('pass', `Live site matches digest date: ${formatted}`);
     } else {
-      log('warn', 'Homepage may not show today\'s date (could be timezone issue)');
+      // Try to extract what date IS on the site
+      const siteDate = html.match(/\w{3}, \w+ \d+, \d{4}/)?.[0] || 'unknown';
+      log('fail', `STALE DEPLOY: live site shows "${siteDate}" but digest-latest.json is "${formatted}"`);
+      allPassed = false;
     }
 
-    // Check archive page for today
-    const archiveResponse = await fetchWithTimeout(`${SITE_URL}/archive/${today}/`);
-    if (archiveResponse.status === 200) {
-      log('pass', `/archive/${today}/ exists`);
+    // Check the digest summary appears on the live site
+    const summarySnippet = digest.summary.substring(0, 60);
+    if (html.includes(summarySnippet)) {
+      log('pass', 'Live site summary matches digest');
     } else {
-      log('fail', `/archive/${today}/ not found (${archiveResponse.status})`);
+      log('fail', 'Live site summary does not match digest-latest.json');
       allPassed = false;
+    }
+
+    // Check archive page exists for the digest date
+    const archiveResponse = await fetchWithTimeout(`${SITE_URL}/archive/${digestDate}/`);
+    if (archiveResponse.status === 200) {
+      log('pass', `/archive/${digestDate}/ exists`);
+    } else {
+      log('fail', `/archive/${digestDate}/ not found (${archiveResponse.status})`);
+      allPassed = false;
+    }
+
+    // Staleness guard: fail if digest is more than 48 hours old
+    const digestTime = new Date(digestDate + 'T12:00:00');
+    const now = new Date();
+    const hoursOld = (now - digestTime) / (1000 * 60 * 60);
+    if (hoursOld > 48) {
+      log('fail', `Digest is ${Math.round(hoursOld)} hours old (${digestDate}). Run today's news.`);
+      allPassed = false;
+    } else {
+      log('pass', `Digest age OK (${Math.round(hoursOld)}h old)`);
     }
 
     return allPassed;
   } catch (error) {
-    log('fail', `Today's content check - ${error.message}`);
+    log('fail', `Digest freshness check - ${error.message}`);
     return false;
   }
 }
@@ -332,12 +361,12 @@ async function checkRSSFreshness() {
       const now = new Date();
       const daysDiff = (now - pubDate) / (1000 * 60 * 60 * 24);
 
-      if (daysDiff < 2) {
+      if (daysDiff < 3) {
         log('pass', `RSS feed updated recently (${pubDate.toDateString()})`);
         return true;
       } else {
-        log('warn', `RSS feed may be stale (last updated ${pubDate.toDateString()})`);
-        return true;
+        log('fail', `RSS feed is stale: last updated ${pubDate.toDateString()} (${Math.round(daysDiff)} days ago)`);
+        return false;
       }
     }
 
@@ -610,9 +639,9 @@ async function runTests() {
     name: '/404 (returns 404 status)'
   }));
 
-  // 9. Today's content and freshness
-  section('Content Freshness');
-  track(await checkTodayContent());
+  // 9. Digest freshness — CRITICAL: catches stale deploys
+  section('Digest Freshness');
+  track(await checkDigestMatchesLive());
   track(await checkTopStory());
 
   // 10. Story images

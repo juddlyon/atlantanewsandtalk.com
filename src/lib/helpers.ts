@@ -1,5 +1,6 @@
 import digest from '../data/digest-latest.json';
 import pinnedStories from '../data/pinned-stories.json';
+import neighborhoodsConfig from '../data/neighborhoods.json';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -168,6 +169,8 @@ export function getAllNeighborhoods(): string[] {
 
 export function getNeighborhoodData(): Record<string, { storyCount: number; topStory: string }> {
   // Compute neighborhood data from ALL archived stories (cumulative counts)
+  // Only include neighborhoods that exist in neighborhoods.json (the canonical 20)
+  const validNames = new Set((neighborhoodsConfig as any).neighborhoods.map((n: any) => n.name));
   const allStories = getAllArchivedStories();
   const data: Record<string, { storyCount: number; topStory: string }> = {};
 
@@ -179,6 +182,7 @@ export function getNeighborhoodData(): Record<string, { storyCount: number; topS
     }
 
     for (const name of neighborhoods) {
+      if (!validNames.has(name)) continue;
       if (!data[name]) {
         data[name] = { storyCount: 0, topStory: story.id };
       }

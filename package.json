@@ -20,7 +20,7 @@
     "publish": "npm run build && git add src/data/digest-*.json && git commit -m \"update digest $(date +%Y-%m-%d)\" && git push && npm run deploy && npm run test:deploy",
     "rollback": "node scripts/rollback.mjs",
     "images": "node scripts/download-images.mjs && node scripts/download-content-images.mjs",
-    "deploy": "netlify deploy --prod --dir=dist",
+    "deploy": "npm run validate:build && netlify deploy --prod --dir=dist",
     "test:deploy": "node scripts/smoke-test.mjs",
     "test": "vitest run",
     "test:watch": "vitest"
