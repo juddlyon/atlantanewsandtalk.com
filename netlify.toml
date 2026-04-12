@@ -23,13 +23,11 @@
   from = "/buckhead-atlanta-news"
   to = "/buckhead-atlanta-news/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/trinity-center-flats-groundbreaking"
   to = "/trinity-center-flats-groundbreaking/"
   status = 301
-  force = true
 
 # Redirect East Atlanta Village to East Atlanta (merged)
 [[redirects]]
@@ -39,17 +37,6 @@
   force = true
 
 # Redirects for removed neighborhoods (consolidated April 2026)
-[[redirects]]
-  from = "/neighborhoods/druid-hills/*"
-  to = "/neighborhoods/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/neighborhoods/buckhead/*"
-  to = "/neighborhoods/"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/neighborhoods/morningside/*"
@@ -87,17 +74,6 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/neighborhoods/westside/*"
-  to = "/neighborhoods/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/neighborhoods/west-midtown/*"
-  to = "/neighborhoods/"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/neighborhoods/chosewood-park/*"

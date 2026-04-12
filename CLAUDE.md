@@ -131,7 +131,7 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 | `netlify.toml` | Build command (automation currently disabled) |
 | `src/data/digest-latest.json` | Current digest (generated daily, committed) |
 | `src/data/pinned-stories.json` | Persistent stories that survive daily rebuilds |
-| `src/data/neighborhoods.json` | 24 neighborhood descriptions |
+| `src/data/neighborhoods.json` | 23 neighborhood descriptions |
 | `src/data/guides.json` | 10 evergreen SEO guide articles |
 | `src/data/lists.json` | 8 listicle/top-list articles |
 | `src/data/landing-pages.json` | 21 long-tail SEO landing pages |
@@ -139,7 +139,7 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 | `src/pages/index.astro` | Homepage: hero + lead cards + bullet lists + sidebar |
 | `src/pages/[slug].astro` | Article pages (Schema.org NewsArticle, multi-source support) |
 | `src/pages/[landing].astro` | Long-tail SEO landing pages |
-| `src/pages/neighborhoods/` | 24 neighborhood pages with descriptions |
+| `src/pages/neighborhoods/` | 23 neighborhood pages with descriptions |
 | `src/pages/guide/` | 10 evergreen guide articles |
 | `src/pages/lists/` | 8 listicle/top-list articles |
 | `src/pages/about.astro` | About page (personal sidequest framing) |
@@ -168,7 +168,7 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 - All branding is lowercase: "atlanta news & talk"
 - Guide/list images must be real Atlanta photos (Wikimedia Commons CC-licensed or from source sites). No generic stock photos.
 
-## Neighborhood Coverage (24 neighborhoods)
+## Neighborhood Coverage (23 neighborhoods)
 
 Based on [City of Atlanta NPU structure](https://www.atlantaga.gov/government/departments/city-planning/neighborhood-planning-units/neighborhoods-by-npu). Core focus on SE BeltLine corridor, plus major ITP neighborhoods with active news coverage.
 
@@ -186,11 +186,10 @@ Based on [City of Atlanta NPU structure](https://www.atlantaga.gov/government/de
 - NPU-O: Edgewood
 - NPU-T: West End
 
-**Tier 3 (greater ITP, 4 neighborhoods):**
+**Tier 3 (greater ITP, 3 neighborhoods):**
 - NPU-B: Buckhead
 - NPU-D: West Midtown
 - NPU-O: Druid Hills
-- NPU-T: Westside
 - Decatur (separate city, essential coverage)
 
 ## Writing Rules
@@ -211,7 +210,7 @@ Based on [City of Atlanta NPU structure](https://www.atlantaga.gov/government/de
 - **21 landing pages** targeting high-volume keywords (e.g. "atlanta news today" 73K/mo, "fifa world cup atlanta 2026")
 - **10 guides** targeting informational keywords (e.g. "summerhill atlanta", "peoplestown atlanta", "best restaurants in atlanta")
 - **8 listicles** targeting long-tail keywords (e.g. "best parks east atlanta")
-- **24 neighborhood pages** with evergreen descriptions
+- **23 neighborhood pages** with evergreen descriptions
 - All pages: Schema.org markup, Open Graph, Twitter Cards, sitemap, breadcrumbs, robots.txt
 - Default OG image: Atlanta skyline from Wikimedia Commons
 - RSS feed at `/rss.xml`
