@@ -64,20 +64,6 @@ When the user says **"run today's news"**, execute this full workflow:
   5. `netlify deploy --prod` — builds static pages from ALL archived digests and deploys
 - **Story persistence:** Story pages are built from ALL archived digest files (`digest-YYYY-MM-DD.json`), so URLs stay live forever. SEO value accumulates over time. **This is why git commits are mandatory.**
 - **Rollback:** Dated archives kept in git. Use `npm run rollback` or Netlify deploy rollback.
-- **Env vars (Netlify):** `BUILD_HOOK_URL` (for future re-automation), `GITHUB_TOKEN` (repo write access)
-
-### Future Re-automation
-
-To re-enable daily automated builds, uncomment in `netlify.toml`:
-```
-command = "node scripts/fetch-articles.mjs && node scripts/summarize.mjs && node scripts/commit-digest.mjs && npm run build"
-```
-And uncomment the schedule in `netlify/functions/daily-rebuild.mjs`:
-```js
-export const config = { schedule: '0 11 * * *' }; // 7am ET
-```
-This requires `ANTHROPIC_API_KEY` in Netlify env vars.
-
 ## RSS Sources (20 feeds)
 
 **Tier 1 (hyperlocal ITP):** Decaturish, Urbanize Atlanta, Atlanta Civic Circle
@@ -124,11 +110,9 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 | `scripts/fetch-articles.mjs` | RSS fetcher (20 sources) with image extraction |
 | `scripts/summarize.mjs` | Claude API summarization (currently disabled, using Claude Code instead) |
 | `scripts/download-images.mjs` | Downloads story images, converts to WebP, updates digest URLs |
-| `scripts/commit-digest.mjs` | Commits digest to git via GitHub API (for automated builds) |
 | `scripts/rollback.mjs` | Digest version management |
 | `scripts/smoke-test.mjs` | Post-deploy smoke tests (pages, redirects, story counts) |
-| `netlify/functions/daily-rebuild.mjs` | Scheduled function (currently disabled) |
-| `netlify.toml` | Build command (automation currently disabled) |
+| `netlify.toml` | Redirects, headers, build config |
 | `src/data/digest-latest.json` | Current digest (generated daily, committed) |
 | `src/data/pinned-stories.json` | Persistent stories that survive daily rebuilds |
 | `src/data/neighborhoods.json` | 23 neighborhood descriptions |
