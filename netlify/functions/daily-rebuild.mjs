@@ -16,6 +16,7 @@ export default async function handler() {
   });
 }
 
-export const config = {
-  schedule: '0 9 * * *', // 5am EDT / 4am EST (09:00 UTC)
-};
+// DISABLED: Manual updates via Claude Code. Scheduled builds deploy stale content.
+// export const config = {
+//   schedule: '0 9 * * *', // 5am EDT / 4am EST (09:00 UTC)
+// };
