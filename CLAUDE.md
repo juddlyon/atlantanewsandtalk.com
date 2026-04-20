@@ -16,7 +16,7 @@ Hyperlocal Atlanta news aggregator focused on Inside The Perimeter (ITP) neighbo
 - `npm run build` — build static site to `dist/`
 - `npx serve dist` — preview built site (Netlify adapter doesn't support `astro preview`)
 - `npm run fetch` — fetch RSS articles to `src/data/raw-articles.json`
-- `npm run summarize` — summarize raw articles into digest (requires ANTHROPIC_API_KEY, currently disabled)
+- `npm run images` — download story images, convert to WebP
 - `npm run rollback` — list or restore previous digest versions
 - `npm run deploy` — upload pre-built site (no build minutes used)
 - `npm run test:deploy` — run post-deploy smoke tests to verify site health
@@ -55,7 +55,7 @@ When the user says **"run today's news"**, execute this full workflow:
 ## Architecture
 
 - **Astro** static site on **Netlify** (atlantanewsandtalk.com)
-- **Current mode: Manual via Claude Code.** Netlify automation is disabled to save API costs. Updates run through Claude Code conversation.
+- **Manual workflow only.** Updates run locally through Claude Code conversation, then deploy via CLI.
 - **Data flow (manual):**
   1. `npm run fetch` — fetches RSS (20 sources, 15s per-feed timeout)
   2. Claude Code reads `raw-articles.json` and generates digest JSON
@@ -108,7 +108,7 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 | File | Purpose |
 |------|---------|
 | `scripts/fetch-articles.mjs` | RSS fetcher (20 sources) with image extraction |
-| `scripts/summarize.mjs` | Claude API summarization (currently disabled, using Claude Code instead) |
+| `scripts/summarize.mjs` | Legacy API script (unused, summarization done in Claude Code) |
 | `scripts/download-images.mjs` | Downloads story images, converts to WebP, updates digest URLs |
 | `scripts/rollback.mjs` | Digest version management |
 | `scripts/smoke-test.mjs` | Post-deploy smoke tests (pages, redirects, story counts) |
@@ -133,7 +133,7 @@ Each daily digest includes at most ONE story per source. This prevents any singl
 
 ## Content Types (57+ pages)
 
-1. **Daily digest** — auto-generated article pages from RSS + Claude API
+1. **Daily digest** — article pages from RSS + Claude Code summarization
 2. **Landing pages** (21) — keyword-targeted (e.g. "atlanta news today", "fifa world cup atlanta 2026")
 3. **Neighborhood pages** (20) — evergreen descriptions, highlights, resources, daily stories
 4. **Guides** (10) — long-form evergreen content (BeltLine, Summerhill, Peoplestown, restaurants, moving guide)
