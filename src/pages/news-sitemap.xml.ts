@@ -16,8 +16,11 @@ export function GET(context: APIContext) {
   });
 
   const urls = recentStories.map((story) => {
-    const imageTag = story.imageUrl
-      ? `\n      <image:image>\n        <image:loc>${escapeXml(story.imageUrl)}</image:loc>\n        <image:caption>${escapeXml(story.imageAlt || story.headline)}</image:caption>\n      </image:image>`
+    const absImage = story.imageUrl
+      ? (story.imageUrl.startsWith('http') ? story.imageUrl : `${SITE_URL}${story.imageUrl}`)
+      : null;
+    const imageTag = absImage
+      ? `\n    <image:image>\n      <image:loc>${escapeXml(absImage)}</image:loc>\n      <image:caption>${escapeXml(story.imageAlt || story.headline)}</image:caption>\n    </image:image>`
       : '';
     const keywords = story.keywords?.length
       ? `\n      <news:keywords>${escapeXml(story.keywords.join(', '))}</news:keywords>`
@@ -25,6 +28,7 @@ export function GET(context: APIContext) {
 
     return `  <url>
     <loc>${SITE_URL}/${story.id}/</loc>
+    <lastmod>${new Date(story.publishedAt).toISOString()}</lastmod>
     <news:news>
       <news:publication>
         <news:name>${escapeXml(SITE_NAME)}</news:name>

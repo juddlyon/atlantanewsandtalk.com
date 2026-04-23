@@ -17,7 +17,8 @@ const KEY = 'ec29ce55cdeac6d36341';
 
 // Collect URLs from latest digest
 const digestPath = path.join(__dirname, '..', 'src', 'data', 'digest-latest.json');
-const urls = [SITE]; // always include homepage
+const urls = new Set();
+urls.add(`${SITE}/`); // homepage
 
 if (fs.existsSync(digestPath)) {
   const digest = JSON.parse(fs.readFileSync(digestPath, 'utf-8'));
@@ -31,16 +32,30 @@ if (fs.existsSync(digestPath)) {
   }
 
   for (const story of stories) {
-    if (story.id) urls.push(`${SITE}/${story.id}`);
+    if (story.id) urls.add(`${SITE}/${story.id}/`);
+    // Also ping neighborhood pages that got new stories today
+    const hoods = (story.neighborhoods && story.neighborhoods.length) ? story.neighborhoods : (story.neighborhood ? [story.neighborhood] : []);
+    for (const n of hoods) {
+      const slug = n.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+      if (slug) urls.add(`${SITE}/neighborhoods/${slug}/`);
+    }
   }
+
+  // Archive page for today's digest
+  if (digest.date) urls.add(`${SITE}/archive/${digest.date}/`);
 }
 
-// Add key evergreen pages
-urls.push(`${SITE}/guide/fifa-world-cup-atlanta-2026`);
-urls.push(`${SITE}/atlanta-news-today`);
-urls.push(`${SITE}/neighborhoods`);
+// Evergreen hubs and feeds Google/Bing should recrawl daily
+urls.add(`${SITE}/archive/`);
+urls.add(`${SITE}/neighborhoods/`);
+urls.add(`${SITE}/rss.xml`);
+urls.add(`${SITE}/news-sitemap.xml`);
+urls.add(`${SITE}/sitemap-index.xml`);
+urls.add(`${SITE}/atlanta-news-today/`);
+urls.add(`${SITE}/guide/fifa-world-cup-atlanta-2026/`);
 
-console.log(`Pinging IndexNow with ${urls.length} URLs...`);
+const urlList = [...urls];
+console.log(`Pinging IndexNow with ${urlList.length} URLs...`);
 
 try {
   const res = await fetch('https://api.indexnow.org/IndexNow', {
@@ -50,7 +65,7 @@ try {
       host: 'atlantanewsandtalk.com',
       key: KEY,
       keyLocation: `${SITE}/${KEY}.txt`,
-      urlList: urls,
+      urlList,
     }),
   });
 

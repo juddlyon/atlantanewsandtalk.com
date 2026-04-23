@@ -30,11 +30,13 @@ export default defineConfig({
   integrations: [sitemap({
     changefreq: 'daily',
     priority: 0.7,
+    lastmod: new Date(),
     serialize(item) {
       // Homepage: highest priority, changes daily
       if (item.url === 'https://atlantanewsandtalk.com/') {
         item.changefreq = 'daily';
         item.priority = 1.0;
+        item.lastmod = new Date().toISOString();
       }
       // Daily article pages
       else if (item.url.match(/atlantanewsandtalk\.com\/[a-z]+-[a-z]/) &&

@@ -24,6 +24,9 @@ export function GET(context: APIContext) {
       content: story.body,
     })),
     customData: `<language>en-us</language>
+<lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+<pubDate>${sorted[0] ? new Date(sorted[0].publishedAt).toUTCString() : new Date().toUTCString()}</pubDate>
+<ttl>60</ttl>
 <atom:link href="${SITE_URL}/rss.xml" rel="self" type="application/rss+xml" />
 <image>
   <url>${SITE_URL}/favicon.svg</url>
