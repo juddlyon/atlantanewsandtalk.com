@@ -8,22 +8,13 @@
     "summary": "The pavement is barely dry on the Southeast Trail, and one of Atlanta's oldest Bible colleges is already seeking proposals for its 4.3-acre campus with 400 feet of BeltLine frontage.",
     "body": "Beulah Heights University, founded in 1918 and considered one of the Southeast's oldest Bible colleges, has issued a call for development proposals for its current campus and adjacent property along Berne Street in Ormewood Park.\n\nThe acreage includes 400 feet of frontage on the BeltLine's newly opened Southeast Trail, along a section of the 22-mile loop corridor that currently lacks retail. The potential mixed-use deal could include up to 4.3 acres of land and five contiguous parcels, representing one of the last remaining BeltLine-fronting development sites in the Ormewood Park and Grant Park submarket.\n\nAll offers from developers are due May 30. BHU intends to remain onsite in some capacity, though all current buildings could be scrapped for redevelopment. The 1.2-mile Southeast Trail segment opened earlier this year, connecting neighborhoods from Ormewood Park toward Glenwood Park.\n\nThe development interest underscores how quickly the BeltLine transforms surrounding real estate. Areas that were industrial or institutional just years ago are now attracting significant investment as the trail network expands.",
     "neighborhood": "Ormewood Park",
-    "neighborhoods": [
-      "Ormewood Park",
-      "Grant Park"
-    ],
+    "neighborhoods": ["Ormewood Park", "Grant Park"],
     "source": "Urbanize Atlanta",
     "sourceUrl": "https://atlanta.urbanize.city/post/big-development-ideas-new-atl-beltline-ormewood-park-project",
     "imageUrl": null,
     "imageAlt": "Southeast Trail BeltLine segment in Ormewood Park",
     "publishedAt": "2026-04-29",
-    "keywords": [
-      "beltline",
-      "southeast trail",
-      "ormewood park",
-      "beulah heights university",
-      "development"
-    ]
+    "keywords": ["beltline", "southeast trail", "ormewood park", "beulah heights university", "development"]
   },
   "sections": [
     {
@@ -35,21 +26,13 @@
           "summary": "The world's busiest airport now features shops highlighting BeltLine culture, local fashion, and Black-owned brands in Concourse B.",
           "body": "Hartsfield-Jackson Atlanta International Airport has added three new retail stores in Concourse B, each showcasing Atlanta's culture and local businesses. The stores opened on April 23 under the theme 'Made in Atlanta. Found at ATL.'\n\nThe Beltline Market reflects Atlanta's neighborhoods and energy. Atlanta Influences Everything showcases fashion and style. The Village Retail supports Black-owned brands. All three are operated by Paradies Lagardère.\n\n'This is about making sure Hartsfield-Jackson looks like the city it serves,' said Airport General Manager Ricky Smith. 'These brands make it clear that Atlanta is here, Atlanta is visible, and Atlanta belongs in this airport in a real way.'\n\nThe retail additions come as the airport prepares for increased traffic during the FIFA World Cup this summer, when millions of international visitors will pass through ATL.",
           "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown"
-          ],
+          "neighborhoods": ["Downtown"],
           "source": "What Now Atlanta",
           "sourceUrl": "https://whatnow.com/atlanta/retail/three-new-retail-concepts-debut-at-hartsfield-jackson-atlanta-international-airport/",
           "imageUrl": null,
           "imageAlt": "New retail stores at Hartsfield-Jackson airport",
           "publishedAt": "2026-04-29",
-          "keywords": [
-            "hartsfield-jackson",
-            "airport",
-            "retail",
-            "beltline market",
-            "atlanta"
-          ]
+          "keywords": ["hartsfield-jackson", "airport", "retail", "beltline market", "atlanta"]
         },
         {
           "id": "atlanta-population-sixth-largest-metro-2026",
@@ -57,21 +40,13 @@
           "summary": "Census estimates show metro Atlanta gained nearly 62,000 residents last year, leapfrogging Miami and Washington D.C. to reclaim the No. 6 spot nationally.",
           "body": "Metro Atlanta has surged back to become the sixth-largest metro area in the United States, logging 6.482 million residents according to the latest U.S. Census Bureau estimates. The region gained 61,953 people in the year ending July 1, 2025.\n\nThat growth rate placed Atlanta third nationally in numeric gains, behind only Houston and Dallas. The surge allowed Atlanta to leapfrog Miami and Washington D.C., which had temporarily passed the region in previous estimates.\n\nSince the start of the COVID-19 pandemic six years ago, metro Atlanta has added nearly 400,000 total residents. The Atlanta Regional Commission notes the 29-county area's growth of 0.96 percent outpaced the nation.\n\nThe population boom helps explain traffic congestion and housing demand across the region, as well as the continued investment in transit and infrastructure.",
           "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown"
-          ],
+          "neighborhoods": ["Downtown"],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/census-atl-climbs-6th-largest-metro-united-states",
           "imageUrl": null,
           "imageAlt": "Atlanta skyline showing population growth",
           "publishedAt": "2026-04-29",
-          "keywords": [
-            "census",
-            "population",
-            "metro atlanta",
-            "growth",
-            "sixth largest"
-          ]
+          "keywords": ["census", "population", "metro atlanta", "growth", "sixth largest"]
         }
       ]
     },
@@ -84,21 +59,13 @@
           "summary": "The vibrant new restaurant from 26 Hospitality Group is carrying Atlanta's Thai conversation forward with regional dishes and bold flavors.",
           "body": "Atlanta's Thai scene has decisively shifted in the past two decades, and Pink Lotus at The Stockyards Atlanta represents the latest evolution. Owner Niki Pattharakositkul of 26 Hospitality Group has built a reputation for approachable Thai cooking, and this West Midtown addition delivers.\n\nThe restaurant's location is savvy, given how few Thai restaurants exist in the industrial neighborhood. The menu emphasizes regional dishes with a point of view, part of a broader trend away from standard pad thai and curries toward more complex Thai flavors.\n\nThe shift traces back to anchors like Tamarind and Nan Thai Fine Dining in the early 2000s. More recently, spots like Tum Pok Pok on Buford Highway and Talat Market in Summerhill proved Atlanta was ready for dishes with depth. Pink Lotus is now carrying that conversation into the Westside.",
           "neighborhood": "West Midtown",
-          "neighborhoods": [
-            "West Midtown"
-          ],
+          "neighborhoods": ["West Midtown"],
           "source": "Atlanta Magazine",
           "sourceUrl": "https://www.atlantamagazine.com/reviews/review-pink-lotus-is-more-than-a-pretty-face-its-a-westside-standout-in-atlantas-thai-evolution/",
           "imageUrl": null,
           "imageAlt": "Pink Lotus Thai restaurant interior",
           "publishedAt": "2026-04-29",
-          "keywords": [
-            "pink lotus",
-            "thai restaurant",
-            "west midtown",
-            "stockyards",
-            "26 hospitality"
-          ]
+          "keywords": ["pink lotus", "thai restaurant", "west midtown", "stockyards", "26 hospitality"]
         },
         {
           "id": "glide-pizza-beltline-old-fourth-ward-2026",
@@ -106,21 +73,13 @@
           "summary": "Foldable New York-style slices meet pimento cheese, hot honey burrata, and house-made ranch at this beloved Old Fourth Ward takeout spot.",
           "body": "Glide Pizza feels far more an Atlanta slice shop than a New York pizzeria. Sure, the foldable slices nod to the Northeast, but toppings like pimento cheese, hot honey, and pickled hot peppers, plus ranch for dunking, make this beloved BeltLine spot unmistakably 404.\n\nThe cult-favorite is the hot honey burrata, with massive pillows of burrata strewn across the pizza with fresh basil and Mike's Hot Honey. The Homegrown slice tops pimento cheese with cremini mushrooms and scallions, eating almost like a biscuit in pizza form.\n\nThe wood-paneled takeout window at Glide is a buzzing corner in Old Fourth Ward. Order fast, listen for your name at the pick-up window, and grab a spot at the tiny patio by the railing. A 48-hour dough ferment lends the right sourness and great leoparding from even heating.",
           "neighborhood": "Old Fourth Ward",
-          "neighborhoods": [
-            "Old Fourth Ward"
-          ],
+          "neighborhoods": ["Old Fourth Ward"],
           "source": "Eater Atlanta",
           "sourceUrl": "https://atlanta.eater.com/dining-report/24446001/glide-pizza-beltline-atlanta-review",
           "imageUrl": null,
           "imageAlt": "Glide Pizza slices on BeltLine",
           "publishedAt": "2026-04-29",
-          "keywords": [
-            "glide pizza",
-            "beltline",
-            "old fourth ward",
-            "pizza",
-            "pimento cheese"
-          ]
+          "keywords": ["glide pizza", "beltline", "old fourth ward", "pizza", "pimento cheese"]
         },
         {
           "id": "atlanta-matcha-guide-drinks-desserts-2026",
@@ -128,21 +87,13 @@
           "summary": "The centuries-old green tea powder has worked its way into cocktails, desserts, and vibrant drinks at coffee shops, bars, and restaurants all over town.",
           "body": "Matcha is trending in a big way in metro Atlanta. The centuries-old green tea powder has recently worked its way into cocktails, desserts, and a bevy of vibrant drinks at coffee shops, bars, and restaurants all over town. Its broad appeal spans the health-conscious to those with earthy-inclined palates to people who prefer a less severe caffeine jolt.\n\nTalat Market in Summerhill offers matcha options alongside its acclaimed Thai menu. Common Coffee & Cocktails in Doraville sources tea from Passenger Coffee and serves matcha tonics and flavored lattes, including jasmine and blueberry.\n\nPop-ups like Bearly Awake Cafe bring innovative matcha syrups to farmers markets, with flavors ranging from caramelized pear and banana to horchata. The trend reflects Atlanta's maturing coffee and tea culture, with shops competing on quality and creativity.",
           "neighborhood": "Summerhill",
-          "neighborhoods": [
-            "Summerhill"
-          ],
+          "neighborhoods": ["Summerhill"],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/04/29/matcha-drinks-desserts-atlanta/",
           "imageUrl": null,
           "imageAlt": "Matcha latte at Atlanta coffee shop",
           "publishedAt": "2026-04-29",
-          "keywords": [
-            "matcha",
-            "coffee shops",
-            "summerhill",
-            "talat market",
-            "atlanta drinks"
-          ]
+          "keywords": ["matcha", "coffee shops", "summerhill", "talat market", "atlanta drinks"]
         }
       ]
     },
@@ -155,21 +106,13 @@
           "summary": "Atlanta's playoff run faces elimination after New York proved too strong at Madison Square Garden, sending the series back to State Farm Arena.",
           "body": "The Atlanta Hawks' playoff series against the New York Knicks has shifted to must-win territory after a Game 5 loss at Madison Square Garden. The Knicks now lead the first-round series 3-2.\n\nThe loss means the Hawks must win Game 6 at home just to force a deciding Game 7 back in New York. For a young Atlanta team that exceeded expectations by reaching the postseason, the challenge couldn't be steeper.\n\nThe series has been a showcase for both teams' young talent, with passionate crowds at both State Farm Arena and MSG. Atlanta's home games featured halftime entertainment and celebrity appearances, drawing energy from a fanbase hungry for playoff basketball.\n\nGame 6 returns to Atlanta, where the Hawks will need their home crowd to keep the season alive.",
           "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown"
-          ],
+          "neighborhoods": ["Downtown"],
           "source": "WSB-TV",
           "sourceUrl": "https://www.wsbtv.com/news/local/atlanta/hawks-fall-into-win-or-go-home-territory-after-game-5-loss-knicks/CB5SGD3SOZGZTEQC7FQYCEQQEE/",
           "imageUrl": null,
           "imageAlt": "Atlanta Hawks playoff basketball",
           "publishedAt": "2026-04-29",
-          "keywords": [
-            "atlanta hawks",
-            "knicks",
-            "nba playoffs",
-            "state farm arena",
-            "basketball"
-          ]
+          "keywords": ["atlanta hawks", "knicks", "nba playoffs", "state farm arena", "basketball"]
         },
         {
           "id": "georgia-governor-candidates-debate-primary-2026",
@@ -177,21 +120,13 @@
           "summary": "Frontrunners in both parties traded attacks in heated debates as early voting continues for the May 19 primary.",
           "body": "A pair of debates aimed at informing voters ahead of the May primary was mostly tense and sometimes personal as frontrunners in both the Republican and Democratic races for governor took the opportunity to sling attacks previously reserved for the airwaves.\n\nOn the Republican side, Lt. Gov. Burt Jones and healthcare executive Rick Jackson sparred over the millions of dollars spent by both in attack ads. Democrats were largely unified on their agenda to address affordability through expanding Medicaid and increasing access to affordable housing.\n\nFormer Lt. Gov. Geoff Duncan, running as a Democrat, had to answer repeatedly for his past positions as an elected GOP state leader. Candidates from both parties honed in on promises aimed to address affordability concerns, a top issue for voters this year.\n\nEarly voting continues through May 16, with election day set for May 19.",
           "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown"
-          ],
+          "neighborhoods": ["Downtown"],
           "source": "Georgia Recorder",
           "sourceUrl": "https://georgiarecorder.com/2026/04/27/gop-candidates-for-governor-in-georgia-clash-over-the-mounds-of-cash-pouring-into-the-race/",
           "imageUrl": null,
           "imageAlt": "Georgia gubernatorial debate candidates",
           "publishedAt": "2026-04-29",
-          "keywords": [
-            "georgia governor",
-            "primary election",
-            "debate",
-            "burt jones",
-            "geoff duncan"
-          ]
+          "keywords": ["georgia governor", "primary election", "debate", "burt jones", "geoff duncan"]
         },
         {
           "id": "hj-russell-company-historical-marker-2026",
@@ -199,21 +134,13 @@
           "summary": "The construction giant founded by Herman J. Russell in 1952 will receive a marker at the Russell Innovation Center for Entrepreneurs on Fair Street.",
           "body": "The Georgia Historical Society will unveil a new historical marker honoring H.J. Russell & Company on April 29 at the Russell Innovation Center for Entrepreneurs at 504 Fair Street in Atlanta.\n\nHerman J. Russell founded the company in 1952, growing it from a small plastering business into one of the nation's largest Black-owned firms. Over the decades, H.J. Russell & Company became deeply connected to Atlanta's growth, with its work reflected in major projects including Hartsfield-Jackson Atlanta International Airport, Mercedes-Benz Stadium, and the National Center for Civil and Human Rights.\n\nThe recognition is part of the Georgia Business History Initiative, which highlights companies that have helped shape the state's economy and history. The building at 504 Fair Street once served as the national headquarters of H.J. Russell & Company and now houses resources for small business owners.",
           "neighborhood": "Sweet Auburn",
-          "neighborhoods": [
-            "Sweet Auburn"
-          ],
+          "neighborhoods": ["Sweet Auburn"],
           "source": "SaportaReport",
           "sourceUrl": "https://saportareport.com/h-j-russell-company-to-be-honored-with-georgia-historical-society-marker/columnists/adrianne-murchison/",
           "imageUrl": null,
           "imageAlt": "H.J. Russell historical marker unveiling",
           "publishedAt": "2026-04-29",
-          "keywords": [
-            "hj russell",
-            "historical marker",
-            "fair street",
-            "black business",
-            "construction"
-          ]
+          "keywords": ["hj russell", "historical marker", "fair street", "black business", "construction"]
         },
         {
           "id": "morehouse-lgbtq-ballroom-lavender-graduation-2026",
@@ -221,21 +148,13 @@
           "summary": "The Adodi campus organization held a kiki ball at Archer Hall as students create their own spaces for expression and visibility.",
           "body": "As Morehouse College anticipates another year without a lavender graduation to celebrate LGBTQ students, a campus organization stepped up with the Circus Maximus Kiki Ball at Archer Hall on Friday.\n\nEnvisioned in part as a stand-in for the missing ceremony honoring LGBTQ graduates and to celebrate the end of the spring semester, the event hosted by the campus group Adodi drew roughly two dozen students for a ball featuring expression and visibility on their own terms.\n\n'It's an art form,' said Brighton Chipley, a junior biology major. 'You're watching someone just feel and express, surrounded by other queer people. It's electrifying. That's why we host balls.'\n\nBallroom culture at the esteemed men's college has become one of the ways students carve out space. For some Morehouse students, Adodi events serve as a safe space and an introduction to Atlanta's ballroom scene.",
           "neighborhood": "West End",
-          "neighborhoods": [
-            "West End"
-          ],
+          "neighborhoods": ["West End"],
           "source": "Capital B Atlanta",
           "sourceUrl": "https://atlanta.capitalbnews.org/morehouse-lgbtq-students-ballroom-lavender-graduation/",
           "imageUrl": null,
           "imageAlt": "Morehouse students at ballroom event",
           "publishedAt": "2026-04-29",
-          "keywords": [
-            "morehouse college",
-            "lgbtq",
-            "ballroom",
-            "adodi",
-            "lavender graduation"
-          ]
+          "keywords": ["morehouse college", "lgbtq", "ballroom", "adodi", "lavender graduation"]
         },
         {
           "id": "rep-david-scott-lying-in-state-capitol-2026",
@@ -243,21 +162,13 @@
           "summary": "The former U.S. Congressman who represented Georgia's 13th District for over two decades will be honored with a public viewing.",
           "body": "Memorial services for U.S. Rep. David Scott have been announced. Scott died on April 22 at the age of 80. He represented Georgia's 13th Congressional District since 2003.\n\nGov. Brian Kemp issued an executive order to allow Scott's body to lie in state at the Georgia State Capitol rotunda on Friday. A brief ceremony will take place at 11 a.m. with a public viewing open until 5 p.m.\n\nScott's homegoing service will happen Saturday at 11 a.m. at Elizabeth Baptist Church on Cascade Road in Atlanta. Scott first got involved in Georgia politics when he joined Andrew Young's congressional campaign in 1972. He served in the Georgia House from 1975-1982 and the Georgia Senate from 1983-2002 before being elected to Congress.\n\nThroughout his time in Congress, Scott served as chair of the Agriculture Committee and was a senior member of the Financial Services Committee.",
           "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown"
-          ],
+          "neighborhoods": ["Downtown"],
           "source": "11Alive",
           "sourceUrl": "https://www.11alive.com/article/news/local/rep-david-scott-lying-state-georgia-capitol/Z25RIRODXVEPPDUH72Q6CKWWT4",
           "imageUrl": null,
           "imageAlt": "Rep. David Scott memorial",
           "publishedAt": "2026-04-29",
-          "keywords": [
-            "david scott",
-            "congressman",
-            "georgia capitol",
-            "memorial",
-            "lying in state"
-          ]
+          "keywords": ["david scott", "congressman", "georgia capitol", "memorial", "lying in state"]
         },
         {
           "id": "morocco-ambassador-world-cup-atlanta-business-2026",
@@ -265,21 +176,13 @@
           "summary": "As Morocco prepares to play its third group stage match in Atlanta, the country's ambassador emphasizes soccer as a tool for deepening U.S. partnership.",
           "body": "As Morocco gears up to play its third World Cup group stage match in Atlanta, the country's ambassador to the United States sees soccer as a useful tool to deepen the countries' longstanding partnership.\n\nMorocco is one of several nations that will play matches at Mercedes-Benz Stadium during the 2026 FIFA World Cup this summer. The games are expected to bring thousands of international visitors to Atlanta and showcase the city on a global stage.\n\nThe ambassador's remarks reflect broader efforts by participating nations to leverage the World Cup for economic and diplomatic opportunities. For Atlanta, which is hosting eight matches including a semifinal, the tournament represents both a logistical challenge and an unprecedented opportunity to strengthen international ties.\n\nThe World Cup begins June 15, with Atlanta's matches running through early July.",
           "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown"
-          ],
+          "neighborhoods": ["Downtown"],
           "source": "Global Atlanta",
           "sourceUrl": "https://www.globalatlanta.com/moroccan-ambassador-soccer-a-bridge-to-closer-business-ties-with-atlanta-u-s/",
           "imageUrl": null,
           "imageAlt": "Morocco World Cup Atlanta preparation",
           "publishedAt": "2026-04-29",
-          "keywords": [
-            "morocco",
-            "world cup",
-            "fifa",
-            "mercedes-benz stadium",
-            "international business"
-          ]
+          "keywords": ["morocco", "world cup", "fifa", "mercedes-benz stadium", "international business"]
         }
       ]
     }
