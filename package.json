@@ -13,6 +13,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "fetch": "node scripts/fetch-articles.mjs",
+    "fetch-events": "node scripts/fetch-weekend-events.mjs",
     "summarize": "node scripts/summarize.mjs",
     "validate": "node scripts/validate-digest.mjs",
     "validate:build": "node scripts/validate-build.mjs",

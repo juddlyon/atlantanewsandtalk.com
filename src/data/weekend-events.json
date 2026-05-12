@@ -1,0 +1,132 @@
+{
+  "weekOf": "2026-05-17",
+  "fetchedAt": "2026-05-12T12:36:50.265Z",
+  "source": {
+    "name": "AccessAtlanta",
+    "url": "https://www.accessatlanta.com/accessatl/2026/05/the-ultimate-weekend-checklist-10-metro-atlanta-events-you-absolutely-need-to-check-out/",
+    "title": "The ultimate weekend checklist: 10 metro Atlanta events you absolutely need to check out",
+    "ogImage": "https://images.ajc.com/resizer/v2/KCDLYFRBMRN3KOPKYYTRBFVONA.jpg?auth=c4cbd3d4431e4d85f6abee4f591beef15f08ed089509ad2ea4c0f2cf81ebff07&width=1200&height=630&smart=true"
+  },
+  "events": [
+    {
+      "name": "Taste of Alpharetta",
+      "description": "This annual event turns downtown Alpharetta into a giant block party filled with incredible eats, live music and fun activities for the kids.",
+      "location": "Alpharetta - 1 S. Main St.",
+      "locationUrl": "https://maps.app.goo.gl/2Fnc8Ko7PxuEq8kMA",
+      "date": "May 14",
+      "admission": "Prices vary, see website",
+      "time": "5-10 p.m.",
+      "website": "awesomealpharetta.com",
+      "websiteUrl": "https://www.awesomealpharetta.com/taste-of-alpharetta/",
+      "itpNeighborhood": null
+    },
+    {
+      "name": "DreamHack Atlanta",
+      "description": "This three-day event is bringing gaming expos, esports competitions, cosplay, creator meet-ups and interactive experiences to the Georgia World Congress Center.",
+      "location": "Downtown Atlanta - 285 Andrew Young International Blvd. NW",
+      "locationUrl": "https://maps.app.goo.gl/YSQ7KH7xVnoPu9cp8",
+      "date": "May 15-17",
+      "admission": "$49 and up",
+      "time": "10 a.m. to 10 p.m. (Fri & Sat), 10 a.m. to 6 p.m. (Sun)",
+      "website": "dreamhack.com",
+      "websiteUrl": "https://dreamhack.com/atlanta/",
+      "itpNeighborhood": "Downtown"
+    },
+    {
+      "name": "Marietta Greek Festival",
+      "description": "Experience the sights, sounds and flavors of Greece at the Marietta Greek Festival, hosted at Holy Transfiguration Greek Orthodox Church. This cultural event features a weekend full of authentic Greek cuisine, live music and cultural exhibits.",
+      "location": "Marietta - 3431 Trickum Road",
+      "locationUrl": "https://maps.app.goo.gl/888idV5r6gGBWqHi7",
+      "date": "May 15-17",
+      "admission": "Free",
+      "time": "4-10:30 p.m (Fri), 11 a.m. to 10:30 p.m. (Sat), 11 a.m. to 4 p.m. (Sun)",
+      "website": "mariettagreekfestival.com",
+      "websiteUrl": "https://www.mariettagreekfestival.com/",
+      "itpNeighborhood": null
+    },
+    {
+      "name": "Porchfest",
+      "description": "Enjoy neighbors turning their porches into stages, a variety of food trucks and vendors selling all kinds of cool finds in the Virginia Highland District.",
+      "location": "Virginia Highland - 869 Virginia Ave. NE",
+      "locationUrl": "https://maps.app.goo.gl/4iSJgzKY7oSMChsQ6",
+      "date": "May 16",
+      "admission": "$15",
+      "time": "11 a.m. to 6 p.m.",
+      "website": "virginiahighlanddistrict.com",
+      "websiteUrl": "https://www.virginiahighlanddistrict.com/porchfest",
+      "itpNeighborhood": "Virginia-Highland"
+    },
+    {
+      "name": "Kirkwood Spring Fling",
+      "description": "This neighborhood favorite at Bessie Branham Park is the perfect way to spend a day with live music, a super chill artists market, local food trucks — and even a 5K if you’re feeling active.",
+      "location": "Kirkwood - 2051 Delano Drive NE",
+      "locationUrl": "https://maps.app.goo.gl/CgPLrg8eC1kQXWQ37",
+      "date": "May 16",
+      "admission": "Free",
+      "time": "Noon to 8 p.m.",
+      "website": "historickirkwood.org",
+      "websiteUrl": "https://www.historickirkwood.org/kirkwoodfling",
+      "itpNeighborhood": "Kirkwood"
+    },
+    {
+      "name": "Pop-In for Family Fun: Rockets & Robots",
+      "description": "If you’re looking for a fun and educational way to spend the day with the kids, then this is for you. Marietta History Center is hosting its recurring Pop-in for Family Fun event, and this month’s theme is Rockets and Robots. Enjoy arts and crafts from 11 a.m. to 2 p.m. and free museum admission as well.",
+      "location": "Marietta - 1 Depot St.",
+      "locationUrl": "https://maps.app.goo.gl/JsWQBDviLvikfeQj8",
+      "date": "May 16",
+      "admission": "Free",
+      "time": "11 a.m. to 2 p.m.",
+      "website": "mariettahistory.org",
+      "websiteUrl": "https://www.mariettahistory.org/pop-in-for-family-fun",
+      "itpNeighborhood": null
+    },
+    {
+      "name": "ImportExpo",
+      "description": "Held at the Cobb Galleria Centre, this event showcases a diverse lineup of luxury cars and specialty vehicles, alongside vendors, live entertainment and more.",
+      "location": "Cobb - 2 Galleria Parkway SE",
+      "locationUrl": "https://maps.app.goo.gl/JV6rArcuQBfwF9ECA",
+      "date": "May 16",
+      "admission": "Free",
+      "time": "5-10 p.m.",
+      "website": "importexpo.net",
+      "websiteUrl": "https://www.importexpo.net/",
+      "itpNeighborhood": null
+    },
+    {
+      "name": "Lil’Palooza",
+      "description": "Bring the kiddos to the Children’s Museum of Atlanta for an evening of music and fun activities. Tickets start at $10 and include a magic show, arts and crafts, dance parties and more.",
+      "location": "Downtown Atlanta - 275 Centennial Olympic Park Drive NW",
+      "locationUrl": "https://maps.app.goo.gl/2Wpra2KbeKmujPEy6",
+      "date": "May 16",
+      "admission": "$10 (members), $25 (non-members)",
+      "time": "5:30-7:30 p.m.",
+      "website": "childrensmuseumatlanta.org",
+      "websiteUrl": "https://childrensmuseumatlanta.org/lilpalooza/",
+      "itpNeighborhood": "Downtown"
+    },
+    {
+      "name": "Atlanta Braves Block Party",
+      "description": "Join the pregame celebration at The Battery Atlanta for an evening of themed activities, photo opportunities, fan experiences and so much more.",
+      "location": "Cobb - 800 Battery Ave. SE",
+      "locationUrl": "https://maps.app.goo.gl/1rjoZT9dtkhv6X4o6",
+      "date": "May 16",
+      "admission": "Free",
+      "time": "4-8 p.m.",
+      "website": "mlb.com",
+      "websiteUrl": "https://www.mlb.com/braves/fans/block-party",
+      "itpNeighborhood": null
+    },
+    {
+      "name": "Market in the Park",
+      "description": "Shop handmade goods, discover art and crafts, and enjoy food, music and family-friendly activities while supporting small businesses at Grant Park Conservancy.",
+      "location": "Grant Park - 840 Cherokee Ave. SE",
+      "locationUrl": "https://maps.app.goo.gl/G8TSzV4gtFEvWCjNA",
+      "date": "May 17",
+      "admission": "Free",
+      "time": "10 a.m. to 3 p.m.",
+      "website": "atlncs.org",
+      "websiteUrl": "https://atlncs.org/community/market-in-the-park/",
+      "itpNeighborhood": "Grant Park"
+    }
+  ]
+}

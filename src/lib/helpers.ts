@@ -305,6 +305,32 @@ export const SITE_URL = 'https://atlantanewsandtalk.com';
 export const SITE_NAME = 'Atlanta News & Talk';
 export const SITE_DESCRIPTION = 'Daily hyperlocal news from Inside The Perimeter Atlanta neighborhoods';
 
+export interface WeekendEvent {
+  name: string;
+  description: string;
+  location: string;
+  locationUrl: string | null;
+  date: string;
+  admission: string;
+  time: string;
+  website: string;
+  websiteUrl: string | null;
+  itpNeighborhood: string | null;
+}
+
+export interface WeekendEventsData {
+  weekOf: string;
+  fetchedAt: string;
+  source: { name: string; url: string; title: string; ogImage: string | null };
+  events: WeekendEvent[];
+}
+
+export function getWeekendEvents(): WeekendEventsData | null {
+  const filePath = path.join(DATA_DIR, 'weekend-events.json');
+  if (!fs.existsSync(filePath)) return null;
+  return JSON.parse(fs.readFileSync(filePath, 'utf-8')) as WeekendEventsData;
+}
+
 export interface BreadcrumbItem {
   name: string;
   url: string;

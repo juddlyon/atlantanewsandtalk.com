@@ -1,0 +1,279 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import NeighborhoodTag from '../components/NeighborhoodTag.astro';
+import {
+  getWeekendEvents,
+  formatDate,
+  SITE_URL,
+  SITE_NAME,
+  buildBreadcrumbSchema,
+} from '../lib/helpers';
+
+const data = getWeekendEvents();
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: SITE_URL },
+  { name: 'Events This Weekend', url: `${SITE_URL}/atlanta-events-this-weekend/` },
+]);
+
+const eventsForSchema = (data?.events || []).filter((e) => e.itpNeighborhood);
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Atlanta Events This Weekend',
+  url: `${SITE_URL}/atlanta-events-this-weekend/`,
+  numberOfItems: eventsForSchema.length,
+  itemListElement: eventsForSchema.map((e, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'Event',
+      name: e.name,
+      description: e.description,
+      url: e.websiteUrl || undefined,
+      location: {
+        '@type': 'Place',
+        name: e.location,
+      },
+    },
+  })),
+};
+
+const weekOfLabel = data ? formatDate(data.weekOf) : '';
+const itpEvents = (data?.events || []).filter((e) => e.itpNeighborhood);
+const otherEvents = (data?.events || []).filter((e) => !e.itpNeighborhood);
+---
+
+<Base
+  title="Atlanta Events This Weekend"
+  description="What's actually happening in Atlanta this weekend. ITP-first picks plus the rest of the metro, with dates, times, admission, and venue links."
+  jsonLd={jsonLd}
+  breadcrumbSchema={breadcrumbSchema}
+>
+  <div class="page-container">
+    <Breadcrumb items={[
+      { label: 'Home', href: '/' },
+      { label: 'Events This Weekend' },
+    ]} />
+
+    <div class="landing-header">
+      <h1 class="landing-title">Atlanta Events This Weekend</h1>
+      <p class="landing-description">
+        ITP-first picks plus the rest of the metro. Festivals, markets, block parties, and
+        anything else worth getting off the couch for.
+      </p>
+      {data && (
+        <div class="digest-date">Week of {weekOfLabel}</div>
+      )}
+    </div>
+
+    {!data ? (
+      <div class="empty-state">
+        <h2>No events loaded yet</h2>
+        <p>The weekend events feed hasn't been generated for this week.</p>
+      </div>
+    ) : (
+      <>
+        {itpEvents.length > 0 && (
+          <section class="events-section">
+            <h2 class="events-section-title">Inside The Perimeter</h2>
+            <div class="events-grid">
+              {itpEvents.map((e) => (
+                <article class="event-card">
+                  <div class="event-card-header">
+                    <h3 class="event-card-title">
+                      {e.websiteUrl ? (
+                        <a href={e.websiteUrl} target="_blank" rel="noopener">{e.name}</a>
+                      ) : e.name}
+                    </h3>
+                    {e.itpNeighborhood && (
+                      <NeighborhoodTag name={e.itpNeighborhood} />
+                    )}
+                  </div>
+                  <p class="event-card-desc">{e.description}</p>
+                  <dl class="event-meta">
+                    <div class="event-meta-row"><dt>When</dt><dd>{e.date}{e.time ? ` · ${e.time}` : ''}</dd></div>
+                    <div class="event-meta-row">
+                      <dt>Where</dt>
+                      <dd>
+                        {e.locationUrl ? (
+                          <a href={e.locationUrl} target="_blank" rel="noopener">{e.location}</a>
+                        ) : e.location}
+                      </dd>
+                    </div>
+                    {e.admission && (
+                      <div class="event-meta-row"><dt>Admission</dt><dd>{e.admission}</dd></div>
+                    )}
+                  </dl>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {otherEvents.length > 0 && (
+          <section class="events-section">
+            <h2 class="events-section-title">Elsewhere in Metro Atlanta</h2>
+            <div class="events-grid">
+              {otherEvents.map((e) => (
+                <article class="event-card event-card-muted">
+                  <div class="event-card-header">
+                    <h3 class="event-card-title">
+                      {e.websiteUrl ? (
+                        <a href={e.websiteUrl} target="_blank" rel="noopener">{e.name}</a>
+                      ) : e.name}
+                    </h3>
+                  </div>
+                  <p class="event-card-desc">{e.description}</p>
+                  <dl class="event-meta">
+                    <div class="event-meta-row"><dt>When</dt><dd>{e.date}{e.time ? ` · ${e.time}` : ''}</dd></div>
+                    <div class="event-meta-row">
+                      <dt>Where</dt>
+                      <dd>
+                        {e.locationUrl ? (
+                          <a href={e.locationUrl} target="_blank" rel="noopener">{e.location}</a>
+                        ) : e.location}
+                      </dd>
+                    </div>
+                    {e.admission && (
+                      <div class="event-meta-row"><dt>Admission</dt><dd>{e.admission}</dd></div>
+                    )}
+                  </dl>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <p class="events-credit">
+          Event listings sourced from <a href={data.source.url} target="_blank" rel="noopener">AccessAtlanta's weekend roundup</a>.
+          ITP picks tagged and reorganized by atlanta news & talk.
+        </p>
+      </>
+    )}
+  </div>
+</Base>
+
+<style>
+  .events-section {
+    margin-top: 2.5rem;
+  }
+
+  .events-section-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-red);
+    color: var(--color-ink);
+  }
+
+  .events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+    gap: 1.25rem;
+  }
+
+  .event-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-panel-strong);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-sm);
+    padding: 1.25rem;
+    transition: border-color 0.18s ease, transform 0.12s ease, box-shadow 0.18s ease;
+  }
+
+  .event-card:hover {
+    border-color: var(--color-red);
+    box-shadow: var(--shadow-md);
+  }
+
+  .event-card-muted {
+    background: var(--color-paper);
+  }
+
+  .event-card-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .event-card-title {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0;
+    color: var(--color-ink);
+  }
+
+  .event-card-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .event-card-title a:hover {
+    color: var(--color-red);
+    text-decoration: underline;
+  }
+
+  .event-card-desc {
+    color: var(--color-text);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0 0 0.85rem;
+  }
+
+  .event-meta {
+    margin: 0;
+    padding-top: 0.6rem;
+    border-top: 1px dashed var(--color-line-strong);
+    font-size: 0.85rem;
+    display: grid;
+    gap: 0.35rem;
+  }
+
+  .event-meta-row {
+    display: grid;
+    grid-template-columns: 5.5rem 1fr;
+    gap: 0.5rem;
+  }
+
+  .event-meta-row dt {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-soft);
+    margin: 0.15rem 0 0;
+  }
+
+  .event-meta-row dd {
+    margin: 0;
+    color: var(--color-text);
+  }
+
+  .event-meta-row dd a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--color-red) 60%, transparent);
+  }
+
+  .events-credit {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-line);
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+  }
+
+  .events-credit a {
+    color: var(--color-red);
+  }
+</style>
