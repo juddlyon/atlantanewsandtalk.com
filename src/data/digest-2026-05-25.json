@@ -1,0 +1,286 @@
+{
+  "date": "2026-05-25",
+  "generatedAt": "2026-05-25T12:30:00.000Z",
+  "summary": "Memorial Day weekend brings heavy rain and flash flood warnings across metro Atlanta, with 3-6 inches possible in some areas. The 49th annual Atlanta Jazz Festival continues in Piedmont Park despite the weather. MARTA unveiled Five Points Station upgrades ahead of World Cup crowds. A massive fish kill on the Chattahoochee River is under investigation. Public outcry halted a controversial proposal to replace BeltLine light rail with bike lanes. And Georgia Tech and UGA baseball will host NCAA tournament regionals after dominating their conference tournaments.",
+  "topStory": {
+    "id": "memorial-day-flash-flood-watch-2026",
+    "headline": "Flash Flood Watch Issued for Memorial Day as Heavy Rain Continues",
+    "summary": "A flood watch covers much of north Georgia and metro Atlanta for Monday, with thunderstorms expected to bring 3-6 inches of rain. Some areas of Cherokee and Cobb counties saw 6 inches Sunday, and flooding already blocked portions of I-75.",
+    "body": "Memorial Day weekend is getting soaked. A flood watch remains in effect for much of north Georgia and metro Atlanta as another round of heavy thunderstorms moves through the region.\n\nSevere Weather Team 2 meteorologists warn that downpours could bring flash flooding to streets, low-lying areas, and small streams throughout Monday. The following counties are under the watch: Bartow, Carroll, Catoosa, Chattooga, Cherokee, Cobb, Coweta, Dade, Dawson, Douglas, Fannin, Floyd, Forsyth, Fulton, Gilmer, Gordon, Hall, Haralson, Heard, Lumpkin, Murray, Paulding, Pickens, Polk, Towns, Union, Walker, White, and Whitfield.\n\nSunday's storms already caused significant problems. Parts of Cobb, Paulding, and Cherokee counties received 3-6 inches of rain, with Woodstock recording about 6 inches in just a few hours. Flash flood warnings were issued overnight, and flooding blocked lanes on I-75 North near the Canton Road exit.\n\nThe wet pattern that has soaked the area since Wednesday shows no signs of letting up. More storms are expected through Tuesday, with the heaviest rain likely during mid-afternoon and evening hours Monday.\n\nFor those heading to outdoor Memorial Day events like the <a href=\"https://atlantafestivals.com/atlanta-jazz-festival/\">Atlanta Jazz Festival</a> in Piedmont Park, forecasters recommend having a backup plan. The festival continues through Monday evening, though performances may face weather delays.\n\nHartsfield-Jackson Atlanta International Airport experienced a ground stop Sunday due to thunderstorms, with delays averaging 41 minutes. Travel conditions are expected to remain challenging through the holiday.",
+    "neighborhood": "Downtown",
+    "neighborhoods": ["Downtown", "Midtown", "Buckhead"],
+    "source": "WSB-TV",
+    "sourceUrl": "https://www.wsbtv.com/news/local/flood-watch-effect-with-more-heavy-rain-memorial-day/WOXYULDGMNA3HPFLQFPDISA3IQ/",
+    "sources": [
+      {
+        "name": "WSB-TV",
+        "url": "https://www.wsbtv.com/news/local/flood-watch-effect-with-more-heavy-rain-memorial-day/WOXYULDGMNA3HPFLQFPDISA3IQ/"
+      },
+      {
+        "name": "Fox 5 Atlanta",
+        "url": "https://www.fox5atlanta.com/weather/memorial-day-weather-update-flood-watches-issued-parts-north-georgia"
+      }
+    ],
+    "imageUrl": null,
+    "imageAlt": "Flash flood warning graphic showing affected metro Atlanta counties",
+    "publishedAt": "2026-05-25",
+    "keywords": ["atlanta flooding", "memorial day weather", "flash flood watch atlanta", "atlanta storms", "north georgia flooding"],
+    "originalImageUrl": "https://www.wsbtv.com/resizer/v2/GJDZMQGI4BENBILELLJFTUQRAU.jpg?auth=bd65d14ec43b3faf968d4215eeeb999f87f947445a3ce3d35069ad8bf118644d&smart=true&width=1280&height=720"
+  },
+  "sections": [
+    {
+      "category": "Transit & Transportation",
+      "stories": [
+        {
+          "id": "marta-five-points-world-cup-upgrades-2026",
+          "headline": "MARTA Unveils Five Points Station Upgrades Ahead of World Cup",
+          "summary": "MARTA is readying its busiest station for the influx of international soccer fans. Five Points Station has received upgrades to handle the increased crowds expected during FIFA World Cup matches at Mercedes-Benz Stadium.",
+          "body": "With FIFA World Cup matches less than a month away, MARTA is making sure its central hub is ready for the global spotlight. Five Points Station, the transit system's busiest and only four-way interchange, has received a series of upgrades designed to accommodate the surge of international visitors.\n\nThe station connects MARTA's north-south and east-west rail lines, making it the primary transit gateway for fans heading to matches at <a href=\"https://mercedesbenzstadium.com/\">Mercedes-Benz Stadium</a>. On match days, transit officials expect significantly higher ridership as visitors from around the world navigate the city.\n\nThe upgrades focus on wayfinding, accessibility, and passenger flow. Enhanced signage in multiple languages will help international visitors navigate the station more easily. Additional staffing and customer service representatives will be deployed during World Cup events.\n\nMARTA has been preparing for the tournament for over a year, coordinating with city officials and World Cup organizers on transportation logistics. The transit agency is also promoting its Breeze card system and mobile ticketing options to reduce crowding at fare vending machines.\n\nThe World Cup represents one of the largest events MARTA has ever supported. Atlanta will host matches throughout the group stage and into the knockout rounds, with Mercedes-Benz Stadium serving as one of 16 venues across North America.",
+          "neighborhood": "Downtown",
+          "neighborhoods": ["Downtown"],
+          "source": "11Alive",
+          "sourceUrl": "https://www.11alive.com/article/news/local/marta-upgrades-five-points-station-ahead-of-world-cup-crowds-in-atlanta/85-cb5e3017-1477-42d4-b3c6-9513fb6dd778",
+          "imageUrl": null,
+          "imageAlt": "MARTA Five Points Station with World Cup preparation upgrades",
+          "publishedAt": "2026-05-25",
+          "keywords": ["marta five points", "fifa world cup atlanta", "marta world cup", "atlanta transit", "five points station"],
+          "originalImageUrl": "https://media.tegna-media.com/assets/WXIA/images/0e6cafd3-5306-4125-82c2-6088af6a4d4f/20260525T112007/0e6cafd3-5306-4125-82c2-6088af6a4d4f_750x422.jpg"
+        },
+        {
+          "id": "beltline-light-rail-bike-lanes-controversy-2026",
+          "headline": "Public Outcry Stalls Proposal to Replace BeltLine Light Rail with Bike Lanes",
+          "summary": "A City Council resolution to convert land earmarked for BeltLine light rail into paved bike and scooter lanes was tabled after dozens of Atlantans spoke against it. Rail advocates say the transit line is essential for the city's future.",
+          "body": "The BeltLine's promised light rail system isn't going away without a fight. A City Council resolution to install paved bike and scooter lanes on land reserved for transit was tabled last week after at least 25 Atlantans spoke against it during public comment.\n\nDistrict 8 Councilmember Mary Norwood introduced the proposal on May 3, suggesting that dedicated cycling infrastructure could serve the corridor while transit plans remain unfunded. But rail defenders turned out in force at the May 18 meeting, arguing that light rail is essential to making Atlanta a major global city.\n\n\"Light rail is a pump. It pumps these workers around the city, making it a major global city for workers, for livable wages, small businesses, and the life blood of local communities,\" said David Sorrano, a food pantry volunteer who spoke during public comment.\n\nEven cyclists opposed the measure. District 5 resident Hannah Griggs, a librarian at Emory University, said she feels safe on the BeltLine precisely because of its slow speeds. Adding a fast lane for bikes and scooters would remove that sense of safety, she argued.\n\n\"I'm all for a good bike lane, and as a cyclist, I feel an immense sense of relief when I ride on the BeltLine, because the speed limit is slow, and I feel safe,\" Griggs said.\n\nThe <a href=\"https://beltline.org/\">Atlanta BeltLine</a> has always included light rail as part of its vision, but the transit component remains the least developed piece of the 22-mile loop. With the resolution tabled, the debate over the corridor's future will continue.",
+          "neighborhood": "Old Fourth Ward",
+          "neighborhoods": ["Old Fourth Ward", "Inman Park", "Grant Park"],
+          "source": "Atlanta Civic Circle",
+          "sourceUrl": "https://atlantaciviccircle.org/2026/05/23/public-outcry-proposal-replace-beltline-light-rail-bike-scooter-lanes/",
+          "imageUrl": null,
+          "imageAlt": "BeltLine Eastside Trail with pedestrians and cyclists",
+          "publishedAt": "2026-05-25",
+          "keywords": ["beltline light rail", "atlanta beltline", "beltline transit", "mary norwood", "atlanta bike lanes"],
+          "originalImageUrl": "https://atlantaciviccircle.org/wp-content/uploads/2026/03/Beltline-Eastside-Trail-1024x1024.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Development & Housing",
+      "stories": [
+        {
+          "id": "portman-westin-peachtree-plaza-acquisition-2026",
+          "headline": "Portman Acquires Westin Peachtree Plaza, Plans Renovation Before Super Bowl",
+          "summary": "Portman Hospitality Fund I has acquired the Westin Peachtree Plaza from Marriott International, bringing the iconic 73-story tower back to the firm that designed it nearly 50 years ago. A full renovation is planned before Atlanta hosts Super Bowl LXII in 2028.",
+          "body": "One of Atlanta's most iconic buildings is returning to its roots. Portman Hospitality Fund I has acquired the Westin Peachtree Plaza from Marriott International, reuniting the 73-story cylindrical tower with the architecture firm that created it.\n\nThe deal, announced May 21, marks the first investment by Portman Hospitality Fund I, LP. The fund was built around the thesis that large, branded, full-service hotels in major U.S. cities are entering a renovation cycle, and buyers with in-house design and construction teams are better positioned to execute those upgrades.\n\nThe Westin Peachtree Plaza at 210 Peachtree Street was originally designed by <a href=\"https://www.portmanarchitects.com/\">John C. Portman Jr.</a> and opened in 1976 as the tallest hotel in the world. Its mirrored-glass facade still rises 723 feet above downtown Atlanta, and its 1,073 rooms make it one of the largest hotels in the Southeast.\n\nPortman plans a full renovation of the hotel's guest rooms, public spaces, and meeting facilities before Super Bowl LXII, which Atlanta will host in 2028. Marriott will continue managing the property under a long-term agreement.\n\nThe timing is strategic. With the FIFA World Cup arriving next month and the Super Bowl two years away, downtown Atlanta is positioning itself for a surge of major events. The Westin's renovation will be closely watched as a bellwether for the hospitality market's confidence in downtown's future.",
+          "neighborhood": "Downtown",
+          "neighborhoods": ["Downtown"],
+          "source": "Rough Draft Atlanta",
+          "sourceUrl": "https://roughdraftatlanta.com/2026/05/24/portman-acquires-westin-peachtree-plaza-atlanta-renovation-plans/",
+          "imageUrl": null,
+          "imageAlt": "Westin Peachtree Plaza tower in downtown Atlanta",
+          "publishedAt": "2026-05-25",
+          "keywords": ["westin peachtree plaza", "portman atlanta", "downtown atlanta hotel", "atlanta super bowl 2028", "john portman"],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/05/Westin-2-600x401.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "Community & Events",
+      "stories": [
+        {
+          "id": "atlanta-jazz-festival-memorial-day-2026",
+          "headline": "Atlanta Jazz Festival Draws Crowds to Piedmont Park Despite Rain",
+          "summary": "The 49th annual Atlanta Jazz Festival kicked off Memorial Day weekend in Piedmont Park, with attendees refusing to let thunderstorms dampen the free three-day celebration of jazz and live music.",
+          "body": "Rain couldn't stop the music in Piedmont Park this weekend. The 49th annual <a href=\"https://atlantafestivals.com/atlanta-jazz-festival/\">Atlanta Jazz Festival</a> kicked off Saturday with thousands of music lovers filling the park's meadow despite threatening skies and brief weather delays.\n\nThe free three-day festival has been a Memorial Day tradition since 1978, drawing tens of thousands of attendees for performances ranging from traditional jazz to contemporary fusion. This year's lineup spans multiple stages with both established artists and emerging talent.\n\nAtlanta Police deployed units throughout Piedmont Park and along the BeltLine to monitor the festivities. \"To have units in park, on BeltLine, you will see officers all over the city. There isn't one area that won't be covered,\" a department representative said.\n\nFestival organizers emphasized that keeping the event free requires year-round fundraising. George Matlock, chair of the Atlanta Jazz Festival, Inc. board of directors, said the organization works continuously to ensure the festival remains accessible to everyone.\n\nAttendees embraced the unpredictable conditions. \"I come every year for the last 4 years, so I didn't want to let the rain stop me,\" said Keana Washington, who brought an umbrella and a positive attitude.\n\nThe festival continues through Monday evening, though additional storms are expected. Forecasters recommend checking weather updates before heading to the park.",
+          "neighborhood": "Midtown",
+          "neighborhoods": ["Midtown"],
+          "source": "Fox 5 Atlanta",
+          "sourceUrl": "https://www.fox5atlanta.com/news/rain-fails-stop-crowds-49th-annual-atlanta-jazz-festival-kicks-off",
+          "imageUrl": null,
+          "imageAlt": "Crowds at the 49th annual Atlanta Jazz Festival in Piedmont Park",
+          "publishedAt": "2026-05-25",
+          "keywords": ["atlanta jazz festival", "piedmont park", "memorial day atlanta", "free atlanta events", "atlanta music festivals"],
+          "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/05/931/523/49th-atl-jazz-fest.jpg?ve=1&tl=1"
+        },
+        {
+          "id": "atlanta-street-fringe-little-five-points-2026",
+          "headline": "Atlanta Street Fringe Festival Returns to Little 5 Points",
+          "summary": "The Atlanta Street Fringe festival brings two weekends of free outdoor performances to Little 5 Points starting May 29, featuring 21 local and visiting performers including buskers, circus artists, and immersive theater creators.",
+          "body": "Little 5 Points is about to get even more eccentric. The Atlanta Street Fringe festival returns to the neighborhood for its third year, bringing two weekends of free outdoor performances to the streets, plazas, and storefronts of Atlanta's bohemian hub.\n\nThe festival runs May 29-31 and June 5-7, presented in partnership with the Atlanta Fringe Festival, Medias Res Immersive Theatre, and the Little 5 Points Cultural District. This year's lineup includes 21 local and visiting performers showcasing everything from hula hoop spectacles to folk puppetry.\n\n\"Atlanta Street Fringe brings unexpected art directly to the public and celebrates the creativity and eccentric spirit that make Little 5 Points such a unique cultural destination,\" said Louis Kyper, the festival organizer.\n\nPerformances run 4 p.m. to 10:30 p.m. on Fridays and Saturdays, and 2 p.m. to 8:30 p.m. on Sundays. The lineup includes buskers, circus artists, musicians, comedians, puppeteers, dancers, illusionists, and immersive theater creators.\n\nWhile all events are free to attend, festival-goers are encouraged to donate to the performing artists. Attendees can also vote for their favorite busker by scanning QR codes at the event. The performer with the most votes receives a $150 Audience Choice Award.\n\n<a href=\"https://atlantanewsandtalk.com/neighborhoods/little-five-points\">Little 5 Points</a> has long been home to Atlanta's alternative arts scene, and Street Fringe leans into that identity. The festival offers a chance to experience the neighborhood's creative energy in its purest form.",
+          "neighborhood": "Little Five Points",
+          "neighborhoods": ["Little Five Points"],
+          "source": "Rough Draft Atlanta",
+          "sourceUrl": "https://roughdraftatlanta.com/2026/05/25/atlanta-street-fringe-festival-returns-to-little-5-points-for-two-weekends/",
+          "imageUrl": null,
+          "imageAlt": "Street performers at the Atlanta Street Fringe festival in Little 5 Points",
+          "publishedAt": "2026-05-25",
+          "keywords": ["atlanta street fringe", "little 5 points", "atlanta fringe festival", "little five points events", "free atlanta performances"],
+          "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/05/Untitled-design-2026-05-19T161914.715-600x338.png"
+        }
+      ]
+    },
+    {
+      "category": "Environment",
+      "stories": [
+        {
+          "id": "chattahoochee-fish-kill-investigation-2026",
+          "headline": "Massive Chattahoochee Fish Kill Under Investigation",
+          "summary": "Thousands of dead fish washed up along at least 20 miles of the Chattahoochee River after Wednesday's storms. The Chattahoochee Riverkeeper says drought conditions, polluted stormwater runoff, and sewage overflows created \"the perfect storm.\"",
+          "body": "The Chattahoochee River is reeling from what environmental advocates are calling the worst fish kill they've ever seen. Thousands of dead fish have washed up along at least 20 miles of the river, and multiple agencies are now investigating what went wrong.\n\nJason Ulseth, executive director of the <a href=\"https://chattahoochee.org/\">Chattahoochee Riverkeeper</a>, says the disaster resulted from a combination of drought conditions, polluted stormwater runoff, and sewage overflows during Wednesday's heavy storms.\n\n\"All of these combined factors just made for the perfect storm and caused the massive fish kill on the Chattahoochee,\" Ulseth told reporters. \"I've been on the river my entire life. I've never seen a fish kill this massive.\"\n\nThe fish kill was first reported Friday, starting at Peachtree Creek in northwest Atlanta. Warm, polluted stormwater combined with treated and untreated sewage gushed into the creek, then into the river, which had been running unusually low due to the drought.\n\nUlseth explained that it wasn't the toxicity but the temperature that killed the fish. Warm water holds less oxygen, causing fish to suffocate. Wastewater from treatment plants also typically has low oxygen levels.\n\nThe Atlanta Department of Watershed Management confirmed that local and state officials have launched an investigation. \"Protecting the health of our waterways and the communities that depend on them remains one of our highest priorities,\" Commissioner Greg Eyerly said.\n\nUlseth also found black muck along the riverbanks for several miles downstream of Peachtree Creek, likely from Atlanta's West Area Tunnel, which stores raw sewage and stormwater runoff during heavy rains.",
+          "neighborhood": "Buckhead",
+          "neighborhoods": ["Buckhead", "West Midtown"],
+          "source": "Rough Draft Atlanta",
+          "sourceUrl": "https://roughdraftatlanta.com/2026/05/24/chattahoochee-river-fish-kill/",
+          "sources": [
+            {
+              "name": "Rough Draft Atlanta",
+              "url": "https://roughdraftatlanta.com/2026/05/24/chattahoochee-river-fish-kill/"
+            },
+            {
+              "name": "Fox 5 Atlanta",
+              "url": "https://www.fox5atlanta.com/news/what-is-fish-kill-why-thousands-fish-suffocated-chattahoochee-river"
+            },
+            {
+              "name": "AJC",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZUJOLXotaEhJa2xpekNlb21WcTNORGZYYjI1V2xQSm95TGV6UlpOb2JISWNyWnhjVF91Vk5PY1d5Q0h2am1oM1ZNLW5sR2tPUHN0UVJYSjZEMzVFMVhtc3JIU1F6My04a2gtUzJKdXFIY1ZpZHg2bmE5Nzh4ZlZxV1hXdUkyYjJRVFZkZjBpazR2cHp3NHhVMk5DRUVIWl9pZlRzaGxGZHoxZw?oc=5"
+            }
+          ],
+          "imageUrl": null,
+          "imageAlt": "Dead fish along the banks of the Chattahoochee River",
+          "publishedAt": "2026-05-25",
+          "keywords": ["chattahoochee river", "fish kill atlanta", "chattahoochee riverkeeper", "atlanta water quality", "peachtree creek pollution"],
+          "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/05/931/523/riverkeeper-fish-photo4.jpg?ve=1&tl=1"
+        }
+      ]
+    },
+    {
+      "category": "Crime & Public Safety",
+      "stories": [
+        {
+          "id": "georgia-state-marta-stabbing-2026",
+          "headline": "Man Stabbed Multiple Times at Georgia State MARTA Station",
+          "summary": "MARTA police are investigating after a man was stabbed multiple times at Georgia State Station on Sunday afternoon. The victim's injuries are non-life-threatening, and police have not released a suspect description.",
+          "body": "MARTA police responded to a stabbing at Georgia State Station on Sunday afternoon that left a man with multiple stab wounds.\n\nThe incident occurred around 1:29 p.m. when MARTA Police Department received a call from the male victim reporting he had been stabbed multiple times at the station. Officers found the victim with multiple stab wounds.\n\nThe victim was transported to a nearby hospital for treatment. Authorities confirmed his injuries are non-life-threatening.\n\nInvestigators have not released a description of the suspect or provided information about a potential motive. The investigation remains active.\n\n<a href=\"https://www.itsmarta.com/\">Georgia State Station</a> is located in downtown Atlanta near Georgia State University and serves both the Blue and Green lines. It is one of MARTA's busier stations during business hours.\n\nAnyone with information about the incident is asked to contact MARTA Police.",
+          "neighborhood": "Downtown",
+          "neighborhoods": ["Downtown"],
+          "source": "Fox 5 Atlanta",
+          "sourceUrl": "https://www.fox5atlanta.com/news/man-stabbed-multiple-times-georgia-state-marta-station-police-say",
+          "imageUrl": null,
+          "imageAlt": "Georgia State MARTA station entrance",
+          "publishedAt": "2026-05-25",
+          "keywords": ["marta stabbing", "georgia state station", "marta crime", "downtown atlanta crime", "marta police"],
+          "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2024/06/931/523/P-FIVE-POINTS-MARTA-STATION-5P_WAGA3f66_146_mxf_00.00.14.48.jpg?ve=1&tl=1"
+        },
+        {
+          "id": "memorial-day-dui-arrests-2026",
+          "headline": "219 DUI Arrests in First 48 Hours of Memorial Day Weekend",
+          "summary": "Georgia State Patrol reports 219 DUI arrests and nine fatal crashes so far during the 78-hour Memorial Day holiday travel period. Officials are urging motorists to buckle up and put phones away.",
+          "body": "Georgia's roads have proven deadly during the Memorial Day holiday travel period. State troopers have logged 219 DUI arrests and responded to nine fatal crashes in the first 48 hours of the 78-hour enforcement period.\n\nThe Georgia Department of Public Safety released the sobering statistics Sunday as troopers continued stepped-up patrols statewide. In addition to impaired driving arrests, officers pulled over more than 230 drivers for distracted driving and issued nearly 300 citations for seat belt violations.\n\nFourteen separate traffic crashes involved impaired drivers, though officials said it remains unclear whether any of the fatal incidents involved DUI.\n\nState game wardens also released their first round of waterway incident numbers. At least one person was injured in a boating incident in Gainesville, and authorities reported one boating under the influence arrest.\n\nSeparately, a 7-year-old girl was injured after being thrown from a watercraft on Lake Hartwell. The 18-year-old operator was cited for operating an unregistered vessel and lacking boating education. Alcohol was not a factor in that incident.\n\nOfficials are urging all motorists to drive sober, buckle up, and put their phones down. With rainy conditions expected through Monday, travel may be even more hazardous than usual.",
+          "neighborhood": "Downtown",
+          "neighborhoods": ["Downtown"],
+          "source": "11Alive",
+          "sourceUrl": "https://www.11alive.com/article/news/local/georgia-troopers-report-a-deadly-dangerous-memorial-day-weekend-on-the-roads/85-ecbdc425-a060-4128-8725-7307059f13ff",
+          "imageUrl": null,
+          "imageAlt": "Georgia State Patrol vehicle during Memorial Day enforcement",
+          "publishedAt": "2026-05-25",
+          "keywords": ["memorial day dui", "georgia state patrol", "memorial day traffic", "georgia road safety", "dui arrests georgia"],
+          "originalImageUrl": "https://media.tegna-media.com/assets/WXIA/images/5f86f509-3e63-4a32-b7b9-5c5383e8b952/20260525T103048/5f86f509-3e63-4a32-b7b9-5c5383e8b952_750x422.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Business & Economy",
+      "stories": [
+        {
+          "id": "rodney-scott-bbq-closes-nandos-beltline-2026",
+          "headline": "Rodney Scott's BBQ Closes, Nando's Plans BeltLine Expansion",
+          "summary": "Atlanta's restaurant scene continues to shift as James Beard-winning pitmaster Rodney Scott shutters all locations, while South African chicken chain Nando's announces plans to open along the BeltLine.",
+          "body": "Atlanta's dining landscape is in constant flux, with the latest news bringing both closures and openings to the city's food scene.\n\nIn a shock to barbecue enthusiasts, all <a href=\"https://rodneyscottsbbq.com/\">Rodney Scott's Whole Hog</a> barbecue locations have temporarily closed until further notice. The restaurant group announced the closure on May 3, affecting locations across multiple states including the Atlanta outpost on Metropolitan Parkway.\n\nJames Beard Award-winning pitmaster Rodney Scott first opened in Charleston, South Carolina, before expanding to Atlanta. The whole-hog barbecue style he championed earned critical acclaim and a devoted following. The closure notice provided no timeline for potential reopening.\n\nOn the expansion front, South African chicken chain Nando's is planning a new location along the BeltLine. The peri-peri chicken restaurant has been growing its Atlanta presence and sees the trail corridor as prime territory for its next outpost.\n\nThe restaurant industry continues to navigate challenging conditions, with closures affecting both small businesses and beloved institutions. Rising costs for ingredients, labor, and real estate have squeezed margins across the sector.\n\nDespite the challenges, new concepts keep rolling in. The Atlanta Voice reports several other restaurants are eyeing openings in the coming months, with health-focused bakeries and international cuisines among the incoming options.",
+          "neighborhood": "Grant Park",
+          "neighborhoods": ["Grant Park", "Old Fourth Ward"],
+          "source": "The Atlanta Voice",
+          "sourceUrl": "https://theatlantavoice.com/rodney-scott-bbq-closure/",
+          "imageUrl": null,
+          "imageAlt": "Rodney Scott's BBQ restaurant exterior",
+          "publishedAt": "2026-05-25",
+          "keywords": ["rodney scott bbq", "atlanta restaurants", "nandos beltline", "atlanta dining", "restaurant closures atlanta"],
+          "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/05/resturant-round-up-pics-2-1-scaled.jpg?fit=1024%2C683&quality=89&ssl=1"
+        }
+      ]
+    },
+    {
+      "category": "Politics & Policy",
+      "stories": [
+        {
+          "id": "georgia-legislative-runoffs-june-2026",
+          "headline": "Twelve Georgia Legislative Races Advance to June Runoffs",
+          "summary": "Voters in five state Senate districts and seven state House districts will return to the polls June 16 after no candidate cleared the 50% threshold needed to avoid a runoff in Tuesday's primary.",
+          "body": "Georgia's primary season isn't over yet. Candidates in twelve state legislative races will face runoffs June 16 after failing to secure majority support in Tuesday's elections.\n\nThe runoffs will fill seats vacated by lawmakers who are retiring, have resigned, or are seeking statewide office. Five state Senate seats are up for grabs, with three races on the Democratic ballot and two on the Republican side.\n\nOn the House side, candidates in seven districts will compete for open seats. Democrats face off in six races, while two Republicans will seek a rematch in one House runoff. One incumbent candidate is also fighting to hold onto her seat after a competitive primary challenge.\n\nThe June 16 runoffs will include at least one week of early voting. Voters who selected one party's ballot in the May primary must stick with that party for the runoff. However, anyone who did not vote in the primary can choose either party's ballot, and voters who selected nonpartisan ballots in the primary can also pick which runoff to participate in.\n\nThe outcomes will shape the Georgia General Assembly heading into the 2027 legislative session. With key debates expected over education funding, criminal justice reform, and economic development incentives, the composition of the legislature matters for Atlanta and the metro area.\n\nEarly voting begins June 1.",
+          "neighborhood": "Downtown",
+          "neighborhoods": ["Downtown"],
+          "source": "Georgia Recorder",
+          "sourceUrl": "https://georgiarecorder.com/2026/05/25/twelve-georgia-legislative-races-advance-to-runoffs/",
+          "imageUrl": null,
+          "imageAlt": "Georgia voters at polling location during primary election",
+          "publishedAt": "2026-05-25",
+          "keywords": ["georgia runoff elections", "georgia legislature", "georgia primary 2026", "georgia house races", "georgia senate races"],
+          "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2023/04/IMG_3048-1024x768-1.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Sports & Recreation",
+      "stories": [
+        {
+          "id": "georgia-tech-uga-baseball-regionals-2026",
+          "headline": "Georgia Tech, UGA Baseball to Host NCAA Tournament Regionals",
+          "summary": "Georgia Tech and Georgia will both host NCAA baseball regionals starting Friday after dominating their conference tournaments. Tech won its first ACC title since 2014, while Georgia claimed its first-ever SEC championship.",
+          "body": "The Road to Omaha runs through Atlanta and Athens. Both Georgia Tech and Georgia baseball will host NCAA tournament regionals starting Friday after capping dominant seasons with conference championship victories.\n\nGeorgia Tech (48-9) defeated North Carolina 13-6 Sunday to claim its first ACC Tournament championship since 2014 and the first under head coach James Ramsey. The Yellow Jackets will host the Atlanta Regional at Russ Chandler Stadium, the 13th time Tech has hosted and the first since 2019.\n\nGeorgia (46-12) crushed Arkansas 11-1 in seven innings to win its first SEC Tournament championship in program history. Jack Arcamone drove in four runs with a home run and single to lead the Bulldogs. Georgia will host the Athens Regional at Foley Field for the third consecutive year.\n\nBoth games were delayed by heavy rain Saturday, but neither team showed rust. Georgia starter Paul Farley (8-1) allowed six hits in four scoreless innings, while the Bulldogs' offense erupted for five runs in the first inning.\n\nThe NCAA Tournament field was announced Monday, with 16 regional sites across the country. Both Georgia programs are positioned as potential national title contenders, and the possibility of an in-state super regional matchup has fans buzzing.\n\nTickets for the Atlanta Regional can be purchased through Georgia Tech athletics. Tickets for the Athens Regional are available through Georgia athletics.",
+          "neighborhood": "Midtown",
+          "neighborhoods": ["Midtown"],
+          "source": "WSB-TV",
+          "sourceUrl": "https://www.wsbtv.com/sports/ncaa-baseball-georgia-tech-hosts-atlanta-regional-georgia-hosts-athens-regional/TCDPQOPKTRHKPHVYHOBVVGTW3Y/",
+          "sources": [
+            {
+              "name": "WSB-TV",
+              "url": "https://www.wsbtv.com/sports/ncaa-baseball-georgia-tech-hosts-atlanta-regional-georgia-hosts-athens-regional/TCDPQOPKTRHKPHVYHOBVVGTW3Y/"
+            },
+            {
+              "name": "WSB-TV",
+              "url": "https://www.wsbtv.com/news/local/georgia-wins-sec-championship-first-time-jack-arcamone-delivers-plate-with-4-rbis/K6BVLE5RLNB7XMZKGDDJTS6SUY/"
+            }
+          ],
+          "imageUrl": null,
+          "imageAlt": "Georgia Tech baseball team celebrating ACC Tournament championship",
+          "publishedAt": "2026-05-25",
+          "keywords": ["georgia tech baseball", "georgia bulldogs baseball", "ncaa baseball tournament", "atlanta regional", "sec tournament baseball"],
+          "originalImageUrl": "https://www.wsbtv.com/resizer/v2/AES2XGWO4RG3FEXZK5LWGRE2A4.jpg?auth=3463cfe20bfd0ee290a4a85661865906ba3fd1be7aa30e5dc92fb29892b4d667&smart=true&width=3000&height=2000"
+        }
+      ]
+    }
+  ],
+  "neighborhoods": {
+    "Downtown": 8121,
+    "Midtown": 3917,
+    "Decatur": 2463,
+    "Buckhead": 1530,
+    "Old Fourth Ward": 1188,
+    "West End": 985,
+    "Grant Park": 848,
+    "East Atlanta": 756,
+    "Inman Park": 699,
+    "Virginia-Highland": 589,
+    "Reynoldstown": 534,
+    "Summerhill": 487,
+    "Kirkwood": 423,
+    "Edgewood": 378,
+    "Cabbagetown": 312,
+    "Little Five Points": 290,
+    "Poncey-Highland": 267,
+    "Candler Park": 234,
+    "Sweet Auburn": 198,
+    "Peoplestown": 178,
+    "Ormewood Park": 156,
+    "West Midtown": 135,
+    "Druid Hills": 112
+  }
+}
