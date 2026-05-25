@@ -153,23 +153,8 @@
       ]
     },
     {
-      "category": "Crime & Public Safety",
+      "category": "Public Safety",
       "stories": [
-        {
-          "id": "georgia-state-marta-stabbing-2026",
-          "headline": "Man Stabbed Multiple Times at Georgia State MARTA Station",
-          "summary": "MARTA police are investigating after a man was stabbed multiple times at Georgia State Station on Sunday afternoon. The victim's injuries are non-life-threatening, and police have not released a suspect description.",
-          "body": "MARTA police responded to a stabbing at Georgia State Station on Sunday afternoon that left a man with multiple stab wounds.\n\nThe incident occurred around 1:29 p.m. when MARTA Police Department received a call from the male victim reporting he had been stabbed multiple times at the station. Officers found the victim with multiple stab wounds.\n\nThe victim was transported to a nearby hospital for treatment. Authorities confirmed his injuries are non-life-threatening.\n\nInvestigators have not released a description of the suspect or provided information about a potential motive. The investigation remains active.\n\n<a href=\"https://www.itsmarta.com/\">Georgia State Station</a> is located in downtown Atlanta near Georgia State University and serves both the Blue and Green lines. It is one of MARTA's busier stations during business hours.\n\nAnyone with information about the incident is asked to contact MARTA Police.",
-          "neighborhood": "Downtown",
-          "neighborhoods": ["Downtown"],
-          "source": "Fox 5 Atlanta",
-          "sourceUrl": "https://www.fox5atlanta.com/news/man-stabbed-multiple-times-georgia-state-marta-station-police-say",
-          "imageUrl": null,
-          "imageAlt": "Georgia State MARTA station entrance",
-          "publishedAt": "2026-05-25",
-          "keywords": ["marta stabbing", "georgia state station", "marta crime", "downtown atlanta crime", "marta police"],
-          "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2024/06/931/523/P-FIVE-POINTS-MARTA-STATION-5P_WAGA3f66_146_mxf_00.00.14.48.jpg?ve=1&tl=1"
-        },
         {
           "id": "memorial-day-dui-arrests-2026",
           "headline": "219 DUI Arrests in First 48 Hours of Memorial Day Weekend",
