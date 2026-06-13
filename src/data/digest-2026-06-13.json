@@ -1,7 +1,7 @@
 {
   "date": "2026-06-13",
   "generatedAt": "2026-06-13T18:45:00.000Z",
-  "summary": "Team USA kicks off its World Cup run tonight against Paraguay as Atlanta's Fan Festival draws massive crowds for a second day. Decatur's WatchFest packed the revamped town square for the Mexico vs. South Africa opener. The BeltLine officially celebrates 16.7 continuous miles with the Southside Trail ribbon cutting. A new Atlanta Streets Alive route debuts Sunday connecting the BeltLine to Mercedes-Benz Stadium. Haïti Haüs launches a two-week pop-up to unite Atlanta's Haitian community during Haiti's historic World Cup return. Emory receives $15 million to research health effects at toxic Superfund sites. And a 12-year-old was shot near Rosa L Burney Park in Summerhill.",
+  "summary": "Team USA kicks off its World Cup run tonight against Paraguay as Atlanta's Fan Festival draws massive crowds for a second day. Decatur's WatchFest packed the revamped town square for the Mexico vs. South Africa opener. The BeltLine officially celebrates 16.7 continuous miles with the Southside Trail ribbon cutting. A new Atlanta Streets Alive route debuts Sunday connecting the BeltLine to Mercedes-Benz Stadium. Haïti Haüs launches a two-week pop-up to unite Atlanta's Haitian community during Haiti's historic World Cup return. Emory receives $15 million to research health effects at toxic Superfund sites. And a Cherokee County deputy was fired for misusing the license plate database.",
   "topStory": {
     "id": "usa-world-cup-kickoff-paraguay-atlanta-2026",
     "headline": "USA Kicks Off World Cup Tonight Against Paraguay as Atlanta Embraces Tournament",
@@ -182,18 +182,18 @@
       "category": "Crime & Safety",
       "stories": [
         {
-          "id": "12-year-old-shot-rosa-burney-park-2026",
-          "headline": "12-Year-Old Shot Near Rosa L Burney Park in Summerhill",
-          "summary": "The boy is recovering in the hospital after being shot near the playground Friday evening; Atlanta Police are investigating and have not announced any arrests.",
-          "body": "A 12-year-old boy is recovering in the hospital after being shot near an Atlanta park playground Friday evening, according to the Atlanta Police Department.\n\nIt happened around 6:30 p.m. in the 400 block of Windsor Street SE near Rosa L Burney Park in <a href=\"https://atlantanewsandtalk.com/neighborhoods/summerhill\">Summerhill</a>. According to the Atlanta Police Department, officers responded to reports of a person shot and found the child with injuries.\n\nThe boy was transported to a local hospital for treatment. His current condition has not been released, but he is expected to survive.\n\nAtlanta Police are investigating the shooting and have not announced any arrests or identified suspects. The circumstances that led to the shooting remain unclear.\n\nRosa L Burney Park is a neighborhood park in Summerhill, near the intersection of Windsor Street and Martin Street. The area has seen significant development in recent years with the redevelopment of the former Turner Field site.",
-          "neighborhood": "Summerhill",
-          "neighborhoods": ["Summerhill"],
+          "id": "cherokee-deputy-fired-license-plate-database-2026",
+          "headline": "Cherokee County Deputy Fired After License Plate Database Misuse",
+          "summary": "A routine audit revealed the deputy improperly accessed automated license plate reader data to look up another employee's vehicle during a non-legitimate investigation.",
+          "body": "A Cherokee County Sheriff's Deputy has been fired after a routine audit of the department's automated license plate reader database revealed improper access.\n\nInvestigators said the audit showed Deputy Cynthia Jodesty put the tag information of another Sheriff's Office employee while performing a \"non-legitimate law enforcement purpose.\"\n\nThe Cherokee County Sheriff's Office uses automated license plate reader technology to help identify stolen vehicles, locate missing persons, and support criminal investigations. The system logs all searches, making audits possible.\n\nJodesty was arrested and faces charges related to the misuse of the law enforcement database. The incident highlights the importance of data privacy protections even within law enforcement agencies.\n\nSheriff's offices across Georgia have been expanding their use of automated license plate readers, raising questions about oversight and accountability for how the technology is used.",
+          "neighborhood": "Buckhead",
+          "neighborhoods": ["Buckhead"],
           "source": "Fox 5 Atlanta",
-          "sourceUrl": "https://www.fox5atlanta.com/news/boy-12-hospitalized-after-being-shot-rosa-l-burney-park",
+          "sourceUrl": "https://www.fox5atlanta.com/news/cherokee-deputy-arrested-fired-after-database-audit",
           "imageUrl": null,
-          "imageAlt": "Atlanta Police investigating scene",
+          "imageAlt": "Cherokee County Sheriff's Office",
           "publishedAt": "2026-06-13",
-          "keywords": ["shooting", "summerhill", "rosa l burney park", "atlanta police", "child shooting"],
+          "keywords": ["cherokee county", "sheriff deputy", "license plate reader", "database misuse", "fired"],
           "originalImageUrl": null
         },
         {
