@@ -8,33 +8,17 @@
     "summary": "Atlanta's FIFA Fan Festival adds an extra day Thursday as thousands gather at Centennial Olympic Park to watch Team USA battle Turkey in the final group stage match at 10 p.m.",
     "body": "The World Cup party continues in <a href=\"https://atlantanewsandtalk.com/neighborhoods/downtown\">Downtown</a> Atlanta.\n\nThe FIFA Fan Festival at Centennial Olympic Park is opening for an additional day Thursday as thousands of soccer fans are expected to gather for Team USA's final group stage match against Turkey at 10 p.m.\n\nWith a Round of 32 spot already clinched after two wins, the Americans have won Group D regardless of tonight's outcome. But positioning for the knockout round remains at stake, and the atmosphere promises to be electric.\n\nThe day's slate begins with Curacao facing Ivory Coast at 4 p.m. on FS1, followed by Ecuador versus Germany at 7 p.m. on FOX 5. World Cup coverage from Atlanta has dominated the airwaves since the tournament kicked off.\n\nSCAD students have been instrumental in bringing the World Cup to life visually. Hundreds of students helped design directional signage throughout downtown, created new public art installations, and are managing social media content throughout the tournament.\n\nMeanwhile, watch parties continue across <a href=\"https://atlantanewsandtalk.com/neighborhoods/midtown\">Midtown</a>, <a href=\"https://atlantanewsandtalk.com/neighborhoods/decatur\">Decatur</a> Square, and neighborhood bars throughout the metro.",
     "neighborhood": "Downtown",
-    "neighborhoods": [
-      "Downtown",
-      "Midtown"
-    ],
+    "neighborhoods": ["Downtown", "Midtown"],
     "source": "Fox 5 Atlanta",
     "sourceUrl": "https://www.fox5atlanta.com/news/world-cup-atlanta-team-usa-vs-turkiye-day-added-fan-fest",
     "sources": [
-      {
-        "name": "Fox 5 Atlanta",
-        "url": "https://www.fox5atlanta.com/news/world-cup-atlanta-team-usa-vs-turkiye-day-added-fan-fest"
-      },
-      {
-        "name": "11Alive",
-        "url": "https://www.11alive.com/article/news/local/scad-students-sign-designs-social-media-atlanta-world-cup/85-3c98013e-fb21-4cf7-8022-52aaf88d7ee8"
-      }
+      { "name": "Fox 5 Atlanta", "url": "https://www.fox5atlanta.com/news/world-cup-atlanta-team-usa-vs-turkiye-day-added-fan-fest" },
+      { "name": "11Alive", "url": "https://www.11alive.com/article/news/local/scad-students-sign-designs-social-media-atlanta-world-cup/85-3c98013e-fb21-4cf7-8022-52aaf88d7ee8" }
     ],
     "imageUrl": null,
     "imageAlt": "FIFA Fan Festival at Centennial Olympic Park for USA vs Turkey",
     "publishedAt": "2026-06-25",
-    "keywords": [
-      "world cup",
-      "usa vs turkey",
-      "fifa fan festival",
-      "centennial olympic park",
-      "team usa",
-      "scad"
-    ],
+    "keywords": ["world cup", "usa vs turkey", "fifa fan festival", "centennial olympic park", "team usa", "scad"],
     "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/06/931/523/chatgpt-image-jun-25-2026-07_43_25-am.png?ve=1&tl=1"
   },
   "sections": [
@@ -47,21 +31,13 @@
           "summary": "Les Grenadiers fans packed the West End venue Wednesday for a festival and watch party ahead of Haiti's match against Morocco, despite the 4-2 loss.",
           "body": "The Westside Motor Lounge was teeming with fans Wednesday for a Haitian festival and watch party ahead of Haiti's World Cup match against Morocco.\n\nFabiola Maurice, a recent college graduate whose parents emigrated from Haiti, showed her pride for Les Grenadiers with her jersey and flag. The atmosphere was festive as fans celebrated Haiti's historic tournament appearance.\n\nWhile Morocco ultimately won 4-2, the defeat didn't dampen spirits. Haiti's presence in the World Cup represents a watershed moment for the Caribbean nation's soccer program.\n\nThe <a href=\"https://atlantanewsandtalk.com/neighborhoods/west-end\">West End</a> watch party was one of several cultural gatherings across Atlanta celebrating the diverse nations competing in the tournament. The Atlanta Cultural Exchange at the former CNN Center has transformed into a hub for live cultural programming throughout the event.\n\nAtlanta's large Haitian-American community has turned out in force for Les Grenadiers matches, bringing the energy of Port-au-Prince to the city's streets.",
           "neighborhood": "West End",
-          "neighborhoods": [
-            "West End"
-          ],
+          "neighborhoods": ["West End"],
           "source": "Capital B Atlanta",
           "sourceUrl": "https://atlanta.capitalbnews.org/world-cup-atlanta-updates/",
           "imageUrl": null,
           "imageAlt": "Haitian Americans celebrating at World Cup watch party",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "haiti world cup",
-            "haitian americans",
-            "west end",
-            "westside motor lounge",
-            "les grenadiers"
-          ],
+          "keywords": ["haiti world cup", "haitian americans", "west end", "westside motor lounge", "les grenadiers"],
           "originalImageUrl": "https://i0.wp.com/atlanta.capitalbnews.org/wp-content/uploads/2026/06/GettyImages-2283178557-scaled.jpg?fit=1024%2C683&ssl=1"
         }
       ]
@@ -75,22 +51,13 @@
           "summary": "After Metro Atlanta led the nation in self-storage construction in 2025, the mayor signed an executive order imposing a temporary moratorium on new facilities.",
           "body": "Metro Atlanta led the nation in self-storage construction in 2025, but that dubious achievement is now in jeopardy.\n\nMayor Andre Dickens has signed an executive order imposing a temporary moratorium on the construction of new self-storage facilities across Atlanta. The move targets an industry that has proliferated along commercial corridors throughout the city.\n\nCritics have long argued that self-storage facilities consume valuable land that could otherwise support housing, retail, or mixed-use development. The facilities typically generate minimal employment and limited tax revenue compared to alternative uses.\n\nThe moratorium gives city planners time to evaluate zoning regulations and develop policies that might redirect development toward more beneficial uses. Several neighborhoods have fought individual self-storage proposals in recent years.\n\n<a href=\"https://atlantanewsandtalk.com/neighborhoods/west-midtown\">West Midtown</a> and corridors along major arterials have seen the most storage facility construction, often on sites that could accommodate denser development.",
           "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown",
-            "West Midtown"
-          ],
+          "neighborhoods": ["Downtown", "West Midtown"],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/mayor-dickens-bans-new-self-storage-projects-moratorium-atl",
           "imageUrl": null,
           "imageAlt": "Self-storage facility in Atlanta",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "self-storage moratorium",
-            "andre dickens",
-            "zoning",
-            "atlanta development",
-            "executive order"
-          ],
+          "keywords": ["self-storage moratorium", "andre dickens", "zoning", "atlanta development", "executive order"],
           "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2025-10/Self%20Storage%20Public%20Storage%20Monroe%20Drive%20Sept.%202025%201.jpg?itok=Jrez4LS7"
         },
         {
@@ -99,22 +66,13 @@
           "summary": "More than six months after breaking ground, GDOT's contractor is finally making headway on the eastside intersection conversion and trail extension.",
           "body": "More than six months after breaking ground, an eastside intersection conversion and extension of a key Atlanta BeltLine trail connection remain incomplete, but better news could be on tap.\n\nGeorgia Department of Transportation's contractor has been working on the Moreland Avenue and Arkwright Place intersection, which will create a critical link for the BeltLine's eastside trail network.\n\nThe project will improve connectivity between <a href=\"https://atlantanewsandtalk.com/neighborhoods/reynoldstown\">Reynoldstown</a> and points along the <a href=\"https://atlantanewsandtalk.com/neighborhoods/old-fourth-ward\">Old Fourth Ward</a> trail segments. The historic trolley line path will eventually connect to the broader BeltLine network.\n\nConstruction delays have frustrated neighbors and BeltLine users, but officials say the project is now progressing toward completion. The intersection improvements will also enhance safety for cyclists and pedestrians crossing Moreland Avenue.\n\nThe BeltLine's eastside sections have seen the most development activity, with thousands of new housing units under construction or recently completed along the corridor.",
           "neighborhood": "Reynoldstown",
-          "neighborhoods": [
-            "Reynoldstown",
-            "Old Fourth Ward"
-          ],
+          "neighborhoods": ["Reynoldstown", "Old Fourth Ward"],
           "source": "Urbanize Atlanta",
           "sourceUrl": "https://atlanta.urbanize.city/post/moreland-avenue-arkwright-trolley-line-beltline-connection-progress",
           "imageUrl": null,
           "imageAlt": "BeltLine Arkwright trolley line construction",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "beltline",
-            "arkwright place",
-            "moreland avenue",
-            "gdot",
-            "trail connection"
-          ],
+          "keywords": ["beltline", "arkwright place", "moreland avenue", "gdot", "trail connection"],
           "originalImageUrl": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-06/Moreland%20Avenue%20Arkwright%20Place%20GDOT%20June%202026%201.jpg?itok=omgz0XMJ"
         },
         {
@@ -123,22 +81,13 @@
           "summary": "Neighbors are breathing new life into a small park adjacent to the Krog Street Tunnel, one of Atlanta's most photographed spots.",
           "body": "The <a href=\"https://atlantanewsandtalk.com/neighborhoods/cabbagetown\">Cabbagetown</a> community is reviving a small park near one of Atlanta's most iconic landmarks.\n\nThe park sits adjacent to the Krog Street Tunnel, the graffiti-covered underpass that has become one of the city's most photographed locations. The tunnel connects Cabbagetown to <a href=\"https://atlantanewsandtalk.com/neighborhoods/inman-park\">Inman Park</a> and serves as an unofficial outdoor gallery.\n\nNeighbors have been working to improve the green space, which had fallen into disrepair. The revitalization effort reflects Cabbagetown's ongoing transformation from an industrial mill village to one of Atlanta's most desirable intown neighborhoods.\n\nThe park improvements come as the surrounding area continues to see development pressure. The BeltLine's Eastside Trail runs nearby, driving foot traffic and real estate values throughout the corridor.\n\nThe Krog Street Tunnel's ever-changing murals draw tourists and locals alike, making the adjacent park a natural gathering spot.",
           "neighborhood": "Cabbagetown",
-          "neighborhoods": [
-            "Cabbagetown",
-            "Inman Park"
-          ],
+          "neighborhoods": ["Cabbagetown", "Inman Park"],
           "source": "Axios Atlanta",
           "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPX1dFOVdPd0pMRnBWdlU1WEcxQWhNT1dMd3AyZXREOVhZdzV3cFEzVkljTms0TGR2NmEwSUhjTnZuSEpaa3hpZUNpRXl2cnVhV3ZsbGlMQWpUaUttLVlveWlzenotUjJsdzlZT2hVMDRJbHhUaUJIWDhkUk80ekJHOW1VYVBUWHdxQVAzUE9xTlplYkRnWEZzdVF3eEFqZjA?oc=5",
           "imageUrl": null,
           "imageAlt": "Cabbagetown park near Krog Street Tunnel",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "cabbagetown",
-            "krog street tunnel",
-            "park",
-            "graffiti",
-            "beltline"
-          ],
+          "keywords": ["cabbagetown", "krog street tunnel", "park", "graffiti", "beltline"],
           "originalImageUrl": null
         }
       ]
@@ -152,21 +101,13 @@
           "summary": "After initially voting to defer, commissioners shot down land-use and zoning regulations that would have governed data center development in the county.",
           "body": "The DeKalb County Commission denied proposed land-use and zoning regulations for data centers at its June 23 meeting.\n\nAfter an initial vote to defer Tuesday afternoon, a motion to reconsider the ordinance was made and commissioners ultimately rejected the measure. The vote leaves DeKalb without specific regulations governing the growing data center industry.\n\nData centers have become a contentious land-use issue across metro Atlanta as major tech companies seek locations for server farms. The facilities require significant power infrastructure and generate concerns about water usage and noise.\n\n<a href=\"https://atlantanewsandtalk.com/neighborhoods/decatur\">Decatur</a> and surrounding DeKalb communities have watched the data center debate closely. Several proposals in recent years have drawn neighborhood opposition.\n\nWithout updated regulations, data center developers will continue operating under existing zoning categories that weren't designed with the industry in mind.",
           "neighborhood": "Decatur",
-          "neighborhoods": [
-            "Decatur"
-          ],
+          "neighborhoods": ["Decatur"],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/business/update-dekalb-commission-denies-data-center-regulations/article_f877cc12-2d95-4417-9c42-48ca80e491ee.html",
           "imageUrl": null,
           "imageAlt": "DeKalb County Commission meeting",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "dekalb county",
-            "data centers",
-            "zoning",
-            "land use",
-            "commission"
-          ],
+          "keywords": ["dekalb county", "data centers", "zoning", "land use", "commission"],
           "originalImageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/b/7d/b7d718eb-64fe-4129-b6ac-cb51dc9fd4e4/6a3ab297cb2c4.image.jpg?resize=300%2C200"
         },
         {
@@ -175,21 +116,13 @@
           "summary": "State legislators dialed back a controversial provision that would have mandated hand recounts of top races before certification.",
           "body": "Georgia lawmakers sent a modified election bill to the governor after scaling back a controversial hand-counting requirement.\n\nSenate Republicans had added a provision over the weekend mandating hand recounts of the two top-ticket races in every election before local officials could certify results. The modified version removes that requirement.\n\nThe bill extends the deadline for counties to phase out ballot QR codes, giving election officials more time to implement changes to voting equipment. The QR codes have been a point of contention since Georgia adopted new voting machines.\n\nElection officials had warned that the original hand-counting mandate would be logistically difficult and potentially delay certification of results. The scaled-back version addresses some of those concerns.\n\nThe governor is expected to sign the bill, which emerged from a special legislative session called primarily to address other issues.",
           "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown"
-          ],
+          "neighborhoods": ["Downtown"],
           "source": "Georgia Recorder",
           "sourceUrl": "https://georgiarecorder.com/2026/06/23/ballot-qr-code-bill-headed-to-governor-after-georgia-lawmakers-scale-back-hand-counting-requirement/",
           "imageUrl": null,
           "imageAlt": "Georgia state legislator discussing election bill",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "georgia elections",
-            "ballot qr codes",
-            "hand counting",
-            "special session",
-            "voting"
-          ],
+          "keywords": ["georgia elections", "ballot qr codes", "hand counting", "special session", "voting"],
           "originalImageUrl": "https://georgiarecorder.com/wp-content/uploads/2026/06/DSC_8333-1024x683.jpg"
         }
       ]
@@ -203,22 +136,13 @@
           "summary": "Seven days of celebration include parties at Aisle 5, performances at 7 Stages Theatre, and the crowning of the new Mx. Peach Pit.",
           "body": "Whether you're looking to learn a new skill, dance the night away, or witness the crowning of the new Mx. Peach Pit, Southern Fried Queer Pride offers something for everyone.\n\nThe seven-day celebration runs through June 28 at venues throughout <a href=\"https://atlantanewsandtalk.com/neighborhoods/little-five-points\">Little Five Points</a>, from parties at the music venue Aisle 5 to performances at 7 Stages Theatre.\n\nSouthern Fried Queer Pride has become one of Atlanta's signature LGBTQ+ events, distinguished by its emphasis on Southern identity and community. The festival attracts participants from across the region.\n\nThis year's programming includes workshops, performances, and social events designed to celebrate queer culture in the South. The eclectic L5P neighborhood provides a fitting backdrop for the festivities.\n\nAtlanta Pride organizers also announced the 2026 festival theme this week: \"Louder and Prouder.\" The main Pride Festival and Parade will take place October 11-12.",
           "neighborhood": "Little Five Points",
-          "neighborhoods": [
-            "Little Five Points"
-          ],
+          "neighborhoods": ["Little Five Points"],
           "source": "Atlanta Magazine",
           "sourceUrl": "https://www.atlantamagazine.com/news-culture-articles/southern-fried-queer-pride-lights-up-little-five-points-from-june-22-to-june-28/",
           "imageUrl": null,
           "imageAlt": "Southern Fried Queer Pride celebration in Little Five Points",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "southern fried queer pride",
-            "little five points",
-            "lgbtq",
-            "pride",
-            "aisle 5",
-            "7 stages"
-          ],
+          "keywords": ["southern fried queer pride", "little five points", "lgbtq", "pride", "aisle 5", "7 stages"],
           "originalImageUrl": "https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2026/06/Southern-Fried-Photo-2-300x200.jpg"
         },
         {
@@ -227,21 +151,13 @@
           "summary": "AfroPoP's Peabody Award-winning series features the groundbreaking self-taught artist in 'This World Is Not My Own,' premiering this month.",
           "body": "Through abstract shapes and bold colors, the horrors of racism and segregation of Jim Crow America came to life in Nellie Mae Rowe's brushstrokes.\n\nNow, an upcoming documentary is tracing the life of the groundbreaking, self-taught artist. AfroPoP: The Ultimate Cultural Exchange, Black Public Media's Peabody Award-winning series, is featuring Rowe in \"This World Is Not My Own.\"\n\nRowe, who lived in Fayetteville, created a distinctive body of work that has earned recognition at the High Museum of Art and institutions worldwide. Her yard became a famous folk art installation that drew visitors from across the country.\n\nThe documentary explores Rowe's creative process and her determination to make art despite the constraints of her era. Her work often addressed themes of spirituality, community, and the African American experience in the rural South.\n\nThe film adds to a growing body of work celebrating self-taught Southern artists who created outside mainstream art institutions.",
           "neighborhood": "Druid Hills",
-          "neighborhoods": [
-            "Druid Hills"
-          ],
+          "neighborhoods": ["Druid Hills"],
           "source": "Capital B Atlanta",
           "sourceUrl": "https://atlanta.capitalbnews.org/nellie-mae-rowe-art-documentary/",
           "imageUrl": null,
           "imageAlt": "Nellie Mae Rowe artwork",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "nellie mae rowe",
-            "folk art",
-            "documentary",
-            "afropop",
-            "black public media"
-          ],
+          "keywords": ["nellie mae rowe", "folk art", "documentary", "afropop", "black public media"],
           "originalImageUrl": "https://i0.wp.com/atlanta.capitalbnews.org/wp-content/uploads/2026/06/Screenshot-2026-06-23-at-10.24.02-AM.png?fit=1024%2C577&ssl=1"
         }
       ]
@@ -255,21 +171,13 @@
           "summary": "Atlanta's draft class meets the media Thursday at the team's practice facility after a draft that brought three new players to State Farm Arena.",
           "body": "The Atlanta Hawks' 2026 NBA Draft class is ready for introductions.\n\nFirst-round pick Zuby Ojiofor and the team's other selections are expected to meet with local media Thursday at the Hawks' practice facility. Ojiofor's image already graces an electronic billboard outside State Farm Arena in <a href=\"https://atlantanewsandtalk.com/neighborhoods/downtown\">Downtown</a> Atlanta.\n\nThe first round took place Tuesday night, with the Hawks making moves to reshape their roster. The draft continues the organization's efforts to build around their young core while adding complementary pieces.\n\nAtlanta's draft strategy reflects the front office's vision for the team's future direction. The new additions will compete for roster spots and playing time during training camp.\n\nHawks fans have already begun debating how the picks fit with the existing roster. The team enters the offseason looking to improve on last season's performance.",
           "neighborhood": "Downtown",
-          "neighborhoods": [
-            "Downtown"
-          ],
+          "neighborhoods": ["Downtown"],
           "source": "The Atlanta Voice",
           "sourceUrl": "https://theatlantavoice.com/atlanta-hawks-2026-nba-draft/",
           "imageUrl": null,
           "imageAlt": "Hawks draft pick Zuby Ojiofor on billboard at State Farm Arena",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "atlanta hawks",
-            "nba draft",
-            "zuby ojiofor",
-            "state farm arena",
-            "basketball"
-          ],
+          "keywords": ["atlanta hawks", "nba draft", "zuby ojiofor", "state farm arena", "basketball"],
           "originalImageUrl": "https://i0.wp.com/theatlantavoice.com/wp-content/uploads/2026/06/Kingston-Flemings-billboard-scaled.jpg?fit=768%2C1024&ssl=1"
         },
         {
@@ -278,21 +186,13 @@
           "summary": "The prestigious golf club has hosted the season-ending event since 2004, but published reports indicate the championship will rotate to other sites.",
           "body": "East Lake Golf Club has hosted the annual PGA Tour Championship since 2004, but that run is coming to an end.\n\nAccording to published reports, the championship will rotate to other sites starting in 2028. The move ends more than two decades of the season-ending event calling the <a href=\"https://atlantanewsandtalk.com/neighborhoods/kirkwood\">East Lake</a> neighborhood home.\n\nThe Tour Championship has brought golf's top players to Atlanta each fall, along with significant media attention and economic impact. The tournament serves as the finale of the FedEx Cup playoffs.\n\nEast Lake Golf Club holds historical significance beyond the tournament, serving as the home course of legendary golfer Bobby Jones. The club underwent extensive renovations in recent years that drew praise from players and fans.\n\nThe rotation model will allow other courses and cities to host the prestigious event while potentially returning to East Lake in future years.",
           "neighborhood": "Kirkwood",
-          "neighborhoods": [
-            "Kirkwood"
-          ],
+          "neighborhoods": ["Kirkwood"],
           "source": "Decaturish",
           "sourceUrl": "https://www.decaturish.com/news/kirkwood/report-east-lake-golf-club-to-lose-annual-tour-championship/article_6e9cf4b9-78be-4196-ae7e-40079f08541a.html",
           "imageUrl": null,
           "imageAlt": "East Lake Golf Club",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "east lake golf club",
-            "pga tour championship",
-            "fedex cup",
-            "bobby jones",
-            "golf"
-          ],
+          "keywords": ["east lake golf club", "pga tour championship", "fedex cup", "bobby jones", "golf"],
           "originalImageUrl": "https://bloximages.chicago2.vip.townnews.com/decaturish.com/content/tncms/assets/v3/editorial/0/c4/0c4cd21e-c35b-52cc-b6cd-07a821765156/68383980b0b0a.image.jpg?resize=300%2C225"
         }
       ]
@@ -306,21 +206,13 @@
           "summary": "The company's technology aims to generate drinking water and smarter cooling solutions using atmospheric moisture.",
           "body": "Growing up in northwest Ireland, Joseph Mooney had an obsession with water. That fascination eventually led him to competitive swimming and now to founding a startup tackling water scarcity.\n\nWattAir, based in Atlanta, is developing technology to pull clean water from atmospheric moisture while also improving cooling efficiency. The dual-purpose approach addresses two pressing challenges facing cities worldwide.\n\nThe company represents part of Atlanta's growing cleantech sector, which has attracted entrepreneurs and investors focused on environmental solutions. <a href=\"https://atlantanewsandtalk.com/neighborhoods/midtown\">Midtown</a>'s tech corridor has become a hub for these ventures.\n\nWattAir's technology could have applications ranging from residential water supply to industrial cooling systems. As water stress increases globally, companies developing alternative water sources are attracting attention.\n\nMooney's background as a competitive swimmer informs his understanding of water's importance, both for athletic performance and daily life.",
           "neighborhood": "Midtown",
-          "neighborhoods": [
-            "Midtown"
-          ],
+          "neighborhoods": ["Midtown"],
           "source": "Hypepotamus",
           "sourceUrl": "https://hypepotamus.com/news/atlanta-startup-wattair-clean-water-smarter-cooling/?utm_source=rss&utm_medium=rss&utm_campaign=atlanta-startup-wattair-clean-water-smarter-cooling",
           "imageUrl": null,
           "imageAlt": "WattAir founder Joseph Mooney",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "wattair",
-            "startup",
-            "clean water",
-            "cleantech",
-            "atmospheric water"
-          ],
+          "keywords": ["wattair", "startup", "clean water", "cleantech", "atmospheric water"],
           "originalImageUrl": "http://hypepotamus.com/wp-content/uploads/2026/06/1722452575660.jpg"
         },
         {
@@ -329,21 +221,13 @@
           "summary": "The Louisiana-based concept will offer flavors from across Mexico and Latin America with Aztec-inspired design at the growing Midtown development.",
           "body": "A new Mexican restaurant concept is joining <a href=\"https://atlantanewsandtalk.com/neighborhoods/midtown\">Midtown</a>'s Spring Quarter development.\n\nHabaneros, a pan-Mexican concept from Louisiana, will debut next week with a menu inspired by flavors from across Mexico and Latin America. The restaurant features Aztec-inspired design elements.\n\nSpring Quarter has been steadily adding restaurants and retail, becoming a dining destination for the Midtown neighborhood. The development has attracted a mix of national brands and regional concepts.\n\nHabaneros joins a growing roster of Mexican and Latin American restaurants throughout Atlanta. The cuisine has proven popular across the city's diverse neighborhoods.\n\nThe restaurant's opening comes as Midtown continues to see increased pedestrian traffic, partly driven by World Cup visitors exploring the city's culinary scene.",
           "neighborhood": "Midtown",
-          "neighborhoods": [
-            "Midtown"
-          ],
+          "neighborhoods": ["Midtown"],
           "source": "What Now Atlanta",
           "sourceUrl": "https://whatnow.com/atlanta/restaurants/a-pan-mexican-kitchen-with-aztec-inspired-design-is-coming-to-midtown-atlanta/",
           "imageUrl": null,
           "imageAlt": "Habaneros Mexican restaurant food",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "habaneros",
-            "mexican restaurant",
-            "spring quarter",
-            "midtown",
-            "latin american"
-          ],
+          "keywords": ["habaneros", "mexican restaurant", "spring quarter", "midtown", "latin american"],
           "originalImageUrl": "https://whatnow.com/wp-content/uploads/2026/06/A-Pan-Mexican-Kitchen-With-Aztec-Inspired-Design-Is-Coming-to-Midtown-Atlanta-768x432.jpg"
         }
       ]
@@ -357,51 +241,14 @@
           "summary": "This week's dining news includes So. Fox taking over the former Farm Burger space July 2, new openings at Ponce City Market, and updates on anticipated summer debuts.",
           "body": "So. Fox opens in the former <a href=\"https://atlantanewsandtalk.com/neighborhoods/virginia-highland\">Virginia-Highland</a> Farm Burger space on July 2, adding another option to the neighborhood's dining scene.\n\nThis week's Quick Bites catches up on Atlanta dining news, including new arrivals at Ponce City Market and Avondale Estates. A Lawrenceville bakery is temporarily closing, and several highly anticipated summer openings have shared updates.\n\nThe restaurant pipeline continues to flow despite economic headwinds affecting the hospitality industry. Atlanta's diverse neighborhoods support a range of concepts from fast-casual to fine dining.\n\nPonce City Market remains a magnet for new food concepts, with the development continuing to turn over spaces as operators seek the high-traffic location. World Cup visitors have provided a boost to restaurants throughout the city.\n\nEfendi's anniversary weekend celebrations round out this week's food news.",
           "neighborhood": "Virginia-Highland",
-          "neighborhoods": [
-            "Virginia-Highland",
-            "Old Fourth Ward"
-          ],
+          "neighborhoods": ["Virginia-Highland", "Old Fourth Ward"],
           "source": "Rough Draft Atlanta",
           "sourceUrl": "https://roughdraftatlanta.com/2026/06/25/quick-bites-june-15-atlanta-restaurant-news/",
           "imageUrl": null,
           "imageAlt": "So. Fox restaurant opening in Virginia-Highland",
           "publishedAt": "2026-06-25",
-          "keywords": [
-            "so fox",
-            "virginia-highland",
-            "farm burger",
-            "ponce city market",
-            "atlanta restaurants"
-          ],
+          "keywords": ["so fox", "virginia-highland", "farm burger", "ponce city market", "atlanta restaurants"],
           "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/06/Tender-Greens-600x429.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Crime & Safety",
-      "stories": [
-        {
-          "id": "glenwood-road-gas-station-shooting-june-2026",
-          "headline": "Man Hospitalized After Glenwood Road Gas Station Shooting",
-          "summary": "DeKalb County police are investigating after a man was shot Wednesday night, with few details released about the incident or a possible suspect.",
-          "body": "A man was hospitalized after being shot Wednesday night at a gas station on Glenwood Road in DeKalb County.\n\nAuthorities have released few details about the shooting. The victim was taken to a hospital for treatment, but officials have not disclosed the severity of his injuries.\n\nInvestigators have not determined what led to the shooting, and no information about a possible suspect has been released. The incident occurred in the <a href=\"https://atlantanewsandtalk.com/neighborhoods/east-atlanta\">East Atlanta</a> area near the DeKalb County line.\n\nGlenwood Road serves as a major corridor through southeast Atlanta and into DeKalb County. The commercial strip includes numerous gas stations and businesses.\n\nAnyone with information about the shooting is encouraged to contact DeKalb County Police.",
-          "neighborhood": "East Atlanta",
-          "neighborhoods": [
-            "East Atlanta"
-          ],
-          "source": "Fox 5 Atlanta",
-          "sourceUrl": "https://www.fox5atlanta.com/news/man-hospitalized-after-glenwood-road-gas-station-shooting",
-          "imageUrl": null,
-          "imageAlt": "Glenwood Road gas station shooting scene",
-          "publishedAt": "2026-06-25",
-          "keywords": [
-            "shooting",
-            "glenwood road",
-            "gas station",
-            "dekalb county",
-            "east atlanta"
-          ],
-          "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/06/931/523/2fd14ca1-video-7.jpg?ve=1&tl=1"
         }
       ]
     }
@@ -423,7 +270,7 @@
     "Kirkwood": 16,
     "Reynoldstown": 13,
     "Peoplestown": 9,
-    "East Atlanta": 9,
+    "East Atlanta": 8,
     "Poncey-Highland": 8,
     "Mechanicsville": 8,
     "Little Five Points": 8,

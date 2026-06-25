@@ -251,26 +251,6 @@
           "originalImageUrl": "https://roughdraftatlanta.com/wp-content/uploads/2026/06/Tender-Greens-600x429.jpg"
         }
       ]
-    },
-    {
-      "category": "Crime & Safety",
-      "stories": [
-        {
-          "id": "glenwood-road-gas-station-shooting-june-2026",
-          "headline": "Man Hospitalized After Glenwood Road Gas Station Shooting",
-          "summary": "DeKalb County police are investigating after a man was shot Wednesday night, with few details released about the incident or a possible suspect.",
-          "body": "A man was hospitalized after being shot Wednesday night at a gas station on Glenwood Road in DeKalb County.\n\nAuthorities have released few details about the shooting. The victim was taken to a hospital for treatment, but officials have not disclosed the severity of his injuries.\n\nInvestigators have not determined what led to the shooting, and no information about a possible suspect has been released. The incident occurred in the <a href=\"https://atlantanewsandtalk.com/neighborhoods/east-atlanta\">East Atlanta</a> area near the DeKalb County line.\n\nGlenwood Road serves as a major corridor through southeast Atlanta and into DeKalb County. The commercial strip includes numerous gas stations and businesses.\n\nAnyone with information about the shooting is encouraged to contact DeKalb County Police.",
-          "neighborhood": "East Atlanta",
-          "neighborhoods": ["East Atlanta"],
-          "source": "Fox 5 Atlanta",
-          "sourceUrl": "https://www.fox5atlanta.com/news/man-hospitalized-after-glenwood-road-gas-station-shooting",
-          "imageUrl": null,
-          "imageAlt": "Glenwood Road gas station shooting scene",
-          "publishedAt": "2026-06-25",
-          "keywords": ["shooting", "glenwood road", "gas station", "dekalb county", "east atlanta"],
-          "originalImageUrl": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2026/06/931/523/2fd14ca1-video-7.jpg?ve=1&tl=1"
-        }
-      ]
     }
   ],
   "neighborhoods": {
@@ -290,7 +270,7 @@
     "Kirkwood": 16,
     "Reynoldstown": 13,
     "Peoplestown": 9,
-    "East Atlanta": 9,
+    "East Atlanta": 8,
     "Poncey-Highland": 8,
     "Mechanicsville": 8,
     "Little Five Points": 8,
